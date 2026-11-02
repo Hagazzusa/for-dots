@@ -1,0 +1,84 @@
+{
+  "blender": "4.3.2",
+  "resolution": 384,
+  "samples": 96,
+  "threads": 2,
+  "world_strength": 0,
+  "indirect_diffuse_bounces": 0,
+  "measurement_colorspace": "Linear Rec.709",
+  "threshold_definition": "u=(Ired/Ired_control-0.2)/0.8; width=x(u=.9)-x(u=.1), average 16 central scanlines",
+  "pixel_pitch": 0.010416666666666666,
+  "source_receiver_distance": 4.0,
+  "checks": {
+    "increases_with_gap": true,
+    "wider_emitter_is_softer": true
+  },
+  "cases": [
+    {
+      "case": "w0.3_gap0.5",
+      "emitter_width": 0.3,
+      "filter_receiver_gap": 0.5,
+      "x10": 0.6667339314221868,
+      "x90": 0.7033184180619569,
+      "measured_10_90_width": 0.0365844866397701,
+      "geometric_full_penumbra": 0.04285714285714286,
+      "uniform_emitter_10_90_approx": 0.03428571428571429,
+      "width_in_pixels": 3.5121107174179294
+    },
+    {
+      "case": "w0.3_gap1.0",
+      "emitter_width": 0.3,
+      "filter_receiver_gap": 1.0,
+      "x10": 0.7593538383591323,
+      "x90": 0.8402630083139281,
+      "measured_10_90_width": 0.0809091699547958,
+      "geometric_full_penumbra": 0.09999999999999999,
+      "uniform_emitter_10_90_approx": 0.08,
+      "width_in_pixels": 7.767280315660397
+    },
+    {
+      "case": "w0.3_gap1.5",
+      "emitter_width": 0.3,
+      "filter_receiver_gap": 1.5,
+      "x10": 0.8876926197813817,
+      "x90": 1.0308169332940782,
+      "measured_10_90_width": 0.1431243135126965,
+      "geometric_full_penumbra": 0.18,
+      "uniform_emitter_10_90_approx": 0.144,
+      "width_in_pixels": 13.739934097218864
+    },
+    {
+      "case": "w0.9_gap0.5",
+      "emitter_width": 0.9,
+      "filter_receiver_gap": 0.5,
+      "x10": 0.6334669274119661,
+      "x90": 0.7366803254834355,
+      "measured_10_90_width": 0.10321339807146945,
+      "geometric_full_penumbra": 0.1285714285714286,
+      "uniform_emitter_10_90_approx": 0.10285714285714287,
+      "width_in_pixels": 9.908486214861068
+    },
+    {
+      "case": "w0.9_gap1.0",
+      "emitter_width": 0.9,
+      "filter_receiver_gap": 1.0,
+      "x10": 0.6786521310545697,
+      "x90": 0.9172354310135513,
+      "measured_10_90_width": 0.23858329995898164,
+      "geometric_full_penumbra": 0.3,
+      "uniform_emitter_10_90_approx": 0.24,
+      "width_in_pixels": 22.903996796062238
+    },
+    {
+      "case": "w0.9_gap1.5",
+      "emitter_width": 0.9,
+      "filter_receiver_gap": 1.5,
+      "x10": 0.7395412919493035,
+      "x90": 1.1691427359873559,
+      "measured_10_90_width": 0.42960144403805234,
+      "geometric_full_penumbra": 0.54,
+      "uniform_emitter_10_90_approx": 0.43200000000000005,
+      "width_in_pixels": 41.24173862765303
+    }
+  ]
+}

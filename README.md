@@ -10,6 +10,7 @@ Source, editable scenes, and preview evidence are kept together so each project 
 | **Rain Clock mechanism studies** — geometric alternatives and measured limitations | [Study index](rain-clock/STUDY_INDEX.md) · [manual mechanism](rain-clock/mechanism/README.md) | FreeCAD for `.FCStd`; Blender for procedural previews. Each study documents its script and assumptions. |
 | **Garden of Light** — moving light through three colored filters | [Instructions](garden-of-light/README.md) · [still](garden-of-light/Garden-of-Light.png) · [loop](garden-of-light/Garden-of-Light-loop.mp4) | Blender **4.3+**; ffmpeg for video; Pillow, numpy and ffprobe for pixel/video QA. |
 | **When two filters overlap** — controlled scene-linear RGB experiment | [Results / reproduction](filter-overlap-study/README.md) · [comparison](filter-overlap-study/Filter-Overlap-Comparison.png) | Blender **4.3+** (bundled numpy); Python with Pillow for the contact sheet. Six linear EXRs retain measurement evidence. |
+| **Three heights, one light** — soft-shadow artwork and controlled penumbra study | [Study / reproduction](soft-shadow-study/README.md) · [artwork](soft-shadow-study/Three-Heights-One-Light.png) · [evidence](soft-shadow-study/Penumbra-Evidence.png) · [resolution check](soft-shadow-study/Resolution-Check.png) | Blender **4.3+** (bundled numpy); Python with matplotlib/numpy for figures. Ten linear EXRs retain measurements; two resolutions qualify precision, not establish convergence. |
 
 ## Scope and limits
 

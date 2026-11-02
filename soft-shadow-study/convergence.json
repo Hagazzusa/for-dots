@@ -1,0 +1,18 @@
+{
+  "scope": "One smallest-gap/smallest-emitter case with matching control, 2x spatial resolution only",
+  "resolution": 768,
+  "samples": 96,
+  "seed": 23,
+  "averaged_scanlines": 32,
+  "same_physical_scanline_span": true,
+  "x10": 0.6683531395249555,
+  "x90": 0.7030504334751212,
+  "width_768": 0.03469729395016574,
+  "width_384": 0.0365844866397701,
+  "width_768_in_pixels": 6.661880438431822,
+  "relative_difference_384_vs_768": 0.05439019804584331,
+  "uniform_source_approximation": 0.03428571428571429,
+  "relative_difference_768_vs_ideal_approximation": 0.012004406879834086,
+  "caveat": "A two-resolution comparison is not a formal converged limit or confidence interval; pixel filtering, sampling noise and angular emitter weighting remain.",
+  "original_matrix_preserved": true
+}

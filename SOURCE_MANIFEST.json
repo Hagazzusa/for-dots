@@ -14,8 +14,8 @@
     },
     {
       "path": "README.md",
-      "size": 4208,
-      "sha256": "56a99db85cf6801473b9014af6f49b807036ead4f40c780a498ab8828418725a"
+      "size": 4703,
+      "sha256": "4908ac7f2d39d071268ab2d6459514d6a04ab62aa48a48e45f35298e892c3c21"
     },
     {
       "path": "after-the-rain/ARCHITECTURE.md",
@@ -2476,6 +2476,181 @@
       "path": "rain-clock/verify.py",
       "size": 984,
       "sha256": "c97813b58abec48ad200577cd1ba720633c30675e5a953e22e0ba7d3caf476b2"
+    },
+    {
+      "path": "soft-shadow-study/.gitignore",
+      "size": 42,
+      "sha256": "6059b7077ed12a13f5d6d467d0927a2ce35de7c3409c3972e308f252caaca755"
+    },
+    {
+      "path": "soft-shadow-study/Penumbra-Evidence.png",
+      "size": 131909,
+      "sha256": "7d5cbea28dff7ae4af24d4e611b021abd8db8b22c9360e352695b4465e26ef0c"
+    },
+    {
+      "path": "soft-shadow-study/README.md",
+      "size": 7376,
+      "sha256": "51171cca0278547fbbf0999e4328f89e7e3637017bae9baec80096dcc9967d99"
+    },
+    {
+      "path": "soft-shadow-study/Resolution-Check.png",
+      "size": 80303,
+      "sha256": "8fc3d7197fa02b37f69590c23ab60db141d579e74dd84b5911ceb7c1476e1f12"
+    },
+    {
+      "path": "soft-shadow-study/Soft-Shadow-Measurement.blend",
+      "size": 449988,
+      "sha256": "327af1816a898a97d55ea673d0e3e73b246fc4af61130a3b6bf15dc80d240736"
+    },
+    {
+      "path": "soft-shadow-study/Three-Heights-One-Light.blend",
+      "size": 662276,
+      "sha256": "46adb64c873ba7696f9fcd39f965ed7e4a5fab175ef45bb9752a5a3b1c775d0c"
+    },
+    {
+      "path": "soft-shadow-study/Three-Heights-One-Light.png",
+      "size": 627332,
+      "sha256": "3048d52a324e2cc682c370eea2e5bd6137bd90a50d069a9999fa78c9a686e029"
+    },
+    {
+      "path": "soft-shadow-study/art.py",
+      "size": 5120,
+      "sha256": "30c5e0038df76d7fd91bad8bf823f0d3e51b651846e72a0d5e3f5f6016b3052b"
+    },
+    {
+      "path": "soft-shadow-study/control_w0.3.exr",
+      "size": 598388,
+      "sha256": "b3bd2c2f498afd0ad190726242d023aaa2a3732dea2afe4048372774715b3ac1"
+    },
+    {
+      "path": "soft-shadow-study/control_w0.3.png",
+      "size": 75602,
+      "sha256": "a66763e1479ca981f4109179d2607725cdb3875d7bf071d3da09d6a441d43e2d"
+    },
+    {
+      "path": "soft-shadow-study/control_w0.9.exr",
+      "size": 599969,
+      "sha256": "40758de50ed78b93920a67c57777d1f448e95c520a67026f18ddaa9485fb45dc"
+    },
+    {
+      "path": "soft-shadow-study/control_w0.9.png",
+      "size": 75402,
+      "sha256": "bc04afbbda5fd9df6776faba7b60536f8aea6a847dd37df41a28d34e30482c74"
+    },
+    {
+      "path": "soft-shadow-study/convergence.json",
+      "size": 789,
+      "sha256": "4cd7944a66c19435ae954c65c9a9a2bcf0bbe30667b1c350c35ee2ade2f6c43d"
+    },
+    {
+      "path": "soft-shadow-study/convergence.py",
+      "size": 3199,
+      "sha256": "95f7ef2cd30fc47cb15cfb7e59465e643d8b3c2e44353ce14ad7b3cb080a4061"
+    },
+    {
+      "path": "soft-shadow-study/convergence_768_control.exr",
+      "size": 2330887,
+      "sha256": "9a8bf86131c0b13cf4b4d9217ac0463af77d8dec11dedc9c99d0090ad059348c"
+    },
+    {
+      "path": "soft-shadow-study/convergence_768_filter.exr",
+      "size": 3022869,
+      "sha256": "022b89cceeef861e27cf0319a9b1dc76558cb6219c7c547c250dc0630358d4db"
+    },
+    {
+      "path": "soft-shadow-study/convergence_profile.csv",
+      "size": 38932,
+      "sha256": "063a8a95b0e9f4207e82f9075d2a1d87ff169f85bd08af3259b102e9f1bc6de5"
+    },
+    {
+      "path": "soft-shadow-study/edge_profiles.csv",
+      "size": 35258,
+      "sha256": "90814409842356057550bab8ea41264eaa1ac38eeacbc7288ee2034a115c2aa6"
+    },
+    {
+      "path": "soft-shadow-study/measure.py",
+      "size": 4898,
+      "sha256": "a942e6d9babbae13e63d63ad6a7ec084355a0a80dfbddbde00f70c6d9e053a6f"
+    },
+    {
+      "path": "soft-shadow-study/measurements.json",
+      "size": 2641,
+      "sha256": "a0d749db1f6d0eed7fe9c714492a795619fd9554dda6cba157ae3f3a7ebb4d72"
+    },
+    {
+      "path": "soft-shadow-study/metadata_provenance.json",
+      "size": 1351,
+      "sha256": "14e1f7eac37f0d5f6f689353e10b1bed5b1b78b42044ef91af07b4753239971e"
+    },
+    {
+      "path": "soft-shadow-study/plot.py",
+      "size": 2050,
+      "sha256": "2137756609e24e779d2a5b1f9322391daa3ccef631f753b2efae5417af46fa49"
+    },
+    {
+      "path": "soft-shadow-study/plot_convergence.py",
+      "size": 1255,
+      "sha256": "c1b1fc1a72f5b2720181a8e97b2d857c7e68d8e9fe3371cccf2b779cceb206c2"
+    },
+    {
+      "path": "soft-shadow-study/w0.3_gap0.5.exr",
+      "size": 784347,
+      "sha256": "d2d5a67a08222d6fb65cd940f7f6fbe32105aa6e91ab052e643b8aa845a3d7d1"
+    },
+    {
+      "path": "soft-shadow-study/w0.3_gap0.5.png",
+      "size": 93510,
+      "sha256": "b1da9cf56899d0d933e1b55658e9f3b7c5077d606abcf26492389a6779bf7a9a"
+    },
+    {
+      "path": "soft-shadow-study/w0.3_gap1.0.exr",
+      "size": 864799,
+      "sha256": "9a410cd4f68d0e7d1943550af0a7d6f313e9f2f50ae93bd462db745d3576e208"
+    },
+    {
+      "path": "soft-shadow-study/w0.3_gap1.0.png",
+      "size": 101725,
+      "sha256": "67bca964e4ba100be1fb8bab413a9f0ccd48af3be59a86022482c74a560e0ae2"
+    },
+    {
+      "path": "soft-shadow-study/w0.3_gap1.5.exr",
+      "size": 1001014,
+      "sha256": "300e31e0ba9911d66f37098304553032395780b589348dc03b0f766661b0fb02"
+    },
+    {
+      "path": "soft-shadow-study/w0.3_gap1.5.png",
+      "size": 113908,
+      "sha256": "f45877e3cdc44f768a5cf96cc50dc1c8c6f3dd15d75c9e7930b3f6be604b06c6"
+    },
+    {
+      "path": "soft-shadow-study/w0.9_gap0.5.exr",
+      "size": 805405,
+      "sha256": "0a585f52e990b742fec2716273db4738a10b5059cd2b505126c17d2140f5b753"
+    },
+    {
+      "path": "soft-shadow-study/w0.9_gap0.5.png",
+      "size": 97286,
+      "sha256": "a91c6f1844f736d1dfca9715245c82648d392ddf57acdf7e435241f7ab44fbd3"
+    },
+    {
+      "path": "soft-shadow-study/w0.9_gap1.0.exr",
+      "size": 922202,
+      "sha256": "24ee7a42de0841273107ef16d70a04b9cce3aed1d785e3c0ac8e8ccc755af010"
+    },
+    {
+      "path": "soft-shadow-study/w0.9_gap1.0.png",
+      "size": 109581,
+      "sha256": "1de8872368154fa0e0c0278cc59db3be1cf83e6dd9813725890413ee2185fbb9"
+    },
+    {
+      "path": "soft-shadow-study/w0.9_gap1.5.exr",
+      "size": 1125200,
+      "sha256": "397c2c0be0e9f1ea6f518a2536fe6c1909b813120d231a9133ecbad0324df1af"
+    },
+    {
+      "path": "soft-shadow-study/w0.9_gap1.5.png",
+      "size": 128753,
+      "sha256": "6af8c67b3be2f6ed3e4af561857f669bfa9c934791017bc1706f99b378f77970"
     },
     {
       "path": "verify_sources.py",

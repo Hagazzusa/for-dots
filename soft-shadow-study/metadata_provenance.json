@@ -1,0 +1,26 @@
+{
+  "purpose": "Publication copies omit machine-local path metadata without changing measurements.",
+  "exr_files": [
+    {
+      "file": "convergence_768_control.exr",
+      "only_header_attribute_changed": "File",
+      "length_preserved": true,
+      "offset_tables_and_compressed_pixel_payload_identical": true,
+      "payload_sha256": "8dfc1780d488eb82e508a27732a7ae442a5e37bd5f21d667ae4a59585b3a968d",
+      "original_sha256": "f540abaea810cec1e8a5c3708293323de223a6afc1adb64e46ebce88c8b6c14f",
+      "publication_sha256": "9a8bf86131c0b13cf4b4d9217ac0463af77d8dec11dedc9c99d0090ad059348c"
+    },
+    {
+      "file": "convergence_768_filter.exr",
+      "only_header_attribute_changed": "File",
+      "length_preserved": true,
+      "offset_tables_and_compressed_pixel_payload_identical": true,
+      "payload_sha256": "1b139b082039b3b2a98cb5722cb2ce80d2e4beae8fc9bbe469e362c59c970cea",
+      "original_sha256": "e5d4cb020252888416b62afddfbe21e639681e3f3356f0eb72af29b1b13f3d53",
+      "publication_sha256": "022b89cceeef861e27cf0319a9b1dc76558cb6219c7c547c250dc0630358d4db"
+    }
+  ],
+  "other_exrs": "Eight original full-matrix EXRs are byte-identical.",
+  "pngs": "Text metadata removed; decoded pixels identical.",
+  "blends": "Only saved file-browser paths normalized to relative paths; no geometry, materials or render settings changed."
+}
