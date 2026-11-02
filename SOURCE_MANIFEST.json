@@ -99,8 +99,8 @@
     },
     {
       "path": "after-the-rain/README.md",
-      "size": 4246,
-      "sha256": "73b97e88e7364e4350dad59a218bba1ea31d5f7bec0d561a8b566033d9b31aff"
+      "size": 4478,
+      "sha256": "1342e4c9f752980a06faa23d18a8288dd1d6d4edebb672e5d571223dfa584f8c"
     },
     {
       "path": "after-the-rain/RECOVERY.md",
@@ -1041,6 +1041,16 @@
       "path": "after-the-rain/main.tscn",
       "size": 3006,
       "sha256": "062fbce5110ceca40402888b58ac26d10f61edc192cbda2a63144f5544c01679"
+    },
+    {
+      "path": "after-the-rain/narrative/CONTINUITY_CHECKLIST.md",
+      "size": 3191,
+      "sha256": "a553acb092574e7b8a9f370cac5db2428bc2415442f2338e62a6f1fb7834f56a"
+    },
+    {
+      "path": "after-the-rain/narrative/WORLD_BIBLE.md",
+      "size": 7913,
+      "sha256": "6e366556d86402ee6626a50927d31b46ed726a08999338ee56b4a7f9b894e2ac"
     },
     {
       "path": "after-the-rain/project.godot",

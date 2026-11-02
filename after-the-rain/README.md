@@ -27,6 +27,8 @@ The same walkable street now includes a warm glass refuge and a stationary compa
 
 These visits never gate the bus, umbrella, cocoa or ending. Missing a bus simply leaves another one to arrive. The refuge is a walk-in dry spot: face its bench and press E to sit, F to sip cocoa, or T to wait quietly. E stands beside the same bench; it never returns you to the bus stop. While a reader is open, E advances/closes the text and Q closes it without standing. See [scope and verification](WORLD_EXPANSION.md).
 
+The [fictional world bible](narrative/WORLD_BIBLE.md) separates author background from implemented clues. The [continuity checklist](narrative/CONTINUITY_CHECKLIST.md) records interaction and story invariants for future revisions.
+
 ## Editable source and third-party assets
 Saved scenes, scripts, configurations, procedural audio source and packed Blender assemblies are included. See `ARCHITECTURE.md`. City derivatives use Poly Haven CC0 data; provenance/legal text is in `assets/city/licenses/`. The Noto CJK font license is in `assets/fonts/NotoSansCJK-LICENSE.txt`. No external copyrighted music samples are used.
 
