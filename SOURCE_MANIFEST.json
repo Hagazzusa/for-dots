@@ -104,8 +104,8 @@
     },
     {
       "path": "after-the-rain/README.md",
-      "size": 5518,
-      "sha256": "113abff16206d0753a0140a8ef00cc11d2512a6ef11d13a0b2f2b6b8c424ff1d"
+      "size": 5757,
+      "sha256": "0f8757aef40ccca607ddb27bbfc1f9b8e38c2e6b053fa37c59e80d7dab1594f9"
     },
     {
       "path": "after-the-rain/RECOVERY.md",
@@ -1028,6 +1028,11 @@
       "sha256": "2ab5696f8eb97293f1c66f1bbd1f303f2f9fa64e9837cf486874c106273d0a2d"
     },
     {
+      "path": "after-the-rain/docs/AUDIO_SHUTDOWN.md",
+      "size": 6056,
+      "sha256": "73423ac0890e8ad51b1644edebbbcc6bafb6d58ab0a6bb32b1d9a84f2252579a"
+    },
+    {
       "path": "after-the-rain/liquid_cup.gd",
       "size": 4559,
       "sha256": "1ad5f35d9e5c48a6f106acec79486ae7bcf7c33b5b71a246a9dfa23d84001337"
@@ -1044,8 +1049,8 @@
     },
     {
       "path": "after-the-rain/main.tscn",
-      "size": 3006,
-      "sha256": "062fbce5110ceca40402888b58ac26d10f61edc192cbda2a63144f5544c01679"
+      "size": 3186,
+      "sha256": "a0ad6a15ae40529baa39cac3fcf72f0d7c0d758f3e1ad3b030bd2ef8d9034851"
     },
     {
       "path": "after-the-rain/narrative/CONTINUITY_CHECKLIST.md",
@@ -1299,13 +1304,23 @@
     },
     {
       "path": "after-the-rain/scripts/ambience.gd",
-      "size": 3913,
-      "sha256": "80fbdb4efb2172a187b87a52ef37adc21acf4d871a11e2375c9533492f4f5c9f"
+      "size": 4439,
+      "sha256": "1aa7824c74cb3a45302c3b8d6d49b217c432d0ca262a705f34f755d911e128eb"
     },
     {
       "path": "after-the-rain/scripts/ambience.gd.uid",
       "size": 20,
       "sha256": "dcdc5efd45f098b44ab5727ccac45c7e8a1df5df664ec5d54e23a5327bac6a29"
+    },
+    {
+      "path": "after-the-rain/scripts/app_shutdown.gd",
+      "size": 2282,
+      "sha256": "3677a5e742a1f631a09cf203e3ad14a6780a2f85efb6f3e67b8adab93615b022"
+    },
+    {
+      "path": "after-the-rain/scripts/app_shutdown.gd.uid",
+      "size": 20,
+      "sha256": "ffe7445de8d6b1215c2552f0b833d674c35e36d423e38afc43fcc6216fe3987b"
     },
     {
       "path": "after-the-rain/scripts/arrival_display.gd",
@@ -1316,6 +1331,16 @@
       "path": "after-the-rain/scripts/arrival_display.gd.uid",
       "size": 20,
       "sha256": "16c2ad264e6d17813786ae4775c27c819f10536e763b94da56c6e2d60011c670"
+    },
+    {
+      "path": "after-the-rain/scripts/audio_release.gd",
+      "size": 483,
+      "sha256": "6d9fde52694f90e4390d52f6525a3798967a1f2868b705e118cddcff13d97d24"
+    },
+    {
+      "path": "after-the-rain/scripts/audio_release.gd.uid",
+      "size": 20,
+      "sha256": "51cb14b3ce2918755d3278358cc2206bfabf8539f4e25cbdc672e7299eaff3ec"
     },
     {
       "path": "after-the-rain/scripts/bus_visual.gd",
@@ -1429,8 +1454,8 @@
     },
     {
       "path": "after-the-rain/scripts/neighborhood_extension.gd",
-      "size": 3612,
-      "sha256": "aecbd7d6f97ce063b5889ef5a32860b986602fd885f7271aa4a4c64aab93f6fc"
+      "size": 3891,
+      "sha256": "14607408118597bd6258109220242e275be2a4590f3908c926ef8a80a683eebb"
     },
     {
       "path": "after-the-rain/scripts/neighborhood_extension.gd.uid",
@@ -1539,8 +1564,8 @@
     },
     {
       "path": "after-the-rain/scripts/session.gd",
-      "size": 12931,
-      "sha256": "71c6ee8abf8022c6ca2535122d3f5e0212e08111a9cb20955872d1109f98107f"
+      "size": 13508,
+      "sha256": "36dc813384fc5dc15a20a271af841f6e9b80c27db8c144efa9cd1cc9f4919688"
     },
     {
       "path": "after-the-rain/scripts/session.gd.uid",
@@ -1569,8 +1594,8 @@
     },
     {
       "path": "after-the-rain/scripts/story_radio.gd",
-      "size": 1811,
-      "sha256": "9ae2be4b2d9b131eff8dd84754de9b7b458b7112e1e34696c2b994bc361426ad"
+      "size": 2096,
+      "sha256": "2d4de1f7f839f3f9ab9ed8c8649e9f22cfd12de288a3fa3f5edd69ce71a032dd"
     },
     {
       "path": "after-the-rain/scripts/story_radio.gd.uid",
@@ -1646,6 +1671,16 @@
       "path": "after-the-rain/shaders/window_life.gdshader.uid",
       "size": 20,
       "sha256": "c700d96ae50b4f457364bda8f1ecbdfd4fe2adfcf73251b8044225a69b988cda"
+    },
+    {
+      "path": "after-the-rain/tests/app_shutdown.gd",
+      "size": 4418,
+      "sha256": "be60e6daca9696197cc75755dc9d7b4fb014ed3b625dc465ad264b0347a7babc"
+    },
+    {
+      "path": "after-the-rain/tests/app_shutdown.gd.uid",
+      "size": 20,
+      "sha256": "973f15fbefc6f8a3714d9811db4ae521ab507b4388068e444000e4f764cafc36"
     },
     {
       "path": "after-the-rain/tests/audio_rain_isolation.gd",
@@ -2181,6 +2216,11 @@
       "path": "after-the-rain/tools/baseline_session.gd",
       "size": 4846,
       "sha256": "be7e4cb89add13a29049a2119e4e5ca2cdfd2e45a287954a883b7002fb261f02"
+    },
+    {
+      "path": "after-the-rain/tools/diagnostics/audio_lifetime_probe.gd",
+      "size": 2085,
+      "sha256": "592b8799e4005b5c5a4ace000264d8f90d21561ff670a64db368946d9ceede43"
     },
     {
       "path": "after-the-rain/tools/export-audit.py",

@@ -3,6 +3,8 @@ extends Node3D
 ## Captions read the audio player, never the evening/world clock. No speech.
 @export_range(-60.0, -6.0, 0.5) var listening_volume_db := -23.0
 @onready var player: AudioStreamPlayer3D = $Player
+var shutting_down := false
+const AudioRelease = preload("res://scripts/audio_release.gd")
 var is_on := false
 var muted := false
 const PHRASE_SECONDS := 16.0
@@ -24,6 +26,7 @@ func _ready() -> void:
 	reset()
 
 func toggle() -> void:
+	if shutting_down:return
 	is_on = not is_on
 	if is_on:
 		player.play()
@@ -31,6 +34,7 @@ func toggle() -> void:
 		player.stop()
 
 func reset() -> void:
+	if shutting_down:return
 	is_on = false
 	muted = false
 	player.stop()
@@ -54,3 +58,10 @@ func caption() -> String:
 func _exit_tree() -> void:
 	if is_instance_valid(player):
 		player.stop()
+
+
+func begin_shutdown() -> Array[WeakRef]:
+	if shutting_down:return []
+	shutting_down=true
+	is_on=false
+	return AudioRelease.stop_player(player)

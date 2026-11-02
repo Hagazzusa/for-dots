@@ -14,6 +14,8 @@ extends Node
 @onready var canopy_player: AudioStreamPlayer = $CanopyPlayer
 @onready var wet_footsteps: AudioStreamPlayer = $WetFootsteps
 @onready var roof_footsteps: AudioStreamPlayer = $RoofFootsteps
+var shutting_down := false
+const AudioRelease = preload("res://scripts/audio_release.gd")
 var _step_time := 0.0
 var weather_lull := 0.0
 
@@ -39,11 +41,13 @@ func _ready() -> void:
 		push_warning("Ambience expects the project's default_bus_layout.tres (ShelterRain). No runtime buses were created.")
 
 func start() -> void:
+	if shutting_down:return
 	rain_player.play()
 	engine_player.play()
 	canopy_player.play()
 
 func advance(delta: float, sheltered: bool, boarded: bool, bus_phase: String, umbrella_open: bool = false) -> void:
+	if shutting_down:return
 	var weight := clampf(delta*smoothing_speed,0.0,1.0)
 	var canopy_active := umbrella_open and not sheltered and not boarded
 	var cutoff := shelter_cutoff_hz if sheltered or boarded else (umbrella_cutoff_hz if canopy_active else outside_cutoff_hz)
@@ -58,6 +62,7 @@ func advance(delta: float, sheltered: bool, boarded: bool, bus_phase: String, um
 
 ## Session calls this only for actual walking; no automatic process/input dependency.
 func footsteps(delta: float, moving: bool, sheltered: bool) -> void:
+	if shutting_down:return
 	_step_time = maxf(0.0,_step_time-maxf(delta,0.0))
 	if not moving or _step_time > 0.0:
 		return
@@ -66,6 +71,7 @@ func footsteps(delta: float, moving: bool, sheltered: bool) -> void:
 
 ## Restart mix/timers without changing Master mute or allocating new players/buses.
 func reset() -> void:
+	if shutting_down:return
 	weather_lull = 0.0
 	_step_time = 0.0
 	wet_footsteps.stop()
@@ -78,19 +84,25 @@ func reset() -> void:
 		rain_filter.cutoff_hz = outside_cutoff_hz
 
 func play_chime() -> void:
+	if shutting_down:return
 	chime_player.play()
 
 func toggle_mute() -> void:
 	AudioServer.set_bus_mute(0,not AudioServer.is_bus_mute(0))
 
 func stop_all() -> void:
-	rain_player.stop()
-	engine_player.stop()
-	chime_player.stop()
-	canopy_player.stop()
-	wet_footsteps.stop()
-	roof_footsteps.stop()
+	for player in [rain_player,engine_player,chime_player,canopy_player,wet_footsteps,roof_footsteps]:
+		if is_instance_valid(player):player.stop()
 	_step_time = 0.0
 
 func _exit_tree() -> void:
 	stop_all()
+
+
+func begin_shutdown() -> Array[WeakRef]:
+	if shutting_down:return []
+	shutting_down=true
+	var pending: Array[WeakRef]=[]
+	for player in [rain_player,engine_player,chime_player,canopy_player,wet_footsteps,roof_footsteps]:
+		pending.append_array(AudioRelease.stop_player(player))
+	return pending

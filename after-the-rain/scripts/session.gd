@@ -4,6 +4,7 @@ extends Node3D
 @export var boarding_radius := 1.7
 @export var vending_radius := 1.8
 @export var disposal_radius := 1.6
+@onready var app_shutdown = $AppShutdown
 @onready var neighborhood = $NeighborhoodExtension
 @onready var window_life = $WindowLife
 @onready var rain_details = $RainDetails
@@ -39,6 +40,7 @@ var testing := false
 var ride_note := ""
 
 func _ready():
+	app_shutdown.initialize(self,_prepare_app_shutdown)
 	testing = "--test" in OS.get_cmdline_user_args() and ResourceLoader.exists("res://tests/regression.gd")
 	pause_overlay.restart_requested.connect(restart)
 	pause_overlay.mute_requested.connect(ambience.toggle_mute)
@@ -172,6 +174,7 @@ func board_bus():
 	player.set_motion_enabled(false)
 	Input.mouse_mode=Input.MOUSE_MODE_VISIBLE
 func restart():
+	if app_shutdown.requested:return
 	time=0.0
 	pause_overlay.reset()
 	leave_photo_view()
@@ -311,3 +314,15 @@ func run_tests():
 		if audio is AudioStreamPlayer:audio.stream=null
 	await get_tree().create_timer(.5).timeout
 	get_tree().quit()
+
+
+func _prepare_app_shutdown() -> Array[WeakRef]:
+	# Terminal transition only; normal restart/pause never enter this path.
+	player.input_enabled=false
+	pause_overlay.process_mode=Node.PROCESS_MODE_DISABLED
+	process_mode=Node.PROCESS_MODE_DISABLED
+	var pending: Array[WeakRef]=[]
+	pending.append_array(ambience.begin_shutdown())
+	pending.append_array(story.radio.begin_shutdown())
+	pending.append_array(neighborhood.begin_shutdown())
+	return pending

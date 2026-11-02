@@ -8,6 +8,8 @@ extends Node3D
 @onready var heater: AudioStreamPlayer3D = $ParkedCar/Heater
 var panel: CanvasLayer
 var elapsed := 0.0
+var shutting_down := false
+const AudioRelease = preload("res://scripts/audio_release.gd")
 var enabled := true
 var car_text = preload("res://config/story_car.tres")
 var refuge_text = preload("res://config/story_refuge.tres")
@@ -57,7 +59,7 @@ func try_interact(camera:Camera3D,viewer:Vector3)->bool:
  panel.open_story(car_text if id=="Car" else refuge_text)
  return true
 func advance(delta:float)->void:
- if not enabled or not is_finite(delta):return
+ if shutting_down or not enabled or not is_finite(delta):return
  if heater.stream and not heater.playing:heater.play()
  elapsed+=maxf(delta,0.0)
  # Tiny seated breathing, not conversation, driving or a new occupant.
@@ -67,6 +69,7 @@ func set_active(value:bool)->void:
  enabled=value
  if not value:heater.stop()
 func reset()->void:
+ if shutting_down:return
  elapsed=0.0
  enabled=true
  $ParkedCar/Driver.position.y=0
@@ -92,3 +95,10 @@ func can_sit(camera:Camera3D,viewer:Vector3)->bool:
  if local_view.z < -0.55 or absf(local_view.x)>1.3:return false
  var point:Vector3=$GlassRefuge/RestSeat/Interaction.global_position
  return viewer.distance_to(point)<seat_radius and (-camera.global_basis.z).dot((point-camera.global_position).normalized())>seat_facing_threshold
+
+
+func begin_shutdown() -> Array[WeakRef]:
+ if shutting_down:return []
+ shutting_down=true
+ enabled=false
+ return AudioRelease.stop_player(heater)
