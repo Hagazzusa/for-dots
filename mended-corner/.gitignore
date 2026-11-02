@@ -1,0 +1,8 @@
+work/
+__pycache__/
+*.blend1
+Mended_Corner_Draft.blend
+draft_checks.json
+draft_audit.json
+renders/draft.png
+renders/detail_preview.png

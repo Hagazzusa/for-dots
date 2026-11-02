@@ -1,0 +1,74 @@
+{
+  "schema_version": 1,
+  "artwork": "Mended Corner · 수선이 남긴 자리",
+  "frozen_at_utc": "2026-11-02T12:21:57.891368+00:00",
+  "all_blender_audit_assertions_pass": true,
+  "files": [
+    {
+      "path": ".gitignore",
+      "bytes": 134,
+      "sha256": "f52dc7b1a3284f0a51a8347883ae72d890c997fce1081d7750f7335fa44de4cf"
+    },
+    {
+      "path": "README.md",
+      "bytes": 7963,
+      "sha256": "e516c9a5b6ca94846d80e1c3b24e87cdcecc0507c8725a05c0033f7fec2a5a8d"
+    },
+    {
+      "path": "build.py",
+      "bytes": 31119,
+      "sha256": "dd12fdf55e9aae0c3953e07f49db2678b63bf74b3b1bf7f42e82c7fcb9fd1d4b"
+    },
+    {
+      "path": "audit.py",
+      "bytes": 6801,
+      "sha256": "21b6058e7ad298f5c36d72fd7f0e1aff063e07a7f1d416bf130b2f4fbbac969b"
+    },
+    {
+      "path": "verify_bundle.py",
+      "bytes": 1551,
+      "sha256": "3294a75a7325f2f605c7c35a4fc0f18fbd6f69698595b34309dc9f6cb3ce54e0"
+    },
+    {
+      "path": "Mended_Corner.blend",
+      "bytes": 3167410,
+      "sha256": "de367c778655bdbe30556ca36572fe4fb0d0e889bb72d84793676cccf50a363b"
+    },
+    {
+      "path": "checks.json",
+      "bytes": 1117,
+      "sha256": "857c5d59350726747fcabe9718b92fe3bea701fae013ad01dcb441ce3a5a0daf"
+    },
+    {
+      "path": "geometry_audit.json",
+      "bytes": 56501,
+      "sha256": "b622094ade05c36977063c584485beb6697bcdade02ddf474cc8f431f5918aca"
+    },
+    {
+      "path": "provenance.json",
+      "bytes": 3968,
+      "sha256": "6e10689c318901b71f8bc8e0191627ce59a18548fcc103cb74ef240116d312e6"
+    },
+    {
+      "path": "reference/concept_prompt.txt",
+      "bytes": 1424,
+      "sha256": "5142a0aa7dd60b9d7163e522bfc5a4419269776995a552bd025f2c2d7b4c1593"
+    },
+    {
+      "path": "reference/gpt_image_concept.png",
+      "bytes": 2481213,
+      "sha256": "c0e554d5b61a643142b5ef8cfb05e3857402c1a6f99904c69afb81ce87ec4f10"
+    },
+    {
+      "path": "renders/01_blockout.png",
+      "bytes": 462707,
+      "sha256": "a5a580444d52afb29fbcdf981efcd1bf49f6f44eb14a63143b25be7f2b0f18b8"
+    },
+    {
+      "path": "renders/mended_corner_final.png",
+      "bytes": 1470954,
+      "sha256": "aa8b5ea95b3a63698febbb04c9068af171da4cce04280ad0b7448224c404b7ff"
+    }
+  ],
+  "note": "이 매니페스트는 자신을 해시하지 않습니다. 공개 목록에 없는 초안·캐시·임시 파일은 포함하지 않습니다. 렌더 메타데이터 사본의 원본·현재 해시는 provenance.json에 구분합니다."
+}

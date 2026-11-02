@@ -7,6 +7,7 @@
 
 | 프로젝트 | 시작 안내 | 실행 환경 |
 |---|---|---|
+| **Mended Corner · 수선이 남긴 자리** — 고친 벤치 끝의 조용한 정물 | [작품·제작 소스](mended-corner/README.md) · [실제 렌더](mended-corner/renders/mended_corner_final.png) · [생성 콘셉트](mended-corner/reference/gpt_image_concept.png) | Blender **4.3.2**, Python 표준 라이브러리. 절차적 재질과 모델로 만든 실제 Cycles 렌더이며 실물 수선·전기 안전 검증이 아닙니다. |
 | **After the Rain** — 조용한 버스 정류장, 따뜻한 코코아, 유리 쉼터와 선택적인 동네 만남 | [게임 안내](after-the-rain/README.md) · [재구성 현황](after-the-rain/RECOVERY.md) | Godot **4.6.x Standard**. `after-the-rain/project.godot`을 열고 F5를 누릅니다. 플레이에 Blender는 필요하지 않습니다. |
 | **Rain Clock** — 가상 키네틱 조각 | [소스·렌더 안내](rain-clock/README.md) · [정지 이미지](rain-clock/rain_clock_still.png) · [반복 영상](rain-clock/rain_clock_loop.mp4) | Blender **4.3.2**. 다시 생성한 프레임을 인코딩하려면 ffmpeg가 필요합니다. |
 | **Rain Clock 기구 실험** — 기하학적 대안과 측정된 한계 | [실험 목록](rain-clock/STUDY_INDEX.md) · [수동 기구](rain-clock/mechanism/README.md) | `.FCStd`에는 FreeCAD, 절차적 미리보기에는 Blender가 필요합니다. 각 실험에 스크립트와 가정을 기록했습니다. |

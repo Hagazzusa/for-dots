@@ -1,0 +1,2079 @@
+{
+  "inspected_file": "Mended_Corner.blend",
+  "blender_version": "4.3.2",
+  "mesh_objects": 224,
+  "curve_objects": 471,
+  "collections": 9,
+  "evaluated_mesh_vertices": 69412,
+  "finite_coordinates": true,
+  "zero_area_faces": 0,
+  "non_manifold_meshes": [],
+  "negative_volume_closed_meshes": [],
+  "contact_measurements_m": {
+    "plane_lowest_point_minus_seat_top": 9.536743172944284e-09,
+    "pencil_lowest_point_minus_seat_top": 9.536743172944284e-09,
+    "throw_lowest_evaluated_point_over_seat_minus_seat_top": 0.00012333154678345615,
+    "repair_top_minus_seat_top": 9.536743172944284e-09,
+    "bearer_top_minus_seat_underside": 2.3841856267026174e-10
+  },
+  "reference_sha256": "c0e554d5b61a643142b5ef8cfb05e3857402c1a6f99904c69afb81ce87ec4f10",
+  "packed_reference_matches_original": true,
+  "image_texture_nodes": [],
+  "absolute_image_paths": [],
+  "linked_external_libraries": [],
+  "render": {
+    "engine": "CYCLES",
+    "device": "CPU",
+    "threads": 2,
+    "resolution": [
+      1200,
+      800
+    ],
+    "resolution_percentage": 100,
+    "samples": 128,
+    "denoising": false,
+    "path": "//renders/mended_corner_final.png"
+  },
+  "checks": {
+    "all_mesh_coordinates_finite": true,
+    "no_zero_area_mesh_faces": true,
+    "all_evaluated_meshes_closed": true,
+    "closed_mesh_winding_outward": true,
+    "plane_contacts_seat": true,
+    "pencil_contacts_seat": true,
+    "throw_has_near_contact_with_seat": true,
+    "repair_top_flush": true,
+    "bearers_touch_seat_underside": true,
+    "reference_packed_byte_identical": true,
+    "no_reference_projection_or_external_textures": true,
+    "relative_render_and_image_paths": true,
+    "no_linked_external_libraries": true,
+    "cpu_at_most_two_threads": true
+  },
+  "limitations": [
+    "Tests inspect meshes after modifiers, not structural strength or safe construction.",
+    "Contact tests use selected surface extrema; they do not certify every pairwise intersection or a physical cloth solution.",
+    "Plane components and bench joinery have intentional hidden overlaps.",
+    "Curves are renderable decorative yarn, rain and lamp wires; only mesh topology is audited.",
+    "Glazing shadow visibility and area-light ray visibility are artistic noise-control approximations."
+  ],
+  "meshes": [
+    {
+      "name": "Seat slat 2 | old wood",
+      "vertices": 96,
+      "faces": 98,
+      "finite_coordinates": true,
+      "non_manifold_edges": 0,
+      "zero_area_faces": 0,
+      "signed_local_volume": 0.014406845757804838
+    },
+    {
+      "name": "Seat slat 3 | old wood",
+      "vertices": 96,
+      "faces": 98,
+      "finite_coordinates": true,
+      "non_manifold_edges": 0,
+      "zero_area_faces": 0,
+      "signed_local_volume": 0.014406845757804838
+    },
+    {
+      "name": "Front seat slat | original lower wood",
+      "vertices": 96,
+      "faces": 98,
+      "finite_coordinates": true,
+      "non_manifold_edges": 0,
+      "zero_area_faces": 0,
+      "signed_local_volume": 0.008475835773110875
+    },
+    {
+      "name": "Front seat slat | old left lip",
+      "vertices": 112,
+      "faces": 106,
+      "finite_coordinates": true,
+      "non_manifold_edges": 0,
+      "zero_area_faces": 0,
+      "signed_local_volume": 0.002546374788928871
+    },
+    {
+      "name": "Front seat slat | old right lip",
+      "vertices": 112,
+      "faces": 106,
+      "finite_coordinates": true,
+      "non_manifold_edges": 0,
+      "zero_area_faces": 0,
+      "signed_local_volume": 0.002712922293181321
+    },
+    {
+      "name": "Quiet fitted repair | shallow pale splice",
+      "vertices": 168,
+      "faces": 158,
+      "finite_coordinates": true,
+      "non_manifold_edges": 0,
+      "zero_area_faces": 0,
+      "signed_local_volume": 0.0006885361715568615
+    },
+    {
+      "name": "Repair | small flush wood peg",
+      "vertices": 96,
+      "faces": 82,
+      "finite_coordinates": true,
+      "non_manifold_edges": 0,
+      "zero_area_faces": 0,
+      "signed_local_volume": 1.7228667328990152e-07
+    },
+    {
+      "name": "Repair | small flush wood peg.001",
+      "vertices": 96,
+      "faces": 82,
+      "finite_coordinates": true,
+      "non_manifold_edges": 0,
+      "zero_area_faces": 0,
+      "signed_local_volume": 1.7228667328990152e-07
+    },
+    {
+      "name": "Bench apron | rounded front rail",
+      "vertices": 96,
+      "faces": 98,
+      "finite_coordinates": true,
+      "non_manifold_edges": 0,
+      "zero_area_faces": 0,
+      "signed_local_volume": 0.008356455345311875
+    },
+    {
+      "name": "Bench apron | rear rail",
+      "vertices": 96,
+      "faces": 98,
+      "finite_coordinates": true,
+      "non_manifold_edges": 0,
+      "zero_area_faces": 0,
+      "signed_local_volume": 0.008394327707334894
+    },
+    {
+      "name": "Bench leg | reused household timber",
+      "vertices": 96,
+      "faces": 98,
+      "finite_coordinates": true,
+      "non_manifold_edges": 0,
+      "zero_area_faces": 0,
+      "signed_local_volume": 0.0020020332086254505
+    },
+    {
+      "name": "Bench leg | reused household timber.001",
+      "vertices": 96,
+      "faces": 98,
+      "finite_coordinates": true,
+      "non_manifold_edges": 0,
+      "zero_area_faces": 0,
+      "signed_local_volume": 0.0020020332086254505
+    },
+    {
+      "name": "Bench under-seat bearer",
+      "vertices": 96,
+      "faces": 98,
+      "finite_coordinates": true,
+      "non_manifold_edges": 0,
+      "zero_area_faces": 0,
+      "signed_local_volume": 0.001988740879318561
+    },
+    {
+      "name": "Bench side stretcher",
+      "vertices": 96,
+      "faces": 98,
+      "finite_coordinates": true,
+      "non_manifold_edges": 0,
+      "zero_area_faces": 0,
+      "signed_local_volume": 0.0009159378500255353
+    },
+    {
+      "name": "Bench leg | reused household timber.002",
+      "vertices": 96,
+      "faces": 98,
+      "finite_coordinates": true,
+      "non_manifold_edges": 0,
+      "zero_area_faces": 0,
+      "signed_local_volume": 0.0020020332086254505
+    },
+    {
+      "name": "Bench leg | reused household timber.003",
+      "vertices": 96,
+      "faces": 98,
+      "finite_coordinates": true,
+      "non_manifold_edges": 0,
+      "zero_area_faces": 0,
+      "signed_local_volume": 0.0020020332086254505
+    },
+    {
+      "name": "Bench under-seat bearer.001",
+      "vertices": 96,
+      "faces": 98,
+      "finite_coordinates": true,
+      "non_manifold_edges": 0,
+      "zero_area_faces": 0,
+      "signed_local_volume": 0.001988740879318561
+    },
+    {
+      "name": "Bench side stretcher.001",
+      "vertices": 96,
+      "faces": 98,
+      "finite_coordinates": true,
+      "non_manifold_edges": 0,
+      "zero_area_faces": 0,
+      "signed_local_volume": 0.0009159378500255353
+    },
+    {
+      "name": "Bench long stretcher",
+      "vertices": 96,
+      "faces": 98,
+      "finite_coordinates": true,
+      "non_manifold_edges": 0,
+      "zero_area_faces": 0,
+      "signed_local_volume": 0.004114088104844172
+    },
+    {
+      "name": "Old countersunk fixing | top",
+      "vertices": 72,
+      "faces": 62,
+      "finite_coordinates": true,
+      "non_manifold_edges": 0,
+      "zero_area_faces": 0,
+      "signed_local_volume": 2.3323555334766778e-08
+    },
+    {
+      "name": "Old countersunk fixing | top.001",
+      "vertices": 72,
+      "faces": 62,
+      "finite_coordinates": true,
+      "non_manifold_edges": 0,
+      "zero_area_faces": 0,
+      "signed_local_volume": 2.2588856628025358e-08
+    },
+    {
+      "name": "Old countersunk fixing | top.002",
+      "vertices": 72,
+      "faces": 62,
+      "finite_coordinates": true,
+      "non_manifold_edges": 0,
+      "zero_area_faces": 0,
+      "signed_local_volume": 2.3056342888384713e-08
+    },
+    {
+      "name": "Old countersunk fixing | top.003",
+      "vertices": 72,
+      "faces": 62,
+      "finite_coordinates": true,
+      "non_manifold_edges": 0,
+      "zero_area_faces": 0,
+      "signed_local_volume": 1.8223051503390536e-08
+    },
+    {
+      "name": "Old countersunk fixing | top.004",
+      "vertices": 104,
+      "faces": 94,
+      "finite_coordinates": true,
+      "non_manifold_edges": 0,
+      "zero_area_faces": 0,
+      "signed_local_volume": 1.9034706243205728e-08
+    },
+    {
+      "name": "Old countersunk fixing | top.005",
+      "vertices": 72,
+      "faces": 62,
+      "finite_coordinates": true,
+      "non_manifold_edges": 0,
+      "zero_area_faces": 0,
+      "signed_local_volume": 1.549177044031783e-08
+    },
+    {
+      "name": "Old apron nail | dark head",
+      "vertices": 72,
+      "faces": 62,
+      "finite_coordinates": true,
+      "non_manifold_edges": 0,
+      "zero_area_faces": 0,
+      "signed_local_volume": 5.1679952594728515e-08
+    },
+    {
+      "name": "Old apron nail | dark head.001",
+      "vertices": 72,
+      "faces": 62,
+      "finite_coordinates": true,
+      "non_manifold_edges": 0,
+      "zero_area_faces": 0,
+      "signed_local_volume": 5.1679952594728515e-08
+    },
+    {
+      "name": "Old apron nail | dark head.002",
+      "vertices": 72,
+      "faces": 62,
+      "finite_coordinates": true,
+      "non_manifold_edges": 0,
+      "zero_area_faces": 0,
+      "signed_local_volume": 5.1679952594728515e-08
+    },
+    {
+      "name": "Old apron nail | dark head.003",
+      "vertices": 72,
+      "faces": 62,
+      "finite_coordinates": true,
+      "non_manifold_edges": 0,
+      "zero_area_faces": 0,
+      "signed_local_volume": 5.1679952594728515e-08
+    },
+    {
+      "name": "Plane | sole block",
+      "vertices": 96,
+      "faces": 98,
+      "finite_coordinates": true,
+      "non_manifold_edges": 0,
+      "zero_area_faces": 0,
+      "signed_local_volume": 0.0006071880082555235
+    },
+    {
+      "name": "Plane | toe",
+      "vertices": 96,
+      "faces": 98,
+      "finite_coordinates": true,
+      "non_manifold_edges": 0,
+      "zero_area_faces": 0,
+      "signed_local_volume": 0.0005000391426296159
+    },
+    {
+      "name": "Plane | heel",
+      "vertices": 96,
+      "faces": 98,
+      "finite_coordinates": true,
+      "non_manifold_edges": 0,
+      "zero_area_faces": 0,
+      "signed_local_volume": 0.0005197277337134049
+    },
+    {
+      "name": "Plane | cheek -1",
+      "vertices": 96,
+      "faces": 98,
+      "finite_coordinates": true,
+      "non_manifold_edges": 0,
+      "zero_area_faces": 0,
+      "signed_local_volume": 0.00010778895730534222
+    },
+    {
+      "name": "Plane | cheek 1",
+      "vertices": 96,
+      "faces": 98,
+      "finite_coordinates": true,
+      "non_manifold_edges": 0,
+      "zero_area_faces": 0,
+      "signed_local_volume": 0.00010778895730534222
+    },
+    {
+      "name": "Plane | tapered wooden wedge",
+      "vertices": 96,
+      "faces": 98,
+      "finite_coordinates": true,
+      "non_manifold_edges": 0,
+      "zero_area_faces": 0,
+      "signed_local_volume": 0.00018327983457699636
+    },
+    {
+      "name": "Plane | dark recessed iron",
+      "vertices": 96,
+      "faces": 98,
+      "finite_coordinates": true,
+      "non_manifold_edges": 0,
+      "zero_area_faces": 0,
+      "signed_local_volume": 1.997870270995017e-05
+    },
+    {
+      "name": "Plane | worn rear palm grip",
+      "vertices": 362,
+      "faces": 384,
+      "finite_coordinates": true,
+      "non_manifold_edges": 0,
+      "zero_area_faces": 0,
+      "signed_local_volume": 4.101317455188534
+    },
+    {
+      "name": "Plane | thumb-polished toe",
+      "vertices": 222,
+      "faces": 240,
+      "finite_coordinates": true,
+      "non_manifold_edges": 0,
+      "zero_area_faces": 0,
+      "signed_local_volume": 4.050032367497879
+    },
+    {
+      "name": "Wood shaving 1 | thin ribbon",
+      "vertices": 260,
+      "faces": 258,
+      "finite_coordinates": true,
+      "non_manifold_edges": 0,
+      "zero_area_faces": 0,
+      "signed_local_volume": 1.9405925642352566e-07
+    },
+    {
+      "name": "Wood shaving 2 | thin ribbon",
+      "vertices": 260,
+      "faces": 258,
+      "finite_coordinates": true,
+      "non_manifold_edges": 0,
+      "zero_area_faces": 0,
+      "signed_local_volume": 1.5770994864395878e-07
+    },
+    {
+      "name": "Pencil | painted hexagonal barrel",
+      "vertices": 84,
+      "faces": 80,
+      "finite_coordinates": true,
+      "non_manifold_edges": 0,
+      "zero_area_faces": 0,
+      "signed_local_volume": 2.0676833576478767e-05
+    },
+    {
+      "name": "Pencil | blunt worn end",
+      "vertices": 84,
+      "faces": 80,
+      "finite_coordinates": true,
+      "non_manifold_edges": 0,
+      "zero_area_faces": 0,
+      "signed_local_volume": 5.090123970133575e-07
+    },
+    {
+      "name": "Pencil | exposed cedar",
+      "vertices": 12,
+      "faces": 8,
+      "finite_coordinates": true,
+      "non_manifold_edges": 0,
+      "zero_area_faces": 0,
+      "signed_local_volume": 1.3662155908157621e-06
+    },
+    {
+      "name": "Pencil | small graphite point",
+      "vertices": 12,
+      "faces": 8,
+      "finite_coordinates": true,
+      "non_manifold_edges": 0,
+      "zero_area_faces": 0,
+      "signed_local_volume": 1.699143230144233e-08
+    },
+    {
+      "name": "PROP · Neighbour’s sage throw | continuous drape",
+      "vertices": 37938,
+      "faces": 37936,
+      "finite_coordinates": true,
+      "non_manifold_edges": 0,
+      "zero_area_faces": 0,
+      "signed_local_volume": 0.0029071639080761186
+    },
+    {
+      "name": "Throw | softly rounded folded wool volume",
+      "vertices": 12722,
+      "faces": 12720,
+      "finite_coordinates": true,
+      "non_manifold_edges": 0,
+      "zero_area_faces": 0,
+      "signed_local_volume": 0.000646756469451412
+    },
+    {
+      "name": "Greenhouse pane | one reused unbroken sheet",
+      "vertices": 8,
+      "faces": 6,
+      "finite_coordinates": true,
+      "non_manifold_edges": 0,
+      "zero_area_faces": 0,
+      "signed_local_volume": 0.008567999857641737
+    },
+    {
+      "name": "Rain bead | outside glass",
+      "vertices": 72,
+      "faces": 80,
+      "finite_coordinates": true,
+      "non_manifold_edges": 0,
+      "zero_area_faces": 0,
+      "signed_local_volume": 3.769426627217572
+    },
+    {
+      "name": "Rain bead | outside glass.001",
+      "vertices": 72,
+      "faces": 80,
+      "finite_coordinates": true,
+      "non_manifold_edges": 0,
+      "zero_area_faces": 0,
+      "signed_local_volume": 3.769426627217572
+    },
+    {
+      "name": "Rain bead | outside glass.002",
+      "vertices": 72,
+      "faces": 80,
+      "finite_coordinates": true,
+      "non_manifold_edges": 0,
+      "zero_area_faces": 0,
+      "signed_local_volume": 3.7694266272175714
+    },
+    {
+      "name": "Rain bead | outside glass.003",
+      "vertices": 72,
+      "faces": 80,
+      "finite_coordinates": true,
+      "non_manifold_edges": 0,
+      "zero_area_faces": 0,
+      "signed_local_volume": 3.769426627217572
+    },
+    {
+      "name": "Rain bead | outside glass.004",
+      "vertices": 72,
+      "faces": 80,
+      "finite_coordinates": true,
+      "non_manifold_edges": 0,
+      "zero_area_faces": 0,
+      "signed_local_volume": 3.769426627217572
+    },
+    {
+      "name": "Rain bead | outside glass.005",
+      "vertices": 72,
+      "faces": 80,
+      "finite_coordinates": true,
+      "non_manifold_edges": 0,
+      "zero_area_faces": 0,
+      "signed_local_volume": 3.7694266272175714
+    },
+    {
+      "name": "Rain bead | outside glass.006",
+      "vertices": 72,
+      "faces": 80,
+      "finite_coordinates": true,
+      "non_manifold_edges": 0,
+      "zero_area_faces": 0,
+      "signed_local_volume": 3.7694266272175723
+    },
+    {
+      "name": "Rain bead | outside glass.007",
+      "vertices": 72,
+      "faces": 80,
+      "finite_coordinates": true,
+      "non_manifold_edges": 0,
+      "zero_area_faces": 0,
+      "signed_local_volume": 3.769426627217572
+    },
+    {
+      "name": "Rain bead | outside glass.008",
+      "vertices": 72,
+      "faces": 80,
+      "finite_coordinates": true,
+      "non_manifold_edges": 0,
+      "zero_area_faces": 0,
+      "signed_local_volume": 3.769426627217572
+    },
+    {
+      "name": "Rain bead | outside glass.009",
+      "vertices": 72,
+      "faces": 80,
+      "finite_coordinates": true,
+      "non_manifold_edges": 0,
+      "zero_area_faces": 0,
+      "signed_local_volume": 3.769426627217572
+    },
+    {
+      "name": "Rain bead | outside glass.010",
+      "vertices": 72,
+      "faces": 80,
+      "finite_coordinates": true,
+      "non_manifold_edges": 0,
+      "zero_area_faces": 0,
+      "signed_local_volume": 3.7694266272175723
+    },
+    {
+      "name": "Rain bead | outside glass.011",
+      "vertices": 72,
+      "faces": 80,
+      "finite_coordinates": true,
+      "non_manifold_edges": 0,
+      "zero_area_faces": 0,
+      "signed_local_volume": 3.769426627217572
+    },
+    {
+      "name": "Rain bead | outside glass.012",
+      "vertices": 72,
+      "faces": 80,
+      "finite_coordinates": true,
+      "non_manifold_edges": 0,
+      "zero_area_faces": 0,
+      "signed_local_volume": 3.7694266272175723
+    },
+    {
+      "name": "Rain bead | outside glass.013",
+      "vertices": 72,
+      "faces": 80,
+      "finite_coordinates": true,
+      "non_manifold_edges": 0,
+      "zero_area_faces": 0,
+      "signed_local_volume": 3.7694266272175714
+    },
+    {
+      "name": "Rain bead | outside glass.014",
+      "vertices": 72,
+      "faces": 80,
+      "finite_coordinates": true,
+      "non_manifold_edges": 0,
+      "zero_area_faces": 0,
+      "signed_local_volume": 3.769426627217572
+    },
+    {
+      "name": "Rain bead | outside glass.015",
+      "vertices": 72,
+      "faces": 80,
+      "finite_coordinates": true,
+      "non_manifold_edges": 0,
+      "zero_area_faces": 0,
+      "signed_local_volume": 3.769426627217572
+    },
+    {
+      "name": "Rain bead | outside glass.016",
+      "vertices": 72,
+      "faces": 80,
+      "finite_coordinates": true,
+      "non_manifold_edges": 0,
+      "zero_area_faces": 0,
+      "signed_local_volume": 3.7694266272175723
+    },
+    {
+      "name": "Rain bead | outside glass.017",
+      "vertices": 72,
+      "faces": 80,
+      "finite_coordinates": true,
+      "non_manifold_edges": 0,
+      "zero_area_faces": 0,
+      "signed_local_volume": 3.7694266272175723
+    },
+    {
+      "name": "Rain bead | outside glass.018",
+      "vertices": 72,
+      "faces": 80,
+      "finite_coordinates": true,
+      "non_manifold_edges": 0,
+      "zero_area_faces": 0,
+      "signed_local_volume": 3.769426627217572
+    },
+    {
+      "name": "Rain bead | outside glass.019",
+      "vertices": 72,
+      "faces": 80,
+      "finite_coordinates": true,
+      "non_manifold_edges": 0,
+      "zero_area_faces": 0,
+      "signed_local_volume": 3.769426627217572
+    },
+    {
+      "name": "Rain bead | outside glass.020",
+      "vertices": 72,
+      "faces": 80,
+      "finite_coordinates": true,
+      "non_manifold_edges": 0,
+      "zero_area_faces": 0,
+      "signed_local_volume": 3.769426627217572
+    },
+    {
+      "name": "Rain bead | outside glass.021",
+      "vertices": 72,
+      "faces": 80,
+      "finite_coordinates": true,
+      "non_manifold_edges": 0,
+      "zero_area_faces": 0,
+      "signed_local_volume": 3.769426627217572
+    },
+    {
+      "name": "Rain bead | outside glass.022",
+      "vertices": 72,
+      "faces": 80,
+      "finite_coordinates": true,
+      "non_manifold_edges": 0,
+      "zero_area_faces": 0,
+      "signed_local_volume": 3.769426627217572
+    },
+    {
+      "name": "Rain bead | outside glass.023",
+      "vertices": 72,
+      "faces": 80,
+      "finite_coordinates": true,
+      "non_manifold_edges": 0,
+      "zero_area_faces": 0,
+      "signed_local_volume": 3.769426627217572
+    },
+    {
+      "name": "Rain bead | outside glass.024",
+      "vertices": 72,
+      "faces": 80,
+      "finite_coordinates": true,
+      "non_manifold_edges": 0,
+      "zero_area_faces": 0,
+      "signed_local_volume": 3.769426627217572
+    },
+    {
+      "name": "Rain bead | outside glass.025",
+      "vertices": 72,
+      "faces": 80,
+      "finite_coordinates": true,
+      "non_manifold_edges": 0,
+      "zero_area_faces": 0,
+      "signed_local_volume": 3.769426627217572
+    },
+    {
+      "name": "Rain bead | outside glass.026",
+      "vertices": 72,
+      "faces": 80,
+      "finite_coordinates": true,
+      "non_manifold_edges": 0,
+      "zero_area_faces": 0,
+      "signed_local_volume": 3.769426627217572
+    },
+    {
+      "name": "Rain bead | outside glass.027",
+      "vertices": 72,
+      "faces": 80,
+      "finite_coordinates": true,
+      "non_manifold_edges": 0,
+      "zero_area_faces": 0,
+      "signed_local_volume": 3.769426627217572
+    },
+    {
+      "name": "Rain bead | outside glass.028",
+      "vertices": 72,
+      "faces": 80,
+      "finite_coordinates": true,
+      "non_manifold_edges": 0,
+      "zero_area_faces": 0,
+      "signed_local_volume": 3.769426627217572
+    },
+    {
+      "name": "Rain bead | outside glass.029",
+      "vertices": 72,
+      "faces": 80,
+      "finite_coordinates": true,
+      "non_manifold_edges": 0,
+      "zero_area_faces": 0,
+      "signed_local_volume": 3.769426627217572
+    },
+    {
+      "name": "Rain bead | outside glass.030",
+      "vertices": 72,
+      "faces": 80,
+      "finite_coordinates": true,
+      "non_manifold_edges": 0,
+      "zero_area_faces": 0,
+      "signed_local_volume": 3.769426627217572
+    },
+    {
+      "name": "Rain bead | outside glass.031",
+      "vertices": 72,
+      "faces": 80,
+      "finite_coordinates": true,
+      "non_manifold_edges": 0,
+      "zero_area_faces": 0,
+      "signed_local_volume": 3.769426627217572
+    },
+    {
+      "name": "Rain bead | outside glass.032",
+      "vertices": 72,
+      "faces": 80,
+      "finite_coordinates": true,
+      "non_manifold_edges": 0,
+      "zero_area_faces": 0,
+      "signed_local_volume": 3.769426627217572
+    },
+    {
+      "name": "Rain bead | outside glass.033",
+      "vertices": 72,
+      "faces": 80,
+      "finite_coordinates": true,
+      "non_manifold_edges": 0,
+      "zero_area_faces": 0,
+      "signed_local_volume": 3.769426627217572
+    },
+    {
+      "name": "Rain bead | outside glass.034",
+      "vertices": 72,
+      "faces": 80,
+      "finite_coordinates": true,
+      "non_manifold_edges": 0,
+      "zero_area_faces": 0,
+      "signed_local_volume": 3.769426627217572
+    },
+    {
+      "name": "Rain bead | outside glass.035",
+      "vertices": 72,
+      "faces": 80,
+      "finite_coordinates": true,
+      "non_manifold_edges": 0,
+      "zero_area_faces": 0,
+      "signed_local_volume": 3.7694266272175723
+    },
+    {
+      "name": "Rain bead | outside glass.036",
+      "vertices": 72,
+      "faces": 80,
+      "finite_coordinates": true,
+      "non_manifold_edges": 0,
+      "zero_area_faces": 0,
+      "signed_local_volume": 3.769426627217572
+    },
+    {
+      "name": "Rain bead | outside glass.037",
+      "vertices": 72,
+      "faces": 80,
+      "finite_coordinates": true,
+      "non_manifold_edges": 0,
+      "zero_area_faces": 0,
+      "signed_local_volume": 3.769426627217572
+    },
+    {
+      "name": "Rain bead | outside glass.038",
+      "vertices": 72,
+      "faces": 80,
+      "finite_coordinates": true,
+      "non_manifold_edges": 0,
+      "zero_area_faces": 0,
+      "signed_local_volume": 3.7694266272175723
+    },
+    {
+      "name": "Rain bead | outside glass.039",
+      "vertices": 72,
+      "faces": 80,
+      "finite_coordinates": true,
+      "non_manifold_edges": 0,
+      "zero_area_faces": 0,
+      "signed_local_volume": 3.769426627217572
+    },
+    {
+      "name": "Rain bead | outside glass.040",
+      "vertices": 72,
+      "faces": 80,
+      "finite_coordinates": true,
+      "non_manifold_edges": 0,
+      "zero_area_faces": 0,
+      "signed_local_volume": 3.769426627217572
+    },
+    {
+      "name": "Rain bead | outside glass.041",
+      "vertices": 72,
+      "faces": 80,
+      "finite_coordinates": true,
+      "non_manifold_edges": 0,
+      "zero_area_faces": 0,
+      "signed_local_volume": 3.769426627217572
+    },
+    {
+      "name": "Rain bead | outside glass.042",
+      "vertices": 72,
+      "faces": 80,
+      "finite_coordinates": true,
+      "non_manifold_edges": 0,
+      "zero_area_faces": 0,
+      "signed_local_volume": 3.769426627217572
+    },
+    {
+      "name": "Rain bead | outside glass.043",
+      "vertices": 72,
+      "faces": 80,
+      "finite_coordinates": true,
+      "non_manifold_edges": 0,
+      "zero_area_faces": 0,
+      "signed_local_volume": 3.769426627217572
+    },
+    {
+      "name": "Rain bead | outside glass.044",
+      "vertices": 72,
+      "faces": 80,
+      "finite_coordinates": true,
+      "non_manifold_edges": 0,
+      "zero_area_faces": 0,
+      "signed_local_volume": 3.7694266272175723
+    },
+    {
+      "name": "Rain bead | outside glass.045",
+      "vertices": 72,
+      "faces": 80,
+      "finite_coordinates": true,
+      "non_manifold_edges": 0,
+      "zero_area_faces": 0,
+      "signed_local_volume": 3.769426627217572
+    },
+    {
+      "name": "Rain bead | outside glass.046",
+      "vertices": 72,
+      "faces": 80,
+      "finite_coordinates": true,
+      "non_manifold_edges": 0,
+      "zero_area_faces": 0,
+      "signed_local_volume": 3.769426627217572
+    },
+    {
+      "name": "Rain bead | outside glass.047",
+      "vertices": 72,
+      "faces": 80,
+      "finite_coordinates": true,
+      "non_manifold_edges": 0,
+      "zero_area_faces": 0,
+      "signed_local_volume": 3.769426627217572
+    },
+    {
+      "name": "Rain bead | outside glass.048",
+      "vertices": 72,
+      "faces": 80,
+      "finite_coordinates": true,
+      "non_manifold_edges": 0,
+      "zero_area_faces": 0,
+      "signed_local_volume": 3.769426627217572
+    },
+    {
+      "name": "Rain bead | outside glass.049",
+      "vertices": 72,
+      "faces": 80,
+      "finite_coordinates": true,
+      "non_manifold_edges": 0,
+      "zero_area_faces": 0,
+      "signed_local_volume": 3.7694266272175714
+    },
+    {
+      "name": "Rain bead | outside glass.050",
+      "vertices": 72,
+      "faces": 80,
+      "finite_coordinates": true,
+      "non_manifold_edges": 0,
+      "zero_area_faces": 0,
+      "signed_local_volume": 3.769426627217572
+    },
+    {
+      "name": "Rain bead | outside glass.051",
+      "vertices": 72,
+      "faces": 80,
+      "finite_coordinates": true,
+      "non_manifold_edges": 0,
+      "zero_area_faces": 0,
+      "signed_local_volume": 3.769426627217572
+    },
+    {
+      "name": "Rain bead | outside glass.052",
+      "vertices": 72,
+      "faces": 80,
+      "finite_coordinates": true,
+      "non_manifold_edges": 0,
+      "zero_area_faces": 0,
+      "signed_local_volume": 3.769426627217572
+    },
+    {
+      "name": "Rain bead | outside glass.053",
+      "vertices": 72,
+      "faces": 80,
+      "finite_coordinates": true,
+      "non_manifold_edges": 0,
+      "zero_area_faces": 0,
+      "signed_local_volume": 3.769426627217572
+    },
+    {
+      "name": "Rain bead | outside glass.054",
+      "vertices": 72,
+      "faces": 80,
+      "finite_coordinates": true,
+      "non_manifold_edges": 0,
+      "zero_area_faces": 0,
+      "signed_local_volume": 3.769426627217572
+    },
+    {
+      "name": "Rain bead | outside glass.055",
+      "vertices": 72,
+      "faces": 80,
+      "finite_coordinates": true,
+      "non_manifold_edges": 0,
+      "zero_area_faces": 0,
+      "signed_local_volume": 3.769426627217572
+    },
+    {
+      "name": "Rain bead | outside glass.056",
+      "vertices": 72,
+      "faces": 80,
+      "finite_coordinates": true,
+      "non_manifold_edges": 0,
+      "zero_area_faces": 0,
+      "signed_local_volume": 3.769426627217572
+    },
+    {
+      "name": "Rain bead | outside glass.057",
+      "vertices": 72,
+      "faces": 80,
+      "finite_coordinates": true,
+      "non_manifold_edges": 0,
+      "zero_area_faces": 0,
+      "signed_local_volume": 3.7694266272175723
+    },
+    {
+      "name": "Rain bead | outside glass.058",
+      "vertices": 72,
+      "faces": 80,
+      "finite_coordinates": true,
+      "non_manifold_edges": 0,
+      "zero_area_faces": 0,
+      "signed_local_volume": 3.769426627217572
+    },
+    {
+      "name": "Rain bead | outside glass.059",
+      "vertices": 72,
+      "faces": 80,
+      "finite_coordinates": true,
+      "non_manifold_edges": 0,
+      "zero_area_faces": 0,
+      "signed_local_volume": 3.769426627217572
+    },
+    {
+      "name": "Rain bead | outside glass.060",
+      "vertices": 72,
+      "faces": 80,
+      "finite_coordinates": true,
+      "non_manifold_edges": 0,
+      "zero_area_faces": 0,
+      "signed_local_volume": 3.769426627217572
+    },
+    {
+      "name": "Rain bead | outside glass.061",
+      "vertices": 72,
+      "faces": 80,
+      "finite_coordinates": true,
+      "non_manifold_edges": 0,
+      "zero_area_faces": 0,
+      "signed_local_volume": 3.7694266272175723
+    },
+    {
+      "name": "Rain bead | outside glass.062",
+      "vertices": 72,
+      "faces": 80,
+      "finite_coordinates": true,
+      "non_manifold_edges": 0,
+      "zero_area_faces": 0,
+      "signed_local_volume": 3.769426627217572
+    },
+    {
+      "name": "Rain bead | outside glass.063",
+      "vertices": 72,
+      "faces": 80,
+      "finite_coordinates": true,
+      "non_manifold_edges": 0,
+      "zero_area_faces": 0,
+      "signed_local_volume": 3.7694266272175723
+    },
+    {
+      "name": "Rain bead | outside glass.064",
+      "vertices": 72,
+      "faces": 80,
+      "finite_coordinates": true,
+      "non_manifold_edges": 0,
+      "zero_area_faces": 0,
+      "signed_local_volume": 3.769426627217572
+    },
+    {
+      "name": "Rain bead | outside glass.065",
+      "vertices": 72,
+      "faces": 80,
+      "finite_coordinates": true,
+      "non_manifold_edges": 0,
+      "zero_area_faces": 0,
+      "signed_local_volume": 3.769426627217572
+    },
+    {
+      "name": "Rain bead | outside glass.066",
+      "vertices": 72,
+      "faces": 80,
+      "finite_coordinates": true,
+      "non_manifold_edges": 0,
+      "zero_area_faces": 0,
+      "signed_local_volume": 3.769426627217572
+    },
+    {
+      "name": "Rain bead | outside glass.067",
+      "vertices": 72,
+      "faces": 80,
+      "finite_coordinates": true,
+      "non_manifold_edges": 0,
+      "zero_area_faces": 0,
+      "signed_local_volume": 3.769426627217572
+    },
+    {
+      "name": "Rain bead | outside glass.068",
+      "vertices": 72,
+      "faces": 80,
+      "finite_coordinates": true,
+      "non_manifold_edges": 0,
+      "zero_area_faces": 0,
+      "signed_local_volume": 3.769426627217572
+    },
+    {
+      "name": "Rain bead | outside glass.069",
+      "vertices": 72,
+      "faces": 80,
+      "finite_coordinates": true,
+      "non_manifold_edges": 0,
+      "zero_area_faces": 0,
+      "signed_local_volume": 3.769426627217572
+    },
+    {
+      "name": "Rain bead | outside glass.070",
+      "vertices": 72,
+      "faces": 80,
+      "finite_coordinates": true,
+      "non_manifold_edges": 0,
+      "zero_area_faces": 0,
+      "signed_local_volume": 3.769426627217572
+    },
+    {
+      "name": "Rain bead | outside glass.071",
+      "vertices": 72,
+      "faces": 80,
+      "finite_coordinates": true,
+      "non_manifold_edges": 0,
+      "zero_area_faces": 0,
+      "signed_local_volume": 3.769426627217572
+    },
+    {
+      "name": "Rain bead | outside glass.072",
+      "vertices": 72,
+      "faces": 80,
+      "finite_coordinates": true,
+      "non_manifold_edges": 0,
+      "zero_area_faces": 0,
+      "signed_local_volume": 3.769426627217572
+    },
+    {
+      "name": "Rain bead | outside glass.073",
+      "vertices": 72,
+      "faces": 80,
+      "finite_coordinates": true,
+      "non_manifold_edges": 0,
+      "zero_area_faces": 0,
+      "signed_local_volume": 3.769426627217572
+    },
+    {
+      "name": "Rain bead | outside glass.074",
+      "vertices": 72,
+      "faces": 80,
+      "finite_coordinates": true,
+      "non_manifold_edges": 0,
+      "zero_area_faces": 0,
+      "signed_local_volume": 3.769426627217572
+    },
+    {
+      "name": "Rain bead | outside glass.075",
+      "vertices": 72,
+      "faces": 80,
+      "finite_coordinates": true,
+      "non_manifold_edges": 0,
+      "zero_area_faces": 0,
+      "signed_local_volume": 3.769426627217572
+    },
+    {
+      "name": "Rain bead | outside glass.076",
+      "vertices": 72,
+      "faces": 80,
+      "finite_coordinates": true,
+      "non_manifold_edges": 0,
+      "zero_area_faces": 0,
+      "signed_local_volume": 3.769426627217572
+    },
+    {
+      "name": "Rain bead | outside glass.077",
+      "vertices": 72,
+      "faces": 80,
+      "finite_coordinates": true,
+      "non_manifold_edges": 0,
+      "zero_area_faces": 0,
+      "signed_local_volume": 3.769426627217572
+    },
+    {
+      "name": "Rain bead | outside glass.078",
+      "vertices": 72,
+      "faces": 80,
+      "finite_coordinates": true,
+      "non_manifold_edges": 0,
+      "zero_area_faces": 0,
+      "signed_local_volume": 3.7694266272175723
+    },
+    {
+      "name": "Rain bead | outside glass.079",
+      "vertices": 72,
+      "faces": 80,
+      "finite_coordinates": true,
+      "non_manifold_edges": 0,
+      "zero_area_faces": 0,
+      "signed_local_volume": 3.769426627217572
+    },
+    {
+      "name": "Rain bead | outside glass.080",
+      "vertices": 72,
+      "faces": 80,
+      "finite_coordinates": true,
+      "non_manifold_edges": 0,
+      "zero_area_faces": 0,
+      "signed_local_volume": 3.769426627217572
+    },
+    {
+      "name": "Rain bead | outside glass.081",
+      "vertices": 72,
+      "faces": 80,
+      "finite_coordinates": true,
+      "non_manifold_edges": 0,
+      "zero_area_faces": 0,
+      "signed_local_volume": 3.7694266272175723
+    },
+    {
+      "name": "Rain bead | outside glass.082",
+      "vertices": 72,
+      "faces": 80,
+      "finite_coordinates": true,
+      "non_manifold_edges": 0,
+      "zero_area_faces": 0,
+      "signed_local_volume": 3.769426627217572
+    },
+    {
+      "name": "Rain bead | outside glass.083",
+      "vertices": 72,
+      "faces": 80,
+      "finite_coordinates": true,
+      "non_manifold_edges": 0,
+      "zero_area_faces": 0,
+      "signed_local_volume": 3.769426627217572
+    },
+    {
+      "name": "Rain bead | outside glass.084",
+      "vertices": 72,
+      "faces": 80,
+      "finite_coordinates": true,
+      "non_manifold_edges": 0,
+      "zero_area_faces": 0,
+      "signed_local_volume": 3.769426627217572
+    },
+    {
+      "name": "Rain bead | outside glass.085",
+      "vertices": 72,
+      "faces": 80,
+      "finite_coordinates": true,
+      "non_manifold_edges": 0,
+      "zero_area_faces": 0,
+      "signed_local_volume": 3.769426627217572
+    },
+    {
+      "name": "Rain bead | outside glass.086",
+      "vertices": 72,
+      "faces": 80,
+      "finite_coordinates": true,
+      "non_manifold_edges": 0,
+      "zero_area_faces": 0,
+      "signed_local_volume": 3.7694266272175714
+    },
+    {
+      "name": "Rain bead | outside glass.087",
+      "vertices": 72,
+      "faces": 80,
+      "finite_coordinates": true,
+      "non_manifold_edges": 0,
+      "zero_area_faces": 0,
+      "signed_local_volume": 3.769426627217572
+    },
+    {
+      "name": "Rain bead | outside glass.088",
+      "vertices": 72,
+      "faces": 80,
+      "finite_coordinates": true,
+      "non_manifold_edges": 0,
+      "zero_area_faces": 0,
+      "signed_local_volume": 3.7694266272175723
+    },
+    {
+      "name": "Rain bead | outside glass.089",
+      "vertices": 72,
+      "faces": 80,
+      "finite_coordinates": true,
+      "non_manifold_edges": 0,
+      "zero_area_faces": 0,
+      "signed_local_volume": 3.769426627217572
+    },
+    {
+      "name": "Rain bead | outside glass.090",
+      "vertices": 72,
+      "faces": 80,
+      "finite_coordinates": true,
+      "non_manifold_edges": 0,
+      "zero_area_faces": 0,
+      "signed_local_volume": 3.769426627217572
+    },
+    {
+      "name": "Rain bead | outside glass.091",
+      "vertices": 72,
+      "faces": 80,
+      "finite_coordinates": true,
+      "non_manifold_edges": 0,
+      "zero_area_faces": 0,
+      "signed_local_volume": 3.7694266272175723
+    },
+    {
+      "name": "Rain bead | outside glass.092",
+      "vertices": 72,
+      "faces": 80,
+      "finite_coordinates": true,
+      "non_manifold_edges": 0,
+      "zero_area_faces": 0,
+      "signed_local_volume": 3.769426627217572
+    },
+    {
+      "name": "Rain bead | outside glass.093",
+      "vertices": 72,
+      "faces": 80,
+      "finite_coordinates": true,
+      "non_manifold_edges": 0,
+      "zero_area_faces": 0,
+      "signed_local_volume": 3.7694266272175723
+    },
+    {
+      "name": "Rain bead | outside glass.094",
+      "vertices": 72,
+      "faces": 80,
+      "finite_coordinates": true,
+      "non_manifold_edges": 0,
+      "zero_area_faces": 0,
+      "signed_local_volume": 3.7694266272175723
+    },
+    {
+      "name": "Rain bead | outside glass.095",
+      "vertices": 72,
+      "faces": 80,
+      "finite_coordinates": true,
+      "non_manifold_edges": 0,
+      "zero_area_faces": 0,
+      "signed_local_volume": 3.769426627217572
+    },
+    {
+      "name": "Rain bead | outside glass.096",
+      "vertices": 72,
+      "faces": 80,
+      "finite_coordinates": true,
+      "non_manifold_edges": 0,
+      "zero_area_faces": 0,
+      "signed_local_volume": 3.7694266272175723
+    },
+    {
+      "name": "Rain bead | outside glass.097",
+      "vertices": 72,
+      "faces": 80,
+      "finite_coordinates": true,
+      "non_manifold_edges": 0,
+      "zero_area_faces": 0,
+      "signed_local_volume": 3.769426627217572
+    },
+    {
+      "name": "Rain bead | outside glass.098",
+      "vertices": 72,
+      "faces": 80,
+      "finite_coordinates": true,
+      "non_manifold_edges": 0,
+      "zero_area_faces": 0,
+      "signed_local_volume": 3.769426627217572
+    },
+    {
+      "name": "Rain bead | outside glass.099",
+      "vertices": 72,
+      "faces": 80,
+      "finite_coordinates": true,
+      "non_manifold_edges": 0,
+      "zero_area_faces": 0,
+      "signed_local_volume": 3.7694266272175714
+    },
+    {
+      "name": "Rain bead | outside glass.100",
+      "vertices": 72,
+      "faces": 80,
+      "finite_coordinates": true,
+      "non_manifold_edges": 0,
+      "zero_area_faces": 0,
+      "signed_local_volume": 3.7694266272175723
+    },
+    {
+      "name": "Rain bead | outside glass.101",
+      "vertices": 72,
+      "faces": 80,
+      "finite_coordinates": true,
+      "non_manifold_edges": 0,
+      "zero_area_faces": 0,
+      "signed_local_volume": 3.769426627217572
+    },
+    {
+      "name": "Rain bead | outside glass.102",
+      "vertices": 72,
+      "faces": 80,
+      "finite_coordinates": true,
+      "non_manifold_edges": 0,
+      "zero_area_faces": 0,
+      "signed_local_volume": 3.7694266272175714
+    },
+    {
+      "name": "Rain bead | outside glass.103",
+      "vertices": 72,
+      "faces": 80,
+      "finite_coordinates": true,
+      "non_manifold_edges": 0,
+      "zero_area_faces": 0,
+      "signed_local_volume": 3.769426627217572
+    },
+    {
+      "name": "Rain bead | outside glass.104",
+      "vertices": 72,
+      "faces": 80,
+      "finite_coordinates": true,
+      "non_manifold_edges": 0,
+      "zero_area_faces": 0,
+      "signed_local_volume": 3.769426627217572
+    },
+    {
+      "name": "Rain bead | outside glass.105",
+      "vertices": 72,
+      "faces": 80,
+      "finite_coordinates": true,
+      "non_manifold_edges": 0,
+      "zero_area_faces": 0,
+      "signed_local_volume": 3.7694266272175723
+    },
+    {
+      "name": "Rain bead | outside glass.106",
+      "vertices": 72,
+      "faces": 80,
+      "finite_coordinates": true,
+      "non_manifold_edges": 0,
+      "zero_area_faces": 0,
+      "signed_local_volume": 3.769426627217572
+    },
+    {
+      "name": "Rain bead | outside glass.107",
+      "vertices": 72,
+      "faces": 80,
+      "finite_coordinates": true,
+      "non_manifold_edges": 0,
+      "zero_area_faces": 0,
+      "signed_local_volume": 3.769426627217572
+    },
+    {
+      "name": "Rain bead | outside glass.108",
+      "vertices": 72,
+      "faces": 80,
+      "finite_coordinates": true,
+      "non_manifold_edges": 0,
+      "zero_area_faces": 0,
+      "signed_local_volume": 3.769426627217572
+    },
+    {
+      "name": "Rain bead | outside glass.109",
+      "vertices": 72,
+      "faces": 80,
+      "finite_coordinates": true,
+      "non_manifold_edges": 0,
+      "zero_area_faces": 0,
+      "signed_local_volume": 3.769426627217572
+    },
+    {
+      "name": "Rain bead | outside glass.110",
+      "vertices": 72,
+      "faces": 80,
+      "finite_coordinates": true,
+      "non_manifold_edges": 0,
+      "zero_area_faces": 0,
+      "signed_local_volume": 3.769426627217572
+    },
+    {
+      "name": "Rain bead | outside glass.111",
+      "vertices": 72,
+      "faces": 80,
+      "finite_coordinates": true,
+      "non_manifold_edges": 0,
+      "zero_area_faces": 0,
+      "signed_local_volume": 3.769426627217572
+    },
+    {
+      "name": "Rain bead | outside glass.112",
+      "vertices": 72,
+      "faces": 80,
+      "finite_coordinates": true,
+      "non_manifold_edges": 0,
+      "zero_area_faces": 0,
+      "signed_local_volume": 3.7694266272175723
+    },
+    {
+      "name": "Rain bead | outside glass.113",
+      "vertices": 72,
+      "faces": 80,
+      "finite_coordinates": true,
+      "non_manifold_edges": 0,
+      "zero_area_faces": 0,
+      "signed_local_volume": 3.769426627217572
+    },
+    {
+      "name": "Rain bead | outside glass.114",
+      "vertices": 72,
+      "faces": 80,
+      "finite_coordinates": true,
+      "non_manifold_edges": 0,
+      "zero_area_faces": 0,
+      "signed_local_volume": 3.769426627217572
+    },
+    {
+      "name": "Rain bead | outside glass.115",
+      "vertices": 72,
+      "faces": 80,
+      "finite_coordinates": true,
+      "non_manifold_edges": 0,
+      "zero_area_faces": 0,
+      "signed_local_volume": 3.7694266272175714
+    },
+    {
+      "name": "Rain bead | outside glass.116",
+      "vertices": 72,
+      "faces": 80,
+      "finite_coordinates": true,
+      "non_manifold_edges": 0,
+      "zero_area_faces": 0,
+      "signed_local_volume": 3.769426627217572
+    },
+    {
+      "name": "Rain bead | outside glass.117",
+      "vertices": 72,
+      "faces": 80,
+      "finite_coordinates": true,
+      "non_manifold_edges": 0,
+      "zero_area_faces": 0,
+      "signed_local_volume": 3.7694266272175714
+    },
+    {
+      "name": "Rain bead | outside glass.118",
+      "vertices": 72,
+      "faces": 80,
+      "finite_coordinates": true,
+      "non_manifold_edges": 0,
+      "zero_area_faces": 0,
+      "signed_local_volume": 3.769426627217572
+    },
+    {
+      "name": "Rain bead | outside glass.119",
+      "vertices": 72,
+      "faces": 80,
+      "finite_coordinates": true,
+      "non_manifold_edges": 0,
+      "zero_area_faces": 0,
+      "signed_local_volume": 3.7694266272175723
+    },
+    {
+      "name": "Rain bead | outside glass.120",
+      "vertices": 72,
+      "faces": 80,
+      "finite_coordinates": true,
+      "non_manifold_edges": 0,
+      "zero_area_faces": 0,
+      "signed_local_volume": 3.769426627217572
+    },
+    {
+      "name": "Rain bead | outside glass.121",
+      "vertices": 72,
+      "faces": 80,
+      "finite_coordinates": true,
+      "non_manifold_edges": 0,
+      "zero_area_faces": 0,
+      "signed_local_volume": 3.769426627217572
+    },
+    {
+      "name": "Rain bead | outside glass.122",
+      "vertices": 72,
+      "faces": 80,
+      "finite_coordinates": true,
+      "non_manifold_edges": 0,
+      "zero_area_faces": 0,
+      "signed_local_volume": 3.7694266272175723
+    },
+    {
+      "name": "Rain bead | outside glass.123",
+      "vertices": 72,
+      "faces": 80,
+      "finite_coordinates": true,
+      "non_manifold_edges": 0,
+      "zero_area_faces": 0,
+      "signed_local_volume": 3.769426627217572
+    },
+    {
+      "name": "Rain bead | outside glass.124",
+      "vertices": 72,
+      "faces": 80,
+      "finite_coordinates": true,
+      "non_manifold_edges": 0,
+      "zero_area_faces": 0,
+      "signed_local_volume": 3.769426627217572
+    },
+    {
+      "name": "Rain bead | outside glass.125",
+      "vertices": 72,
+      "faces": 80,
+      "finite_coordinates": true,
+      "non_manifold_edges": 0,
+      "zero_area_faces": 0,
+      "signed_local_volume": 3.769426627217572
+    },
+    {
+      "name": "Rain bead | outside glass.126",
+      "vertices": 72,
+      "faces": 80,
+      "finite_coordinates": true,
+      "non_manifold_edges": 0,
+      "zero_area_faces": 0,
+      "signed_local_volume": 3.769426627217572
+    },
+    {
+      "name": "Rain bead | outside glass.127",
+      "vertices": 72,
+      "faces": 80,
+      "finite_coordinates": true,
+      "non_manifold_edges": 0,
+      "zero_area_faces": 0,
+      "signed_local_volume": 3.769426627217572
+    },
+    {
+      "name": "Rain bead | outside glass.128",
+      "vertices": 72,
+      "faces": 80,
+      "finite_coordinates": true,
+      "non_manifold_edges": 0,
+      "zero_area_faces": 0,
+      "signed_local_volume": 3.769426627217572
+    },
+    {
+      "name": "Rain bead | outside glass.129",
+      "vertices": 72,
+      "faces": 80,
+      "finite_coordinates": true,
+      "non_manifold_edges": 0,
+      "zero_area_faces": 0,
+      "signed_local_volume": 3.769426627217572
+    },
+    {
+      "name": "Rain bead | outside glass.130",
+      "vertices": 72,
+      "faces": 80,
+      "finite_coordinates": true,
+      "non_manifold_edges": 0,
+      "zero_area_faces": 0,
+      "signed_local_volume": 3.769426627217572
+    },
+    {
+      "name": "Rain bead | outside glass.131",
+      "vertices": 72,
+      "faces": 80,
+      "finite_coordinates": true,
+      "non_manifold_edges": 0,
+      "zero_area_faces": 0,
+      "signed_local_volume": 3.7694266272175714
+    },
+    {
+      "name": "Rain bead | outside glass.132",
+      "vertices": 72,
+      "faces": 80,
+      "finite_coordinates": true,
+      "non_manifold_edges": 0,
+      "zero_area_faces": 0,
+      "signed_local_volume": 3.7694266272175714
+    },
+    {
+      "name": "Rain bead | outside glass.133",
+      "vertices": 72,
+      "faces": 80,
+      "finite_coordinates": true,
+      "non_manifold_edges": 0,
+      "zero_area_faces": 0,
+      "signed_local_volume": 3.769426627217572
+    },
+    {
+      "name": "Rain bead | outside glass.134",
+      "vertices": 72,
+      "faces": 80,
+      "finite_coordinates": true,
+      "non_manifold_edges": 0,
+      "zero_area_faces": 0,
+      "signed_local_volume": 3.769426627217572
+    },
+    {
+      "name": "Rain bead | outside glass.135",
+      "vertices": 72,
+      "faces": 80,
+      "finite_coordinates": true,
+      "non_manifold_edges": 0,
+      "zero_area_faces": 0,
+      "signed_local_volume": 3.769426627217572
+    },
+    {
+      "name": "Rain bead | outside glass.136",
+      "vertices": 72,
+      "faces": 80,
+      "finite_coordinates": true,
+      "non_manifold_edges": 0,
+      "zero_area_faces": 0,
+      "signed_local_volume": 3.7694266272175723
+    },
+    {
+      "name": "Rain bead | outside glass.137",
+      "vertices": 72,
+      "faces": 80,
+      "finite_coordinates": true,
+      "non_manifold_edges": 0,
+      "zero_area_faces": 0,
+      "signed_local_volume": 3.7694266272175714
+    },
+    {
+      "name": "Rain bead | outside glass.138",
+      "vertices": 72,
+      "faces": 80,
+      "finite_coordinates": true,
+      "non_manifold_edges": 0,
+      "zero_area_faces": 0,
+      "signed_local_volume": 3.7694266272175714
+    },
+    {
+      "name": "Rain bead | outside glass.139",
+      "vertices": 72,
+      "faces": 80,
+      "finite_coordinates": true,
+      "non_manifold_edges": 0,
+      "zero_area_faces": 0,
+      "signed_local_volume": 3.769426627217572
+    },
+    {
+      "name": "Rain bead | outside glass.140",
+      "vertices": 72,
+      "faces": 80,
+      "finite_coordinates": true,
+      "non_manifold_edges": 0,
+      "zero_area_faces": 0,
+      "signed_local_volume": 3.769426627217572
+    },
+    {
+      "name": "Rain bead | outside glass.141",
+      "vertices": 72,
+      "faces": 80,
+      "finite_coordinates": true,
+      "non_manifold_edges": 0,
+      "zero_area_faces": 0,
+      "signed_local_volume": 3.7694266272175723
+    },
+    {
+      "name": "Rain bead | outside glass.142",
+      "vertices": 72,
+      "faces": 80,
+      "finite_coordinates": true,
+      "non_manifold_edges": 0,
+      "zero_area_faces": 0,
+      "signed_local_volume": 3.769426627217572
+    },
+    {
+      "name": "Rain bead | outside glass.143",
+      "vertices": 72,
+      "faces": 80,
+      "finite_coordinates": true,
+      "non_manifold_edges": 0,
+      "zero_area_faces": 0,
+      "signed_local_volume": 3.769426627217572
+    },
+    {
+      "name": "Rain bead | outside glass.144",
+      "vertices": 72,
+      "faces": 80,
+      "finite_coordinates": true,
+      "non_manifold_edges": 0,
+      "zero_area_faces": 0,
+      "signed_local_volume": 3.769426627217572
+    },
+    {
+      "name": "Rain bead | outside glass.145",
+      "vertices": 72,
+      "faces": 80,
+      "finite_coordinates": true,
+      "non_manifold_edges": 0,
+      "zero_area_faces": 0,
+      "signed_local_volume": 3.769426627217572
+    },
+    {
+      "name": "Rain bead | outside glass.146",
+      "vertices": 72,
+      "faces": 80,
+      "finite_coordinates": true,
+      "non_manifold_edges": 0,
+      "zero_area_faces": 0,
+      "signed_local_volume": 3.769426627217572
+    },
+    {
+      "name": "Rain bead | outside glass.147",
+      "vertices": 72,
+      "faces": 80,
+      "finite_coordinates": true,
+      "non_manifold_edges": 0,
+      "zero_area_faces": 0,
+      "signed_local_volume": 3.769426627217572
+    },
+    {
+      "name": "Rain bead | outside glass.148",
+      "vertices": 72,
+      "faces": 80,
+      "finite_coordinates": true,
+      "non_manifold_edges": 0,
+      "zero_area_faces": 0,
+      "signed_local_volume": 3.769426627217572
+    },
+    {
+      "name": "Rain bead | outside glass.149",
+      "vertices": 72,
+      "faces": 80,
+      "finite_coordinates": true,
+      "non_manifold_edges": 0,
+      "zero_area_faces": 0,
+      "signed_local_volume": 3.769426627217572
+    },
+    {
+      "name": "Rain trail | hanging bead",
+      "vertices": 86,
+      "faces": 96,
+      "finite_coordinates": true,
+      "non_manifold_edges": 0,
+      "zero_area_faces": 0,
+      "signed_local_volume": 3.847758599569135
+    },
+    {
+      "name": "Rain trail | hanging bead.001",
+      "vertices": 86,
+      "faces": 96,
+      "finite_coordinates": true,
+      "non_manifold_edges": 0,
+      "zero_area_faces": 0,
+      "signed_local_volume": 3.8477585995691332
+    },
+    {
+      "name": "Rain trail | hanging bead.002",
+      "vertices": 86,
+      "faces": 96,
+      "finite_coordinates": true,
+      "non_manifold_edges": 0,
+      "zero_area_faces": 0,
+      "signed_local_volume": 3.8477585995691337
+    },
+    {
+      "name": "Window | old lower sill",
+      "vertices": 96,
+      "faces": 98,
+      "finite_coordinates": true,
+      "non_manifold_edges": 0,
+      "zero_area_faces": 0,
+      "signed_local_volume": 0.016746060263987676
+    },
+    {
+      "name": "Window | left jamb",
+      "vertices": 96,
+      "faces": 98,
+      "finite_coordinates": true,
+      "non_manifold_edges": 0,
+      "zero_area_faces": 0,
+      "signed_local_volume": 0.013791248742015734
+    },
+    {
+      "name": "Window | right jamb",
+      "vertices": 96,
+      "faces": 98,
+      "finite_coordinates": true,
+      "non_manifold_edges": 0,
+      "zero_area_faces": 0,
+      "signed_local_volume": 0.01862807099185007
+    },
+    {
+      "name": "Window | top rail",
+      "vertices": 96,
+      "faces": 98,
+      "finite_coordinates": true,
+      "non_manifold_edges": 0,
+      "zero_area_faces": 0,
+      "signed_local_volume": 0.02386404924858698
+    },
+    {
+      "name": "Right return | vertical painted timber",
+      "vertices": 96,
+      "faces": 98,
+      "finite_coordinates": true,
+      "non_manifold_edges": 0,
+      "zero_area_faces": 0,
+      "signed_local_volume": 0.014565217934245481
+    },
+    {
+      "name": "Right return | vertical painted timber.001",
+      "vertices": 96,
+      "faces": 98,
+      "finite_coordinates": true,
+      "non_manifold_edges": 0,
+      "zero_area_faces": 0,
+      "signed_local_volume": 0.014565217934245481
+    },
+    {
+      "name": "Right return | vertical painted timber.002",
+      "vertices": 96,
+      "faces": 98,
+      "finite_coordinates": true,
+      "non_manifold_edges": 0,
+      "zero_area_faces": 0,
+      "signed_local_volume": 0.014565217934245481
+    },
+    {
+      "name": "Right return | vertical painted timber.003",
+      "vertices": 96,
+      "faces": 98,
+      "finite_coordinates": true,
+      "non_manifold_edges": 0,
+      "zero_area_faces": 0,
+      "signed_local_volume": 0.014565217934245481
+    },
+    {
+      "name": "Sage lower wall board",
+      "vertices": 96,
+      "faces": 98,
+      "finite_coordinates": true,
+      "non_manifold_edges": 0,
+      "zero_area_faces": 0,
+      "signed_local_volume": 0.01077032604538291
+    },
+    {
+      "name": "Sage lower wall board.001",
+      "vertices": 96,
+      "faces": 98,
+      "finite_coordinates": true,
+      "non_manifold_edges": 0,
+      "zero_area_faces": 0,
+      "signed_local_volume": 0.01077032604538291
+    },
+    {
+      "name": "Sage lower wall board.002",
+      "vertices": 96,
+      "faces": 98,
+      "finite_coordinates": true,
+      "non_manifold_edges": 0,
+      "zero_area_faces": 0,
+      "signed_local_volume": 0.01077032604538291
+    },
+    {
+      "name": "Sage lower wall board.003",
+      "vertices": 96,
+      "faces": 98,
+      "finite_coordinates": true,
+      "non_manifold_edges": 0,
+      "zero_area_faces": 0,
+      "signed_local_volume": 0.01077032604538291
+    },
+    {
+      "name": "Sage lower wall board.004",
+      "vertices": 96,
+      "faces": 98,
+      "finite_coordinates": true,
+      "non_manifold_edges": 0,
+      "zero_area_faces": 0,
+      "signed_local_volume": 0.01077032604538291
+    },
+    {
+      "name": "Old frame screw",
+      "vertices": 96,
+      "faces": 82,
+      "finite_coordinates": true,
+      "non_manifold_edges": 0,
+      "zero_area_faces": 0,
+      "signed_local_volume": 9.746295464600113e-07
+    },
+    {
+      "name": "Old frame screw.001",
+      "vertices": 96,
+      "faces": 82,
+      "finite_coordinates": true,
+      "non_manifold_edges": 0,
+      "zero_area_faces": 0,
+      "signed_local_volume": 9.746295464600113e-07
+    },
+    {
+      "name": "Old frame screw.002",
+      "vertices": 96,
+      "faces": 82,
+      "finite_coordinates": true,
+      "non_manifold_edges": 0,
+      "zero_area_faces": 0,
+      "signed_local_volume": 9.746295464600113e-07
+    },
+    {
+      "name": "Old frame screw.003",
+      "vertices": 96,
+      "faces": 82,
+      "finite_coordinates": true,
+      "non_manifold_edges": 0,
+      "zero_area_faces": 0,
+      "signed_local_volume": 9.746295464600113e-07
+    },
+    {
+      "name": "Lamp | dark bell shade",
+      "vertices": 288,
+      "faces": 242,
+      "finite_coordinates": true,
+      "non_manifold_edges": 0,
+      "zero_area_faces": 0,
+      "signed_local_volume": 0.0016382741925465541
+    },
+    {
+      "name": "Lamp | brass lower lip",
+      "vertices": 144,
+      "faces": 98,
+      "finite_coordinates": true,
+      "non_manifold_edges": 0,
+      "zero_area_faces": 0,
+      "signed_local_volume": 0.00032644563276256963
+    },
+    {
+      "name": "Lamp | socket cap",
+      "vertices": 144,
+      "faces": 98,
+      "finite_coordinates": true,
+      "non_manifold_edges": 0,
+      "zero_area_faces": 0,
+      "signed_local_volume": 0.00010310402349612542
+    },
+    {
+      "name": "Lamp | warm bulb",
+      "vertices": 534,
+      "faces": 560,
+      "finite_coordinates": true,
+      "non_manifold_edges": 0,
+      "zero_area_faces": 0,
+      "signed_local_volume": 4.128152786019578
+    },
+    {
+      "name": "Lamp | protective glass",
+      "vertices": 192,
+      "faces": 146,
+      "finite_coordinates": true,
+      "non_manifold_edges": 0,
+      "zero_area_faces": 0,
+      "signed_local_volume": 0.0010653734514957422
+    },
+    {
+      "name": "Lamp | wall mounting plate",
+      "vertices": 96,
+      "faces": 98,
+      "finite_coordinates": true,
+      "non_manifold_edges": 0,
+      "zero_area_faces": 0,
+      "signed_local_volume": 6.315175996828771e-05
+    },
+    {
+      "name": "Evening background | abstract plane",
+      "vertices": 8,
+      "faces": 6,
+      "finite_coordinates": true,
+      "non_manifold_edges": 0,
+      "zero_area_faces": 0,
+      "signed_local_volume": 0.8999999798834324
+    }
+  ],
+  "all_assertions_pass": true
+}

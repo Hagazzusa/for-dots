@@ -1,0 +1,94 @@
+{
+  "title": "Mended Corner · 수선이 남긴 자리",
+  "created_date": "2026-11-02",
+  "concept": {
+    "path": "reference/gpt_image_concept.png",
+    "origin": "GPT Image generation supplied as the starting concept for this artwork",
+    "pixel_dimensions": [
+      1536,
+      1024
+    ],
+    "sha256": "c0e554d5b61a643142b5ef8cfb05e3857402c1a6f99904c69afb81ce87ec4f10",
+    "exact_prompt_path": "reference/concept_prompt.txt",
+    "exact_prompt_sha256": "5142a0aa7dd60b9d7163e522bfc5a4419269776995a552bd025f2c2d7b4c1593",
+    "original_bytes_preserved": true,
+    "inspected_before_modeling": true,
+    "png_chunks": [
+      {
+        "type": "IHDR",
+        "length": 13
+      },
+      {
+        "type": "caBX",
+        "length": 21881
+      },
+      {
+        "type": "IDAT",
+        "length": 2459263
+      },
+      {
+        "type": "IEND",
+        "length": 0
+      }
+    ],
+    "metadata_note": "The supplied PNG is retained byte-for-byte, including its caBX provenance payload. No independent C2PA signature/trust-chain validation is claimed."
+  },
+  "three_dimensional_artwork": {
+    "source": "build.py",
+    "blender_version_tested": "4.3.2",
+    "geometry": "Original procedural meshes and curves, made independently from the concept",
+    "materials": "Original procedural materials; no imported texture maps or HDRI",
+    "reference_used_as_texture_or_composite": false,
+    "third_party_downloaded_assets": [],
+    "final_image": "renders/mended_corner_final.png",
+    "scene": "Mended_Corner.blend",
+    "image_type": "Actual Cycles render of the saved editable model; not a generated concept image",
+    "source_sha256": "dd12fdf55e9aae0c3953e07f49db2678b63bf74b3b1bf7f42e82c7fcb9fd1d4b",
+    "final_image_sha256": "aa8b5ea95b3a63698febbb04c9068af171da4cce04280ad0b7448224c404b7ff",
+    "final_pixel_dimensions": [
+      1200,
+      800
+    ]
+  },
+  "interpretation": {
+    "bench": "An old household bench repaired by a fictional neighbourhood carpenter, not newly built from workshop scrap",
+    "changes_from_concept": [
+      "Thin 34 mm slatted seat with a separate apron instead of a massive worktop",
+      "14 mm deep fitted repair in the front slat rather than a patch through the entire front structure",
+      "Independent 52 mm camera and more intimate lamp placement",
+      "A continuous modeled throw plus a closed folded volume",
+      "Static rain geometry and an abstract non-geographic evening beyond one pane"
+    ]
+  },
+  "limits": [
+    "Not an exact reconstruction or CAD/fabrication design",
+    "No structural, woodworking, electrical, glazing-safety or building-code validation",
+    "No user personal history is depicted",
+    "No changes to Glass Refuge, the canonical game, or any GUI session"
+  ],
+  "publication_metadata": {
+    "scope": "렌더 PNG 두 사본의 텍스트 메타데이터만 제거했다. 원본 생성 콘셉트와 C2PA, Blender 장면, PNG IDAT 및 디코딩 픽셀은 변경하지 않았다. 원본 파일 해시는 이력이며 현재 공개 파일 해시와 구분한다.",
+    "files": [
+      {
+        "path": "renders/01_blockout.png",
+        "original_sha256": "b9cb1866329cc714f589ccf0811ac0fb16cd3c89e286058d87ca32945d5d55c8",
+        "publication_sha256": "a5a580444d52afb29fbcdf981efcd1bf49f6f44eb14a63143b25be7f2b0f18b8",
+        "idat_sha256": "2275cbf3703d897c1a5973db7b08352b2fb15cd3d61c95692837431b38894601",
+        "decoded_pixels_identical": true,
+        "removed_chunks": [
+          "tEXt"
+        ]
+      },
+      {
+        "path": "renders/mended_corner_final.png",
+        "original_sha256": "76d9b51676c252463c5009ac4ffe8e49f9fbdd9b38556e6e8379a66fc261f57f",
+        "publication_sha256": "aa8b5ea95b3a63698febbb04c9068af171da4cce04280ad0b7448224c404b7ff",
+        "idat_sha256": "03149be06359430dc0ed12631fabf6c8c527380e41d6aa795185d58399f43ef9",
+        "decoded_pixels_identical": true,
+        "removed_chunks": [
+          "tEXt"
+        ]
+      }
+    ]
+  }
+}

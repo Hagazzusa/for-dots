@@ -9,8 +9,8 @@
     },
     {
       "path": "GALLERY.md",
-      "size": 4131,
-      "sha256": "1c6c7c4723caf8cd335131cbb552f19147f2c1e28c6bac2f0df71d6b2257b710"
+      "size": 4849,
+      "sha256": "b970e069dde3384e241f4871a31bb5594f126f57305ee91e7b448e84fc72c824"
     },
     {
       "path": "GIT_ENVIRONMENT_CHECK.md",
@@ -19,8 +19,8 @@
     },
     {
       "path": "README.md",
-      "size": 12015,
-      "sha256": "b30d52b6bbdf1678fc15a9388728275ac1e90b9be79b661b31b32593756b539a"
+      "size": 12461,
+      "sha256": "51992e244430f7f2343b20ccee37637750f2b9e9a4c19e7243708ff7f9a60e17"
     },
     {
       "path": "a-place-to-pause/.gitignore",
@@ -2996,6 +2996,76 @@
       "path": "glass-refuge/renders/06_structural_inspection.mp4",
       "size": 333768,
       "sha256": "9dbf41557936526c0e4d02c94e38a5d0505bdaa35b98f48d10cf645f68e51eef"
+    },
+    {
+      "path": "mended-corner/.gitignore",
+      "size": 134,
+      "sha256": "f52dc7b1a3284f0a51a8347883ae72d890c997fce1081d7750f7335fa44de4cf"
+    },
+    {
+      "path": "mended-corner/Mended_Corner.blend",
+      "size": 3167410,
+      "sha256": "de367c778655bdbe30556ca36572fe4fb0d0e889bb72d84793676cccf50a363b"
+    },
+    {
+      "path": "mended-corner/README.md",
+      "size": 7963,
+      "sha256": "e516c9a5b6ca94846d80e1c3b24e87cdcecc0507c8725a05c0033f7fec2a5a8d"
+    },
+    {
+      "path": "mended-corner/audit.py",
+      "size": 6801,
+      "sha256": "21b6058e7ad298f5c36d72fd7f0e1aff063e07a7f1d416bf130b2f4fbbac969b"
+    },
+    {
+      "path": "mended-corner/build.py",
+      "size": 31119,
+      "sha256": "dd12fdf55e9aae0c3953e07f49db2678b63bf74b3b1bf7f42e82c7fcb9fd1d4b"
+    },
+    {
+      "path": "mended-corner/checks.json",
+      "size": 1117,
+      "sha256": "857c5d59350726747fcabe9718b92fe3bea701fae013ad01dcb441ce3a5a0daf"
+    },
+    {
+      "path": "mended-corner/geometry_audit.json",
+      "size": 56501,
+      "sha256": "b622094ade05c36977063c584485beb6697bcdade02ddf474cc8f431f5918aca"
+    },
+    {
+      "path": "mended-corner/manifest.json",
+      "size": 2446,
+      "sha256": "d951d583167c092b55945cb53d31f11a0ded9aa0d41487b1e12825ab28dc5dbb"
+    },
+    {
+      "path": "mended-corner/provenance.json",
+      "size": 3968,
+      "sha256": "6e10689c318901b71f8bc8e0191627ce59a18548fcc103cb74ef240116d312e6"
+    },
+    {
+      "path": "mended-corner/reference/concept_prompt.txt",
+      "size": 1424,
+      "sha256": "5142a0aa7dd60b9d7163e522bfc5a4419269776995a552bd025f2c2d7b4c1593"
+    },
+    {
+      "path": "mended-corner/reference/gpt_image_concept.png",
+      "size": 2481213,
+      "sha256": "c0e554d5b61a643142b5ef8cfb05e3857402c1a6f99904c69afb81ce87ec4f10"
+    },
+    {
+      "path": "mended-corner/renders/01_blockout.png",
+      "size": 462707,
+      "sha256": "a5a580444d52afb29fbcdf981efcd1bf49f6f44eb14a63143b25be7f2b0f18b8"
+    },
+    {
+      "path": "mended-corner/renders/mended_corner_final.png",
+      "size": 1470954,
+      "sha256": "aa8b5ea95b3a63698febbb04c9068af171da4cce04280ad0b7448224c404b7ff"
+    },
+    {
+      "path": "mended-corner/verify_bundle.py",
+      "size": 1551,
+      "sha256": "3294a75a7325f2f605c7c35a4fc0f18fbd6f69698595b34309dc9f6cb3ce54e0"
     },
     {
       "path": "quiet-road-profile-study/.gitignore",

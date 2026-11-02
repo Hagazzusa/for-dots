@@ -1,7 +1,7 @@
 # 잠깐 머무는 작은 세계
 
 비를 피하는 공간, 천천히 움직이는 빛, 길가의 빈 벤치.
-이미지와 짧은 영상으로 먼저 둘러볼 수 있는 다섯 작업을 골랐습니다.
+이미지와 짧은 영상으로 먼저 둘러볼 수 있는 여섯 작업을 골랐습니다.
 편집 가능한 장면과 제작 소스는 각 작품의 안내에 함께 있습니다.
 
 ## 1. Glass Refuge · 유리 쉼터
@@ -58,6 +58,17 @@
 [원본 이미지](a-place-to-pause/a_place_to_pause.png) · [Blender 장면·제작 소스](a-place-to-pause/README.md)
 
 단순한 기하 형태로 만든 가상 풍경입니다. 도로·벤치의 실물 안전이나 시공 가능성을 보증하는 설계는 아닙니다.
+
+## 6. Mended Corner · 수선이 남긴 자리
+
+고친 벤치 끝, 접힌 담요와 짧은 연필 곁에 작은 작업등을 켜 두었습니다.
+
+![Mended Corner — 실제 Blender 정물 장면의 Cycles 렌더](mended-corner/renders/mended_corner_final.png)
+
+**위 이미지는 실제 3D 장면의 렌더이며 GPT Image 콘셉트나 게임 화면이 아닙니다.**
+[작품·편집 가능한 장면·제작 소스](mended-corner/README.md) · [출발점인 생성 콘셉트](mended-corner/reference/gpt_image_concept.png)
+
+유리 쉼터와 같은 허구의 동네에서 가져온 독립 정물입니다. 게임에 새로 배치된 소품이나 실제 목공·전기 안전을 검증한 제작안은 아닙니다.
 
 ---
 

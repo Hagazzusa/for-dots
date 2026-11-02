@@ -1,0 +1,39 @@
+{
+  "artwork": "Mended Corner",
+  "draft": false,
+  "reference_used_as_texture": false,
+  "original_asset_sources_only": true,
+  "prop_groups": [
+    "wooden smoothing plane",
+    "short carpenter pencil",
+    "sage wool throw",
+    "small workshop lamp"
+  ],
+  "geometry_objects": 224,
+  "curve_objects": 471,
+  "seat_top_m": 0.49,
+  "seat_thickness_m": 0.034,
+  "repair_depth_m": 0.014,
+  "lamp_bulb_center_m": [
+    0.76,
+    0.245,
+    0.835
+  ],
+  "render": {
+    "engine": "Cycles",
+    "device": "CPU",
+    "threads": 2,
+    "samples": 128,
+    "denoising": false,
+    "width": 1200,
+    "height": 800
+  },
+  "limitations": [
+    "No physical joinery or electrical validation",
+    "Rain is static geometry, not simulation",
+    "Blanket is a modeled quad surface, not simulated cloth",
+    "Lighting includes two artistic bounce-fill area lights",
+    "Glazing and bulb shadow visibility are disabled; area-light camera, glossy and transmission visibility are disabled to avoid visible softbox shapes",
+    "C2PA generation reference retained byte-for-byte outside blend; final is a real Cycles render"
+  ]
+}
