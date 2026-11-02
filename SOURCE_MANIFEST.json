@@ -114,8 +114,8 @@
     },
     {
       "path": "after-the-rain/WORLD_EXPANSION.md",
-      "size": 7076,
-      "sha256": "30d8134aabb487ade6618e21d10ea65c7b987940b6a7f6d3a793f8ff21f742c5"
+      "size": 8495,
+      "sha256": "eb00f4c17b3723aa6fadec135fd642a7bd74b836f9c1a02e5892bcaade340e82"
     },
     {
       "path": "after-the-rain/art/.gdignore",
@@ -884,18 +884,18 @@
     },
     {
       "path": "after-the-rain/assets/refuge/README.md",
-      "size": 1012,
-      "sha256": "be160006677018d7adcaa780fdddd8572ede006b85f5e18ff44199eabac901ab"
+      "size": 2239,
+      "sha256": "2e28077e8c7205fcb7ecada0ffaf5df77b3884018d2917d7473f7bf7836cd498"
     },
     {
       "path": "after-the-rain/assets/refuge/refuge.glb",
-      "size": 3617000,
-      "sha256": "fcd180b17573e343ed36954c30e3a31e74c6498a3e95824559d17027c83484af"
+      "size": 3856564,
+      "sha256": "dc49841045f3d786bb725c0c411040014a1e039ad4318b7ecf68530c7ba05da8"
     },
     {
       "path": "after-the-rain/assets/refuge/refuge.glb.import",
       "size": 1037,
-      "sha256": "4aae905347bbd282a04878406a48878846e74e6edbc621fbab658d9b8eaef970"
+      "sha256": "5fc66dc316ec207251ddcb087164107a85679e10cbd2365dffa78c1e8f260f32"
     },
     {
       "path": "after-the-rain/assets/shelter.glb",
@@ -1054,8 +1054,8 @@
     },
     {
       "path": "after-the-rain/narrative/WORLD_BIBLE.md",
-      "size": 9610,
-      "sha256": "0af9c368e7815ecbb94a4a404866a64b10b347f344f5f5142cf4e0e5c8ab83cb"
+      "size": 9784,
+      "sha256": "41c40836cf4961f40c1c42ed0b0e72804403d21fbf8016b7e66459686f986846"
     },
     {
       "path": "after-the-rain/project.godot",
@@ -2036,6 +2036,16 @@
       "path": "after-the-rain/tests/refuge_seating.gd.uid",
       "size": 19,
       "sha256": "59e8f966305f18fcafc3611835fa84d7c47a80ba937b9aad850af0324a848230"
+    },
+    {
+      "path": "after-the-rain/tests/refuge_texture.gd",
+      "size": 1671,
+      "sha256": "762e47215ab5ed636cb828f5717dd4d38d488b8227c99affeffa9f11eb489007"
+    },
+    {
+      "path": "after-the-rain/tests/refuge_texture.gd.uid",
+      "size": 19,
+      "sha256": "f47cf7ec6dbf496b7c1c0763a98eca514e8061e216e97d5be14cff6ef0554a04"
     },
     {
       "path": "after-the-rain/tests/regression.gd",
