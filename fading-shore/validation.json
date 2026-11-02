@@ -1,0 +1,23 @@
+{
+  "blender": "4.3.2",
+  "vertices": 442,
+  "faces": 220,
+  "min_height": 0.045,
+  "max_height": 1.7449999999999999,
+  "strictly_monotonic_section_height": true,
+  "nonzero_faces": true,
+  "ribbon_in_camera_frame": true,
+  "ribbon_camera_bounds": {
+    "x": [
+      0.17884570360183716,
+      0.6758597493171692
+    ],
+    "y": [
+      0.4176504611968994,
+      0.5900911688804626
+    ]
+  },
+  "no_compositor": true,
+  "render_samples": 64,
+  "threads": 2
+}

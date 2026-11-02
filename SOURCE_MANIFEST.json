@@ -14,8 +14,8 @@
     },
     {
       "path": "README.md",
-      "size": 4703,
-      "sha256": "4908ac7f2d39d071268ab2d6459514d6a04ab62aa48a48e45f35298e892c3c21"
+      "size": 4985,
+      "sha256": "c88a29da4e79308c1ed9633ec9b9b6865d20f9b726a4cc80d8d2c06028a550b7"
     },
     {
       "path": "after-the-rain/ARCHITECTURE.md",
@@ -2011,6 +2011,36 @@
       "path": "after-the-rain/tools/v3_baseline.gd",
       "size": 21504,
       "sha256": "54aded5b2d5f17eb9e06c4b0b1c84cfda0e5ec16e210c0fd00a7029045477fbd"
+    },
+    {
+      "path": "fading-shore/.gitignore",
+      "size": 28,
+      "sha256": "e1b943257d252c73670b740940bc312d8b928c68a91fddcb0ea3fb6fc350a5e0"
+    },
+    {
+      "path": "fading-shore/Fading-Shore.blend",
+      "size": 544104,
+      "sha256": "87fdfaf0a2af4083fdfd19753f8a1e432963070ae6d0decd79a365db734612f4"
+    },
+    {
+      "path": "fading-shore/Fading-Shore.png",
+      "size": 792132,
+      "sha256": "1bb6ba5c2ef4411360437394013fa25564da252ecdea1011075ecc3c9a69ee95"
+    },
+    {
+      "path": "fading-shore/README.md",
+      "size": 2782,
+      "sha256": "cac19a55ad7612f1bf6aaf76d5ad020d76b3f97b8e38adfd3767e9d7dcec4564"
+    },
+    {
+      "path": "fading-shore/build.py",
+      "size": 6789,
+      "sha256": "f181d5b72d6b8716a6941dfef3d5829a5216df23bed6b5df8d40c7e9020eec1b"
+    },
+    {
+      "path": "fading-shore/validation.json",
+      "size": 458,
+      "sha256": "3f71aeec1c28e7fa431a82513cc8421dafe4cf08c289996229865fba9b94572b"
     },
     {
       "path": "filter-overlap-study/.gitignore",
