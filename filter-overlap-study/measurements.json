@@ -1,0 +1,142 @@
+{
+  "blender": "4.3.2",
+  "samples": 64,
+  "seed": 17,
+  "threads": 2,
+  "patch_bounds_xy": [
+    112,
+    144
+  ],
+  "exposure": 0,
+  "display_transform": "Standard / sRGB; measurement bypasses display transform",
+  "cases": [
+    {
+      "case": "00_control",
+      "linear_patch_mean": [
+        0.706100829760544,
+        0.706100829760544,
+        0.706100829760544
+      ],
+      "normalized_to_control": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "direct_path_prediction": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "max_absolute_prediction_error": 0.0,
+      "loaded_colorspace": "Linear Rec.709",
+      "diffuse_bounces": 4
+    },
+    {
+      "case": "01_cyan",
+      "linear_patch_mean": [
+        0.14122016627516132,
+        0.6001857216469944,
+        0.6354907307540998
+      ],
+      "normalized_to_control": [
+        0.20000000045751612,
+        0.8500000231560866,
+        0.8999999772973077
+      ],
+      "direct_path_prediction": [
+        0.2,
+        0.85,
+        0.9
+      ],
+      "max_absolute_prediction_error": 2.315608660374835e-08,
+      "loaded_colorspace": "Linear Rec.709",
+      "diffuse_bounces": 4
+    },
+    {
+      "case": "02_yellow",
+      "linear_patch_mean": [
+        0.6707957811886445,
+        0.6001857216469944,
+        0.14122016627516132
+      ],
+      "normalized_to_control": [
+        0.9499999899676193,
+        0.8500000231560866,
+        0.20000000045751612
+      ],
+      "direct_path_prediction": [
+        0.95,
+        0.85,
+        0.2
+      ],
+      "max_absolute_prediction_error": 2.315608660374835e-08,
+      "loaded_colorspace": "Linear Rec.709",
+      "diffuse_bounces": 4
+    },
+    {
+      "case": "03_overlap_pure",
+      "linear_patch_mean": [
+        0.13415915804216638,
+        0.5101578761241399,
+        0.12709814675326925
+      ],
+      "normalized_to_control": [
+        0.19000000054901936,
+        0.7225000377030386,
+        0.1799999963126673
+      ],
+      "direct_path_prediction": [
+        0.19,
+        0.7224999999999999,
+        0.18000000000000002
+      ],
+      "max_absolute_prediction_error": 3.770303869110592e-08,
+      "loaded_colorspace": "Linear Rec.709",
+      "diffuse_bounces": 4
+    },
+    {
+      "case": "04_overlap_gallery",
+      "linear_patch_mean": [
+        0.10627025981375482,
+        0.4151195052836556,
+        0.10807938620564528
+      ],
+      "normalized_to_control": [
+        0.1505029527437231,
+        0.5879040043394833,
+        0.15306508879517622
+      ],
+      "direct_path_prediction": [
+        0.147136,
+        0.5595039999999999,
+        0.13939200000000002
+      ],
+      "max_absolute_prediction_error": 0.02840000433948342,
+      "loaded_colorspace": "Linear Rec.709",
+      "diffuse_bounces": 4
+    },
+    {
+      "case": "05_gallery_direct_only",
+      "linear_patch_mean": [
+        0.10389284670964116,
+        0.39506626458023675,
+        0.09842480633233208
+      ],
+      "normalized_to_control": [
+        0.14713599295000654,
+        0.5595040367169847,
+        0.13939199924989515
+      ],
+      "direct_path_prediction": [
+        0.147136,
+        0.5595039999999999,
+        0.13939200000000002
+      ],
+      "max_absolute_prediction_error": 3.671698478591168e-08,
+      "loaded_colorspace": "Linear Rec.709",
+      "diffuse_bounces": 0
+    }
+  ],
+  "pure_overlap_pass": true,
+  "hybrid_caveat": "Prediction includes 0.88 transmission weight per sheet; residual can include diffuse interreflection and Monte Carlo noise."
+}
