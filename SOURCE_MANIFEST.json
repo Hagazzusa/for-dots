@@ -14,8 +14,8 @@
     },
     {
       "path": "README.md",
-      "size": 7771,
-      "sha256": "2ea44b5c40a8759776e06d8d6deb7ded6a411ecbbb82f2a842fdc6083d7323c3"
+      "size": 8113,
+      "sha256": "ad6f2eba5e7b2c5a8095b5dab08409c27743dd3ab0ab17ddbc2dcf68cbe9de78"
     },
     {
       "path": "a-place-to-pause/.gitignore",
@@ -2256,6 +2256,66 @@
       "path": "filter-overlap-study/study.py",
       "size": 5348,
       "sha256": "3680a5d1fe4faf8076d703a6527f273df369eb1e91075091fcf4b101333439c3"
+    },
+    {
+      "path": "folded-path/.gitignore",
+      "size": 36,
+      "sha256": "81981078073516337026faad14ce2b2903e9d1827bfaa0d0e3fe93acf34f3cc9"
+    },
+    {
+      "path": "folded-path/README.md",
+      "size": 3946,
+      "sha256": "63d44ba0c4d6f57d7ee4ae92a2320ed3e6742d655b8e4e57348f5b6309c05a7e"
+    },
+    {
+      "path": "folded-path/artifact_manifest.json",
+      "size": 1866,
+      "sha256": "95578486352af3ea66fd7e424847c6d8037f6d806c4055f6da1c093bea28bccc"
+    },
+    {
+      "path": "folded-path/build.py",
+      "size": 6330,
+      "sha256": "d091b7a0c7fd21ca59d7d75f61156e4b71ebf7ae50b0578e76edda282cd31cab"
+    },
+    {
+      "path": "folded-path/folded_path.blend",
+      "size": 102512,
+      "sha256": "977df71663cd84616fe0709c35e460304c64b1f527574a733e88a7167e5326dc"
+    },
+    {
+      "path": "folded-path/folded_path.mp4",
+      "size": 119778,
+      "sha256": "5dd599c27f5c35c86818441e300bbf60167868c8b756f155d505ceb0869a8caa"
+    },
+    {
+      "path": "folded-path/folded_path.png",
+      "size": 544649,
+      "sha256": "7f7c5a46d8eb9085b2ace1494c14b82c6cc4b6bd7f563eef0b5900df673648a2"
+    },
+    {
+      "path": "folded-path/render_verification.json",
+      "size": 267,
+      "sha256": "d1df33640dd698fe89f8d31a8d02f6497c84606385c5ca0fb163e35eadac5628"
+    },
+    {
+      "path": "folded-path/sanitize_png.py",
+      "size": 724,
+      "sha256": "6f84a3ba6d9f1ac3061817f130892950d72dbcd1d8845c8f72b994e1b4de43e5"
+    },
+    {
+      "path": "folded-path/saved_scene_verification.json",
+      "size": 420,
+      "sha256": "0d4bc92c04888fd0cc9c063e407adc5232f11dc49e6c75268961b68a40aea942"
+    },
+    {
+      "path": "folded-path/verification.json",
+      "size": 464,
+      "sha256": "fdc24f9cb4c4cdf5ed602e90a58c5e0f519d873f4a2276985e28324dcba1bce9"
+    },
+    {
+      "path": "folded-path/verify_saved.py",
+      "size": 1711,
+      "sha256": "2f5ddb8aaa3598219e041dd33270214a4817c3235a54344efdb16f2e77425363"
     },
     {
       "path": "garden-of-light/.gitignore",

@@ -1,0 +1,14 @@
+{
+  "frame_count": 48,
+  "first_last_pixel_identical": true,
+  "still_metadata": {},
+  "loop_samples": 16,
+  "qa_frames": [
+    1,
+    12,
+    24,
+    36,
+    48
+  ],
+  "visual_limit": "Visible Monte Carlo grain, especially in dark folds; preview resolution only."
+}

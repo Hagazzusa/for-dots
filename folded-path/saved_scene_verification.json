@@ -1,0 +1,10 @@
+{
+  "source": "saved blend evaluated independently",
+  "poses_including_quarter_frames_and_loop_seam": 193,
+  "maximum_full_hinge_closure_error": 0.0,
+  "maximum_ink_endpoint_gap": 0.0,
+  "maximum_panel_width_error": 2.704560299049419e-07,
+  "minimum_nonadjacent_x_gap": 0.3253892958164215,
+  "finite_vertices": true,
+  "limitations": "Idealized zero thickness only; no physical simulation or fabrication validation."
+}

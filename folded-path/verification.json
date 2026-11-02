@@ -1,0 +1,17 @@
+{
+  "sampled_frames": 48,
+  "panel_widths": [
+    0.8,
+    0.8,
+    0.8,
+    0.8,
+    0.8,
+    0.8
+  ],
+  "maximum_length_error": 3.3306690738754696e-16,
+  "minimum_nonadjacent_x_gap": 0.3253893144606401,
+  "finite_poses": true,
+  "shared_hinge_edges": "analytic endpoint chain, Y edges identical",
+  "limits": "Zero-thickness idealized hinged patches; no elasticity, thickness collision or fabrication validation.",
+  "maximum_blender_hinge_closure_error": 0.0
+}

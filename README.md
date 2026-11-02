@@ -18,6 +18,7 @@ Source, editable scenes, and preview evidence are kept together so each project 
 | **Beside You** — fictional parked-car audio alternate | [Source / listening notes](beside-you/README.md) · [MP3 preview](beside-you/beside_you_preview.mp3) · [waveform](beside-you/waveform.svg) | Python **3.10+**, NumPy/SciPy, FFmpeg with libmp3lame. Standalone seeded synthesis; no voice/recordings, perceptual audition or listening-safety claim. |
 | **Seeded Roadscapes** — twelve terrains, three postcards | [Generator / bounded checks](seeded-roadscapes/README.md) · [triptych](seeded-roadscapes/postcard_triptych.png) | Blender **4.3.2**; NumPy/SciPy for fitting, Matplotlib for layout. Fixed planar road, genuinely seeded terrain; three rendered/BVH-tested cases, not twelve native builds. |
 | **A Place to Pause** — human-scale roadside artwork | [Art direction / limits](a-place-to-pause/README.md) · [still](a-place-to-pause/a_place_to_pause.png) | Blender **4.3.2**; stored seed1107 profile, no SciPy needed. Separate bench pad and revised lighting; virtual geometry checks, not public-bench or road safety certification. |
+| **Folded Path** — hinged-paper kinetic artwork | [Source / kinematic limits](folded-path/README.md) · [still](folded-path/folded_path.png) · [loop](folded-path/folded_path.mp4) | Blender **4.3+**, FFmpeg for encoding. Six zero-thickness rigid patches with keyed hinges; not a welded sheet, real-paper simulation or fabrication proof. |
 
 ## Scope and limits
 
