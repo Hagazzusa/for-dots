@@ -1,0 +1,27 @@
+{
+  "source_studies": {
+    "quiet_road": {
+      "unchanged": true,
+      "manifest_sha256": "5ab71632b4cd388d3c489153d3c319ac8e6d9a4ce0468394b63271abf466c3a3"
+    },
+    "quiet_road_profile_research": {
+      "unchanged": true,
+      "manifest_sha256": "83075564f119986a0e97fa9db1cca929740f6234856871819fd560291d17ca16"
+    }
+  },
+  "same_environment_full_optimizer_repeat_profiles_sha256": "b3807ee18985fd64fb5c130c8ca4bd618f20c4f4f97a5ef1cd6c7791e535e541",
+  "repeat_exact_match": true,
+  "analysis_seed_count": 12,
+  "retained_editable_seed": 1105,
+  "published_source_studies": {
+    "quiet-road": {
+      "manifest_file": "../quiet-road/checksums.json",
+      "manifest_sha256": "3c5db89b8fa99136f378786edec063287db63e36f723e0087c36ca1d6a4913fa"
+    },
+    "quiet-road-profile-study": {
+      "manifest_file": "../quiet-road-profile-study/checksums.json",
+      "manifest_sha256": "57b0bd9cb1c210dc8cf81eb170bfc4bcaa0edb2ca0abb8cf76cae1a9250681f7"
+    }
+  },
+  "hash_scope_note": "source_studies retains original research-input manifest hashes; published_source_studies identifies metadata-normalized repository copies."
+}

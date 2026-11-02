@@ -1,0 +1,11 @@
+{
+  "passed": true,
+  "seed_count": 12,
+  "distinct_terrain_fingerprints": 12,
+  "terrain_samples_rebuilt_per_seed": 231,
+  "profile_samples_per_seed": 841,
+  "profile_segments_tested_per_seed": 840,
+  "maximum_y_grade_tolerance_fraction": 0.060000001,
+  "profiles_sha256": "b3807ee18985fd64fb5c130c8ca4bd618f20c4f4f97a5ef1cd6c7791e535e541",
+  "scope": "Parameter regeneration and sampled terrain fingerprint repeat exactly; all stored virtual profile segments satisfy cap tolerance. Not physical-road certification."
+}

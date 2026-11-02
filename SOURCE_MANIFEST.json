@@ -14,8 +14,8 @@
     },
     {
       "path": "README.md",
-      "size": 6483,
-      "sha256": "62c825e8999845671ac58aedffc7a2205d85bf6cbdf8aecdabc14d10a7326bd0"
+      "size": 6834,
+      "sha256": "140f0ff0af2783b1e2eea2209d9e070124fd38f226da12cdf5da907be1dc86fc"
     },
     {
       "path": "after-the-rain/ARCHITECTURE.md",
@@ -2666,6 +2666,116 @@
       "path": "rain-clock/verify.py",
       "size": 984,
       "sha256": "c97813b58abec48ad200577cd1ba720633c30675e5a953e22e0ba7d3caf476b2"
+    },
+    {
+      "path": "seeded-roadscapes/.gitignore",
+      "size": 28,
+      "sha256": "e1b943257d252c73670b740940bc312d8b928c68a91fddcb0ea3fb6fc350a5e0"
+    },
+    {
+      "path": "seeded-roadscapes/README.md",
+      "size": 6364,
+      "sha256": "a37b0685b8413ce53371c8a768236c366a947078734a0a5c34176760e29df279"
+    },
+    {
+      "path": "seeded-roadscapes/analyze_seeds.py",
+      "size": 5464,
+      "sha256": "1098291bb172f8533f079ff73a7fb0570a66de9def7f0bb6c2025b0de52dc318"
+    },
+    {
+      "path": "seeded-roadscapes/build_variant.py",
+      "size": 9355,
+      "sha256": "61ee6bbdb0d9c6baf1745b3f8239221b01f0d559272bb67812ebc0f1d91e1470"
+    },
+    {
+      "path": "seeded-roadscapes/checksums.json",
+      "size": 1910,
+      "sha256": "d05f19d443d5cb893fccce9ad3405a6a714cfca8cff60f724bc4615f7ab71cbe"
+    },
+    {
+      "path": "seeded-roadscapes/landscape.py",
+      "size": 1074,
+      "sha256": "ce32005c9dd493bad8b53bc2053abab7362ac60424d86b664c25103baeddbc72"
+    },
+    {
+      "path": "seeded-roadscapes/make_triptych.py",
+      "size": 1039,
+      "sha256": "a146051fa9a4a59fe6e069c6572415a8b7b28f9d550902fff98f98b54ca53326"
+    },
+    {
+      "path": "seeded-roadscapes/postcard_triptych.png",
+      "size": 549075,
+      "sha256": "00cd389a6672d59c4a3d85724eb0ce6bd2d0826473db5eb79556c34168598def"
+    },
+    {
+      "path": "seeded-roadscapes/profiles.json",
+      "size": 275079,
+      "sha256": "b3807ee18985fd64fb5c130c8ca4bd618f20c4f4f97a5ef1cd6c7791e535e541"
+    },
+    {
+      "path": "seeded-roadscapes/provenance.json",
+      "size": 1130,
+      "sha256": "30f4b2a5bcdf97edb280654302041331376d3def91957352f2940f957340d491"
+    },
+    {
+      "path": "seeded-roadscapes/reproducibility.json",
+      "size": 520,
+      "sha256": "c05d5a0513b3b712ad87b04ee5197b3fdc27cdd34af311e76dc287b36e660b1a"
+    },
+    {
+      "path": "seeded-roadscapes/saved_blend_verification.json",
+      "size": 1551,
+      "sha256": "a3b8797f31a9ebf58f459885b4643a9af04acc4d7649e19b1925892513e4c312"
+    },
+    {
+      "path": "seeded-roadscapes/seed_1105.blend",
+      "size": 9446106,
+      "sha256": "dd4aa76e00aaafd91b12dccc06d8cd8105325befcab25a7ceca31f24fc6e1e68"
+    },
+    {
+      "path": "seeded-roadscapes/seed_1105.png",
+      "size": 296457,
+      "sha256": "e10e97731531eb1eb2115ac4a9ac1a0cee8006e0bf3e1097174812b1ffe15ff3"
+    },
+    {
+      "path": "seeded-roadscapes/seed_1107.png",
+      "size": 297481,
+      "sha256": "6412f75f2d6a65bab6bba258fedae0ef085b1a7883161dd3ce8ac8754bfc1569"
+    },
+    {
+      "path": "seeded-roadscapes/seed_1111.png",
+      "size": 299782,
+      "sha256": "fb19da2a8d1dcdf3d89218d169be67680c5ad39c8c6aac4aa5f647dcfd13f038"
+    },
+    {
+      "path": "seeded-roadscapes/seed_report.json",
+      "size": 17430,
+      "sha256": "2e25d5a72cfce55a7ba2088fe3206d13d212325cd6dfe3b90efd8a4b4fd76ce4"
+    },
+    {
+      "path": "seeded-roadscapes/validation_1105.json",
+      "size": 1551,
+      "sha256": "a3b8797f31a9ebf58f459885b4643a9af04acc4d7649e19b1925892513e4c312"
+    },
+    {
+      "path": "seeded-roadscapes/validation_1107.json",
+      "size": 1552,
+      "sha256": "72de7dd4f33b087f421f99900bebd06d70e50768321af3992cf84a3164089aee"
+    },
+    {
+      "path": "seeded-roadscapes/validation_1111.json",
+      "size": 1560,
+      "sha256": "69166bc0a95ac0c3c5381e3e224a4f96497e985bcbaff6b0506f94b61860ec6f"
+    },
+    {
+      "path": "seeded-roadscapes/verify_reproducibility.py",
+      "size": 1581,
+      "sha256": "f5abb4dd56c08df6c6e44482f84416abd2e052e6d61392092a7b4079d39efd9a"
+    },
+    {
+      "path": "seeded-roadscapes/verify_saved_blend.py",
+      "size": 1377,
+      "sha256": "65fc7214ca084f36c3ad113df8f47d775f51eff370886f64f6a52f76a7ed391d"
     },
     {
       "path": "soft-shadow-study/.gitignore",

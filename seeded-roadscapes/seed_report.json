@@ -1,0 +1,567 @@
+{
+  "scope": "Original seeded terrain phase/amplitude/scale; fixed planar road. Virtual diagnostic, not road-engineering compliance.",
+  "seed_count": 12,
+  "selected_seeds": [
+    1105,
+    1107,
+    1111
+  ],
+  "selection": "Farthest terrain-height fingerprint pair then max-min third, 231 sample locations",
+  "cap_domain_y_m": [
+    -130,
+    500
+  ],
+  "cap_percent": 6,
+  "seed_controls": "Terrain wave amplitudes, phases and scales; also deterministic decorative stones. Planar centerline unchanged.",
+  "parameter_bounds": {
+    "amplitudes": [
+      [
+        3,
+        7
+      ],
+      [
+        2,
+        5
+      ],
+      [
+        2,
+        4
+      ]
+    ],
+    "phases_rad": [
+      -3.141592653589793,
+      3.141592653589793
+    ],
+    "x_scales_m": [
+      [
+        70,
+        110
+      ],
+      [
+        85,
+        140
+      ]
+    ],
+    "y_scales_m": [
+      [
+        100,
+        160
+      ],
+      [
+        120,
+        190
+      ],
+      [
+        150,
+        220
+      ]
+    ]
+  },
+  "records": [
+    {
+      "seed": 1101,
+      "parameters": {
+        "seed": 1101,
+        "amplitudes": [
+          4.432912135627976,
+          4.9979324506196745,
+          2.72650795007185
+        ],
+        "phases": [
+          -2.038070938849939,
+          2.8834166904614795,
+          0.8134056977758544
+        ],
+        "x_scales": [
+          75.97807101905205,
+          137.0487372419929
+        ],
+        "y_scales": [
+          143.4156447925258,
+          179.56436768560937,
+          165.37616514206897
+        ]
+      },
+      "baseline_max_chord_grade_percent": 6.5050850036240035,
+      "fitted_max_chord_grade_percent": 5.9999988351710964,
+      "max_conservative_y_grade_percent": 6.000000000001174,
+      "maximum_cut_depth_m": 0.8528008420862153,
+      "maximum_fill_depth_m": 0.6979764720841798,
+      "earthwork_samples": 84941,
+      "terrain_quads_tested": 307510,
+      "terrain_triangles_tested": 615020,
+      "non_upward_terrain_triangles": 0,
+      "minimum_triangle_vertical_cross_product": 0.07500000438121646,
+      "road_faces_tested": 840,
+      "solver_success": true,
+      "solver_iterations": 130,
+      "seconds": 1.369226456998149,
+      "terrain_fingerprint_sha256": "98bc86f8f370031c26cbcac1519a3845f96b139a04477ff5faa04adce270bf2a",
+      "road_triangles_tested": 1680,
+      "non_upward_road_triangles": 0
+    },
+    {
+      "seed": 1102,
+      "parameters": {
+        "seed": 1102,
+        "amplitudes": [
+          5.921877544138823,
+          2.3956612718512416,
+          3.378855490716136
+        ],
+        "phases": [
+          2.445306517653301,
+          1.7137479308068375,
+          -0.5383676433998867
+        ],
+        "x_scales": [
+          76.41635632367984,
+          128.35452849762325
+        ],
+        "y_scales": [
+          117.22370135785714,
+          167.15943799768792,
+          167.613919947509
+        ]
+      },
+      "baseline_max_chord_grade_percent": 7.666363823601957,
+      "fitted_max_chord_grade_percent": 5.999980438426909,
+      "max_conservative_y_grade_percent": 6.000000000000227,
+      "maximum_cut_depth_m": 1.3256133710757154,
+      "maximum_fill_depth_m": 1.6183014680405046,
+      "earthwork_samples": 84941,
+      "terrain_quads_tested": 307510,
+      "terrain_triangles_tested": 615020,
+      "non_upward_terrain_triangles": 0,
+      "minimum_triangle_vertical_cross_product": 0.07500000438121646,
+      "road_faces_tested": 840,
+      "solver_success": true,
+      "solver_iterations": 113,
+      "seconds": 1.0899282570026116,
+      "terrain_fingerprint_sha256": "4e85dbf5bca6ea3c9664245ae15f56874544b5a025c098cdab06026a09b8fa57",
+      "road_triangles_tested": 1680,
+      "non_upward_road_triangles": 0
+    },
+    {
+      "seed": 1103,
+      "parameters": {
+        "seed": 1103,
+        "amplitudes": [
+          4.605086435611587,
+          3.423517160554039,
+          2.936670360635703
+        ],
+        "phases": [
+          2.8953923952555662,
+          0.8705411972575616,
+          -1.9175376343629689
+        ],
+        "x_scales": [
+          101.97269206253875,
+          92.85872249951403
+        ],
+        "y_scales": [
+          123.49575128733707,
+          176.43316407131806,
+          178.71125648890936
+        ]
+      },
+      "baseline_max_chord_grade_percent": 6.979109124638687,
+      "fitted_max_chord_grade_percent": 5.9999804384264355,
+      "max_conservative_y_grade_percent": 6.000000000000227,
+      "maximum_cut_depth_m": 1.0559837738819153,
+      "maximum_fill_depth_m": 1.3136494174228943,
+      "earthwork_samples": 84941,
+      "terrain_quads_tested": 307510,
+      "terrain_triangles_tested": 615020,
+      "non_upward_terrain_triangles": 0,
+      "minimum_triangle_vertical_cross_product": 0.07500000438121646,
+      "road_faces_tested": 840,
+      "solver_success": true,
+      "solver_iterations": 160,
+      "seconds": 1.335753384999407,
+      "terrain_fingerprint_sha256": "53cd5c19d6cef3650751705cbd7ad760933ab7f79921ce228195ac7981ccde4b",
+      "road_triangles_tested": 1680,
+      "non_upward_road_triangles": 0
+    },
+    {
+      "seed": 1104,
+      "parameters": {
+        "seed": 1104,
+        "amplitudes": [
+          4.015526452636912,
+          4.834449931905018,
+          2.2087202856497306
+        ],
+        "phases": [
+          2.048307437359889,
+          -1.1438316313471615,
+          2.942246264031004
+        ],
+        "x_scales": [
+          85.39406039074682,
+          139.73018506396085
+        ],
+        "y_scales": [
+          119.45670415880777,
+          132.95705431370646,
+          164.79500078149468
+        ]
+      },
+      "baseline_max_chord_grade_percent": 9.820796892393277,
+      "fitted_max_chord_grade_percent": 5.999986903193348,
+      "max_conservative_y_grade_percent": 6.000000000000227,
+      "maximum_cut_depth_m": 2.3244326612286383,
+      "maximum_fill_depth_m": 0.9414100228938481,
+      "earthwork_samples": 84941,
+      "terrain_quads_tested": 307510,
+      "terrain_triangles_tested": 615020,
+      "non_upward_terrain_triangles": 0,
+      "minimum_triangle_vertical_cross_product": 0.07500000438121646,
+      "road_faces_tested": 840,
+      "solver_success": true,
+      "solver_iterations": 98,
+      "seconds": 1.3191264029992453,
+      "terrain_fingerprint_sha256": "801e4892fa2ad2c1c2a751dfb32951e92197fca3a1f27dd1498bda93bcdc5597",
+      "road_triangles_tested": 1680,
+      "non_upward_road_triangles": 0
+    },
+    {
+      "seed": 1105,
+      "parameters": {
+        "seed": 1105,
+        "amplitudes": [
+          6.056536317526721,
+          2.262961565159348,
+          3.0578107672153703
+        ],
+        "phases": [
+          -2.386255326479093,
+          -2.177806556769502,
+          -1.754392140246898
+        ],
+        "x_scales": [
+          97.29157313830953,
+          106.30540801118387
+        ],
+        "y_scales": [
+          138.932985111783,
+          172.54101173354215,
+          177.73858504453045
+        ]
+      },
+      "baseline_max_chord_grade_percent": 9.610186171167813,
+      "fitted_max_chord_grade_percent": 5.999998835171215,
+      "max_conservative_y_grade_percent": 6.0000000000016485,
+      "maximum_cut_depth_m": 2.1479663287300976,
+      "maximum_fill_depth_m": 3.0384064875017045,
+      "earthwork_samples": 84941,
+      "terrain_quads_tested": 307510,
+      "terrain_triangles_tested": 615020,
+      "non_upward_terrain_triangles": 0,
+      "minimum_triangle_vertical_cross_product": 0.07500000438121646,
+      "road_faces_tested": 840,
+      "solver_success": true,
+      "solver_iterations": 56,
+      "seconds": 1.0321065749994887,
+      "terrain_fingerprint_sha256": "29fd2e33f53ababadd41ff1287498e5ee7152f692074de161289129432c13822",
+      "road_triangles_tested": 1680,
+      "non_upward_road_triangles": 0
+    },
+    {
+      "seed": 1106,
+      "parameters": {
+        "seed": 1106,
+        "amplitudes": [
+          4.828055602559129,
+          2.998323136426491,
+          3.9868469799828623
+        ],
+        "phases": [
+          2.9115724717991913,
+          -1.7854528195064874,
+          2.507219552728883
+        ],
+        "x_scales": [
+          78.70055023239739,
+          131.86251025479942
+        ],
+        "y_scales": [
+          153.97694460381166,
+          140.4058883458437,
+          157.9280656374768
+        ]
+      },
+      "baseline_max_chord_grade_percent": 9.305218316221648,
+      "fitted_max_chord_grade_percent": 5.999986903193348,
+      "max_conservative_y_grade_percent": 6.000000000000227,
+      "maximum_cut_depth_m": 1.5299755588363295,
+      "maximum_fill_depth_m": 0.8360718422781841,
+      "earthwork_samples": 84941,
+      "terrain_quads_tested": 307510,
+      "terrain_triangles_tested": 615020,
+      "non_upward_terrain_triangles": 0,
+      "minimum_triangle_vertical_cross_product": 0.07500000438121646,
+      "road_faces_tested": 840,
+      "solver_success": true,
+      "solver_iterations": 92,
+      "seconds": 1.1463218729986693,
+      "terrain_fingerprint_sha256": "c92b9cb2985494d584415bb26be31fcf0105437a0390cb97512211ad07489681",
+      "road_triangles_tested": 1680,
+      "non_upward_road_triangles": 0
+    },
+    {
+      "seed": 1107,
+      "parameters": {
+        "seed": 1107,
+        "amplitudes": [
+          5.6487693716991405,
+          4.345838013435371,
+          2.8430695431748063
+        ],
+        "phases": [
+          1.2586306524964233,
+          1.097901160188889,
+          2.529638404592463
+        ],
+        "x_scales": [
+          72.819628120232,
+          132.0315095714629
+        ],
+        "y_scales": [
+          157.08309676031894,
+          144.21216561282097,
+          190.03439056887063
+        ]
+      },
+      "baseline_max_chord_grade_percent": 7.758603029986485,
+      "fitted_max_chord_grade_percent": 5.999986903194059,
+      "max_conservative_y_grade_percent": 6.000000000001174,
+      "maximum_cut_depth_m": 1.0754747227186512,
+      "maximum_fill_depth_m": 1.2151677647381136,
+      "earthwork_samples": 84941,
+      "terrain_quads_tested": 307510,
+      "terrain_triangles_tested": 615020,
+      "non_upward_terrain_triangles": 0,
+      "minimum_triangle_vertical_cross_product": 0.07500000438121646,
+      "road_faces_tested": 840,
+      "solver_success": true,
+      "solver_iterations": 115,
+      "seconds": 1.4380131920006534,
+      "terrain_fingerprint_sha256": "93b1e46ab2056a11e43ea0ce1e698cc274f2bfc31bc5d374dac43d7f55ee8062",
+      "road_triangles_tested": 1680,
+      "non_upward_road_triangles": 0
+    },
+    {
+      "seed": 1108,
+      "parameters": {
+        "seed": 1108,
+        "amplitudes": [
+          3.9792224990758682,
+          3.8969861709293494,
+          3.1041862709559
+        ],
+        "phases": [
+          2.1239223752166208,
+          -0.2877613840422728,
+          1.8880496833553586
+        ],
+        "x_scales": [
+          103.22118525396434,
+          105.38707490517004
+        ],
+        "y_scales": [
+          117.47397507797606,
+          163.011998160122,
+          156.7667608247331
+        ]
+      },
+      "baseline_max_chord_grade_percent": 6.322354937204619,
+      "fitted_max_chord_grade_percent": 5.929425354144588,
+      "max_conservative_y_grade_percent": 5.9999650721936835,
+      "maximum_cut_depth_m": 0.8929242101939805,
+      "maximum_fill_depth_m": 0.7794012406462798,
+      "earthwork_samples": 84941,
+      "terrain_quads_tested": 307510,
+      "terrain_triangles_tested": 615020,
+      "non_upward_terrain_triangles": 0,
+      "minimum_triangle_vertical_cross_product": 0.07500000438121646,
+      "road_faces_tested": 840,
+      "solver_success": true,
+      "solver_iterations": 191,
+      "seconds": 0.5590221210004529,
+      "terrain_fingerprint_sha256": "e2bca9b73a220e1c0c35a26a498f2158c1c4cc2a9b78da211a27ca5560f98513",
+      "road_triangles_tested": 1680,
+      "non_upward_road_triangles": 0
+    },
+    {
+      "seed": 1109,
+      "parameters": {
+        "seed": 1109,
+        "amplitudes": [
+          4.551313402628425,
+          4.896210345984308,
+          3.2541292172182406
+        ],
+        "phases": [
+          0.6227934163375672,
+          2.563122584700877,
+          2.030548318195824
+        ],
+        "x_scales": [
+          92.51644542861547,
+          121.19100095340934
+        ],
+        "y_scales": [
+          104.93511402290397,
+          189.257876541277,
+          207.04759980949925
+        ]
+      },
+      "baseline_max_chord_grade_percent": 7.3336302648278044,
+      "fitted_max_chord_grade_percent": 5.999986903193644,
+      "max_conservative_y_grade_percent": 6.000000000001174,
+      "maximum_cut_depth_m": 1.2941493598636395,
+      "maximum_fill_depth_m": 1.2965040082534276,
+      "earthwork_samples": 84941,
+      "terrain_quads_tested": 307510,
+      "terrain_triangles_tested": 615020,
+      "non_upward_terrain_triangles": 0,
+      "minimum_triangle_vertical_cross_product": 0.07500000438121646,
+      "road_faces_tested": 840,
+      "solver_success": true,
+      "solver_iterations": 130,
+      "seconds": 1.274257116001536,
+      "terrain_fingerprint_sha256": "09ce0372779e4f4826704f403b40bc06cbdd2c2beed1bcd8d827bf7ea146c3e1",
+      "road_triangles_tested": 1680,
+      "non_upward_road_triangles": 0
+    },
+    {
+      "seed": 1110,
+      "parameters": {
+        "seed": 1110,
+        "amplitudes": [
+          4.907024598282146,
+          3.8863025074356226,
+          2.1719408184321933
+        ],
+        "phases": [
+          1.4991547893224428,
+          -1.3182097440860538,
+          0.5986553564198016
+        ],
+        "x_scales": [
+          73.60385016638911,
+          109.64960656213105
+        ],
+        "y_scales": [
+          125.19000646429369,
+          151.06722197983618,
+          211.766375363705
+        ]
+      },
+      "baseline_max_chord_grade_percent": 6.605016576147111,
+      "fitted_max_chord_grade_percent": 5.949813458144229,
+      "max_conservative_y_grade_percent": 6.000000000000227,
+      "maximum_cut_depth_m": 1.141171467282275,
+      "maximum_fill_depth_m": 1.2626455808211186,
+      "earthwork_samples": 84941,
+      "terrain_quads_tested": 307510,
+      "terrain_triangles_tested": 615020,
+      "non_upward_terrain_triangles": 0,
+      "minimum_triangle_vertical_cross_product": 0.07500000438121646,
+      "road_faces_tested": 840,
+      "solver_success": true,
+      "solver_iterations": 186,
+      "seconds": 0.7217348129997845,
+      "terrain_fingerprint_sha256": "8a7df9fd35508e4db9e67ad61784711f139dcf04fb405da8ff4048ff6583510e",
+      "road_triangles_tested": 1680,
+      "non_upward_road_triangles": 0
+    },
+    {
+      "seed": 1111,
+      "parameters": {
+        "seed": 1111,
+        "amplitudes": [
+          3.8704030870675266,
+          3.033142203809247,
+          3.284507246939815
+        ],
+        "phases": [
+          -0.8536834133327442,
+          -2.6163864441279294,
+          0.025707049619723588
+        ],
+        "x_scales": [
+          77.49738517205778,
+          133.6323901862271
+        ],
+        "y_scales": [
+          120.29280468457902,
+          167.82325645877685,
+          180.70806898433688
+        ]
+      },
+      "baseline_max_chord_grade_percent": 6.766567265410807,
+      "fitted_max_chord_grade_percent": 5.999998835170859,
+      "max_conservative_y_grade_percent": 6.000000000000108,
+      "maximum_cut_depth_m": 1.1256097835161996,
+      "maximum_fill_depth_m": 1.0103901011157204,
+      "earthwork_samples": 84941,
+      "terrain_quads_tested": 307510,
+      "terrain_triangles_tested": 615020,
+      "non_upward_terrain_triangles": 0,
+      "minimum_triangle_vertical_cross_product": 0.07500000438121646,
+      "road_faces_tested": 840,
+      "solver_success": true,
+      "solver_iterations": 150,
+      "seconds": 1.264214060996892,
+      "terrain_fingerprint_sha256": "bb9f76fcd3dd1a23a6398beac222944c42e6aa425dbb4043bd295f3a7d63e3a1",
+      "road_triangles_tested": 1680,
+      "non_upward_road_triangles": 0
+    },
+    {
+      "seed": 1112,
+      "parameters": {
+        "seed": 1112,
+        "amplitudes": [
+          4.1257388017334,
+          2.763268056852657,
+          3.502619631974805
+        ],
+        "phases": [
+          -2.943332966336751,
+          2.0484842577742057,
+          1.4227026712076514
+        ],
+        "x_scales": [
+          92.5490627683671,
+          134.54620519011732
+        ],
+        "y_scales": [
+          109.9446807982943,
+          156.07841623482776,
+          207.49701374207297
+        ]
+      },
+      "baseline_max_chord_grade_percent": 5.543594802247029,
+      "fitted_max_chord_grade_percent": 5.471374117915373,
+      "max_conservative_y_grade_percent": 6.000000000000227,
+      "maximum_cut_depth_m": 0.9140384113457282,
+      "maximum_fill_depth_m": 0.8851098602269799,
+      "earthwork_samples": 84941,
+      "terrain_quads_tested": 307510,
+      "terrain_triangles_tested": 615020,
+      "non_upward_terrain_triangles": 0,
+      "minimum_triangle_vertical_cross_product": 0.07500000438121646,
+      "road_faces_tested": 840,
+      "solver_success": true,
+      "solver_iterations": 178,
+      "seconds": 0.6618246609978087,
+      "terrain_fingerprint_sha256": "f2d6ea44747354a72e45af469c9bf0c33cc39abd9635516e9870efb2eb29ca79",
+      "road_triangles_tested": 1680,
+      "non_upward_road_triangles": 0
+    }
+  ],
+  "topology_evaluation": "Shared fixed XY coordinates computed and checked once; positive orientation result applies to all 12 height fields, not 12 separate mesh builds"
+}
