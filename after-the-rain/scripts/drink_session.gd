@@ -72,8 +72,11 @@ func reset() -> void:
 	fill_pending = false
 	fill_target_changed.emit(0.0, true)
 
+func can_dispose_empty() -> bool:
+	return has_cup and sips == 0 and dispensing <= 0.0 and sip_time <= 0.0
+
 func dispose_empty() -> bool:
-	if not has_cup or sips != 0 or dispensing > 0.0 or sip_time > 0.0:
+	if not can_dispose_empty():
 		return false
 	reset()
 	note_requested.emit("An empty cup put away. A small kindness.", 4.0)

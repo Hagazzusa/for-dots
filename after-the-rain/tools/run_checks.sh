@@ -40,5 +40,15 @@ for script in tests/*.gd; do
  fi
 done
 run_check main -- --test || :
+for script in tests/*.py; do
+ [[ -f "$script" ]] || continue
+ label="$(basename "$script" .py)"
+ count=$((count+1))
+ if timeout "${RAIN_TEST_TIMEOUT:-120}" python3 "$script" >"$logs/$label.log" 2>&1; then
+  echo "PASS $label"
+ else
+  echo "FAIL $label"; tail -20 "$logs/$label.log"; failed=$((failed+1))
+ fi
+done
 printf '%d checks, %d failures. Logs: %s\n' "$count" "$failed" "$logs"
 [[ $failed -eq 0 ]]

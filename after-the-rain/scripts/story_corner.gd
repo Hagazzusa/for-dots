@@ -1,7 +1,9 @@
 extends Node3D
 ## Optional local content. No references to gameplay siblings; session supplies view/location.
 @export var interaction_radius := 2.3
-@export var facing_threshold := 0.72
+@export var facing_threshold := 0.72 # Passenger: broad, welcoming gaze.
+@export var paper_facing_threshold := 0.95
+@export var radio_facing_threshold := 0.94
 @onready var panel = $StoryPanel
 @onready var radio = $RadioAudio
 @onready var objects = $Objects
@@ -14,8 +16,13 @@ func _ready():
  panel.closed.connect(func(): active_story="")
  for id in ["Memo", "Route", "Passenger"]:
   stories[id] = load("res://config/story_"+id.to_lower()+".tres")
- radio.position = objects.get_node("Radio/Interaction").position + objects.get_node("Radio").position
+ radio.global_position = objects.get_node("Radio/Interaction").global_position
+func threshold_for(id:String)->float:
+ if id=="Radio":return radio_facing_threshold
+ if id in ["Memo","Route"]:return paper_facing_threshold
+ return facing_threshold
 func target(camera:Camera3D, viewer_position:Vector3)->String:
+ if camera==null:return ""
  var selected := ""
  var best := 0.0
  for id in PROMPTS:
@@ -24,7 +31,7 @@ func target(camera:Camera3D, viewer_position:Vector3)->String:
   if viewer_position.distance_to(point)>interaction_radius: continue
   var direction:Vector3 = (point-camera.global_position).normalized()
   var facing:float = (-camera.global_basis.z).dot(direction)
-  if facing > facing_threshold and facing > best:
+  if facing > threshold_for(id) and facing > best:
    selected=id
    best=facing
  return selected

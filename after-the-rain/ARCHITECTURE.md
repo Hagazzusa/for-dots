@@ -1,4 +1,6 @@
-# After the Rain v4 — scene architecture
+# After the Rain — scene architecture
+
+The core composition below began in the surviving prototype. The reconstruction boundaries and timing additions are documented in the final section; version labels describe provenance, not recovered later source.
 
 ## Editor-first composition
 
@@ -35,7 +37,7 @@ Player movement remains `_physics_process()` with `move_and_slide()`. Session `_
 - Stable world/prop/player/UI/door/cup geometry is serialized with valid owners. Nested GLB scene references must survive a `PackedScene.pack()` / save / reload cycle; do not flatten or recreate the shelter in `_ready()`.
 - `config/rain_positions.json` stores the exact baked v3 rain positions after world RNG consumption. Session injects them; rain's independent seeded fallback is for standalone viewing, **not** a replacement for that sequence. The production update consumes no additional random numbers.
 - Rain allocates a fresh MultiMesh and positions array per instance. Cocoa allocates its own liquid mesh and duplicated mutable liquid material; springs/fill/velocity are instance state. Authored immutable mesh/material resources may be shared.
-- Bus materials and schedule are intentionally shared immutable resources. Door motion changes nodes, not materials. For an individual recolor, use **Make Unique** / `duplicate()` before mutating a material; shared resources are not automatically isolated.
+- The bus schedule is shared immutable configuration. Bus presentation duplicates mutable materials per instance before applying phase visibility/fade; door motion changes authored nodes. Never mutate cached shared materials to fade or recolor an individual instance.
 - `default_bus_layout.tres` defines Master and ShelterRain plus low-pass effect. No runtime `add_bus()` call is allowed. Audio players/volumes are per instance, but ShelterRain filter and Master mute are explicitly one **shared project mix**. Multiple simultaneously active ambience scenes cannot have independent low-pass filters; repeated loads do not leak global buses.
 - Reset is a coordinated session command, not scene reconstruction. Each subsystem resets its own mutable state; signal connections are not re-added on restart.
 
@@ -83,3 +85,21 @@ Final GUI checks: Korean memo/route/passenger pages and both dialogue control hi
 ## V7 a short rainy walk
 Exploration owns only optional borrow/return and flower-note interaction; Session injects the independent held umbrella and shared reading panel. HeldUmbrella is a saved camera attachment, separate from HeldDrink. Rain receives a canopy center/enabled command and hides only nearby drops beneath its radius; ambience receives an optional umbrella flag, preserving four-argument callers. This is a visual/audio approximation, not cloth or water simulation. Player bounds expand only on the shelter side (x ±12, z −8..2.65), never into the road. NeighborhoodWalk owns its saved ground collision and flower display. Passenger owns its idle/walk/return/boarded lifecycle and receives bus phase, entry point and dialogue flag; no sibling searches. Its movement disables blocking collision and follows authored safe waypoint offsets. The session closes passenger reading only while that specific story is active. A fresh independent QA agent caught stale story ownership closing later flower notes; closing the panel now clears its owner. Tests/v7_qa.gd reproduces and guards that case alongside real capsule navigation, three bus cycles and item/reset/interaction priorities.
 Final validation: all 15 focused suites plus main gameplay regression passed on Godot 4.6.3. Actual engine review verified umbrella+filled cocoa framing, Korean flower note fit, and passenger walking along the curb then disappearing at the entry when boarded. The tiny shop is an authored display vignette, not an accessible shop interior. Umbrella/cocoa use separate camera attachments; no cloth, splashes or full fluid simulation is implied. Native audio remains unavailable, so mix and loop behavior are programmatically verified only.
+
+
+## Reconstruction boundaries
+
+| Saved unit | Ownership / injected context |
+| --- | --- |
+| `EveningClock` / `WeatherCycle` | Clock owns simulation elapsed time; weather reads it deterministically. The completed evening has no last-bus cutoff. |
+| `PauseOverlay` | Always-processing keyboard help overlay owns tree pause and resume; emits restart/mute requests. Esc remains mouse release, not implicit pause. |
+| `UmbrellaExchange` / `EveningConversation` | Optional loan and work/walk state; immutable exported story Resources and exact-reader identity guards. Neither gates boarding. |
+| `FlowerLife` / `RainCat` / `RainCover` | Explicitly stepped local events; one authored awning volume drives both shelter decisions and rain masking. |
+| `OverviewView` / `OnboardView` | Camera ownership and authored rest poses; overview preserves the body/page, optional linger keeps the completed ending available. |
+| `OnboardCompanion` | Peripheral props appear only from the root's actual same-bus snapshot, never an inferred loan alone. |
+| `DrinkSession` / `HeldDrink` | Session is the sole sip timing/fill/heat owner. Presentation receives normalized sip progress and shelter context; approved procedural liquid remains independent. |
+| `WindowLife` / `RainDetails` | Private CPU-phased materials/buffers; fixed authored geometry and no new lights. Window uses evening time, physical drips use resettable presentation time. |
+
+Shared evening clock/weather are evaluated before their consumers. Quiet-wait advances only skipped evening time, not drink, passenger walking or physical rain trajectories. Pause freezes the session tree. After the default ending the clock is fixed, while optional window linger and physical rain presentation can continue; restart resets both clocks. Newly added effects do not consume world RNG or shader wall-clock `TIME`.
+
+Use `tools/run_checks.sh` for the serial aggregate and `tools/export-audit.py` for the isolated production-PCK gate. Both use an external disk-backed QA directory and a shared lock, exclude their own fixtures from the runtime pack, and must be supplemented by ordinary-game native inspection. A fixture/test flag is never the user handoff scene. Public validation notes are in `RECOVERY.md`; local screenshots and raw logs are not project assets.

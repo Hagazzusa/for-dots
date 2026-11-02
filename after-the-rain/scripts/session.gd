@@ -122,11 +122,11 @@ func interact():
 		player.stand(world.anchor("Stand"))
 	elif bus.phase=="stopped" and near("Boarding",boarding_radius):
 		board_bus()
-	elif near_disposal() and drink.has_cup and drink.sips==0:
-		if drink.dispose_empty():
-			player.held_drink.reset_visuals()
 	elif story and story.panel.is_open:
 		story.panel.advance()
+	elif near_disposal() and drink.can_dispose_empty():
+		if drink.dispose_empty():
+			player.held_drink.reset_visuals()
 	elif exploration and exploration.try_interact(player.camera,player.global_position):
 		pass
 	elif story and story.try_interact(player.camera,player.global_position):
@@ -216,8 +216,12 @@ func hint_text()->String:
 		return "[E] Stand up"+("     [F] Sip warm cocoa" if drink.sips>0 else "     Stay a while. There's no hurry.")+("    [T] 조용히 기다리기" if bus.phase=="waiting" else "")
 	if bus.phase=="stopped" and near("Boarding",boarding_radius):
 		return "[E] Board the 08 home     /     Or let this one pass."
-	if near_disposal() and drink.has_cup and drink.sips==0:
+	if story and story.panel.is_open:
+		return story.hint(player.camera,player.global_position)
+	if near_disposal() and drink.can_dispose_empty():
 		return "[E] Put the empty cup in the bin"
+	if near_disposal() and drink.has_cup and drink.sips==0:
+		return "마지막 한 모금을 마시는 중…" if drink.sip_time>0 else "코코아를 준비하는 중…"
 	if exploration and not story.panel.is_open:
 		var exploration_hint=exploration.hint(player.camera,player.global_position)
 		if not exploration_hint.is_empty(): return exploration_hint
