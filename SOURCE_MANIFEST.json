@@ -14,8 +14,8 @@
     },
     {
       "path": "README.md",
-      "size": 5371,
-      "sha256": "d96264c522558a81c0ad97c7f083af883ff978ee2c7f31293111d5b91b18a780"
+      "size": 5687,
+      "sha256": "1eb6f196defcc0557d4192f7a5ac4f85c43731ec56038cb65e406b81916245e8"
     },
     {
       "path": "after-the-rain/ARCHITECTURE.md",
@@ -2191,6 +2191,46 @@
       "path": "garden-of-light/verify.py",
       "size": 1920,
       "sha256": "35fad6873879cb5461b25edf55b31fa991d110cd6d975bf1647ea9f9100107ec"
+    },
+    {
+      "path": "quiet-road/.gitignore",
+      "size": 28,
+      "sha256": "e1b943257d252c73670b740940bc312d8b928c68a91fddcb0ea3fb6fc350a5e0"
+    },
+    {
+      "path": "quiet-road/README.md",
+      "size": 3423,
+      "sha256": "d23c8d39fba0f9b12a00e48ca51aab6d3c8ffdc42675b82e520ba94698e6abd3"
+    },
+    {
+      "path": "quiet-road/build.py",
+      "size": 8073,
+      "sha256": "be2cdef152354b97d7fbce1897cb9fc4f93fffc21e24102de7000d498ecc29f9"
+    },
+    {
+      "path": "quiet-road/check_mesh.py",
+      "size": 1334,
+      "sha256": "b1565abb747e5bb30026a16caa97f8abf182533a97ac192d41f1817d10482a1d"
+    },
+    {
+      "path": "quiet-road/checksums.json",
+      "size": 536,
+      "sha256": "3c5db89b8fa99136f378786edec063287db63e36f723e0087c36ca1d6a4913fa"
+    },
+    {
+      "path": "quiet-road/road_into_evening.blend",
+      "size": 9449184,
+      "sha256": "f1c932fe0c7f6a46f0cf91d481396fcb895ee94ffa044575373ce31c66bcfe13"
+    },
+    {
+      "path": "quiet-road/road_into_evening.png",
+      "size": 620530,
+      "sha256": "d33ceff15833242a33d1c742de53c19a607cc004721c4dd8716d2b98f21c8aa5"
+    },
+    {
+      "path": "quiet-road/validation.json",
+      "size": 1087,
+      "sha256": "0f1b734d36bf743a1d24bd90e870ccbfcdfa101a1f3debe9fdbf32fa9ea6fcf5"
     },
     {
       "path": "rain-clock/.gitignore",
