@@ -48,3 +48,12 @@ git add SOURCE_MANIFEST.json
 ```
 
 Refresh requires Git and hashes the working bytes of tracked/staged regular files; review your diff before committing. It never includes untracked files automatically, follows no symlinks, and excludes only the manifest itself. Keep private data and generated caches out of the tracked set.
+
+## Review asset metadata before sharing
+
+[Publication preflight tools](tools/README.md) provide an optional, read-only scan of an explicitly selected directory or Git-tracked files. The bounded scanner flags common private-path/credential-like patterns in text and selected image/CAD metadata; it reports Blender and unsupported formats for manual review. It never uploads or fixes files, and passing targeted patterns is **not** security certification or permission to publish.
+
+```sh
+python3 tools/check_public_assets.py --directory garden-of-light
+python3 tools/test_check_public_assets.py
+```

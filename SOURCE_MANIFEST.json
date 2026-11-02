@@ -14,8 +14,8 @@
     },
     {
       "path": "README.md",
-      "size": 7173,
-      "sha256": "4cacd876cea447458dee41e21cb2012ea4d2b4dad708e37047d300c2ae3147ce"
+      "size": 7771,
+      "sha256": "2ea44b5c40a8759776e06d8d6deb7ded6a411ecbbb82f2a842fdc6083d7323c3"
     },
     {
       "path": "a-place-to-pause/.gitignore",
@@ -3026,6 +3026,21 @@
       "path": "soft-shadow-study/w0.9_gap1.5.png",
       "size": 128753,
       "sha256": "6af8c67b3be2f6ed3e4af561857f669bfa9c934791017bc1706f99b378f77970"
+    },
+    {
+      "path": "tools/README.md",
+      "size": 3984,
+      "sha256": "56aae7647e4f0404b750fbcd958b59546472236c70d4f70e54c4395bd6551dba"
+    },
+    {
+      "path": "tools/check_public_assets.py",
+      "size": 14241,
+      "sha256": "a559b9ed9eaa2ce089716ff5e958fe8f70b6bbabc26b2443cd05e76dd4a4c685"
+    },
+    {
+      "path": "tools/test_check_public_assets.py",
+      "size": 10051,
+      "sha256": "986ceb7e64800c2c81037e40b1fdc3fbeddff451471d86a96d8cecfdd78f5d3a"
     },
     {
       "path": "verify_sources.py",
