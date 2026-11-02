@@ -1,0 +1,54 @@
+{
+  "units": "mm; invented study scale 100 mm per original Blender unit",
+  "parts": 79,
+  "valid_solids": true,
+  "shelter_separation_proof": "All moving shapes are in disjoint Y intervals from all shelter solids; Y rotation preserves this for every angle",
+  "minimum_full_cycle_shelter_Y_gap_mm": 16.0,
+  "original_nominal_bead6_sill_overlap_mm3": 38.01811878103984,
+  "minimum_pair": "Outer_running_track / Canopy",
+  "ring_roller_contacts": [
+    {
+      "pair": "Outer_running_track/Outer_guide_roller_0",
+      "overlap_mm3": 0.0,
+      "distance_mm": 0.0
+    },
+    {
+      "pair": "Outer_running_track/Outer_guide_roller_1",
+      "overlap_mm3": 0.0,
+      "distance_mm": 7.105427357601002e-15
+    },
+    {
+      "pair": "Outer_running_track/Outer_guide_roller_2",
+      "overlap_mm3": 0.0,
+      "distance_mm": 3.552713678800501e-15
+    },
+    {
+      "pair": "Inner_running_track/Inner_guide_roller_0",
+      "overlap_mm3": 0.0,
+      "distance_mm": 0.0
+    },
+    {
+      "pair": "Inner_running_track/Inner_guide_roller_1",
+      "overlap_mm3": 0.0,
+      "distance_mm": 0.0
+    },
+    {
+      "pair": "Inner_running_track/Inner_guide_roller_2",
+      "overlap_mm3": 0.0,
+      "distance_mm": 3.552713678800501e-15
+    }
+  ],
+  "analytic_conservative_clearances_mm": {
+    "bead_back_to_roller_front": 4.4,
+    "bead_pin_to_roller_lip_radial": 1.0,
+    "outer_bead_sweep_to_inner_support_post": 4.5,
+    "track_axial_slot_each_side": 0.2,
+    "inner_bead_back_to_outer_track_front": 37.4,
+    "rear_columns_to_canopy": 12,
+    "outer_posts_to_fixed_frame_inner_edge": 1.5
+  },
+  "limits": "No tolerance stack, friction, stiffness, hand force, tipping, wear or safety validation. Not all pairs of solids checked. Roller bearings and retention are envelope placeholders.",
+  "preview_review": "Mechanism render and section diagram visually inspected; depth stack and six rollers visible; mild low-sample grain",
+  "render_seconds": 15.504,
+  "render_cpu_threads": 2
+}

@@ -1,0 +1,7 @@
+__pycache__/
+*.pyc
+*.log
+preview_mesh.json
+mechanism_preview.blend
+*.blend1
+*.FCStd1
