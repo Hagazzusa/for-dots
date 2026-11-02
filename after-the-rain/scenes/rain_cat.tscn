@@ -1,0 +1,220 @@
+[gd_scene load_steps=20 format=3]
+[ext_resource type="Script" path="res://scripts/rain_cat.gd" id="Script"]
+[sub_resource type="StandardMaterial3D" id="Fur"]
+albedo_color = Color(0.17, 0.15, 0.13, 1)
+roughness = 0.9
+
+[sub_resource type="StandardMaterial3D" id="Cream"]
+albedo_color = Color(0.52, 0.46, 0.35, 1)
+roughness = 0.9
+
+[sub_resource type="StandardMaterial3D" id="Eyes"]
+albedo_color = Color(0.63, 0.58, 0.31, 1)
+roughness = 0.9
+
+[sub_resource type="StandardMaterial3D" id="Nose"]
+albedo_color = Color(0.17, 0.10, 0.09, 1)
+roughness = 0.9
+
+[sub_resource type="SphereMesh" id="M0"]
+radius = 0.16
+height = 0.23
+radial_segments = 10
+rings = 5
+
+[sub_resource type="SphereMesh" id="M1"]
+radius = 0.1
+height = 0.18
+radial_segments = 10
+rings = 5
+
+[sub_resource type="SphereMesh" id="M2"]
+radius = 0.045
+height = 0.07
+radial_segments = 10
+rings = 5
+
+[sub_resource type="CylinderMesh" id="M3"]
+top_radius = 0.002
+bottom_radius = 0.045
+height = 0.08
+radial_segments = 3
+rings = 1
+
+[sub_resource type="CylinderMesh" id="M4"]
+top_radius = 0.002
+bottom_radius = 0.045
+height = 0.08
+radial_segments = 3
+rings = 1
+
+[sub_resource type="SphereMesh" id="M5"]
+radius = 0.012
+height = 0.022
+radial_segments = 10
+rings = 5
+
+[sub_resource type="SphereMesh" id="M6"]
+radius = 0.012
+height = 0.022
+radial_segments = 10
+rings = 5
+
+[sub_resource type="SphereMesh" id="M7"]
+radius = 0.038
+height = 0.06
+radial_segments = 10
+rings = 5
+
+[sub_resource type="SphereMesh" id="M8"]
+radius = 0.038
+height = 0.06
+radial_segments = 10
+rings = 5
+
+[sub_resource type="SphereMesh" id="M9"]
+radius = 0.038
+height = 0.06
+radial_segments = 10
+rings = 5
+
+[sub_resource type="SphereMesh" id="M10"]
+radius = 0.038
+height = 0.06
+radial_segments = 10
+rings = 5
+
+[sub_resource type="CylinderMesh" id="M11"]
+top_radius = 0.018
+bottom_radius = 0.025
+height = 0.16
+radial_segments = 8
+rings = 1
+
+[sub_resource type="SphereMesh" id="M12"]
+radius = 0.013
+height = 0.018
+radial_segments = 10
+rings = 5
+
+[sub_resource type="SphereMesh" id="M13"]
+radius = 0.09
+height = 0.14
+radial_segments = 10
+rings = 5
+
+[node name="RainCat" type="Node3D"]
+position = Vector3(-0.9, 0.1, 0.22)
+script = ExtResource("Script")
+[node name="RestAnchor" type="Marker3D" parent="."]
+[node name="PeekAnchor" type="Marker3D" parent="."]
+position = Vector3(0, 0, 0.43)
+[node name="Visual" type="Node3D" parent="."]
+[node name="Head" type="Node3D" parent="Visual"]
+position = Vector3(0, 0.27, 0.08)
+[node name="Eyes" type="Node3D" parent="Visual/Head"]
+position = Vector3(0, 0.018, 0.094)
+[node name="Tail" type="Node3D" parent="Visual"]
+position = Vector3(0, 0.18, -0.15)
+rotation = Vector3(-0.5, 0, 0)
+
+[node name="Body" type="MeshInstance3D" parent="Visual"]
+position = Vector3(0, 0.15, -0.015)
+scale = Vector3(1, 1, 0.75)
+mesh = SubResource("M0")
+material_override = SubResource("Fur")
+cast_shadow = 0
+
+[node name="Face" type="MeshInstance3D" parent="Visual/Head"]
+position = Vector3(0, 0, 0)
+scale = Vector3(1, 1, 1)
+mesh = SubResource("M1")
+material_override = SubResource("Fur")
+cast_shadow = 0
+
+[node name="Muzzle" type="MeshInstance3D" parent="Visual/Head"]
+position = Vector3(0, -0.025, 0.09)
+scale = Vector3(1, 1, 0.8)
+mesh = SubResource("M2")
+material_override = SubResource("Cream")
+cast_shadow = 0
+
+[node name="Ear3" type="MeshInstance3D" parent="Visual/Head"]
+position = Vector3(-0.065, 0.11, 0)
+scale = Vector3(1, 1, 0.5)
+mesh = SubResource("M3")
+material_override = SubResource("Fur")
+cast_shadow = 0
+
+[node name="Ear4" type="MeshInstance3D" parent="Visual/Head"]
+position = Vector3(0.065, 0.11, 0)
+scale = Vector3(1, 1, 0.5)
+mesh = SubResource("M4")
+material_override = SubResource("Fur")
+cast_shadow = 0
+
+[node name="Eye5" type="MeshInstance3D" parent="Visual/Head/Eyes"]
+position = Vector3(-0.038, 0, 0)
+scale = Vector3(1, 1, 0.3)
+mesh = SubResource("M5")
+material_override = SubResource("Eyes")
+cast_shadow = 0
+
+[node name="Eye6" type="MeshInstance3D" parent="Visual/Head/Eyes"]
+position = Vector3(0.038, 0, 0)
+scale = Vector3(1, 1, 0.3)
+mesh = SubResource("M6")
+material_override = SubResource("Eyes")
+cast_shadow = 0
+
+[node name="Paw7" type="MeshInstance3D" parent="Visual"]
+position = Vector3(-0.09, 0.03, -0.07)
+scale = Vector3(1, 1, 1.2)
+mesh = SubResource("M7")
+material_override = SubResource("Cream")
+cast_shadow = 0
+
+[node name="Paw8" type="MeshInstance3D" parent="Visual"]
+position = Vector3(-0.09, 0.03, 0.075)
+scale = Vector3(1, 1, 1.2)
+mesh = SubResource("M8")
+material_override = SubResource("Cream")
+cast_shadow = 0
+
+[node name="Paw9" type="MeshInstance3D" parent="Visual"]
+position = Vector3(0.09, 0.03, -0.07)
+scale = Vector3(1, 1, 1.2)
+mesh = SubResource("M9")
+material_override = SubResource("Cream")
+cast_shadow = 0
+
+[node name="Paw10" type="MeshInstance3D" parent="Visual"]
+position = Vector3(0.09, 0.03, 0.075)
+scale = Vector3(1, 1, 1.2)
+mesh = SubResource("M10")
+material_override = SubResource("Cream")
+cast_shadow = 0
+
+[node name="TailMesh" type="MeshInstance3D" parent="Visual/Tail"]
+position = Vector3(0, 0, 0)
+scale = Vector3(1, 1, 1)
+mesh = SubResource("M11")
+material_override = SubResource("Fur")
+cast_shadow = 0
+
+[node name="Nose" type="MeshInstance3D" parent="Visual/Head"]
+position = Vector3(0, -0.008, 0.129)
+scale = Vector3(1, 1, 0.4)
+mesh = SubResource("M12")
+material_override = SubResource("Nose")
+cast_shadow = 0
+
+[node name="Chest" type="MeshInstance3D" parent="Visual"]
+position = Vector3(0, 0.13, 0.085)
+scale = Vector3(1, 1, 0.35)
+mesh = SubResource("M13")
+material_override = SubResource("Cream")
+cast_shadow = 0
+
+[node name="Interaction" type="Marker3D" parent="."]
+position = Vector3(0, 0.27, 0.18)

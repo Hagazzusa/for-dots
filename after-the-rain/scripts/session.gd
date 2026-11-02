@@ -4,6 +4,7 @@ extends Node3D
 @export var boarding_radius := 1.7
 @export var vending_radius := 1.8
 @export var disposal_radius := 1.6
+@onready var weather = $WeatherCycle
 @onready var clock = $EveningClock
 @onready var exchange = $UmbrellaExchange
 @onready var pause_overlay = $PauseOverlay
@@ -37,6 +38,9 @@ func _ready():
 	# All child _ready callbacks are self-contained; wire only after they exist.
 	if exploration:
 		exploration.initialize(umbrella,story.panel)
+		exploration.note_requested.connect(set_note)
+		world.additional_shelters.assign([exploration.rain_cover.get_world_bounds()])
+		rain.additional_shelters.assign(world.additional_shelters)
 		exploration.shared_available=func():return not exchange.loaned
 	exchange.initialize(umbrella,story.objects.get_node("Passenger"),story.panel)
 	player.quiet_wait_requested.connect(wait_quietly)
@@ -140,6 +144,8 @@ func restart():
 	pause_overlay.reset()
 	exchange.reset()
 	clock.reset()
+	weather.reset()
+	rain.set_weather(0.0)
 	ride_note=""
 	ambience.reset()
 	if story: story.reset()
@@ -188,6 +194,10 @@ func hint_text()->String:
 func _process(delta):
 	time+=delta
 	if not ride_finished:clock.advance(delta)
+	weather.present(clock.elapsed)
+	rain.set_weather(weather.strength)
+	ambience.set_weather(weather.strength)
+	if exploration and not boarded:exploration.advance(delta,player.global_position,weather.strength)
 	hud.set_clock(clock.time_text())
 	var hint=hint_text()
 	if not testing:

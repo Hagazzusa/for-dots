@@ -1,0 +1,191 @@
+[gd_scene load_steps=20 format=3]
+[ext_resource type="Script" path="res://scripts/flower_life.gd" id="Script"]
+[sub_resource type="StandardMaterial3D" id="Coat"]
+albedo_color = Color(0.16, 0.21, 0.19, 1)
+roughness = 0.9
+
+[sub_resource type="StandardMaterial3D" id="Apron"]
+albedo_color = Color(0.52, 0.49, 0.34, 1)
+roughness = 0.9
+
+[sub_resource type="StandardMaterial3D" id="Skin"]
+albedo_color = Color(0.44, 0.31, 0.22, 1)
+roughness = 0.9
+
+[sub_resource type="StandardMaterial3D" id="Hair"]
+albedo_color = Color(0.075, 0.085, 0.08, 1)
+roughness = 0.9
+
+[sub_resource type="BoxMesh" id="M0"]
+size = Vector3(0.32, 0.52, 0.035)
+
+[sub_resource type="BoxMesh" id="M1"]
+size = Vector3(0.27, 0.43, 0.01)
+
+[sub_resource type="BoxMesh" id="M2"]
+size = Vector3(0.30, 0.04, 0.012)
+
+[sub_resource type="SphereMesh" id="M3"]
+radius = 0.13
+height = 0.29
+radial_segments = 10
+rings = 5
+
+[sub_resource type="SphereMesh" id="M4"]
+radius = 0.14
+height = 0.16
+radial_segments = 10
+rings = 5
+
+[sub_resource type="BoxMesh" id="M5"]
+size = Vector3(0.09, 0.12, 0.025)
+
+[sub_resource type="BoxMesh" id="M6"]
+size = Vector3(0.085, 0.34, 0.025)
+
+[sub_resource type="SphereMesh" id="M7"]
+radius = 0.045
+height = 0.1
+radial_segments = 10
+rings = 5
+
+[sub_resource type="BoxMesh" id="M8"]
+size = Vector3(0.08, 0.18, 0.025)
+
+[sub_resource type="BoxMesh" id="M9"]
+size = Vector3(0.07, 0.16, 0.025)
+
+[sub_resource type="SphereMesh" id="M10"]
+radius = 0.043
+height = 0.1
+radial_segments = 10
+rings = 5
+
+[sub_resource type="SphereMesh" id="M11"]
+radius = 0.008
+height = 0.012
+radial_segments = 10
+rings = 5
+
+[sub_resource type="SphereMesh" id="M12"]
+radius = 0.008
+height = 0.012
+radial_segments = 10
+rings = 5
+
+[sub_resource type="SphereMesh" id="M13"]
+radius = 0.017
+height = 0.034
+radial_segments = 10
+rings = 5
+
+[node name="FlowerLife" type="Node3D"]
+position = Vector3(0.1, 0.65, 0.065)
+script = ExtResource("Script")
+[node name="Visual" type="Node3D" parent="."]
+visible = false
+[node name="Head" type="Node3D" parent="Visual"]
+position = Vector3(0, 1.19, 0.008)
+[node name="WaveArm" type="Node3D" parent="Visual"]
+position = Vector3(0.20, 0.92, 0)
+
+[node name="Torso" type="MeshInstance3D" parent="Visual"]
+position = Vector3(0, 0.72, 0)
+scale = Vector3(1, 1, 1)
+mesh = SubResource("M0")
+material_override = SubResource("Coat")
+cast_shadow = 0
+
+[node name="Apron" type="MeshInstance3D" parent="Visual"]
+position = Vector3(0, 0.66, 0.025)
+scale = Vector3(1, 1, 1)
+mesh = SubResource("M1")
+material_override = SubResource("Apron")
+cast_shadow = 0
+
+[node name="Hem" type="MeshInstance3D" parent="Visual"]
+position = Vector3(0, 0.43, 0.025)
+scale = Vector3(1, 1, 1)
+mesh = SubResource("M2")
+material_override = SubResource("Apron")
+cast_shadow = 0
+
+[node name="Face" type="MeshInstance3D" parent="Visual/Head"]
+position = Vector3(0, 0, 0)
+scale = Vector3(1, 1, 0.11)
+mesh = SubResource("M3")
+material_override = SubResource("Skin")
+cast_shadow = 0
+
+[node name="Hair" type="MeshInstance3D" parent="Visual/Head"]
+position = Vector3(0, 0.105, -0.004)
+scale = Vector3(1, 1, 0.10)
+mesh = SubResource("M4")
+material_override = SubResource("Hair")
+cast_shadow = 0
+
+[node name="Neck" type="MeshInstance3D" parent="Visual"]
+position = Vector3(0, 1.01, 0)
+scale = Vector3(1, 1, 1)
+mesh = SubResource("M5")
+material_override = SubResource("Skin")
+cast_shadow = 0
+
+[node name="Sleeve" type="MeshInstance3D" parent="Visual"]
+position = Vector3(-0.205, 0.76, 0)
+scale = Vector3(1, 1, 1)
+mesh = SubResource("M6")
+material_override = SubResource("Coat")
+cast_shadow = 0
+
+[node name="Hand" type="MeshInstance3D" parent="Visual"]
+position = Vector3(-0.205, 0.56, 0)
+scale = Vector3(1, 1, 0.2)
+mesh = SubResource("M7")
+material_override = SubResource("Skin")
+cast_shadow = 0
+
+[node name="Upper" type="MeshInstance3D" parent="Visual/WaveArm"]
+position = Vector3(0.02, -0.09, 0)
+scale = Vector3(1, 1, 1)
+mesh = SubResource("M8")
+material_override = SubResource("Coat")
+cast_shadow = 0
+
+[node name="Forearm" type="MeshInstance3D" parent="Visual/WaveArm"]
+position = Vector3(0.04, -0.25, 0)
+scale = Vector3(1, 1, 1)
+mesh = SubResource("M9")
+material_override = SubResource("Coat")
+cast_shadow = 0
+
+[node name="Hand" type="MeshInstance3D" parent="Visual/WaveArm"]
+position = Vector3(0.04, -0.36, 0)
+scale = Vector3(1, 1, 0.2)
+mesh = SubResource("M10")
+material_override = SubResource("Skin")
+cast_shadow = 0
+
+[node name="EyeLeft" type="MeshInstance3D" parent="Visual/Head"]
+position = Vector3(-0.043, 0.01, 0.018)
+scale = Vector3(1, 1, 0.3)
+mesh = SubResource("M11")
+material_override = SubResource("Hair")
+cast_shadow = 0
+
+[node name="EyeRight" type="MeshInstance3D" parent="Visual/Head"]
+position = Vector3(0.043, 0.01, 0.018)
+scale = Vector3(1, 1, 0.3)
+mesh = SubResource("M12")
+material_override = SubResource("Hair")
+cast_shadow = 0
+
+[node name="Button" type="MeshInstance3D" parent="Visual"]
+position = Vector3(0.08, 0.83, 0.034)
+scale = Vector3(1, 1, 0.2)
+mesh = SubResource("M13")
+material_override = SubResource("Skin")
+cast_shadow = 0
+
+[node name="Interaction" type="Marker3D" parent="."]
+position = Vector3(0, 1.04, 0.07)

@@ -1,0 +1,6 @@
+[gd_scene load_steps=2 format=3]
+[ext_resource type="Script" path="res://scripts/rain_cover.gd" id="1"]
+[node name="RainCover" type="Node3D"]
+position = Vector3(0,1.3025,0.38)
+script = ExtResource("1")
+size = Vector3(3.65,2.605,1.0)

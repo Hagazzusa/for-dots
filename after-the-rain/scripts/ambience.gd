@@ -15,6 +15,11 @@ extends Node
 @onready var wet_footsteps: AudioStreamPlayer = $WetFootsteps
 @onready var roof_footsteps: AudioStreamPlayer = $RoofFootsteps
 var _step_time := 0.0
+var weather_lull := 0.0
+
+func set_weather(lull: float) -> void:
+	weather_lull = clampf(lull, 0.0, 1.0)
+
 @onready var rain_player: AudioStreamPlayer = $RainPlayer
 @onready var engine_player: AudioStreamPlayer = $EnginePlayer
 @onready var chime_player: AudioStreamPlayer = $ChimePlayer
@@ -43,6 +48,7 @@ func advance(delta: float, sheltered: bool, boarded: bool, bus_phase: String, um
 	var canopy_active := umbrella_open and not sheltered and not boarded
 	var cutoff := shelter_cutoff_hz if sheltered or boarded else (umbrella_cutoff_hz if canopy_active else outside_cutoff_hz)
 	var rain_target := boarded_rain_db if boarded else (sheltered_rain_db if sheltered else (umbrella_rain_db if canopy_active else outside_rain_db))
+	rain_target -= 4.5 * weather_lull
 	if rain_filter:
 		rain_filter.cutoff_hz = lerpf(rain_filter.cutoff_hz,cutoff,weight)
 	rain_player.volume_db = lerpf(rain_player.volume_db,rain_target,weight)
@@ -60,6 +66,7 @@ func footsteps(delta: float, moving: bool, sheltered: bool) -> void:
 
 ## Restart mix/timers without changing Master mute or allocating new players/buses.
 func reset() -> void:
+	weather_lull = 0.0
 	_step_time = 0.0
 	wet_footsteps.stop()
 	roof_footsteps.stop()

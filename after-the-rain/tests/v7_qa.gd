@@ -34,7 +34,7 @@ func run():
  g.story.panel.close_story()
  # Move an actual capsule along plausible left-side walk, retaining collision response.
  g.player.position=Vector3(-4.6,1.65,2.4)
- var route=[Vector3(-8,1.65,2.4),Vector3(-8,1.65,-3.8),Vector3(-9.38,1.65,-4.3)]
+ var route=[Vector3(-8,1.65,2.4),Vector3(-8,1.65,-3.8),Vector3(flower.x,1.65,flower.z+1.6)]
  for target in route:
   for i in range(600):
    var d=target-g.player.position

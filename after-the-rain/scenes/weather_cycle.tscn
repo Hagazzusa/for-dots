@@ -1,0 +1,8 @@
+[gd_scene load_steps=2 format=3]
+[ext_resource type="Script" path="res://scripts/weather_cycle.gd" id="1"]
+[node name="WeatherCycle" type="Node"]
+script = ExtResource("1")
+cycle_seconds = 180.0
+lull_start = 45.0
+fade_seconds = 12.0
+hold_seconds = 18.0

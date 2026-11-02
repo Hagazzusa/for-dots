@@ -1,4 +1,7 @@
-[gd_scene load_steps=55 format=3]
+[gd_scene load_steps=58 format=3]
+[ext_resource type="PackedScene" path="res://scenes/flower_life.tscn" id="FlowerLife"]
+[ext_resource type="PackedScene" path="res://scenes/rain_cat.tscn" id="RainCat"]
+[ext_resource type="PackedScene" path="res://scenes/rain_cover.tscn" id="RainCover"]
 
 [sub_resource type="StandardMaterial3D" id="R1"]
 albedo_color = Color(0.15, 0.19, 0.19, 1)
@@ -577,7 +580,7 @@ modulate = Color(0.88, 0.83, 0.65, 1)
 no_depth_test = false
 
 [node name="Interaction" type="Marker3D" parent="FlowerWindow"]
-position = Vector3(-0.38, 1.5, 0.42)
+position = Vector3(1.25, 1.76, 0.12)
 
 [node name="Solid" type="StaticBody3D" parent="FlowerWindow"]
 
@@ -591,3 +594,9 @@ light_color = Color(1, 0.69, 0.37, 1)
 light_energy = 1.5
 omni_range = 4.0
 shadow_enabled = false
+
+[node name="FlowerLife" parent="FlowerWindow" instance=ExtResource("FlowerLife")]
+
+[node name="RainCat" parent="FlowerWindow" instance=ExtResource("RainCat")]
+
+[node name="RainCover" parent="FlowerWindow" instance=ExtResource("RainCover")]
