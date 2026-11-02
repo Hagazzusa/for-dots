@@ -1,0 +1,769 @@
+{
+  "video": "renders/The_Second_Cup_Silent_Film.mp4",
+  "video_sha256": "3d9b3c61c7ab10b799aed3cd21fd3bb34539162791392658a76722db493b83f2",
+  "video_bytes": 872305,
+  "silent": true,
+  "audio_streams": 0,
+  "frame_count": 72,
+  "fps": 12,
+  "duration_seconds": 6,
+  "resolution": [
+    768,
+    768
+  ],
+  "probe": {
+    "programs": [],
+    "stream_groups": [],
+    "streams": [
+      {
+        "codec_name": "h264",
+        "codec_type": "video",
+        "width": 768,
+        "height": 768,
+        "pix_fmt": "yuv420p",
+        "color_range": "tv",
+        "color_space": "bt709",
+        "color_transfer": "iec61966-2-1",
+        "color_primaries": "bt709",
+        "r_frame_rate": "12/1",
+        "avg_frame_rate": "12/1",
+        "duration": "6.000000",
+        "nb_frames": "72",
+        "nb_read_frames": "72"
+      }
+    ],
+    "format": {
+      "format_name": "mov,mp4,m4a,3gp,3g2,mj2",
+      "duration": "6.000000",
+      "size": "872305",
+      "tags": {
+        "title": "The Second Cup - Silent Camera Study",
+        "encoder": "Lavf61.7.103"
+      }
+    }
+  },
+  "full_decode_pass": true,
+  "faststart_moov_before_mdat": true,
+  "all_72_render_hashes_verified": true,
+  "render_seconds": {
+    "total": 7297.076469996995,
+    "minimum": 97.20454161900125,
+    "maximum": 107.49569284999961,
+    "mean": 101.34828430551381
+  },
+  "render_frame_records": [
+    {
+      "frame": 1,
+      "file": "frame_0001.png",
+      "sha256": "6e91e5d3d7c138751e0045d5eae698167d3d023ef3084763fac0c70dd421262d",
+      "seconds": 103.89260103799825,
+      "size_bytes": 831706
+    },
+    {
+      "frame": 2,
+      "file": "frame_0002.png",
+      "sha256": "9b0eeb1210242fc10428832a4ddd22df3d549d7739fb8862857f9f4b8eaab2fa",
+      "seconds": 99.5255737410007,
+      "size_bytes": 831713
+    },
+    {
+      "frame": 3,
+      "file": "frame_0003.png",
+      "sha256": "57e6afdb468f2b7908e39f72bf41ffb533f788cb200ac917f9b837f2a6f845ec",
+      "seconds": 100.85075971100014,
+      "size_bytes": 831732
+    },
+    {
+      "frame": 4,
+      "file": "frame_0004.png",
+      "sha256": "18313955d0cbc5a8459a0d5539487c38ea0d2df684fe6d24973085b923544cd2",
+      "seconds": 101.17538286700074,
+      "size_bytes": 832018
+    },
+    {
+      "frame": 5,
+      "file": "frame_0005.png",
+      "sha256": "96e04ba4f2ee9c9af6bdaf682020e3e22c593936d224721414a92eef1f3e5d36",
+      "seconds": 100.45239304699862,
+      "size_bytes": 831825
+    },
+    {
+      "frame": 6,
+      "file": "frame_0006.png",
+      "sha256": "5ded8c11c9abe57ad3319a335813f019c4150e689eef8751c30ba21749f52a92",
+      "seconds": 99.09364073700272,
+      "size_bytes": 831643
+    },
+    {
+      "frame": 7,
+      "file": "frame_0007.png",
+      "sha256": "1fa0ce29450448ae6dac57ef78c5fd760b947e9e135bec72f3c1da7704856c51",
+      "seconds": 100.39967498099941,
+      "size_bytes": 831875
+    },
+    {
+      "frame": 8,
+      "file": "frame_0008.png",
+      "sha256": "2717cb97a536b1bb1b0509c2cb462032c8679787d61d3d6fb1db686d642d3b72",
+      "seconds": 99.96547411099891,
+      "size_bytes": 831542
+    },
+    {
+      "frame": 9,
+      "file": "frame_0009.png",
+      "sha256": "24dbfb3802cf595d81e61afe2a915bcbd34f7f4fabaf18bd07323a3923e74996",
+      "seconds": 99.7036626070003,
+      "size_bytes": 831987
+    },
+    {
+      "frame": 10,
+      "file": "frame_0010.png",
+      "sha256": "05aa6b2509cea498657517c80ef76a837a3eea31279bcfdc1a567921fe8cff04",
+      "seconds": 99.01648131599723,
+      "size_bytes": 832079
+    },
+    {
+      "frame": 11,
+      "file": "frame_0011.png",
+      "sha256": "448ca3476e61822eeadcb4db5f95bc07462eab6eae7f95f2cf72034c232722d0",
+      "seconds": 101.35168677199908,
+      "size_bytes": 832234
+    },
+    {
+      "frame": 12,
+      "file": "frame_0012.png",
+      "sha256": "d0b790911cf619471e575e6dfafcd9369094dc7a13579364d0dcb46b82598af1",
+      "seconds": 99.33696089000296,
+      "size_bytes": 831804
+    },
+    {
+      "frame": 13,
+      "file": "frame_0013.png",
+      "sha256": "e8f549e41a4dde14b038c0f5d42f5a2d4a9a37970330fdb0c6cf6c7db8496513",
+      "seconds": 103.63016421599968,
+      "size_bytes": 832337
+    },
+    {
+      "frame": 14,
+      "file": "frame_0014.png",
+      "sha256": "4b967bc5c449dff601a309736cfad3cb17699ffa58ac3aab4a5f38c5b09769d9",
+      "seconds": 100.75729585800218,
+      "size_bytes": 831953
+    },
+    {
+      "frame": 15,
+      "file": "frame_0015.png",
+      "sha256": "3fd4fe7108958cea2015db41b39877ae8d20f3ae43e62ee477d5d9c4e49729ce",
+      "seconds": 97.9610262310016,
+      "size_bytes": 831905
+    },
+    {
+      "frame": 16,
+      "file": "frame_0016.png",
+      "sha256": "7de25101d1259b792b81cef9d8c0e159851d21370fc827b1ee317bd878929dad",
+      "seconds": 97.44929498999772,
+      "size_bytes": 832382
+    },
+    {
+      "frame": 17,
+      "file": "frame_0017.png",
+      "sha256": "374fa39e9d04463b7caf9bd57bb9eba6dd4130ffbef0a2d757b88300a646a779",
+      "seconds": 97.20454161900125,
+      "size_bytes": 832283
+    },
+    {
+      "frame": 18,
+      "file": "frame_0018.png",
+      "sha256": "218804cd085e045908bf25b260400afc167242eb3f7b48688e0a0113a5d6bf81",
+      "seconds": 100.35251499199876,
+      "size_bytes": 832201
+    },
+    {
+      "frame": 19,
+      "file": "frame_0019.png",
+      "sha256": "05fc5383a97003bcc7e65d851baa60415b392b46b1694c3cd9b93dbbecea6580",
+      "seconds": 102.57312655100031,
+      "size_bytes": 832665
+    },
+    {
+      "frame": 20,
+      "file": "frame_0020.png",
+      "sha256": "d52e86a1148a0bde0c5629fabdd3536a30cfafc53417a2e6d744e6e8f7c58a6b",
+      "seconds": 102.3045910050023,
+      "size_bytes": 832491
+    },
+    {
+      "frame": 21,
+      "file": "frame_0021.png",
+      "sha256": "62ba7496044761dc7bcfd46974d8ee09fd085e68c807fc1e5cfdcc3835b0e7eb",
+      "seconds": 100.98870531599823,
+      "size_bytes": 832675
+    },
+    {
+      "frame": 22,
+      "file": "frame_0022.png",
+      "sha256": "d3a72abc72c252a8e60c6fb00966ea2124f35c43806beaf80a20d707b215ed22",
+      "seconds": 100.89634862099774,
+      "size_bytes": 832583
+    },
+    {
+      "frame": 23,
+      "file": "frame_0023.png",
+      "sha256": "cef2a9877a9d23bbd357556017e5ca07eaebe9da85454c85a2f9297187316c22",
+      "seconds": 100.66247984500296,
+      "size_bytes": 832625
+    },
+    {
+      "frame": 24,
+      "file": "frame_0024.png",
+      "sha256": "2118c3bbed38ff03f35280724747b98c321d4deb584796427d30c2cdb9f3a62b",
+      "seconds": 100.86145174500052,
+      "size_bytes": 832631
+    },
+    {
+      "frame": 25,
+      "file": "frame_0025.png",
+      "sha256": "a026502cb91cb10849ae569d2236e0a9587d24d98c203bf9a520b857cae1ae55",
+      "seconds": 105.34574209199855,
+      "size_bytes": 833044
+    },
+    {
+      "frame": 26,
+      "file": "frame_0026.png",
+      "sha256": "5d52cb065270e8d3168e0b7a906be382053a1427fffd41b9fca00a41fe1df4f2",
+      "seconds": 99.60314149700207,
+      "size_bytes": 833174
+    },
+    {
+      "frame": 27,
+      "file": "frame_0027.png",
+      "sha256": "5d360b3c0dee53a1a5dee06837c2dffa1b941e36bde17d830057795b57cbf40f",
+      "seconds": 100.59442187999957,
+      "size_bytes": 833923
+    },
+    {
+      "frame": 28,
+      "file": "frame_0028.png",
+      "sha256": "fa2c83dd0834e1c8fa468fe5066dca1f7c621469cfd54840ff733c4b1dd722e4",
+      "seconds": 99.53890397799842,
+      "size_bytes": 833832
+    },
+    {
+      "frame": 29,
+      "file": "frame_0029.png",
+      "sha256": "24fc9f6932526756342a75d4c9796518b32c972cc55690d7adf0ee78db1165b8",
+      "seconds": 100.75819082699672,
+      "size_bytes": 834098
+    },
+    {
+      "frame": 30,
+      "file": "frame_0030.png",
+      "sha256": "762b31f47ced149a6c99c1f1dd07675f00b63958cd607c973915cf9e150627ab",
+      "seconds": 98.49419237600159,
+      "size_bytes": 834262
+    },
+    {
+      "frame": 31,
+      "file": "frame_0031.png",
+      "sha256": "01fac94b5882449535b3af6fac8acbaf9a04c0843c57761ff4b3588b2058bb1f",
+      "seconds": 102.7672651569992,
+      "size_bytes": 834443
+    },
+    {
+      "frame": 32,
+      "file": "frame_0032.png",
+      "sha256": "65e453260e2187769db6d1a102d8fafb9b4c0f78dc7cf7b82fe69b79b64291ac",
+      "seconds": 101.43423691600037,
+      "size_bytes": 834581
+    },
+    {
+      "frame": 33,
+      "file": "frame_0033.png",
+      "sha256": "6282d7df102efcb8968481485362ba8a86276a576d070f919bf275ea8047d7ea",
+      "seconds": 101.68967910300125,
+      "size_bytes": 834833
+    },
+    {
+      "frame": 34,
+      "file": "frame_0034.png",
+      "sha256": "aafd901a547ff1487ea0f2939faed335f40390694619f89fbfb4ccaa53c56bc8",
+      "seconds": 100.40887056599968,
+      "size_bytes": 834742
+    },
+    {
+      "frame": 35,
+      "file": "frame_0035.png",
+      "sha256": "3f86ef3a7460a61214829269916e81e200f82bd8897d7421b4fcd80f39343dba",
+      "seconds": 99.74629613800062,
+      "size_bytes": 835887
+    },
+    {
+      "frame": 36,
+      "file": "frame_0036.png",
+      "sha256": "a218d361727abadc7cdc609ff3005140db557204676dd6492ab4046afe19adc4",
+      "seconds": 99.79730879700219,
+      "size_bytes": 836138
+    },
+    {
+      "frame": 37,
+      "file": "frame_0037.png",
+      "sha256": "5390f1827afcd9117ab7e4d90f37318b8f54899a6f4059b75c2c4fb0ab33e3bb",
+      "seconds": 99.27617374500187,
+      "size_bytes": 836416
+    },
+    {
+      "frame": 38,
+      "file": "frame_0038.png",
+      "sha256": "80723fc9415487f12bef660a5d408f4e1f66040c0f5be1f2cecb4a14612caa51",
+      "seconds": 101.73165878000145,
+      "size_bytes": 837170
+    },
+    {
+      "frame": 39,
+      "file": "frame_0039.png",
+      "sha256": "07760a59b827d3612b9a7e7517c5b4d984a1d0ff69fecdff4659a2b17ffee11b",
+      "seconds": 100.80038961699756,
+      "size_bytes": 836997
+    },
+    {
+      "frame": 40,
+      "file": "frame_0040.png",
+      "sha256": "e3ad2fc1ecdc5f643025c97f2417c9e32e63728153930ca434ad3848b3b853a4",
+      "seconds": 100.88550157499776,
+      "size_bytes": 836606
+    },
+    {
+      "frame": 41,
+      "file": "frame_0041.png",
+      "sha256": "c0ae888de5b890001e0f2dd1d79bed18a62f867dbaf08a3c21f443d5382e8744",
+      "seconds": 100.68029373199897,
+      "size_bytes": 838255
+    },
+    {
+      "frame": 42,
+      "file": "frame_0042.png",
+      "sha256": "c4acd32ed7dd2cb51c65e7c5b328cf708a509665ef59b497dfba412004bc5623",
+      "seconds": 100.52007512000273,
+      "size_bytes": 838499
+    },
+    {
+      "frame": 43,
+      "file": "frame_0043.png",
+      "sha256": "64f83722167e1c037650a8e803464df2b721da73c3371c9e529e4d9f40cc344a",
+      "seconds": 100.41208430700135,
+      "size_bytes": 838513
+    },
+    {
+      "frame": 44,
+      "file": "frame_0044.png",
+      "sha256": "5748bfec1a37c91d4341766e6a79da09490fa7f2613bb7613971844f45195e2d",
+      "seconds": 101.05577301299854,
+      "size_bytes": 839797
+    },
+    {
+      "frame": 45,
+      "file": "frame_0045.png",
+      "sha256": "b0122cf47510895bfe23ccbb9055c8c6be3d7a18369095be7090652163182d4b",
+      "seconds": 100.35546174100091,
+      "size_bytes": 839997
+    },
+    {
+      "frame": 46,
+      "file": "frame_0046.png",
+      "sha256": "d2463fb47787f3e1937df47ad84f60e221951e146a3ec18c4f099393860ba8fb",
+      "seconds": 100.43991569799982,
+      "size_bytes": 840920
+    },
+    {
+      "frame": 47,
+      "file": "frame_0047.png",
+      "sha256": "d531872b8e939d643e2ab2c901380d1fd9a895ade72a28d7323fe603cbc22fb0",
+      "seconds": 101.06552291600019,
+      "size_bytes": 841844
+    },
+    {
+      "frame": 48,
+      "file": "frame_0048.png",
+      "sha256": "bb87f10e8c130583386594cba3226ea8ec5b8701610cf1584ccb3b6430590f3b",
+      "seconds": 100.5910476329991,
+      "size_bytes": 841946
+    },
+    {
+      "frame": 49,
+      "file": "frame_0049.png",
+      "sha256": "3cdc9b4ef9f974ea92367d18251e50b0d1899da6e1328c5338301e05aac9b59a",
+      "seconds": 102.21018632099731,
+      "size_bytes": 842815
+    },
+    {
+      "frame": 50,
+      "file": "frame_0050.png",
+      "sha256": "56b8bf7c50a59a805372ceb31c45e974224306d00e8c613281035cdf82bbd149",
+      "seconds": 103.82813023200288,
+      "size_bytes": 842871
+    },
+    {
+      "frame": 51,
+      "file": "frame_0051.png",
+      "sha256": "3d02200a3cf53f5c2b1d6ce0263506b18f198baba81baeb37197dbadc7e46166",
+      "seconds": 103.52106042099695,
+      "size_bytes": 842366
+    },
+    {
+      "frame": 52,
+      "file": "frame_0052.png",
+      "sha256": "9b28a9efe329725332786274adc3f453f10e00d071b1e069d8338807685544fe",
+      "seconds": 105.14687855800003,
+      "size_bytes": 843192
+    },
+    {
+      "frame": 53,
+      "file": "frame_0053.png",
+      "sha256": "39f254d433f59723e588cfa7ce4dc5a69a9a4d97b5948398b2c625a637cbba21",
+      "seconds": 103.7817250679982,
+      "size_bytes": 843155
+    },
+    {
+      "frame": 54,
+      "file": "frame_0054.png",
+      "sha256": "b2bab4693bd583a6ab1f709f63848eb688351806d23d21694295a989feb24254",
+      "seconds": 101.07487481299904,
+      "size_bytes": 843360
+    },
+    {
+      "frame": 55,
+      "file": "frame_0055.png",
+      "sha256": "267c47be1386f155bf687b8c89afa3219a60c19a290354079530f090dc03bdee",
+      "seconds": 103.45164940299946,
+      "size_bytes": 843071
+    },
+    {
+      "frame": 56,
+      "file": "frame_0056.png",
+      "sha256": "8dad12019e0b5bfee46dace45f06648e8c6e8184ea2d83d271f4a993e83bf1d1",
+      "seconds": 101.04830367199975,
+      "size_bytes": 843486
+    },
+    {
+      "frame": 57,
+      "file": "frame_0057.png",
+      "sha256": "2bd4b6d7a1e18662aba06ae4d9ca1cee3c91703b555e1449d48790d85ef8bd07",
+      "seconds": 99.94519565899827,
+      "size_bytes": 843677
+    },
+    {
+      "frame": 58,
+      "file": "frame_0058.png",
+      "sha256": "d560be7ed3d5b63a7a8e0fcf1e240c25cd476089602661c2ab60c72dfaf55c42",
+      "seconds": 100.32679881200238,
+      "size_bytes": 843921
+    },
+    {
+      "frame": 59,
+      "file": "frame_0059.png",
+      "sha256": "7477609fc8e2162a2b1e5ebedf4b45e88e039f799014174cfd0644b8c49d114b",
+      "seconds": 102.10313237099763,
+      "size_bytes": 843779
+    },
+    {
+      "frame": 60,
+      "file": "frame_0060.png",
+      "sha256": "183b936f945ae248fcec99b61d0417b46e25edfdb66fe0c45a0ff6334d00e19f",
+      "seconds": 104.182324677,
+      "size_bytes": 843328
+    },
+    {
+      "frame": 61,
+      "file": "frame_0061.png",
+      "sha256": "376893f0c7299af446f1b8117124752edd1e66fcb3617caad6c5ae6c98f396da",
+      "seconds": 107.49569284999961,
+      "size_bytes": 843485
+    },
+    {
+      "frame": 62,
+      "file": "frame_0062.png",
+      "sha256": "e6c37e3bce0baf6b6d30a4acd858cd8407e6ed74c8e42d2b8d888c045b013f6f",
+      "seconds": 104.61113520299841,
+      "size_bytes": 843598
+    },
+    {
+      "frame": 63,
+      "file": "frame_0063.png",
+      "sha256": "bcbd40d3566832938a04aa43c7e50d20332c939e861f5d9627b69068b8903118",
+      "seconds": 103.5951683270032,
+      "size_bytes": 843715
+    },
+    {
+      "frame": 64,
+      "file": "frame_0064.png",
+      "sha256": "9d205b658bb080df1048b1763b76b4874edf7a0638f8ec732758b07daa1bb0d7",
+      "seconds": 101.36836288099948,
+      "size_bytes": 844002
+    },
+    {
+      "frame": 65,
+      "file": "frame_0065.png",
+      "sha256": "7fa2611e2ba4de6d3ee60a463295e751c6739cf933cbaa72bd62151e94ec1e55",
+      "seconds": 100.07017020399871,
+      "size_bytes": 843670
+    },
+    {
+      "frame": 66,
+      "file": "frame_0066.png",
+      "sha256": "662d87422ddaf28f4e6413882498ff39cb084e56cb6b999173e96dcc19428ccc",
+      "seconds": 101.1383823469987,
+      "size_bytes": 843555
+    },
+    {
+      "frame": 67,
+      "file": "frame_0067.png",
+      "sha256": "e81a4bcaac398a6137a54667f7d898e636727f74d8499bbbab585150767082ac",
+      "seconds": 104.2911152380002,
+      "size_bytes": 843502
+    },
+    {
+      "frame": 68,
+      "file": "frame_0068.png",
+      "sha256": "5c548ce301e5d2e3cc4f04021c7379df35867f2b01be59d0ce66f779c21c0ab7",
+      "seconds": 103.0329705740005,
+      "size_bytes": 844080
+    },
+    {
+      "frame": 69,
+      "file": "frame_0069.png",
+      "sha256": "1fa11ab0b17fb83a7cd88fc8928a6d0282eda78b8ff82d7cfa64992f10d54005",
+      "seconds": 100.2534479470014,
+      "size_bytes": 843637
+    },
+    {
+      "frame": 70,
+      "file": "frame_0070.png",
+      "sha256": "ef38ea8a6302a034ae7a99dd5aebaadf956f1e11de8ed0b0519b42a2791533d9",
+      "seconds": 104.02631085900066,
+      "size_bytes": 843556
+    },
+    {
+      "frame": 71,
+      "file": "frame_0071.png",
+      "sha256": "26f365f9f079a159855c66012c178032e426ee3fb88e02da188d634b5bf266b8",
+      "seconds": 103.34160973799953,
+      "size_bytes": 843732
+    },
+    {
+      "frame": 72,
+      "file": "frame_0072.png",
+      "sha256": "2231469f04217b122c964749cbf564466b2141a3899483bfbd7416db2c399c93",
+      "seconds": 104.8338638109999,
+      "size_bytes": 843998
+    }
+  ],
+  "public_stills": [
+    {
+      "file": "qa/draft_001.png",
+      "raw_sha256": "29cb941d2d7b3879913f66b948f1aba4cc579129d6e19348b033ab1c5eff2cfe",
+      "public_sha256": "87edeccff09d5fe48e1df42e7b47e42518335cd6141eddecb7633c1641310be8",
+      "idat_sha256": "6aedee95ab7bcc9d8160e1c18f02e2c8b4ec720c351155c67a6c11f62e0687ef",
+      "rgb_sha256": "bd0f1e7d5da279c00c6912db815508ac6f12eb0f7540238e704ed740a4b898c3",
+      "dimensions": [
+        480,
+        480
+      ],
+      "removed_renderer_text_keys": [
+        "File",
+        "Date",
+        "Time",
+        "Frame",
+        "Camera",
+        "Scene",
+        "RenderTime",
+        "cycles.ViewLayer.samples",
+        "cycles.ViewLayer.total_time",
+        "cycles.ViewLayer.render_time",
+        "cycles.ViewLayer.synchronization_time"
+      ],
+      "idat_unchanged": true,
+      "rgb_pixels_unchanged": true
+    },
+    {
+      "file": "renders/frame_0001.png",
+      "raw_sha256": "6e91e5d3d7c138751e0045d5eae698167d3d023ef3084763fac0c70dd421262d",
+      "public_sha256": "b9ca47729da958a104b2247b9befa3f952d5f5d9da971edee5aa0ac9d5ab33b4",
+      "idat_sha256": "3032f522345c9a5a8515786cb2ecb88f35ed04e8b96f0b0e76d0f634d9d5b914",
+      "rgb_sha256": "90cf474d6b055cfc19999b6ceddddb3bebdf1168afeccecc59cfd2c4d184e724",
+      "dimensions": [
+        768,
+        768
+      ],
+      "removed_renderer_text_keys": [
+        "File",
+        "Date",
+        "Time",
+        "Frame",
+        "Camera",
+        "Scene",
+        "RenderTime",
+        "cycles.ViewLayer.samples",
+        "cycles.ViewLayer.total_time",
+        "cycles.ViewLayer.render_time",
+        "cycles.ViewLayer.synchronization_time"
+      ],
+      "idat_unchanged": true,
+      "rgb_pixels_unchanged": true
+    },
+    {
+      "file": "qa/draft_036.png",
+      "raw_sha256": "c4e54477f369689986d7f21ef13a24e9a1384ef077a50013d5c795fab681233d",
+      "public_sha256": "000502884dd90b84ae1089349347491a1d5810c57e6fb2354fa3efb0bd8b6cb9",
+      "idat_sha256": "5ae24e9547effdc55875b4e10916b952b70a9959522448b1fa7ea15da8ae41c8",
+      "rgb_sha256": "bda7593bb4dfb653e6ffdda8f97e9aa1a613200887e27bd02ee8bff41e7e60dd",
+      "dimensions": [
+        480,
+        480
+      ],
+      "removed_renderer_text_keys": [
+        "File",
+        "Date",
+        "Time",
+        "Frame",
+        "Camera",
+        "Scene",
+        "RenderTime",
+        "cycles.ViewLayer.samples",
+        "cycles.ViewLayer.total_time",
+        "cycles.ViewLayer.render_time",
+        "cycles.ViewLayer.synchronization_time"
+      ],
+      "idat_unchanged": true,
+      "rgb_pixels_unchanged": true
+    },
+    {
+      "file": "renders/frame_0036.png",
+      "raw_sha256": "a218d361727abadc7cdc609ff3005140db557204676dd6492ab4046afe19adc4",
+      "public_sha256": "aeb76941d60d97d5af3ead3893ec7e9118c4f21411728058197091c2ce29ce57",
+      "idat_sha256": "8e919342595f7c94a804d9a719c2b1442f791bfb4ecaf37f0823652098930ef8",
+      "rgb_sha256": "734317bd013beac38da3db6b23630d4a40fb72d12626070ceaa8757357e58c87",
+      "dimensions": [
+        768,
+        768
+      ],
+      "removed_renderer_text_keys": [
+        "File",
+        "Date",
+        "Time",
+        "Frame",
+        "Camera",
+        "Scene",
+        "RenderTime",
+        "cycles.ViewLayer.samples",
+        "cycles.ViewLayer.total_time",
+        "cycles.ViewLayer.render_time",
+        "cycles.ViewLayer.synchronization_time"
+      ],
+      "idat_unchanged": true,
+      "rgb_pixels_unchanged": true
+    },
+    {
+      "file": "qa/draft_072.png",
+      "raw_sha256": "7c10e52a789d67a29b7a81c8cc993d5f92b2225b867633d50a50fad260002e79",
+      "public_sha256": "d776c722a61390a241a71e452e62957df71bc0643a5bb1eeee874768653df609",
+      "idat_sha256": "96f5d23bd89903a2cae1b7b1f0d2790284ef84675dd72cdcc7f407a011692b86",
+      "rgb_sha256": "673257801a9d7f02fc172532a336e897d8e01bc2ac7742f8323baad1b00d55dc",
+      "dimensions": [
+        480,
+        480
+      ],
+      "removed_renderer_text_keys": [
+        "File",
+        "Date",
+        "Time",
+        "Frame",
+        "Camera",
+        "Scene",
+        "RenderTime",
+        "cycles.ViewLayer.samples",
+        "cycles.ViewLayer.total_time",
+        "cycles.ViewLayer.render_time",
+        "cycles.ViewLayer.synchronization_time"
+      ],
+      "idat_unchanged": true,
+      "rgb_pixels_unchanged": true
+    },
+    {
+      "file": "renders/frame_0072.png",
+      "raw_sha256": "2231469f04217b122c964749cbf564466b2141a3899483bfbd7416db2c399c93",
+      "public_sha256": "84e6012508779e10944b872373ec3b8b41c1657e1e0bf2e844452b666167954c",
+      "idat_sha256": "9849ae0932a0b6b12b97e5b0c1694e1bd2caea36188f3bf93157bd68479bd97b",
+      "rgb_sha256": "3499e523e5827d848c3fcc78d5821c752484075a87eca8189fa79961843099df",
+      "dimensions": [
+        768,
+        768
+      ],
+      "removed_renderer_text_keys": [
+        "File",
+        "Date",
+        "Time",
+        "Frame",
+        "Camera",
+        "Scene",
+        "RenderTime",
+        "cycles.ViewLayer.samples",
+        "cycles.ViewLayer.total_time",
+        "cycles.ViewLayer.render_time",
+        "cycles.ViewLayer.synchronization_time"
+      ],
+      "idat_unchanged": true,
+      "rgb_pixels_unchanged": true
+    }
+  ],
+  "encoding_command_relative": [
+    "ffmpeg",
+    "-hide_banner",
+    "-y",
+    "-threads",
+    "2",
+    "-filter_threads",
+    "2",
+    "-framerate",
+    "12",
+    "-start_number",
+    "1",
+    "-i",
+    "work/frames/frame_%04d.png",
+    "-frames:v",
+    "72",
+    "-an",
+    "-vf",
+    "format=gbrp,zscale=matrixin=gbr:primariesin=bt709:transferin=iec61966-2-1:rangein=full:matrix=bt709:primaries=bt709:transfer=iec61966-2-1:range=limited,format=yuv420p",
+    "-c:v",
+    "libx264",
+    "-threads",
+    "2",
+    "-preset",
+    "slow",
+    "-crf",
+    "18",
+    "-pix_fmt",
+    "yuv420p",
+    "-color_primaries",
+    "bt709",
+    "-colorspace",
+    "bt709",
+    "-color_trc",
+    "iec61966-2-1",
+    "-color_range",
+    "tv",
+    "-fps_mode",
+    "passthrough",
+    "-map_metadata",
+    "-1",
+    "-movflags",
+    "+faststart",
+    "-metadata",
+    "title=The Second Cup - Silent Camera Study",
+    "renders/The_Second_Cup_Silent_Film.mp4"
+  ],
+  "color_pipeline": "Display-referred sRGB PNG; preserve sRGB transfer, convert RGB to limited-range BT.709 matrix YUV420p. H.264 explicitly tags BT.709 primaries/matrix and IEC 61966-2-1 transfer.",
+  "encoding_is_lossy": true,
+  "frame_interpolation_or_image_retouching": false,
+  "native_playback_review": "completed and accepted with disclosed render-grain/12fps limits; see qa/native_playback.json"
+}

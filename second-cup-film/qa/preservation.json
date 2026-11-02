@@ -1,0 +1,19 @@
+{
+  "original_art_bundle": {
+    "bundle": "The Second Cup",
+    "verified_files": 13,
+    "geometry_audit": "pass",
+    "final_pixels": [
+      1200,
+      1200
+    ],
+    "renderer_paths_removed": true,
+    "reference_bytes_preserved": true
+  },
+  "original_blend_sha256": "eac50adac6aa30158ea9cfac70d9d3c71ae25602abc33975fb0ec2023c9f49bd",
+  "original_final_png_sha256": "bf3aca586974f2e7024dae8d5bdc265eb31e4576b7985a2c3bb5162c77d593b0",
+  "original_art_bundle_still_verified": true,
+  "animation_blend_sha256": "b234abc7a0e6f70c6e326293bab1c1b355e4eab605b5491f986d1a56493e55d6",
+  "resume_completed_frame_skips": 72,
+  "resume_did_not_render_new_frames": true
+}

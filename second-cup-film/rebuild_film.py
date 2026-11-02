@@ -22,7 +22,6 @@ parser=argparse.ArgumentParser()
 source_candidates=[ROOT.parent/"second-cup/The_Second_Cup.blend",ROOT.parent/"second_cup/The_Second_Cup.blend"]
 parser.add_argument("--source",type=Path,default=next((p for p in source_candidates if p.exists()),source_candidates[0]))
 parser.add_argument("--draft",action="store_true")
-parser.add_argument("--render",action="store_true",help="Render all 72 frames, serially.")
 args=parser.parse_args(sys.argv[sys.argv.index("--")+1:] if "--" in sys.argv else [])
 for name in ("work/tmp","qa","renders","reference"):(ROOT/name).mkdir(parents=True,exist_ok=True)
 source=args.source.resolve()
@@ -123,7 +122,7 @@ for frame in range(1,73):
     framing.append({"frame":frame,"objects":per_object})
 scene.frame_set(1)
 filename=ROOT/"The_Second_Cup_Film.blend"
-bpy.ops.wm.save_as_mainfile(filepath=str(filename),relative_remap=False)
+bpy.ops.wm.save_as_mainfile(filepath=str(filename),relative_remap=False,compress=False)
 assert hashlib.sha256(source.read_bytes()).hexdigest()==SOURCE_SHA
 plan={"title":scene["film_title"],"source_sha256":SOURCE_SHA,"static_scene_fingerprint":before,
  "static_scene_unchanged":True,"camera_frames":camera_records,"framing_all_frames":framing,
@@ -141,7 +140,4 @@ if args.draft:
         t=time.monotonic();bpy.ops.render.render(write_still=True)
         timings.append({"frame":frame,"seconds":time.monotonic()-t})
     (ROOT/"work/draft_timings.json").write_text(json.dumps(timings,indent=2)+"\n")
-elif args.render:
-    (ROOT/"work/frames").mkdir(exist_ok=True)
-    bpy.ops.render.render(animation=True)
 print("SECOND_CUP_FILM_READY",filename.name)

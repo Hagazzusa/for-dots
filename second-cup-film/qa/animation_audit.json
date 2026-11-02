@@ -1,0 +1,111 @@
+{
+  "blender_version": "4.3.2",
+  "source_blend_sha256": "eac50adac6aa30158ea9cfac70d9d3c71ae25602abc33975fb0ec2023c9f49bd",
+  "animation_blend_sha256": "b234abc7a0e6f70c6e326293bab1c1b355e4eab605b5491f986d1a56493e55d6",
+  "static_scene_sha256": "5ccccd565b4557550bf12b453c42efb4b431e39d3b5420b02feb35585d4d973c",
+  "checks": {
+    "original_source_hash_unchanged": true,
+    "saved_static_scene_matches_source": true,
+    "no_non_camera_object_animation": true,
+    "original_optical_and_color_settings_preserved": true,
+    "bounded_node_pointer_and_output_comparison": true,
+    "evaluated_corner_normals_match_source": true,
+    "no_material_animation": true,
+    "only_camera_animation_channels": true,
+    "only_camera_data_focus_animation": true,
+    "saved_focus_curve_matches_all_72_planned_frames": true,
+    "dof_active_without_focus_object_override": true,
+    "no_camera_constraints": true,
+    "camera_smooth_small_steps": true,
+    "five_original_prop_groups": true,
+    "saved_camera_all_hero_bounds_inside_safe_frame": true,
+    "saved_camera_projection_matches_plan": true,
+    "six_second_frame_range": true,
+    "cpu_two_threads": true,
+    "no_private_machine_paths_in_blend": true,
+    "blend_storage_is_uncompressed": true,
+    "native_image_and_packed_paths_relative": true,
+    "native_browser_paths_safe": true,
+    "no_drivers": true,
+    "no_embedded_python_texts": true,
+    "relative_render_path": true,
+    "no_external_linked_blender_libraries": true
+  },
+  "all_checks_pass": true,
+  "camera_travel_m": 0.11280517414775093,
+  "maximum_step_m_per_frame": 0.002978614291648905,
+  "maximum_second_difference_m": 0.0001290550541100388,
+  "focus_distance_start_end_m": [
+    1.4816182851791382,
+    1.6330137252807617
+  ],
+  "maximum_focus_distance_difference_from_plan_m": 0.0,
+  "actual_saved_camera_minimum_hero_margin": 0.05331959202885628,
+  "actual_projection_max_difference_from_plan": 0.0,
+  "projection_method": "Reopened saved animation; evaluated hero vertices projected through actual saved camera at every integer frame 1..72. Not a re-check of plan bounds alone.",
+  "native_metadata": {
+    "image_paths": [
+      {
+        "name": "REFERENCE ONLY · original GPT Image concept",
+        "path": "//reference/gpt_image_concept.png",
+        "packed": true,
+        "packed_paths": [
+          "reference/gpt_image_concept.png"
+        ]
+      }
+    ],
+    "file_browser_directories": [
+      "//"
+    ],
+    "render_path": "//work/frames/frame_",
+    "drivers": [],
+    "external_libraries": []
+  },
+  "preserved_optical_settings": {
+    "view": {
+      "view_transform": "AgX",
+      "look": "AgX - Medium High Contrast",
+      "exposure": -0.10000000149011612,
+      "gamma": 1.0
+    },
+    "cycles": {
+      "max_bounces": 10,
+      "diffuse_bounces": 4,
+      "glossy_bounces": 5,
+      "transmission_bounces": 8,
+      "caustics_reflective": false,
+      "caustics_refractive": false,
+      "sample_clamp_direct": 0.0,
+      "sample_clamp_indirect": 4.0
+    },
+    "world": "World",
+    "film_transparent": false,
+    "display_device": "sRGB",
+    "compositor_enabled": false
+  },
+  "supplemental_node_audit": {
+    "sha256": "810e0041a0cf1d7e9a87ab3557cc69df7302a63f669c869ed9bf62576fb4fac0",
+    "node_types": [
+      "BACKGROUND",
+      "BSDF_PRINCIPLED",
+      "BUMP",
+      "MAP_RANGE",
+      "OUTPUT_MATERIAL",
+      "OUTPUT_WORLD",
+      "TEX_COORD",
+      "TEX_NOISE",
+      "VOLUME_ABSORPTION"
+    ],
+    "scope": "Output defaults and RNA pointer settings for this explicit node whitelist; not a general nested-group/curve auditor."
+  },
+  "evaluated_corner_normals_sha256": "e86e5913bc7bafa1afc977df96c29868ed1e475ed71b0b385ca140b39f28ebef",
+  "frame_count": 72,
+  "fps": 12,
+  "duration_seconds": 6,
+  "geometry_scope": "This scene's evaluated mesh coordinates/topology, transforms, material assignments and recorded node properties/world/lights are fingerprinted. Separate bounded checks compare evaluated corner normals and the used node types' output/pointer values. Not a general arbitrary Blender node-group auditor. Camera/render settings intentionally differ.",
+  "limitations": [
+    "Frame margins prove no hero vertex is cropped, not absence of all inter-object occlusion.",
+    "No fluid, heat, steam or pouring animation.",
+    "Original artistic liquid-shadow/caustic approximations remain unchanged."
+  ]
+}

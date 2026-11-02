@@ -1,6 +1,6 @@
 {
-  "status": "source-only WIP; film incomplete",
-  "files_excluding_manifest": 6,
+  "status": "final verified film sources; 72-frame silent video completed",
+  "files_excluding_manifest": 8,
   "files": [
     {
       "path": ".gitignore",
@@ -9,13 +9,13 @@
     },
     {
       "path": "README.md",
-      "size_bytes": 5551,
-      "sha256": "86ece7a5d8a54e153c6af9682e4e30baccf9ede58fb49629182e5f903f71480b"
+      "size_bytes": 8513,
+      "sha256": "48bf549bd6c1384e68037903e6f7931cf9346d7baa6aa3ed8313303989e1ddb5"
     },
     {
       "path": "rebuild_film.py",
-      "size_bytes": 7248,
-      "sha256": "f2dbf7544d185c36542ae02ad2be302bda01a7fd09efea500e2a43d6ba80d30c"
+      "size_bytes": 7066,
+      "sha256": "69bd6f93ad5809290e56cac8609e0d278450e2e3a989c812220daa1d21f4ce06"
     },
     {
       "path": "scene_fingerprint.py",
@@ -24,13 +24,23 @@
     },
     {
       "path": "audit_film.py",
-      "size_bytes": 4677,
-      "sha256": "7eb67b07b8e76a8d43fb3bea1eefff85d057e09f5503e12fbfebe5d3c1a426c9"
+      "size_bytes": 12545,
+      "sha256": "a7481d33a60ef9578c3c13cc5794bfcc819590162aa70abb3d53868d5abbe03a"
     },
     {
       "path": "render_frames.py",
       "size_bytes": 3731,
       "sha256": "89bc3e2a4733208e8e9d628850802d73d409d0bd18e416ec7826309cc05303db"
+    },
+    {
+      "path": "finish_film.py",
+      "size_bytes": 6668,
+      "sha256": "009a32146d90714b4b349e2f4bcab4b928ebbafb87cf3963714a24927d158f76"
+    },
+    {
+      "path": "verify_film.py",
+      "size_bytes": 3430,
+      "sha256": "0a0ea17e40cae81b89712dec486a83e76c00cf3df2ac595acc0a77c73c381bd2"
     }
   ]
 }

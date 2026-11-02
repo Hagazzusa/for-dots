@@ -1,0 +1,32 @@
+{
+  "review_status": "completed",
+  "accepted": true,
+  "video_sha256": "3d9b3c61c7ab10b799aed3cd21fd3bb34539162791392658a76722db493b83f2",
+  "native_player": "ffplay 7.1.5 / X11",
+  "video_displayed_with_preserved_square_aspect": true,
+  "method": "Observed the actual native player during repeated playback and paused/seeked checks, plus original rendered start/middle/end pixels. This is sampled visual QA, not continuous motion capture or a cross-device timing benchmark.",
+  "observations": [
+    "All five props remain present; both bread plates are empty and uncut.",
+    "Near tea is sharper at the beginning; the empty cup is clearer near the end. The shift is gentle, not a dramatic attention guarantee.",
+    "Camera motion and framing stay consistent across sampled phases.",
+    "Metal reflection and amber liquid remain readable; fine render grain is still visible.",
+    "Black side bars in the wide player window preserve the square video rather than stretching it."
+  ],
+  "native_controls_used": [
+    "pause/resume",
+    "seek to start",
+    "seek toward end",
+    "quit"
+  ],
+  "decoder_error_lines": [],
+  "frame_drop_counter_note": "Initial playback log reported fd=0. Intentional seeking later raised the cumulative counter to 62; this seek-affected counter is not used as a playback-performance result.",
+  "temporary_player_closed_verified": true,
+  "preexisting_game_window_retained": true,
+  "preexisting_blender_unsaved_marker_retained": true,
+  "close_note": "The quit key closed the window. Its subsequent key-up event reported a stale X11 window; fresh window inventory verified the player was gone and original windows remained.",
+  "limitations": [
+    "12 fps and remaining render grain are intentional disclosed delivery limits.",
+    "The six-second shot is not a seamless loop.",
+    "No claim that all frames were individually judged in every player or display."
+  ]
+}

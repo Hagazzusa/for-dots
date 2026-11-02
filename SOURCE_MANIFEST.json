@@ -9,8 +9,8 @@
     },
     {
       "path": "GALLERY.md",
-      "size": 5696,
-      "sha256": "eaf43e35778ee2375241073fabcc8a5a252a50c231ec7805c5007406f6e44a1c"
+      "size": 5801,
+      "sha256": "4999afc1fbbc22ae1b79f1b3c2e8ea1d65d996c3eb9dcf0f0812af6eb0d31913"
     },
     {
       "path": "GIT_ENVIRONMENT_CHECK.md",
@@ -19,8 +19,8 @@
     },
     {
       "path": "README.md",
-      "size": 13010,
-      "sha256": "e1ecf16baa064d2296529c9d34c9af32e90d284c10be6f16223e21cd41ceaee3"
+      "size": 13061,
+      "sha256": "58887cfa750da905cbd17006ad63dc9e7f93267c0f9889b34170b01b46ad23fb"
     },
     {
       "path": "a-place-to-pause/.gitignore",
@@ -3504,23 +3504,108 @@
     },
     {
       "path": "second-cup-film/README.md",
-      "size": 5551,
-      "sha256": "86ece7a5d8a54e153c6af9682e4e30baccf9ede58fb49629182e5f903f71480b"
+      "size": 8513,
+      "sha256": "48bf549bd6c1384e68037903e6f7931cf9346d7baa6aa3ed8313303989e1ddb5"
+    },
+    {
+      "path": "second-cup-film/The_Second_Cup_Film.blend",
+      "size": 5377512,
+      "sha256": "b234abc7a0e6f70c6e326293bab1c1b355e4eab605b5491f986d1a56493e55d6"
     },
     {
       "path": "second-cup-film/audit_film.py",
-      "size": 4677,
-      "sha256": "7eb67b07b8e76a8d43fb3bea1eefff85d057e09f5503e12fbfebe5d3c1a426c9"
+      "size": 12545,
+      "sha256": "a7481d33a60ef9578c3c13cc5794bfcc819590162aa70abb3d53868d5abbe03a"
+    },
+    {
+      "path": "second-cup-film/camera_plan.json",
+      "size": 378548,
+      "sha256": "ea7d0ea2e43b929dec900533afc409ab4999e5881721a975c4968baafaa7d38d"
+    },
+    {
+      "path": "second-cup-film/finish_film.py",
+      "size": 6668,
+      "sha256": "009a32146d90714b4b349e2f4bcab4b928ebbafb87cf3963714a24927d158f76"
+    },
+    {
+      "path": "second-cup-film/manifest.json",
+      "size": 4097,
+      "sha256": "b1c0e996f03d0ecf1c17fa68fc978921c18c85fa5cf0f2d282571dcce589f5ba"
+    },
+    {
+      "path": "second-cup-film/provenance.json",
+      "size": 2470,
+      "sha256": "e704b2c2ebf7c7013b02e3fd9c8a992866cecd713263490dfd045a946fcec1c5"
+    },
+    {
+      "path": "second-cup-film/qa/animation_audit.json",
+      "size": 4380,
+      "sha256": "a3a5d801120969c5b279746c569018fd66153d40585bc9626eabbd5b21f29577"
+    },
+    {
+      "path": "second-cup-film/qa/draft_001.png",
+      "size": 393151,
+      "sha256": "87edeccff09d5fe48e1df42e7b47e42518335cd6141eddecb7633c1641310be8"
+    },
+    {
+      "path": "second-cup-film/qa/draft_036.png",
+      "size": 394638,
+      "sha256": "000502884dd90b84ae1089349347491a1d5810c57e6fb2354fa3efb0bd8b6cb9"
+    },
+    {
+      "path": "second-cup-film/qa/draft_072.png",
+      "size": 396816,
+      "sha256": "d776c722a61390a241a71e452e62957df71bc0643a5bb1eeee874768653df609"
+    },
+    {
+      "path": "second-cup-film/qa/film_checks.json",
+      "size": 23129,
+      "sha256": "6039ec388fa0c674f273ccc152378343491bf4c233a168c78b86b26cbb083a57"
+    },
+    {
+      "path": "second-cup-film/qa/native_playback.json",
+      "size": 1907,
+      "sha256": "e3db12541191ef370daa1188f6e31ed3f1912dd272cd3b7035a6f298ceeb5541"
+    },
+    {
+      "path": "second-cup-film/qa/preservation.json",
+      "size": 667,
+      "sha256": "571741cfb97ecea7a44fcf20c9528d9a7903efb7e1f8b55c5fbffab64287215c"
     },
     {
       "path": "second-cup-film/rebuild_film.py",
-      "size": 7248,
-      "sha256": "f2dbf7544d185c36542ae02ad2be302bda01a7fd09efea500e2a43d6ba80d30c"
+      "size": 7066,
+      "sha256": "69bd6f93ad5809290e56cac8609e0d278450e2e3a989c812220daa1d21f4ce06"
+    },
+    {
+      "path": "second-cup-film/reference/gpt_image_concept.png",
+      "size": 1983682,
+      "sha256": "cf05a332a3728fe363acccb16f6bab1da377ff48f3c9a3a65983ac9b038e5c4f"
     },
     {
       "path": "second-cup-film/render_frames.py",
       "size": 3731,
       "sha256": "89bc3e2a4733208e8e9d628850802d73d409d0bd18e416ec7826309cc05303db"
+    },
+    {
+      "path": "second-cup-film/renders/The_Second_Cup_Silent_Film.mp4",
+      "size": 872305,
+      "sha256": "3d9b3c61c7ab10b799aed3cd21fd3bb34539162791392658a76722db493b83f2"
+    },
+    {
+      "path": "second-cup-film/renders/frame_0001.png",
+      "size": 831203,
+      "sha256": "b9ca47729da958a104b2247b9befa3f952d5f5d9da971edee5aa0ac9d5ab33b4"
+    },
+    {
+      "path": "second-cup-film/renders/frame_0036.png",
+      "size": 835635,
+      "sha256": "aeb76941d60d97d5af3ead3893ec7e9118c4f21411728058197091c2ce29ce57"
+    },
+    {
+      "path": "second-cup-film/renders/frame_0072.png",
+      "size": 843495,
+      "sha256": "84e6012508779e10944b872373ec3b8b41c1657e1e0bf2e844452b666167954c"
     },
     {
       "path": "second-cup-film/scene_fingerprint.py",
@@ -3529,8 +3614,13 @@
     },
     {
       "path": "second-cup-film/source_manifest.json",
-      "size": 1022,
-      "sha256": "9768daeba271bd2afd88fef5fceb65b8050c7f6beff95a10f34dd4f2c35858ae"
+      "size": 1359,
+      "sha256": "abbf6931778f22173a9bbd3eaec316a67a8b47caf3bcead307aef2bf86dfd078"
+    },
+    {
+      "path": "second-cup-film/verify_film.py",
+      "size": 3430,
+      "sha256": "0a0ea17e40cae81b89712dec486a83e76c00cf3df2ac595acc0a77c73c381bd2"
     },
     {
       "path": "second-cup-viewer/.gitignore",
