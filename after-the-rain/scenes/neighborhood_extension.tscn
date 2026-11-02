@@ -215,3 +215,11 @@ material_override = SubResource("SignWood")
 position = Vector3(3.5,0.75,-2.07)
 mesh = SubResource("SignPost")
 material_override = SubResource("SignWood")
+
+[node name="RestSeat" type="Node3D" parent="GlassRefuge"]
+[node name="Sit" type="Marker3D" parent="GlassRefuge/RestSeat"]
+position = Vector3(0,1.72,-0.96)
+[node name="Stand" type="Marker3D" parent="GlassRefuge/RestSeat"]
+position = Vector3(0,1.93,0.2)
+[node name="Interaction" type="Marker3D" parent="GlassRefuge/RestSeat"]
+position = Vector3(0,1.3,-0.96)

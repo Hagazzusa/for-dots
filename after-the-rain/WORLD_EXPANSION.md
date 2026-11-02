@@ -4,7 +4,7 @@ The glass refuge and the parked car now occupy the same small walkable street as
 
 ## Optional observations
 
-- **Glass refuge:** behind/right of the stop, following the small sign. The actual derived 3D model has a walk-in front opening, warm pendant and a dry volume shared by rain visibility and the existing ambience mix. Its bench is decorative in this slice.
+- **Glass refuge:** behind/right of the stop, following the small sign. The actual derived 3D model has a walk-in front opening, warm pendant and a dry volume shared by rain visibility and the existing ambience mix. Its bench supports E sit/stand, held cocoa and optional T quiet wait. Standing returns to the local clear floor, not the original bus stop.
 - **Parked siblings:** farther right, outside the passenger-side window. Exactly two adults remain in the front seats; the player observes from the pavement. A flattened moving carton, dashboard card and brief Korean reading suggest an older sister and younger brother delaying an ordinary goodbye after a first move. There is no driving, entry camera, voice recording or forced conversation.
 - **Flower shop:** closed for ordinary trade on the holiday, but one promised late pickup keeps the front light on. The existing wave/cat interactions remain optional.
 - **Bread passenger:** someone at home is putting on tea. Rain on the side glazing explains the brief roadward glance; the passenger stays under the roof and retains the established bus/umbrella lifecycle.
@@ -21,9 +21,19 @@ Two new warm lights have shadows disabled. The heater is a private, seeded synth
 
 ## Verification
 
-- Serial full regression: **42 test suites, zero failing suites**, including the previous liquid, bus, umbrella, passenger, radio, reader and pause checks.
+- Serial full regression: **43 test suites, zero failing suites**, including the previous liquid, bus, umbrella, passenger, radio, reader and pause checks.
 - `tests/world_expansion.gd` uses the real capsule and `move_and_slide` from the ordinary start, through the asymmetric entry at x=8, into the dry interior, back to the car and then the bus. It covers reader/boarding priority, per-instance glass/audio state, Korean page height, processing/pause/resume and reset.
 - Native ordinary-game keyboard playthrough walked that route without teleporting: entered the refuge, observed the dry caption and rain exclusion, read both car pages, closed/reopened pause, returned to the original stop and boarded a later bus. Original source Blender and the standalone viewer were not changed.
 - Native renderer is software OpenGL Compatibility. No target-device FPS, physical vehicle, construction, sound-quality or hearing-safety certification is claimed. The heater's lifecycle/numerical generation is tested; listening was unavailable.
 
 The public source and Git history preserve the prior reconstruction. This slice is new authored development, not recovered V37 source or historical QA.
+
+## Resting at either shelter
+
+The two seats share one interaction rule: an eligible nearby bus boarding action comes first, then an already-open reader, then standing or sitting. E advances a reader and closes its final page without moving the seated player; a subsequent E stands. Q closes the reader only. The original stop seat keeps its original exit position.
+
+`tests/refuge_seating.gd` checks both seat identities, copied exit coordinates, actual floor landing, immutable markers, reader pages and loan cancellation, cocoa sip progress, held umbrella, overview, quiet wait and bus departure without relocation, reset and free/re-instantiation. The production PCK gate separately passed build, ordinary startup and an unavailable source-test flag: 184 runtime files, no test fixtures, input still enabled.
+
+Native ordinary-game QA walked from the stop into the refuge, sat, sipped cocoa, used T and pause, returned from overview, stood locally and walked back out to the original stop. A later bus remained boardable after a missed departure, and R restored the ordinary opening after the ride. Both benches were exercised through normal keyboard input; no teleport fixture supplied the route. Reader edge cases are automated rather than claimed as a full native matrix.
+
+Known shutdown limitation: closing the native application reports retained audio resources at process exit. A serial ordinary-main `--quit-after 10 --verbose` comparison reproduces the same `rain.wav` and `engine.wav` retained streams on both the preceding shared-world checkpoint and this seat change. In-play input/rendering and explicit-cleanup regression/PCK gates passed; this is not a claim of a warning-free native shutdown or perceptual audio validation.

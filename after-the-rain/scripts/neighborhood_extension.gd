@@ -2,6 +2,8 @@ extends Node3D
 ## Optional public-space observations. Session injects its reader; no bus or player ownership.
 @export var observation_radius := 2.5
 @export var facing_threshold := 0.75
+@export var seat_radius := 1.8
+@export var seat_facing_threshold := 0.68
 @onready var cover = $GlassRefuge/RainCover
 @onready var heater: AudioStreamPlayer3D = $ParkedCar/Heater
 var panel: CanvasLayer
@@ -44,6 +46,7 @@ func target(camera:Camera3D, viewer:Vector3) -> String:
    selected=id
  return selected
 func hint(camera:Camera3D,viewer:Vector3)->String:
+ if can_sit(camera,viewer):return "[E] 유리 쉼터 벤치에 앉기"
  var id=target(camera,viewer)
  if id=="Car":return "[E] 차 밖에서 잠깐 바라보기 · 두 사람의 자리는 그대로"
  if id=="Refuge":return "[E] 유리 쉼터의 작은 안내 읽기"
@@ -77,3 +80,15 @@ func shutdown()->void:
 
 func _exit_tree()->void:
  shutdown()
+
+func seat_position()->Vector3:
+ return $GlassRefuge/RestSeat/Sit.global_position
+func stand_position()->Vector3:
+ return $GlassRefuge/RestSeat/Stand.global_position
+func can_sit(camera:Camera3D,viewer:Vector3)->bool:
+ if not enabled or camera==null:return false
+ # Only approach from the actual interior/front, never through the rear glazing.
+ var local_view:Vector3=$GlassRefuge.to_local(viewer)
+ if local_view.z < -0.55 or absf(local_view.x)>1.3:return false
+ var point:Vector3=$GlassRefuge/RestSeat/Interaction.global_position
+ return viewer.distance_to(point)<seat_radius and (-camera.global_basis.z).dot((point-camera.global_position).normalized())>seat_facing_threshold

@@ -25,7 +25,7 @@ Reconstruction adds arrow looking, explicit keyboard pause/help, phase-appropria
 
 The same walkable street now includes a warm glass refuge and a stationary compact car with two adult siblings. Follow the small **유리 쉼터 →** sign behind/right of the bus stop. Enter the refuge through its open front, or continue along the pavement to observe the car from the passenger side with **E**. The player remains outside the car; there is no driving or third-occupant camera. The flower-shop note and bread passenger add optional everyday context.
 
-These visits never gate the bus, umbrella, cocoa or ending. Missing a bus simply leaves another one to arrive. The refuge is a walk-in dry spot; its bench is decorative in this first connected slice. See [scope and verification](WORLD_EXPANSION.md).
+These visits never gate the bus, umbrella, cocoa or ending. Missing a bus simply leaves another one to arrive. The refuge is a walk-in dry spot: face its bench and press E to sit, F to sip cocoa, or T to wait quietly. E stands beside the same bench; it never returns you to the bus stop. While a reader is open, E advances/closes the text and Q closes it without standing. See [scope and verification](WORLD_EXPANSION.md).
 
 ## Editable source and third-party assets
 Saved scenes, scripts, configurations, procedural audio source and packed Blender assemblies are included. See `ARCHITECTURE.md`. City derivatives use Poly Haven CC0 data; provenance/legal text is in `assets/city/licenses/`. The Noto CJK font license is in `assets/fonts/NotoSansCJK-LICENSE.txt`. No external copyrighted music samples are used.

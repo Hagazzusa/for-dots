@@ -27,6 +27,7 @@ extends Node3D
 @onready var onboard = $OnboardView
 @onready var arrival_display = $World/BusStop/ArrivalDisplay
 @onready var disposal_point = $World/BusStop/TrashCan/Interaction
+var seated_exit_position := Vector3.ZERO
 var ride_finished := false
 var boarded := false
 var photo_mode := false
@@ -74,6 +75,7 @@ func _ready():
 		positions.append(Vector3(p[0],p[1],p[2]))
 	rain.initialize(positions)
 	player.reset(world.anchor("Start"))
+	seated_exit_position=world.anchor("Stand")
 	ambience.start()
 	if testing:
 		player.input_enabled=false
@@ -120,15 +122,17 @@ func interact():
 		return
 	photo_mode=false
 	player.set_motion_enabled(true)
-	if player.seated:
-		player.stand(world.anchor("Stand"))
-	elif bus.phase=="stopped" and near("Boarding",boarding_radius):
+	if not player.seated and bus.phase=="stopped" and near("Boarding",boarding_radius):
 		board_bus()
 	elif story and story.panel.is_open:
 		story.panel.advance()
+	elif player.seated:
+		player.stand(seated_exit_position)
 	elif near_disposal() and drink.can_dispose_empty():
 		if drink.dispose_empty():
 			player.held_drink.reset_visuals()
+	elif neighborhood.can_sit(player.camera,player.global_position):
+		sit_at(neighborhood.seat_position(),neighborhood.stand_position())
 	elif neighborhood.try_interact(player.camera,player.global_position):
 		pass
 	elif exploration and exploration.try_interact(player.camera,player.global_position):
@@ -136,7 +140,11 @@ func interact():
 	elif story and story.try_interact(player.camera,player.global_position):
 		pass
 	elif near("Seat",seat_radius):
-		player.sit(world.anchor("Seat"))
+		sit_at(world.anchor("Seat"),world.anchor("Stand"))
+func sit_at(seat_position:Vector3,stand_position:Vector3):
+	seated_exit_position=stand_position
+	player.sit(seat_position)
+
 func drink_action():
 	if photo_mode:return
 	drink.request_action(near("Vending",vending_radius) and not player.seated,boarded)
@@ -189,6 +197,7 @@ func restart():
 	bus.show()
 	photo_mode=false
 	player.reset(world.anchor("Start"))
+	seated_exit_position=world.anchor("Stand")
 	drink.reset()
 	player.held_drink.reset_visuals()
 	bus.reset()
@@ -218,12 +227,12 @@ func hint_text()->String:
 		if onboard.linger:return "[E] 오늘 밤 마무리하기    [R] 다시 시작"
 		return "[E] 창가에 조금 더 앉아 있기    [R] 다시 시작" if ride_finished else "A window seat. The city slips quietly by."
 	if photo_mode:return "[P / E] 바라보던 자리로 돌아가기    Space 잠깐 쉬기"
-	if player.seated:
-		return "[E] Stand up"+("     [F] Sip warm cocoa" if drink.sips>0 else "     Stay a while. There's no hurry.")+("    [T] 조용히 기다리기" if bus.phase=="waiting" else "")
-	if bus.phase=="stopped" and near("Boarding",boarding_radius):
+	if not player.seated and bus.phase=="stopped" and near("Boarding",boarding_radius):
 		return "[E] Board the 08 home     /     Or let this one pass."
 	if story and story.panel.is_open:
 		return story.hint(player.camera,player.global_position)
+	if player.seated:
+		return "[E] Stand up"+("     [F] Sip warm cocoa" if drink.sips>0 else "     Stay a while. There's no hurry.")+("    [T] 조용히 기다리기" if bus.phase=="waiting" else "")
 	if near_disposal() and drink.can_dispose_empty():
 		return "[E] Put the empty cup in the bin"
 	if near_disposal() and drink.has_cup and drink.sips==0:

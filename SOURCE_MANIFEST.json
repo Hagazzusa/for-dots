@@ -94,13 +94,13 @@
     },
     {
       "path": "after-the-rain/ARCHITECTURE.md",
-      "size": 19948,
-      "sha256": "0cc13d4663ea19ebd09292d91720323144cd386b844e4743cd0ca563d04a8496"
+      "size": 20142,
+      "sha256": "f194f5a5bfcc74948fce883592817c177755480440f1747de156f252a009a821"
     },
     {
       "path": "after-the-rain/README.md",
-      "size": 4073,
-      "sha256": "0dfbed313f32ebbb9bc1bfdd9b8e99b7ed218140c265c9aba05b533e25704eb2"
+      "size": 4246,
+      "sha256": "73b97e88e7364e4350dad59a218bba1ea31d5f7bec0d561a8b566033d9b31aff"
     },
     {
       "path": "after-the-rain/RECOVERY.md",
@@ -109,8 +109,8 @@
     },
     {
       "path": "after-the-rain/WORLD_EXPANSION.md",
-      "size": 3947,
-      "sha256": "4b18403136d2b7ebcbc75fdd4bba21155a31d3f18a32292ddf4e716597a921d0"
+      "size": 5789,
+      "sha256": "3df39fddabaf05f62612f8e38a4722ff3e833a3715a664c62d5b5ca26965172a"
     },
     {
       "path": "after-the-rain/art/.gdignore",
@@ -1144,8 +1144,8 @@
     },
     {
       "path": "after-the-rain/scenes/neighborhood_extension.tscn",
-      "size": 4792,
-      "sha256": "e228c83099411714474dcd22648dca3e2fc299bf4966d64b4d8a4dcbc3ead073"
+      "size": 5149,
+      "sha256": "26d4225268fb1c94bdd78881b015499b6829743b3e37ada3c96b953940003821"
     },
     {
       "path": "after-the-rain/scenes/neighborhood_walk.tscn",
@@ -1414,8 +1414,8 @@
     },
     {
       "path": "after-the-rain/scripts/neighborhood_extension.gd",
-      "size": 2791,
-      "sha256": "5964d1f87a2fecd85ff034e2477bb3fdeab35be797df9dde484f5dcfdba6a133"
+      "size": 3612,
+      "sha256": "aecbd7d6f97ce063b5889ef5a32860b986602fd885f7271aa4a4c64aab93f6fc"
     },
     {
       "path": "after-the-rain/scripts/neighborhood_extension.gd.uid",
@@ -1524,8 +1524,8 @@
     },
     {
       "path": "after-the-rain/scripts/session.gd",
-      "size": 12482,
-      "sha256": "b1ad2041b572b8c4066c2a2e6093d5c54bb0c6cc3615b4059f0a65da93b93d7c"
+      "size": 12931,
+      "sha256": "71c6ee8abf8022c6ca2535122d3f5e0212e08111a9cb20955872d1109f98107f"
     },
     {
       "path": "after-the-rain/scripts/session.gd.uid",
@@ -2011,6 +2011,16 @@
       "path": "after-the-rain/tests/recovery_window_life.gd.uid",
       "size": 20,
       "sha256": "0f835d4f7520eb4900e1ad2c34260bd12dbb8287854829918edcafc4916e126d"
+    },
+    {
+      "path": "after-the-rain/tests/refuge_seating.gd",
+      "size": 5788,
+      "sha256": "fab5a3ddabcd1f8dd75b632075db404d1aa06863fba7034a4243f354cfac7e01"
+    },
+    {
+      "path": "after-the-rain/tests/refuge_seating.gd.uid",
+      "size": 19,
+      "sha256": "59e8f966305f18fcafc3611835fa84d7c47a80ba937b9aad850af0324a848230"
     },
     {
       "path": "after-the-rain/tests/regression.gd",
