@@ -1,0 +1,131 @@
+{
+  "project": "Glass Refuge interactive viewer",
+  "status": "Orbit-only architectural viewer; native controls and fresh-import logic checked",
+  "files": [
+    {
+      "path": ".gitignore",
+      "bytes": 28,
+      "sha256": "3e284ae049bb2454d9590a419deb320278d98166f516b4659e25778677fdc427"
+    },
+    {
+      "path": "project.godot",
+      "bytes": 606,
+      "sha256": "6cbedf458744b9ddb35315b0ccd373a4b7b970490b5cd086d2933b17460e760e"
+    },
+    {
+      "path": "README.md",
+      "bytes": 6572,
+      "sha256": "8255258baa523eeee96e3bfb873c9d71980fc5859fdacb1c6d4074b6043bc3de"
+    },
+    {
+      "path": "assets/refuge.glb",
+      "bytes": 3617000,
+      "sha256": "fcd180b17573e343ed36954c30e3a31e74c6498a3e95824559d17027c83484af"
+    },
+    {
+      "path": "assets/refuge.glb.import",
+      "bytes": 1031,
+      "sha256": "903584711c1121d831e6096690cd6622a63813d6b46c6a1955e7cccc40ac189d"
+    },
+    {
+      "path": "scenes/pendant.tscn",
+      "bytes": 366,
+      "sha256": "409b763aabed0dd7af4eef37295a411329014516bc09c05483b02d9d4dc3d444"
+    },
+    {
+      "path": "scenes/refuge.tscn",
+      "bytes": 293,
+      "sha256": "9d696bfc88cf64f819d989dca6e6c96520d846bdd00db24a8898427f876c720f"
+    },
+    {
+      "path": "scenes/view_rig.tscn",
+      "bytes": 263,
+      "sha256": "dfa17c5c62b16e4f612e0fb426231305ed1bbd8859f6cc66aa9cb2562dc010f8"
+    },
+    {
+      "path": "scenes/viewer.tscn",
+      "bytes": 4070,
+      "sha256": "ece81d859ee6116ee25046fbbc4f10971040d7b12375c67b1d6dd25183348171"
+    },
+    {
+      "path": "scripts/pendant.gd",
+      "bytes": 912,
+      "sha256": "c28735756483baf706c8f7305452783b5e7ecb4ac4ff7865166c3cbbe699d54b"
+    },
+    {
+      "path": "scripts/pendant.gd.uid",
+      "bytes": 20,
+      "sha256": "95ffafe05d73a2afb5d238070ff671145125de268d79695a48bdc8b87d49e8b2"
+    },
+    {
+      "path": "scripts/refuge.gd",
+      "bytes": 1039,
+      "sha256": "afdfb2fabcb23de65282dcd336e478c192efa604bab4cac022ea3dea32e16abb"
+    },
+    {
+      "path": "scripts/refuge.gd.uid",
+      "bytes": 19,
+      "sha256": "d8dde1be44468f52a8693c812161cb0fea658018acb4dc838e9fdd8deef1d60b"
+    },
+    {
+      "path": "scripts/view_rig.gd",
+      "bytes": 2187,
+      "sha256": "ae2cfab7b1d3877ada26e20c84fb4c7c1b5f8c1879a539adda4a38db629d4aad"
+    },
+    {
+      "path": "scripts/view_rig.gd.uid",
+      "bytes": 19,
+      "sha256": "c9f2f497cf2aa1ea4a55d5e41ed7ce5f5a67e0c60cb0bb009bf6e55855c13728"
+    },
+    {
+      "path": "scripts/viewer.gd",
+      "bytes": 1716,
+      "sha256": "5d12bff3f704597854ccbcc073b436f9dd187f8094f51095242d610500f57fc9"
+    },
+    {
+      "path": "scripts/viewer.gd.uid",
+      "bytes": 19,
+      "sha256": "5c0a0fcfd70b7a68fed9c2f17f1cee0f70704a745dc34c7b7010e16f49d0af0d"
+    },
+    {
+      "path": "tools/export_refuge.py",
+      "bytes": 5258,
+      "sha256": "7d13033108337e35636961a87031b899a5f32ee23c75676a26bba5b2d10a3a18"
+    },
+    {
+      "path": "tools/test_viewer.gd",
+      "bytes": 3172,
+      "sha256": "de5966f069dd4473d4659ecd7b0242f654b187b69948ce0561606393d0768200"
+    },
+    {
+      "path": "tools/test_viewer.gd.uid",
+      "bytes": 20,
+      "sha256": "923fd8dfaba303d017e72492e06db7414edc77176e0954e78e6495a2575d65d7"
+    },
+    {
+      "path": "qa/.gdignore",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "qa/export_audit.json",
+      "bytes": 1065,
+      "sha256": "798aa73b258607accbf6d9cf0b6342359c44bfb1bf8f91e6f8b2368276a09238"
+    },
+    {
+      "path": "qa/glb_audit.json",
+      "bytes": 1029,
+      "sha256": "5da7a7e11078bd29c078e2dc861d04556671fb1c4fbede147662dc4aba1292ae"
+    },
+    {
+      "path": "qa/headless_tests.json",
+      "bytes": 123,
+      "sha256": "e8f1320097674a379a00146e1a8f1e9c04455d8a25a52a2b86b78d41713d8274"
+    },
+    {
+      "path": "qa/native_qa.json",
+      "bytes": 1265,
+      "sha256": "149a56e7415d4b6c791c7d5d9dc24e7f920ec256798949c030c2a65f7e32e6b0"
+    }
+  ]
+}

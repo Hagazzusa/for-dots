@@ -1,0 +1,41 @@
+{
+  "source_sha256": "60b2a139c9e56ffb53c8cd3da4d00dbe85e91e96fc27fe89358ff10dff62b612",
+  "source_unchanged": true,
+  "source_meshes_kept": 316,
+  "excluded_objects": 689,
+  "derived_mesh_objects": 33,
+  "bounds_blender_z_up_before": {
+    "min": [
+      -2.37353253364563,
+      -6.597716331481934,
+      -0.0636344775557518
+    ],
+    "max": [
+      2.3499999046325684,
+      2.255660057067871,
+      3.638200044631958
+    ]
+  },
+  "bounds_blender_z_up_after": {
+    "min": [
+      -2.37353253364563,
+      -6.597716331481934,
+      -0.0636344701051712
+    ],
+    "max": [
+      2.3499999046325684,
+      2.255660057067871,
+      3.638200044631958
+    ]
+  },
+  "glass_panes": 24,
+  "triangles": 78388,
+  "material_slots": 35,
+  "glb_bytes": 3617000,
+  "simplifications": [
+    "No botanical meshes or landscape",
+    "Procedural materials replaced by approximate PBR constants; no texture baking",
+    "No source lighting exported; realtime viewer reconstructs lighting",
+    "Opaque static pieces merged by material; glass panes and globe remain separate"
+  ]
+}

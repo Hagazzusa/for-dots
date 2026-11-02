@@ -1,0 +1,31 @@
+{
+  "native_window_inspected": true,
+  "engine": "Godot 4.6.3",
+  "renderer": "Compatibility / Mesa llvmpipe",
+  "passed": [
+    "Actual 3D front, side and rear pixels",
+    "Keyboard horizontal orbit through a full circuit",
+    "Vertical orbit",
+    "Zoom and reset",
+    "Visible pendant emission and interior lighting on/off",
+    "Glazing hide/show",
+    "Arrow navigation after UI button click",
+    "Default front-three-quarter lamp ON glass ON restored"
+  ],
+  "headless_checks": 42,
+  "logical_keycode_zero_physical_supported": true,
+  "fps_measured": false,
+  "limits": [
+    "No Cycles visual parity",
+    "Remote zero-duration letter taps unreliable; 200\u2013250 ms deliberate taps worked",
+    "No walking or collision validation",
+    "No botanical geometry or texture bakes"
+  ],
+  "environment_warnings": [
+    "V-Sync mode switching unsupported by driver",
+    "No audio device; native runtime fell back to Dummy. Silent launch command now recommends Dummy explicitly."
+  ],
+  "primary_source_hash_unchanged": "60b2a139c9e56ffb53c8cd3da4d00dbe85e91e96fc27fe89358ff10dff62b612",
+  "primary_render_hash_unchanged": "b5382595a11fd091dce3739eb98fddbe452656b7f68f76deb7cd3b655029ddb1",
+  "fresh_self_contained_copy_import_and_42_checks_passed": true
+}

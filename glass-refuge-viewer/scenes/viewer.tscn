@@ -1,0 +1,104 @@
+[gd_scene load_steps=11 format=3]
+[ext_resource type="Script" path="res://scripts/viewer.gd" id="1"]
+[ext_resource type="PackedScene" path="res://scenes/refuge.tscn" id="2"]
+[ext_resource type="PackedScene" path="res://scenes/view_rig.tscn" id="3"]
+[ext_resource type="PackedScene" path="res://scenes/pendant.tscn" id="4"]
+[sub_resource type="ProceduralSkyMaterial" id="SkyMaterial"]
+sky_top_color = Color(0.12, 0.19, 0.30, 1)
+sky_horizon_color = Color(0.52, 0.57, 0.63, 1)
+ground_bottom_color = Color(0.065, 0.08, 0.10, 1)
+ground_horizon_color = Color(0.32, 0.37, 0.43, 1)
+[sub_resource type="Sky" id="Sky"]
+sky_material = SubResource("SkyMaterial")
+[sub_resource type="Environment" id="Environment"]
+background_mode = 2
+sky = SubResource("Sky")
+ambient_light_source = 3
+ambient_light_color = Color(0.50, 0.61, 0.77, 1)
+ambient_light_energy = 0.55
+reflected_light_source = 2
+tonemap_mode = 2
+[sub_resource type="StandardMaterial3D" id="GroundMaterial"]
+albedo_color = Color(0.09, 0.12, 0.15, 1)
+roughness = 0.75
+[sub_resource type="PlaneMesh" id="GroundMesh"]
+material = SubResource("GroundMaterial")
+size = Vector2(30, 30)
+[sub_resource type="StyleBoxFlat" id="PanelStyle"]
+bg_color = Color(0.035, 0.055, 0.08, 0.90)
+corner_radius_top_left = 12
+corner_radius_top_right = 12
+corner_radius_bottom_left = 12
+corner_radius_bottom_right = 12
+[node name="GlassRefugeViewer" type="Node3D"]
+script = ExtResource("1")
+[node name="Refuge" parent="." instance=ExtResource("2")]
+[node name="ViewRig" parent="." instance=ExtResource("3")]
+[node name="Pendant" parent="." instance=ExtResource("4")]
+[node name="Environment" type="WorldEnvironment" parent="."]
+environment = SubResource("Environment")
+[node name="DuskLight" type="DirectionalLight3D" parent="."]
+rotation_degrees = Vector3(-35, -35, 0)
+light_color = Color(0.73, 0.81, 1, 1)
+light_energy = 0.75
+shadow_enabled = true
+[node name="Ground" type="MeshInstance3D" parent="."]
+position = Vector3(0, -0.09, 0)
+mesh = SubResource("GroundMesh")
+[node name="UI" type="CanvasLayer" parent="."]
+[node name="Panel" type="PanelContainer" parent="UI"]
+offset_left = 20.0
+offset_top = 18.0
+offset_right = 625.0
+offset_bottom = 163.0
+mouse_filter = 1
+theme_override_styles/panel = SubResource("PanelStyle")
+[node name="Margin" type="MarginContainer" parent="UI/Panel"]
+layout_mode = 2
+theme_override_constants/margin_left = 16
+theme_override_constants/margin_top = 12
+theme_override_constants/margin_right = 16
+theme_override_constants/margin_bottom = 12
+[node name="Rows" type="VBoxContainer" parent="UI/Panel/Margin"]
+layout_mode = 2
+theme_override_constants/separation = 5
+[node name="Title" type="Label" parent="UI/Panel/Margin/Rows"]
+layout_mode = 2
+theme_override_font_sizes/font_size = 22
+text = "GLASS REFUGE  /  interactive model"
+[node name="Controls" type="Label" parent="UI/Panel/Margin/Rows"]
+layout_mode = 2
+text = "Arrow keys: orbit   •   + / −: zoom   •   L: lamp   •   G: glass   •   R: reset"
+[node name="Status" type="Label" parent="UI/Panel/Margin/Rows"]
+layout_mode = 2
+theme_override_colors/font_color = Color(0.72, 0.80, 0.88, 1)
+text = "Loading architectural study…"
+[node name="Buttons" type="HBoxContainer" parent="UI/Panel/Margin/Rows"]
+layout_mode = 2
+theme_override_constants/separation = 8
+[node name="Lamp" type="Button" parent="UI/Panel/Margin/Rows/Buttons"]
+layout_mode = 2
+focus_mode = 0
+text = "L  Lamp: ON"
+[node name="Glass" type="Button" parent="UI/Panel/Margin/Rows/Buttons"]
+layout_mode = 2
+focus_mode = 0
+text = "G  Glass: ON"
+[node name="Reset" type="Button" parent="UI/Panel/Margin/Rows/Buttons"]
+layout_mode = 2
+focus_mode = 0
+text = "R  Reset"
+[node name="Disclosure" type="Label" parent="UI"]
+anchors_preset = 12
+anchor_top = 1.0
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = 22.0
+offset_top = -40.0
+offset_right = -22.0
+offset_bottom = -12.0
+grow_horizontal = 2
+grow_vertical = 0
+mouse_filter = 2
+theme_override_font_sizes/font_size = 13
+text = "Actual 3D geometry • Simplified realtime materials; planting omitted • Not the Cycles render or a construction model"
