@@ -1,0 +1,73 @@
+{
+  "format_version": 1,
+  "title": "The Second Cup",
+  "file_count_excluding_manifest": 13,
+  "manifest_excludes_itself": true,
+  "files": [
+    {
+      "path": ".gitignore",
+      "size_bytes": 55,
+      "sha256": "d80738d384e3a26ec95fd40eb7db2536b895867a794db68d173faa6b4bc13d43"
+    },
+    {
+      "path": "The_Second_Cup.blend",
+      "size_bytes": 5359000,
+      "sha256": "eac50adac6aa30158ea9cfac70d9d3c71ae25602abc33975fb0ec2023c9f49bd"
+    },
+    {
+      "path": "README.md",
+      "size_bytes": 9402,
+      "sha256": "ffb0c3dad12e896f77eb4b08047a76b3e1d942fda8b20b69d5bcccf902ad7f3d"
+    },
+    {
+      "path": "build.py",
+      "size_bytes": 19792,
+      "sha256": "01669d2e6e7cf91cc4e0b3aee2c622677a0a19e3846bf38148324dcf3a8828ab"
+    },
+    {
+      "path": "audit.py",
+      "size_bytes": 10510,
+      "sha256": "072589cc978184e54bc2e0339a875919c7c71da3544f19e5f79ee32295ca46e3"
+    },
+    {
+      "path": "verify_bundle.py",
+      "size_bytes": 7489,
+      "sha256": "6301995c471c2c8e87f4fe491e3615f40e009431eeb6cc71687a3777eb87c023"
+    },
+    {
+      "path": "checks.json",
+      "size_bytes": 773,
+      "sha256": "22c99fa68abfa8e027cb12861ebd2415f5e769ab6a851e4ae889676d626018f9"
+    },
+    {
+      "path": "geometry_audit.json",
+      "size_bytes": 19757,
+      "sha256": "0f14edebec192d1d9e64cea9e957a8f1ad1da11062f12d9bb0e6ec03b22d34d6"
+    },
+    {
+      "path": "provenance.json",
+      "size_bytes": 3234,
+      "sha256": "bab14b765b59931a99b03cf4f87db1f029f7c24653c5d5e955d326c2afc33538"
+    },
+    {
+      "path": "reference/gpt_image_concept.png",
+      "size_bytes": 1983682,
+      "sha256": "cf05a332a3728fe363acccb16f6bab1da377ff48f3c9a3a65983ac9b038e5c4f"
+    },
+    {
+      "path": "reference/concept_prompt.txt",
+      "size_bytes": 1869,
+      "sha256": "0b1b753c7e8b993e3fd5bb816882a4376ddd9bf1de7aad3dde725f0b89067440"
+    },
+    {
+      "path": "renders/01_blockout.png",
+      "size_bytes": 520426,
+      "sha256": "99a66b74d321c4a96c28dfd024dde7aa8277e4d92b3c31a11bc76af6fc9c0c58"
+    },
+    {
+      "path": "renders/the_second_cup_final.png",
+      "size_bytes": 1977089,
+      "sha256": "bf3aca586974f2e7024dae8d5bdc265eb31e4576b7985a2c3bb5162c77d593b0"
+    }
+  ]
+}

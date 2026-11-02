@@ -1,0 +1,29 @@
+{
+  "blender_version": "4.3.2",
+  "draft": false,
+  "hero_props": 5,
+  "render": {
+    "engine": "CYCLES",
+    "device": "CPU",
+    "threads": 2,
+    "samples": 128,
+    "resolution": [
+      1200,
+      1200
+    ],
+    "denoising": false
+  },
+  "cup_inner_floor_m": 0.012,
+  "cup_rim_height_m": 0.0748,
+  "tea_surface_height_m": 0.059,
+  "meniscus_height_m": 0.0008,
+  "no_image_texture_projection": true,
+  "no_downloaded_assets": true,
+  "reference_original_preserved": true,
+  "limitations": [
+    "Not a product or fabrication design.",
+    "No thermal, fluid or mechanical simulation.",
+    "Optical absorption, disabled liquid shadows and disabled caustics are artistic approximations.",
+    "Assembled handle, body and lugs have intentional hidden overlaps."
+  ]
+}

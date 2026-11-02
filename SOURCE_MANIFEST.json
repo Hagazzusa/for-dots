@@ -9,8 +9,8 @@
     },
     {
       "path": "GALLERY.md",
-      "size": 4849,
-      "sha256": "b970e069dde3384e241f4871a31bb5594f126f57305ee91e7b448e84fc72c824"
+      "size": 5616,
+      "sha256": "5edc791128a6aaf05c78d2c2bad02fc32624926c397274291aea3fcafa4234fb"
     },
     {
       "path": "GIT_ENVIRONMENT_CHECK.md",
@@ -19,8 +19,8 @@
     },
     {
       "path": "README.md",
-      "size": 12461,
-      "sha256": "51992e244430f7f2343b20ccee37637750f2b9e9a4c19e7243708ff7f9a60e17"
+      "size": 12910,
+      "sha256": "485983e869510e69ae4df87aa1562a35c3c4577e87589a9917dc265fc2f3d3e8"
     },
     {
       "path": "a-place-to-pause/.gitignore",
@@ -3496,6 +3496,76 @@
       "path": "rain-clock/verify.py",
       "size": 984,
       "sha256": "c97813b58abec48ad200577cd1ba720633c30675e5a953e22e0ba7d3caf476b2"
+    },
+    {
+      "path": "second-cup/.gitignore",
+      "size": 55,
+      "sha256": "d80738d384e3a26ec95fd40eb7db2536b895867a794db68d173faa6b4bc13d43"
+    },
+    {
+      "path": "second-cup/README.md",
+      "size": 9402,
+      "sha256": "ffb0c3dad12e896f77eb4b08047a76b3e1d942fda8b20b69d5bcccf902ad7f3d"
+    },
+    {
+      "path": "second-cup/The_Second_Cup.blend",
+      "size": 5359000,
+      "sha256": "eac50adac6aa30158ea9cfac70d9d3c71ae25602abc33975fb0ec2023c9f49bd"
+    },
+    {
+      "path": "second-cup/audit.py",
+      "size": 10510,
+      "sha256": "072589cc978184e54bc2e0339a875919c7c71da3544f19e5f79ee32295ca46e3"
+    },
+    {
+      "path": "second-cup/build.py",
+      "size": 19792,
+      "sha256": "01669d2e6e7cf91cc4e0b3aee2c622677a0a19e3846bf38148324dcf3a8828ab"
+    },
+    {
+      "path": "second-cup/checks.json",
+      "size": 773,
+      "sha256": "22c99fa68abfa8e027cb12861ebd2415f5e769ab6a851e4ae889676d626018f9"
+    },
+    {
+      "path": "second-cup/geometry_audit.json",
+      "size": 19757,
+      "sha256": "0f14edebec192d1d9e64cea9e957a8f1ad1da11062f12d9bb0e6ec03b22d34d6"
+    },
+    {
+      "path": "second-cup/manifest.json",
+      "size": 2208,
+      "sha256": "387effa0e07ab2cbbe21122acad451cdea87dd3cef02883e93027019946b487d"
+    },
+    {
+      "path": "second-cup/provenance.json",
+      "size": 3234,
+      "sha256": "bab14b765b59931a99b03cf4f87db1f029f7c24653c5d5e955d326c2afc33538"
+    },
+    {
+      "path": "second-cup/reference/concept_prompt.txt",
+      "size": 1869,
+      "sha256": "0b1b753c7e8b993e3fd5bb816882a4376ddd9bf1de7aad3dde725f0b89067440"
+    },
+    {
+      "path": "second-cup/reference/gpt_image_concept.png",
+      "size": 1983682,
+      "sha256": "cf05a332a3728fe363acccb16f6bab1da377ff48f3c9a3a65983ac9b038e5c4f"
+    },
+    {
+      "path": "second-cup/renders/01_blockout.png",
+      "size": 520426,
+      "sha256": "99a66b74d321c4a96c28dfd024dde7aa8277e4d92b3c31a11bc76af6fc9c0c58"
+    },
+    {
+      "path": "second-cup/renders/the_second_cup_final.png",
+      "size": 1977089,
+      "sha256": "bf3aca586974f2e7024dae8d5bdc265eb31e4576b7985a2c3bb5162c77d593b0"
+    },
+    {
+      "path": "second-cup/verify_bundle.py",
+      "size": 7489,
+      "sha256": "6301995c471c2c8e87f4fe491e3615f40e009431eeb6cc71687a3777eb87c023"
     },
     {
       "path": "seeded-roadscapes/.gitignore",

@@ -1,0 +1,81 @@
+{
+  "title": "두 잔의 자리 · The Second Cup",
+  "generated_concept": {
+    "file": "reference/gpt_image_concept.png",
+    "sha256": "cf05a332a3728fe363acccb16f6bab1da377ff48f3c9a3a65983ac9b038e5c4f",
+    "generator": "Built-in GPT Image tool; exact deployed model version not supplied.",
+    "prompt_file": "reference/concept_prompt.txt",
+    "prompt_sha256": "0b1b753c7e8b993e3fd5bb816882a4376ddd9bf1de7aad3dde725f0b89067440",
+    "use": "Preserved original conceptual reference; packed byte-identically, never used as a material, environment or compositing image.",
+    "original_bytes_and_embedded_provenance_preserved": true,
+    "png_chunk_types": [
+      "IHDR",
+      "caBX",
+      "IDAT",
+      "IEND"
+    ]
+  },
+  "blender_artwork": {
+    "source": "Original independently authored mesh geometry, procedural materials and light rig in build.py.",
+    "downloaded_models_textures_or_hdri": false,
+    "concept_is_not_a_render": true,
+    "scene_is_not_an_exact_image_reconstruction": true,
+    "fiction": "Fictional rainy-town spouse preparing tea before the passenger returns; no real personal biography."
+  },
+  "render_public_copies": [
+    {
+      "file": "renders/01_blockout.png",
+      "original_sha256": "907fa0fa6642440ce07a5bbb035cce2c9adbd70b9f25a5b44897ad6a6d5534b6",
+      "public_sha256": "99a66b74d321c4a96c28dfd024dde7aa8277e4d92b3c31a11bc76af6fc9c0c58",
+      "removed_renderer_text_keys": [
+        "File",
+        "Date",
+        "Time",
+        "Frame",
+        "Camera",
+        "Scene",
+        "RenderTime",
+        "cycles.ViewLayer.samples",
+        "cycles.ViewLayer.total_time",
+        "cycles.ViewLayer.render_time",
+        "cycles.ViewLayer.synchronization_time"
+      ],
+      "idat_sha256": "0fef9db68ffe9b1a03230c35dd5e1e3a3a4ab341b307f8970aa0ffca94ebac0a",
+      "decoded_rgb_pixels_sha256": "5b82b89b3f10c52925234d2dbf4f18e8124024d33176a30228d13b278b97202f",
+      "idat_unchanged": true,
+      "decoded_pixels_unchanged": true,
+      "dimensions": [
+        600,
+        600
+      ]
+    },
+    {
+      "file": "renders/the_second_cup_final.png",
+      "original_sha256": "25ac90fb73b38e0295fb7a0041478c1f873843e6337f55f8bb9a447dfc44e4b7",
+      "public_sha256": "bf3aca586974f2e7024dae8d5bdc265eb31e4576b7985a2c3bb5162c77d593b0",
+      "removed_renderer_text_keys": [
+        "File",
+        "Date",
+        "Time",
+        "Frame",
+        "Camera",
+        "Scene",
+        "RenderTime",
+        "cycles.ViewLayer.samples",
+        "cycles.ViewLayer.total_time",
+        "cycles.ViewLayer.render_time",
+        "cycles.ViewLayer.synchronization_time"
+      ],
+      "idat_sha256": "1b9564efc72637a5dfc20048267ca635cbd4eb721852b26c0029ca77ef443003",
+      "decoded_rgb_pixels_sha256": "9b821d9e720bc22d255680a1a797070815b6eeeb643fc76555d58e8ec9558078",
+      "idat_unchanged": true,
+      "decoded_pixels_unchanged": true,
+      "dimensions": [
+        1200,
+        1200
+      ]
+    }
+  ],
+  "privacy": "Only this project’s known renderer text keys were removed. Source/reference provenance was not altered. Private render originals stay in ignored work/.",
+  "limitations": "Artistic optical approximations; no manufacturing, safety, mechanical, thermal or fluid validation."
+}

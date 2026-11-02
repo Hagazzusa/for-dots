@@ -1,0 +1,661 @@
+{
+  "inspected_file": "The_Second_Cup.blend",
+  "blender_version": "4.3.2",
+  "mesh_objects": 61,
+  "evaluated_vertices": 35100,
+  "contacts_to_table_m": {
+    "Near cup | continuous 4 mm rim, inner bowl and foot": 0.0,
+    "Far cup | continuous 4 mm rim, inner bowl and foot": 0.0,
+    "Near bread plate | empty shallow dish with real foot": 0.0,
+    "Far bread plate | empty shallow dish with real foot": 0.0,
+    "Kettle | continuous grounded base ring": 0.0
+  },
+  "cup_geometry_raycast_tests": [
+    {
+      "name": "Near cup | continuous 4 mm rim, inner bowl and foot",
+      "inside_center_ray_floor_z": 0.012000009417533875,
+      "underside_center_ray_z": 0.004999997094273567,
+      "base_center_thickness_m": 0.007000012323260307,
+      "side_wall_thickness_at_z055_m": 0.0040000006556510925,
+      "rim_wall_thickness_at_z068_m": 0.004000018170432815,
+      "highest_rim_z": 0.07479999959468842,
+      "inside_clear_to_floor": true
+    },
+    {
+      "name": "Far cup | continuous 4 mm rim, inner bowl and foot",
+      "inside_center_ray_floor_z": 0.012000009417533875,
+      "underside_center_ray_z": 0.004999997094273567,
+      "base_center_thickness_m": 0.007000012323260307,
+      "side_wall_thickness_at_z055_m": 0.003999993205070496,
+      "rim_wall_thickness_at_z068_m": 0.004000017037417265,
+      "highest_rim_z": 0.07479999959468842,
+      "inside_clear_to_floor": true
+    }
+  ],
+  "cup_handle_intrusion_depth_m": {
+    "Near cup | solid rounded handle": 0,
+    "Far cup | solid rounded handle": 0
+  },
+  "tea_geometry": {
+    "center_surface_z": 0.05900000035762787,
+    "flat_surface_height_range": 0.0,
+    "maximum_meniscus_z": 0.05979999899864197,
+    "meniscus_rise_m": 0.0007999986410140991,
+    "liquid_below_rim_m": 0.015000000596046448,
+    "liquid_floor_clearance_m": 0.0001499998494982717,
+    "liquid_object_count": 1
+  },
+  "spout_geometry": {
+    "mouth_wall_thickness_m": 0.001376045652041389,
+    "mouth_outer_radius_m": 0.011180022226522264,
+    "mouth_inner_radius_m": 0.009803976574480875,
+    "mouth_center_ray_hit_distance_from_15mm_outside": null,
+    "center_ray_passes_open_lip": true
+  },
+  "circular_body_clearances_m": {
+    "Near cup | continuous 4 mm rim, inner bowl and foot / Far cup | continuous 4 mm rim, inner bowl and foot": 0.33226147502395287,
+    "Near cup | continuous 4 mm rim, inner bowl and foot / Near bread plate | empty shallow dish with real foot": 0.0895272955401606,
+    "Near cup | continuous 4 mm rim, inner bowl and foot / Far bread plate | empty shallow dish with real foot": 0.270139531437405,
+    "Far cup | continuous 4 mm rim, inner bowl and foot / Near bread plate | empty shallow dish with real foot": 0.2716541757472703,
+    "Far cup | continuous 4 mm rim, inner bowl and foot / Far bread plate | empty shallow dish with real foot": 0.07878203227934095,
+    "Near bread plate | empty shallow dish with real foot / Far bread plate | empty shallow dish with real foot": 0.1112450162044454
+  },
+  "reference_sha256": "cf05a332a3728fe363acccb16f6bab1da377ff48f3c9a3a65983ac9b038e5c4f",
+  "checks": {
+    "all_mesh_coordinates_finite": true,
+    "all_meshes_closed_after_modifiers": true,
+    "no_zero_area_faces": true,
+    "outward_winding": true,
+    "five_prop_groups": true,
+    "five_supports_touch_table": true,
+    "both_cups_are_open_to_inner_floor": true,
+    "both_cups_have_real_base_and_wall": true,
+    "cup_handles_do_not_enter_inner_bowls": true,
+    "only_one_cup_contains_liquid": true,
+    "tea_center_is_horizontal": true,
+    "meniscus_is_submillimetre": true,
+    "tea_is_below_the_rim": true,
+    "tea_base_does_not_penetrate_cup": true,
+    "cup_and_plate_bodies_do_not_overlap": true,
+    "spout_has_real_wall_and_open_mouth": true,
+    "packed_reference_matches_original_bytes": true,
+    "no_reference_or_other_image_projection": true,
+    "relative_image_and_output_paths": true,
+    "no_private_machine_paths_in_saved_blend": true,
+    "no_linked_external_blender_libraries": true,
+    "cpu_two_threads": true
+  },
+  "all_assertions_pass": true,
+  "render": {
+    "engine": "CYCLES",
+    "device": "CPU",
+    "threads": 2,
+    "samples": 128,
+    "resolution": [
+      1200,
+      1200
+    ],
+    "output": "//renders/the_second_cup_final.png",
+    "denoising": false
+  },
+  "limitations": [
+    "Not a manufacturing, food-contact, heat, load or safety assessment.",
+    "Cup handles and kettle hardware have intentional hidden assembly overlaps.",
+    "Circular-body spacing is not exhaustive mesh/mesh collision certification.",
+    "Spout wall is closed and its bore is modeled; the boolean socket is not a fluid-tight or pouring validation.",
+    "Liquid has a 0.15 mm numerical floor clearance; meniscus is modeled, not simulated.",
+    "Liquid shadow rays and reflective/refractive caustics are disabled: an artistic optical approximation.",
+    "All reference image bytes are preserved; the scene uses no image texture nodes."
+  ],
+  "meshes": [
+    {
+      "name": "Near cup | continuous 4 mm rim, inner bowl and foot",
+      "vertices": 3458,
+      "faces": 3584,
+      "finite_coordinates": true,
+      "non_manifold_edges": 0,
+      "zero_area_faces": 0,
+      "signed_local_volume": 0.0001115823073815985
+    },
+    {
+      "name": "Near cup | solid rounded handle",
+      "vertices": 1368,
+      "faces": 1346,
+      "finite_coordinates": true,
+      "non_manifold_edges": 0,
+      "zero_area_faces": 0,
+      "signed_local_volume": 9.736121031836791e-06
+    },
+    {
+      "name": "Tea | closed volume and 0.8 mm wall meniscus",
+      "vertices": 1922,
+      "faces": 2080,
+      "finite_coordinates": true,
+      "non_manifold_edges": 0,
+      "zero_area_faces": 0,
+      "signed_local_volume": 0.00024192332007470563
+    },
+    {
+      "name": "Far cup | continuous 4 mm rim, inner bowl and foot",
+      "vertices": 3458,
+      "faces": 3584,
+      "finite_coordinates": true,
+      "non_manifold_edges": 0,
+      "zero_area_faces": 0,
+      "signed_local_volume": 0.00011158229831778754
+    },
+    {
+      "name": "Far cup | solid rounded handle",
+      "vertices": 1368,
+      "faces": 1346,
+      "finite_coordinates": true,
+      "non_manifold_edges": 0,
+      "zero_area_faces": 0,
+      "signed_local_volume": 9.73525370656066e-06
+    },
+    {
+      "name": "Near bread plate | empty shallow dish with real foot",
+      "vertices": 2306,
+      "faces": 2432,
+      "finite_coordinates": true,
+      "non_manifold_edges": 0,
+      "zero_area_faces": 0,
+      "signed_local_volume": 6.587631132698838e-05
+    },
+    {
+      "name": "Far bread plate | empty shallow dish with real foot",
+      "vertices": 2306,
+      "faces": 2432,
+      "finite_coordinates": true,
+      "non_manifold_edges": 0,
+      "zero_area_faces": 0,
+      "signed_local_volume": 6.587631339896566e-05
+    },
+    {
+      "name": "Kettle | spun hollow steel body",
+      "vertices": 3986,
+      "faces": 4052,
+      "finite_coordinates": true,
+      "non_manifold_edges": 0,
+      "zero_area_faces": 0,
+      "signed_local_volume": 0.00023281119591014672
+    },
+    {
+      "name": "Kettle | continuous grounded base ring",
+      "vertices": 896,
+      "faces": 896,
+      "finite_coordinates": true,
+      "non_manifold_edges": 0,
+      "zero_area_faces": 0,
+      "signed_local_volume": 9.425704025642344e-05
+    },
+    {
+      "name": "Kettle | separate shallow steel lid",
+      "vertices": 898,
+      "faces": 1024,
+      "finite_coordinates": true,
+      "non_manifold_edges": 0,
+      "zero_area_faces": 0,
+      "signed_local_volume": 9.804007250328867e-05
+    },
+    {
+      "name": "Kettle | charcoal lid knob",
+      "vertices": 674,
+      "faces": 768,
+      "finite_coordinates": true,
+      "non_manifold_edges": 0,
+      "zero_area_faces": 0,
+      "signed_local_volume": 9.378286173894954e-06
+    },
+    {
+      "name": "Kettle | open tapered spout, 1.4 mm lip",
+      "vertices": 3936,
+      "faces": 3936,
+      "finite_coordinates": true,
+      "non_manifold_edges": 0,
+      "zero_area_faces": 0,
+      "signed_local_volume": 2.2537554881527226e-05
+    },
+    {
+      "name": "Kettle | steel handle skeleton",
+      "vertices": 1620,
+      "faces": 1602,
+      "finite_coordinates": true,
+      "non_manifold_edges": 0,
+      "zero_area_faces": 0,
+      "signed_local_volume": 2.2387780128945287e-05
+    },
+    {
+      "name": "Kettle | thick arched charcoal grip",
+      "vertices": 1560,
+      "faces": 1538,
+      "finite_coordinates": true,
+      "non_manifold_edges": 0,
+      "zero_area_faces": 0,
+      "signed_local_volume": 9.010463743624705e-05
+    },
+    {
+      "name": "Kettle | handle lug -1",
+      "vertices": 96,
+      "faces": 98,
+      "finite_coordinates": true,
+      "non_manifold_edges": 0,
+      "zero_area_faces": 0,
+      "signed_local_volume": 1.0379970043835324e-05
+    },
+    {
+      "name": "Kettle | hinge pin -1",
+      "vertices": 512,
+      "faces": 450,
+      "finite_coordinates": true,
+      "non_manifold_edges": 0,
+      "zero_area_faces": 0,
+      "signed_local_volume": 2.251453129705586e-06
+    },
+    {
+      "name": "Kettle | handle lug 1",
+      "vertices": 96,
+      "faces": 98,
+      "finite_coordinates": true,
+      "non_manifold_edges": 0,
+      "zero_area_faces": 0,
+      "signed_local_volume": 1.0379970043835324e-05
+    },
+    {
+      "name": "Kettle | hinge pin 1",
+      "vertices": 512,
+      "faces": 450,
+      "finite_coordinates": true,
+      "non_manifold_edges": 0,
+      "zero_area_faces": 0,
+      "signed_local_volume": 2.251453129705586e-06
+    },
+    {
+      "name": "Table | rounded porcelain slab",
+      "vertices": 96,
+      "faces": 98,
+      "finite_coordinates": true,
+      "non_manifold_edges": 0,
+      "zero_area_faces": 0,
+      "signed_local_volume": 0.042925368043302534
+    },
+    {
+      "name": "Table | narrow mushroom-coloured apron",
+      "vertices": 96,
+      "faces": 98,
+      "finite_coordinates": true,
+      "non_manifold_edges": 0,
+      "zero_area_faces": 0,
+      "signed_local_volume": 0.1630426305807422
+    },
+    {
+      "name": "Wall | warm grout backing",
+      "vertices": 96,
+      "faces": 98,
+      "finite_coordinates": true,
+      "non_manifold_edges": 0,
+      "zero_area_faces": 0,
+      "signed_local_volume": 0.026877811746188113
+    },
+    {
+      "name": "Backsplash | tile 0-0",
+      "vertices": 96,
+      "faces": 98,
+      "finite_coordinates": true,
+      "non_manifold_edges": 0,
+      "zero_area_faces": 0,
+      "signed_local_volume": 0.0002490666166841779
+    },
+    {
+      "name": "Backsplash | tile 0-1",
+      "vertices": 96,
+      "faces": 98,
+      "finite_coordinates": true,
+      "non_manifold_edges": 0,
+      "zero_area_faces": 0,
+      "signed_local_volume": 0.0002490666166841779
+    },
+    {
+      "name": "Backsplash | tile 0-2",
+      "vertices": 96,
+      "faces": 98,
+      "finite_coordinates": true,
+      "non_manifold_edges": 0,
+      "zero_area_faces": 0,
+      "signed_local_volume": 0.0002490666166841779
+    },
+    {
+      "name": "Backsplash | tile 0-3",
+      "vertices": 96,
+      "faces": 98,
+      "finite_coordinates": true,
+      "non_manifold_edges": 0,
+      "zero_area_faces": 0,
+      "signed_local_volume": 0.0002490666166841779
+    },
+    {
+      "name": "Backsplash | tile 0-4",
+      "vertices": 96,
+      "faces": 98,
+      "finite_coordinates": true,
+      "non_manifold_edges": 0,
+      "zero_area_faces": 0,
+      "signed_local_volume": 0.0002490666166841779
+    },
+    {
+      "name": "Backsplash | tile 0-5",
+      "vertices": 96,
+      "faces": 98,
+      "finite_coordinates": true,
+      "non_manifold_edges": 0,
+      "zero_area_faces": 0,
+      "signed_local_volume": 0.0002490666166841779
+    },
+    {
+      "name": "Backsplash | tile 0-6",
+      "vertices": 96,
+      "faces": 98,
+      "finite_coordinates": true,
+      "non_manifold_edges": 0,
+      "zero_area_faces": 0,
+      "signed_local_volume": 0.0002490666166841779
+    },
+    {
+      "name": "Backsplash | tile 0-7",
+      "vertices": 96,
+      "faces": 98,
+      "finite_coordinates": true,
+      "non_manifold_edges": 0,
+      "zero_area_faces": 0,
+      "signed_local_volume": 0.0002490666166841779
+    },
+    {
+      "name": "Backsplash | tile 1-0",
+      "vertices": 96,
+      "faces": 98,
+      "finite_coordinates": true,
+      "non_manifold_edges": 0,
+      "zero_area_faces": 0,
+      "signed_local_volume": 0.0002490666166841779
+    },
+    {
+      "name": "Backsplash | tile 1-1",
+      "vertices": 96,
+      "faces": 98,
+      "finite_coordinates": true,
+      "non_manifold_edges": 0,
+      "zero_area_faces": 0,
+      "signed_local_volume": 0.0002490666166841779
+    },
+    {
+      "name": "Backsplash | tile 1-2",
+      "vertices": 96,
+      "faces": 98,
+      "finite_coordinates": true,
+      "non_manifold_edges": 0,
+      "zero_area_faces": 0,
+      "signed_local_volume": 0.0002490666166841779
+    },
+    {
+      "name": "Backsplash | tile 1-3",
+      "vertices": 96,
+      "faces": 98,
+      "finite_coordinates": true,
+      "non_manifold_edges": 0,
+      "zero_area_faces": 0,
+      "signed_local_volume": 0.0002490666166841779
+    },
+    {
+      "name": "Backsplash | tile 1-4",
+      "vertices": 96,
+      "faces": 98,
+      "finite_coordinates": true,
+      "non_manifold_edges": 0,
+      "zero_area_faces": 0,
+      "signed_local_volume": 0.0002490666166841779
+    },
+    {
+      "name": "Backsplash | tile 1-5",
+      "vertices": 96,
+      "faces": 98,
+      "finite_coordinates": true,
+      "non_manifold_edges": 0,
+      "zero_area_faces": 0,
+      "signed_local_volume": 0.0002490666166841779
+    },
+    {
+      "name": "Backsplash | tile 1-6",
+      "vertices": 96,
+      "faces": 98,
+      "finite_coordinates": true,
+      "non_manifold_edges": 0,
+      "zero_area_faces": 0,
+      "signed_local_volume": 0.0002490666166841779
+    },
+    {
+      "name": "Backsplash | tile 1-7",
+      "vertices": 96,
+      "faces": 98,
+      "finite_coordinates": true,
+      "non_manifold_edges": 0,
+      "zero_area_faces": 0,
+      "signed_local_volume": 0.0002490666166841779
+    },
+    {
+      "name": "Backsplash | tile 2-0",
+      "vertices": 96,
+      "faces": 98,
+      "finite_coordinates": true,
+      "non_manifold_edges": 0,
+      "zero_area_faces": 0,
+      "signed_local_volume": 0.0002490666166841779
+    },
+    {
+      "name": "Backsplash | tile 2-1",
+      "vertices": 96,
+      "faces": 98,
+      "finite_coordinates": true,
+      "non_manifold_edges": 0,
+      "zero_area_faces": 0,
+      "signed_local_volume": 0.0002490666166841779
+    },
+    {
+      "name": "Backsplash | tile 2-2",
+      "vertices": 96,
+      "faces": 98,
+      "finite_coordinates": true,
+      "non_manifold_edges": 0,
+      "zero_area_faces": 0,
+      "signed_local_volume": 0.0002490666166841779
+    },
+    {
+      "name": "Backsplash | tile 2-3",
+      "vertices": 96,
+      "faces": 98,
+      "finite_coordinates": true,
+      "non_manifold_edges": 0,
+      "zero_area_faces": 0,
+      "signed_local_volume": 0.0002490666166841779
+    },
+    {
+      "name": "Backsplash | tile 2-4",
+      "vertices": 96,
+      "faces": 98,
+      "finite_coordinates": true,
+      "non_manifold_edges": 0,
+      "zero_area_faces": 0,
+      "signed_local_volume": 0.0002490666166841779
+    },
+    {
+      "name": "Backsplash | tile 2-5",
+      "vertices": 96,
+      "faces": 98,
+      "finite_coordinates": true,
+      "non_manifold_edges": 0,
+      "zero_area_faces": 0,
+      "signed_local_volume": 0.0002490666166841779
+    },
+    {
+      "name": "Backsplash | tile 2-6",
+      "vertices": 96,
+      "faces": 98,
+      "finite_coordinates": true,
+      "non_manifold_edges": 0,
+      "zero_area_faces": 0,
+      "signed_local_volume": 0.0002490666166841779
+    },
+    {
+      "name": "Backsplash | tile 2-7",
+      "vertices": 96,
+      "faces": 98,
+      "finite_coordinates": true,
+      "non_manifold_edges": 0,
+      "zero_area_faces": 0,
+      "signed_local_volume": 0.0002490666166841779
+    },
+    {
+      "name": "Backsplash | tile 3-0",
+      "vertices": 96,
+      "faces": 98,
+      "finite_coordinates": true,
+      "non_manifold_edges": 0,
+      "zero_area_faces": 0,
+      "signed_local_volume": 0.0002490666166841779
+    },
+    {
+      "name": "Backsplash | tile 3-1",
+      "vertices": 96,
+      "faces": 98,
+      "finite_coordinates": true,
+      "non_manifold_edges": 0,
+      "zero_area_faces": 0,
+      "signed_local_volume": 0.0002490666166841779
+    },
+    {
+      "name": "Backsplash | tile 3-2",
+      "vertices": 96,
+      "faces": 98,
+      "finite_coordinates": true,
+      "non_manifold_edges": 0,
+      "zero_area_faces": 0,
+      "signed_local_volume": 0.0002490666166841779
+    },
+    {
+      "name": "Backsplash | tile 3-3",
+      "vertices": 96,
+      "faces": 98,
+      "finite_coordinates": true,
+      "non_manifold_edges": 0,
+      "zero_area_faces": 0,
+      "signed_local_volume": 0.0002490666166841779
+    },
+    {
+      "name": "Backsplash | tile 3-4",
+      "vertices": 96,
+      "faces": 98,
+      "finite_coordinates": true,
+      "non_manifold_edges": 0,
+      "zero_area_faces": 0,
+      "signed_local_volume": 0.0002490666166841779
+    },
+    {
+      "name": "Backsplash | tile 3-5",
+      "vertices": 96,
+      "faces": 98,
+      "finite_coordinates": true,
+      "non_manifold_edges": 0,
+      "zero_area_faces": 0,
+      "signed_local_volume": 0.0002490666166841779
+    },
+    {
+      "name": "Backsplash | tile 3-6",
+      "vertices": 96,
+      "faces": 98,
+      "finite_coordinates": true,
+      "non_manifold_edges": 0,
+      "zero_area_faces": 0,
+      "signed_local_volume": 0.0002490666166841779
+    },
+    {
+      "name": "Backsplash | tile 3-7",
+      "vertices": 96,
+      "faces": 98,
+      "finite_coordinates": true,
+      "non_manifold_edges": 0,
+      "zero_area_faces": 0,
+      "signed_local_volume": 0.0002490666166841779
+    },
+    {
+      "name": "Backsplash | tile 4-0",
+      "vertices": 96,
+      "faces": 98,
+      "finite_coordinates": true,
+      "non_manifold_edges": 0,
+      "zero_area_faces": 0,
+      "signed_local_volume": 0.0002490666166841779
+    },
+    {
+      "name": "Backsplash | tile 4-1",
+      "vertices": 96,
+      "faces": 98,
+      "finite_coordinates": true,
+      "non_manifold_edges": 0,
+      "zero_area_faces": 0,
+      "signed_local_volume": 0.0002490666166841779
+    },
+    {
+      "name": "Backsplash | tile 4-2",
+      "vertices": 96,
+      "faces": 98,
+      "finite_coordinates": true,
+      "non_manifold_edges": 0,
+      "zero_area_faces": 0,
+      "signed_local_volume": 0.0002490666166841779
+    },
+    {
+      "name": "Backsplash | tile 4-3",
+      "vertices": 96,
+      "faces": 98,
+      "finite_coordinates": true,
+      "non_manifold_edges": 0,
+      "zero_area_faces": 0,
+      "signed_local_volume": 0.0002490666166841779
+    },
+    {
+      "name": "Backsplash | tile 4-4",
+      "vertices": 96,
+      "faces": 98,
+      "finite_coordinates": true,
+      "non_manifold_edges": 0,
+      "zero_area_faces": 0,
+      "signed_local_volume": 0.0002490666166841779
+    },
+    {
+      "name": "Backsplash | tile 4-5",
+      "vertices": 96,
+      "faces": 98,
+      "finite_coordinates": true,
+      "non_manifold_edges": 0,
+      "zero_area_faces": 0,
+      "signed_local_volume": 0.0002490666166841779
+    },
+    {
+      "name": "Backsplash | tile 4-6",
+      "vertices": 96,
+      "faces": 98,
+      "finite_coordinates": true,
+      "non_manifold_edges": 0,
+      "zero_area_faces": 0,
+      "signed_local_volume": 0.0002490666166841779
+    },
+    {
+      "name": "Backsplash | tile 4-7",
+      "vertices": 96,
+      "faces": 98,
+      "finite_coordinates": true,
+      "non_manifold_edges": 0,
+      "zero_area_faces": 0,
+      "signed_local_volume": 0.0002490666166841779
+    }
+  ]
+}

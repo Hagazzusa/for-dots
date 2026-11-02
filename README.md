@@ -7,6 +7,7 @@
 
 | 프로젝트 | 시작 안내 | 실행 환경 |
 |---|---|---|
+| **두 잔의 자리 · The Second Cup** — 빵을 기다리는 집 안의 작은 준비 | [제작·검증](second-cup/README.md) · [실제 렌더](second-cup/renders/the_second_cup_final.png) · [생성 콘셉트](second-cup/reference/gpt_image_concept.png) | Blender **4.3.2**, 기본 검증은 Python 표준 라이브러리. 독립적인 도기·금속 정물의 실제 Cycles 렌더이며 유체·열·제품 안전 검증이 아닙니다. |
 | **Mended Corner · 수선이 남긴 자리** — 고친 벤치 끝의 조용한 정물 | [작품·제작 소스](mended-corner/README.md) · [실제 렌더](mended-corner/renders/mended_corner_final.png) · [생성 콘셉트](mended-corner/reference/gpt_image_concept.png) | Blender **4.3.2**, Python 표준 라이브러리. 절차적 재질과 모델로 만든 실제 Cycles 렌더이며 실물 수선·전기 안전 검증이 아닙니다. |
 | **After the Rain** — 조용한 버스 정류장, 따뜻한 코코아, 유리 쉼터와 선택적인 동네 만남 | [게임 안내](after-the-rain/README.md) · [재구성 현황](after-the-rain/RECOVERY.md) | Godot **4.6.x Standard**. `after-the-rain/project.godot`을 열고 F5를 누릅니다. 플레이에 Blender는 필요하지 않습니다. |
 | **Rain Clock** — 가상 키네틱 조각 | [소스·렌더 안내](rain-clock/README.md) · [정지 이미지](rain-clock/rain_clock_still.png) · [반복 영상](rain-clock/rain_clock_loop.mp4) | Blender **4.3.2**. 다시 생성한 프레임을 인코딩하려면 ffmpeg가 필요합니다. |
