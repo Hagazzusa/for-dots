@@ -1,0 +1,117 @@
+{
+  "title": "옆자리 / Beside You",
+  "review_scope": "Numerical only; audio input unavailable. No perceptual audition performed.",
+  "comparison": {
+    "comparison_window_seconds": [
+      10,
+      35
+    ],
+    "exterior_rms_change_db_vs_identical_original_frames": -5.999999999999998,
+    "exterior_rms_dbfs": -35.27492673453555,
+    "fan_rms_dbfs": -46.970747357016265,
+    "fan_to_exterior_rms_db": -11.695820622480717,
+    "mix_rms_change_db_vs_identical_original_frames": -5.7223354944822935,
+    "interpretation": "Signal-level comparison only; not a perceptual masking or comfort test."
+  },
+  "wav": {
+    "duration_seconds": 38.0,
+    "sample_rate_hz": 48000,
+    "channels": 2,
+    "sample_peak_dbfs": -11.97465714721811,
+    "rms_dbfs_per_channel": [
+      -35.284062946910296,
+      -35.41182145813255
+    ],
+    "dc_mean_per_channel": [
+      4.701447068599233e-09,
+      -7.194385193941886e-10
+    ],
+    "clipped_samples": 0,
+    "first_last_samples": [
+      [
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0
+      ]
+    ],
+    "max_adjacent_sample_step": 0.11956787109375,
+    "stereo_correlation": 0.9546996368655175,
+    "power_fraction_below_80hz": 2.2130328624949772e-05,
+    "100ms_rms_dbfs_range": [
+      -101.80662190252768,
+      -29.3610675114132
+    ],
+    "all_samples_finite": true,
+    "mono_fold_rms_change_db_vs_stereo_mean_power": -0.09972907133332222,
+    "first_last_10ms_peak": 0.0
+  },
+  "mp3_decoded": {
+    "duration_seconds": 38.0,
+    "sample_rate_hz": 48000,
+    "channels": 2,
+    "sample_peak_dbfs": -12.495755550872076,
+    "rms_dbfs_per_channel": [
+      -35.712499043209746,
+      -35.84059343038409
+    ],
+    "dc_mean_per_channel": [
+      -2.679949294829021e-07,
+      -2.483584628793419e-07
+    ],
+    "clipped_samples": 0,
+    "first_last_samples": [
+      [
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0
+      ]
+    ],
+    "max_adjacent_sample_step": 0.11230180412530899,
+    "stereo_correlation": 0.9506343794713383,
+    "power_fraction_below_80hz": 2.5567548389572597e-05,
+    "100ms_rms_dbfs_range": [
+      -102.30876180479214,
+      -29.752775785549343
+    ],
+    "all_samples_finite": true,
+    "mono_fold_rms_change_db_vs_stereo_mean_power": -0.10877135566360596,
+    "first_last_10ms_peak": 0.0
+  },
+  "wav_ffmpeg_loudnorm": {
+    "input_i": "-31.09",
+    "input_tp": "-11.97",
+    "input_lra": "9.20",
+    "input_thresh": "-41.62",
+    "output_i": "-26.38",
+    "output_tp": "-9.00",
+    "output_lra": "7.40",
+    "output_thresh": "-36.70",
+    "normalization_type": "dynamic",
+    "target_offset": "0.38"
+  },
+  "mp3_ffmpeg_loudnorm": {
+    "input_i": "-31.51",
+    "input_tp": "-12.50",
+    "input_lra": "9.20",
+    "input_thresh": "-42.04",
+    "output_i": "-26.39",
+    "output_tp": "-9.00",
+    "output_lra": "7.40",
+    "output_thresh": "-36.70",
+    "normalization_type": "dynamic",
+    "target_offset": "0.39"
+  },
+  "numpy": "2.3.5",
+  "scipy": "1.17.0",
+  "ffmpeg": "ffmpeg version 7.1.5-0+deb13u1 Copyright (c) 2000-2026 the FFmpeg developers",
+  "sha256": {
+    "beside_you.wav": "8e938961bc53416eaa808732e4910a03a9ef7c2307cdde6cfade9892a51061fe",
+    "beside_you_preview.mp3": "f71f7ca4a588d6c2b35b2c850d1ce69ee752f7f21ab46ba5eeec3fe708ec9aa9"
+  }
+}

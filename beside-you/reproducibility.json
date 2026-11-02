@@ -1,0 +1,25 @@
+{
+  "method": "Separate-output-directory repeat build on identical toolchain",
+  "results": {
+    "beside_you.wav": {
+      "identical": true,
+      "sha256": "8e938961bc53416eaa808732e4910a03a9ef7c2307cdde6cfade9892a51061fe"
+    },
+    "beside_you_preview.mp3": {
+      "identical": true,
+      "sha256": "f71f7ca4a588d6c2b35b2c850d1ce69ee752f7f21ab46ba5eeec3fe708ec9aa9"
+    },
+    "qa.json": {
+      "identical": true,
+      "sha256": "9bc8e31a032666d6afc612a887a11a46552ccbc3f5bedb9e8611ca4d73de94d3"
+    },
+    "waveform.svg": {
+      "identical": true,
+      "sha256": "8753dadd70a8e5fca8e24e8cc492c0e75b2aad9e5e6586387af9165fe38295a2"
+    }
+  },
+  "original_audio_unchanged": {
+    "window_rhythms.wav": true,
+    "window_rhythms_preview.mp3": true
+  }
+}

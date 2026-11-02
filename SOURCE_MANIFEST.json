@@ -14,8 +14,8 @@
     },
     {
       "path": "README.md",
-      "size": 6127,
-      "sha256": "60fb4fd5ae8354e6e4a115b132644f29ae78683e2be0e33cf94ad85e1778fd36"
+      "size": 6483,
+      "sha256": "62c825e8999845671ac58aedffc7a2205d85bf6cbdf8aecdabc14d10a7326bd0"
     },
     {
       "path": "after-the-rain/ARCHITECTURE.md",
@@ -2011,6 +2011,51 @@
       "path": "after-the-rain/tools/v3_baseline.gd",
       "size": 21504,
       "sha256": "54aded5b2d5f17eb9e06c4b0b1c84cfda0e5ec16e210c0fd00a7029045477fbd"
+    },
+    {
+      "path": "beside-you/README.md",
+      "size": 4077,
+      "sha256": "35edcddcd6f355920f2a816706bf8cf80bddb18526f57cd390950ad6c8de6ece"
+    },
+    {
+      "path": "beside-you/beside_you.wav",
+      "size": 7296044,
+      "sha256": "8e938961bc53416eaa808732e4910a03a9ef7c2307cdde6cfade9892a51061fe"
+    },
+    {
+      "path": "beside-you/beside_you_preview.mp3",
+      "size": 609068,
+      "sha256": "f71f7ca4a588d6c2b35b2c850d1ce69ee752f7f21ab46ba5eeec3fe708ec9aa9"
+    },
+    {
+      "path": "beside-you/build.py",
+      "size": 5720,
+      "sha256": "c79953a76f779f897c6dba4398da8a4b867bf74afff84972946842d871a2f390"
+    },
+    {
+      "path": "beside-you/qa.json",
+      "size": 3273,
+      "sha256": "9bc8e31a032666d6afc612a887a11a46552ccbc3f5bedb9e8611ca4d73de94d3"
+    },
+    {
+      "path": "beside-you/rain_source.py",
+      "size": 5906,
+      "sha256": "7fbb33597176ad928a033a368d3de6b980d3c3a0d6ef890699eec51966b19af7"
+    },
+    {
+      "path": "beside-you/reproducibility.json",
+      "size": 762,
+      "sha256": "7742cbf95ff51845d076f2860710b45b2d561574bf200fe7d6a375d286540661"
+    },
+    {
+      "path": "beside-you/requirements.txt",
+      "size": 27,
+      "sha256": "1668a3152e33680d94637b13421c15e68bd97cd8701f7f555c691f5bc5c0b9f3"
+    },
+    {
+      "path": "beside-you/waveform.svg",
+      "size": 95520,
+      "sha256": "8753dadd70a8e5fca8e24e8cc492c0e75b2aad9e5e6586387af9165fe38295a2"
     },
     {
       "path": "fading-shore/.gitignore",
