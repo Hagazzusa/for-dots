@@ -1,0 +1,210 @@
+{
+  "axial_cases": 1920,
+  "radial_cases": 5184,
+  "nonlinear_checks": [
+    {
+      "ring_outer_radius_mm": 143.0,
+      "profile": "eccentric_reference",
+      "amplitude_mm": 0.25,
+      "phase_deg": 0,
+      "best_min_gap_mm": 2.4725655041635264e-05,
+      "center_translation_mm": 0.2500247256587033,
+      "successful_starts": 3,
+      "segments": 4096,
+      "model": "local multi-start nonlinear polygon distance; not a global infeasibility certificate",
+      "ring": "Outer"
+    },
+    {
+      "ring_outer_radius_mm": 143.0,
+      "profile": "oval_2",
+      "amplitude_mm": 0.25,
+      "phase_deg": 0,
+      "best_min_gap_mm": 0.0005173727217879787,
+      "center_translation_mm": 0.2505173727217906,
+      "successful_starts": 3,
+      "segments": 4096,
+      "model": "local multi-start nonlinear polygon distance; not a global infeasibility certificate",
+      "ring": "Outer"
+    },
+    {
+      "ring_outer_radius_mm": 143.0,
+      "profile": "oval_2",
+      "amplitude_mm": 0.25,
+      "phase_deg": 15,
+      "best_min_gap_mm": 0.0005216612865179826,
+      "center_translation_mm": 0.24998814540939426,
+      "successful_starts": 3,
+      "segments": 4096,
+      "model": "local multi-start nonlinear polygon distance; not a global infeasibility certificate",
+      "ring": "Outer"
+    },
+    {
+      "ring_outer_radius_mm": 143.0,
+      "profile": "oval_2",
+      "amplitude_mm": 0.25,
+      "phase_deg": 30,
+      "best_min_gap_mm": 0.0005214470679284489,
+      "center_translation_mm": 0.24951532183633857,
+      "successful_starts": 3,
+      "segments": 4096,
+      "model": "local multi-start nonlinear polygon distance; not a global infeasibility certificate",
+      "ring": "Outer"
+    },
+    {
+      "ring_outer_radius_mm": 143.0,
+      "profile": "lobed_3",
+      "amplitude_mm": 0.25,
+      "phase_deg": 0,
+      "best_min_gap_mm": -0.24997483929796083,
+      "center_translation_mm": 2.5160705544185273e-05,
+      "successful_starts": 3,
+      "segments": 4096,
+      "model": "local multi-start nonlinear polygon distance; not a global infeasibility certificate",
+      "ring": "Outer"
+    },
+    {
+      "ring_outer_radius_mm": 143.0,
+      "profile": "lobed_3",
+      "amplitude_mm": 0.25,
+      "phase_deg": 30,
+      "best_min_gap_mm": -8.786837846663786e-05,
+      "center_translation_mm": 1.413682040115868e-05,
+      "successful_starts": 3,
+      "segments": 4096,
+      "model": "local multi-start nonlinear polygon distance; not a global infeasibility certificate",
+      "ring": "Outer"
+    },
+    {
+      "ring_outer_radius_mm": 143.0,
+      "profile": "oversize",
+      "amplitude_mm": 0.25,
+      "phase_deg": 0,
+      "best_min_gap_mm": -0.24997522532934546,
+      "center_translation_mm": 2.477467433735343e-05,
+      "successful_starts": 3,
+      "segments": 4096,
+      "model": "local multi-start nonlinear polygon distance; not a global infeasibility certificate",
+      "ring": "Outer"
+    },
+    {
+      "ring_outer_radius_mm": 112.0,
+      "profile": "eccentric_reference",
+      "amplitude_mm": 0.25,
+      "phase_deg": 0,
+      "best_min_gap_mm": 1.9323042501184773e-05,
+      "center_translation_mm": 0.25001932305270386,
+      "successful_starts": 3,
+      "segments": 4096,
+      "model": "local multi-start nonlinear polygon distance; not a global infeasibility certificate",
+      "ring": "Inner"
+    },
+    {
+      "ring_outer_radius_mm": 112.0,
+      "profile": "oval_2",
+      "amplitude_mm": 0.25,
+      "phase_deg": 0,
+      "best_min_gap_mm": 0.000626019532802502,
+      "center_translation_mm": 0.250626019554269,
+      "successful_starts": 3,
+      "segments": 4096,
+      "model": "local multi-start nonlinear polygon distance; not a global infeasibility certificate",
+      "ring": "Inner"
+    },
+    {
+      "ring_outer_radius_mm": 112.0,
+      "profile": "oval_2",
+      "amplitude_mm": 0.25,
+      "phase_deg": 15,
+      "best_min_gap_mm": 0.0006294369853385717,
+      "center_translation_mm": 0.24999704178377913,
+      "successful_starts": 3,
+      "segments": 4096,
+      "model": "local multi-start nonlinear polygon distance; not a global infeasibility certificate",
+      "ring": "Inner"
+    },
+    {
+      "ring_outer_radius_mm": 112.0,
+      "profile": "oval_2",
+      "amplitude_mm": 0.25,
+      "phase_deg": 30,
+      "best_min_gap_mm": 0.0006221167971531827,
+      "center_translation_mm": 0.24940654674714954,
+      "successful_starts": 3,
+      "segments": 4096,
+      "model": "local multi-start nonlinear polygon distance; not a global infeasibility certificate",
+      "ring": "Inner"
+    },
+    {
+      "ring_outer_radius_mm": 112.0,
+      "profile": "lobed_3",
+      "amplitude_mm": 0.25,
+      "phase_deg": 0,
+      "best_min_gap_mm": -0.2499802435908407,
+      "center_translation_mm": 1.9756410147685656e-05,
+      "successful_starts": 3,
+      "segments": 4096,
+      "model": "local multi-start nonlinear polygon distance; not a global infeasibility certificate",
+      "ring": "Inner"
+    },
+    {
+      "ring_outer_radius_mm": 112.0,
+      "profile": "lobed_3",
+      "amplitude_mm": 0.25,
+      "phase_deg": 30,
+      "best_min_gap_mm": -0.00016741191110369869,
+      "center_translation_mm": 1.9235414041185748e-05,
+      "successful_starts": 3,
+      "segments": 4096,
+      "model": "local multi-start nonlinear polygon distance; not a global infeasibility certificate",
+      "ring": "Inner"
+    },
+    {
+      "ring_outer_radius_mm": 112.0,
+      "profile": "oversize",
+      "amplitude_mm": 0.25,
+      "phase_deg": 0,
+      "best_min_gap_mm": -0.24998062793896914,
+      "center_translation_mm": 1.937206249050694e-05,
+      "successful_starts": 3,
+      "segments": 4096,
+      "model": "local multi-start nonlinear polygon distance; not a global infeasibility certificate",
+      "ring": "Inner"
+    }
+  ],
+  "tilt_only_zero_margin_deg": {
+    "Outer": {
+      "0.2": 0.08013390511138166,
+      "0.4": 0.16026749672679924,
+      "0.6": 0.24040046135764728
+    },
+    "Inner": {
+      "0.2": 0.10231378323584404,
+      "0.4": 0.20462691396586394,
+      "0.6": 0.3069387397092032
+    }
+  },
+  "convergence": [
+    {
+      "ring_outer_radius_mm": 143,
+      "profile": "oval_2",
+      "amplitude_mm": 0.25,
+      "phase_deg": 0,
+      "best_min_gap_mm": 0.0004900822732665233,
+      "center_translation_mm": 0.2504900822983872,
+      "successful_starts": 3,
+      "segments": 8192,
+      "model": "local multi-start nonlinear polygon distance; not a global infeasibility certificate"
+    },
+    {
+      "ring_outer_radius_mm": 143,
+      "profile": "lobed_3",
+      "amplitude_mm": 0.25,
+      "phase_deg": 0,
+      "best_min_gap_mm": -0.24999370841887192,
+      "center_translation_mm": 6.291593156248152e-06,
+      "successful_starts": 3,
+      "segments": 8192,
+      "model": "local multi-start nonlinear polygon distance; not a global infeasibility certificate"
+    }
+  ]
+}

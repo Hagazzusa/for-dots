@@ -1,0 +1,325 @@
+{
+  "status": "Equilibrium of an idealized symmetric free-body only. Not load capacity, stability proof or friction-free mechanism.",
+  "coordinates": "X horizontal, Y rearward, Z upward. Track nominal plane Y=0. Weight acts at Y=-d.",
+  "formulas": {
+    "COM": "d=14*f+21*t mm; remaining mass assumed in track plane; unknown actual distribution",
+    "radial": "N_left=N_right=1+P, top downward radial reaction=P; W=1; P unspecified >=0",
+    "axial": "top front support +Y: Q=d/h; each lower rear support -Y: Q/2; h=1.5*R_eff",
+    "pitch": "tan(|pitch|)=2*g/h for axially free-to-translate rigid plane seating top-front/lower-rear; actual broad contact geometry omitted"
+  },
+  "unit_test_max_force_or_moment_residual": 1.7763568394002505e-15,
+  "illustrative_weight_fraction_cases": [
+    {
+      "ring": "Outer",
+      "illustrative_axial_contact_radius_mm": 142.0,
+      "bead_weight_fraction_f": 0,
+      "tab_weight_fraction_t": 0,
+      "COM_front_offset_mm": 0,
+      "axial_contact_vertical_separation_mm": 213.0,
+      "top_axial_reaction_over_W": 0.0,
+      "each_lower_opposite_axial_reaction_over_W": 0.0
+    },
+    {
+      "ring": "Outer",
+      "illustrative_axial_contact_radius_mm": 142.0,
+      "bead_weight_fraction_f": 0,
+      "tab_weight_fraction_t": 0.05,
+      "COM_front_offset_mm": 1.05,
+      "axial_contact_vertical_separation_mm": 213.0,
+      "top_axial_reaction_over_W": 0.004929577464788733,
+      "each_lower_opposite_axial_reaction_over_W": 0.0024647887323943664
+    },
+    {
+      "ring": "Outer",
+      "illustrative_axial_contact_radius_mm": 142.0,
+      "bead_weight_fraction_f": 0,
+      "tab_weight_fraction_t": 0.1,
+      "COM_front_offset_mm": 2.1,
+      "axial_contact_vertical_separation_mm": 213.0,
+      "top_axial_reaction_over_W": 0.009859154929577466,
+      "each_lower_opposite_axial_reaction_over_W": 0.004929577464788733
+    },
+    {
+      "ring": "Outer",
+      "illustrative_axial_contact_radius_mm": 142.0,
+      "bead_weight_fraction_f": 0.25,
+      "tab_weight_fraction_t": 0,
+      "COM_front_offset_mm": 3.5,
+      "axial_contact_vertical_separation_mm": 213.0,
+      "top_axial_reaction_over_W": 0.01643192488262911,
+      "each_lower_opposite_axial_reaction_over_W": 0.008215962441314555
+    },
+    {
+      "ring": "Outer",
+      "illustrative_axial_contact_radius_mm": 142.0,
+      "bead_weight_fraction_f": 0.25,
+      "tab_weight_fraction_t": 0.05,
+      "COM_front_offset_mm": 4.55,
+      "axial_contact_vertical_separation_mm": 213.0,
+      "top_axial_reaction_over_W": 0.02136150234741784,
+      "each_lower_opposite_axial_reaction_over_W": 0.01068075117370892
+    },
+    {
+      "ring": "Outer",
+      "illustrative_axial_contact_radius_mm": 142.0,
+      "bead_weight_fraction_f": 0.25,
+      "tab_weight_fraction_t": 0.1,
+      "COM_front_offset_mm": 5.6,
+      "axial_contact_vertical_separation_mm": 213.0,
+      "top_axial_reaction_over_W": 0.02629107981220657,
+      "each_lower_opposite_axial_reaction_over_W": 0.013145539906103286
+    },
+    {
+      "ring": "Outer",
+      "illustrative_axial_contact_radius_mm": 142.0,
+      "bead_weight_fraction_f": 0.5,
+      "tab_weight_fraction_t": 0,
+      "COM_front_offset_mm": 7.0,
+      "axial_contact_vertical_separation_mm": 213.0,
+      "top_axial_reaction_over_W": 0.03286384976525822,
+      "each_lower_opposite_axial_reaction_over_W": 0.01643192488262911
+    },
+    {
+      "ring": "Outer",
+      "illustrative_axial_contact_radius_mm": 142.0,
+      "bead_weight_fraction_f": 0.5,
+      "tab_weight_fraction_t": 0.05,
+      "COM_front_offset_mm": 8.05,
+      "axial_contact_vertical_separation_mm": 213.0,
+      "top_axial_reaction_over_W": 0.03779342723004695,
+      "each_lower_opposite_axial_reaction_over_W": 0.018896713615023476
+    },
+    {
+      "ring": "Outer",
+      "illustrative_axial_contact_radius_mm": 142.0,
+      "bead_weight_fraction_f": 0.5,
+      "tab_weight_fraction_t": 0.1,
+      "COM_front_offset_mm": 9.1,
+      "axial_contact_vertical_separation_mm": 213.0,
+      "top_axial_reaction_over_W": 0.04272300469483568,
+      "each_lower_opposite_axial_reaction_over_W": 0.02136150234741784
+    },
+    {
+      "ring": "Outer",
+      "illustrative_axial_contact_radius_mm": 142.0,
+      "bead_weight_fraction_f": 0.75,
+      "tab_weight_fraction_t": 0,
+      "COM_front_offset_mm": 10.5,
+      "axial_contact_vertical_separation_mm": 213.0,
+      "top_axial_reaction_over_W": 0.04929577464788732,
+      "each_lower_opposite_axial_reaction_over_W": 0.02464788732394366
+    },
+    {
+      "ring": "Outer",
+      "illustrative_axial_contact_radius_mm": 142.0,
+      "bead_weight_fraction_f": 0.75,
+      "tab_weight_fraction_t": 0.05,
+      "COM_front_offset_mm": 11.55,
+      "axial_contact_vertical_separation_mm": 213.0,
+      "top_axial_reaction_over_W": 0.05422535211267606,
+      "each_lower_opposite_axial_reaction_over_W": 0.02711267605633803
+    },
+    {
+      "ring": "Outer",
+      "illustrative_axial_contact_radius_mm": 142.0,
+      "bead_weight_fraction_f": 0.75,
+      "tab_weight_fraction_t": 0.1,
+      "COM_front_offset_mm": 12.6,
+      "axial_contact_vertical_separation_mm": 213.0,
+      "top_axial_reaction_over_W": 0.059154929577464786,
+      "each_lower_opposite_axial_reaction_over_W": 0.029577464788732393
+    },
+    {
+      "ring": "Outer",
+      "illustrative_axial_contact_radius_mm": 142.0,
+      "bead_weight_fraction_f": 1.0,
+      "tab_weight_fraction_t": 0,
+      "COM_front_offset_mm": 14.0,
+      "axial_contact_vertical_separation_mm": 213.0,
+      "top_axial_reaction_over_W": 0.06572769953051644,
+      "each_lower_opposite_axial_reaction_over_W": 0.03286384976525822
+    },
+    {
+      "ring": "Inner",
+      "illustrative_axial_contact_radius_mm": 111.0,
+      "bead_weight_fraction_f": 0,
+      "tab_weight_fraction_t": 0,
+      "COM_front_offset_mm": 0,
+      "axial_contact_vertical_separation_mm": 166.5,
+      "top_axial_reaction_over_W": 0.0,
+      "each_lower_opposite_axial_reaction_over_W": 0.0
+    },
+    {
+      "ring": "Inner",
+      "illustrative_axial_contact_radius_mm": 111.0,
+      "bead_weight_fraction_f": 0,
+      "tab_weight_fraction_t": 0.05,
+      "COM_front_offset_mm": 1.05,
+      "axial_contact_vertical_separation_mm": 166.5,
+      "top_axial_reaction_over_W": 0.006306306306306307,
+      "each_lower_opposite_axial_reaction_over_W": 0.0031531531531531535
+    },
+    {
+      "ring": "Inner",
+      "illustrative_axial_contact_radius_mm": 111.0,
+      "bead_weight_fraction_f": 0,
+      "tab_weight_fraction_t": 0.1,
+      "COM_front_offset_mm": 2.1,
+      "axial_contact_vertical_separation_mm": 166.5,
+      "top_axial_reaction_over_W": 0.012612612612612614,
+      "each_lower_opposite_axial_reaction_over_W": 0.006306306306306307
+    },
+    {
+      "ring": "Inner",
+      "illustrative_axial_contact_radius_mm": 111.0,
+      "bead_weight_fraction_f": 0.25,
+      "tab_weight_fraction_t": 0,
+      "COM_front_offset_mm": 3.5,
+      "axial_contact_vertical_separation_mm": 166.5,
+      "top_axial_reaction_over_W": 0.021021021021021023,
+      "each_lower_opposite_axial_reaction_over_W": 0.010510510510510511
+    },
+    {
+      "ring": "Inner",
+      "illustrative_axial_contact_radius_mm": 111.0,
+      "bead_weight_fraction_f": 0.25,
+      "tab_weight_fraction_t": 0.05,
+      "COM_front_offset_mm": 4.55,
+      "axial_contact_vertical_separation_mm": 166.5,
+      "top_axial_reaction_over_W": 0.027327327327327327,
+      "each_lower_opposite_axial_reaction_over_W": 0.013663663663663663
+    },
+    {
+      "ring": "Inner",
+      "illustrative_axial_contact_radius_mm": 111.0,
+      "bead_weight_fraction_f": 0.25,
+      "tab_weight_fraction_t": 0.1,
+      "COM_front_offset_mm": 5.6,
+      "axial_contact_vertical_separation_mm": 166.5,
+      "top_axial_reaction_over_W": 0.033633633633633635,
+      "each_lower_opposite_axial_reaction_over_W": 0.016816816816816817
+    },
+    {
+      "ring": "Inner",
+      "illustrative_axial_contact_radius_mm": 111.0,
+      "bead_weight_fraction_f": 0.5,
+      "tab_weight_fraction_t": 0,
+      "COM_front_offset_mm": 7.0,
+      "axial_contact_vertical_separation_mm": 166.5,
+      "top_axial_reaction_over_W": 0.042042042042042045,
+      "each_lower_opposite_axial_reaction_over_W": 0.021021021021021023
+    },
+    {
+      "ring": "Inner",
+      "illustrative_axial_contact_radius_mm": 111.0,
+      "bead_weight_fraction_f": 0.5,
+      "tab_weight_fraction_t": 0.05,
+      "COM_front_offset_mm": 8.05,
+      "axial_contact_vertical_separation_mm": 166.5,
+      "top_axial_reaction_over_W": 0.04834834834834835,
+      "each_lower_opposite_axial_reaction_over_W": 0.024174174174174175
+    },
+    {
+      "ring": "Inner",
+      "illustrative_axial_contact_radius_mm": 111.0,
+      "bead_weight_fraction_f": 0.5,
+      "tab_weight_fraction_t": 0.1,
+      "COM_front_offset_mm": 9.1,
+      "axial_contact_vertical_separation_mm": 166.5,
+      "top_axial_reaction_over_W": 0.054654654654654654,
+      "each_lower_opposite_axial_reaction_over_W": 0.027327327327327327
+    },
+    {
+      "ring": "Inner",
+      "illustrative_axial_contact_radius_mm": 111.0,
+      "bead_weight_fraction_f": 0.75,
+      "tab_weight_fraction_t": 0,
+      "COM_front_offset_mm": 10.5,
+      "axial_contact_vertical_separation_mm": 166.5,
+      "top_axial_reaction_over_W": 0.06306306306306306,
+      "each_lower_opposite_axial_reaction_over_W": 0.03153153153153153
+    },
+    {
+      "ring": "Inner",
+      "illustrative_axial_contact_radius_mm": 111.0,
+      "bead_weight_fraction_f": 0.75,
+      "tab_weight_fraction_t": 0.05,
+      "COM_front_offset_mm": 11.55,
+      "axial_contact_vertical_separation_mm": 166.5,
+      "top_axial_reaction_over_W": 0.06936936936936937,
+      "each_lower_opposite_axial_reaction_over_W": 0.034684684684684684
+    },
+    {
+      "ring": "Inner",
+      "illustrative_axial_contact_radius_mm": 111.0,
+      "bead_weight_fraction_f": 0.75,
+      "tab_weight_fraction_t": 0.1,
+      "COM_front_offset_mm": 12.6,
+      "axial_contact_vertical_separation_mm": 166.5,
+      "top_axial_reaction_over_W": 0.07567567567567568,
+      "each_lower_opposite_axial_reaction_over_W": 0.03783783783783784
+    },
+    {
+      "ring": "Inner",
+      "illustrative_axial_contact_radius_mm": 111.0,
+      "bead_weight_fraction_f": 1.0,
+      "tab_weight_fraction_t": 0,
+      "COM_front_offset_mm": 14.0,
+      "axial_contact_vertical_separation_mm": 166.5,
+      "top_axial_reaction_over_W": 0.08408408408408409,
+      "each_lower_opposite_axial_reaction_over_W": 0.042042042042042045
+    }
+  ],
+  "seating_examples": [
+    {
+      "ring": "Outer",
+      "sidegap_mm": 0.2,
+      "illustrative_contact_radius_mm": 142.0,
+      "axial_center_seating_shift_mm": 0.06666666666666667,
+      "rigid_plane_pitch_to_opposing_contacts_deg": 0.10759758152003196
+    },
+    {
+      "ring": "Outer",
+      "sidegap_mm": 0.4,
+      "illustrative_contact_radius_mm": 142.0,
+      "axial_center_seating_shift_mm": 0.13333333333333333,
+      "rigid_plane_pitch_to_opposing_contacts_deg": 0.21519440413194854
+    },
+    {
+      "ring": "Outer",
+      "sidegap_mm": 0.6,
+      "illustrative_contact_radius_mm": 142.0,
+      "axial_center_seating_shift_mm": 0.19999999999999998,
+      "rigid_plane_pitch_to_opposing_contacts_deg": 0.3227897089597503
+    },
+    {
+      "ring": "Inner",
+      "sidegap_mm": 0.2,
+      "illustrative_contact_radius_mm": 111.0,
+      "axial_center_seating_shift_mm": 0.06666666666666667,
+      "rigid_plane_pitch_to_opposing_contacts_deg": 0.13764725353806875
+    },
+    {
+      "ring": "Inner",
+      "sidegap_mm": 0.4,
+      "illustrative_contact_radius_mm": 111.0,
+      "axial_center_seating_shift_mm": 0.13333333333333333,
+      "rigid_plane_pitch_to_opposing_contacts_deg": 0.2752929182280741
+    },
+    {
+      "ring": "Inner",
+      "sidegap_mm": 0.6,
+      "illustrative_contact_radius_mm": 111.0,
+      "axial_center_seating_shift_mm": 0.19999999999999998,
+      "rigid_plane_pitch_to_opposing_contacts_deg": 0.4129354053319894
+    }
+  ],
+  "unresolved": [
+    "Actual COM and asymmetric bead/tab masses",
+    "Mechanism providing follower preload and return travel",
+    "Rolling versus sliding axial contacts and drag",
+    "Axle retention, stiffness, strength and material selection",
+    "Side-tab horizontal COM offset and in-plane gravity torque; radial contact-normal torque",
+    "Manual forces, tipping, pinch protection and dynamic response"
+  ]
+}

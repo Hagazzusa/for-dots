@@ -1,0 +1,1082 @@
+{
+  "status": "Imposed contact geometry only. Follower must actually move to these positions; no return force or friction model supplied. No full moment equilibrium or 3D escape proof.",
+  "shape": "Only outer running surface has 0.25 mm third-harmonic error; bead/pin circle remains circular, moving with ring center.",
+  "support_layout": "Upper sliding guide at 90 degrees, lower fixed guides at 210 and 330 degrees, relative to +X.",
+  "numerics": "4096 polygon segments; 25 shape phases over 120-degree repeat per ring; local least-squares solve imposed all three root contacts.",
+  "provisional_geometric_follower_limits_mm": [
+    -1.0,
+    1.0
+  ],
+  "summary": {
+    "Outer": {
+      "follower_min_mm": -0.7513058770646048,
+      "follower_max_mm": 0.748708231876936,
+      "sampled_extrema_only": true,
+      "max_center_shift_mm": 0.5013058770646148,
+      "min_pin_lip_gap_mm": 0.7499680865487335
+    },
+    "Inner": {
+      "follower_min_mm": -0.7515339894681178,
+      "follower_max_mm": 0.7483744108928934,
+      "sampled_extrema_only": true,
+      "max_center_shift_mm": 0.5015339894681169,
+      "min_pin_lip_gap_mm": 0.75
+    },
+    "minimum_sampled_projected_lip_overlap_failed_return_mm": 0.24846601053188522,
+    "outer_min_post_frame_gap_mm": 0.7512917681230533,
+    "min_outer_bead_to_inner_top_post_mm": 3.250319712042497,
+    "max_contact_residual_mm": 1.0036416142611415e-12
+  },
+  "samples": [
+    {
+      "ring": "Outer",
+      "shape_phase_deg": 0,
+      "shape_amplitude_mm": 0.25,
+      "center_x_mm": -1.0728835628752292e-14,
+      "center_z_mm": 0.49870823187694613,
+      "upper_follower_radial_shift_mm": 0.748708231876936,
+      "max_contact_distance_residual_mm": 4.707345624410664e-13,
+      "upper_root_gap_at_outward_stop_mm": 0.2512917681230533,
+      "projected_lip_overlap_at_outward_stop_mm": 1.7487082318769467,
+      "conservative_circular_pin_envelope_to_lips_mm": 1.2499667032667787,
+      "post_to_fixed_frame_mm": 0.7512917681230533,
+      "lower_normal_reactions_at_P0_over_W": [
+        0.9941925279275692,
+        0.9941925279275692
+      ],
+      "lower_normal_reaction_P_coefficients": [
+        0.9941925279275684,
+        0.9941925279275698
+      ]
+    },
+    {
+      "ring": "Outer",
+      "shape_phase_deg": 5,
+      "shape_amplitude_mm": 0.25,
+      "center_x_mm": -0.0006065556771836051,
+      "center_z_mm": 0.48178627347562325,
+      "upper_follower_radial_shift_mm": 0.7232695754247691,
+      "max_contact_distance_residual_mm": 5.169198402654729e-13,
+      "upper_root_gap_at_outward_stop_mm": 0.27673037858625626,
+      "projected_lip_overlap_at_outward_stop_mm": 1.7232696214137437,
+      "conservative_circular_pin_envelope_to_lips_mm": 1.2409404299363587,
+      "post_to_fixed_frame_mm": 0.77673042457522,
+      "lower_normal_reactions_at_P0_over_W": [
+        0.9934107491911053,
+        0.9949785288454567
+      ],
+      "lower_normal_reaction_P_coefficients": [
+        0.9937448656356498,
+        0.9946456353513119
+      ]
+    },
+    {
+      "ring": "Outer",
+      "shape_phase_deg": 10,
+      "shape_amplitude_mm": 0.25,
+      "center_x_mm": -0.0010762285415193285,
+      "center_z_mm": 0.43211098837961776,
+      "upper_follower_radial_shift_mm": 0.6486345718611398,
+      "max_contact_distance_residual_mm": 2.842170943040401e-14,
+      "upper_root_gap_at_outward_stop_mm": 0.35136483272257557,
+      "projected_lip_overlap_at_outward_stop_mm": 1.6486351672774244,
+      "conservative_circular_pin_envelope_to_lips_mm": 1.215584782754945,
+      "post_to_fixed_frame_mm": 0.8513654281388483,
+      "lower_normal_reactions_at_P0_over_W": [
+        0.9944686904896028,
+        0.9965975585611796
+      ],
+      "lower_normal_reaction_P_coefficients": [
+        0.9955348555521261,
+        0.9955347672425313
+      ]
+    },
+    {
+      "ring": "Outer",
+      "shape_phase_deg": 15,
+      "shape_amplitude_mm": 0.25,
+      "center_x_mm": -0.0012390544052864093,
+      "center_z_mm": 0.35297393821374295,
+      "upper_follower_radial_shift_mm": 0.5297928538725062,
+      "max_contact_distance_residual_mm": 8.881784197001252e-15,
+      "upper_root_gap_at_outward_stop_mm": 0.4702051298973249,
+      "projected_lip_overlap_at_outward_stop_mm": 1.5297948701026751,
+      "conservative_circular_pin_envelope_to_lips_mm": 1.1757221857578202,
+      "post_to_fixed_frame_mm": 0.9702071461275068,
+      "lower_normal_reactions_at_P0_over_W": [
+        0.9947296309503756,
+        0.9990110530557569
+      ],
+      "lower_normal_reaction_P_coefficients": [
+        0.9964286877996625,
+        0.9973250730945613
+      ]
+    },
+    {
+      "ring": "Outer",
+      "shape_phase_deg": 20,
+      "shape_amplitude_mm": 0.25,
+      "center_x_mm": -0.0010496745402371293,
+      "center_z_mm": 0.24980657080797386,
+      "upper_follower_radial_shift_mm": 0.37487431319279646,
+      "max_contact_distance_residual_mm": 2.842170943040401e-14,
+      "upper_root_gap_at_outward_stop_mm": 0.6251212560659898,
+      "projected_lip_overlap_at_outward_stop_mm": 1.3748787439340102,
+      "conservative_circular_pin_envelope_to_lips_mm": 1.124148817874783,
+      "post_to_fixed_frame_mm": 1.1251256868071948,
+      "lower_normal_reactions_at_P0_over_W": [
+        0.9942541453740419,
+        0.9994996562984819
+      ],
+      "lower_normal_reaction_P_coefficients": [
+        0.9964401207472094,
+        0.9973336147987232
+      ]
+    },
+    {
+      "ring": "Outer",
+      "shape_phase_deg": 25,
+      "shape_amplitude_mm": 0.25,
+      "center_x_mm": -0.0006398669580736822,
+      "center_z_mm": 0.12950065740384495,
+      "upper_follower_radial_shift_mm": 0.19429112256680423,
+      "max_contact_distance_residual_mm": 2.9665159217984183e-13,
+      "upper_root_gap_at_outward_stop_mm": 0.8057014509638094,
+      "projected_lip_overlap_at_outward_stop_mm": 1.1942985490361906,
+      "conservative_circular_pin_envelope_to_lips_mm": 1.0642377808756862,
+      "post_to_fixed_frame_mm": 1.3057088774332044,
+      "lower_normal_reactions_at_P0_over_W": [
+        0.9960584808290764,
+        1.0013440877162092
+      ],
+      "lower_normal_reaction_P_coefficients": [
+        0.9985488408596662,
+        0.9988745566276448
+      ]
+    },
+    {
+      "ring": "Outer",
+      "shape_phase_deg": 30,
+      "shape_amplitude_mm": 0.25,
+      "center_x_mm": 1.302849775191941e-05,
+      "center_z_mm": 0.00017336433306000746,
+      "upper_follower_radial_shift_mm": 0.0002635298746598901,
+      "max_contact_distance_residual_mm": 3.375077994860476e-14,
+      "upper_root_gap_at_outward_stop_mm": 0.9997264479921988,
+      "projected_lip_overlap_at_outward_stop_mm": 1.0002735520078012,
+      "conservative_circular_pin_envelope_to_lips_mm": 1.0000753992372324,
+      "post_to_fixed_frame_mm": 1.4997364701253275,
+      "lower_normal_reactions_at_P0_over_W": [
+        0.99651518487964,
+        1.0025721092485935
+      ],
+      "lower_normal_reaction_P_coefficients": [
+        0.9991141935863896,
+        1.0000000071166217
+      ]
+    },
+    {
+      "ring": "Outer",
+      "shape_phase_deg": 35,
+      "shape_amplitude_mm": 0.25,
+      "center_x_mm": 0.0005981364922211682,
+      "center_z_mm": -0.12931470885788723,
+      "upper_follower_radial_shift_mm": -0.19393866912997162,
+      "max_contact_distance_residual_mm": 7.993605777301127e-14,
+      "upper_root_gap_at_outward_stop_mm": 1.1939276086333308,
+      "projected_lip_overlap_at_outward_stop_mm": 0.8060723913666692,
+      "conservative_circular_pin_envelope_to_lips_mm": 0.9348656973788536,
+      "post_to_fixed_frame_mm": 1.6939386691299774,
+      "lower_normal_reactions_at_P0_over_W": [
+        0.998389326881237,
+        1.0033581260217277
+      ],
+      "lower_normal_reaction_P_coefficients": [
+        1.0008830019274335,
+        1.0008829950306894
+      ]
+    },
+    {
+      "ring": "Outer",
+      "shape_phase_deg": 40,
+      "shape_amplitude_mm": 0.25,
+      "center_x_mm": 0.0010766949456702149,
+      "center_z_mm": -0.2501960030380127,
+      "upper_follower_radial_shift_mm": -0.3751356083100384,
+      "max_contact_distance_residual_mm": 1.9539925233402755e-14,
+      "upper_root_gap_at_outward_stop_mm": 1.3751257578118885,
+      "projected_lip_overlap_at_outward_stop_mm": 0.6248742421881115,
+      "conservative_circular_pin_envelope_to_lips_mm": 0.87412335024095,
+      "post_to_fixed_frame_mm": 1.875135608310046,
+      "lower_normal_reactions_at_P0_over_W": [
+        0.999569306181545,
+        1.0048147147135513
+      ],
+      "lower_normal_reaction_P_coefficients": [
+        1.0017630650500426,
+        1.0026410870840174
+      ]
+    },
+    {
+      "ring": "Outer",
+      "shape_phase_deg": 45,
+      "shape_amplitude_mm": 0.25,
+      "center_x_mm": 0.0012385001100563996,
+      "center_z_mm": -0.35408394160258616,
+      "upper_follower_radial_shift_mm": -0.5308250099237226,
+      "max_contact_distance_residual_mm": 8.881784197001252e-15,
+      "upper_root_gap_at_outward_stop_mm": 1.5308183276657044,
+      "projected_lip_overlap_at_outward_stop_mm": 0.46918167233429564,
+      "conservative_circular_pin_envelope_to_lips_mm": 0.8221938841301153,
+      "post_to_fixed_frame_mm": 2.030825009923717,
+      "lower_normal_reactions_at_P0_over_W": [
+        1.001809378187051,
+        1.0052171180718703
+      ],
+      "lower_normal_reaction_P_coefficients": [
+        1.0035176689632048,
+        1.0035175878587914
+      ]
+    },
+    {
+      "ring": "Outer",
+      "shape_phase_deg": 50,
+      "shape_amplitude_mm": 0.25,
+      "center_x_mm": 0.0010622402856184496,
+      "center_z_mm": -0.43393244133475173,
+      "upper_follower_radial_shift_mm": -0.6504250456043382,
+      "max_contact_distance_residual_mm": 3.019806626980426e-14,
+      "upper_root_gap_at_outward_stop_mm": 1.6504221605076221,
+      "projected_lip_overlap_at_outward_stop_mm": 0.34957783949237786,
+      "conservative_circular_pin_envelope_to_lips_mm": 0.782577753769715,
+      "post_to_fixed_frame_mm": 2.1504250456043508,
+      "lower_normal_reactions_at_P0_over_W": [
+        1.0033143656642167,
+        1.0063420585756957
+      ],
+      "lower_normal_reaction_P_coefficients": [
+        1.004395354710066,
+        1.005267425077491
+      ]
+    },
+    {
+      "ring": "Outer",
+      "shape_phase_deg": 55,
+      "shape_amplitude_mm": 0.25,
+      "center_x_mm": 0.0006182150402359069,
+      "center_z_mm": -0.484169729391205,
+      "upper_follower_radial_shift_mm": -0.7256499156811286,
+      "max_contact_distance_residual_mm": 7.105427357601002e-15,
+      "upper_root_gap_at_outward_stop_mm": 1.7256496004734991,
+      "projected_lip_overlap_at_outward_stop_mm": 0.27435039952650087,
+      "conservative_circular_pin_envelope_to_lips_mm": 0.7579581547633722,
+      "post_to_fixed_frame_mm": 2.2256499156811174,
+      "lower_normal_reactions_at_P0_over_W": [
+        1.0040391899028844,
+        1.0056067211908912
+      ],
+      "lower_normal_reaction_P_coefficients": [
+        1.0043882367803685,
+        1.0052589587971883
+      ]
+    },
+    {
+      "ring": "Outer",
+      "shape_phase_deg": 60,
+      "shape_amplitude_mm": 0.25,
+      "center_x_mm": 1.3432619368254976e-14,
+      "center_z_mm": -0.5013058770646148,
+      "upper_follower_radial_shift_mm": -0.7513058770646048,
+      "max_contact_distance_residual_mm": 2.842170943040401e-14,
+      "upper_root_gap_at_outward_stop_mm": 1.751305877064624,
+      "projected_lip_overlap_at_outward_stop_mm": 0.24869412293537607,
+      "conservative_circular_pin_envelope_to_lips_mm": 0.7499680865487335,
+      "post_to_fixed_frame_mm": 2.2513058770645955,
+      "lower_normal_reactions_at_P0_over_W": [
+        1.0048212250932014,
+        1.0048212250932105
+      ],
+      "lower_normal_reaction_P_coefficients": [
+        1.0048212250932023,
+        1.0048212250932096
+      ]
+    },
+    {
+      "ring": "Outer",
+      "shape_phase_deg": 65,
+      "shape_amplitude_mm": 0.25,
+      "center_x_mm": -0.0006182150402527047,
+      "center_z_mm": -0.48416972939119746,
+      "upper_follower_radial_shift_mm": -0.7256499156810889,
+      "max_contact_distance_residual_mm": 2.1316282072803006e-14,
+      "upper_root_gap_at_outward_stop_mm": 1.7256496004734991,
+      "projected_lip_overlap_at_outward_stop_mm": 0.27435039952650087,
+      "conservative_circular_pin_envelope_to_lips_mm": 0.7579581547633722,
+      "post_to_fixed_frame_mm": 2.225649915681089,
+      "lower_normal_reactions_at_P0_over_W": [
+        1.0056067211908437,
+        1.0040391899028174
+      ],
+      "lower_normal_reaction_P_coefficients": [
+        1.0052589587971406,
+        1.0043882367803012
+      ]
+    },
+    {
+      "ring": "Outer",
+      "shape_phase_deg": 70,
+      "shape_amplitude_mm": 0.25,
+      "center_x_mm": -0.0010622402856282835,
+      "center_z_mm": -0.4339324413347344,
+      "upper_follower_radial_shift_mm": -0.650425045604302,
+      "max_contact_distance_residual_mm": 2.6645352591003757e-14,
+      "upper_root_gap_at_outward_stop_mm": 1.6504221605076221,
+      "projected_lip_overlap_at_outward_stop_mm": 0.34957783949237786,
+      "conservative_circular_pin_envelope_to_lips_mm": 0.782577753769715,
+      "post_to_fixed_frame_mm": 2.150425045604294,
+      "lower_normal_reactions_at_P0_over_W": [
+        1.0063420585757934,
+        1.003314365664328
+      ],
+      "lower_normal_reaction_P_coefficients": [
+        1.005267425077589,
+        1.004395354710177
+      ]
+    },
+    {
+      "ring": "Outer",
+      "shape_phase_deg": 75,
+      "shape_amplitude_mm": 0.25,
+      "center_x_mm": -0.0012385001100355811,
+      "center_z_mm": -0.35408394160259365,
+      "upper_follower_radial_shift_mm": -0.5308250099237003,
+      "max_contact_distance_residual_mm": 3.019806626980426e-14,
+      "upper_root_gap_at_outward_stop_mm": 1.5308183276657044,
+      "projected_lip_overlap_at_outward_stop_mm": 0.46918167233429564,
+      "conservative_circular_pin_envelope_to_lips_mm": 0.8221938841300869,
+      "post_to_fixed_frame_mm": 2.0308250099236886,
+      "lower_normal_reactions_at_P0_over_W": [
+        1.0052171180718465,
+        1.0018093781871005
+      ],
+      "lower_normal_reaction_P_coefficients": [
+        1.0035175878587679,
+        1.0035176689632537
+      ]
+    },
+    {
+      "ring": "Outer",
+      "shape_phase_deg": 80,
+      "shape_amplitude_mm": 0.25,
+      "center_x_mm": -0.0010766949456557891,
+      "center_z_mm": -0.25019600303802225,
+      "upper_follower_radial_shift_mm": -0.3751356083100472,
+      "max_contact_distance_residual_mm": 1.9539925233402755e-14,
+      "upper_root_gap_at_outward_stop_mm": 1.3751257578118885,
+      "projected_lip_overlap_at_outward_stop_mm": 0.6248742421881115,
+      "conservative_circular_pin_envelope_to_lips_mm": 0.8741233502409784,
+      "post_to_fixed_frame_mm": 1.875135608310046,
+      "lower_normal_reactions_at_P0_over_W": [
+        1.0048147147135191,
+        0.9995693061815774
+      ],
+      "lower_normal_reaction_P_coefficients": [
+        1.0026410870839857,
+        1.0017630650500744
+      ]
+    },
+    {
+      "ring": "Outer",
+      "shape_phase_deg": 85,
+      "shape_amplitude_mm": 0.25,
+      "center_x_mm": -0.0005981364921443725,
+      "center_z_mm": -0.1293147088578253,
+      "upper_follower_radial_shift_mm": -0.19393866912982496,
+      "max_contact_distance_residual_mm": 1.758593271006248e-13,
+      "upper_root_gap_at_outward_stop_mm": 1.193927608633274,
+      "projected_lip_overlap_at_outward_stop_mm": 0.806072391366726,
+      "conservative_circular_pin_envelope_to_lips_mm": 0.9348656973789673,
+      "post_to_fixed_frame_mm": 1.6939386691298353,
+      "lower_normal_reactions_at_P0_over_W": [
+        1.0033581260218767,
+        0.9983893268814372
+      ],
+      "lower_normal_reaction_P_coefficients": [
+        1.0008829950308393,
+        1.000883001927633
+      ]
+    },
+    {
+      "ring": "Outer",
+      "shape_phase_deg": 90,
+      "shape_amplitude_mm": 0.25,
+      "center_x_mm": -1.30284977585122e-05,
+      "center_z_mm": 0.00017336433306617587,
+      "upper_follower_radial_shift_mm": 0.00026352987464435746,
+      "max_contact_distance_residual_mm": 2.3092638912203256e-14,
+      "upper_root_gap_at_outward_stop_mm": 0.9997264479921721,
+      "projected_lip_overlap_at_outward_stop_mm": 1.0002735520078279,
+      "conservative_circular_pin_envelope_to_lips_mm": 1.0000753992372324,
+      "post_to_fixed_frame_mm": 1.499736470125356,
+      "lower_normal_reactions_at_P0_over_W": [
+        1.0025721092486453,
+        0.9965151848796456
+      ],
+      "lower_normal_reaction_P_coefficients": [
+        1.0000000071166746,
+        0.999114193586395
+      ]
+    },
+    {
+      "ring": "Outer",
+      "shape_phase_deg": 95,
+      "shape_amplitude_mm": 0.25,
+      "center_x_mm": 0.0006398669582939145,
+      "center_z_mm": 0.129500657403824,
+      "upper_follower_radial_shift_mm": 0.1942911225668653,
+      "max_contact_distance_residual_mm": 9.237055564881302e-14,
+      "upper_root_gap_at_outward_stop_mm": 0.8057014509638378,
+      "projected_lip_overlap_at_outward_stop_mm": 1.1942985490361622,
+      "conservative_circular_pin_envelope_to_lips_mm": 1.0642377808754873,
+      "post_to_fixed_frame_mm": 1.3057088774331476,
+      "lower_normal_reactions_at_P0_over_W": [
+        1.0013440877162014,
+        0.9960584808290524
+      ],
+      "lower_normal_reaction_P_coefficients": [
+        0.9988745566276378,
+        0.9985488408596416
+      ]
+    },
+    {
+      "ring": "Outer",
+      "shape_phase_deg": 100,
+      "shape_amplitude_mm": 0.25,
+      "center_x_mm": 0.0010496745402365254,
+      "center_z_mm": 0.24980657080795696,
+      "upper_follower_radial_shift_mm": 0.3748743131927293,
+      "max_contact_distance_residual_mm": 2.842170943040401e-14,
+      "upper_root_gap_at_outward_stop_mm": 0.62512125606602,
+      "projected_lip_overlap_at_outward_stop_mm": 1.37487874393398,
+      "conservative_circular_pin_envelope_to_lips_mm": 1.1241488178747545,
+      "post_to_fixed_frame_mm": 1.12512568680728,
+      "lower_normal_reactions_at_P0_over_W": [
+        0.9994996562984395,
+        0.994254145374081
+      ],
+      "lower_normal_reaction_P_coefficients": [
+        0.997333614798681,
+        0.9964401207472476
+      ]
+    },
+    {
+      "ring": "Outer",
+      "shape_phase_deg": 105,
+      "shape_amplitude_mm": 0.25,
+      "center_x_mm": 0.0012390544052939174,
+      "center_z_mm": 0.3529739382137394,
+      "upper_follower_radial_shift_mm": 0.5297928538725074,
+      "max_contact_distance_residual_mm": 8.881784197001252e-15,
+      "upper_root_gap_at_outward_stop_mm": 0.4702051298973249,
+      "projected_lip_overlap_at_outward_stop_mm": 1.5297948701026751,
+      "conservative_circular_pin_envelope_to_lips_mm": 1.1757221857578202,
+      "post_to_fixed_frame_mm": 0.9702071461275068,
+      "lower_normal_reactions_at_P0_over_W": [
+        0.999011053055742,
+        0.9947296309504283
+      ],
+      "lower_normal_reaction_P_coefficients": [
+        0.9973250730945468,
+        0.9964286877997147
+      ]
+    },
+    {
+      "ring": "Outer",
+      "shape_phase_deg": 110,
+      "shape_amplitude_mm": 0.25,
+      "center_x_mm": 0.0010762285415404978,
+      "center_z_mm": 0.43211098837962164,
+      "upper_follower_radial_shift_mm": 0.64863457186113,
+      "max_contact_distance_residual_mm": 2.842170943040401e-14,
+      "upper_root_gap_at_outward_stop_mm": 0.35136483272254715,
+      "projected_lip_overlap_at_outward_stop_mm": 1.6486351672774529,
+      "conservative_circular_pin_envelope_to_lips_mm": 1.2155847827549167,
+      "post_to_fixed_frame_mm": 0.8513654281388767,
+      "lower_normal_reactions_at_P0_over_W": [
+        0.9965975585611048,
+        0.9944686904895492
+      ],
+      "lower_normal_reaction_P_coefficients": [
+        0.9955347672424567,
+        0.9955348555520722
+      ]
+    },
+    {
+      "ring": "Outer",
+      "shape_phase_deg": 115,
+      "shape_amplitude_mm": 0.25,
+      "center_x_mm": 0.0006065556774735122,
+      "center_z_mm": 0.48178627347558617,
+      "upper_follower_radial_shift_mm": 0.7232695754247613,
+      "max_contact_distance_residual_mm": 2.7711166694643907e-13,
+      "upper_root_gap_at_outward_stop_mm": 0.2767303785862847,
+      "projected_lip_overlap_at_outward_stop_mm": 1.7232696214137153,
+      "conservative_circular_pin_envelope_to_lips_mm": 1.2409404299361313,
+      "post_to_fixed_frame_mm": 0.7767304245752484,
+      "lower_normal_reactions_at_P0_over_W": [
+        0.9949785288453694,
+        0.9934107491909856
+      ],
+      "lower_normal_reaction_P_coefficients": [
+        0.9946456353512245,
+        0.99374486563553
+      ]
+    },
+    {
+      "ring": "Outer",
+      "shape_phase_deg": 120,
+      "shape_amplitude_mm": 0.25,
+      "center_x_mm": -1.0728835628752292e-14,
+      "center_z_mm": 0.49870823187694613,
+      "upper_follower_radial_shift_mm": 0.748708231876936,
+      "max_contact_distance_residual_mm": 4.707345624410664e-13,
+      "upper_root_gap_at_outward_stop_mm": 0.2512917681230533,
+      "projected_lip_overlap_at_outward_stop_mm": 1.7487082318769467,
+      "conservative_circular_pin_envelope_to_lips_mm": 1.2499667032667787,
+      "post_to_fixed_frame_mm": 0.7512917681230533,
+      "lower_normal_reactions_at_P0_over_W": [
+        0.9941925279275692,
+        0.9941925279275692
+      ],
+      "lower_normal_reaction_P_coefficients": [
+        0.9941925279275684,
+        0.9941925279275698
+      ]
+    },
+    {
+      "ring": "Inner",
+      "shape_phase_deg": 0,
+      "shape_amplitude_mm": 0.25,
+      "center_x_mm": -1.0745016017441022e-14,
+      "center_z_mm": 0.49837441089289586,
+      "upper_follower_radial_shift_mm": 0.7483744108928934,
+      "max_contact_distance_residual_mm": 5.329070518200751e-15,
+      "upper_root_gap_at_outward_stop_mm": 0.25162558910710686,
+      "projected_lip_overlap_at_outward_stop_mm": 1.7483744108928931,
+      "conservative_circular_pin_envelope_to_lips_mm": 1.2499553846164133,
+      "post_to_fixed_frame_mm": null,
+      "lower_normal_reactions_at_P0_over_W": [
+        0.9941678955146672,
+        0.9941678955146792
+      ],
+      "lower_normal_reaction_P_coefficients": [
+        0.9941678955146666,
+        0.9941678955146799
+      ]
+    },
+    {
+      "ring": "Inner",
+      "shape_phase_deg": 5,
+      "shape_amplitude_mm": 0.25,
+      "center_x_mm": -0.0007732700953540214,
+      "center_z_mm": 0.4814630593326571,
+      "upper_follower_radial_shift_mm": 0.7229492892501197,
+      "max_contact_distance_residual_mm": 1.7763568394002505e-15,
+      "upper_root_gap_at_outward_stop_mm": 0.27705058636623825,
+      "projected_lip_overlap_at_outward_stop_mm": 1.7229494136337618,
+      "conservative_circular_pin_envelope_to_lips_mm": 1.2407801729287513,
+      "post_to_fixed_frame_mm": null,
+      "lower_normal_reactions_at_P0_over_W": [
+        0.9931698621960555,
+        0.9951706624677454
+      ],
+      "lower_normal_reaction_P_coefficients": [
+        0.9937192069159094,
+        0.9946236833612515
+      ]
+    },
+    {
+      "ring": "Inner",
+      "shape_phase_deg": 10,
+      "shape_amplitude_mm": 0.25,
+      "center_x_mm": -0.0013283749571727493,
+      "center_z_mm": 0.4318762467487142,
+      "upper_follower_radial_shift_mm": 0.6484155240530199,
+      "max_contact_distance_residual_mm": 7.105427357601002e-15,
+      "upper_root_gap_at_outward_stop_mm": 0.35158332260389,
+      "projected_lip_overlap_at_outward_stop_mm": 1.64841667739611,
+      "conservative_circular_pin_envelope_to_lips_mm": 1.2153667913053283,
+      "post_to_fixed_frame_mm": null,
+      "lower_normal_reactions_at_P0_over_W": [
+        0.992244463399395,
+        0.9961105421531609
+      ],
+      "lower_normal_reaction_P_coefficients": [
+        0.9937314412426372,
+        0.9946340603481066
+      ]
+    },
+    {
+      "ring": "Inner",
+      "shape_phase_deg": 15,
+      "shape_amplitude_mm": 0.25,
+      "center_x_mm": -0.0015473696580712475,
+      "center_z_mm": 0.3529068675562062,
+      "upper_follower_radial_shift_mm": 0.5297598752003556,
+      "max_contact_distance_residual_mm": 8.881784197001252e-15,
+      "upper_root_gap_at_outward_stop_mm": 0.47023645691948524,
+      "projected_lip_overlap_at_outward_stop_mm": 1.5297635430805148,
+      "conservative_circular_pin_envelope_to_lips_mm": 1.1755007489511229,
+      "post_to_fixed_frame_mm": null,
+      "lower_normal_reactions_at_P0_over_W": [
+        0.9932406914886651,
+        0.9978080824669928
+      ],
+      "lower_normal_reaction_P_coefficients": [
+        0.9955322314415705,
+        0.9955320717602486
+      ]
+    },
+    {
+      "ring": "Inner",
+      "shape_phase_deg": 20,
+      "shape_amplitude_mm": 0.25,
+      "center_x_mm": -0.0013398289907832108,
+      "center_z_mm": 0.24983750816365002,
+      "upper_follower_radial_shift_mm": 0.3749575447958727,
+      "max_contact_distance_residual_mm": 1.4210854715202004e-14,
+      "upper_root_gap_at_outward_stop_mm": 0.6250345857898925,
+      "projected_lip_overlap_at_outward_stop_mm": 1.3749654142101075,
+      "conservative_circular_pin_envelope_to_lips_mm": 1.1239528754956325,
+      "post_to_fixed_frame_mm": null,
+      "lower_normal_reactions_at_P0_over_W": [
+        0.9935158404620782,
+        1.0002115871434454
+      ],
+      "lower_normal_reaction_P_coefficients": [
+        0.9964324311950775,
+        0.9973278483246109
+      ]
+    },
+    {
+      "ring": "Inner",
+      "shape_phase_deg": 25,
+      "shape_amplitude_mm": 0.25,
+      "center_x_mm": -0.000779504098167751,
+      "center_z_mm": 0.12959339152016439,
+      "upper_follower_radial_shift_mm": 0.19444845928122553,
+      "max_contact_distance_residual_mm": 5.364597654988756e-13,
+      "upper_root_gap_at_outward_stop_mm": 0.8055384848721463,
+      "projected_lip_overlap_at_outward_stop_mm": 1.1944615151278537,
+      "conservative_circular_pin_envelope_to_lips_mm": 1.064174008678819,
+      "post_to_fixed_frame_mm": null,
+      "lower_normal_reactions_at_P0_over_W": [
+        0.9949178654806298,
+        1.0014958708709076
+      ],
+      "lower_normal_reaction_P_coefficients": [
+        0.9982230640750696,
+        0.9982230290093262
+      ]
+    },
+    {
+      "ring": "Inner",
+      "shape_phase_deg": 30,
+      "shape_amplitude_mm": 0.25,
+      "center_x_mm": 1.4686600996005683e-05,
+      "center_z_mm": 0.0003441434790486818,
+      "upper_follower_radial_shift_mm": 0.0005022622736083663,
+      "max_contact_distance_residual_mm": 1.2434497875801753e-14,
+      "upper_root_gap_at_outward_stop_mm": 0.9994801684334966,
+      "projected_lip_overlap_at_outward_stop_mm": 1.0005198315665034,
+      "conservative_circular_pin_envelope_to_lips_mm": 1.0001581187954542,
+      "post_to_fixed_frame_mm": null,
+      "lower_normal_reactions_at_P0_over_W": [
+        0.996313048445263,
+        1.003723877874346
+      ],
+      "lower_normal_reaction_P_coefficients": [
+        0.9997567263558134,
+        1.0003211544142372
+      ]
+    },
+    {
+      "ring": "Inner",
+      "shape_phase_deg": 35,
+      "shape_amplitude_mm": 0.25,
+      "center_x_mm": 0.0007575856764273951,
+      "center_z_mm": -0.12919426676897447,
+      "upper_follower_radial_shift_mm": -0.19375669192017675,
+      "max_contact_distance_residual_mm": 1.8118839761882555e-13,
+      "upper_root_gap_at_outward_stop_mm": 1.193737239161349,
+      "projected_lip_overlap_at_outward_stop_mm": 0.806262760838651,
+      "conservative_circular_pin_envelope_to_lips_mm": 0.9347981850164331,
+      "post_to_fixed_frame_mm": null,
+      "lower_normal_reactions_at_P0_over_W": [
+        0.997570696723242,
+        1.0041607242521844
+      ],
+      "lower_normal_reaction_P_coefficients": [
+        1.0008820246354582,
+        1.0008820158254048
+      ]
+    },
+    {
+      "ring": "Inner",
+      "shape_phase_deg": 40,
+      "shape_amplitude_mm": 0.25,
+      "center_x_mm": 0.0013551655562404677,
+      "center_z_mm": -0.25014102961788015,
+      "upper_follower_radial_shift_mm": -0.375033270968424,
+      "max_contact_distance_residual_mm": 1.0658141036401503e-14,
+      "upper_root_gap_at_outward_stop_mm": 1.3750157628363109,
+      "projected_lip_overlap_at_outward_stop_mm": 0.6249842371636891,
+      "conservative_circular_pin_envelope_to_lips_mm": 0.8739487842615432,
+      "post_to_fixed_frame_mm": null,
+      "lower_normal_reactions_at_P0_over_W": [
+        1.000598796411608,
+        1.0064188944856778
+      ],
+      "lower_normal_reaction_P_coefficients": [
+        1.0035216859306095,
+        1.0035215592931739
+      ]
+    },
+    {
+      "ring": "Inner",
+      "shape_phase_deg": 45,
+      "shape_amplitude_mm": 0.25,
+      "center_x_mm": 0.0015405522217162642,
+      "center_z_mm": -0.35416817876830364,
+      "upper_follower_radial_shift_mm": -0.5308795027262756,
+      "max_contact_distance_residual_mm": 1.0658141036401503e-14,
+      "upper_root_gap_at_outward_stop_mm": 1.5308673386806273,
+      "projected_lip_overlap_at_outward_stop_mm": 0.4691326613193727,
+      "conservative_circular_pin_envelope_to_lips_mm": 0.8219691188655531,
+      "post_to_fixed_frame_mm": null,
+      "lower_normal_reactions_at_P0_over_W": [
+        1.0020839644091069,
+        1.0075512256503076
+      ],
+      "lower_normal_reaction_P_coefficients": [
+        1.0043928618097941,
+        1.0052643526353693
+      ]
+    },
+    {
+      "ring": "Inner",
+      "shape_phase_deg": 50,
+      "shape_amplitude_mm": 0.25,
+      "center_x_mm": 0.0013577948479165922,
+      "center_z_mm": -0.4341118192673886,
+      "upper_follower_radial_shift_mm": -0.6505912573700616,
+      "max_contact_distance_residual_mm": 3.552713678800501e-15,
+      "upper_root_gap_at_outward_stop_mm": 1.6505856738905411,
+      "projected_lip_overlap_at_outward_stop_mm": 0.3494143261094589,
+      "conservative_circular_pin_envelope_to_lips_mm": 0.7823511969140213,
+      "post_to_fixed_frame_mm": null,
+      "lower_normal_reactions_at_P0_over_W": [
+        1.0028737265607781,
+        1.0067410797098015
+      ],
+      "lower_normal_reaction_P_coefficients": [
+        1.0043784188923897,
+        1.0052471240992142
+      ]
+    },
+    {
+      "ring": "Inner",
+      "shape_phase_deg": 55,
+      "shape_amplitude_mm": 0.25,
+      "center_x_mm": 0.0007866337734766384,
+      "center_z_mm": -0.484383627549343,
+      "upper_follower_radial_shift_mm": -0.725861494375219,
+      "max_contact_distance_residual_mm": 8.881784197001252e-15,
+      "upper_root_gap_at_outward_stop_mm": 1.7258606574399362,
+      "projected_lip_overlap_at_outward_stop_mm": 0.2741393425600638,
+      "conservative_circular_pin_envelope_to_lips_mm": 0.7578541873562159,
+      "post_to_fixed_frame_mm": null,
+      "lower_normal_reactions_at_P0_over_W": [
+        1.0051836176241573,
+        1.0065016637142015
+      ],
+      "lower_normal_reaction_P_coefficients": [
+        1.0057517554876776,
+        1.0059348160816735
+      ]
+    },
+    {
+      "ring": "Inner",
+      "shape_phase_deg": 60,
+      "shape_amplitude_mm": 0.25,
+      "center_x_mm": -1.4979475614759665e-15,
+      "center_z_mm": -0.5015339894681169,
+      "upper_follower_radial_shift_mm": -0.7515339894681178,
+      "max_contact_distance_residual_mm": 1.7763568394002505e-15,
+      "upper_root_gap_at_outward_stop_mm": 1.7515339894681148,
+      "projected_lip_overlap_at_outward_stop_mm": 0.24846601053188522,
+      "conservative_circular_pin_envelope_to_lips_mm": 0.75,
+      "post_to_fixed_frame_mm": null,
+      "lower_normal_reactions_at_P0_over_W": [
+        1.0066633010961443,
+        1.0066633010961517
+      ],
+      "lower_normal_reaction_P_coefficients": [
+        1.006663301096144,
+        1.0066633010961517
+      ]
+    },
+    {
+      "ring": "Inner",
+      "shape_phase_deg": 65,
+      "shape_amplitude_mm": 0.25,
+      "center_x_mm": -0.0007866337734912719,
+      "center_z_mm": -0.48438362754933795,
+      "upper_follower_radial_shift_mm": -0.7258614943751998,
+      "max_contact_distance_residual_mm": 1.2434497875801753e-14,
+      "upper_root_gap_at_outward_stop_mm": 1.725860657439922,
+      "projected_lip_overlap_at_outward_stop_mm": 0.274139342560078,
+      "conservative_circular_pin_envelope_to_lips_mm": 0.7578541873562159,
+      "post_to_fixed_frame_mm": null,
+      "lower_normal_reactions_at_P0_over_W": [
+        1.0065016637141853,
+        1.0051836176241606
+      ],
+      "lower_normal_reaction_P_coefficients": [
+        1.0059348160816577,
+        1.005751755487681
+      ]
+    },
+    {
+      "ring": "Inner",
+      "shape_phase_deg": 70,
+      "shape_amplitude_mm": 0.25,
+      "center_x_mm": -0.0013577948479188702,
+      "center_z_mm": -0.43411181926739073,
+      "upper_follower_radial_shift_mm": -0.6505912573700754,
+      "max_contact_distance_residual_mm": 1.4210854715202004e-14,
+      "upper_root_gap_at_outward_stop_mm": 1.6505856738905411,
+      "projected_lip_overlap_at_outward_stop_mm": 0.3494143261094589,
+      "conservative_circular_pin_envelope_to_lips_mm": 0.7823511969140213,
+      "post_to_fixed_frame_mm": null,
+      "lower_normal_reactions_at_P0_over_W": [
+        1.0067410797097887,
+        1.002873726560788
+      ],
+      "lower_normal_reaction_P_coefficients": [
+        1.0052471240992018,
+        1.0043784188923992
+      ]
+    },
+    {
+      "ring": "Inner",
+      "shape_phase_deg": 75,
+      "shape_amplitude_mm": 0.25,
+      "center_x_mm": -0.0015405522217205134,
+      "center_z_mm": -0.3541681787683028,
+      "upper_follower_radial_shift_mm": -0.5308795027262734,
+      "max_contact_distance_residual_mm": 1.0658141036401503e-14,
+      "upper_root_gap_at_outward_stop_mm": 1.5308673386806273,
+      "projected_lip_overlap_at_outward_stop_mm": 0.4691326613193727,
+      "conservative_circular_pin_envelope_to_lips_mm": 0.8219691188655531,
+      "post_to_fixed_frame_mm": null,
+      "lower_normal_reactions_at_P0_over_W": [
+        1.0075512256503059,
+        1.0020839644091402
+      ],
+      "lower_normal_reaction_P_coefficients": [
+        1.0052643526353682,
+        1.0043928618098268
+      ]
+    },
+    {
+      "ring": "Inner",
+      "shape_phase_deg": 80,
+      "shape_amplitude_mm": 0.25,
+      "center_x_mm": -0.0013551655562373294,
+      "center_z_mm": -0.2501410296178704,
+      "upper_follower_radial_shift_mm": -0.37503327096840344,
+      "max_contact_distance_residual_mm": 8.881784197001252e-15,
+      "upper_root_gap_at_outward_stop_mm": 1.3750157628362967,
+      "projected_lip_overlap_at_outward_stop_mm": 0.6249842371637033,
+      "conservative_circular_pin_envelope_to_lips_mm": 0.8739487842615574,
+      "post_to_fixed_frame_mm": null,
+      "lower_normal_reactions_at_P0_over_W": [
+        1.0064188944856054,
+        1.0005987964115874
+      ],
+      "lower_normal_reaction_P_coefficients": [
+        1.0035215592931015,
+        1.0035216859305875
+      ]
+    },
+    {
+      "ring": "Inner",
+      "shape_phase_deg": 85,
+      "shape_amplitude_mm": 0.25,
+      "center_x_mm": -0.0007575856760118992,
+      "center_z_mm": -0.12919426676890752,
+      "upper_follower_radial_shift_mm": -0.19375669192013942,
+      "max_contact_distance_residual_mm": 5.346834086594754e-13,
+      "upper_root_gap_at_outward_stop_mm": 1.1937372391612744,
+      "projected_lip_overlap_at_outward_stop_mm": 0.8062627608387256,
+      "conservative_circular_pin_envelope_to_lips_mm": 0.934798185016831,
+      "post_to_fixed_frame_mm": null,
+      "lower_normal_reactions_at_P0_over_W": [
+        1.0041607242522614,
+        0.9975706967233607
+      ],
+      "lower_normal_reaction_P_coefficients": [
+        1.0008820158254828,
+        1.0008820246355759
+      ]
+    },
+    {
+      "ring": "Inner",
+      "shape_phase_deg": 90,
+      "shape_amplitude_mm": 0.25,
+      "center_x_mm": -1.4686601015626132e-05,
+      "center_z_mm": 0.0003441434790581471,
+      "upper_follower_radial_shift_mm": 0.0005022622736058294,
+      "max_contact_distance_residual_mm": 5.329070518200751e-15,
+      "upper_root_gap_at_outward_stop_mm": 0.9994801684334966,
+      "projected_lip_overlap_at_outward_stop_mm": 1.0005198315665034,
+      "conservative_circular_pin_envelope_to_lips_mm": 1.00015811879544,
+      "post_to_fixed_frame_mm": null,
+      "lower_normal_reactions_at_P0_over_W": [
+        1.0037238778743731,
+        0.9963130484452823
+      ],
+      "lower_normal_reaction_P_coefficients": [
+        1.0003211544142652,
+        0.9997567263558318
+      ]
+    },
+    {
+      "ring": "Inner",
+      "shape_phase_deg": 95,
+      "shape_amplitude_mm": 0.25,
+      "center_x_mm": 0.0007795040985329947,
+      "center_z_mm": 0.12959339152019564,
+      "upper_follower_radial_shift_mm": 0.19444845928127086,
+      "max_contact_distance_residual_mm": 1.9184653865522705e-13,
+      "upper_root_gap_at_outward_stop_mm": 0.8055384848721161,
+      "projected_lip_overlap_at_outward_stop_mm": 1.194461515127884,
+      "conservative_circular_pin_envelope_to_lips_mm": 1.0641740086785063,
+      "post_to_fixed_frame_mm": null,
+      "lower_normal_reactions_at_P0_over_W": [
+        1.0014958708708195,
+        0.9949178654805242
+      ],
+      "lower_normal_reaction_P_coefficients": [
+        0.998223029009239,
+        0.9982230640749632
+      ]
+    },
+    {
+      "ring": "Inner",
+      "shape_phase_deg": 100,
+      "shape_amplitude_mm": 0.25,
+      "center_x_mm": 0.001339828990778082,
+      "center_z_mm": 0.24983750816364628,
+      "upper_follower_radial_shift_mm": 0.37495754479586,
+      "max_contact_distance_residual_mm": 5.329070518200751e-15,
+      "upper_root_gap_at_outward_stop_mm": 0.6250345857898925,
+      "projected_lip_overlap_at_outward_stop_mm": 1.3749654142101075,
+      "conservative_circular_pin_envelope_to_lips_mm": 1.1239528754956183,
+      "post_to_fixed_frame_mm": null,
+      "lower_normal_reactions_at_P0_over_W": [
+        1.0002115871434079,
+        0.9935158404620741
+      ],
+      "lower_normal_reaction_P_coefficients": [
+        0.9973278483245741,
+        0.9964324311950725
+      ]
+    },
+    {
+      "ring": "Inner",
+      "shape_phase_deg": 105,
+      "shape_amplitude_mm": 0.25,
+      "center_x_mm": 0.001547369658072363,
+      "center_z_mm": 0.3529068675562022,
+      "upper_follower_radial_shift_mm": 0.5297598752003563,
+      "max_contact_distance_residual_mm": 1.0658141036401503e-14,
+      "upper_root_gap_at_outward_stop_mm": 0.47023645691948524,
+      "projected_lip_overlap_at_outward_stop_mm": 1.5297635430805148,
+      "conservative_circular_pin_envelope_to_lips_mm": 1.1755007489511087,
+      "post_to_fixed_frame_mm": null,
+      "lower_normal_reactions_at_P0_over_W": [
+        0.9978080824670844,
+        0.9932406914887256
+      ],
+      "lower_normal_reaction_P_coefficients": [
+        0.9955320717603412,
+        0.9955322314416306
+      ]
+    },
+    {
+      "ring": "Inner",
+      "shape_phase_deg": 110,
+      "shape_amplitude_mm": 0.25,
+      "center_x_mm": 0.0013283749571678836,
+      "center_z_mm": 0.4318762467487005,
+      "upper_follower_radial_shift_mm": 0.6484155240530021,
+      "max_contact_distance_residual_mm": 3.552713678800501e-15,
+      "upper_root_gap_at_outward_stop_mm": 0.35158332260390424,
+      "projected_lip_overlap_at_outward_stop_mm": 1.6484166773960958,
+      "conservative_circular_pin_envelope_to_lips_mm": 1.215366791305314,
+      "post_to_fixed_frame_mm": null,
+      "lower_normal_reactions_at_P0_over_W": [
+        0.9961105421532248,
+        0.9922444633994884
+      ],
+      "lower_normal_reaction_P_coefficients": [
+        0.994634060348171,
+        0.9937314412427303
+      ]
+    },
+    {
+      "ring": "Inner",
+      "shape_phase_deg": 115,
+      "shape_amplitude_mm": 0.25,
+      "center_x_mm": 0.0007732700951763091,
+      "center_z_mm": 0.48146305933437256,
+      "upper_follower_radial_shift_mm": 0.7229492892520555,
+      "max_contact_distance_residual_mm": 1.0036416142611415e-12,
+      "upper_root_gap_at_outward_stop_mm": 0.27705058636451874,
+      "projected_lip_overlap_at_outward_stop_mm": 1.7229494136354813,
+      "conservative_circular_pin_envelope_to_lips_mm": 1.240780172929746,
+      "post_to_fixed_frame_mm": null,
+      "lower_normal_reactions_at_P0_over_W": [
+        0.9951706624677454,
+        0.9931698621960556
+      ],
+      "lower_normal_reaction_P_coefficients": [
+        0.9946236833612515,
+        0.9937192069159093
+      ]
+    },
+    {
+      "ring": "Inner",
+      "shape_phase_deg": 120,
+      "shape_amplitude_mm": 0.25,
+      "center_x_mm": -1.0745016017441022e-14,
+      "center_z_mm": 0.49837441089289586,
+      "upper_follower_radial_shift_mm": 0.7483744108928934,
+      "max_contact_distance_residual_mm": 5.329070518200751e-15,
+      "upper_root_gap_at_outward_stop_mm": 0.25162558910710686,
+      "projected_lip_overlap_at_outward_stop_mm": 1.7483744108928931,
+      "conservative_circular_pin_envelope_to_lips_mm": 1.2499553846164133,
+      "post_to_fixed_frame_mm": null,
+      "lower_normal_reactions_at_P0_over_W": [
+        0.9941678955146672,
+        0.9941678955146792
+      ],
+      "lower_normal_reaction_P_coefficients": [
+        0.9941678955146666,
+        0.9941678955146799
+      ]
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "parts": 14,
+  "valid_solids": true,
+  "stop_checks": [
+    {
+      "delta_mm": -1.1,
+      "stop_overlap_mm3": 15.200000000003456
+    },
+    {
+      "delta_mm": -1.0,
+      "stop_overlap_mm3": 0.0
+    },
+    {
+      "delta_mm": -0.7516,
+      "stop_overlap_mm3": 0.0
+    },
+    {
+      "delta_mm": 0.0,
+      "stop_overlap_mm3": 0.0
+    },
+    {
+      "delta_mm": 0.7488,
+      "stop_overlap_mm3": 0.0
+    },
+    {
+      "delta_mm": 1.0,
+      "stop_overlap_mm3": 0.0
+    },
+    {
+      "delta_mm": 1.1,
+      "stop_overlap_mm3": 15.200000000003456
+    }
+  ],
+  "warning": "Stops capture carriage travel only. No continuous 3D ring-retention proof; no selected bearing, spring, stiffness or hardware assembly. Axial spacer setting and radial travel are independent geometrically, not a finished adjustable assembly."
+}

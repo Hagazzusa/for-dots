@@ -1,0 +1,26 @@
+[
+  {
+    "sidegap_mm": 0.2,
+    "groove_width_mm": 4.4,
+    "roller_total_width_mm": 10.0,
+    "lip_width_mm": 2.8,
+    "nominal_bead_to_front_lip_remaining_mm": 4.4,
+    "note": "Unchanged root/lip radii; wider axial spacer envelope only. Contact is approximate local coupon, not ring dynamics."
+  },
+  {
+    "sidegap_mm": 0.4,
+    "groove_width_mm": 4.8,
+    "roller_total_width_mm": 10.399999999999999,
+    "lip_width_mm": 2.8,
+    "nominal_bead_to_front_lip_remaining_mm": 4.200000000000001,
+    "note": "Unchanged root/lip radii; wider axial spacer envelope only. Contact is approximate local coupon, not ring dynamics."
+  },
+  {
+    "sidegap_mm": 0.6,
+    "groove_width_mm": 5.2,
+    "roller_total_width_mm": 10.8,
+    "lip_width_mm": 2.8,
+    "nominal_bead_to_front_lip_remaining_mm": 4.0,
+    "note": "Unchanged root/lip radii; wider axial spacer envelope only. Contact is approximate local coupon, not ring dynamics."
+  }
+]
