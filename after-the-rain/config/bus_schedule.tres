@@ -1,0 +1,14 @@
+[gd_resource type="Resource" script_class="" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://config/bus_schedule.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+wait_seconds = 25.0
+approach_seconds = 8.0
+stop_seconds = 20.0
+departure_seconds = 8.0
+approach_x = -34.0
+stop_x = 0.0
+departure_x = 36.0
+lane_z = 4.3

@@ -1,0 +1,21 @@
+[gd_resource type="StandardMaterial3D" format=3]
+
+[ext_resource type="Texture2D" path="res://assets/city/materials/concrete_wall_007_diff_1k.jpg" id="1_73c8r"]
+[ext_resource type="Texture2D" path="res://assets/city/materials/concrete_wall_007_nor_gl_1k.jpg" id="2_6dwno"]
+[ext_resource type="Texture2D" path="res://assets/city/materials/concrete_wall_007_rough_1k.jpg" id="3_e0abk"]
+
+[resource]
+resource_name = "Damp Concrete • 2.2m world scale"
+albedo_color = Color(0.66, 0.7, 0.75, 1)
+albedo_texture = ExtResource("1_73c8r")
+metallic_specular = 0.35
+roughness = 0.85
+roughness_texture = ExtResource("3_e0abk")
+normal_enabled = true
+normal_scale = 0.35
+normal_texture = ExtResource("2_6dwno")
+uv1_scale = Vector3(0.45454544, 0.45454544, 0.45454544)
+uv1_triplanar = true
+uv1_triplanar_sharpness = 4.0
+uv1_world_triplanar = true
+texture_filter = 5

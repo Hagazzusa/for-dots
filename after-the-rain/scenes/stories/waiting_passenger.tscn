@@ -1,0 +1,225 @@
+[gd_scene load_steps=24 format=3]
+
+[ext_resource type="Script" path="res://scripts/waiting_passenger.gd" id="PassengerScript"]
+
+[sub_resource type="StandardMaterial3D" id="R1"]
+albedo_color = Color(0.43, 0.31, 0.13, 1)
+roughness = 0.85
+
+[sub_resource type="StandardMaterial3D" id="R2"]
+albedo_color = Color(0.045, 0.065, 0.067, 1)
+roughness = 0.85
+
+[sub_resource type="StandardMaterial3D" id="R3"]
+albedo_color = Color(0.42, 0.31, 0.22, 1)
+roughness = 0.85
+
+[sub_resource type="StandardMaterial3D" id="R4"]
+albedo_color = Color(0.53, 0.39, 0.23, 1)
+roughness = 0.85
+
+[sub_resource type="StandardMaterial3D" id="R5"]
+albedo_color = Color(0.67, 0.56, 0.31, 1)
+roughness = 0.85
+
+[sub_resource type="CylinderMesh" id="R6"]
+top_radius = 0.185
+bottom_radius = 0.255
+height = 0.91
+radial_segments = 10
+rings = 1
+
+[sub_resource type="BoxMesh" id="R7"]
+size = Vector3(0.115, 0.42, 0.14)
+
+[sub_resource type="BoxMesh" id="R8"]
+size = Vector3(0.115, 0.42, 0.14)
+
+[sub_resource type="BoxMesh" id="R9"]
+size = Vector3(0.15, 0.13, 0.28)
+
+[sub_resource type="BoxMesh" id="R10"]
+size = Vector3(0.15, 0.13, 0.28)
+
+[sub_resource type="SphereMesh" id="R11"]
+radius = 0.215
+height = 0.43
+radial_segments = 12
+rings = 6
+
+[sub_resource type="SphereMesh" id="R12"]
+radius = 0.129
+height = 0.28
+radial_segments = 12
+rings = 6
+
+[sub_resource type="CylinderMesh" id="R13"]
+top_radius = 0.075
+bottom_radius = 0.075
+height = 0.57
+radial_segments = 10
+rings = 1
+
+[sub_resource type="CylinderMesh" id="R14"]
+top_radius = 0.075
+bottom_radius = 0.075
+height = 0.57
+radial_segments = 10
+rings = 1
+
+[sub_resource type="SphereMesh" id="R15"]
+radius = 0.052
+height = 0.1
+radial_segments = 12
+rings = 6
+
+[sub_resource type="SphereMesh" id="R16"]
+radius = 0.052
+height = 0.1
+radial_segments = 12
+rings = 6
+
+[sub_resource type="BoxMesh" id="R17"]
+size = Vector3(0.014, 0.55, 0.012)
+
+[sub_resource type="BoxMesh" id="R18"]
+size = Vector3(0.23, 0.32, 0.16)
+
+[sub_resource type="BoxMesh" id="R19"]
+size = Vector3(0.24, 0.025, 0.16)
+
+[sub_resource type="CylinderMesh" id="R20"]
+top_radius = 0.012
+bottom_radius = 0.052
+height = 0.7
+radial_segments = 10
+rings = 1
+
+[sub_resource type="CylinderMesh" id="R21"]
+top_radius = 0.018
+bottom_radius = 0.018
+height = 0.18
+radial_segments = 10
+rings = 1
+
+[sub_resource type="BoxShape3D" id="R22"]
+size = Vector3(0.52, 1.7, 0.4)
+
+[node name="WaitingPassenger" type="Node3D"]
+script = ExtResource("PassengerScript")
+
+[node name="Visual" type="Node3D" parent="."]
+
+[node name="Raincoat" type="MeshInstance3D" parent="Visual"]
+position = Vector3(0, 0.91, 0)
+mesh = SubResource("R6")
+material_override = SubResource("R1")
+cast_shadow = 0
+
+[node name="LegLeft" type="MeshInstance3D" parent="Visual"]
+position = Vector3(-0.11, 0.25, 0)
+mesh = SubResource("R7")
+material_override = SubResource("R2")
+cast_shadow = 0
+
+[node name="LegRight" type="MeshInstance3D" parent="Visual"]
+position = Vector3(0.11, 0.25, 0)
+mesh = SubResource("R8")
+material_override = SubResource("R2")
+cast_shadow = 0
+
+[node name="ShoeLeft" type="MeshInstance3D" parent="Visual"]
+position = Vector3(-0.11, 0.065, 0.055)
+mesh = SubResource("R9")
+material_override = SubResource("R2")
+cast_shadow = 0
+
+[node name="ShoeRight" type="MeshInstance3D" parent="Visual"]
+position = Vector3(0.11, 0.065, 0.055)
+mesh = SubResource("R10")
+material_override = SubResource("R2")
+cast_shadow = 0
+
+[node name="Hood" type="MeshInstance3D" parent="Visual"]
+position = Vector3(0, 1.51, -0.025)
+mesh = SubResource("R11")
+material_override = SubResource("R1")
+cast_shadow = 0
+
+[node name="Face" type="MeshInstance3D" parent="Visual"]
+position = Vector3(0, 1.51, 0.115)
+mesh = SubResource("R12")
+material_override = SubResource("R3")
+cast_shadow = 0
+
+[node name="SleeveLeft" type="MeshInstance3D" parent="Visual"]
+position = Vector3(-0.245, 0.98, 0)
+mesh = SubResource("R13")
+material_override = SubResource("R1")
+cast_shadow = 0
+
+[node name="SleeveRight" type="MeshInstance3D" parent="Visual"]
+position = Vector3(0.245, 0.98, 0)
+mesh = SubResource("R14")
+material_override = SubResource("R1")
+cast_shadow = 0
+
+[node name="HandLeft" type="MeshInstance3D" parent="Visual"]
+position = Vector3(-0.245, 0.675, 0.015)
+mesh = SubResource("R15")
+material_override = SubResource("R3")
+cast_shadow = 0
+
+[node name="HandRight" type="MeshInstance3D" parent="Visual"]
+position = Vector3(0.245, 0.76, 0.20)
+mesh = SubResource("R16")
+material_override = SubResource("R3")
+cast_shadow = 0
+
+[node name="CoatZip" type="MeshInstance3D" parent="Visual"]
+position = Vector3(0, 0.99, 0.208)
+mesh = SubResource("R17")
+material_override = SubResource("R5")
+cast_shadow = 0
+
+[node name="PaperBag" type="MeshInstance3D" parent="Visual"]
+position = Vector3(0.22, 0.59, 0.14)
+mesh = SubResource("R18")
+material_override = SubResource("R4")
+cast_shadow = 0
+
+[node name="FoldedPaperRim" type="MeshInstance3D" parent="Visual"]
+position = Vector3(0.22, 0.75, 0.14)
+mesh = SubResource("R19")
+material_override = SubResource("R4")
+cast_shadow = 0
+
+[node name="ClosedUmbrella" type="MeshInstance3D" parent="Visual"]
+position = Vector3(-0.32, 0.43, 0.035)
+mesh = SubResource("R20")
+material_override = SubResource("R2")
+cast_shadow = 0
+
+[node name="UmbrellaHandle" type="MeshInstance3D" parent="Visual"]
+position = Vector3(-0.32, 0.84, 0.035)
+mesh = SubResource("R21")
+material_override = SubResource("R5")
+cast_shadow = 0
+
+[node name="Sign" type="Label3D" parent="."]
+position = Vector3(0, 1.99, 0)
+text = "SAY HELLO"
+font_size = 28
+pixel_size = 0.0022
+outline_size = 0
+modulate = Color(0.88, 0.83, 0.65, 1)
+no_depth_test = false
+
+[node name="Interaction" type="Marker3D" parent="."]
+position = Vector3(0, 1.5, 0.24)
+
+[node name="Solid" type="StaticBody3D" parent="."]
+
+[node name="Shape" type="CollisionShape3D" parent="Solid"]
+position = Vector3(0, 0.85, 0)
+shape = SubResource("R22")

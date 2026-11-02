@@ -1,0 +1,205 @@
+[gd_scene format=3]
+
+[ext_resource type="PackedScene" path="res://assets/shelter.glb" id="1_ksvmc"]
+
+[ext_resource type="PackedScene" path="res://scenes/trash_can.tscn" id="2_trash"]
+[ext_resource type="PackedScene" path="res://scenes/arrival_display.tscn" id="3_display"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_0xxcw"]
+size = Vector3(7, 2.8, 0.15)
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_0rpec"]
+size = Vector3(3.2, 1.05, 0.6)
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_tnkwg"]
+size = Vector3(1.25, 2, 0.85)
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_tp36s"]
+size = Vector3(0.17, 3, 0.17)
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_rqltn"]
+size = Vector3(0.17, 3, 0.17)
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_61vnk"]
+size = Vector3(0.17, 3, 0.17)
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_wmpi5"]
+size = Vector3(0.17, 3, 0.17)
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_xiqog"]
+albedo_color = Color(1, 0.7921569, 0.47843137, 1)
+roughness = 0.5
+emission_enabled = true
+emission = Color(1, 0.7921569, 0.47843137, 1)
+emission_energy_multiplier = 3.0
+
+[sub_resource type="BoxMesh" id="BoxMesh_fmiuf"]
+size = Vector3(3.7, 0.035, 0.13)
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_pmi0a"]
+albedo_color = Color(0.14509805, 0.29803923, 0.31764707, 1)
+roughness = 0.35
+
+[sub_resource type="BoxMesh" id="BoxMesh_8ooij"]
+size = Vector3(0.1, 3.2, 0.1)
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_y000u"]
+size = Vector3(0.1, 3.2, 0.1)
+
+[sub_resource type="BoxMesh" id="BoxMesh_k3s80"]
+size = Vector3(0.85, 0.75, 0.1)
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_rgmo8"]
+albedo_color = Color(0.7647059, 0.7882353, 0.6784314, 1)
+roughness = 0.8
+
+[sub_resource type="BoxMesh" id="BoxMesh_mh2pu"]
+size = Vector3(0.62, 0.8, 0.03)
+
+[node name="BusStop" type="Node3D" unique_id=1649903200]
+
+[node name="ShelterAsset" type="Node3D" parent="." unique_id=374156538 instance=ExtResource("1_ksvmc")]
+
+[node name="StaticBody38" type="StaticBody3D" parent="." unique_id=1300916516]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1.4, -1.2)
+
+[node name="@CollisionShape3D@41" type="CollisionShape3D" parent="StaticBody38" unique_id=102039412]
+shape = SubResource("BoxShape3D_0xxcw")
+
+[node name="StaticBody39" type="StaticBody3D" parent="." unique_id=114662160]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1, 0.6, -0.45)
+
+[node name="@CollisionShape3D@43" type="CollisionShape3D" parent="StaticBody39" unique_id=296760178]
+shape = SubResource("BoxShape3D_0rpec")
+
+[node name="StaticBody40" type="StaticBody3D" parent="." unique_id=1941062946]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 2.2, 1, -0.2)
+
+[node name="@CollisionShape3D@45" type="CollisionShape3D" parent="StaticBody40" unique_id=273917684]
+shape = SubResource("BoxShape3D_tnkwg")
+
+[node name="StaticBody41" type="StaticBody3D" parent="." unique_id=412221220]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -3.2, 1.5, -1)
+
+[node name="@CollisionShape3D@47" type="CollisionShape3D" parent="StaticBody41" unique_id=589956271]
+shape = SubResource("BoxShape3D_tp36s")
+
+[node name="StaticBody42" type="StaticBody3D" parent="." unique_id=1140192620]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -3.2, 1.5, 1)
+
+[node name="@CollisionShape3D@49" type="CollisionShape3D" parent="StaticBody42" unique_id=171664059]
+shape = SubResource("BoxShape3D_rqltn")
+
+[node name="StaticBody43" type="StaticBody3D" parent="." unique_id=1776875997]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 3.2, 1.5, -1)
+
+[node name="@CollisionShape3D@51" type="CollisionShape3D" parent="StaticBody43" unique_id=1132018852]
+shape = SubResource("BoxShape3D_61vnk")
+
+[node name="StaticBody44" type="StaticBody3D" parent="." unique_id=1958080540]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 3.2, 1.5, 1)
+
+[node name="@CollisionShape3D@53" type="CollisionShape3D" parent="StaticBody44" unique_id=513765630]
+shape = SubResource("BoxShape3D_wmpi5")
+
+[node name="MeshInstance45" type="MeshInstance3D" parent="." unique_id=970394175]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.5, 2.78, 0.1)
+material_override = SubResource("StandardMaterial3D_xiqog")
+mesh = SubResource("BoxMesh_fmiuf")
+
+[node name="OmniLight46" type="OmniLight3D" parent="." unique_id=1034542177]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1, 2.45, 0.4)
+light_color = Color(1, 0.7921569, 0.47843137, 1)
+light_energy = 3.6
+omni_range = 6.0
+omni_attenuation = 1.35
+
+[node name="OmniLight47" type="OmniLight3D" parent="." unique_id=631227249]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 2.2, 1.5, 0.65)
+light_color = Color(0.7137255, 0.91764706, 0.85882354, 1)
+light_energy = 2.1
+omni_range = 3.5
+omni_attenuation = 1.35
+
+[node name="Label48" type="Label3D" parent="." unique_id=146904396]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.25, 2.66, 1.13)
+modulate = Color(1, 0.8666667, 0.63529414, 1)
+text = "AFTER THE RAIN"
+font_size = 36
+outline_size = 0
+
+[node name="Label49" type="Label3D" parent="." unique_id=1395199415]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 2.2, 1.98, 0.32)
+modulate = Color(1, 0.8627451, 0.6039216, 1)
+text = "HOT DRINKS"
+font_size = 20
+outline_size = 0
+
+[node name="MeshInstance50" type="MeshInstance3D" parent="." unique_id=226251587]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -4.5, 1.6, 0.4)
+material_override = SubResource("StandardMaterial3D_pmi0a")
+mesh = SubResource("BoxMesh_8ooij")
+
+[node name="StaticBody51" type="StaticBody3D" parent="." unique_id=1067850463]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -4.5, 1.6, 0.4)
+
+[node name="@CollisionShape3D@61" type="CollisionShape3D" parent="StaticBody51" unique_id=303631099]
+shape = SubResource("BoxShape3D_y000u")
+
+[node name="MeshInstance52" type="MeshInstance3D" parent="." unique_id=426133709]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -4.5, 2.9, 0.4)
+material_override = SubResource("StandardMaterial3D_pmi0a")
+mesh = SubResource("BoxMesh_k3s80")
+
+[node name="Label53" type="Label3D" parent="." unique_id=1663858635]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -4.5, 3, 0.465)
+modulate = Color(0.9764706, 0.8745098, 0.67058825, 1)
+text = "08"
+font_size = 76
+outline_size = 0
+
+[node name="Label54" type="Label3D" parent="." unique_id=1128087005]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -4.5, 2.72, 0.465)
+modulate = Color(0.83137256, 0.8980392, 0.85882354, 1)
+text = "NIGHT LINE"
+font_size = 20
+outline_size = 0
+
+[node name="MeshInstance55" type="MeshInstance3D" parent="." unique_id=697117875]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2.65, 1.65, -1.08)
+material_override = SubResource("StandardMaterial3D_rgmo8")
+mesh = SubResource("BoxMesh_mh2pu")
+
+[node name="Label56" type="Label3D" parent="." unique_id=1386563440]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2.65, 1.65, -1.055)
+modulate = Color(0.10980392, 0.23921569, 0.25882354, 1)
+text = "08 / 23
+
+TAKE YOUR TIME
+
+23:40   00:10"
+font_size = 17
+outline_size = 0
+
+[node name="Anchors" type="Node3D" parent="." unique_id=402657907]
+
+[node name="Start" type="Marker3D" parent="Anchors" unique_id=260230502]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -4.6, 1.65, 2.4)
+
+[node name="Seat" type="Marker3D" parent="Anchors" unique_id=518876938]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1, 1.25, -0.12)
+
+[node name="Stand" type="Marker3D" parent="Anchors" unique_id=898460197]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1, 1.65, 1.5)
+
+[node name="Vending" type="Marker3D" parent="Anchors" unique_id=1415958913]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 2.2, 1.5, 0.75)
+
+[node name="Boarding" type="Marker3D" parent="Anchors" unique_id=484650918]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 2.8, 1.5, 2.65)
+
+[node name="TrashCan" parent="." instance=ExtResource("2_trash")]
+position = Vector3(4.3, 0, 0.4)
+
+[node name="ArrivalDisplay" parent="." instance=ExtResource("3_display")]
+position = Vector3(0, 2.1, -1.3)

@@ -1,0 +1,30 @@
+[gd_scene load_steps=8 format=3]
+[ext_resource type="Script" path="res://scripts/ambience.gd" id="1"]
+[ext_resource type="AudioStream" path="res://assets/rain.wav" id="2"]
+[ext_resource type="AudioStream" path="res://assets/engine.wav" id="3"]
+[ext_resource type="AudioStream" path="res://assets/chime.wav" id="4"]
+[ext_resource type="AudioStream" path="res://assets/umbrella_taps.wav" id="5"]
+[ext_resource type="AudioStream" path="res://assets/footsteps_wet.wav" id="6"]
+[ext_resource type="AudioStream" path="res://assets/footsteps_roof.wav" id="7"]
+[node name="Ambience" type="Node"]
+script = ExtResource("1")
+[node name="RainPlayer" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("2")
+volume_db = -11.0
+bus = &"ShelterRain"
+[node name="EnginePlayer" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("3")
+volume_db = -40.0
+[node name="ChimePlayer" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("4")
+volume_db = -15.0
+
+[node name="CanopyPlayer" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("5")
+volume_db = -80.0
+[node name="WetFootsteps" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("6")
+volume_db = -28.0
+[node name="RoofFootsteps" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("7")
+volume_db = -30.0

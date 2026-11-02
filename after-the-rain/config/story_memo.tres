@@ -1,0 +1,6 @@
+[gd_resource type="Resource" load_steps=2 format=3]
+[ext_resource type="Script" path="res://config/story_text.gd" id="1"]
+[resource]
+script = ExtResource("1")
+title = "정류장에 붙은 메모"
+pages = Array[String](["지난번 빌려주신 남색 우산, 벤치 옆에 두고 갑니다.\n덕분에 장바구니가 하나도 젖지 않았어요.\n손잡이에 묶어 두신 노란 끈은 그대로예요.", "추신. 다음에 비 오면 또 누가 써도 좋겠어요.\n\n메모 아래에는 작은 글씨가 하나 더 있다.\n‘잘 받았어요. 여기 두고 같이 써요.’"])

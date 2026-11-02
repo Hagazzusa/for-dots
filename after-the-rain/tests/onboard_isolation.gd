@@ -1,0 +1,36 @@
+extends SceneTree
+var completions := 0
+func _initialize() -> void:
+	call_deferred("test")
+func test() -> void:
+	var scene = load("res://scenes/onboard_view.tscn")
+	assert(scene != null)
+	var a = scene.instantiate()
+	var b = scene.instantiate()
+	root.add_child(a)
+	root.add_child(b)
+	await process_frame
+	assert(not a.visible and not b.visible)
+	a.finished.connect(func(): completions += 1)
+	a.begin()
+	assert(a.visible and a.camera.current)
+	a.advance(4.0)
+	assert(is_equal_approx(a.position.x, .75))
+	assert(b.position == Vector3(0,0,4.3) and b.elapsed == 0)
+	a.advance(4.0)
+	a.advance(20.0)
+	assert(completions == 1 and a.position == Vector3(3,0,4.3))
+	a.reset()
+	assert(a.position == Vector3(0,0,4.3) and a.elapsed == 0 and not a.visible)
+	assert(a.camera.position == Vector3(0,1.7,0) and not a.camera.current)
+	a.begin()
+	a.advance(9.0)
+	assert(completions == 2)
+	b.begin()
+	assert(b.camera.current and b.elapsed == 0)
+	b.reset()
+	a.queue_free()
+	b.queue_free()
+	await process_frame
+	print("ONBOARD PASS: standalone load, two-instance state isolation, ease travel, finished once, reset, replay")
+	quit()

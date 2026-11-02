@@ -1,0 +1,18 @@
+[gd_scene load_steps=5 format=3]
+[ext_resource type="Script" path="res://scripts/player.gd" id="1"]
+[ext_resource type="PackedScene" path="res://scenes/held_drink.tscn" id="2"]
+[ext_resource type="PackedScene" path="res://scenes/held_umbrella.tscn" id="3"]
+[sub_resource type="CapsuleShape3D" id="PlayerCapsule"]
+radius = 0.24
+height = 1.6
+[node name="Player" type="CharacterBody3D"]
+script = ExtResource("1")
+[node name="CollisionShape3D" type="CollisionShape3D" parent="."]
+position = Vector3(0,-0.7,0)
+shape = SubResource("PlayerCapsule")
+[node name="Camera3D" type="Camera3D" parent="."]
+current = true
+fov = 67.0
+[node name="HeldDrink" parent="Camera3D" instance=ExtResource("2")]
+
+[node name="HeldUmbrella" parent="Camera3D" instance=ExtResource("3")]

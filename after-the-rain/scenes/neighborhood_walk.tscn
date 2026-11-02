@@ -1,0 +1,593 @@
+[gd_scene load_steps=55 format=3]
+
+[sub_resource type="StandardMaterial3D" id="R1"]
+albedo_color = Color(0.15, 0.19, 0.19, 1)
+roughness = 0.85
+
+[sub_resource type="StandardMaterial3D" id="R2"]
+albedo_color = Color(0.055, 0.15, 0.15, 1)
+roughness = 0.85
+
+[sub_resource type="StandardMaterial3D" id="R3"]
+albedo_color = Color(0.59, 0.59, 0.45, 1)
+roughness = 0.85
+
+[sub_resource type="StandardMaterial3D" id="R4"]
+albedo_color = Color(0.025, 0.055, 0.055, 1)
+roughness = 0.85
+
+[sub_resource type="StandardMaterial3D" id="R5"]
+albedo_color = Color(0.24, 0.14, 0.08, 1)
+roughness = 0.85
+
+[sub_resource type="StandardMaterial3D" id="R6"]
+albedo_color = Color(0.14, 0.30, 0.17, 1)
+roughness = 0.85
+
+[sub_resource type="StandardMaterial3D" id="R7"]
+albedo_color = Color(0.62, 0.30, 0.22, 1)
+roughness = 0.85
+
+[sub_resource type="StandardMaterial3D" id="R8"]
+albedo_color = Color(0.75, 0.57, 0.22, 1)
+roughness = 0.85
+
+[sub_resource type="BoxMesh" id="R9"]
+size = Vector3(24, 0.11, 5)
+
+[sub_resource type="BoxMesh" id="R10"]
+size = Vector3(3, 0.11, 5)
+
+[sub_resource type="BoxMesh" id="R11"]
+size = Vector3(3, 0.11, 5)
+
+[sub_resource type="BoxShape3D" id="R12"]
+size = Vector3(24, 0.24, 10)
+
+[sub_resource type="BoxMesh" id="R13"]
+size = Vector3(24, 0.12, 0.14)
+
+[sub_resource type="CylinderMesh" id="R14"]
+top_radius = 0.07
+bottom_radius = 0.07
+height = 0.56
+radial_segments = 10
+rings = 1
+
+[sub_resource type="CylinderMesh" id="R15"]
+top_radius = 0.074
+bottom_radius = 0.074
+height = 0.06
+radial_segments = 10
+rings = 1
+
+[sub_resource type="CylinderMesh" id="R16"]
+top_radius = 0.07
+bottom_radius = 0.07
+height = 0.56
+radial_segments = 10
+rings = 1
+
+[sub_resource type="CylinderMesh" id="R17"]
+top_radius = 0.074
+bottom_radius = 0.074
+height = 0.06
+radial_segments = 10
+rings = 1
+
+[sub_resource type="CylinderMesh" id="R18"]
+top_radius = 0.07
+bottom_radius = 0.07
+height = 0.56
+radial_segments = 10
+rings = 1
+
+[sub_resource type="CylinderMesh" id="R19"]
+top_radius = 0.074
+bottom_radius = 0.074
+height = 0.06
+radial_segments = 10
+rings = 1
+
+[sub_resource type="CylinderMesh" id="R20"]
+top_radius = 0.07
+bottom_radius = 0.07
+height = 0.56
+radial_segments = 10
+rings = 1
+
+[sub_resource type="CylinderMesh" id="R21"]
+top_radius = 0.074
+bottom_radius = 0.074
+height = 0.06
+radial_segments = 10
+rings = 1
+
+[sub_resource type="CylinderMesh" id="R22"]
+top_radius = 0.07
+bottom_radius = 0.07
+height = 0.56
+radial_segments = 10
+rings = 1
+
+[sub_resource type="CylinderMesh" id="R23"]
+top_radius = 0.074
+bottom_radius = 0.074
+height = 0.06
+radial_segments = 10
+rings = 1
+
+[sub_resource type="CylinderMesh" id="R24"]
+top_radius = 0.07
+bottom_radius = 0.07
+height = 0.56
+radial_segments = 10
+rings = 1
+
+[sub_resource type="CylinderMesh" id="R25"]
+top_radius = 0.074
+bottom_radius = 0.074
+height = 0.06
+radial_segments = 10
+rings = 1
+
+[sub_resource type="BoxMesh" id="R26"]
+size = Vector3(3.4, 2.7, 1.3)
+
+[sub_resource type="BoxMesh" id="R27"]
+size = Vector3(2.25, 1.7, 0.035)
+
+[sub_resource type="BoxMesh" id="R28"]
+size = Vector3(2.37, 0.1, 0.35)
+
+[sub_resource type="BoxMesh" id="R29"]
+size = Vector3(2.37, 0.075, 0.14)
+
+[sub_resource type="BoxMesh" id="R30"]
+size = Vector3(0.065, 1.72, 0.14)
+
+[sub_resource type="BoxMesh" id="R31"]
+size = Vector3(0.065, 1.72, 0.14)
+
+[sub_resource type="BoxMesh" id="R32"]
+size = Vector3(0.65, 2.32, 0.045)
+
+[sub_resource type="BoxMesh" id="R33"]
+size = Vector3(0.48, 1.35, 0.018)
+
+[sub_resource type="BoxMesh" id="R34"]
+size = Vector3(0.035, 0.23, 0.04)
+
+[sub_resource type="BoxMesh" id="R35"]
+size = Vector3(3.65, 0.11, 1.0)
+
+[sub_resource type="BoxMesh" id="R36"]
+size = Vector3(3.65, 0.18, 0.06)
+
+[sub_resource type="CylinderMesh" id="R37"]
+top_radius = 0.17
+bottom_radius = 0.14
+height = 0.28
+radial_segments = 10
+rings = 1
+
+[sub_resource type="CylinderMesh" id="R38"]
+top_radius = 0.018
+bottom_radius = 0.018
+height = 0.37
+radial_segments = 10
+rings = 1
+
+[sub_resource type="SphereMesh" id="R39"]
+radius = 0.16
+height = 0.26
+radial_segments = 12
+rings = 6
+
+[sub_resource type="SphereMesh" id="R40"]
+radius = 0.13
+height = 0.19
+radial_segments = 12
+rings = 6
+
+[sub_resource type="CylinderMesh" id="R41"]
+top_radius = 0.17
+bottom_radius = 0.14
+height = 0.28
+radial_segments = 10
+rings = 1
+
+[sub_resource type="CylinderMesh" id="R42"]
+top_radius = 0.018
+bottom_radius = 0.018
+height = 0.52
+radial_segments = 10
+rings = 1
+
+[sub_resource type="SphereMesh" id="R43"]
+radius = 0.16
+height = 0.26
+radial_segments = 12
+rings = 6
+
+[sub_resource type="SphereMesh" id="R44"]
+radius = 0.13
+height = 0.19
+radial_segments = 12
+rings = 6
+
+[sub_resource type="CylinderMesh" id="R45"]
+top_radius = 0.17
+bottom_radius = 0.14
+height = 0.28
+radial_segments = 10
+rings = 1
+
+[sub_resource type="CylinderMesh" id="R46"]
+top_radius = 0.018
+bottom_radius = 0.018
+height = 0.43
+radial_segments = 10
+rings = 1
+
+[sub_resource type="SphereMesh" id="R47"]
+radius = 0.16
+height = 0.26
+radial_segments = 12
+rings = 6
+
+[sub_resource type="SphereMesh" id="R48"]
+radius = 0.13
+height = 0.19
+radial_segments = 12
+rings = 6
+
+[sub_resource type="CylinderMesh" id="R49"]
+top_radius = 0.17
+bottom_radius = 0.14
+height = 0.28
+radial_segments = 10
+rings = 1
+
+[sub_resource type="CylinderMesh" id="R50"]
+top_radius = 0.018
+bottom_radius = 0.018
+height = 0.32
+radial_segments = 10
+rings = 1
+
+[sub_resource type="SphereMesh" id="R51"]
+radius = 0.16
+height = 0.26
+radial_segments = 12
+rings = 6
+
+[sub_resource type="SphereMesh" id="R52"]
+radius = 0.13
+height = 0.19
+radial_segments = 12
+rings = 6
+
+[sub_resource type="BoxMesh" id="R53"]
+size = Vector3(0.38, 0.38, 0.015)
+
+[sub_resource type="BoxShape3D" id="R54"]
+size = Vector3(3.4, 2.7, 1.3)
+
+[node name="NeighborhoodWalk" type="Node3D"]
+
+[node name="RearWalk" type="MeshInstance3D" parent="."]
+position = Vector3(0, 0.045, -5.5)
+mesh = SubResource("R9")
+material_override = SubResource("R1")
+cast_shadow = 0
+
+[node name="LeftConnection" type="MeshInstance3D" parent="."]
+position = Vector3(-10.5, 0.045, -0.5)
+mesh = SubResource("R10")
+material_override = SubResource("R1")
+cast_shadow = 0
+
+[node name="RightConnection" type="MeshInstance3D" parent="."]
+position = Vector3(10.5, 0.045, -0.5)
+mesh = SubResource("R11")
+material_override = SubResource("R1")
+cast_shadow = 0
+
+[node name="Solid" type="StaticBody3D" parent="."]
+
+[node name="Shape" type="CollisionShape3D" parent="Solid"]
+position = Vector3(0, -0.02, -3)
+shape = SubResource("R12")
+
+[node name="RearCurb" type="MeshInstance3D" parent="."]
+position = Vector3(0, 0.16, -8.0)
+mesh = SubResource("R13")
+material_override = SubResource("R3")
+cast_shadow = 0
+
+[node name="LowBoundaryPost-11.8-7.5" type="MeshInstance3D" parent="."]
+position = Vector3(-11.8, 0.38, -7.5)
+mesh = SubResource("R14")
+material_override = SubResource("R2")
+cast_shadow = 0
+
+[node name="Reflector-11.8-7.5" type="MeshInstance3D" parent="."]
+position = Vector3(-11.8, 0.57, -7.5)
+mesh = SubResource("R15")
+material_override = SubResource("R3")
+cast_shadow = 0
+
+[node name="LowBoundaryPost-11.8-3.3" type="MeshInstance3D" parent="."]
+position = Vector3(-11.8, 0.38, -3.3)
+mesh = SubResource("R16")
+material_override = SubResource("R2")
+cast_shadow = 0
+
+[node name="Reflector-11.8-3.3" type="MeshInstance3D" parent="."]
+position = Vector3(-11.8, 0.57, -3.3)
+mesh = SubResource("R17")
+material_override = SubResource("R3")
+cast_shadow = 0
+
+[node name="LowBoundaryPost-11.81.65" type="MeshInstance3D" parent="."]
+position = Vector3(-11.8, 0.38, 1.65)
+mesh = SubResource("R18")
+material_override = SubResource("R2")
+cast_shadow = 0
+
+[node name="Reflector-11.81.65" type="MeshInstance3D" parent="."]
+position = Vector3(-11.8, 0.57, 1.65)
+mesh = SubResource("R19")
+material_override = SubResource("R3")
+cast_shadow = 0
+
+[node name="LowBoundaryPost11.8-7.5" type="MeshInstance3D" parent="."]
+position = Vector3(11.8, 0.38, -7.5)
+mesh = SubResource("R20")
+material_override = SubResource("R2")
+cast_shadow = 0
+
+[node name="Reflector11.8-7.5" type="MeshInstance3D" parent="."]
+position = Vector3(11.8, 0.57, -7.5)
+mesh = SubResource("R21")
+material_override = SubResource("R3")
+cast_shadow = 0
+
+[node name="LowBoundaryPost11.8-3.3" type="MeshInstance3D" parent="."]
+position = Vector3(11.8, 0.38, -3.3)
+mesh = SubResource("R22")
+material_override = SubResource("R2")
+cast_shadow = 0
+
+[node name="Reflector11.8-3.3" type="MeshInstance3D" parent="."]
+position = Vector3(11.8, 0.57, -3.3)
+mesh = SubResource("R23")
+material_override = SubResource("R3")
+cast_shadow = 0
+
+[node name="LowBoundaryPost11.81.65" type="MeshInstance3D" parent="."]
+position = Vector3(11.8, 0.38, 1.65)
+mesh = SubResource("R24")
+material_override = SubResource("R2")
+cast_shadow = 0
+
+[node name="Reflector11.81.65" type="MeshInstance3D" parent="."]
+position = Vector3(11.8, 0.57, 1.65)
+mesh = SubResource("R25")
+material_override = SubResource("R3")
+cast_shadow = 0
+
+[node name="FlowerWindow" type="Node3D" parent="."]
+position = Vector3(-9, 0, -6)
+
+[node name="ClosedShopShell" type="MeshInstance3D" parent="FlowerWindow"]
+position = Vector3(0, 1.45, -0.65)
+mesh = SubResource("R26")
+material_override = SubResource("R2")
+cast_shadow = 0
+
+[node name="DisplayBackdrop" type="MeshInstance3D" parent="FlowerWindow"]
+position = Vector3(-0.38, 1.48, 0.015)
+mesh = SubResource("R27")
+material_override = SubResource("R4")
+cast_shadow = 0
+
+[node name="Sill" type="MeshInstance3D" parent="FlowerWindow"]
+position = Vector3(-0.38, 0.6, 0.14)
+mesh = SubResource("R28")
+material_override = SubResource("R5")
+cast_shadow = 0
+
+[node name="FrameTop" type="MeshInstance3D" parent="FlowerWindow"]
+position = Vector3(-0.38, 2.34, 0.11)
+mesh = SubResource("R29")
+material_override = SubResource("R3")
+cast_shadow = 0
+
+[node name="WindowSide-1.56" type="MeshInstance3D" parent="FlowerWindow"]
+position = Vector3(-1.56, 1.48, 0.1)
+mesh = SubResource("R30")
+material_override = SubResource("R3")
+cast_shadow = 0
+
+[node name="WindowSide0.8" type="MeshInstance3D" parent="FlowerWindow"]
+position = Vector3(0.8, 1.48, 0.1)
+mesh = SubResource("R31")
+material_override = SubResource("R3")
+cast_shadow = 0
+
+[node name="Door" type="MeshInstance3D" parent="FlowerWindow"]
+position = Vector3(1.25, 1.31, 0.025)
+mesh = SubResource("R32")
+material_override = SubResource("R5")
+cast_shadow = 0
+
+[node name="DoorGlass" type="MeshInstance3D" parent="FlowerWindow"]
+position = Vector3(1.25, 1.61, 0.055)
+mesh = SubResource("R33")
+material_override = SubResource("R4")
+cast_shadow = 0
+
+[node name="DoorHandle" type="MeshInstance3D" parent="FlowerWindow"]
+position = Vector3(1.48, 1.08, 0.12)
+mesh = SubResource("R34")
+material_override = SubResource("R3")
+cast_shadow = 0
+
+[node name="Awning" type="MeshInstance3D" parent="FlowerWindow"]
+position = Vector3(0, 2.66, 0.38)
+mesh = SubResource("R35")
+material_override = SubResource("R3")
+cast_shadow = 0
+
+[node name="AwningValance" type="MeshInstance3D" parent="FlowerWindow"]
+position = Vector3(0, 2.54, 0.85)
+mesh = SubResource("R36")
+material_override = SubResource("R2")
+cast_shadow = 0
+
+[node name="StoreSign" type="Label3D" parent="FlowerWindow"]
+position = Vector3(0, 2.51, 0.89)
+text = "FERN & RAIN"
+font_size = 28
+pixel_size = 0.003
+outline_size = 0
+modulate = Color(0.82, 0.77, 0.58, 1)
+no_depth_test = false
+
+[node name="FlowerPot0" type="MeshInstance3D" parent="FlowerWindow"]
+position = Vector3(-1.2, 0.77, 0.11)
+mesh = SubResource("R37")
+material_override = SubResource("R5")
+cast_shadow = 0
+
+[node name="PlantStem0" type="MeshInstance3D" parent="FlowerWindow"]
+position = Vector3(-1.2, 1.185, 0.1)
+mesh = SubResource("R38")
+material_override = SubResource("R6")
+cast_shadow = 0
+
+[node name="LeafCluster0" type="MeshInstance3D" parent="FlowerWindow"]
+position = Vector3(-1.2, 1.205, 0.1)
+mesh = SubResource("R39")
+material_override = SubResource("R6")
+cast_shadow = 0
+
+[node name="Flowers0" type="MeshInstance3D" parent="FlowerWindow"]
+position = Vector3(-1.2, 1.3900000000000001, 0.11)
+mesh = SubResource("R40")
+material_override = SubResource("R8")
+cast_shadow = 0
+
+[node name="FlowerPot1" type="MeshInstance3D" parent="FlowerWindow"]
+position = Vector3(-0.65, 0.77, 0.11)
+mesh = SubResource("R41")
+material_override = SubResource("R5")
+cast_shadow = 0
+
+[node name="PlantStem1" type="MeshInstance3D" parent="FlowerWindow"]
+position = Vector3(-0.65, 1.26, 0.1)
+mesh = SubResource("R42")
+material_override = SubResource("R6")
+cast_shadow = 0
+
+[node name="LeafCluster1" type="MeshInstance3D" parent="FlowerWindow"]
+position = Vector3(-0.65, 1.28, 0.1)
+mesh = SubResource("R43")
+material_override = SubResource("R6")
+cast_shadow = 0
+
+[node name="Flowers1" type="MeshInstance3D" parent="FlowerWindow"]
+position = Vector3(-0.65, 1.54, 0.11)
+mesh = SubResource("R44")
+material_override = SubResource("R7")
+cast_shadow = 0
+
+[node name="FlowerPot2" type="MeshInstance3D" parent="FlowerWindow"]
+position = Vector3(-0.08, 0.77, 0.11)
+mesh = SubResource("R45")
+material_override = SubResource("R5")
+cast_shadow = 0
+
+[node name="PlantStem2" type="MeshInstance3D" parent="FlowerWindow"]
+position = Vector3(-0.08, 1.215, 0.1)
+mesh = SubResource("R46")
+material_override = SubResource("R6")
+cast_shadow = 0
+
+[node name="LeafCluster2" type="MeshInstance3D" parent="FlowerWindow"]
+position = Vector3(-0.08, 1.235, 0.1)
+mesh = SubResource("R47")
+material_override = SubResource("R6")
+cast_shadow = 0
+
+[node name="Flowers2" type="MeshInstance3D" parent="FlowerWindow"]
+position = Vector3(-0.08, 1.45, 0.11)
+mesh = SubResource("R48")
+material_override = SubResource("R8")
+cast_shadow = 0
+
+[node name="FlowerPot3" type="MeshInstance3D" parent="FlowerWindow"]
+position = Vector3(0.43, 0.77, 0.11)
+mesh = SubResource("R49")
+material_override = SubResource("R5")
+cast_shadow = 0
+
+[node name="PlantStem3" type="MeshInstance3D" parent="FlowerWindow"]
+position = Vector3(0.43, 1.16, 0.1)
+mesh = SubResource("R50")
+material_override = SubResource("R6")
+cast_shadow = 0
+
+[node name="LeafCluster3" type="MeshInstance3D" parent="FlowerWindow"]
+position = Vector3(0.43, 1.18, 0.1)
+mesh = SubResource("R51")
+material_override = SubResource("R6")
+cast_shadow = 0
+
+[node name="Flowers3" type="MeshInstance3D" parent="FlowerWindow"]
+position = Vector3(0.43, 1.34, 0.11)
+mesh = SubResource("R52")
+material_override = SubResource("R7")
+cast_shadow = 0
+
+[node name="ClosingNote" type="MeshInstance3D" parent="FlowerWindow"]
+position = Vector3(1.25, 1.76, 0.086)
+mesh = SubResource("R53")
+material_override = SubResource("R3")
+cast_shadow = 0
+
+[node name="HandwrittenNote" type="Label3D" parent="FlowerWindow"]
+position = Vector3(1.25, 1.76, 0.099)
+text = "Closed for rain.\nBack tomorrow.\nTake care."
+font_size = 28
+pixel_size = 0.00085
+outline_size = 0
+modulate = Color(0.10, 0.19, 0.15, 1)
+no_depth_test = false
+
+[node name="ReadSign" type="Label3D" parent="FlowerWindow"]
+position = Vector3(-0.38, 2.1, 0.12)
+text = "FLOWER WINDOW"
+font_size = 28
+pixel_size = 0.0018
+outline_size = 0
+modulate = Color(0.88, 0.83, 0.65, 1)
+no_depth_test = false
+
+[node name="Interaction" type="Marker3D" parent="FlowerWindow"]
+position = Vector3(-0.38, 1.5, 0.42)
+
+[node name="Solid" type="StaticBody3D" parent="FlowerWindow"]
+
+[node name="Shape" type="CollisionShape3D" parent="FlowerWindow/Solid"]
+position = Vector3(0, 1.45, -0.65)
+shape = SubResource("R54")
+
+[node name="WindowLamp" type="OmniLight3D" parent="FlowerWindow"]
+position = Vector3(-0.4, 2.25, 0.55)
+light_color = Color(1, 0.69, 0.37, 1)
+light_energy = 1.5
+omni_range = 4.0
+shadow_enabled = false

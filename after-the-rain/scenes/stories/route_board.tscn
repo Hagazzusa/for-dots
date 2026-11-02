@@ -1,0 +1,108 @@
+[gd_scene load_steps=10 format=3]
+
+[sub_resource type="StandardMaterial3D" id="R1"]
+albedo_color = Color(0.055, 0.14, 0.16, 1)
+roughness = 0.85
+
+[sub_resource type="StandardMaterial3D" id="R2"]
+albedo_color = Color(0.71, 0.74, 0.63, 1)
+roughness = 0.85
+
+[sub_resource type="StandardMaterial3D" id="R3"]
+albedo_color = Color(0.20, 0.44, 0.42, 1)
+roughness = 0.85
+
+[sub_resource type="BoxMesh" id="R4"]
+size = Vector3(0.77, 0.83, 0.06)
+
+[sub_resource type="BoxMesh" id="R5"]
+size = Vector3(0.68, 0.74, 0.02)
+
+[sub_resource type="BoxMesh" id="R6"]
+size = Vector3(0.018, 0.43, 0.008)
+
+[sub_resource type="SphereMesh" id="R7"]
+radius = 0.026
+height = 0.052
+radial_segments = 12
+rings = 6
+
+[sub_resource type="SphereMesh" id="R8"]
+radius = 0.026
+height = 0.052
+radial_segments = 12
+rings = 6
+
+[sub_resource type="SphereMesh" id="R9"]
+radius = 0.026
+height = 0.052
+radial_segments = 12
+rings = 6
+
+[node name="RouteBoard" type="Node3D"]
+
+[node name="Frame" type="MeshInstance3D" parent="."]
+position = Vector3(0, 0, 0)
+mesh = SubResource("R4")
+material_override = SubResource("R1")
+cast_shadow = 0
+
+[node name="Face" type="MeshInstance3D" parent="."]
+position = Vector3(0, 0, 0.038)
+mesh = SubResource("R5")
+material_override = SubResource("R2")
+cast_shadow = 0
+
+[node name="RouteLine" type="MeshInstance3D" parent="."]
+position = Vector3(-0.22, -0.04, 0.053)
+mesh = SubResource("R6")
+material_override = SubResource("R3")
+cast_shadow = 0
+
+[node name="Stop0" type="MeshInstance3D" parent="."]
+position = Vector3(-0.22, 0.15, 0.061)
+mesh = SubResource("R7")
+material_override = SubResource("R3")
+cast_shadow = 0
+
+[node name="Stop1" type="MeshInstance3D" parent="."]
+position = Vector3(-0.22, -0.04000000000000001, 0.061)
+mesh = SubResource("R8")
+material_override = SubResource("R3")
+cast_shadow = 0
+
+[node name="Stop2" type="MeshInstance3D" parent="."]
+position = Vector3(-0.22, -0.23, 0.061)
+mesh = SubResource("R9")
+material_override = SubResource("R3")
+cast_shadow = 0
+
+[node name="RouteTitle" type="Label3D" parent="."]
+position = Vector3(0, 0.27, 0.055)
+text = "08 / NIGHT LINE"
+font_size = 28
+pixel_size = 0.0013
+outline_size = 0
+modulate = Color(0.09, 0.20, 0.20, 1)
+no_depth_test = false
+
+[node name="Stops" type="Label3D" parent="."]
+position = Vector3(0.06, -0.04, 0.055)
+text = "HERE / MARKET LANE\nRIVERSIDE\nHOME"
+font_size = 28
+pixel_size = 0.0011
+outline_size = 0
+modulate = Color(0.09, 0.20, 0.20, 1)
+no_depth_test = false
+
+[node name="Sign" type="Label3D" parent="."]
+position = Vector3(0, 0.5, 0.02)
+text = "ROUTE"
+font_size = 28
+pixel_size = 0.002
+outline_size = 0
+modulate = Color(0.88, 0.83, 0.65, 1)
+no_depth_test = false
+
+[node name="Interaction" type="Marker3D" parent="."]
+position = Vector3(0, -0.2, 0.13)

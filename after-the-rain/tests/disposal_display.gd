@@ -1,0 +1,40 @@
+extends SceneTree
+func _initialize():
+	call_deferred("run")
+func run():
+	var Drink = load("res://scripts/drink_session.gd")
+	var d = Drink.new()
+	root.add_child(d)
+	assert(not d.dispose_empty())
+	d.request_action(true, false)
+	assert(not d.dispose_empty())
+	d.advance(1.2)
+	assert(not d.dispose_empty())
+	for i in 3:
+		assert(d.request_action(false, false))
+		assert(not d.dispose_empty())
+		d.advance(1.3)
+	assert(d.dispose_empty())
+	assert(not d.has_cup and d.sips == 0 and not d.fill_pending)
+	assert(not d.dispose_empty())
+	assert(d.request_action(true, false))
+	d.advance(1.2)
+	assert(d.has_cup and d.sips == 3)
+	var display = load("res://scenes/arrival_display.tscn").instantiate()
+	var second = load("res://scenes/arrival_display.tscn").instantiate()
+	var trash = load("res://scenes/trash_can.tscn").instantiate()
+	root.add_child(display)
+	root.add_child(second)
+	root.add_child(trash)
+	display.present("waiting", -7)
+	assert(display.get_node("Arrival").text == "ARRIVES IN  00s")
+	assert(second.get_node("Arrival").text == "ARRIVES IN  25s")
+	for state in ["approaching", "stopped", "departing", "unknown"]:
+		display.present(state, 9)
+		assert(not display.get_node("Arrival").text.is_empty())
+	assert(trash.get_node("Interaction").position.y == 1.5)
+	for n in [d, display, second, trash]:
+		n.queue_free()
+	await process_frame
+	print("ENHANCEMENT COMPONENT PASS: standalone scenes, countdown clamp/isolation, guarded disposal, debounce, refill")
+	quit()

@@ -1,0 +1,10 @@
+[gd_scene load_steps=5 format=3]
+[ext_resource type="Script" path="res://scripts/story_corner.gd" id="1"]
+[ext_resource type="PackedScene" path="res://scenes/stories/stories.tscn" id="2"]
+[ext_resource type="PackedScene" path="res://scenes/story_panel.tscn" id="3"]
+[ext_resource type="PackedScene" path="res://scenes/story_radio_audio.tscn" id="4"]
+[node name="StoryCorner" type="Node3D"]
+script = ExtResource("1")
+[node name="Objects" parent="." instance=ExtResource("2")]
+[node name="StoryPanel" parent="." instance=ExtResource("3")]
+[node name="RadioAudio" parent="." instance=ExtResource("4")]

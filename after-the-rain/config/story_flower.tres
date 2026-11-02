@@ -1,0 +1,6 @@
+[gd_resource type="Resource" load_steps=2 format=3]
+[ext_resource type="Script" path="res://config/story_text.gd" id="1"]
+[resource]
+script = ExtResource("1")
+title = "문 닫은 꽃집"
+pages = Array[String](["오늘 남은 꽃은 창가에 두었습니다.\n내일 아침엔 작은 꽃다발로 묶어 놓을게요.\n\n유리 안쪽에 물방울이 맺혀 있다.\n노란 꽃 한 송이가 불 켜진 쪽으로 기울어 있다.", "쪽지 아래, 연필로 덧붙인 한 줄.\n\n‘화요일엔 조금 늦게 엽니다. 시장에 다녀올게요.’\n\n정류장 불빛은 여기서도 보인다."])

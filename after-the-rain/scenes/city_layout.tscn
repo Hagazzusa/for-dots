@@ -1,0 +1,106 @@
+[gd_scene format=3]
+
+[ext_resource type="Script" path="res://scripts/city_layout.gd" id="1_rfk6f"]
+[ext_resource type="PackedScene" path="res://scenes/buildings/brick_midrise.tscn" id="2_u344f"]
+[ext_resource type="PackedScene" path="res://scenes/buildings/plaster_midrise.tscn" id="3_6jnwq"]
+
+[node name="CityLayout" type="Node3D" unique_id=1756434173]
+script = ExtResource("1_rfk6f")
+
+[node name="Generated" type="Node3D" parent="." unique_id=2032490320]
+
+[node name="Rear_00" type="Node3D" parent="Generated" unique_id=1331443628 instance=ExtResource("2_u344f")]
+transform = Transform3D(1, 0, 0, 0, 1.0037265, 0, 0, 0, 1, -28, 0, -14)
+metadata/source = "Poly Haven modular_urban_apartments_facade; CC0"
+metadata/footprint = Vector2(6.96, 4.96)
+metadata/city_variant = "res://scenes/buildings/brick_midrise.tscn"
+
+[node name="Rear_01" type="Node3D" parent="Generated" unique_id=198391444 instance=ExtResource("3_6jnwq")]
+transform = Transform3D(1, 0, 0, 0, 1.2232409, 0, 0, 0, 1, -20, 0, -14)
+metadata/source = "Poly Haven modular_urban_apartments_facade; CC0"
+metadata/footprint = Vector2(6.96, 4.96)
+metadata/city_variant = "res://scenes/buildings/plaster_midrise.tscn"
+
+[node name="Rear_02" type="Node3D" parent="Generated" unique_id=1311489134 instance=ExtResource("3_6jnwq")]
+transform = Transform3D(1, 0, 0, 0, 1.1539726, 0, 0, 0, 1, -12, 0, -14)
+metadata/source = "Poly Haven modular_urban_apartments_facade; CC0"
+metadata/footprint = Vector2(6.96, 4.96)
+metadata/city_variant = "res://scenes/buildings/plaster_midrise.tscn"
+
+[node name="Rear_03" type="Node3D" parent="Generated" unique_id=553501250 instance=ExtResource("2_u344f")]
+transform = Transform3D(1, 0, 0, 0, 1.218177, 0, 0, 0, 1, -4, 0, -14)
+metadata/source = "Poly Haven modular_urban_apartments_facade; CC0"
+metadata/footprint = Vector2(6.96, 4.96)
+metadata/city_variant = "res://scenes/buildings/brick_midrise.tscn"
+
+[node name="Rear_04" type="Node3D" parent="Generated" unique_id=1569844168 instance=ExtResource("3_6jnwq")]
+transform = Transform3D(1, 0, 0, 0, 0.9482682, 0, 0, 0, 1, 4, 0, -14)
+metadata/source = "Poly Haven modular_urban_apartments_facade; CC0"
+metadata/footprint = Vector2(6.96, 4.96)
+metadata/city_variant = "res://scenes/buildings/plaster_midrise.tscn"
+
+[node name="Rear_05" type="Node3D" parent="Generated" unique_id=2018361912 instance=ExtResource("3_6jnwq")]
+transform = Transform3D(1, 0, 0, 0, 0.9981594, 0, 0, 0, 1, 12, 0, -14)
+metadata/source = "Poly Haven modular_urban_apartments_facade; CC0"
+metadata/footprint = Vector2(6.96, 4.96)
+metadata/city_variant = "res://scenes/buildings/plaster_midrise.tscn"
+
+[node name="Rear_06" type="Node3D" parent="Generated" unique_id=850294501 instance=ExtResource("2_u344f")]
+transform = Transform3D(1, 0, 0, 0, 1.1401242, 0, 0, 0, 1, 20, 0, -14)
+metadata/source = "Poly Haven modular_urban_apartments_facade; CC0"
+metadata/footprint = Vector2(6.96, 4.96)
+metadata/city_variant = "res://scenes/buildings/brick_midrise.tscn"
+
+[node name="Rear_07" type="Node3D" parent="Generated" unique_id=1179214695 instance=ExtResource("2_u344f")]
+transform = Transform3D(1, 0, 0, 0, 1.0331417, 0, 0, 0, 1, 28, 0, -14)
+metadata/source = "Poly Haven modular_urban_apartments_facade; CC0"
+metadata/footprint = Vector2(6.96, 4.96)
+metadata/city_variant = "res://scenes/buildings/brick_midrise.tscn"
+
+[node name="Across_00" type="Node3D" parent="Generated" unique_id=814000597 instance=ExtResource("3_6jnwq")]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1.0279584, 0, 8.742278e-08, 0, -1, -28, 0, 23)
+metadata/source = "Poly Haven modular_urban_apartments_facade; CC0"
+metadata/footprint = Vector2(6.96, 4.96)
+metadata/city_variant = "res://scenes/buildings/plaster_midrise.tscn"
+
+[node name="Across_01" type="Node3D" parent="Generated" unique_id=2128612550 instance=ExtResource("3_6jnwq")]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 0.9750077, 0, 8.742278e-08, 0, -1, -20, 0, 23)
+metadata/source = "Poly Haven modular_urban_apartments_facade; CC0"
+metadata/footprint = Vector2(6.96, 4.96)
+metadata/city_variant = "res://scenes/buildings/plaster_midrise.tscn"
+
+[node name="Across_02" type="Node3D" parent="Generated" unique_id=1937997720 instance=ExtResource("3_6jnwq")]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 0.97269076, 0, 8.742278e-08, 0, -1, -12, 0, 23)
+metadata/source = "Poly Haven modular_urban_apartments_facade; CC0"
+metadata/footprint = Vector2(6.96, 4.96)
+metadata/city_variant = "res://scenes/buildings/plaster_midrise.tscn"
+
+[node name="Across_03" type="Node3D" parent="Generated" unique_id=251984298 instance=ExtResource("3_6jnwq")]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 0.9194724, 0, 8.742278e-08, 0, -1, -4, 0, 23)
+metadata/source = "Poly Haven modular_urban_apartments_facade; CC0"
+metadata/footprint = Vector2(6.96, 4.96)
+metadata/city_variant = "res://scenes/buildings/plaster_midrise.tscn"
+
+[node name="Across_04" type="Node3D" parent="Generated" unique_id=1030708208 instance=ExtResource("3_6jnwq")]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 0.9529251, 0, 8.742278e-08, 0, -1, 4, 0, 23)
+metadata/source = "Poly Haven modular_urban_apartments_facade; CC0"
+metadata/footprint = Vector2(6.96, 4.96)
+metadata/city_variant = "res://scenes/buildings/plaster_midrise.tscn"
+
+[node name="Across_05" type="Node3D" parent="Generated" unique_id=912621513 instance=ExtResource("2_u344f")]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1.2334977, 0, 8.742278e-08, 0, -1, 12, 0, 23)
+metadata/source = "Poly Haven modular_urban_apartments_facade; CC0"
+metadata/footprint = Vector2(6.96, 4.96)
+metadata/city_variant = "res://scenes/buildings/brick_midrise.tscn"
+
+[node name="Across_06" type="Node3D" parent="Generated" unique_id=842425006 instance=ExtResource("3_6jnwq")]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1.0945526, 0, 8.742278e-08, 0, -1, 20, 0, 23)
+metadata/source = "Poly Haven modular_urban_apartments_facade; CC0"
+metadata/footprint = Vector2(6.96, 4.96)
+metadata/city_variant = "res://scenes/buildings/plaster_midrise.tscn"
+
+[node name="Across_07" type="Node3D" parent="Generated" unique_id=174812382 instance=ExtResource("3_6jnwq")]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 0.82455844, 0, 8.742278e-08, 0, -1, 28, 0, 23)
+metadata/source = "Poly Haven modular_urban_apartments_facade; CC0"
+metadata/footprint = Vector2(6.96, 4.96)
+metadata/city_variant = "res://scenes/buildings/plaster_midrise.tscn"

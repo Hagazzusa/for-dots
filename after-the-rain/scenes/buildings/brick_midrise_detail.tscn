@@ -1,0 +1,18 @@
+[gd_scene load_steps=3 format=3]
+
+[ext_resource type="PackedScene" path="res://assets/city/apartment_a_detail.glb" id="1_model"]
+
+[sub_resource type="BoxShape3D" id="Box_building"]
+size = Vector3(6.3, 9.8, 4.3)
+
+[node name="WarmStoneApartment" type="Node3D"]
+metadata/source = "Poly Haven modular_urban_apartments_facade; CC0"
+metadata/footprint = Vector2(6.96, 4.96)
+
+[node name="Architecture" parent="." instance=ExtResource("1_model")]
+
+[node name="SolidBuilding" type="StaticBody3D" parent="."]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="SolidBuilding"]
+position = Vector3(0, 4.9, 0)
+shape = SubResource("Box_building")

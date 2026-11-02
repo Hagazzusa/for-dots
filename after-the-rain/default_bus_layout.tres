@@ -1,0 +1,14 @@
+[gd_resource type="AudioBusLayout" format=3 uid="uid://cs0msipj1klmy"]
+
+[sub_resource type="AudioEffectLowPassFilter" id="LowPass"]
+cutoff_hz = 12000.0
+
+[resource]
+bus/1/name = &"ShelterRain"
+bus/1/solo = false
+bus/1/mute = false
+bus/1/bypass_fx = false
+bus/1/volume_db = 0.0
+bus/1/send = &"Master"
+bus/1/effect/0/effect = SubResource("LowPass")
+bus/1/effect/0/enabled = true

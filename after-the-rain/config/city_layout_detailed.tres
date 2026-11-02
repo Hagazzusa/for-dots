@@ -1,0 +1,6 @@
+[gd_resource type="Resource" script_class="" load_steps=2 format=3]
+[ext_resource type="Script" path="res://config/city_layout.gd" id="1"]
+[resource]
+script = ExtResource("1")
+
+variants = Array[String](["res://scenes/buildings/brick_midrise_detail.tscn", "res://scenes/buildings/plaster_midrise_detail.tscn"])

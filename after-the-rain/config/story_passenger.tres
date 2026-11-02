@@ -1,0 +1,8 @@
+[gd_resource type="Resource" load_steps=2 format=3]
+[ext_resource type="Script" path="res://config/story_text.gd" id="1"]
+[resource]
+script = ExtResource("1")
+title = "종이봉투를 든 승객"
+pages = Array[String](["승객은 젖지 않게 품에 안은 종이봉투를 고쳐 든다.\n\n“빵집 문 닫기 전에 겨우 갔네요.\n아직 조금 따뜻해요.”"])
+choice_labels = Array[String](["무슨 빵이에요?", "08번 기다리세요?"])
+choice_responses = Array[String](["“그냥 소보로요. 어릴 때는 위에 바삭한 것부터 떼어 먹었는데,\n지금도 그러네요.”\n\n승객이 봉투를 한번 내려다보고 웃는다.\n잠깐 말이 끊긴 사이, 지붕 위로 빗소리가 이어진다.", "“네. 시장길에서 내려요. 비 오면 한 정거장도 걷기 싫더라고요.”\n\n승객은 도착 안내판을 올려다본다.\n“그래도 여기 지붕이 있어서 다행이네요.”"])

@@ -1,0 +1,10 @@
+# Godot generated files
+.godot/
+# Local captures and scratch
+preview.png
+preview.png.import
+__pycache__/
+*.pyc
+.DS_Store
+.env
+.env.*

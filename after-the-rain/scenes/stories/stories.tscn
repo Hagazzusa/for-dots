@@ -1,0 +1,25 @@
+[gd_scene load_steps=6 format=3]
+
+[ext_resource type="PackedScene" path="res://scenes/stories/memo_board.tscn" id="1"]
+[ext_resource type="PackedScene" path="res://scenes/stories/route_board.tscn" id="2"]
+[ext_resource type="PackedScene" path="res://scenes/stories/waiting_passenger.tscn" id="3"]
+[ext_resource type="PackedScene" path="res://scenes/stories/small_radio.tscn" id="4"]
+
+[ext_resource type="PackedScene" path="res://scenes/stories/shared_umbrella.tscn" id="5"]
+
+[node name="Stories" type="Node3D"]
+
+[node name="Memo" parent="." instance=ExtResource("1")]
+position = Vector3(-4, 1.55, -0.9)
+
+[node name="Route" parent="." instance=ExtResource("2")]
+position = Vector3(-1.65, 1.7, -0.99)
+
+[node name="Passenger" parent="." instance=ExtResource("3")]
+position = Vector3(-3.65, 0, 0.25)
+
+[node name="Radio" parent="." instance=ExtResource("4")]
+position = Vector3(0.95, 0.85, 0.25)
+
+[node name="SharedUmbrella" parent="." instance=ExtResource("5")]
+position = Vector3(-2.84, 0, -0.52)

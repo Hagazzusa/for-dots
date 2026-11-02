@@ -1,0 +1,385 @@
+[gd_scene format=3]
+
+[ext_resource type="Script" path="res://scripts/umbrella.gd" id="1_l2648"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_wwr0s"]
+cull_mode = 2
+albedo_color = Color(0.055, 0.12, 0.14, 1)
+roughness = 0.9
+
+[sub_resource type="ArrayMesh" id="ArrayMesh_jsxbc"]
+_surfaces = [{
+"aabb": AABB(0, 0.8, 0, 0.83, 0.19999999, 0.415),
+"format": 34359738375,
+"primitive": 3,
+"uv_scale": Vector4(0, 0, 0, 0),
+"vertex_count": 3,
+"vertex_data": PackedByteArray(0, 0, 0, 0, 0, 0, 128, 63, 0, 0, 0, 0, 225, 122, 84, 63, 205, 204, 76, 63, 0, 0, 0, 0, 89, 3, 56, 63, 205, 204, 76, 63, 225, 122, 212, 62, 159, 151, 10, 226, 117, 33, 4, 203, 159, 151, 10, 226, 117, 33, 4, 203, 159, 151, 10, 226, 117, 33, 4, 203)
+}]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_w4f7y"]
+albedo_color = Color(0.22, 0.25, 0.24, 1)
+metallic = 0.65
+roughness = 0.32
+
+[sub_resource type="CylinderMesh" id="CylinderMesh_moxbi"]
+top_radius = 0.003
+bottom_radius = 0.003
+height = 0.8537564
+radial_segments = 8
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_6rm6e"]
+cull_mode = 2
+albedo_color = Color(0.075, 0.16, 0.18, 1)
+roughness = 0.9
+
+[sub_resource type="ArrayMesh" id="ArrayMesh_6d4nx"]
+_surfaces = [{
+"aabb": AABB(0, 0.8, 0, 0.7188011, 0.19999999, 0.7188011),
+"format": 34359738375,
+"primitive": 3,
+"uv_scale": Vector4(0, 0, 0, 0),
+"vertex_count": 3,
+"vertex_data": PackedByteArray(0, 0, 0, 0, 0, 0, 128, 63, 0, 0, 0, 0, 89, 3, 56, 63, 205, 204, 76, 63, 225, 122, 212, 62, 225, 122, 212, 62, 205, 204, 76, 63, 89, 3, 56, 63, 176, 144, 157, 222, 161, 32, 183, 198, 176, 144, 157, 222, 161, 32, 183, 198, 176, 144, 157, 222, 161, 32, 183, 198)
+}]
+
+[sub_resource type="CylinderMesh" id="CylinderMesh_t7lut"]
+top_radius = 0.003
+bottom_radius = 0.003
+height = 0.8537564
+radial_segments = 8
+
+[sub_resource type="ArrayMesh" id="ArrayMesh_6ow74"]
+_surfaces = [{
+"aabb": AABB(0, 0.8, 0, 0.415, 0.19999999, 0.83),
+"format": 34359738375,
+"primitive": 3,
+"uv_scale": Vector4(0, 0, 0, 0),
+"vertex_count": 3,
+"vertex_data": PackedByteArray(0, 0, 0, 0, 0, 0, 128, 63, 0, 0, 0, 0, 225, 122, 212, 62, 205, 204, 76, 63, 89, 3, 56, 63, 6, 97, 106, 36, 205, 204, 76, 63, 225, 122, 84, 63, 84, 134, 10, 226, 106, 25, 83, 192, 84, 134, 10, 226, 106, 25, 83, 192, 84, 134, 10, 226, 106, 25, 83, 192)
+}]
+
+[sub_resource type="CylinderMesh" id="CylinderMesh_hgadj"]
+top_radius = 0.003
+bottom_radius = 0.003
+height = 0.85375637
+radial_segments = 8
+
+[sub_resource type="ArrayMesh" id="ArrayMesh_4gyr6"]
+_surfaces = [{
+"aabb": AABB(-0.415, 0.8, 0, 0.415, 0.19999999, 0.83),
+"format": 34359738375,
+"primitive": 3,
+"uv_scale": Vector4(0, 0, 0, 0),
+"vertex_count": 3,
+"vertex_data": PackedByteArray(0, 0, 0, 0, 0, 0, 128, 63, 0, 0, 0, 0, 6, 97, 106, 36, 205, 204, 76, 63, 225, 122, 84, 63, 225, 122, 212, 190, 205, 204, 76, 63, 89, 3, 56, 63, 170, 121, 10, 226, 207, 34, 49, 186, 170, 121, 10, 226, 207, 34, 49, 186, 170, 121, 10, 226, 207, 34, 49, 186)
+}]
+
+[sub_resource type="CylinderMesh" id="CylinderMesh_15pwi"]
+top_radius = 0.003
+bottom_radius = 0.003
+height = 0.8537564
+radial_segments = 8
+
+[sub_resource type="ArrayMesh" id="ArrayMesh_qqr6k"]
+_surfaces = [{
+"aabb": AABB(-0.7188011, 0.8, 0, 0.7188011, 0.19999999, 0.7188011),
+"format": 34359738375,
+"primitive": 3,
+"uv_scale": Vector4(0, 0, 0, 0),
+"vertex_count": 3,
+"vertex_data": PackedByteArray(0, 0, 0, 0, 0, 0, 128, 63, 0, 0, 0, 0, 225, 122, 212, 190, 205, 204, 76, 63, 89, 3, 56, 63, 89, 3, 56, 191, 205, 204, 76, 63, 225, 122, 212, 62, 78, 111, 157, 222, 98, 38, 102, 182, 78, 111, 157, 222, 98, 38, 102, 182, 78, 111, 157, 222, 98, 38, 102, 182)
+}]
+
+[sub_resource type="CylinderMesh" id="CylinderMesh_ura5h"]
+top_radius = 0.003
+bottom_radius = 0.003
+height = 0.85375637
+radial_segments = 8
+
+[sub_resource type="ArrayMesh" id="ArrayMesh_uil6o"]
+_surfaces = [{
+"aabb": AABB(-0.83, 0.8, 0, 0.83, 0.19999999, 0.415),
+"format": 34359738375,
+"primitive": 3,
+"uv_scale": Vector4(0, 0, 0, 0),
+"vertex_count": 3,
+"vertex_data": PackedByteArray(0, 0, 0, 0, 0, 0, 128, 63, 0, 0, 0, 0, 89, 3, 56, 191, 205, 204, 76, 63, 225, 122, 212, 62, 225, 122, 84, 191, 205, 204, 76, 63, 6, 97, 234, 36, 95, 104, 10, 226, 207, 34, 101, 180, 95, 104, 10, 226, 207, 34, 101, 180, 95, 104, 10, 226, 207, 34, 101, 180)
+}]
+
+[sub_resource type="CylinderMesh" id="CylinderMesh_7yqce"]
+top_radius = 0.003
+bottom_radius = 0.003
+height = 0.8537564
+radial_segments = 8
+
+[sub_resource type="ArrayMesh" id="ArrayMesh_72fki"]
+_surfaces = [{
+"aabb": AABB(-0.83, 0.8, -0.415, 0.83, 0.19999999, 0.415),
+"format": 34359738375,
+"primitive": 3,
+"uv_scale": Vector4(0, 0, 0, 0),
+"vertex_count": 3,
+"vertex_data": PackedByteArray(0, 0, 0, 0, 0, 0, 128, 63, 0, 0, 0, 0, 225, 122, 84, 191, 205, 204, 76, 63, 6, 97, 234, 36, 89, 3, 56, 191, 205, 204, 76, 63, 225, 122, 212, 190, 11, 98, 95, 232, 194, 24, 73, 179, 11, 98, 95, 232, 194, 24, 73, 179, 11, 98, 95, 232, 194, 24, 73, 179)
+}]
+
+[sub_resource type="CylinderMesh" id="CylinderMesh_37n70"]
+top_radius = 0.003
+bottom_radius = 0.003
+height = 0.8537564
+radial_segments = 8
+
+[sub_resource type="ArrayMesh" id="ArrayMesh_mw5g7"]
+_surfaces = [{
+"aabb": AABB(-0.7188011, 0.8, -0.7188011, 0.7188011, 0.19999999, 0.7188011),
+"format": 34359738375,
+"primitive": 3,
+"uv_scale": Vector4(0, 0, 0, 0),
+"vertex_count": 3,
+"vertex_data": PackedByteArray(0, 0, 0, 0, 0, 0, 128, 63, 0, 0, 0, 0, 89, 3, 56, 191, 205, 204, 76, 63, 225, 122, 212, 190, 225, 122, 212, 190, 205, 204, 76, 63, 89, 3, 56, 191, 158, 94, 78, 239, 49, 19, 174, 175, 158, 94, 78, 239, 49, 19, 174, 175, 158, 94, 78, 239, 49, 19, 174, 175)
+}]
+
+[sub_resource type="CylinderMesh" id="CylinderMesh_6q1jg"]
+top_radius = 0.003
+bottom_radius = 0.003
+height = 0.8537564
+radial_segments = 8
+
+[sub_resource type="ArrayMesh" id="ArrayMesh_l8j27"]
+_surfaces = [{
+"aabb": AABB(-0.415, 0.8, -0.83, 0.415, 0.19999999, 0.83),
+"format": 34359738375,
+"primitive": 3,
+"uv_scale": Vector4(0, 0, 0, 0),
+"vertex_count": 3,
+"vertex_data": PackedByteArray(0, 0, 0, 0, 0, 0, 128, 63, 0, 0, 0, 0, 225, 122, 212, 190, 205, 204, 76, 63, 89, 3, 56, 191, 196, 200, 47, 165, 205, 204, 76, 63, 225, 122, 84, 191, 11, 98, 170, 249, 106, 11, 68, 175, 11, 98, 170, 249, 106, 11, 68, 175, 11, 98, 170, 249, 106, 11, 68, 175)
+}]
+
+[sub_resource type="CylinderMesh" id="CylinderMesh_cr2sc"]
+top_radius = 0.003
+bottom_radius = 0.003
+height = 0.85375637
+radial_segments = 8
+
+[sub_resource type="ArrayMesh" id="ArrayMesh_k5ngo"]
+_surfaces = [{
+"aabb": AABB(-1.5246852e-16, 0.8, -0.83, 0.415, 0.19999999, 0.83),
+"format": 34359738375,
+"primitive": 3,
+"uv_scale": Vector4(0, 0, 0, 0),
+"vertex_count": 3,
+"vertex_data": PackedByteArray(0, 0, 0, 0, 0, 0, 128, 63, 0, 0, 0, 0, 196, 200, 47, 165, 205, 204, 76, 63, 225, 122, 84, 191, 225, 122, 212, 62, 205, 204, 76, 63, 89, 3, 56, 191, 243, 157, 170, 249, 173, 0, 173, 204, 243, 157, 170, 249, 173, 0, 173, 204, 243, 157, 170, 249, 173, 0, 173, 204)
+}]
+
+[sub_resource type="CylinderMesh" id="CylinderMesh_evt63"]
+top_radius = 0.003
+bottom_radius = 0.003
+height = 0.8537564
+radial_segments = 8
+
+[sub_resource type="ArrayMesh" id="ArrayMesh_1rif6"]
+_surfaces = [{
+"aabb": AABB(0, 0.8, -0.7188011, 0.7188011, 0.19999999, 0.7188011),
+"format": 34359738375,
+"primitive": 3,
+"uv_scale": Vector4(0, 0, 0, 0),
+"vertex_count": 3,
+"vertex_data": PackedByteArray(0, 0, 0, 0, 0, 0, 128, 63, 0, 0, 0, 0, 225, 122, 212, 62, 205, 204, 76, 63, 89, 3, 56, 191, 89, 3, 56, 63, 205, 204, 76, 63, 225, 122, 212, 190, 96, 161, 78, 239, 195, 14, 195, 206, 96, 161, 78, 239, 195, 14, 195, 206, 96, 161, 78, 239, 195, 14, 195, 206)
+}]
+
+[sub_resource type="CylinderMesh" id="CylinderMesh_m7gq1"]
+top_radius = 0.003
+bottom_radius = 0.003
+height = 0.85375637
+radial_segments = 8
+
+[sub_resource type="ArrayMesh" id="ArrayMesh_1s0uc"]
+_surfaces = [{
+"aabb": AABB(0, 0.8, -0.415, 0.83, 0.19999999, 0.415),
+"format": 34359738375,
+"primitive": 3,
+"uv_scale": Vector4(0, 0, 0, 0),
+"vertex_count": 3,
+"vertex_data": PackedByteArray(0, 0, 0, 0, 0, 0, 128, 63, 0, 0, 0, 0, 89, 3, 56, 63, 205, 204, 76, 63, 225, 122, 212, 190, 225, 122, 84, 63, 205, 204, 76, 63, 6, 97, 106, 165, 243, 157, 95, 232, 175, 24, 173, 204, 243, 157, 95, 232, 175, 24, 173, 204, 243, 157, 95, 232, 175, 24, 173, 204)
+}]
+
+[sub_resource type="CylinderMesh" id="CylinderMesh_otslt"]
+top_radius = 0.003
+bottom_radius = 0.003
+height = 0.8537564
+radial_segments = 8
+
+[sub_resource type="CylinderMesh" id="CylinderMesh_mbbqw"]
+top_radius = 0.012
+bottom_radius = 0.065
+height = 0.64
+radial_segments = 12
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_35kqn"]
+albedo_color = Color(0.23, 0.115, 0.055, 1)
+roughness = 0.65
+
+[sub_resource type="TorusMesh" id="TorusMesh_ye7hs"]
+inner_radius = 0.046
+outer_radius = 0.054
+rings = 12
+ring_segments = 6
+
+[sub_resource type="CylinderMesh" id="CylinderMesh_hrn71"]
+top_radius = 0.009
+bottom_radius = 0.009
+height = 1.275
+radial_segments = 8
+
+[sub_resource type="CylinderMesh" id="CylinderMesh_3b1uh"]
+top_radius = 0.024
+bottom_radius = 0.024
+height = 0.2
+radial_segments = 8
+
+[sub_resource type="TorusMesh" id="TorusMesh_a344b"]
+inner_radius = 0.042
+outer_radius = 0.062
+rings = 16
+ring_segments = 8
+
+[node name="HeldUmbrella" type="Node3D" unique_id=361243768]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.36, -0.12, -0.58)
+script = ExtResource("1_l2648")
+
+[node name="OpenCanopy" type="Node3D" parent="." unique_id=444242404]
+
+[node name="Panel00" type="MeshInstance3D" parent="OpenCanopy" unique_id=1073025400]
+material_override = SubResource("StandardMaterial3D_wwr0s")
+mesh = SubResource("ArrayMesh_jsxbc")
+
+[node name="Rib00" type="MeshInstance3D" parent="OpenCanopy" unique_id=1330645609]
+transform = Transform3D(-0.2342588, 0.9721743, 0, -0.9721743, -0.2342588, 0, 0, 0, 1, 0.415, 0.895, 0)
+material_override = SubResource("StandardMaterial3D_w4f7y")
+mesh = SubResource("CylinderMesh_moxbi")
+
+[node name="Panel01" type="MeshInstance3D" parent="OpenCanopy" unique_id=5813774]
+material_override = SubResource("StandardMaterial3D_6rm6e")
+mesh = SubResource("ArrayMesh_6d4nx")
+
+[node name="Rib01" type="MeshInstance3D" parent="OpenCanopy" unique_id=1020036926]
+transform = Transform3D(0.07430589, 0.8419276, -0.5344497, -0.8419276, -0.2342588, -0.48608714, -0.5344497, 0.48608714, 0.6914353, 0.35940054, 0.895, 0.2075)
+material_override = SubResource("StandardMaterial3D_w4f7y")
+mesh = SubResource("CylinderMesh_t7lut")
+
+[node name="Panel02" type="MeshInstance3D" parent="OpenCanopy" unique_id=169158203]
+material_override = SubResource("StandardMaterial3D_wwr0s")
+mesh = SubResource("ArrayMesh_6ow74")
+
+[node name="Rib02" type="MeshInstance3D" parent="OpenCanopy" unique_id=148054240]
+transform = Transform3D(0.69143534, 0.4860871, -0.5344498, -0.4860871, -0.23425892, -0.84192765, -0.5344498, 0.84192765, 0.0743058, 0.2075, 0.895, 0.35940054)
+material_override = SubResource("StandardMaterial3D_w4f7y")
+mesh = SubResource("CylinderMesh_hgadj")
+
+[node name="Panel03" type="MeshInstance3D" parent="OpenCanopy" unique_id=93582593]
+material_override = SubResource("StandardMaterial3D_6rm6e")
+mesh = SubResource("ArrayMesh_4gyr6")
+
+[node name="Rib03" type="MeshInstance3D" parent="OpenCanopy" unique_id=1251882910]
+transform = Transform3D(1, 5.952851e-17, -7.5576554e-17, -5.952851e-17, -0.2342588, -0.9721743, -7.5576554e-17, 0.9721743, -0.2342588, 2.5411422e-17, 0.895, 0.415)
+material_override = SubResource("StandardMaterial3D_w4f7y")
+mesh = SubResource("CylinderMesh_15pwi")
+
+[node name="Panel04" type="MeshInstance3D" parent="OpenCanopy" unique_id=434959632]
+material_override = SubResource("StandardMaterial3D_wwr0s")
+mesh = SubResource("ArrayMesh_qqr6k")
+
+[node name="Rib04" type="MeshInstance3D" parent="OpenCanopy" unique_id=518790672]
+transform = Transform3D(0.69143534, -0.4860871, 0.5344498, 0.4860871, -0.23425892, -0.84192765, 0.5344498, 0.84192765, 0.0743058, -0.2075, 0.895, 0.35940054)
+material_override = SubResource("StandardMaterial3D_w4f7y")
+mesh = SubResource("CylinderMesh_ura5h")
+
+[node name="Panel05" type="MeshInstance3D" parent="OpenCanopy" unique_id=1862197576]
+material_override = SubResource("StandardMaterial3D_6rm6e")
+mesh = SubResource("ArrayMesh_uil6o")
+
+[node name="Rib05" type="MeshInstance3D" parent="OpenCanopy" unique_id=72259480]
+transform = Transform3D(0.07430589, -0.8419276, 0.5344497, 0.8419276, -0.2342588, -0.48608714, 0.5344497, 0.48608714, 0.6914353, -0.35940054, 0.895, 0.2075)
+material_override = SubResource("StandardMaterial3D_w4f7y")
+mesh = SubResource("CylinderMesh_7yqce")
+
+[node name="Panel06" type="MeshInstance3D" parent="OpenCanopy" unique_id=1207715317]
+material_override = SubResource("StandardMaterial3D_wwr0s")
+mesh = SubResource("ArrayMesh_72fki")
+
+[node name="Rib06" type="MeshInstance3D" parent="OpenCanopy" unique_id=185158165]
+transform = Transform3D(-0.2342588, -0.9721743, 1.5115311e-16, 0.9721743, -0.2342588, -1.1905702e-16, 1.5115311e-16, 1.1905702e-16, 1, -0.415, 0.895, 5.0822844e-17)
+material_override = SubResource("StandardMaterial3D_w4f7y")
+mesh = SubResource("CylinderMesh_37n70")
+
+[node name="Panel07" type="MeshInstance3D" parent="OpenCanopy" unique_id=521781349]
+material_override = SubResource("StandardMaterial3D_6rm6e")
+mesh = SubResource("ArrayMesh_mw5g7")
+
+[node name="Rib07" type="MeshInstance3D" parent="OpenCanopy" unique_id=1551562026]
+transform = Transform3D(0.07430589, -0.8419276, -0.5344497, 0.8419276, -0.2342588, 0.48608714, -0.5344497, -0.48608714, 0.6914353, -0.35940054, 0.895, -0.2075)
+material_override = SubResource("StandardMaterial3D_w4f7y")
+mesh = SubResource("CylinderMesh_6q1jg")
+
+[node name="Panel08" type="MeshInstance3D" parent="OpenCanopy" unique_id=422625644]
+material_override = SubResource("StandardMaterial3D_wwr0s")
+mesh = SubResource("ArrayMesh_l8j27")
+
+[node name="Rib08" type="MeshInstance3D" parent="OpenCanopy" unique_id=1012811723]
+transform = Transform3D(0.69143534, -0.4860871, -0.5344498, 0.4860871, -0.23425892, 0.84192765, -0.5344498, -0.84192765, 0.0743058, -0.2075, 0.895, -0.35940054)
+material_override = SubResource("StandardMaterial3D_w4f7y")
+mesh = SubResource("CylinderMesh_cr2sc")
+
+[node name="Panel09" type="MeshInstance3D" parent="OpenCanopy" unique_id=1180410410]
+material_override = SubResource("StandardMaterial3D_6rm6e")
+mesh = SubResource("ArrayMesh_k5ngo")
+
+[node name="Rib09" type="MeshInstance3D" parent="OpenCanopy" unique_id=38408279]
+transform = Transform3D(1, -1.7858551e-16, -2.2672965e-16, 1.7858551e-16, -0.2342588, 0.9721743, -2.2672965e-16, -0.9721743, -0.2342588, -7.623426e-17, 0.895, -0.415)
+material_override = SubResource("StandardMaterial3D_w4f7y")
+mesh = SubResource("CylinderMesh_evt63")
+
+[node name="Panel10" type="MeshInstance3D" parent="OpenCanopy" unique_id=943068781]
+material_override = SubResource("StandardMaterial3D_wwr0s")
+mesh = SubResource("ArrayMesh_1rif6")
+
+[node name="Rib10" type="MeshInstance3D" parent="OpenCanopy" unique_id=590677342]
+transform = Transform3D(0.69143534, 0.4860871, 0.5344498, -0.4860871, -0.23425892, 0.84192765, 0.5344498, -0.84192765, 0.0743058, 0.2075, 0.895, -0.35940054)
+material_override = SubResource("StandardMaterial3D_w4f7y")
+mesh = SubResource("CylinderMesh_m7gq1")
+
+[node name="Panel11" type="MeshInstance3D" parent="OpenCanopy" unique_id=396938574]
+material_override = SubResource("StandardMaterial3D_6rm6e")
+mesh = SubResource("ArrayMesh_1s0uc")
+
+[node name="Rib11" type="MeshInstance3D" parent="OpenCanopy" unique_id=56690207]
+transform = Transform3D(0.07430589, 0.8419276, 0.5344497, -0.8419276, -0.2342588, 0.48608714, 0.5344497, -0.48608714, 0.6914353, 0.35940054, 0.895, -0.2075)
+material_override = SubResource("StandardMaterial3D_w4f7y")
+mesh = SubResource("CylinderMesh_otslt")
+
+[node name="FoldedCanopy" type="Node3D" parent="." unique_id=1022194382]
+
+[node name="FoldedFabric" type="MeshInstance3D" parent="FoldedCanopy" unique_id=1397832417]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.57, 0)
+material_override = SubResource("StandardMaterial3D_wwr0s")
+mesh = SubResource("CylinderMesh_mbbqw")
+
+[node name="Tie" type="MeshInstance3D" parent="FoldedCanopy" unique_id=1717813236]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.42, 0)
+material_override = SubResource("StandardMaterial3D_35kqn")
+mesh = SubResource("TorusMesh_ye7hs")
+
+[node name="Shaft" type="MeshInstance3D" parent="." unique_id=1655855837]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.3875, 0)
+material_override = SubResource("StandardMaterial3D_w4f7y")
+mesh = SubResource("CylinderMesh_hrn71")
+
+[node name="Grip" type="MeshInstance3D" parent="." unique_id=431956156]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -0.33, 0)
+material_override = SubResource("StandardMaterial3D_35kqn")
+mesh = SubResource("CylinderMesh_3b1uh")
+
+[node name="HandleLoop" type="MeshInstance3D" parent="." unique_id=1228757097]
+transform = Transform3D(1, 0, 0, 0, -4.371139e-08, -1, 0, 1, -4.371139e-08, 0.04, -0.43, 0)
+material_override = SubResource("StandardMaterial3D_35kqn")
+mesh = SubResource("TorusMesh_a344b")

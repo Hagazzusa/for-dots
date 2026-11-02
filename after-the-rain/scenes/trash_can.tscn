@@ -1,0 +1,66 @@
+[gd_scene load_steps=7 format=3]
+
+[sub_resource type="StandardMaterial3D" id="Teal"]
+albedo_color = Color(0.055, 0.18, 0.19, 1)
+metallic = 0.25
+roughness = 0.42
+
+[sub_resource type="StandardMaterial3D" id="Dark"]
+albedo_color = Color(0.012, 0.025, 0.026, 1)
+roughness = 0.9
+
+[sub_resource type="CylinderMesh" id="BodyMesh"]
+material = SubResource("Teal")
+top_radius = 0.28
+bottom_radius = 0.24
+height = 0.86
+radial_segments = 12
+
+[sub_resource type="CylinderMesh" id="LidMesh"]
+material = SubResource("Teal")
+top_radius = 0.3
+bottom_radius = 0.3
+height = 0.04
+radial_segments = 12
+
+[sub_resource type="CylinderMesh" id="OpeningMesh"]
+material = SubResource("Dark")
+top_radius = 0.18
+bottom_radius = 0.18
+height = 0.002
+radial_segments = 12
+
+[sub_resource type="CylinderShape3D" id="Collision"]
+height = 0.9
+radius = 0.3
+
+[node name="TrashCan" type="Node3D"]
+
+[node name="Body" type="MeshInstance3D" parent="."]
+position = Vector3(0, 0.43, 0)
+mesh = SubResource("BodyMesh")
+
+[node name="Lid" type="MeshInstance3D" parent="."]
+position = Vector3(0, 0.88, 0)
+mesh = SubResource("LidMesh")
+
+[node name="Opening" type="MeshInstance3D" parent="."]
+position = Vector3(0, 0.901, 0)
+mesh = SubResource("OpeningMesh")
+
+[node name="CupLabel" type="Label3D" parent="."]
+position = Vector3(0, 0.56, 0.278)
+pixel_size = 0.0025
+modulate = Color(1, 0.78, 0.43, 1)
+text = "CUP"
+font_size = 48
+outline_size = 0
+
+[node name="StaticBody3D" type="StaticBody3D" parent="."]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="StaticBody3D"]
+position = Vector3(0, 0.45, 0)
+shape = SubResource("Collision")
+
+[node name="Interaction" type="Marker3D" parent="."]
+position = Vector3(0, 1.5, 0)

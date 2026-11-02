@@ -1,0 +1,21 @@
+[gd_resource type="StandardMaterial3D" format=3]
+
+[ext_resource type="Texture2D" path="res://assets/city/materials/asphalt_02_diff_1k.jpg" id="1_huxs5"]
+[ext_resource type="Texture2D" path="res://assets/city/materials/asphalt_02_nor_gl_1k.jpg" id="2_xv2yr"]
+[ext_resource type="Texture2D" path="res://assets/city/materials/asphalt_02_rough_1k.jpg" id="3_bp0f7"]
+
+[resource]
+resource_name = "Wet Asphalt • 3m world scale"
+albedo_color = Color(0.62, 0.66, 0.72, 1)
+albedo_texture = ExtResource("1_huxs5")
+metallic_specular = 0.45
+roughness = 0.33
+roughness_texture = ExtResource("3_bp0f7")
+normal_enabled = true
+normal_scale = 0.28
+normal_texture = ExtResource("2_xv2yr")
+uv1_scale = Vector3(0.33333334, 0.33333334, 0.33333334)
+uv1_triplanar = true
+uv1_triplanar_sharpness = 4.0
+uv1_world_triplanar = true
+texture_filter = 5

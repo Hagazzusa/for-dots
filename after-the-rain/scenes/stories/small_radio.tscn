@@ -1,0 +1,178 @@
+[gd_scene load_steps=21 format=3]
+
+[sub_resource type="StandardMaterial3D" id="R1"]
+albedo_color = Color(0.29, 0.17, 0.075, 1)
+roughness = 0.85
+
+[sub_resource type="StandardMaterial3D" id="R2"]
+albedo_color = Color(0.61, 0.59, 0.43, 1)
+roughness = 0.85
+
+[sub_resource type="StandardMaterial3D" id="R3"]
+albedo_color = Color(0.045, 0.065, 0.067, 1)
+roughness = 0.85
+
+[sub_resource type="StandardMaterial3D" id="R4"]
+albedo_color = Color(0.33, 0.39, 0.37, 1)
+roughness = 0.85
+
+[sub_resource type="StandardMaterial3D" id="R5"]
+albedo_color = Color(0.72, 0.41, 0.13, 1)
+roughness = 0.85
+
+[sub_resource type="BoxMesh" id="R6"]
+size = Vector3(0.1, 0.72, 0.1)
+
+[sub_resource type="BoxMesh" id="R7"]
+size = Vector3(0.32, 0.05, 0.3)
+
+[sub_resource type="BoxMesh" id="R8"]
+size = Vector3(0.43, 0.055, 0.29)
+
+[sub_resource type="BoxMesh" id="R9"]
+size = Vector3(0.36, 0.25, 0.19)
+
+[sub_resource type="BoxMesh" id="R10"]
+size = Vector3(0.32, 0.21, 0.018)
+
+[sub_resource type="BoxMesh" id="R11"]
+size = Vector3(0.14, 0.16, 0.012)
+
+[sub_resource type="BoxMesh" id="R12"]
+size = Vector3(0.006, 0.15, 0.006)
+
+[sub_resource type="BoxMesh" id="R13"]
+size = Vector3(0.006, 0.15, 0.006)
+
+[sub_resource type="BoxMesh" id="R14"]
+size = Vector3(0.006, 0.15, 0.006)
+
+[sub_resource type="BoxMesh" id="R15"]
+size = Vector3(0.006, 0.15, 0.006)
+
+[sub_resource type="BoxMesh" id="R16"]
+size = Vector3(0.1, 0.045, 0.015)
+
+[sub_resource type="SphereMesh" id="R17"]
+radius = 0.025
+height = 0.05
+radial_segments = 12
+rings = 6
+
+[sub_resource type="BoxMesh" id="R18"]
+size = Vector3(0.24, 0.025, 0.025)
+
+[sub_resource type="CylinderMesh" id="R19"]
+top_radius = 0.005
+bottom_radius = 0.005
+height = 0.33
+radial_segments = 6
+rings = 1
+
+[sub_resource type="BoxShape3D" id="R20"]
+size = Vector3(0.43, 0.84, 0.3)
+
+[node name="SmallRadio" type="Node3D"]
+
+[node name="StandLeg" type="MeshInstance3D" parent="."]
+position = Vector3(0, -0.46, 0)
+mesh = SubResource("R6")
+material_override = SubResource("R3")
+cast_shadow = 0
+
+[node name="StandFoot" type="MeshInstance3D" parent="."]
+position = Vector3(0, -0.81, 0)
+mesh = SubResource("R7")
+material_override = SubResource("R3")
+cast_shadow = 0
+
+[node name="StandTop" type="MeshInstance3D" parent="."]
+position = Vector3(0, -0.09, 0)
+mesh = SubResource("R8")
+material_override = SubResource("R1")
+cast_shadow = 0
+
+[node name="RadioBody" type="MeshInstance3D" parent="."]
+position = Vector3(0, 0.07, 0)
+mesh = SubResource("R9")
+material_override = SubResource("R1")
+cast_shadow = 0
+
+[node name="Front" type="MeshInstance3D" parent="."]
+position = Vector3(0, 0.07, 0.103)
+mesh = SubResource("R10")
+material_override = SubResource("R2")
+cast_shadow = 0
+
+[node name="Speaker" type="MeshInstance3D" parent="."]
+position = Vector3(-0.065, 0.07, 0.117)
+mesh = SubResource("R11")
+material_override = SubResource("R3")
+cast_shadow = 0
+
+[node name="Grille0" type="MeshInstance3D" parent="."]
+position = Vector3(-0.12, 0.07, 0.126)
+mesh = SubResource("R12")
+material_override = SubResource("R4")
+cast_shadow = 0
+
+[node name="Grille1" type="MeshInstance3D" parent="."]
+position = Vector3(-0.08399999999999999, 0.07, 0.126)
+mesh = SubResource("R13")
+material_override = SubResource("R4")
+cast_shadow = 0
+
+[node name="Grille2" type="MeshInstance3D" parent="."]
+position = Vector3(-0.048, 0.07, 0.126)
+mesh = SubResource("R14")
+material_override = SubResource("R4")
+cast_shadow = 0
+
+[node name="Grille3" type="MeshInstance3D" parent="."]
+position = Vector3(-0.01200000000000001, 0.07, 0.126)
+mesh = SubResource("R15")
+material_override = SubResource("R4")
+cast_shadow = 0
+
+[node name="Tuner" type="MeshInstance3D" parent="."]
+position = Vector3(0.087, 0.12, 0.117)
+mesh = SubResource("R16")
+material_override = SubResource("R5")
+cast_shadow = 0
+
+[node name="Knob" type="MeshInstance3D" parent="."]
+position = Vector3(0.09, 0.018, 0.135)
+mesh = SubResource("R17")
+material_override = SubResource("R3")
+cast_shadow = 0
+
+[node name="Handle" type="MeshInstance3D" parent="."]
+position = Vector3(0, 0.235, 0)
+mesh = SubResource("R18")
+material_override = SubResource("R3")
+cast_shadow = 0
+
+[node name="Antenna" type="MeshInstance3D" parent="."]
+position = Vector3(-0.11, 0.34, -0.04)
+mesh = SubResource("R19")
+material_override = SubResource("R4")
+cast_shadow = 0
+rotation = Vector3(0, 0, -0.25)
+
+[node name="Sign" type="Label3D" parent="."]
+position = Vector3(0, 0.57, 0.03)
+text = "RADIO"
+font_size = 28
+pixel_size = 0.002
+outline_size = 0
+modulate = Color(0.88, 0.83, 0.65, 1)
+no_depth_test = false
+
+[node name="Interaction" type="Marker3D" parent="."]
+position = Vector3(0, 0.65, 0.12)
+
+[node name="Solid" type="StaticBody3D" parent="."]
+
+[node name="Shape" type="CollisionShape3D" parent="Solid"]
+position = Vector3(0, -0.43, 0)
+shape = SubResource("R20")
