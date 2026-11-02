@@ -1,0 +1,14 @@
+{
+  "status": "512 and 1024 transfer proofs plus bounded native A/B complete; production unchanged; awaiting separate promotion decision",
+  "bakes_run": 2,
+  "bake_resolutions": [
+    512,
+    1024
+  ],
+  "current_variant_glb_resolution": 1024,
+  "current_runtime_or_frozen_viewer_changed": false,
+  "native_variant_launched": true,
+  "no_additional_bakes_planned": true,
+  "comparison": "Modest finer detail at 1024, but broad arch softness/banding remains in identical-camera preview.",
+  "native_variant_closed": true
+}

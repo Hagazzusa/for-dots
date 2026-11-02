@@ -1,0 +1,20 @@
+{
+  "resolution": 512,
+  "triangles": 13176,
+  "uv_islands": 95,
+  "coverage_fraction": 0.3127156611496423,
+  "wood_surface_area_m2": 37.87637066860134,
+  "invalid_uv_triangles": 0,
+  "degenerate_uv_triangles": 0,
+  "positive_area_overlaps": 0,
+  "largest_overlap_area": 0,
+  "minimum_island_gap_pixels": 7.9999847412109375,
+  "texels_per_metre": {
+    "area_average": 46.52223790275829,
+    "min": 46.51661717591026,
+    "median": 46.52224751448471,
+    "max": 46.52484181278143
+  },
+  "overlap_tolerance_uv_area": 1e-09,
+  "pass": true
+}

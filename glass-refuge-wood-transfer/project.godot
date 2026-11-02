@@ -1,0 +1,18 @@
+config_version=5
+[application]
+config/name="TEMPORARY Wood Study — 512 vs 1024"
+run/main_scene="res://scenes/viewer.tscn"
+config/features=PackedStringArray("4.6", "GL Compatibility")
+[display]
+window/size/viewport_width=1100
+window/size/viewport_height=760
+window/size/window_width_override=1100
+window/size/window_height_override=760
+window/stretch/mode="canvas_items"
+[editor]
+import/blender/enabled=false
+[rendering]
+renderer/rendering_method="gl_compatibility"
+renderer/rendering_method.mobile="gl_compatibility"
+textures/default_filters/use_nearest_mipmap_filter=false
+anti_aliasing/quality/msaa_3d=1

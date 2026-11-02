@@ -1,0 +1,20 @@
+{
+  "resolution": 1024,
+  "glb_bytes": 4294328,
+  "glb_delta_vs_512_bytes": 437764,
+  "mesh_nodes": 33,
+  "surfaces": 35,
+  "triangles": 78388,
+  "images": 1,
+  "embedded_image_size": [
+    1024,
+    1024
+  ],
+  "embedded_pixels_match_atlas": true,
+  "geometry_accessor_bytes_identical_to_512": true,
+  "same_normalized_uv_layout": true,
+  "minimum_gap_pixels_at_1024": 15.999969482421875,
+  "protected_viewer_sha256": "fcd180b17573e343ed36954c30e3a31e74c6498a3e95824559d17027c83484af",
+  "protected_source_sha256": "60b2a139c9e56ffb53c8cd3da4d00dbe85e91e96fc27fe89358ff10dff62b612",
+  "protected_render_sha256": "b5382595a11fd091dce3739eb98fddbe452656b7f68f76deb7cd3b655029ddb1"
+}

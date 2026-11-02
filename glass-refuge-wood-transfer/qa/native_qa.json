@@ -1,0 +1,29 @@
+{
+  "native_variant_qa_run": true,
+  "current_variant": "1024 albedo comparison proof",
+  "baseline_history": "The separate frozen flat-material viewer passed native QA. That result does not apply to this textured variant.",
+  "verified_here": [
+    "Actual 512 and 1024 atlas pixels inspected",
+    "Identical-camera offline Workbench applied previews inspected",
+    "1024 GLB embedded pixels match atlas",
+    "Geometry accessor bytes identical to 512",
+    "Godot headless 1024 albedo import with emission disabled",
+    "42 viewer logic checks",
+    "Native same-camera 512/1024 texture-only A/B at close front and oblique views",
+    "Native keyboard orbit and zoom; glass hidden/restored; lamp off/on changes illumination",
+    "Reset restores front camera, 1024 atlas, lamp ON and glass ON",
+    "Distant 512 rear/side inspected; no obvious atlas bleed in sampled views"
+  ],
+  "not_verified": [
+    "Device FPS/performance and actual GPU memory",
+    "Exhaustive mip-level/seam coverage",
+    "Distant 1024 A/B capture (toggle screenshot retained 512 status)"
+  ],
+  "native_qa_utc": "2026-11-02T09:08:03Z",
+  "visual_judgment": "1024 modestly sharpens close post grain, but 512 is already legible at normal distance. Broad arch softness persists; resolution alone does not repair directional UV density. No conspicuous atlas-color bleeding in sampled front/oblique/distant views. Keep experiment separate; no automatic production promotion.",
+  "evidence": [
+    "native_close_512.jpg",
+    "native_close_1024.jpg"
+  ],
+  "performance_caveat": "Both textures resident during A/B; no controlled FPS/VRAM benchmark."
+}

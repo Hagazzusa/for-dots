@@ -1,0 +1,16 @@
+{
+  "type": "1024 albedo-only transfer proof, not final quality acceptance",
+  "resolution": [
+    1024,
+    1024
+  ],
+  "samples": 8,
+  "cpu_threads": 2,
+  "bake_type": "EMIT",
+  "lighting_included": false,
+  "margin_pixels": 8,
+  "elapsed_seconds": 2.9404650579963345,
+  "image_bytes": 642380,
+  "sha256": "1e35904dcbfc1e4a9035e5d9155cb053ed29177f07262536ce9aa49909468de8",
+  "mapping_limit": "Generated reconstructed from each original local bound and preserved as an interpolated point attribute; no independent bit-exact ORCO claim."
+}

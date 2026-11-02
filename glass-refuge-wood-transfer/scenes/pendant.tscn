@@ -1,0 +1,11 @@
+[gd_scene load_steps=2 format=3]
+[ext_resource type="Script" path="res://scripts/pendant.gd" id="1"]
+[node name="Pendant" type="Node3D"]
+position = Vector3(0, 2.77, 0.55)
+script = ExtResource("1")
+[node name="Light" type="OmniLight3D" parent="."]
+light_color = Color(1, 0.64, 0.33, 1)
+light_energy = 2.8
+shadow_enabled = true
+omni_range = 4.2
+omni_attenuation = 1.1

@@ -1,0 +1,6 @@
+{
+  "checks": 42,
+  "failures": [],
+  "headless_logic_only": true,
+  "rendering_and_physical_keyboard_not_verified": true
+}

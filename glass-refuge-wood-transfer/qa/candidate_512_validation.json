@@ -1,0 +1,16 @@
+{
+  "pass": true,
+  "candidate": "assets/refuge_512.glb",
+  "sha256": "dc49841045f3d786bb725c0c411040014a1e039ad4318b7ecf68530c7ba05da8",
+  "bytes": 3856564,
+  "images": 1,
+  "image_size": [
+    512,
+    512
+  ],
+  "embedded_pixels_match_512": true,
+  "geometry_indices_uv_normals_nodes_identical_to_1024": true,
+  "triangles": 78388,
+  "surfaces": 35,
+  "mesh_nodes": 33
+}

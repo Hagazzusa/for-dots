@@ -1,0 +1,241 @@
+{
+  "status": "frozen study; candidate 512; no production integration",
+  "files": [
+    {
+      "path": ".gitignore",
+      "bytes": 28,
+      "sha256": "3e284ae049bb2454d9590a419deb320278d98166f516b4659e25778677fdc427"
+    },
+    {
+      "path": "README.md",
+      "bytes": 7910,
+      "sha256": "1dea6bd133c331a2e58a68254987c3b34c3ef9797936e982bcc92f91a64280da"
+    },
+    {
+      "path": "assets/refuge.glb",
+      "bytes": 4294328,
+      "sha256": "2ab70d72771c21c48e98be5132244919e4316d984c30451c530a4deb11933358"
+    },
+    {
+      "path": "assets/refuge_512.glb",
+      "bytes": 3856564,
+      "sha256": "dc49841045f3d786bb725c0c411040014a1e039ad4318b7ecf68530c7ba05da8"
+    },
+    {
+      "path": "assets/wood_albedo_1024.png",
+      "bytes": 642380,
+      "sha256": "1e35904dcbfc1e4a9035e5d9155cb053ed29177f07262536ce9aa49909468de8"
+    },
+    {
+      "path": "assets/wood_albedo_512.png",
+      "bytes": 204619,
+      "sha256": "145ae95974ed3902566281295621c4ff6b01db69fadc154f83cbe3be784322d2"
+    },
+    {
+      "path": "project.godot",
+      "bytes": 608,
+      "sha256": "b2e43df6e3668e2b3c558ab0b3a7f25d91e086fb771dd034f42aefdd1133115b"
+    },
+    {
+      "path": "qa/.gdignore",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "qa/PAUSED_STATUS.json",
+      "bytes": 524,
+      "sha256": "8189dd0ad6c29165ccc2c5424ca57da0abbde58e212bf4c91c309f46be165d0b"
+    },
+    {
+      "path": "qa/candidate_512_validation.json",
+      "bytes": 374,
+      "sha256": "65e4dd50ceaf17e194f26b053fff9fd35d533b81d0936ece63b9f13ac66b590e"
+    },
+    {
+      "path": "qa/headless_tests.json",
+      "bytes": 123,
+      "sha256": "e8f1320097674a379a00146e1a8f1e9c04455d8a25a52a2b86b78d41713d8274"
+    },
+    {
+      "path": "qa/native_close_1024.jpg",
+      "bytes": 158689,
+      "sha256": "c33f6eb1dcab9f4d01049152a35efce26fa912b94cffcea6504757760a5e4a1c"
+    },
+    {
+      "path": "qa/native_close_512.jpg",
+      "bytes": 156531,
+      "sha256": "5ea4f50e0ae72554e2c8910f176565b8528803f03a30339c12cf93aae54443e9"
+    },
+    {
+      "path": "qa/native_preservation_hashes.json",
+      "bytes": 521,
+      "sha256": "c3026a3197214085f30819c1abfbf414e4d6b94dba30a5edc502a85711d60f64"
+    },
+    {
+      "path": "qa/native_qa.json",
+      "bytes": 1627,
+      "sha256": "0aaa9e653e8d514f00e7c48c1d36522706dc25f55b16a9cbe423f30502166795"
+    },
+    {
+      "path": "qa/wood_1024_applied.png",
+      "bytes": 465193,
+      "sha256": "140f75e463b480b99a74f9877e71822b53a700c7b29bdb3b9f5121f2dbdff608"
+    },
+    {
+      "path": "qa/wood_1024_bake.json",
+      "bytes": 541,
+      "sha256": "08e0e50e162335aad47cfa5c8711ad1a0a6fb6ec4b7a787e45cf3b6b8f6902c5"
+    },
+    {
+      "path": "qa/wood_512_applied.png",
+      "bytes": 461691,
+      "sha256": "f601457384a3aa73b81d95295c579036e7a57c062db4401ff1003220afe7c974"
+    },
+    {
+      "path": "qa/wood_512_bake.json",
+      "bytes": 537,
+      "sha256": "58c645aadb7720509840b3e4d73caf52aafe4385cac13d8f7e9ee5ea69f17fba"
+    },
+    {
+      "path": "qa/wood_directional_density.json",
+      "bytes": 418,
+      "sha256": "998f02e731f50e2fe3a1a1970448df98a9d4eb1c5503f7d788bec963f2365baf"
+    },
+    {
+      "path": "qa/wood_glb_validation_1024.json",
+      "bytes": 682,
+      "sha256": "945f0eec3250135368bbc05d709e0564a440edf71942be3eec1e7441205219f5"
+    },
+    {
+      "path": "qa/wood_glb_validation_512.json",
+      "bytes": 483,
+      "sha256": "4d9bb9c5643c217d5186dcd5871e02309a0eec364e0396e8472167056bc8d825"
+    },
+    {
+      "path": "qa/wood_uv_validation.json",
+      "bytes": 540,
+      "sha256": "b3135712d8cac1fb2ed5cc5a09e3c1abdb2e8b282aad06c885ceb5dff8cfc249"
+    },
+    {
+      "path": "scenes/pendant.tscn",
+      "bytes": 366,
+      "sha256": "409b763aabed0dd7af4eef37295a411329014516bc09c05483b02d9d4dc3d444"
+    },
+    {
+      "path": "scenes/refuge.tscn",
+      "bytes": 293,
+      "sha256": "9d696bfc88cf64f819d989dca6e6c96520d846bdd00db24a8898427f876c720f"
+    },
+    {
+      "path": "scenes/view_rig.tscn",
+      "bytes": 263,
+      "sha256": "dfa17c5c62b16e4f612e0fb426231305ed1bbd8859f6cc66aa9cb2562dc010f8"
+    },
+    {
+      "path": "scenes/viewer.tscn",
+      "bytes": 4188,
+      "sha256": "8f16b9f12ecdf527fc386611ba3d132c478588b3155e7d977ecd80ff054064d6"
+    },
+    {
+      "path": "scripts/pendant.gd",
+      "bytes": 912,
+      "sha256": "c28735756483baf706c8f7305452783b5e7ecb4ac4ff7865166c3cbbe699d54b"
+    },
+    {
+      "path": "scripts/pendant.gd.uid",
+      "bytes": 20,
+      "sha256": "95ffafe05d73a2afb5d238070ff671145125de268d79695a48bdc8b87d49e8b2"
+    },
+    {
+      "path": "scripts/refuge.gd",
+      "bytes": 1039,
+      "sha256": "afdfb2fabcb23de65282dcd336e478c192efa604bab4cac022ea3dea32e16abb"
+    },
+    {
+      "path": "scripts/refuge.gd.uid",
+      "bytes": 19,
+      "sha256": "d8dde1be44468f52a8693c812161cb0fea658018acb4dc838e9fdd8deef1d60b"
+    },
+    {
+      "path": "scripts/view_rig.gd",
+      "bytes": 2187,
+      "sha256": "ae2cfab7b1d3877ada26e20c84fb4c7c1b5f8c1879a539adda4a38db629d4aad"
+    },
+    {
+      "path": "scripts/view_rig.gd.uid",
+      "bytes": 19,
+      "sha256": "c9f2f497cf2aa1ea4a55d5e41ed7ce5f5a67e0c60cb0bb009bf6e55855c13728"
+    },
+    {
+      "path": "scripts/viewer.gd",
+      "bytes": 2746,
+      "sha256": "4e3fbc0f18cfc1424e6d4f53fd4be9e16ebe15b570261948863e6c10db2faae8"
+    },
+    {
+      "path": "scripts/viewer.gd.uid",
+      "bytes": 19,
+      "sha256": "5c0a0fcfd70b7a68fed9c2f17f1cee0f70704a745dc34c7b7010e16f49d0af0d"
+    },
+    {
+      "path": "tools/bake_wood_1024.py",
+      "bytes": 2990,
+      "sha256": "9ac405c14e0edcab9c3aafe32bd406912f8e31dc29a0feae72b3c637b3bcff74"
+    },
+    {
+      "path": "tools/bake_wood_proof.py",
+      "bytes": 2979,
+      "sha256": "8f5df2fabbc96565cdfe9ef2182cf45625043c9cad4547fa9e28c948c26cd831"
+    },
+    {
+      "path": "tools/export_refuge.py",
+      "bytes": 5607,
+      "sha256": "b9449a53ced04ec9174a69ac1fec0d3d1ef4f31030280b6bbd3c341d45070fcb"
+    },
+    {
+      "path": "tools/prepare_wood_atlas.py",
+      "bytes": 4305,
+      "sha256": "c73e01b28770cf5424f77e62efa0bdb221cc229e3737feff828b20a205b07b9f"
+    },
+    {
+      "path": "tools/test_viewer.gd",
+      "bytes": 3172,
+      "sha256": "de5966f069dd4473d4659ecd7b0242f654b187b69948ce0561606393d0768200"
+    },
+    {
+      "path": "tools/test_viewer.gd.uid",
+      "bytes": 20,
+      "sha256": "923fd8dfaba303d017e72492e06db7414edc77176e0954e78e6495a2575d65d7"
+    },
+    {
+      "path": "tools/test_wood_texture.gd",
+      "bytes": 712,
+      "sha256": "28c493f71120605238754bb5c3be84218569e88f62bada6f273a92d32b55d95c"
+    },
+    {
+      "path": "tools/test_wood_texture.gd.uid",
+      "bytes": 20,
+      "sha256": "bcae1ca397abb03229ea6e23493fc560e324aa8751998a8769db0d706ebfd71b"
+    },
+    {
+      "path": "tools/validate_candidate.py",
+      "bytes": 1712,
+      "sha256": "0621f006e44faf5146d5bcbbcae43baf4ad456cd0d7d1d1bf0a315f9483ec490"
+    },
+    {
+      "path": "tools/validate_wood_uv.py",
+      "bytes": 4037,
+      "sha256": "09f87135b9ecceca143ff01d0825a85b8436ffb0040358a79089438eb646b64c"
+    }
+  ],
+  "exclude": [
+    ".godot/",
+    "tmp/",
+    "*.import",
+    "qa/*.log",
+    "qa/wood_uv_raw.json",
+    "superseded failed-layout reports",
+    "assets/refuge_wood_albedo_*.png"
+  ],
+  "manifest_self_excluded": true,
+  "publication_copy_note": "Documentation omits workstation-session details; provenance labels original pre-normalization source hashes. The two applied-view PNG copies omit textual/EXIF render metadata, with identical IDAT chunks and decoded pixels. Geometry, atlas images, scripts and measured results are unchanged."
+}

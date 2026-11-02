@@ -1,0 +1,7 @@
+{
+  "faces_area_over_0_01_m2": 260,
+  "area_weighted_low_direction_texels_per_m": 11.017437312892882,
+  "area_weighted_high_direction_texels_per_m": 167.6832654161474,
+  "median_anisotropy_ratio": 17.100482627260824,
+  "note": "Existing cube-net charts are anisotropic: area-average density hides higher resolution across grain and lower resolution along long posts. This is observed mapping, not isotropic density."
+}
