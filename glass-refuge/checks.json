@@ -1,0 +1,25 @@
+{
+  "objects": 1005,
+  "mesh_objects": 1000,
+  "inferred_dimensions_m": {
+    "width": 3.2,
+    "depth": 3.2,
+    "floor_level": 0.42,
+    "spring_line": 2.32,
+    "crown": 3.568
+  },
+  "entrance_clear_width_m": 2.1,
+  "entrance_arch_height_at_left_jamb_m": 3.0115195650532582,
+  "posts_bottom_matches_floor": true,
+  "render_engine": "Cycles CPU",
+  "threads": 2,
+  "denoising": false,
+  "limits": [
+    "No structural, code, drainage, foundation, thermal or fabrication validation",
+    "Single-image inferred geometry; no exact CAD recovery",
+    "Landscape is a procedural setting, not geographic reconstruction"
+  ],
+  "entrance_minimum_headroom_m": 2.2105033278402164,
+  "pendant_low_point_above_floor_m": 2.1100000000000003,
+  "bench_planter_gap_m": 0.11499999999999999
+}

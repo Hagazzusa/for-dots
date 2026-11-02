@@ -1,0 +1,6 @@
+*.log
+*.blend1
+__pycache__/
+tmp/
+renders/inspection_frames/
+renders/preview.png

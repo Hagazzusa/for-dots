@@ -1,0 +1,72 @@
+{
+  "project": "Glass Refuge",
+  "status": "final geometry and render frozen; architectural design study, not construction validation",
+  "files": [
+    {
+      "path": "README.md",
+      "bytes": 7855,
+      "sha256": "9d7d6ec97173eb7c4ae0bad24f80ee6bc207a72bea4b1cd22df1188230f8c99c"
+    },
+    {
+      "path": "build.py",
+      "bytes": 22717,
+      "sha256": "4ac75136ba8576c129d7aee83475ae924d59c0e5d25ca82342b9e5c27f323e28"
+    },
+    {
+      "path": "audit.py",
+      "bytes": 2504,
+      "sha256": "e83ef291146e821eb0715703c39df42ba7be3e88373f5aa50fd7a77d741dbbe9"
+    },
+    {
+      "path": "inspection_turntable.py",
+      "bytes": 1294,
+      "sha256": "509144da533f76de7be48a2566d9a466a595b5e516f231a52151cff5ff256ae9"
+    },
+    {
+      "path": "Glass_Refuge.blend",
+      "bytes": 3679786,
+      "sha256": "3e1aae211b04a5dfa84de8a55a3bdd17f423466a82ac093cbdfd39fb60222fcd"
+    },
+    {
+      "path": "checks.json",
+      "bytes": 778,
+      "sha256": "59f20a229dd48f409ad4b24662283522106bf812aedd66ee79a2824eb771f752"
+    },
+    {
+      "path": "geometry_audit.json",
+      "bytes": 4714,
+      "sha256": "15ea24a9ecd6f7ed7f4ddf51da2e77279241c79d6177c7feecc99b9feaa44df0"
+    },
+    {
+      "path": "reference/gpt_image_concept.png",
+      "bytes": 2725070,
+      "sha256": "beb229e38ef13c8d91a11549d785cfe26c586ffd109d962bc012db6bb825c1d6"
+    },
+    {
+      "path": "reference/concept_prompt.txt",
+      "bytes": 1500,
+      "sha256": "c94fc1945c051bc306b9993891ba9b3c8321bb0d6c8f61a3448631c3cb230897"
+    },
+    {
+      "path": "renders/01_blockout.png",
+      "bytes": 498538,
+      "sha256": "50493c1dad06822144acb6132c193ce9a3941eeb6a71ef776b2e3fdcc9e24e6f"
+    },
+    {
+      "path": "renders/05_final.png",
+      "bytes": 1562285,
+      "sha256": "b5382595a11fd091dce3739eb98fddbe452656b7f68f76deb7cd3b655029ddb1"
+    },
+    {
+      "path": "renders/06_structural_inspection.mp4",
+      "bytes": 333768,
+      "sha256": "9dbf41557936526c0e4d02c94e38a5d0505bdaa35b98f48d10cf645f68e51eef"
+    },
+    {
+      "path": "renders/06_structural_inspection.gif",
+      "bytes": 1874775,
+      "sha256": "1e656f2d61664c397b244fe6650c94ff990283298f5059b3f2de9b0b923b9006"
+    }
+  ],
+  "publication_copy_note": "Saved browser/render and nested packed-reference paths normalized; packed image bytes, model geometry and render settings unchanged. Original concept and exact prompt retained byte-for-byte."
+}

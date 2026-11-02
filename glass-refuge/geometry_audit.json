@@ -1,0 +1,202 @@
+{
+  "mesh_count": 1000,
+  "arch_solids": [
+    {
+      "name": "Rib 01 | curved oak",
+      "signed_volume": 0.07407161,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "name": "Rib 02 | curved oak",
+      "signed_volume": 0.07407161,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "name": "Rib 03 | curved oak",
+      "signed_volume": 0.07407162,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "name": "Rib 04 | curved oak",
+      "signed_volume": 0.07407161,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "name": "Rib 05 | curved oak",
+      "signed_volume": 0.07407161,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "name": "Rib 01 | copper weather cap",
+      "signed_volume": 0.01153595,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "name": "Rib 02 | copper weather cap",
+      "signed_volume": 0.01153595,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "name": "Rib 03 | copper weather cap",
+      "signed_volume": 0.01153595,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "name": "Rib 04 | copper weather cap",
+      "signed_volume": 0.01153595,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "name": "Rib 05 | copper weather cap",
+      "signed_volume": 0.01153595,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "name": "Roof glazing | bay 1 segment 1",
+      "signed_volume": 0.00515453,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "name": "Roof glazing | bay 1 segment 2",
+      "signed_volume": 0.00515451,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "name": "Roof glazing | bay 1 segment 3",
+      "signed_volume": 0.00515453,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "name": "Roof glazing | bay 2 segment 1",
+      "signed_volume": 0.00515453,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "name": "Roof glazing | bay 2 segment 2",
+      "signed_volume": 0.00515451,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "name": "Roof glazing | bay 2 segment 3",
+      "signed_volume": 0.00515453,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "name": "Roof glazing | bay 3 segment 1",
+      "signed_volume": 0.00515453,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "name": "Roof glazing | bay 3 segment 2",
+      "signed_volume": 0.00515451,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "name": "Roof glazing | bay 3 segment 3",
+      "signed_volume": 0.00515453,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "name": "Roof glazing | bay 4 segment 1",
+      "signed_volume": 0.00515453,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "name": "Roof glazing | bay 4 segment 2",
+      "signed_volume": 0.00515451,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    },
+    {
+      "name": "Roof glazing | bay 4 segment 3",
+      "signed_volume": 0.00515453,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0
+    }
+  ],
+  "non_finite_vertices": [],
+  "zero_area_faces": 0,
+  "collections": [
+    {
+      "name": "00 | Reference & guides",
+      "objects": 0
+    },
+    {
+      "name": "01 | Laminated timber structure",
+      "objects": 20
+    },
+    {
+      "name": "02 | Copper caps & fixings",
+      "objects": 53
+    },
+    {
+      "name": "03 | Glazing panels",
+      "objects": 24
+    },
+    {
+      "name": "04 | Sage boarding & sills",
+      "objects": 71
+    },
+    {
+      "name": "05 | Bench & textiles",
+      "objects": 36
+    },
+    {
+      "name": "06 | Refuge planting",
+      "objects": 635
+    },
+    {
+      "name": "07 | Stone terrace & wet path",
+      "objects": 104
+    },
+    {
+      "name": "08 | Landscape study",
+      "objects": 54
+    },
+    {
+      "name": "09 | Lighting",
+      "objects": 7
+    },
+    {
+      "name": "10 | Cameras",
+      "objects": 1
+    }
+  ],
+  "arch_normals_outward": true,
+  "arch_solids_closed": true,
+  "packed_reference": true,
+  "camera": "CAM | concept three-quarter",
+  "cycles_denoising": false,
+  "glass_roughness": 0.014999999664723873,
+  "samples": 128,
+  "clamp_direct": 10.0,
+  "clamp_indirect": 2.0,
+  "reflective_caustics": false,
+  "refractive_caustics": false,
+  "render_dimensions": [
+    1200,
+    800,
+    100
+  ],
+  "limitations": "Mesh closure and signed volume do not validate structure, glazing safety, drainage, or code compliance."
+}
