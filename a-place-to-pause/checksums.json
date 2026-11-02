@@ -1,0 +1,16 @@
+{
+  ".gitignore": "e1b943257d252c73670b740940bc312d8b928c68a91fddcb0ea3fb6fc350a5e0",
+  "README.md": "d115def39dff114694bb71f214d5351503aa39f1fcfecf762942698d6e13d5b1",
+  "a_place_to_pause.blend": "a50e9a3fd6a58cbb26b8874278255f1690589a2e2df9e4637d7a87ba67b5600e",
+  "a_place_to_pause.png": "4b9ab0609d54f53e6a577c5e8231ee5a53a222cc2620b6529f5d83904191a117",
+  "build.py": "79685b5afd42d893b4b5840ead2ae83ee2b528a6200e699e40c176a0aa840ef3",
+  "build_variant.py": "61ee6bbdb0d9c6baf1745b3f8239221b01f0d559272bb67812ebc0f1d91e1470",
+  "check_geometry.py": "5a415d6573b44a4727e10f022baaba36f60ea64209c7fe164e3acde53329a053",
+  "geometry_verification.json": "6287fc2cf7717f70ccb07849104dd1d05e030b83e45f6d85cd90905155fbafcf",
+  "landscape.py": "ce32005c9dd493bad8b53bc2053abab7362ac60424d86b664c25103baeddbc72",
+  "profiles.json": "b3807ee18985fd64fb5c130c8ca4bd618f20c4f4f97a5ef1cd6c7791e535e541",
+  "provenance.json": "5cb3e78dd53fb61e8d324c1e6cc23dc8b9502ad7d7c5d2f769b9fe686ab898de",
+  "stop_verification.json": "fe06c17ff49f6eb057d9c82c1631164f1118c4d657324338caf0f9c2ab9e2ac2",
+  "validation_1107.json": "72de7dd4f33b087f421f99900bebd06d70e50768321af3992cf84a3164089aee",
+  "verify_stop.py": "52e19dcd9c8424c81a8298f0bf68f1ec4faf85abc70858cfcaa3a561d6b02bc1"
+}

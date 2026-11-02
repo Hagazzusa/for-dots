@@ -1,0 +1,677 @@
+{
+  "passed": true,
+  "seed": 1107,
+  "unchanged_mesh_objects": 159,
+  "bench_meshes_with_allowed_transform_change": 6,
+  "added_mesh_objects": [
+    "Separate pedestrian stone pad"
+  ],
+  "road_and_terrain_unchanged": true,
+  "comparison": "All original mesh vertices/topology retained. Only six bench transforms changed; exactly one local pad added. Camera/light/material changes remain excluded.",
+  "geometry_hashes": {
+    "Bench back": {
+      "geometry": "e9216d6b85c70fbf166cc34706ab7e20a9cd0496fd276bde552fdae65fbe555c",
+      "full": "9f10ffe691549f5d771595dd19f0b37b10ff7ba629194561570c103342ef0cb8"
+    },
+    "Bench foot": {
+      "geometry": "07224ac473309a38ab4944ca4b0709bd4f6f9ce48c2934e12c67a70e77faa72e",
+      "full": "39ffd599fedeee765c97e36e00bea3175ac1a2c481e2fc4e13c6e20766045ff3"
+    },
+    "Bench foot.001": {
+      "geometry": "07224ac473309a38ab4944ca4b0709bd4f6f9ce48c2934e12c67a70e77faa72e",
+      "full": "bee18071c2492b384a8c534cade4b784b56bdca261b54f41de786bda51a5b136"
+    },
+    "Bench seat slat": {
+      "geometry": "96324177ed1b6d0c3e29201f328d71f844d6efcc0dd007b18bf31154f33fbef3",
+      "full": "f9fa530044f35e19c0902c95a3a62fd18b3a781264de1fa49e82974aeae7995d"
+    },
+    "Bench seat slat.001": {
+      "geometry": "96324177ed1b6d0c3e29201f328d71f844d6efcc0dd007b18bf31154f33fbef3",
+      "full": "96d2511a09d64cfc7b24a5cabdee4d6a3d090c4f15fb4c0510278c453ac63cd2"
+    },
+    "Bench seat slat.002": {
+      "geometry": "96324177ed1b6d0c3e29201f328d71f844d6efcc0dd007b18bf31154f33fbef3",
+      "full": "0a2325438b83d55bc45e4b76b5881a5456cbf91eda195348d2f24975ad8a28e9"
+    },
+    "Blended limestone shoulder": {
+      "geometry": "7f7a4653d6e171d9fb349c7fa60fd79c5a85f2226434dddfc4bc5e0f408aa157",
+      "full": "3d8056ef180479535350996882fa897a95c32aef30774a3cd71284a367a84e4c"
+    },
+    "Meadow stone": {
+      "geometry": "fad13dc3774b50a0c6467e801a985fd1ba2ff0a2c4124640c8c0abbc31e77239",
+      "full": "34711c8fcdeca25e8ffbd4c0c54f5ede928349109271c9eb4fe827bf0c124246"
+    },
+    "Meadow stone.001": {
+      "geometry": "a0dc6ab49a41fc005040507c12e698f1e4cbf414df54a6996fee0075e83b739a",
+      "full": "5a05f96c3ecee476e7d8bd5c45f6f8e6478322de6e3d12c67ec4834d7fe607ee"
+    },
+    "Meadow stone.002": {
+      "geometry": "21ebeb7494cadeab245c1369ae39f8b39944b8d775c12d58e523d35647692857",
+      "full": "0a901512c141c7a6a3e5b68b6f2aa7e8f29ac4a7cb5abd4de615c1ed0213c4aa"
+    },
+    "Meadow stone.003": {
+      "geometry": "ceaaef53ead841aee59dac7d7f7fa137c20dc4d9e8b3f879e3aef5996bcd0ec4",
+      "full": "122af8628791bd982b5512c8613aa96c8b7f368fa05b691961ad77636681e2cc"
+    },
+    "Meadow stone.004": {
+      "geometry": "e29327d4caa8ae259f29aac0c77c91ca13d56398f7ce4651463c5b904def8c0c",
+      "full": "9e3de88ef39aad1a55dd974b1ab9dd8414166d59f4a38f81b83c3ffd94dd0a2b"
+    },
+    "Meadow stone.005": {
+      "geometry": "5f1d30947524836c809b94a49fc38d40291a9385fa4daad5ffc2ed0eb4db0185",
+      "full": "a8f3a916eb846fedbb90a880e6ec39a2e479c089c440ec6bdf2619f7cca4366c"
+    },
+    "Meadow stone.006": {
+      "geometry": "e48eac87ae815421b3576336af6d91aea9289845cbea1979af93180bfb7a2332",
+      "full": "c164350c893cbe640da7b8669d1b045841c48aa16d45551eec58ccf2be0ebc86"
+    },
+    "Meadow stone.007": {
+      "geometry": "3c988b9c8586077928a0b57ae0189916f29b62b9c70273b814aa93ba4cbf0677",
+      "full": "1baa334c465c2025ea1d6d51cf0df518ba80ba4f01748434d98291bfe68843b9"
+    },
+    "Meadow stone.008": {
+      "geometry": "41124232367e1ce6997dd366d5230846ee28c40fd8286531f99fd48ad091e9ae",
+      "full": "8c5f2374c768e1fb4ef8ac7985f83622c8cc469af25c2aed93d31551ca578c85"
+    },
+    "Meadow stone.009": {
+      "geometry": "230bb01fde0274732818b0a3bb42f12a455786e09c9dcb86e8d8a48cae5275be",
+      "full": "07ad01a8c703c183f566dc21f4aef94cd1135f1d211ec8aae581ac0986dde165"
+    },
+    "Meadow stone.010": {
+      "geometry": "ef823905a0ec53fe5b45e4e4531b5a4cc074adb2dc8c09911bf4f897b5466079",
+      "full": "02660b81bd74e9b08c5a1c293793e891653f75ea6560c08349534497849c1d95"
+    },
+    "Meadow stone.011": {
+      "geometry": "a7299f5f20ea86a0bca6137aee6ac68cf58dc814b87c6e4800a0497227607b2c",
+      "full": "10d92452902c1cb1371fefc9c2dff05c0557a23c750e37ff8afa69bbd7ad3929"
+    },
+    "Meadow stone.012": {
+      "geometry": "01d46e8baf8142dedcddecba6ead87f84a40b53cd3cb13e6e386612a3471ae2a",
+      "full": "4cff4f43da27783ad12d3b311008c78f7a31b4f9e497a8a041e4843ca427e6f9"
+    },
+    "Meadow stone.013": {
+      "geometry": "54b4e4f953f8bb2491fef87465d4e1b96285459fe9bc113cb8499b473b73f2c6",
+      "full": "f71d72e8e5c6c3ccf65858eb76810761ac1913c6b975b6feafb340d237be86cb"
+    },
+    "Meadow stone.014": {
+      "geometry": "22a0a69bd27d34d4fc66ea51803d1288372906bed327ee1d9948e3c9f2448ee6",
+      "full": "0567ebd5a921fdc9f4fd097f57488f25f66e38c3f1e67bb4b31eee533c04584e"
+    },
+    "Meadow stone.015": {
+      "geometry": "bfbb5c0b7bc6873bd021abe9b9843675854e368538b26bfd783368589e5c8e1e",
+      "full": "544083c20b1b6fa3b7aaa63e6f7781ab58ec3f447f5341916f18e0aeef32e956"
+    },
+    "Meadow stone.016": {
+      "geometry": "efd416d7eadf75ef194bcc138537dd06f258cb512a660b35f84da4efd887a4e6",
+      "full": "8b4d6078691aea681d4d41d284921eb82db0a3885d3ebf792921a3bc0468f4e5"
+    },
+    "Meadow stone.017": {
+      "geometry": "d0642ebfc26eb88b18f493539eaa654168c6a50f6100062fbcddea81b4618ae1",
+      "full": "9d61571b4be0e2299f3d630c11110ec2fac9549f0ff97ead99c34a0d80517b87"
+    },
+    "Meadow stone.018": {
+      "geometry": "2308e8e9e6122d8f7bb8a4ae2d6c312f7474665d9461fe4e1ee91bcbea2c9b73",
+      "full": "72df0bd7923de466fece096fd558cc66102672c8dd53741437a1d9c85a5ebb6c"
+    },
+    "Meadow stone.019": {
+      "geometry": "1cd9cfd90c569381a2a4b026a3b3d02bf105ad1819e5c09446a8f5e1a3507c48",
+      "full": "16d287860e2287bb305bbc4228a1df8f0fe008161bec6020fa6d5ecd23703c96"
+    },
+    "Meadow stone.020": {
+      "geometry": "b88d0172a78df39b3ffb1daf1a3cd2577f5243e77925e479b6b4528d89015b13",
+      "full": "831246abea7c3ab90b6c63df6b2d42cf89709877224e771241954501d4373ceb"
+    },
+    "Meadow stone.021": {
+      "geometry": "93902c58ae91a7d3cd30c94afa1927d48e84588077027eb98bdc702c27c77c28",
+      "full": "b7fc520070740aca78ce6e86f64f221d851379db1b8abfcd7c45df441e01fc7f"
+    },
+    "Meadow stone.022": {
+      "geometry": "d6e66d47e229e596b5fa0a8d1d141dafb049c718dc14192b4f94b8b5cbab90f0",
+      "full": "771dc692ece551c98db07a794805857db0c6f75a97ffa6ab6e656fb96938bb34"
+    },
+    "Meadow stone.023": {
+      "geometry": "7d792fde30abe3a55aaa09da818a0977ce0580d0f3eed51d33c21f5458cf3fc0",
+      "full": "ca9b3e102fb353dd18ecd66794c36217c01f9befd3f64332f68894ac6f398b34"
+    },
+    "Meadow stone.024": {
+      "geometry": "41afd7019ea33dca1daed31de14937da371b5eb97473916a881f456b1cf89c9a",
+      "full": "a5a8df04e7217e6375c6d16f988805f20f325ba44296a53210ec02fea10c3a99"
+    },
+    "Meadow stone.025": {
+      "geometry": "26a3e2ebe7b5ec2222185369c7223a93b5f3a19204dade9099829ceab682ff63",
+      "full": "581591572a2c864bcc654684b057783bb6721f8eff6d6246c0620e778a9e43ef"
+    },
+    "Meadow stone.026": {
+      "geometry": "dcaef0c1d74b28d17faf7898837294ad9dd8d30c3cf64972f6aee7b6e777b2bd",
+      "full": "832f28dcd70b79cf9d77ec91980b363713a94ee474d0527b036bcc35e7cfe2f0"
+    },
+    "Meadow stone.027": {
+      "geometry": "92b0f1246cb20790d7d0387f2b36213848e36f8d476278f5e4b1e69ebc948e60",
+      "full": "6beee144fbeed56e88f7e26b4ee21599154080cca7eea7a5bf3556cb400c37ca"
+    },
+    "Meadow stone.028": {
+      "geometry": "d68727e2854fc58782f1cf08a50a58ce2a66af4bee09fec4292c83f9a6220de3",
+      "full": "61352166449d16fdae95daf4d0deb0224e543596200df84405f36b70a43a9606"
+    },
+    "Meadow stone.029": {
+      "geometry": "d4615710f7d9f0773bac3fae9f6e06c5a99b8bd403e95b1c9bfd0dd892788c66",
+      "full": "d945ce089976b704e7adf464e4aa24b1bbb4b5dca4dc134d3c565249e1d7d143"
+    },
+    "Meadow stone.030": {
+      "geometry": "c419bc228fa89fe915472626dee04363b61751767d0f5d34e9a64980848135cb",
+      "full": "53ad8f1692ed79755c0a43532a45c26dd6a6945e662e29e5c68b556e441a592a"
+    },
+    "Meadow stone.031": {
+      "geometry": "a6f9b174661d806c5943cbbd84e4ab4d8e1498d03b2e2344e0c1a01fc97d8f88",
+      "full": "dc479fbdcb6ffe35f514c4ba75fdc6651c15a32a7fb875ff08bb371f114072ef"
+    },
+    "Meadow stone.032": {
+      "geometry": "503b2391ee0b9ff2bf87c94c107dade5acb362788ed6baf10a6898909ffea2d9",
+      "full": "8ddbf5dfb1942f432bae85ec643f1d2a10f46d50440d7c744e8a14b12b5b24ab"
+    },
+    "Meadow stone.033": {
+      "geometry": "402474a2fbd48429088dcabd14a2f8e9e9695d5aa8772567769b698454d32571",
+      "full": "5bf67e744ccb73e620298ed812a59b2ab9a8401dc3a476d70b48ac1d11b5d8f2"
+    },
+    "Meadow stone.034": {
+      "geometry": "322d26ee7cff35883e090b6bf732b598109cc47ac6ee7ebe1524bdd71b7089e7",
+      "full": "77413a55af06775dd6e67e5beb3ec40203cb5c693902dcb5a3c858b039834524"
+    },
+    "Meadow stone.035": {
+      "geometry": "18155cd1e62e19b08063eaff7547a3f52020649584e3629d796572696ba288a9",
+      "full": "c0c5fb99a717e91c2aa45100695609ebcc7f14d311c734df0308442c8e8865d1"
+    },
+    "Meadow stone.036": {
+      "geometry": "8c79b175ef516942ee38d7dca29503510dce7b9008cbf497928d02d42a046894",
+      "full": "81565e28d4204bc61ad3a44babd92223d2274e10ff5cf5835158df579330088c"
+    },
+    "Meadow stone.037": {
+      "geometry": "8770bbf7d8ccc50e6c287bcd80943d1a19208673e2a29d29433c6a7cfcaea420",
+      "full": "399e573724ecf343e7dc417c2a7c051372b6e203ceddba49864a1cad7cacf50c"
+    },
+    "Meadow stone.038": {
+      "geometry": "3e2eafd9dc8110c04e370123b19e76d2a6dc0e911730e364ec4296da3008959c",
+      "full": "7164222943acf85cc502a4d02b81df3365305db5a1621da6c16287d01c6bd2bb"
+    },
+    "Meadow stone.039": {
+      "geometry": "4ebd3a2cd95bd1004246ecad488af1979b7cc30fbed569b0a7c625ccac01460b",
+      "full": "70c3c9f2b2be72b1dc677ea8c5fe27ddc51efff5f0e97fe78a4b51e755c13977"
+    },
+    "Meadow stone.040": {
+      "geometry": "d2a2927410fc23102672f794b944c8acbbc5bfe1e6821da00fc2bb63c724358e",
+      "full": "9c96e2041e074f6f6dcbb4290398454fb4a83cd45933c7540ca42282aacc6b68"
+    },
+    "Meadow stone.041": {
+      "geometry": "9448b9a610ad3c912b3c7c93df3fd80989aa714dc0bae818ef291a5f81a54220",
+      "full": "e8adaec16ef741db4de2ffd8e6396d531ff399c751920188b157814f245ac40b"
+    },
+    "Meadow stone.042": {
+      "geometry": "9452248d9529aedc6a7cb104f68ee79ea958b5043b921f4040ea8419a85bc034",
+      "full": "2d2a32ae20d3da74e3be254a46ec0feafec99fe8b798d5c91429b104c873d39d"
+    },
+    "Meadow stone.043": {
+      "geometry": "35a8c5ec95709f113a397186835a6cc03cec3dc01321c8fc502195e4660767ea",
+      "full": "6e17aa15bee1f34fa39d41c691db891a7a5f0448b49a468de348b9f3599809e4"
+    },
+    "Meadow stone.044": {
+      "geometry": "fd9851d7c8320ab8233b644ad481fd021b86e4df31bf1063357a5b14db481cb0",
+      "full": "9bf9de1903d82db2241edb373a8efc8f67ab29e07f03e3a33b95979c2968848e"
+    },
+    "Meadow stone.045": {
+      "geometry": "346017c40f9519dc527a170ed701a865efeaf3997f90fdad039876975b042314",
+      "full": "5a554153197c575bbaf710c9a5529ae97c79ab612e742ca9fd427377c9d49466"
+    },
+    "Meadow stone.046": {
+      "geometry": "29664d14ea9d8ede0531b0c9cc96da8a1afd4306f0f2039fb2e23cf47c9c9c13",
+      "full": "741d03f41a45e4dcf8b1bab66ae547a16c0571ac6eb01f054702925354c8d1bc"
+    },
+    "Meadow stone.047": {
+      "geometry": "c0cf4e1f837ad122bb93cbf38f56ce2e69464eaba91343978f49b1b857661917",
+      "full": "a31319b609cb83b01a5c82712ade0642217ebb36e28d2ae3eac98c7cda563f74"
+    },
+    "Meadow stone.048": {
+      "geometry": "38ebd2f90bfa4316a38df8f89eb0e4bd33c334c456146d3865d19191e22fb5a3",
+      "full": "63f4dcc4d2e6ae29e88824b616dcf101d939a1922b057f8dfe750fff4983166e"
+    },
+    "Meadow stone.049": {
+      "geometry": "53e6380a9c274e2be261e0440d81670e663e3afe36ff9b22f33d68b0f679ecb2",
+      "full": "50598276933c6af3f96af841f1f34e56956e406acaeb6e9dc66e47d88efda1f4"
+    },
+    "Meadow stone.050": {
+      "geometry": "fba40f8cbf62d8bdfc92f623405779417411ee0e34607d530067ce9a6515a326",
+      "full": "479474f9ba9823334a2cae80c0a94067c8a4a5f45f1c759efbdb80561a38b4d1"
+    },
+    "Meadow stone.051": {
+      "geometry": "a5c8e6334c5b91f3d8bf61fd1f3785d75712bf6b8caca555fac3ac578e6abecb",
+      "full": "7cba141e2169ea16e195985196dc2ec889b26ad5d63c2b131f35049b702ffc74"
+    },
+    "Meadow stone.052": {
+      "geometry": "5f5f11e2300c5601c7b87388967a3439853aa210f59a6c9cc6756e7e5d191ad6",
+      "full": "5faeb38317e351cfd131237b8e9c3827b1148a5b31f9d680bea764ca294c3660"
+    },
+    "Meadow stone.053": {
+      "geometry": "de017bef4f6f79174fcf1d93dd80d9c3a3327c672b3d7fd2fc2acd75ae411cd9",
+      "full": "b6abb4fd8064831d148dbea16ce555d4f9ee4e8557c4cfd1fece877e7bb09f18"
+    },
+    "Meadow stone.054": {
+      "geometry": "c1b80029d3401400ed16970bc4cbadc7cabc1380e46b6eba3d3e93e498cd0271",
+      "full": "e0e8cc215b4e67986bfc2683467a801e85d2cdfb6fa3e92f8a1eed01b3a9973b"
+    },
+    "Meadow stone.055": {
+      "geometry": "e4d0822d9abf122476631dd55dd21b64955881b2667e11fb0b10dfe0af197e05",
+      "full": "bc82257bdb27a9771976b484b46f5108ee6196ec137a449663393b95d95c94b1"
+    },
+    "Meadow stone.056": {
+      "geometry": "c694531e792dd118018deeafadc01c59ea3fb672cf8e2620a02094c4208a0eed",
+      "full": "bb5596befbcce824855f1fd7cf4a63960d1b66944fd26f8cee5bc1446131fce8"
+    },
+    "Meadow stone.057": {
+      "geometry": "fbed050fdd4a7e658766fd300dd5be7c69d2217dc68a25bdeb0ce312ce450763",
+      "full": "fbaa81965ddc65d0436abbfb4814db0d59da268f939199c042a05384e670d0e4"
+    },
+    "Meadow stone.058": {
+      "geometry": "ab367fe93c7cc43168571ccc918c01a26afd79aa68f40bc378ee569bcf36acd0",
+      "full": "27857a62be075b5ef04e707fe22ec4fe171dba97bd5a2c0cb5de322ee25b0c18"
+    },
+    "Meadow stone.059": {
+      "geometry": "b7bde673ce0bccf92ec57b12416d8a894c630064a51ca43d162a40ed5c304f1d",
+      "full": "66279aa6b4d4877ec4219b27e2b38dccfac1605ecb0a96eccdf432054af99ab3"
+    },
+    "Meadow stone.060": {
+      "geometry": "552ed2613457f0d217721546563de776c916a71d80db536bb5956ec58c79dee3",
+      "full": "7551a56322c72598db1a43052be4a013b2c79274891422ce6d8906a856267798"
+    },
+    "Meadow stone.061": {
+      "geometry": "ed589aebfe8329ce10258519c4a72d52aa44c7706d4ef311f780317d455d317c",
+      "full": "bc7a3d367d9b4f33ce736a46bd0e5c4b2dc1053a8c23678ae8aa2b2fff8237f5"
+    },
+    "Meadow stone.062": {
+      "geometry": "3058f2040156b7fba57c3c44420e6ead8627bf7e01396f6a5b9cb1b356811e21",
+      "full": "daf1ee59985aaa6f95c02da30bc6347735dfa65d6d4e9e7fe0b0b4e30b75b250"
+    },
+    "Meadow stone.063": {
+      "geometry": "78de87a24d0a1bf24fb3a359c99aadcb05bde0e9136b68b6ace12abe141f13e7",
+      "full": "9d40294c9c39b763c02135923bb593a15d69fc2655169cee529e6a82e3090c4a"
+    },
+    "Meadow stone.064": {
+      "geometry": "b053e5368f08048797cdd277862edb69bb401f1fc332084ae41953b40c235867",
+      "full": "b22221e8b5358eacebf8d93077c1615fe7cc2946f8a03c465b6ca335b5a96cd9"
+    },
+    "Meadow stone.065": {
+      "geometry": "358844b296b2a88ee0ae3449fc27b1129267ce969043fa82d329bf132cca92de",
+      "full": "75c43a9b8c8fd700b10d1a691a6d93b4ef0280460103d19292c1e7d719d9339b"
+    },
+    "Meadow stone.066": {
+      "geometry": "77128fdbad4cde7101a0659290da2f4563fc95c1bd47daddb9079a4188ec9449",
+      "full": "20d5a3777811e98d1fa3cefb197242c75ba2a011c71a7145bc6a2f658828619d"
+    },
+    "Meadow stone.067": {
+      "geometry": "aad58ad4e34c9ab3a8eb46ce60f554c4250adf3b16cd68dd3eb51ae3e59afbde",
+      "full": "001a3ab1b9028a92fca6618842eb3a75a4783ddec8f09fa4d5034f02f414e31e"
+    },
+    "Meadow stone.068": {
+      "geometry": "69f9947950ef70d445e7da240315e45c338f9a1bdd0700f3d67c0aaf2937370c",
+      "full": "a8fbe0895820e357a46fd111430a934af7487c7e32e9f021b8652b72b9a8c003"
+    },
+    "Meadow stone.069": {
+      "geometry": "a3af2c024752dcc5ef036f15d96f19478d556cd569527ea32eaca4d29ed4ccb7",
+      "full": "3e52bcc7df02d79f47a62b43ae2f5a74715b749a9da39b5926d4699d98d05b58"
+    },
+    "Meadow stone.070": {
+      "geometry": "aac88fa9c1a6baf60b5f6688850ad19b42c4a35153ca977001454448a1d165de",
+      "full": "6571dabf9dcde85449e81152577ce62e8be924ae292f4a08d85750f9789f90ac"
+    },
+    "Meadow stone.071": {
+      "geometry": "c1734e7363c5ffffafa60df7310ebf04c547c0b4291d49acb9a5e2fe00d22a8a",
+      "full": "8039686bdaf3b5a377858f24932d5b41a97c5e4ae4bf0a2565a0681fb864ffbb"
+    },
+    "Meadow stone.072": {
+      "geometry": "16ac033d4940de6cd71144f68f2af51f35530cdf669d7f9a0baf2fe38e20db6e",
+      "full": "4a65573202a3c299d6acbdbe5222a72d2da78a55155e9c6d28121c2433a3eb2e"
+    },
+    "Meadow stone.073": {
+      "geometry": "9cf0046622fbc7c7b12647fe15e9976aadae71d8a2f11d3709bf0dacc5d7c445",
+      "full": "ccb2d095e5a29998a7153edd7f07308ec911fb0fbf01f9c928e505eb511be6a6"
+    },
+    "Meadow stone.074": {
+      "geometry": "b29fcaabc553b8633ee5facf7896f6f20c0a3b3d35ffcd4036fbc088b408e6e0",
+      "full": "6962c70a34028cf5f5432d3a7e515da81f000a05810c7d5861f39eaeed80565a"
+    },
+    "Meadow stone.075": {
+      "geometry": "8e14f1c1b7dfecc0c6723d0ef1dc900c010b94997229296f6bbf78fc0db2cc2d",
+      "full": "9792a2c46c4b10b708a47dd22686c163b05a493b7d5f41e9a2c271938735ce4e"
+    },
+    "Meadow stone.076": {
+      "geometry": "7919360fb544644b43a243f44de6cd60bea7a76a3f9735c07b3d6412da0e0d75",
+      "full": "db54eafa722c8b681a525d50cac1101129a45ce7ded383c0b4f01e23d1f6a3c5"
+    },
+    "Meadow stone.077": {
+      "geometry": "2469a8385ffa38d9bf39024488a11b431044e4aaf65aa872f987fe88613171d4",
+      "full": "a5684abc6804448bfebc8fce437949d857b295ca969cf7e88702e455b1c801d4"
+    },
+    "Meadow stone.078": {
+      "geometry": "44f6e95bd5857d8e70ee3b994e223cba6b380bff79dfb95f7a9af4cce2c588c2",
+      "full": "eeeb8fd6f6bfb2084c6dec5cfbdb57c6223f0d94902285a0418e6a534a733046"
+    },
+    "Meadow stone.079": {
+      "geometry": "dcaf819fc0e1bc0e5c189da5412c17ab0957f3d0f977d78f5b0cbdcecee9967f",
+      "full": "081fa471ff24a8d3782d3ca1bc6c0f1dd55d1ab7954a6b64240848ade863efd1"
+    },
+    "Quiet edge line": {
+      "geometry": "fb93f70f4d974d6052d226d58ecca2855ac0e69284a5785752587bb45e82feb4",
+      "full": "9bcc464bbb8b0de0112329501d0724e43c41a3c18cd15b33e1e100ed3ec9f1be"
+    },
+    "Quiet edge line.001": {
+      "geometry": "ce9e723ed37418459a573c983b33593ed4a0282029243c39987ec6104cfaaca9",
+      "full": "fe3ee0c00cfe3c6e01781a3de36bdc221e01dd5f5fe7606730897a21efac9230"
+    },
+    "Road and viewpoint apron": {
+      "geometry": "3b2943678b7f0e7e34f45d37cdb6920c15c3c193ac6949348a6863e33748bf46",
+      "full": "d43bb6da93525f72e65734dc82b44051619886226ea425bb670295128a65ee41"
+    },
+    "Roadbed blended meadow": {
+      "geometry": "598df2ddcc39b3e2d564b29c56eeb89a145851213775718c6ed74cc6f4258b37",
+      "full": "49d35ba1704e84318ece169d0df6388dc76a37ef26a8001d34dc0c8f4c37ca3b"
+    },
+    "Separate pedestrian stone pad": {
+      "geometry": "09676f8d372e5ab3def4e4ba190194dcd840819305f75b4cc9a5bef24404e52b",
+      "full": "b75aedfbe97c58c11714053735a99d13bc4c25e3decded0e6dd5618f0a0fdb6b"
+    },
+    "Short faded center dash": {
+      "geometry": "1f0f44c450ba63dc5f6a312de95e335647d2af6dc90d85da13d1ffe0e7ba8431",
+      "full": "d5da9af9b7ef78bad11087707b455008f45ed6cac9b7c4b76d60df0777f86213"
+    },
+    "Short faded center dash.001": {
+      "geometry": "99decb5381e62881379e16123f506cdc8164651b72027176e110cd814dc55432",
+      "full": "08824783827db76c6d43508ad910d71b4241acc487f951e5b502c59cd12c97d2"
+    },
+    "Short faded center dash.002": {
+      "geometry": "d0b09589c26cb4abd13cfa8a59190f87bb2af2ebfe75d83e92ee9b66a63281f5",
+      "full": "6db0ec19f26c055c6c0aef941398f86d741e06ebc1cc143fe7ed36cd53662ec5"
+    },
+    "Short faded center dash.003": {
+      "geometry": "fa40b8921dc719719caa30a97cb6ada001ccda70d94e683b5fdce4548b80eb93",
+      "full": "f1be4f64e41133c2edcf731680169a86497752c3b42b281eae2e3c4f2ab5ace0"
+    },
+    "Short faded center dash.004": {
+      "geometry": "2a634fdad42603d5bde1cbecccd1d388970ed69a3ba60ece4c119a410b81e40e",
+      "full": "61be240bb1abec5419cd7840ab2ab9f6652f68a6a113f72f0b3baa1e91d69529"
+    },
+    "Short faded center dash.005": {
+      "geometry": "79a1cd078af5daea26ea5b58e0ea865859f26407b8d9216f7637da5b0c21a91b",
+      "full": "19ca21b99e0d12018ffcb47dd6307fa14823d6c533f564f1ae805c027ee54e61"
+    },
+    "Short faded center dash.006": {
+      "geometry": "c4698f608c8101b40d473f273c95d47909c66a277e1e1440c7f286ec8e8799a8",
+      "full": "15f8c992137999c593b2ddf02ce3208eeaa961d63b92fb6ceb3537f288c057f3"
+    },
+    "Short faded center dash.007": {
+      "geometry": "35cd8ce3ee061cfe7b4d85d8c240cfaef81803583cdd441fdef283b6caeaf058",
+      "full": "6138c383112c0962f96a5552189e5a01769760f31f52483d78738330895ddecf"
+    },
+    "Short faded center dash.008": {
+      "geometry": "8d5ceebc1b2d847bf54b595b1ef2e27426a835333fbf8acdd489e4df0e7c4b19",
+      "full": "45c6989a77d34da7dc5abc3dfe6ec638c8234df3edaacfb28bb20116c55866c9"
+    },
+    "Short faded center dash.009": {
+      "geometry": "d1423c6ff238df65d8336fac8c0febe3c3759ddc2176e08a81c4fa9c1836f36a",
+      "full": "6d67b5cc444a23c3c211882524da4f0e16133b46249b09e1b1916dc52d8913b2"
+    },
+    "Short faded center dash.010": {
+      "geometry": "cc97132e2afe2d670e83ef09a87cc31b532ad1e1cf2638ac63dc7c8f76ca4319",
+      "full": "271bab15f4ef2c8e730b2dcefacc9c46cbc851ed13cb60308881443731133b22"
+    },
+    "Short faded center dash.011": {
+      "geometry": "b75c66f9eb946feca678777b650df79decb30992a9af7b9faa634850eaf18c62",
+      "full": "df34396ccece8c3b8d2c9da261f13407d077a473837ac48e6e3392f7627ea167"
+    },
+    "Short faded center dash.012": {
+      "geometry": "9eb711c8ac04371d9230f5c7c259b48245368e9722a2566e86aa54ddb84455bc",
+      "full": "fcf1f623a0103db50ce567f3736466fbd818052d7215a9041529e66c746ecdca"
+    },
+    "Short faded center dash.013": {
+      "geometry": "258d7f8208a3422da251daace8c4d36fb70fb2ded523f5c0497d18f60f53d9e8",
+      "full": "86a98500df637ae201c27c1c30d5a689f2e57b971e3d5a1d18a47dda16e93074"
+    },
+    "Short faded center dash.014": {
+      "geometry": "eb2b0b826db6422bb3e76b9fa839d820fe41381548bd08eaa4701d83fe4e8139",
+      "full": "038506b511e4925ea04e1bf08d334a1c895c0bb6c1bacdc650523bddc64d9feb"
+    },
+    "Short faded center dash.015": {
+      "geometry": "8fcc9d458c34319624593cba66a576cf3ae7a943af636a0823ae96670c1be58a",
+      "full": "9ebf0b42c5cc1575b3239338745108570d984e3a7df457d9313ceece78d0396a"
+    },
+    "Short faded center dash.016": {
+      "geometry": "c5f7d121c83a3055d173e13626ab700077224b4c0007106a544d20ced2efe7fa",
+      "full": "2c6352f3504023baf3f50f8f38fec7cbe6e31fb92c4b2c1293eba86c6c771c6f"
+    },
+    "Short faded center dash.017": {
+      "geometry": "0906f7981c48aab35f37d9f622205a19ccbdebbe424d3c448ecfbc4224a94a27",
+      "full": "aa8eb80c2d2806b41bf3dafa7120c09744c99d46f4647661e4a05adbfb6c0966"
+    },
+    "Short faded center dash.018": {
+      "geometry": "4594d683a3739568f253f96f27544e0a3652bd0c79137c6718eef4e0ec3c6987",
+      "full": "936c8da9fc5d428919685759ba88745fadd3b6bbec81d4454d660a7444ff08f3"
+    },
+    "Short faded center dash.019": {
+      "geometry": "7c56a3ed9c8e1bf0d3bb42a8b2ffd75deb673a224dab95995172a2e8a83edc40",
+      "full": "97b8f4920ff93674469156ccda22f127accc4e977fd0af5ca74bd44cbc70ebd1"
+    },
+    "Short faded center dash.020": {
+      "geometry": "a2969f0ac236426b4e58883a919ec14cb54b2fb894f5c4078821b3bfdf11afd8",
+      "full": "5473de5ebd47c50453e905c4ebe493695fee46c78ae24f2c6ddee0057e811d1a"
+    },
+    "Short faded center dash.021": {
+      "geometry": "796e30c0dcaf0484f72f2669629e470e62e16868f400202039752100cee875a6",
+      "full": "2ce29b6ff146dfb68b718965dfc1270f1d17f6adcb8159583933f69c83822e25"
+    },
+    "Short faded center dash.022": {
+      "geometry": "c1d37dad83834d14ce084ce3633a1a6ddd584224dae73de0a05eab4fc6375347",
+      "full": "d8f09737d4fbadcfb60df3d3fc639c7b68d342946ad5a916ab7e00f39498c643"
+    },
+    "Short faded center dash.023": {
+      "geometry": "3c4cc252d82a9088e88f36924722852528c61b938f457a206caac170e13c6685",
+      "full": "8741a82839d6bdd4f6ca7d6fe4d2786e74413817aeebc00ca915bdc335021d4a"
+    },
+    "Short faded center dash.024": {
+      "geometry": "de54475ddc7cd362c28a4e26c02816ebe065cc44b1d126f197b8c1c9352ebd42",
+      "full": "c131654ee19928476a55acc67012bb7a70c6ff8da1314bfbb92b8c1df7795b94"
+    },
+    "Short faded center dash.025": {
+      "geometry": "43bc3841e0273517462dd796e13380b5723866e3ef56793bc906263fccfab45c",
+      "full": "0de676ddbdc11fdcd24e3134e7302b7a2aa45f1d4e149105ce6e63205ec795bf"
+    },
+    "Short faded center dash.026": {
+      "geometry": "98dbd61461d6c2873d42a7d8509951a5e5003e3322a4ee3b65b9d06ad6251b66",
+      "full": "d66170d04178559870e0f05f5b66432ed2192ce474260f5db856976e01c97938"
+    },
+    "Short faded center dash.027": {
+      "geometry": "0a2f5755bf92c12cf89fc1e344d47e608bbc205eaac2e6cf9cfda0030c68aa7c",
+      "full": "cd23184d713a5c72d1ff821191a0d967e2f43815cd6a099f40cfbc4114433083"
+    },
+    "Short faded center dash.028": {
+      "geometry": "eb574da099c6c65baefe8d102a73b9e44e66a59a03026bafb288b84433ce8e9e",
+      "full": "db3feab207a1c623862c2e6ea349fb05c53e9f7c6456b4b25009f30e5270d532"
+    },
+    "Short faded center dash.029": {
+      "geometry": "8cc6c8bc901f3b402154f7fdef64d207464b5cd7b9b1ebe3cf69e650b0afec45",
+      "full": "133dde6f937e4876c8a80cc3f801e88836bcedecf3b44ea59cb7706f3d9e2e8b"
+    },
+    "Short faded center dash.030": {
+      "geometry": "6f50b5d80f09a0272a176e48089a46a911914b2ffbbf100537af364a0cb07a1b",
+      "full": "4b346090d2ab65030dfab1be16f2efd2e8c5437ab1dc065511402d646e7bae69"
+    },
+    "Short faded center dash.031": {
+      "geometry": "3f0bafd3624bb0205e64f3a03a5b3b5500f4ed4bb54f640e63b32b40d232ef50",
+      "full": "dcc5a7f55fe27888501f65c349e527c2cb544a3084337641549ab92c2dbefee4"
+    },
+    "Short faded center dash.032": {
+      "geometry": "e6ca2e2fd26f2b4ab61cd285ddfd1cbbf89a8b11694abca9737e9aa9c2d4f57e",
+      "full": "d0ab75a0abc194194cf87a432f870ed5303040517f9cf2bae257e2293c870dca"
+    },
+    "Short faded center dash.033": {
+      "geometry": "9d46612a61de944a2816d6b05c56bcfe16ffd72edec36f39b3dd86d75b5b6acb",
+      "full": "17ef2d8778d0dcec1c7bfb19e32d9de641666a00076691f449032a5181fa9027"
+    },
+    "Short faded center dash.034": {
+      "geometry": "828a1b295b7dc8d65020a6b4aabcc0bdbb616ff5d53091e14c4dbe10ccdd98f2",
+      "full": "8ebe5b9b68d90fc01ae0c2e225127a20446075fe9ad13f095bf4bf71d065ab7c"
+    },
+    "Short faded center dash.035": {
+      "geometry": "1b7509632c125ad68c1b1b15456e291fcd3a6839569a755e4228de2120d9cc9e",
+      "full": "bd8d87e16bc005bb9aea4f3fd05fd0a1a0cbf28845c346954011dd3c6ce07049"
+    },
+    "Short faded center dash.036": {
+      "geometry": "a19f28fa4081280b801b264773e49fef2c700860d60088eaa7300ea531f4f708",
+      "full": "1b22b6328ba70443c5733a272e858b182add905f34c3ad333daca6dbf7e77169"
+    },
+    "Short faded center dash.037": {
+      "geometry": "79cc4505b56b5d2f2b9ea2c66bb4c749086157f9e003a2f5aafcf07e0a1443d8",
+      "full": "426388e82cc8df5c5c693674feaea31220a7a3e227c62019529ccd464cc80233"
+    },
+    "Short faded center dash.038": {
+      "geometry": "897e879958ce4ec7cfbf7470a5f4a7e6b934e77092d2c1273c715e32243f2f36",
+      "full": "2ecf7f49a924105943e79235256308f3e5d652893924c6f364b1ec7dcf5f7fc1"
+    },
+    "Short faded center dash.039": {
+      "geometry": "6cb45acd0465bfe0f6243d7882499391695b70acee0a04f11c99c75a54967f02",
+      "full": "9ae8ec8fe304d9006729a1c8b862e37fd2b4295bc25dd1702acc2b8066b86088"
+    },
+    "Short faded center dash.040": {
+      "geometry": "323c74df6a6d4593a62c97ebbd065dccbe6c508091763c85288db1826d675e51",
+      "full": "2a3ea1cec97a4fb5cca452b96ca0c3b2ef5ffbd13b5b8569dd05827fdd49619b"
+    },
+    "Short faded center dash.041": {
+      "geometry": "e3560522046b49ece1f102ccab3945ccb0b816691ee7f7adad2501ab3e801430",
+      "full": "bb64050aa8886cfcbd5f0a8a0d917f471470d5e608368e63f6b47b5eff8836b1"
+    },
+    "Short faded center dash.042": {
+      "geometry": "f577675b2ec2d4ae14088ee5386bb7e8fc49637ae48fc6902119cf1746333ae7",
+      "full": "393ef4d4c6f20999b3fe2e7b23b6e937d8e2aba0f1d23caa81886cf40bc46335"
+    },
+    "Short faded center dash.043": {
+      "geometry": "07a15c21e5f8573d5f92f89f19bdfb41393fae092c0ff272dcdbd4920f7bbcc8",
+      "full": "c9eb264c6dbdebd6569ee3f7813a5f90083d237a422a3ab1ef33e0ae6d049a94"
+    },
+    "Short faded center dash.044": {
+      "geometry": "2baad8a507bdfbcb73d60d1a34ab926abf4f345457fc450dd1610c9c1cefce90",
+      "full": "7700c66862f3b602b2056a38ac69e229b9753cdbed4374eb22a7971f1437a456"
+    },
+    "Short faded center dash.045": {
+      "geometry": "0d16782446a9e6b2cd6405ee996c83d0fffdf3150b9d6f67b7c111b310718c71",
+      "full": "4d1806fab71296cc255068319c4c36d7f6e0d65bceed72dcf2eb654a2b793e8b"
+    },
+    "Short faded center dash.046": {
+      "geometry": "e1e85df9aa93033b305509b5aaafd7a69f8a4e0c860acbdf3b4728b82f21bce4",
+      "full": "373da3ce35dfeb01fb44357697f56c7819632ed7ca856be6fd9d81bfe0aacf96"
+    },
+    "Short faded center dash.047": {
+      "geometry": "e9277714024ec9e14b7815bea061a085edc6cedbb436d3464492cc93d7c89dca",
+      "full": "42a5e70b8a5515ec8a64bb65e274abbae971683300ffc939e1b2bbac97b82d6c"
+    },
+    "Short faded center dash.048": {
+      "geometry": "e6552a4a92dcbed771acb9b0ea1b59c600b66ec6335038ac9ff02ff13e538f35",
+      "full": "e27c7dfa311742b9640c4ae186e490db7defd7c55b013640d62e89e7029b454b"
+    },
+    "Short faded center dash.049": {
+      "geometry": "9ef04471f4404d51645896f1fdf5c4ca5822646a33b3bd14befe735a1ea5d4f1",
+      "full": "3a9ead067599429bec3849264f687c62fc162df390d2e2c215907e918136c7fa"
+    },
+    "Short faded center dash.050": {
+      "geometry": "2691681ac025a0d0c2c8e6673b2eec990fb91cd6f665040bfc8e572ea7c097e7",
+      "full": "7672bd928f13bf38a4e61d34ef614bb8c89be12751bdcbbba12f2103fa4cfeb6"
+    },
+    "Short faded center dash.051": {
+      "geometry": "e879958f985eb085efaac9f9a149e5324ea326415a9a0d025e87a95284fcd042",
+      "full": "46d3d1bbb255160a369effad864e0c2a61412d9d9597b0b853a782ea245a57c1"
+    },
+    "Short faded center dash.052": {
+      "geometry": "c4f4dd0b0b29b4ff680bb8dcbb3e994d87502807f11ea823b4bac3be9bc8147d",
+      "full": "a494cae9415c4dab88b824fe3b55f2a2b682f2c9b21b8c83d4686ed4cfb32328"
+    },
+    "Short faded center dash.053": {
+      "geometry": "6e2c4f093f0671063be15c178ffec13433ada847d1b79bc2fac0f39839b53ab8",
+      "full": "21f126741004f5a7478ff4c38b59852681c5d87dd5a657f121454d6071b5040f"
+    },
+    "Short faded center dash.054": {
+      "geometry": "7ab0da9f809f29d6c5eecf8c243866c3bd96a60b0c5a5e1226a7edd318d903ac",
+      "full": "acff9ca7bb0027a8aa9fadc6a8b9d0dc7c1e9de48c113099f03697129885d1b9"
+    },
+    "Short faded center dash.055": {
+      "geometry": "f228ea1aa2acedf08b18de1f967f249cc4d04835524ba6ff6fa180c535cbef70",
+      "full": "28b854c58549b31146cdc053df0cea04fce47ff34c8ac7df583b886e0027e208"
+    },
+    "Short faded center dash.056": {
+      "geometry": "094c3cb8084575dcbb4ff16132d1adb6d5e376f72c8d38a7fb03a33d8cfdcf0f",
+      "full": "4a274d20e659f4ebace52fbc87499874388841fad3dd5ccb18f8468dc26a417b"
+    },
+    "Short faded center dash.057": {
+      "geometry": "659fc1986f2b4e06bfbfca113baff585227d7d5c611e530f269b4315da04de0f",
+      "full": "61a57db5a34defef97a673d1971ea0cc0509bf9da63c04ec613449b0cd623101"
+    },
+    "Short faded center dash.058": {
+      "geometry": "05156a565aecbab0f31d4cf8a2f5cefc68e4775b854f3c263bfaa1e3834fb0b3",
+      "full": "77f8c4119cc7b616e39f540871287a7dbbe96618b4b2c1e8b6d3d4a989af2983"
+    },
+    "Short faded center dash.059": {
+      "geometry": "f72c35c328d4ee5cdc92898492353928500b91a1af836c206dc810bb8b6dc903",
+      "full": "2254913662389f530cd9aa8914c6119408a6b26abfff5622685ce222ad27be2c"
+    },
+    "Short faded center dash.060": {
+      "geometry": "c22362ef83f217c02e642871f598c07d2bcfd296886e73c8a8bb87814eddf4bd",
+      "full": "d260ff76a33aeccdcefe58b0068b5bfdd9b45c3cda7c137d547be069cb80ab58"
+    },
+    "Short faded center dash.061": {
+      "geometry": "f9a76cc4cfaaf64b46c0a156251cb550a0c8254c33358fe65520453a8ba9c3d7",
+      "full": "be3bb80bec4a8cc5c86f7c84f961b920690f051c3c1ccdef0411cf4451beaf2c"
+    },
+    "Short faded center dash.062": {
+      "geometry": "3a9081012e13014755ea1abdacfbaf750cd2bcd78245908d52bb7f965e56dd91",
+      "full": "aa377c274208ccc5a680f6e8f3d7f18bb0e31cabe05a7363fe11fae2ef625887"
+    },
+    "Short faded center dash.063": {
+      "geometry": "0a17c355d92b15187251f0f32fe34056eabf6623ec2d5d034430844c693e3f44",
+      "full": "b03440a5b4591308363681d817265d0b6ba2c6e30870c85d2e2b1b6cbfded0cf"
+    },
+    "Short faded center dash.064": {
+      "geometry": "36e39f3b98176353dd48a703e0262a5309c771bd94c368353a8f4303671eb75c",
+      "full": "d152f7204232abe2e0db78fe9e13f68470b2f1f11bf8c05e0598d523dde84a08"
+    },
+    "Short faded center dash.065": {
+      "geometry": "ff663e99efc0d5db13a5fee3c57aebecf96722bce8987ceb9f484d8526329f2e",
+      "full": "1825b763fe7543dcd4c209a6aa333f82948529f0df156ae87cdfedadba440227"
+    },
+    "Short faded center dash.066": {
+      "geometry": "d0855beca7bcde387c9ab3accf8429c1ea680e607e9a6ceae956605273b57f3d",
+      "full": "eec8289f4adc880f788d5d9703ef0e7686c4118e278f48010c3c0279aad43888"
+    },
+    "Short faded center dash.067": {
+      "geometry": "aade756a44b8d1377cb03cfc12b2a0a84b7b5af7f49316a6ccc28fc0774984fa",
+      "full": "e3c1e8aa4abe29a3f965f3a9a5c87a097bc500a25fdfbe2b204fb95f2b40450e"
+    },
+    "Short faded center dash.068": {
+      "geometry": "0c01dd5339ab7c0cf52d6f58ad8f1e153c6ad0a85ca02cbae9341f73b1b55fc3",
+      "full": "a7584d27363590e091b6a986657040dd41beb165d48dabbb34ab40d6de0b975c"
+    },
+    "Short faded center dash.069": {
+      "geometry": "71d60064cc4bf9c8f5f61e9b2c98944eaca883750591d76d5ebc64a8736839e1",
+      "full": "69951704695468ea5040fad52d2cdbb6eedf2cfada81ba29ed0710fb924d83a4"
+    },
+    "Viewpoint boundary stone": {
+      "geometry": "58c5f9007e4733056a56405c621a50972c7a2a9098328d638a24c826640dd54a",
+      "full": "3e1ae8fae89f2ef0ee7fb80a59b7d03214cf601e16989e8fd3467020cf992f26"
+    },
+    "Viewpoint boundary stone.001": {
+      "geometry": "58c5f9007e4733056a56405c621a50972c7a2a9098328d638a24c826640dd54a",
+      "full": "8cbe46f5339da58d82149a619ca74251ecd5ee0e625e302f7217714d763243c3"
+    },
+    "Viewpoint boundary stone.002": {
+      "geometry": "58c5f9007e4733056a56405c621a50972c7a2a9098328d638a24c826640dd54a",
+      "full": "187ca523f2044b0780618251ab7597d5b0e63d508965e00ec572eea3c3b09182"
+    },
+    "Viewpoint boundary stone.003": {
+      "geometry": "58c5f9007e4733056a56405c621a50972c7a2a9098328d638a24c826640dd54a",
+      "full": "44fc0b6f93d9d3b0c268e25742f4407b481b25b367677dea7f93c1f5b2747bd0"
+    }
+  }
+}

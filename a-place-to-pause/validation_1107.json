@@ -1,0 +1,48 @@
+{
+  "seed": 1107,
+  "units": "1 Blender unit = 1 virtual metre",
+  "road_width_m": 6,
+  "viewpoint_max_width_m": 10.5,
+  "terrain_blend_width_m": 40,
+  "centerline_samples": 841,
+  "upward_road_faces": 840,
+  "inverted_road_faces": 0,
+  "sampled_clearance_min_m": 0.04499999999999993,
+  "sampled_clearance_max_m": 0.045000000000001705,
+  "maximum_virtual_grade_percent": 5.999992422536109,
+  "maximum_virtual_curvature_per_m": 0.009879595263720682,
+  "minimum_virtual_curve_radius_m": 101.21872134500754,
+  "scope": "Virtual landscape only; not civil-road safety or engineering standards. Clearance checks sample analytic bed; no physical simulation.",
+  "earthwork_sample_count": 84941,
+  "maximum_cut_m": 1.0754747227186492,
+  "maximum_fill_m": 1.2151677647381138,
+  "road_profile": "6 percent virtual aesthetic cap; constrained smooth fit plus cap-preserving slope smoothing; 40 m earthwork transition",
+  "terrain_non_upward_faces": 0,
+  "mesh_raycast_samples": 4200,
+  "mesh_raycast_misses": 0,
+  "mesh_clearance_min_m": 0.04497528076171875,
+  "mesh_clearance_max_m": 0.0450286865234375,
+  "mesh_below_terrain_samples": 0,
+  "terrain_parameters": {
+    "seed": 1107,
+    "amplitudes": [
+      5.6487693716991405,
+      4.345838013435371,
+      2.8430695431748063
+    ],
+    "phases": [
+      1.2586306524964233,
+      1.097901160188889,
+      2.529638404592463
+    ],
+    "x_scales": [
+      72.819628120232,
+      132.0315095714629
+    ],
+    "y_scales": [
+      157.08309676031894,
+      144.21216561282097,
+      190.03439056887063
+    ]
+  }
+}

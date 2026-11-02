@@ -1,0 +1,56 @@
+{
+  "source_project": "seeded_roadscapes",
+  "source_seed": 1107,
+  "source_files": {
+    "landscape.py": "ce32005c9dd493bad8b53bc2053abab7362ac60424d86b664c25103baeddbc72",
+    "profiles.json": "b3807ee18985fd64fb5c130c8ca4bd618f20c4f4f97a5ef1cd6c7791e535e541",
+    "build_variant.py": "61ee6bbdb0d9c6baf1745b3f8239221b01f0d559272bb67812ebc0f1d91e1470"
+  },
+  "geometry_verification": "Road/terrain unchanged; 159 original objects identical, six bench transforms adjusted, exactly one terrain-supported pad added.",
+  "allowed_changes": [
+    "camera",
+    "lights",
+    "world sky",
+    "materials",
+    "render settings",
+    "six existing bench transforms",
+    "one small local pedestrian pad"
+  ],
+  "final_render": {
+    "width": 900,
+    "height": 600,
+    "cycles_samples": 128,
+    "cpu_threads": 2,
+    "denoising": false
+  },
+  "visual_review": "Final revised pixels inspected: bench stands on a separate stone pad with visible grass separation from unchanged road/shoulder; outward seat, readable road and quiet negative space.",
+  "unchanged_prior_studies": [
+    "quiet_road",
+    "quiet_road_profile_research",
+    "seeded_roadscapes"
+  ],
+  "local_stop_verification": {
+    "scope": "Finite scene geometry checks only, not road/pedestrian safety certification.",
+    "pad_dimensions_m": [
+      2.3999996185302734,
+      3.200000762939453
+    ],
+    "pad_outside_road_mesh": true,
+    "pad_outside_shoulder_mesh": true,
+    "minimum_pad_to_road_xy_distance_m": 2.9712125698983645,
+    "minimum_pad_to_shoulder_xy_distance_m": 1.9594686501735146,
+    "bench_meshes_inside_pad": 6,
+    "bench_foot_to_pad_gaps_m": [
+      1.9073486328125e-06,
+      1.9073486328125e-06
+    ],
+    "terrain_support_samples": 441,
+    "pad_bottom_to_ground_min_m": 0.00164031982421875,
+    "pad_bottom_to_ground_max_m": 0.00201416015625,
+    "pad_top_to_ground_min_m": 0.035022735595703125,
+    "pad_top_to_ground_max_m": 0.10175704956054688,
+    "passed": true,
+    "bench_facing": "positive X, outward from the road"
+  },
+  "publication_scope": "Revised final artwork only; superseded candidates and logs omitted. Path metadata normalized without geometry changes."
+}

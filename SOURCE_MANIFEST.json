@@ -14,8 +14,83 @@
     },
     {
       "path": "README.md",
-      "size": 6834,
-      "sha256": "140f0ff0af2783b1e2eea2209d9e070124fd38f226da12cdf5da907be1dc86fc"
+      "size": 7173,
+      "sha256": "4cacd876cea447458dee41e21cb2012ea4d2b4dad708e37047d300c2ae3147ce"
+    },
+    {
+      "path": "a-place-to-pause/.gitignore",
+      "size": 28,
+      "sha256": "e1b943257d252c73670b740940bc312d8b928c68a91fddcb0ea3fb6fc350a5e0"
+    },
+    {
+      "path": "a-place-to-pause/README.md",
+      "size": 5003,
+      "sha256": "d115def39dff114694bb71f214d5351503aa39f1fcfecf762942698d6e13d5b1"
+    },
+    {
+      "path": "a-place-to-pause/a_place_to_pause.blend",
+      "size": 9443779,
+      "sha256": "a50e9a3fd6a58cbb26b8874278255f1690589a2e2df9e4637d7a87ba67b5600e"
+    },
+    {
+      "path": "a-place-to-pause/a_place_to_pause.png",
+      "size": 700161,
+      "sha256": "4b9ab0609d54f53e6a577c5e8231ee5a53a222cc2620b6529f5d83904191a117"
+    },
+    {
+      "path": "a-place-to-pause/build.py",
+      "size": 12063,
+      "sha256": "79685b5afd42d893b4b5840ead2ae83ee2b528a6200e699e40c176a0aa840ef3"
+    },
+    {
+      "path": "a-place-to-pause/build_variant.py",
+      "size": 9355,
+      "sha256": "61ee6bbdb0d9c6baf1745b3f8239221b01f0d559272bb67812ebc0f1d91e1470"
+    },
+    {
+      "path": "a-place-to-pause/check_geometry.py",
+      "size": 2232,
+      "sha256": "5a415d6573b44a4727e10f022baaba36f60ea64209c7fe164e3acde53329a053"
+    },
+    {
+      "path": "a-place-to-pause/checksums.json",
+      "size": 1263,
+      "sha256": "0eb31b040da3c670d3d8f3a219ca036327c80880e67e7fac0248aa6f22a86f53"
+    },
+    {
+      "path": "a-place-to-pause/geometry_verification.json",
+      "size": 34465,
+      "sha256": "6287fc2cf7717f70ccb07849104dd1d05e030b83e45f6d85cd90905155fbafcf"
+    },
+    {
+      "path": "a-place-to-pause/landscape.py",
+      "size": 1074,
+      "sha256": "ce32005c9dd493bad8b53bc2053abab7362ac60424d86b664c25103baeddbc72"
+    },
+    {
+      "path": "a-place-to-pause/profiles.json",
+      "size": 275079,
+      "sha256": "b3807ee18985fd64fb5c130c8ca4bd618f20c4f4f97a5ef1cd6c7791e535e541"
+    },
+    {
+      "path": "a-place-to-pause/provenance.json",
+      "size": 2166,
+      "sha256": "5cb3e78dd53fb61e8d324c1e6cc23dc8b9502ad7d7c5d2f769b9fe686ab898de"
+    },
+    {
+      "path": "a-place-to-pause/stop_verification.json",
+      "size": 790,
+      "sha256": "fe06c17ff49f6eb057d9c82c1631164f1118c4d657324338caf0f9c2ab9e2ac2"
+    },
+    {
+      "path": "a-place-to-pause/validation_1107.json",
+      "size": 1552,
+      "sha256": "72de7dd4f33b087f421f99900bebd06d70e50768321af3992cf84a3164089aee"
+    },
+    {
+      "path": "a-place-to-pause/verify_stop.py",
+      "size": 3450,
+      "sha256": "52e19dcd9c8424c81a8298f0bf68f1ec4faf85abc70858cfcaa3a561d6b02bc1"
     },
     {
       "path": "after-the-rain/ARCHITECTURE.md",

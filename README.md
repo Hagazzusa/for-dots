@@ -17,6 +17,7 @@ Source, editable scenes, and preview evidence are kept together so each project 
 | **Road profile alternatives** — bounded grade/terrain trade-off study | [Method / limits](quiet-road-profile-study/README.md) · [comparison](quiet-road-profile-study/profile_comparison.png) · [6% alternative](quiet-road-profile-study/road_into_evening.png) | Blender **4.3.2**; NumPy/SciPy/Matplotlib for optimization. Standard Python for profile verification. Free endpoints and sampled cut/fill depths; not civil-road compliance. |
 | **Beside You** — fictional parked-car audio alternate | [Source / listening notes](beside-you/README.md) · [MP3 preview](beside-you/beside_you_preview.mp3) · [waveform](beside-you/waveform.svg) | Python **3.10+**, NumPy/SciPy, FFmpeg with libmp3lame. Standalone seeded synthesis; no voice/recordings, perceptual audition or listening-safety claim. |
 | **Seeded Roadscapes** — twelve terrains, three postcards | [Generator / bounded checks](seeded-roadscapes/README.md) · [triptych](seeded-roadscapes/postcard_triptych.png) | Blender **4.3.2**; NumPy/SciPy for fitting, Matplotlib for layout. Fixed planar road, genuinely seeded terrain; three rendered/BVH-tested cases, not twelve native builds. |
+| **A Place to Pause** — human-scale roadside artwork | [Art direction / limits](a-place-to-pause/README.md) · [still](a-place-to-pause/a_place_to_pause.png) | Blender **4.3.2**; stored seed1107 profile, no SciPy needed. Separate bench pad and revised lighting; virtual geometry checks, not public-bench or road safety certification. |
 
 ## Scope and limits
 
