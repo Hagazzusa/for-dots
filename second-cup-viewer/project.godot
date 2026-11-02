@@ -1,0 +1,17 @@
+config_version=5
+[application]
+config/name="두 잔의 자리 — 3D 재질 관찰"
+run/main_scene="res://scenes/viewer.tscn"
+config/features=PackedStringArray("4.6", "GL Compatibility")
+[display]
+window/size/viewport_width=1100
+window/size/viewport_height=800
+window/size/window_width_override=1100
+window/size/window_height_override=800
+window/stretch/mode="disabled"
+[editor]
+import/blender/enabled=false
+[rendering]
+renderer/rendering_method="gl_compatibility"
+renderer/rendering_method.mobile="gl_compatibility"
+anti_aliasing/quality/msaa_3d=1

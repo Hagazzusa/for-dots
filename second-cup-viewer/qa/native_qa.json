@@ -1,0 +1,25 @@
+{
+  "engine": "Godot 4.6.3",
+  "renderer": "Compatibility / OpenGL / llvmpipe",
+  "native_checks": [
+    "Focused arrow press/release and repeated R reset",
+    "Near/far zoom and lower/upper pitch plus both yaw limits",
+    "L off retains environment/fill and readable silhouettes; L on/reset restore key light",
+    "640x480 and 1100x800 actual windows; fixed-size Korean text and noncropped help/disclosure",
+    "Native renderer imports actual 19 meshes; empty cup floor, tea surface, plates, metal highlights and spout opening visually distinguishable"
+  ],
+  "fixes_from_visual_review": [
+    "Reduced overbright key light and changed angle to expose empty cup interior",
+    "Framing uses 144 corners of 18 hero meshes, excluding tabletop; protects HUD margins at supported window sizes",
+    "Disabled UI scaling to retain readable Korean text at 640x480"
+  ],
+  "limitations": [
+    "Opaque tea, no refraction/volume absorption/thermal/fluid simulation",
+    "Harder realtime shadows and simplified materials do not match Cycles",
+    "No performance benchmark or hardware-general claim",
+    "Camera projection regression samples nine angle pairs at test viewport; not exhaustive all-window proof",
+    "Two-instance tests establish separate state, not concurrent shared-viewport camera/UI/input operation"
+  ],
+  "preview": "native_preview.png",
+  "small_window": "native_small.png"
+}

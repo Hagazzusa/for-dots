@@ -76,7 +76,7 @@
 
 ![두 잔의 자리 — 실제 Blender Cycles 렌더](second-cup/renders/the_second_cup_final.png)
 
-[편집 가능한 장면·제작 과정](second-cup/README.md) · [별도로 보존한 GPT Image 콘셉트](second-cup/reference/gpt_image_concept.png)
+[편집 가능한 장면·제작 과정](second-cup/README.md) · [키보드로 돌려보는 독립 Godot 뷰어](second-cup-viewer/README.md) · [별도로 보존한 GPT Image 콘셉트](second-cup/reference/gpt_image_concept.png)
 
 위 이미지는 절차적 재질과 직접 만든 메시의 실제 Blender 렌더입니다. 실물 사진이나 게임 화면, 생성 콘셉트 자체가 아닙니다. 물리적 유체·열 시뮬레이션이나 실제 식기의 안전 검증을 뜻하지 않습니다.
 

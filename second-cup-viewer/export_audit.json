@@ -1,0 +1,636 @@
+{
+  "producer_blend_filename": "The_Second_Cup.blend",
+  "producer_blend_sha256": "eac50adac6aa30158ea9cfac70d9d3c71ae25602abc33975fb0ec2023c9f49bd",
+  "blender_version": "4.3.2",
+  "gltf_generator": "Khronos glTF Blender I/O v4.3.47",
+  "output": "assets/second_cup_tableau.glb",
+  "output_sha256": "e5b3a05b8db4421d1cca41c7f8f30d266ca718533d2602c40a1bad2e34416a7b",
+  "output_bytes": 1094712,
+  "axis_transform": "Blender (x,y,z) -> glTF/Godot (x,z,-y)",
+  "units": "metres",
+  "recommended_root_scale": [
+    1,
+    1,
+    1
+  ],
+  "origin": "Centre of the tabletop upper surface; tabletop surface Y=0.",
+  "bounds_y_up_m": {
+    "min": [
+      -0.6499999761581421,
+      -0.03200000151991844,
+      -0.5199999809265137
+    ],
+    "max": [
+      0.6499999761581421,
+      0.22790001332759857,
+      0.5199999809265137
+    ]
+  },
+  "hero_bounds_y_up_m": {
+    "min": [
+      -0.27437448501586914,
+      0.0,
+      -0.2913200259208679
+    ],
+    "max": [
+      0.29023998975753784,
+      0.22790001332759857,
+      0.33024001121520996
+    ]
+  },
+  "recommended_original_view": {
+    "camera_position": [
+      0.1,
+      1.13,
+      1.02
+    ],
+    "look_at": [
+      -0.01,
+      0.038,
+      -0.01
+    ],
+    "vertical_fov_degrees": 25.36076698363964
+  },
+  "mesh_components": 19,
+  "triangles": 62072,
+  "materials": {
+    "SC_Ivory_Glaze": {
+      "base_color_linear": [
+        0.68,
+        0.61,
+        0.49,
+        1
+      ],
+      "metallic": 0,
+      "roughness": 0.24
+    },
+    "SC_Satin_Steel": {
+      "base_color_linear": [
+        0.54,
+        0.57,
+        0.6,
+        1
+      ],
+      "metallic": 1,
+      "roughness": 0.38
+    },
+    "SC_Charcoal_Handle": {
+      "base_color_linear": [
+        0.012,
+        0.014,
+        0.016,
+        1
+      ],
+      "metallic": 0,
+      "roughness": 0.36
+    },
+    "SC_Dark_Base_Steel": {
+      "base_color_linear": [
+        0.035,
+        0.039,
+        0.044,
+        1
+      ],
+      "metallic": 0.8,
+      "roughness": 0.4
+    },
+    "SC_Dusty_Plum_Porcelain": {
+      "base_color_linear": [
+        0.205,
+        0.145,
+        0.185,
+        1
+      ],
+      "metallic": 0,
+      "roughness": 0.42
+    },
+    "SC_Amber_Tea_Opaque_Approx": {
+      "base_color_linear": [
+        0.16,
+        0.043,
+        0.008,
+        1
+      ],
+      "metallic": 0,
+      "roughness": 0.16
+    }
+  },
+  "checks": {
+    "immutable_source_sha_before_and_after": true,
+    "nineteen_expected_mesh_components": true,
+    "five_hero_groups_and_table": true,
+    "all_source_positions_preserved_to_0_1_micrometre": true,
+    "all_source_oriented_triangle_geometry_preserved_to_0_1_micrometre": true,
+    "all_triangle_counts_preserved": true,
+    "outward_signed_volumes_preserved": true,
+    "all_normals_finite_and_unit": true,
+    "no_images_or_textures": true,
+    "no_cameras_lights_or_animations": true,
+    "no_external_buffer_uris": true,
+    "six_named_pbr_materials": true,
+    "opaque_materials_without_optical_extensions": true
+  },
+  "all_assertions_pass": true,
+  "components": [
+    {
+      "name": "FarCup_Body",
+      "source_component": "Far cup | continuous 4 mm rim, inner bowl and foot",
+      "source_evaluated_vertices": 3458,
+      "exported_vertices_including_normal_seams": 3458,
+      "source_triangles": 6912,
+      "exported_triangles": 6912,
+      "bounds_y_up_m": {
+        "min": [
+          0.10499999672174454,
+          0.0,
+          -0.17000000178813934
+        ],
+        "max": [
+          0.20499999821186066,
+          0.07479999959468842,
+          -0.07000000029802322
+        ]
+      },
+      "identical_unique_positions_at_0_1_micrometre": true,
+      "identical_oriented_triangle_position_multiset_at_0_1_micrometre": true,
+      "signed_source_volume_m3": 0.00011158314001726705,
+      "signed_exported_volume_m3": 0.00011158314001726705,
+      "absolute_volume_delta_m3": 0.0,
+      "unit_finite_normals": true
+    },
+    {
+      "name": "FarCup_Handle",
+      "source_component": "Far cup | solid rounded handle",
+      "source_evaluated_vertices": 1368,
+      "exported_vertices_including_normal_seams": 1368,
+      "source_triangles": 2732,
+      "exported_triangles": 2732,
+      "bounds_y_up_m": {
+        "min": [
+          0.18911197781562805,
+          0.011205927468836308,
+          -0.1452108919620514
+        ],
+        "max": [
+          0.23324213922023773,
+          0.07279966026544571,
+          -0.12420687824487686
+        ]
+      },
+      "identical_unique_positions_at_0_1_micrometre": true,
+      "identical_oriented_triangle_position_multiset_at_0_1_micrometre": true,
+      "signed_source_volume_m3": 9.737293434305036e-06,
+      "signed_exported_volume_m3": 9.737293434305036e-06,
+      "absolute_volume_delta_m3": 0.0,
+      "unit_finite_normals": true
+    },
+    {
+      "name": "FarPlate",
+      "source_component": "Far bread plate | empty shallow dish with real foot",
+      "source_evaluated_vertices": 2306,
+      "exported_vertices_including_normal_seams": 2306,
+      "source_triangles": 4608,
+      "exported_triangles": 4608,
+      "bounds_y_up_m": {
+        "min": [
+          0.13976000249385834,
+          0.0,
+          -0.00023999999393709004
+        ],
+        "max": [
+          0.29023998975753784,
+          0.018425999209284782,
+          0.1502400040626526
+        ]
+      },
+      "identical_unique_positions_at_0_1_micrometre": true,
+      "identical_oriented_triangle_position_multiset_at_0_1_micrometre": true,
+      "signed_source_volume_m3": 6.587646046167055e-05,
+      "signed_exported_volume_m3": 6.587646046167055e-05,
+      "absolute_volume_delta_m3": 0.0,
+      "unit_finite_normals": true
+    },
+    {
+      "name": "Kettle_Base",
+      "source_component": "Kettle | continuous grounded base ring",
+      "source_evaluated_vertices": 896,
+      "exported_vertices_including_normal_seams": 896,
+      "source_triangles": 1792,
+      "exported_triangles": 1792,
+      "bounds_y_up_m": {
+        "min": [
+          -0.24046000838279724,
+          0.0,
+          -0.2904599905014038
+        ],
+        "max": [
+          -0.04954000562429428,
+          0.0068800002336502075,
+          -0.09954000264406204
+        ]
+      },
+      "identical_unique_positions_at_0_1_micrometre": true,
+      "identical_oriented_triangle_position_multiset_at_0_1_micrometre": true,
+      "signed_source_volume_m3": 5.995273407806423e-05,
+      "signed_exported_volume_m3": 5.995273407806423e-05,
+      "absolute_volume_delta_m3": 0.0,
+      "unit_finite_normals": true
+    },
+    {
+      "name": "Kettle_Body",
+      "source_component": "Kettle | spun hollow steel body",
+      "source_evaluated_vertices": 3986,
+      "exported_vertices_including_normal_seams": 4294,
+      "source_triangles": 7972,
+      "exported_triangles": 7972,
+      "bounds_y_up_m": {
+        "min": [
+          -0.24131999909877777,
+          0.00430000014603138,
+          -0.2913200259208679
+        ],
+        "max": [
+          -0.04868000000715256,
+          0.13845999538898468,
+          -0.09867999702692032
+        ]
+      },
+      "identical_unique_positions_at_0_1_micrometre": true,
+      "identical_oriented_triangle_position_multiset_at_0_1_micrometre": true,
+      "signed_source_volume_m3": 0.00014808512909186833,
+      "signed_exported_volume_m3": 0.00014808512909186833,
+      "absolute_volume_delta_m3": 0.0,
+      "unit_finite_normals": true
+    },
+    {
+      "name": "Kettle_Handle_Grip",
+      "source_component": "Kettle | thick arched charcoal grip",
+      "source_evaluated_vertices": 1560,
+      "exported_vertices_including_normal_seams": 1560,
+      "source_triangles": 3116,
+      "exported_triangles": 3116,
+      "bounds_y_up_m": {
+        "min": [
+          -0.218025341629982,
+          0.14505043625831604,
+          -0.21305999159812927
+        ],
+        "max": [
+          -0.07197465002536774,
+          0.22790001332759857,
+          -0.1941400021314621
+        ]
+      },
+      "identical_unique_positions_at_0_1_micrometre": true,
+      "identical_oriented_triangle_position_multiset_at_0_1_micrometre": true,
+      "signed_source_volume_m3": 5.730951625630235e-05,
+      "signed_exported_volume_m3": 5.730951625630235e-05,
+      "absolute_volume_delta_m3": 0.0,
+      "unit_finite_normals": true
+    },
+    {
+      "name": "Kettle_Handle_Steel",
+      "source_component": "Kettle | steel handle skeleton",
+      "source_evaluated_vertices": 1620,
+      "exported_vertices_including_normal_seams": 1620,
+      "source_triangles": 3236,
+      "exported_triangles": 3236,
+      "bounds_y_up_m": {
+        "min": [
+          -0.21620766818523407,
+          0.11518730968236923,
+          -0.20772801339626312
+        ],
+        "max": [
+          -0.07379233837127686,
+          0.22256800532341003,
+          -0.19947199523448944
+        ]
+      },
+      "identical_unique_positions_at_0_1_micrometre": true,
+      "identical_oriented_triangle_position_multiset_at_0_1_micrometre": true,
+      "signed_source_volume_m3": 1.4234885350461468e-05,
+      "signed_exported_volume_m3": 1.4234885350461468e-05,
+      "absolute_volume_delta_m3": 0.0,
+      "unit_finite_normals": true
+    },
+    {
+      "name": "Kettle_Hinge_Left",
+      "source_component": "Kettle | hinge pin -1",
+      "source_evaluated_vertices": 512,
+      "exported_vertices_including_normal_seams": 1056,
+      "source_triangles": 1020,
+      "exported_triangles": 1020,
+      "bounds_y_up_m": {
+        "min": [
+          -0.21689599752426147,
+          0.11472399532794952,
+          -0.213919997215271
+        ],
+        "max": [
+          -0.2072640061378479,
+          0.12435600161552429,
+          -0.1941400170326233
+        ]
+      },
+      "identical_unique_positions_at_0_1_micrometre": true,
+      "identical_oriented_triangle_position_multiset_at_0_1_micrometre": true,
+      "signed_source_volume_m3": 1.4328634119857113e-06,
+      "signed_exported_volume_m3": 1.4328634119857113e-06,
+      "absolute_volume_delta_m3": 0.0,
+      "unit_finite_normals": true
+    },
+    {
+      "name": "Kettle_Hinge_Right",
+      "source_component": "Kettle | hinge pin 1",
+      "source_evaluated_vertices": 512,
+      "exported_vertices_including_normal_seams": 967,
+      "source_triangles": 1020,
+      "exported_triangles": 1020,
+      "bounds_y_up_m": {
+        "min": [
+          -0.08273600786924362,
+          0.10965000092983246,
+          -0.20884600281715393
+        ],
+        "max": [
+          -0.07310400158166885,
+          0.12942999601364136,
+          -0.19921401143074036
+        ]
+      },
+      "identical_unique_positions_at_0_1_micrometre": true,
+      "identical_oriented_triangle_position_multiset_at_0_1_micrometre": true,
+      "signed_source_volume_m3": 1.4315644411381594e-06,
+      "signed_exported_volume_m3": 1.4315644411381594e-06,
+      "absolute_volume_delta_m3": 0.0,
+      "unit_finite_normals": true
+    },
+    {
+      "name": "Kettle_Knob",
+      "source_component": "Kettle | charcoal lid knob",
+      "source_evaluated_vertices": 674,
+      "exported_vertices_including_normal_seams": 674,
+      "source_triangles": 1344,
+      "exported_triangles": 1344,
+      "bounds_y_up_m": {
+        "min": [
+          -0.1574700027704239,
+          0.15136000514030457,
+          -0.20746999979019165
+        ],
+        "max": [
+          -0.13253000378608704,
+          0.1694200038909912,
+          -0.1825300008058548
+        ]
+      },
+      "identical_unique_positions_at_0_1_micrometre": true,
+      "identical_oriented_triangle_position_multiset_at_0_1_micrometre": true,
+      "signed_source_volume_m3": 5.960982151738866e-06,
+      "signed_exported_volume_m3": 5.960982151738866e-06,
+      "absolute_volume_delta_m3": 0.0,
+      "unit_finite_normals": true
+    },
+    {
+      "name": "Kettle_Lid",
+      "source_component": "Kettle | separate shallow steel lid",
+      "source_evaluated_vertices": 898,
+      "exported_vertices_including_normal_seams": 898,
+      "source_triangles": 1792,
+      "exported_triangles": 1792,
+      "bounds_y_up_m": {
+        "min": [
+          -0.19015000760555267,
+          0.13845999538898468,
+          -0.24015000462532043
+        ],
+        "max": [
+          -0.09985000640153885,
+          0.1522200107574463,
+          -0.1498500108718872
+        ]
+      },
+      "identical_unique_positions_at_0_1_micrometre": true,
+      "identical_oriented_triangle_position_multiset_at_0_1_micrometre": true,
+      "signed_source_volume_m3": 6.23599697497923e-05,
+      "signed_exported_volume_m3": 6.23599697497923e-05,
+      "absolute_volume_delta_m3": 0.0,
+      "unit_finite_normals": true
+    },
+    {
+      "name": "Kettle_Lug_Left",
+      "source_component": "Kettle | handle lug -1",
+      "source_evaluated_vertices": 96,
+      "exported_vertices_including_normal_seams": 273,
+      "source_triangles": 188,
+      "exported_triangles": 188,
+      "bounds_y_up_m": {
+        "min": [
+          -0.2231406718492508,
+          0.09732401371002197,
+          -0.21091000735759735
+        ],
+        "max": [
+          -0.20101933181285858,
+          0.13143599033355713,
+          -0.1962900012731552
+        ]
+      },
+      "identical_unique_positions_at_0_1_micrometre": true,
+      "identical_oriented_triangle_position_multiset_at_0_1_micrometre": true,
+      "signed_source_volume_m3": 6.601619327047578e-06,
+      "signed_exported_volume_m3": 6.601619327047578e-06,
+      "absolute_volume_delta_m3": 0.0,
+      "unit_finite_normals": true
+    },
+    {
+      "name": "Kettle_Lug_Right",
+      "source_component": "Kettle | handle lug 1",
+      "source_evaluated_vertices": 96,
+      "exported_vertices_including_normal_seams": 282,
+      "source_triangles": 188,
+      "exported_triangles": 188,
+      "bounds_y_up_m": {
+        "min": [
+          -0.08898067474365234,
+          0.09732401371002197,
+          -0.21091000735759735
+        ],
+        "max": [
+          -0.06685933470726013,
+          0.13143599033355713,
+          -0.1962900012731552
+        ]
+      },
+      "identical_unique_positions_at_0_1_micrometre": true,
+      "identical_oriented_triangle_position_multiset_at_0_1_micrometre": true,
+      "signed_source_volume_m3": 6.602050389959796e-06,
+      "signed_exported_volume_m3": 6.602050389959796e-06,
+      "absolute_volume_delta_m3": 0.0,
+      "unit_finite_normals": true
+    },
+    {
+      "name": "Kettle_Spout",
+      "source_component": "Kettle | open tapered spout, 1.4 mm lip",
+      "source_evaluated_vertices": 3936,
+      "exported_vertices_including_normal_seams": 3936,
+      "source_triangles": 7872,
+      "exported_triangles": 7872,
+      "bounds_y_up_m": {
+        "min": [
+          -0.27437448501586914,
+          0.0531173050403595,
+          -0.17794190347194672
+        ],
+        "max": [
+          -0.1925640106201172,
+          0.16062134504318237,
+          -0.11772489547729492
+        ]
+      },
+      "identical_unique_positions_at_0_1_micrometre": true,
+      "identical_oriented_triangle_position_multiset_at_0_1_micrometre": true,
+      "signed_source_volume_m3": 1.4334546935446113e-05,
+      "signed_exported_volume_m3": 1.4334546935446113e-05,
+      "absolute_volume_delta_m3": 0.0,
+      "unit_finite_normals": true
+    },
+    {
+      "name": "NearCup_Body",
+      "source_component": "Near cup | continuous 4 mm rim, inner bowl and foot",
+      "source_evaluated_vertices": 3458,
+      "exported_vertices_including_normal_seams": 3458,
+      "source_triangles": 6912,
+      "exported_triangles": 6912,
+      "bounds_y_up_m": {
+        "min": [
+          -0.2199999988079071,
+          0.0,
+          0.11500000208616257
+        ],
+        "max": [
+          -0.11999999731779099,
+          0.07479999959468842,
+          0.2150000035762787
+        ]
+      },
+      "identical_unique_positions_at_0_1_micrometre": true,
+      "identical_oriented_triangle_position_multiset_at_0_1_micrometre": true,
+      "signed_source_volume_m3": 0.00011158250656637346,
+      "signed_exported_volume_m3": 0.00011158250656637346,
+      "absolute_volume_delta_m3": 0.0,
+      "unit_finite_normals": true
+    },
+    {
+      "name": "NearCup_Handle",
+      "source_component": "Near cup | solid rounded handle",
+      "source_evaluated_vertices": 1368,
+      "exported_vertices_including_normal_seams": 1368,
+      "source_triangles": 2732,
+      "exported_triangles": 2732,
+      "bounds_y_up_m": {
+        "min": [
+          -0.25075194239616394,
+          0.011205853894352913,
+          0.16052961349487305
+        ],
+        "max": [
+          -0.2057836800813675,
+          0.0727996677160263,
+          0.17341738939285278
+        ]
+      },
+      "identical_unique_positions_at_0_1_micrometre": true,
+      "identical_oriented_triangle_position_multiset_at_0_1_micrometre": true,
+      "signed_source_volume_m3": 9.736465357827276e-06,
+      "signed_exported_volume_m3": 9.736465357827276e-06,
+      "absolute_volume_delta_m3": 0.0,
+      "unit_finite_normals": true
+    },
+    {
+      "name": "NearCup_Tea",
+      "source_component": "Tea | closed volume and 0.8 mm wall meniscus",
+      "source_evaluated_vertices": 1922,
+      "exported_vertices_including_normal_seams": 1922,
+      "source_triangles": 3840,
+      "exported_triangles": 3840,
+      "bounds_y_up_m": {
+        "min": [
+          -0.2152000069618225,
+          0.012149999849498272,
+          0.11980000138282776
+        ],
+        "max": [
+          -0.12479999661445618,
+          0.05979999899864197,
+          0.2101999968290329
+        ]
+      },
+      "identical_unique_positions_at_0_1_micrometre": true,
+      "identical_oriented_triangle_position_multiset_at_0_1_micrometre": true,
+      "signed_source_volume_m3": 0.00024192437716089957,
+      "signed_exported_volume_m3": 0.00024192437716089957,
+      "absolute_volume_delta_m3": 0.0,
+      "unit_finite_normals": true
+    },
+    {
+      "name": "NearPlate",
+      "source_component": "Near bread plate | empty shallow dish with real foot",
+      "source_evaluated_vertices": 2306,
+      "exported_vertices_including_normal_seams": 2306,
+      "source_triangles": 4608,
+      "exported_triangles": 4608,
+      "bounds_y_up_m": {
+        "min": [
+          -0.05023999884724617,
+          0.0,
+          0.17975999414920807
+        ],
+        "max": [
+          0.10023999959230423,
+          0.018425999209284782,
+          0.33024001121520996
+        ]
+      },
+      "identical_unique_positions_at_0_1_micrometre": true,
+      "identical_oriented_triangle_position_multiset_at_0_1_micrometre": true,
+      "signed_source_volume_m3": 6.587619683388658e-05,
+      "signed_exported_volume_m3": 6.587619683388658e-05,
+      "absolute_volume_delta_m3": 0.0,
+      "unit_finite_normals": true
+    },
+    {
+      "name": "Tabletop",
+      "source_component": "Table | rounded porcelain slab",
+      "source_evaluated_vertices": 96,
+      "exported_vertices_including_normal_seams": 306,
+      "source_triangles": 188,
+      "exported_triangles": 188,
+      "bounds_y_up_m": {
+        "min": [
+          -0.6499999761581421,
+          -0.03200000151991844,
+          -0.5199999809265137
+        ],
+        "max": [
+          0.6499999761581421,
+          0.0,
+          0.5199999809265137
+        ]
+      },
+      "identical_unique_positions_at_0_1_micrometre": true,
+      "identical_oriented_triangle_position_multiset_at_0_1_micrometre": true,
+      "signed_source_volume_m3": 0.04292535323064912,
+      "signed_exported_volume_m3": 0.04292535323064912,
+      "absolute_volume_delta_m3": 0.0,
+      "unit_finite_normals": true
+    }
+  ],
+  "optical_limits": [
+    "Uniform core PBR approximations, not the procedural Cycles shaders.",
+    "Opaque amber liquid preserves geometry but does not refract, transmit, absorb light volumetrically or show the submerged cup floor.",
+    "Satin metal needs sky radiance/reflection lighting; ambient diffuse light alone is insufficient.",
+    "No tile wall, apron, lamps, camera or original generated concept is included."
+  ]
+}
