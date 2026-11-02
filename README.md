@@ -19,13 +19,14 @@ Source, editable scenes, and preview evidence are kept together so each project 
 | **Seeded Roadscapes** — twelve terrains, three postcards | [Generator / bounded checks](seeded-roadscapes/README.md) · [triptych](seeded-roadscapes/postcard_triptych.png) | Blender **4.3.2**; NumPy/SciPy for fitting, Matplotlib for layout. Fixed planar road, genuinely seeded terrain; three rendered/BVH-tested cases, not twelve native builds. |
 | **A Place to Pause** — human-scale roadside artwork | [Art direction / limits](a-place-to-pause/README.md) · [still](a-place-to-pause/a_place_to_pause.png) | Blender **4.3.2**; stored seed1107 profile, no SciPy needed. Separate bench pad and revised lighting; virtual geometry checks, not public-bench or road safety certification. |
 | **Folded Path** — hinged-paper kinetic artwork | [Source / kinematic limits](folded-path/README.md) · [still](folded-path/folded_path.png) · [loop](folded-path/folded_path.mp4) | Blender **4.3+**, FFmpeg for encoding. Six zero-thickness rigid patches with keyed hinges; not a welded sheet, real-paper simulation or fabrication proof. |
+| **Glass Refuge** — generated concept reference, reconstruction pending | [Concept-stage status](glass-refuge/README.md) · [reference](glass-refuge/reference/gpt_image_concept.png) | PNG and exact GPT Image prompt only in this checkpoint; no completed Blender model or construction claims. |
 
 ## Scope and limits
 
 - The game is a **new reconstruction from surviving V7 source**, not recovered V37 code or historical test results. Its current controls include WASD movement, mouse/arrow-key look, Space pause/help, and contextual E interactions. Audio generation was checked, but perceptual audition was unavailable on the test machine's dummy audio driver. Software-renderer performance is not a hardware performance guarantee.
 - Rain Clock and Garden of Light are virtual art, not validated products. The CAD studies establish only their stated nominal or sampled geometry; retention, tolerances, strength and manufacturability remain unvalidated. Read individual caveats before interpreting a diagram as a design recommendation.
 - Filter measurements test a non-refracting **RGB shader model**, not spectral transmission or actual glass. Display PNG values are not the linear EXR measurement data.
-- Original art is procedural. The game also includes third-party city assets and a font; their provenance and license texts remain in `after-the-rain/assets/city/licenses/` and `after-the-rain/assets/fonts/`. This index does **not** assign one blanket license to the repository.
+- Most artwork here is procedural; the Glass Refuge concept reference is explicitly GPT Image-generated. The game also includes third-party city assets and a font; their provenance and license texts remain in `after-the-rain/assets/city/licenses/` and `after-the-rain/assets/fonts/`. This index does **not** assign one blanket license to the repository.
 
 ## Check a downloaded copy without engines or credentials
 

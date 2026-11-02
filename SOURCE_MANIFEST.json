@@ -14,8 +14,8 @@
     },
     {
       "path": "README.md",
-      "size": 8113,
-      "sha256": "ad6f2eba5e7b2c5a8095b5dab08409c27743dd3ab0ab17ddbc2dcf68cbe9de78"
+      "size": 8484,
+      "sha256": "4bd9f03066cf43e48d657e6cdfa0ef6ba8f7d52fada5d4a0fb6c456c1c410f12"
     },
     {
       "path": "a-place-to-pause/.gitignore",
@@ -2371,6 +2371,21 @@
       "path": "garden-of-light/verify.py",
       "size": 1920,
       "sha256": "35fad6873879cb5461b25edf55b31fa991d110cd6d975bf1647ea9f9100107ec"
+    },
+    {
+      "path": "glass-refuge/README.md",
+      "size": 1105,
+      "sha256": "0fee2c0185d91f8106686bd8b605fdc815430ce42b65a83870e66d1da08c0c7f"
+    },
+    {
+      "path": "glass-refuge/reference/concept_prompt.txt",
+      "size": 1500,
+      "sha256": "c94fc1945c051bc306b9993891ba9b3c8321bb0d6c8f61a3448631c3cb230897"
+    },
+    {
+      "path": "glass-refuge/reference/gpt_image_concept.png",
+      "size": 2725070,
+      "sha256": "beb229e38ef13c8d91a11549d785cfe26c586ffd109d962bc012db6bb825c1d6"
     },
     {
       "path": "quiet-road-profile-study/.gitignore",
