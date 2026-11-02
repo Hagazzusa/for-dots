@@ -4409,8 +4409,8 @@
     },
     {
       "path": "tools/README.md",
-      "size": 5635,
-      "sha256": "e87604c64325628fc7b3c73131551bcb22555b49f274c6e10c4b7d70676768df"
+      "size": 11173,
+      "sha256": "79fe64bbdb11e5d3a85206bbe765aa617bec9a6a4ae3480174251df179064ac5"
     },
     {
       "path": "tools/check_public_assets.py",
@@ -4418,9 +4418,19 @@
       "sha256": "bb3eed32774513e1265baa5242ec7cf59ec9bb419826d75f721fd542c1f914fe"
     },
     {
+      "path": "tools/freeze_allowlist.py",
+      "size": 7582,
+      "sha256": "703d2505c8cf5c003a1ef1acd4f295e5adc19fbcc949b3a77e70f4ac974c6c50"
+    },
+    {
       "path": "tools/test_check_public_assets.py",
       "size": 10668,
       "sha256": "f5cc05dc02a96b2832ee53e0ce0c6e18d82bef008ea8d32f95b83cc8a3a58afa"
+    },
+    {
+      "path": "tools/test_freeze_allowlist.py",
+      "size": 8684,
+      "sha256": "50628d4b962dd0de8bf61279111261bdd9fa165c6cf701ffba00cc9f1dff4fc2"
     },
     {
       "path": "verify_sources.py",
