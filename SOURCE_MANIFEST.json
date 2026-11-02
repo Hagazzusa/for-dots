@@ -3498,6 +3498,41 @@
       "sha256": "c97813b58abec48ad200577cd1ba720633c30675e5a953e22e0ba7d3caf476b2"
     },
     {
+      "path": "second-cup-film/.gitignore",
+      "size": 28,
+      "sha256": "bffe549d693d724fabad5e0625fbae1a220be39e7bb2c9eee664521f9b4a50d8"
+    },
+    {
+      "path": "second-cup-film/README.md",
+      "size": 5551,
+      "sha256": "86ece7a5d8a54e153c6af9682e4e30baccf9ede58fb49629182e5f903f71480b"
+    },
+    {
+      "path": "second-cup-film/audit_film.py",
+      "size": 4677,
+      "sha256": "7eb67b07b8e76a8d43fb3bea1eefff85d057e09f5503e12fbfebe5d3c1a426c9"
+    },
+    {
+      "path": "second-cup-film/rebuild_film.py",
+      "size": 7248,
+      "sha256": "f2dbf7544d185c36542ae02ad2be302bda01a7fd09efea500e2a43d6ba80d30c"
+    },
+    {
+      "path": "second-cup-film/render_frames.py",
+      "size": 3731,
+      "sha256": "89bc3e2a4733208e8e9d628850802d73d409d0bd18e416ec7826309cc05303db"
+    },
+    {
+      "path": "second-cup-film/scene_fingerprint.py",
+      "size": 3742,
+      "sha256": "c6d0f6ee55bd7cee805da8e53df88125d705633adc67747d7437776e6ee4e26c"
+    },
+    {
+      "path": "second-cup-film/source_manifest.json",
+      "size": 1022,
+      "sha256": "9768daeba271bd2afd88fef5fceb65b8050c7f6beff95a10f34dd4f2c35858ae"
+    },
+    {
       "path": "second-cup-viewer/.gitignore",
       "size": 42,
       "sha256": "d4536762a1b009d40ae4c64f3e14555ccf72363c7037c409cddd123349725663"

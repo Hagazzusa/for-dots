@@ -1,0 +1,36 @@
+{
+  "status": "source-only WIP; film incomplete",
+  "files_excluding_manifest": 6,
+  "files": [
+    {
+      "path": ".gitignore",
+      "size_bytes": 28,
+      "sha256": "bffe549d693d724fabad5e0625fbae1a220be39e7bb2c9eee664521f9b4a50d8"
+    },
+    {
+      "path": "README.md",
+      "size_bytes": 5551,
+      "sha256": "86ece7a5d8a54e153c6af9682e4e30baccf9ede58fb49629182e5f903f71480b"
+    },
+    {
+      "path": "rebuild_film.py",
+      "size_bytes": 7248,
+      "sha256": "f2dbf7544d185c36542ae02ad2be302bda01a7fd09efea500e2a43d6ba80d30c"
+    },
+    {
+      "path": "scene_fingerprint.py",
+      "size_bytes": 3742,
+      "sha256": "c6d0f6ee55bd7cee805da8e53df88125d705633adc67747d7437776e6ee4e26c"
+    },
+    {
+      "path": "audit_film.py",
+      "size_bytes": 4677,
+      "sha256": "7eb67b07b8e76a8d43fb3bea1eefff85d057e09f5503e12fbfebe5d3c1a426c9"
+    },
+    {
+      "path": "render_frames.py",
+      "size_bytes": 3731,
+      "sha256": "89bc3e2a4733208e8e9d628850802d73d409d0bd18e416ec7826309cc05303db"
+    }
+  ]
+}
