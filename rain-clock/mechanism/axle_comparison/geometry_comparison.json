@@ -1,0 +1,102 @@
+{
+  "parts": 71,
+  "all_solids_valid": true,
+  "exact_support_window_tests": 680,
+  "sampled_angles_each_ring": 17,
+  "window_intersections": [],
+  "minimum_tested_support_window_distance_mm": 1.663706942647707,
+  "minimum_pair": "Outer_forward_bridge_1/Fixed_shelter",
+  "visibility_samples": [
+    {
+      "ring": "Outer",
+      "view": "Front",
+      "sample_type": "hub_surface",
+      "hidden_points": 144,
+      "points": 144,
+      "caveat": "Nominal zero-angle pose; sampled-point count, NOT projected area; window bounding boxes only"
+    },
+    {
+      "ring": "Outer",
+      "view": "Front",
+      "sample_type": "spoke_centerlines",
+      "hidden_points": 96,
+      "points": 102,
+      "caveat": "Nominal zero-angle pose; sampled-point count, NOT projected area; window bounding boxes only"
+    },
+    {
+      "ring": "Outer",
+      "view": "Three_quarter",
+      "sample_type": "hub_surface",
+      "hidden_points": 127,
+      "points": 144,
+      "caveat": "Nominal zero-angle pose; sampled-point count, NOT projected area; window bounding boxes only"
+    },
+    {
+      "ring": "Outer",
+      "view": "Three_quarter",
+      "sample_type": "spoke_centerlines",
+      "hidden_points": 102,
+      "points": 102,
+      "caveat": "Nominal zero-angle pose; sampled-point count, NOT projected area; window bounding boxes only"
+    },
+    {
+      "ring": "Inner",
+      "view": "Front",
+      "sample_type": "hub_surface",
+      "hidden_points": 144,
+      "points": 144,
+      "caveat": "Nominal zero-angle pose; sampled-point count, NOT projected area; window bounding boxes only"
+    },
+    {
+      "ring": "Inner",
+      "view": "Front",
+      "sample_type": "spoke_centerlines",
+      "hidden_points": 72,
+      "points": 102,
+      "caveat": "Nominal zero-angle pose; sampled-point count, NOT projected area; window bounding boxes only"
+    },
+    {
+      "ring": "Inner",
+      "view": "Three_quarter",
+      "sample_type": "hub_surface",
+      "hidden_points": 88,
+      "points": 144,
+      "caveat": "Nominal zero-angle pose; sampled-point count, NOT projected area; window bounding boxes only"
+    },
+    {
+      "ring": "Inner",
+      "view": "Three_quarter",
+      "sample_type": "spoke_centerlines",
+      "hidden_points": 77,
+      "points": 102,
+      "caveat": "Nominal zero-angle pose; sampled-point count, NOT projected area; window bounding boxes only"
+    }
+  ],
+  "dimensions": {
+    "hub_centers_Y_mm": [
+      47,
+      64
+    ],
+    "hub_outer_radius_mm": 10,
+    "shaft_radius_envelope_mm": 3,
+    "outer_spoke_halfangle_deg": 3,
+    "inner_spoke_halfangle_deg": 45,
+    "forward_bridge_lengths_mm": [
+      97,
+      144
+    ],
+    "base_depth_mm": 220
+  },
+  "limits": "No bearings selected; gaps are geometric placeholders, not fits. Spoke/shaft stiffness, axial retention fastening, drag, force, torque, assembly access and full cross-part sweep unvalidated. Front hubs are hidden, but quarter-view visibility is checked rather than assumed.",
+  "preview_validation": {
+    "front": "Visually reviewed: hubs hidden, short inner diagonals visible",
+    "quarter": "Visually reviewed: inner hub cap and long braces visible",
+    "render_wall_seconds": 20.69,
+    "cpu_threads": 2
+  },
+  "component_lever_arms_mm": {
+    "outer_bead_plane_to_hub": 111,
+    "inner_bead_plane_to_hub": 158,
+    "caveat": "Component offsets only, not assembly COM or load rating"
+  }
+}

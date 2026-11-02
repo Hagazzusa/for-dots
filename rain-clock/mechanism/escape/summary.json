@@ -1,0 +1,57 @@
+{
+  "conclusion": "Inconclusive: no extraction endpoint found in either explored sampled component. Not proof against escape.",
+  "results": [
+    {
+      "mode": "translation_following_approx",
+      "outcome": "inconclusive_no_endpoint_in_reachable_sampled_component",
+      "seconds": 85.79570496399901,
+      "unique_grid_poses_tested": 250,
+      "reachable_grid_poses": 72,
+      "checked_edge_midpoints": 71,
+      "collision_poses": 160,
+      "uncertain_poses": 0,
+      "travel_limited_poses": 18
+    },
+    {
+      "mode": "outward_stuck",
+      "outcome": "inconclusive_no_endpoint_in_reachable_sampled_component",
+      "seconds": 127.9160630059996,
+      "unique_grid_poses_tested": 332,
+      "reachable_grid_poses": 142,
+      "checked_edge_midpoints": 141,
+      "collision_poses": 190,
+      "uncertain_poses": 0,
+      "travel_limited_poses": 0
+    }
+  ],
+  "reachable_ranges": {
+    "translation_following_approx": {
+      "axial_Y_mm": [
+        -0.2,
+        0.2
+      ],
+      "lift_Z_mm": [
+        0.0,
+        1.75
+      ],
+      "pitch_X_deg": [
+        0.0,
+        0.0
+      ]
+    },
+    "outward_stuck": {
+      "axial_Y_mm": [
+        -0.2,
+        0.2
+      ],
+      "lift_Z_mm": [
+        0.0,
+        1.75
+      ],
+      "pitch_X_deg": [
+        -0.1,
+        0.1
+      ]
+    }
+  }
+}

@@ -1,0 +1,189 @@
+{
+  "schema_version": 1,
+  "scope": "Only newly completed study/index/consolidation files; existing published art, nominal mechanism, sensitivity and cartridge files are excluded. Full local archive validation report/manifest are not a claim about remote bytes.",
+  "remote_action": "No remote changes are performed by this local preparation script.",
+  "files": [
+    {
+      "path": "mechanism/escape/search_escape.py",
+      "size_bytes": 7353,
+      "sha256": "33f1e5eda2d313411e4b7a03454326855bbf917f1dc4e14432b6666f9a02a60b",
+      "source_sha256": "33f1e5eda2d313411e4b7a03454326855bbf917f1dc4e14432b6666f9a02a60b",
+      "transformation": "byte-identical"
+    },
+    {
+      "path": "mechanism/escape/plot_results.py",
+      "size_bytes": 3277,
+      "sha256": "86342547ec197b221620c7d8fcd82a48775f84af612e30d6add394f59d84ef38",
+      "source_sha256": "86342547ec197b221620c7d8fcd82a48775f84af612e30d6add394f59d84ef38",
+      "transformation": "byte-identical"
+    },
+    {
+      "path": "mechanism/escape/README.md",
+      "size_bytes": 7352,
+      "sha256": "2c01152c7bab118b2096599b822a12226df0a13aa976f7cd2e199f1573dc0dc2",
+      "source_sha256": "2c01152c7bab118b2096599b822a12226df0a13aa976f7cd2e199f1573dc0dc2",
+      "transformation": "byte-identical"
+    },
+    {
+      "path": "mechanism/escape/results.json",
+      "size_bytes": 113507,
+      "sha256": "f0297dab6e2cd171096e30caadada5812e2af47cdd1fac9a51b5a42b4ba2b99b",
+      "source_sha256": "f0297dab6e2cd171096e30caadada5812e2af47cdd1fac9a51b5a42b4ba2b99b",
+      "transformation": "byte-identical"
+    },
+    {
+      "path": "mechanism/escape/summary.json",
+      "size_bytes": 1317,
+      "sha256": "56e0b7e826ae94e83a386b44c0f6d1c2d1c4858a6c7ffbf4208bfa79fadaca6c",
+      "source_sha256": "56e0b7e826ae94e83a386b44c0f6d1c2d1c4858a6c7ffbf4208bfa79fadaca6c",
+      "transformation": "byte-identical"
+    },
+    {
+      "path": "mechanism/escape/escape_search_solids.FCStd",
+      "size_bytes": 122077,
+      "sha256": "e2770f8444ff0d33b7228eb25161a9752c95838f124f5fd87cd8980be6144c6b",
+      "source_sha256": "e2770f8444ff0d33b7228eb25161a9752c95838f124f5fd87cd8980be6144c6b",
+      "transformation": "byte-identical"
+    },
+    {
+      "path": "mechanism/escape/reachable_components.png",
+      "size_bytes": 147776,
+      "sha256": "471fccaaf8d7df8878faa1b52c449b4cbe5b0d51564abe454c83d8fd63b6925d",
+      "source_sha256": "471fccaaf8d7df8878faa1b52c449b4cbe5b0d51564abe454c83d8fd63b6925d",
+      "transformation": "byte-identical"
+    },
+    {
+      "path": "mechanism/escape/reachable_components.svg",
+      "size_bytes": 110954,
+      "sha256": "1ecc5055bedfa02ba342e4ec6ef2ca9f0b3c863518f40136fc277bb1ce80e44d",
+      "source_sha256": "1ecc5055bedfa02ba342e4ec6ef2ca9f0b3c863518f40136fc277bb1ce80e44d",
+      "transformation": "byte-identical"
+    },
+    {
+      "path": "mechanism/axle_comparison/build_alternative.py",
+      "size_bytes": 5472,
+      "sha256": "e8803fc02e67adfbcea63a68a23dd3eb9ece97a8ce83773f03fe920a24145af4",
+      "source_sha256": "e8803fc02e67adfbcea63a68a23dd3eb9ece97a8ce83773f03fe920a24145af4",
+      "transformation": "byte-identical"
+    },
+    {
+      "path": "mechanism/axle_comparison/render_views.py",
+      "size_bytes": 2229,
+      "sha256": "fef46616d4ae07ce6bb1dcf006a47c5c5fa35017133406d1246b53cc780b8eef",
+      "source_sha256": "fef46616d4ae07ce6bb1dcf006a47c5c5fa35017133406d1246b53cc780b8eef",
+      "transformation": "byte-identical"
+    },
+    {
+      "path": "mechanism/axle_comparison/README.md",
+      "size_bytes": 6198,
+      "sha256": "7caa4f60b7d8702922762d03b2eaa760b7304d44a8340c5bdfe33175bd1c033b",
+      "source_sha256": "7caa4f60b7d8702922762d03b2eaa760b7304d44a8340c5bdfe33175bd1c033b",
+      "transformation": "byte-identical"
+    },
+    {
+      "path": "mechanism/axle_comparison/geometry_comparison.json",
+      "size_bytes": 3401,
+      "sha256": "e578240a0195e4f8d692b8a69d41f192974c61b96afd1be0faf922e973a9dd38",
+      "source_sha256": "e578240a0195e4f8d692b8a69d41f192974c61b96afd1be0faf922e973a9dd38",
+      "transformation": "byte-identical"
+    },
+    {
+      "path": "mechanism/axle_comparison/rear_axle_alternative.FCStd",
+      "size_bytes": 74448,
+      "sha256": "85496d14ad7dc80739bc33602be2a77e6136fddcfd4d7e72cd7d3b4aefe745f2",
+      "source_sha256": "85496d14ad7dc80739bc33602be2a77e6136fddcfd4d7e72cd7d3b4aefe745f2",
+      "transformation": "byte-identical"
+    },
+    {
+      "path": "mechanism/axle_comparison/rear_axle_front.png",
+      "size_bytes": 715887,
+      "sha256": "d7eb7e5733e3260ed229db366995d3ba539ee55a3ac952947b2ece1a4c268a44",
+      "source_sha256": "d7eb7e5733e3260ed229db366995d3ba539ee55a3ac952947b2ece1a4c268a44",
+      "transformation": "byte-identical"
+    },
+    {
+      "path": "mechanism/axle_comparison/rear_axle_quarter.png",
+      "size_bytes": 1225806,
+      "sha256": "d83b2f1a3b25a9902105bad09a9ed32436dd7e3fc7ee58d0094f12405aa6f9a1",
+      "source_sha256": "d83b2f1a3b25a9902105bad09a9ed32436dd7e3fc7ee58d0094f12405aa6f9a1",
+      "transformation": "byte-identical"
+    },
+    {
+      "path": "mechanism/front_facade/build_concept.py",
+      "size_bytes": 6436,
+      "sha256": "44c67a16ce06bbf01dc5afacf0f71e9a2d0005ca6adbceb864b4ae306bba1580",
+      "source_sha256": "44c67a16ce06bbf01dc5afacf0f71e9a2d0005ca6adbceb864b4ae306bba1580",
+      "transformation": "byte-identical"
+    },
+    {
+      "path": "mechanism/front_facade/render_views.py",
+      "size_bytes": 2232,
+      "sha256": "03529d043639abd2af60446c417ea2f9630fca5674d587536fe3a4532745b75c",
+      "source_sha256": "03529d043639abd2af60446c417ea2f9630fca5674d587536fe3a4532745b75c",
+      "transformation": "byte-identical"
+    },
+    {
+      "path": "mechanism/front_facade/README.md",
+      "size_bytes": 5519,
+      "sha256": "51dcd7cb60a8c4e6f47f7196806520fde48840dfbe93673107d036b7494d8e2a",
+      "source_sha256": "51dcd7cb60a8c4e6f47f7196806520fde48840dfbe93673107d036b7494d8e2a",
+      "transformation": "byte-identical"
+    },
+    {
+      "path": "mechanism/front_facade/geometry_comparison.json",
+      "size_bytes": 7199,
+      "sha256": "ec61807ce543e31074c8bfb1af5fbce239dd4db19e2f410ac457910b53510f48",
+      "source_sha256": "ec61807ce543e31074c8bfb1af5fbce239dd4db19e2f410ac457910b53510f48",
+      "transformation": "byte-identical"
+    },
+    {
+      "path": "mechanism/front_facade/front_facade_axle.FCStd",
+      "size_bytes": 75554,
+      "sha256": "8b9ed34127fc2dd43ad48fdc9ebb918e684160f6e33399ae2af667574786c681",
+      "source_sha256": "8b9ed34127fc2dd43ad48fdc9ebb918e684160f6e33399ae2af667574786c681",
+      "transformation": "byte-identical"
+    },
+    {
+      "path": "mechanism/front_facade/front_facade_front.png",
+      "size_bytes": 717563,
+      "sha256": "ca1b03c137dab5e371c8f2bca6f8860fdaf6eed8eaf20e440f7b6f0cfb5cddcf",
+      "source_sha256": "ca1b03c137dab5e371c8f2bca6f8860fdaf6eed8eaf20e440f7b6f0cfb5cddcf",
+      "transformation": "byte-identical"
+    },
+    {
+      "path": "mechanism/front_facade/front_facade_quarter.png",
+      "size_bytes": 1212302,
+      "sha256": "7aa849de41c01413c60225ad64feef970b56569e3c4780f61cab9b660fe0d29f",
+      "source_sha256": "7aa849de41c01413c60225ad64feef970b56569e3c4780f61cab9b660fe0d29f",
+      "transformation": "byte-identical"
+    },
+    {
+      "path": "STUDY_INDEX.md",
+      "size_bytes": 8112,
+      "sha256": "f0c1b9cf2169a20be920864561233d0c2282503ffa5f45b3a951b0641464ea0e",
+      "source_sha256": "759006ea2e2e7b01102fdadef305bf4a371d13adfb30c6496070be91476db5ee",
+      "transformation": "Editorial documentation cleanup; research data and model unchanged"
+    },
+    {
+      "path": "consolidation/study_catalog.json",
+      "size_bytes": 6281,
+      "sha256": "aa76820801e5ea4d53c7df30a43518763599bf2b7c5f05e06a44815f65af85d0",
+      "source_sha256": "25ca1eab76609f54641c9c4a9de998cfb6324428e0e8388f101dc9341b382f39",
+      "transformation": "Editorial documentation cleanup; research data and model unchanged"
+    },
+    {
+      "path": "consolidation/validate.py",
+      "size_bytes": 12576,
+      "sha256": "ef2ab5c93773d9f54a7e3270f7773b06078dbdc8d811815687798e48e1121b85",
+      "source_sha256": "ef2ab5c93773d9f54a7e3270f7773b06078dbdc8d811815687798e48e1121b85",
+      "transformation": "byte-identical"
+    },
+    {
+      "path": "consolidation/prepare_backup.py",
+      "size_bytes": 4392,
+      "sha256": "3e021a245f97a347b12e4599fa293f7ad1e5dde7dd304386c0dd800381f61f86",
+      "source_sha256": "dff004925f9e61b6db7b6652033b14f5dd6ad7bec5279112e012ef3942da285e",
+      "transformation": "Editorial documentation cleanup; research data and model unchanged"
+    }
+  ]
+}

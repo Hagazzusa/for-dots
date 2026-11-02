@@ -1,0 +1,176 @@
+{
+  "schema_version": 1,
+  "evidence_levels": [
+    "virtual_art",
+    "invariant_geometry",
+    "sampled_geometry",
+    "model_equilibrium",
+    "inconclusive_search",
+    "unvalidated_hardware"
+  ],
+  "studies": [
+    {
+      "id": "art",
+      "directory": ".",
+      "title": "Original virtual art",
+      "evidence": [
+        "virtual_art",
+        "unvalidated_hardware"
+      ],
+      "required": [
+        "build.py",
+        "verify.py",
+        "README.md",
+        "verification.json",
+        "rain_clock_still.png",
+        "rain_clock_loop.mp4"
+      ],
+      "optional": [
+        "rain_clock_loop.gif"
+      ]
+    },
+    {
+      "id": "rim",
+      "directory": "mechanism",
+      "title": "Nominal rim-guided concept",
+      "evidence": [
+        "invariant_geometry",
+        "sampled_geometry",
+        "unvalidated_hardware"
+      ],
+      "required": [
+        "build_mechanism.py",
+        "render_mechanism.py",
+        "README.md",
+        "geometry_checks.json",
+        "rain_clock_manual.FCStd",
+        "mechanism_preview.png",
+        "section_diagram.svg",
+        "section_diagram.png"
+      ]
+    },
+    {
+      "id": "sensitivity",
+      "directory": "mechanism/sensitivity",
+      "title": "Deterministic clearance sensitivity",
+      "evidence": [
+        "sampled_geometry",
+        "unvalidated_hardware"
+      ],
+      "required": [
+        "sweep.py",
+        "build_groove_variants.py",
+        "README.md",
+        "results.json",
+        "summary.json",
+        "groove_variants.FCStd",
+        "groove_variants.json",
+        "sensitivity_plot.png",
+        "sensitivity_plot.svg"
+      ]
+    },
+    {
+      "id": "cartridge",
+      "directory": "mechanism/cartridge",
+      "title": "Cartridge envelope and normalized load path",
+      "evidence": [
+        "model_equilibrium",
+        "sampled_geometry",
+        "unvalidated_hardware"
+      ],
+      "required": [
+        "build_cartridge.py",
+        "contact_motion.py",
+        "load_path.py",
+        "README.md",
+        "cartridge_geometry.json",
+        "contact_motion.json",
+        "load_path.json",
+        "rear_cartridge_envelope.FCStd",
+        "load_path.png",
+        "load_path.svg"
+      ]
+    },
+    {
+      "id": "escape",
+      "directory": "mechanism/escape",
+      "title": "Inconclusive bounded escape search",
+      "evidence": [
+        "inconclusive_search",
+        "sampled_geometry",
+        "unvalidated_hardware"
+      ],
+      "required": [
+        "search_escape.py",
+        "plot_results.py",
+        "README.md",
+        "results.json",
+        "summary.json",
+        "escape_search_solids.FCStd",
+        "reachable_components.png",
+        "reachable_components.svg"
+      ]
+    },
+    {
+      "id": "rear_axle",
+      "directory": "mechanism/axle_comparison",
+      "title": "Rear axle, original window placement",
+      "evidence": [
+        "sampled_geometry",
+        "unvalidated_hardware"
+      ],
+      "required": [
+        "build_alternative.py",
+        "render_views.py",
+        "README.md",
+        "geometry_comparison.json",
+        "rear_axle_alternative.FCStd",
+        "rear_axle_front.png",
+        "rear_axle_quarter.png"
+      ]
+    },
+    {
+      "id": "front_facade",
+      "directory": "mechanism/front_facade",
+      "title": "Preferred foreground-window visual concept",
+      "evidence": [
+        "sampled_geometry",
+        "unvalidated_hardware"
+      ],
+      "required": [
+        "build_concept.py",
+        "render_views.py",
+        "README.md",
+        "geometry_comparison.json",
+        "front_facade_axle.FCStd",
+        "front_facade_front.png",
+        "front_facade_quarter.png"
+      ]
+    }
+  ],
+  "consolidation_files": [
+    "STUDY_INDEX.md",
+    "consolidation/study_catalog.json",
+    "consolidation/validate.py",
+    "consolidation/prepare_backup.py"
+  ],
+  "excluded_generated_files": {
+    "rain_clock.blend": "Preserved locally; regenerable from build.py. Contains a machine-default absolute render directory.",
+    "mechanism/mechanism_preview.blend": "Preserved locally; regenerable from the CAD mesh/render scripts. Contains an absolute workspace render path."
+  },
+  "historical_status_notes": {
+    "mechanism/README.md": "Frozen creation-time snapshot from 2026-11-02; local-only wording describes the study at creation, not current repository state. See STUDY_INDEX.md for consolidated validation limits.",
+    "mechanism/sensitivity/README.md": "Frozen creation-time snapshot from 2026-11-02; local-only wording describes the study at creation, not current repository state. See STUDY_INDEX.md for consolidated validation limits.",
+    "mechanism/cartridge/README.md": "Frozen creation-time snapshot from 2026-11-02; local-only wording describes the study at creation, not current repository state. See STUDY_INDEX.md for consolidated validation limits.",
+    "mechanism/escape/README.md": "Frozen creation-time snapshot from 2026-11-02; local-only wording describes the study at creation, not current repository state. See STUDY_INDEX.md for consolidated validation limits.",
+    "mechanism/axle_comparison/README.md": "Frozen creation-time snapshot from 2026-11-02; local-only wording describes the study at creation, not current repository state. See STUDY_INDEX.md for consolidated validation limits.",
+    "mechanism/front_facade/README.md": "Frozen creation-time snapshot from 2026-11-02; local-only wording describes the study at creation, not current repository state. See STUDY_INDEX.md for consolidated validation limits."
+  },
+  "runtime_requirements": {
+    "lightweight_validation": "Python 3.10+ standard library; optional ffprobe strengthens video checks. No CAD or render required.",
+    "cad_builds": "FreeCAD Python API. Historical scripts use /usr/bin/python3 and /usr/lib/freecad/lib on this Linux host; adapt these runtime locations on another platform.",
+    "renders": "Blender 4.3.2 used here, CPU, at most two threads; local build lacks OpenImageDenoise.",
+    "numeric_plots": "NumPy, SciPy, Matplotlib. Plot scripts use a Linux /tmp cache path; this is a runtime dependency, not a project-data path."
+  },
+  "optional_generated_note": "The duplicate GIF is intentionally omitted from the public repository; full local archive includes it when available."
+}

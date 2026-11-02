@@ -1,0 +1,6059 @@
+{
+  "status": "Bounded sampled investigation; neither mode can prove absence of a continuous escape path.",
+  "solids": "4mm extruded polygon720 outer profile R143 + .25*cos(3*(theta-pi/3)), inner circle R135; guide root R9, lip R11, width10, groove4.4. OpenCascade intersections are exact for these modeled BReps subject to numeric tolerances; smooth lobed shape is approximated.",
+  "initial_pose": {
+    "center_x_mm": -1.3681305291101725e-14,
+    "center_z_mm": -0.5035798538806904,
+    "closed_follower_shift_mm": -0.7535798538806847,
+    "shape_phase_deg": 60
+  },
+  "domain": {
+    "axial_Y_mm": [
+      -8,
+      8
+    ],
+    "vertical_lift_mm": [
+      -0.5,
+      2.5
+    ],
+    "pitch_X_deg": [
+      -6,
+      6
+    ],
+    "steps": [
+      0.05,
+      0.25,
+      0.05
+    ],
+    "fixed_DOF": [
+      "horizontal X translation",
+      "roll about Z",
+      "in-plane rotation about Y / shape phase"
+    ],
+    "neighbors": "six axis-adjacent neighbors; midpoint checked for each admitted edge"
+  },
+  "tracking_assumption": "Approximate translation following: upper shift = initial closed shift + vertical lift. Pitch-dependent tracking, contact loss and forces are not solved. Hard stops +/-1mm. This is a restrictive kinematic assumption, not real follower dynamics.",
+  "stuck_assumption": "Upper follower fixed at +1mm; lower guides fixed.",
+  "collision_classification": {
+    "free_volume_at_most_mm3": 1e-09,
+    "blocked_volume_above_mm3": 1e-05,
+    "intermediate": "uncertain and excluded from reachable component"
+  },
+  "escape_endpoint": "Track Y bounds fully beyond guide flange slab by .1mm: ymax<\u22125.1 or ymin>+5.1. This is only a track-subset endpoint.",
+  "omitted": [
+    "beads/pins/tab and their collisions",
+    "posts/frame/rear carriage",
+    "elastic deformation and friction",
+    "gravity and manual force",
+    "continuous edge certification",
+    "other pose domains and coupled rotations"
+  ],
+  "results": [
+    {
+      "mode": "translation_following_approx",
+      "outcome": "inconclusive_no_endpoint_in_reachable_sampled_component",
+      "seconds": 85.79570496399901,
+      "unique_grid_poses_tested": 250,
+      "reachable_grid_poses": 72,
+      "checked_edge_midpoints": 71,
+      "collision_poses": 160,
+      "uncertain_poses": 0,
+      "travel_limited_poses": 18,
+      "reachable_poses": [
+        [
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          -0.05,
+          0.0,
+          0.0
+        ],
+        [
+          0.05,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.25,
+          0.0
+        ],
+        [
+          -0.1,
+          0.0,
+          0.0
+        ],
+        [
+          -0.05,
+          0.25,
+          0.0
+        ],
+        [
+          0.1,
+          0.0,
+          0.0
+        ],
+        [
+          0.05,
+          0.25,
+          0.0
+        ],
+        [
+          0.0,
+          0.5,
+          0.0
+        ],
+        [
+          -0.15000000000000002,
+          0.0,
+          0.0
+        ],
+        [
+          -0.1,
+          0.25,
+          0.0
+        ],
+        [
+          -0.05,
+          0.5,
+          0.0
+        ],
+        [
+          0.15000000000000002,
+          0.0,
+          0.0
+        ],
+        [
+          0.1,
+          0.25,
+          0.0
+        ],
+        [
+          0.05,
+          0.5,
+          0.0
+        ],
+        [
+          0.0,
+          0.75,
+          0.0
+        ],
+        [
+          -0.2,
+          0.0,
+          0.0
+        ],
+        [
+          -0.15000000000000002,
+          0.25,
+          0.0
+        ],
+        [
+          -0.1,
+          0.5,
+          0.0
+        ],
+        [
+          -0.05,
+          0.75,
+          0.0
+        ],
+        [
+          0.2,
+          0.0,
+          0.0
+        ],
+        [
+          0.15000000000000002,
+          0.25,
+          0.0
+        ],
+        [
+          0.1,
+          0.5,
+          0.0
+        ],
+        [
+          0.05,
+          0.75,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          -0.2,
+          0.25,
+          0.0
+        ],
+        [
+          -0.15000000000000002,
+          0.5,
+          0.0
+        ],
+        [
+          -0.1,
+          0.75,
+          0.0
+        ],
+        [
+          -0.05,
+          1.0,
+          0.0
+        ],
+        [
+          0.2,
+          0.25,
+          0.0
+        ],
+        [
+          0.15000000000000002,
+          0.5,
+          0.0
+        ],
+        [
+          0.1,
+          0.75,
+          0.0
+        ],
+        [
+          0.05,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.25,
+          0.0
+        ],
+        [
+          -0.2,
+          0.5,
+          0.0
+        ],
+        [
+          -0.15000000000000002,
+          0.75,
+          0.0
+        ],
+        [
+          -0.1,
+          1.0,
+          0.0
+        ],
+        [
+          -0.05,
+          1.25,
+          0.0
+        ],
+        [
+          0.2,
+          0.5,
+          0.0
+        ],
+        [
+          0.15000000000000002,
+          0.75,
+          0.0
+        ],
+        [
+          0.1,
+          1.0,
+          0.0
+        ],
+        [
+          0.05,
+          1.25,
+          0.0
+        ],
+        [
+          0.0,
+          1.5,
+          0.0
+        ],
+        [
+          -0.2,
+          0.75,
+          0.0
+        ],
+        [
+          -0.15000000000000002,
+          1.0,
+          0.0
+        ],
+        [
+          -0.1,
+          1.25,
+          0.0
+        ],
+        [
+          -0.05,
+          1.5,
+          0.0
+        ],
+        [
+          0.2,
+          0.75,
+          0.0
+        ],
+        [
+          0.15000000000000002,
+          1.0,
+          0.0
+        ],
+        [
+          0.1,
+          1.25,
+          0.0
+        ],
+        [
+          0.05,
+          1.5,
+          0.0
+        ],
+        [
+          0.0,
+          1.75,
+          0.0
+        ],
+        [
+          -0.2,
+          1.0,
+          0.0
+        ],
+        [
+          -0.15000000000000002,
+          1.25,
+          0.0
+        ],
+        [
+          -0.1,
+          1.5,
+          0.0
+        ],
+        [
+          -0.05,
+          1.75,
+          0.0
+        ],
+        [
+          0.2,
+          1.0,
+          0.0
+        ],
+        [
+          0.15000000000000002,
+          1.25,
+          0.0
+        ],
+        [
+          0.1,
+          1.5,
+          0.0
+        ],
+        [
+          0.05,
+          1.75,
+          0.0
+        ],
+        [
+          -0.2,
+          1.25,
+          0.0
+        ],
+        [
+          -0.15000000000000002,
+          1.5,
+          0.0
+        ],
+        [
+          -0.1,
+          1.75,
+          0.0
+        ],
+        [
+          0.2,
+          1.25,
+          0.0
+        ],
+        [
+          0.15000000000000002,
+          1.5,
+          0.0
+        ],
+        [
+          0.1,
+          1.75,
+          0.0
+        ],
+        [
+          -0.2,
+          1.5,
+          0.0
+        ],
+        [
+          -0.15000000000000002,
+          1.75,
+          0.0
+        ],
+        [
+          0.2,
+          1.5,
+          0.0
+        ],
+        [
+          0.15000000000000002,
+          1.75,
+          0.0
+        ],
+        [
+          -0.2,
+          1.75,
+          0.0
+        ],
+        [
+          0.2,
+          1.75,
+          0.0
+        ]
+      ],
+      "sampled_path": [],
+      "blocked_poses": [
+        {
+          "index": [
+            0,
+            0,
+            -1
+          ],
+          "pose": [
+            0.0,
+            0.0,
+            -0.05
+          ],
+          "status": "collision",
+          "intersection_mm3": 0.0002085811640129138
+        },
+        {
+          "index": [
+            0,
+            0,
+            1
+          ],
+          "pose": [
+            0.0,
+            0.0,
+            0.05
+          ],
+          "status": "collision",
+          "intersection_mm3": 0.00020858116400293631
+        },
+        {
+          "index": [
+            -1,
+            0,
+            -1
+          ],
+          "pose": [
+            -0.05,
+            0.0,
+            -0.05
+          ],
+          "status": "collision",
+          "intersection_mm3": 0.00020858116401052714
+        },
+        {
+          "index": [
+            -1,
+            0,
+            1
+          ],
+          "pose": [
+            -0.05,
+            0.0,
+            0.05
+          ],
+          "status": "collision",
+          "intersection_mm3": 0.00020858116400256045
+        },
+        {
+          "index": [
+            1,
+            0,
+            -1
+          ],
+          "pose": [
+            0.05,
+            0.0,
+            -0.05
+          ],
+          "status": "collision",
+          "intersection_mm3": 0.00020858116401210538
+        },
+        {
+          "index": [
+            1,
+            0,
+            1
+          ],
+          "pose": [
+            0.05,
+            0.0,
+            0.05
+          ],
+          "status": "collision",
+          "intersection_mm3": 0.00020858116400078165
+        },
+        {
+          "index": [
+            0,
+            1,
+            -1
+          ],
+          "pose": [
+            0.0,
+            0.25,
+            -0.05
+          ],
+          "status": "collision",
+          "intersection_mm3": 0.0002085811640129138
+        },
+        {
+          "index": [
+            0,
+            1,
+            1
+          ],
+          "pose": [
+            0.0,
+            0.25,
+            0.05
+          ],
+          "status": "collision",
+          "intersection_mm3": 0.0002085811640033317
+        },
+        {
+          "index": [
+            -2,
+            0,
+            -1
+          ],
+          "pose": [
+            -0.1,
+            0.0,
+            -0.05
+          ],
+          "status": "collision",
+          "intersection_mm3": 0.0002085811640113247
+        },
+        {
+          "index": [
+            -2,
+            0,
+            1
+          ],
+          "pose": [
+            -0.1,
+            0.0,
+            0.05
+          ],
+          "status": "collision",
+          "intersection_mm3": 0.39627713157432587
+        },
+        {
+          "index": [
+            -1,
+            1,
+            -1
+          ],
+          "pose": [
+            -0.05,
+            0.25,
+            -0.05
+          ],
+          "status": "collision",
+          "intersection_mm3": 0.00020858116401052714
+        },
+        {
+          "index": [
+            -1,
+            1,
+            1
+          ],
+          "pose": [
+            -0.05,
+            0.25,
+            0.05
+          ],
+          "status": "collision",
+          "intersection_mm3": 0.0002085811640031125
+        },
+        {
+          "index": [
+            2,
+            0,
+            -1
+          ],
+          "pose": [
+            0.1,
+            0.0,
+            -0.05
+          ],
+          "status": "collision",
+          "intersection_mm3": 0.3962771315761797
+        },
+        {
+          "index": [
+            2,
+            0,
+            1
+          ],
+          "pose": [
+            0.1,
+            0.0,
+            0.05
+          ],
+          "status": "collision",
+          "intersection_mm3": 0.00020858116400186707
+        },
+        {
+          "index": [
+            1,
+            1,
+            -1
+          ],
+          "pose": [
+            0.05,
+            0.25,
+            -0.05
+          ],
+          "status": "collision",
+          "intersection_mm3": 0.00020858116401210538
+        },
+        {
+          "index": [
+            1,
+            1,
+            1
+          ],
+          "pose": [
+            0.05,
+            0.25,
+            0.05
+          ],
+          "status": "collision",
+          "intersection_mm3": 0.00020858116400154005
+        },
+        {
+          "index": [
+            0,
+            2,
+            -1
+          ],
+          "pose": [
+            0.0,
+            0.5,
+            -0.05
+          ],
+          "status": "collision",
+          "intersection_mm3": 0.0002085811640131459
+        },
+        {
+          "index": [
+            0,
+            2,
+            1
+          ],
+          "pose": [
+            0.0,
+            0.5,
+            0.05
+          ],
+          "status": "collision",
+          "intersection_mm3": 0.0002085811640035819
+        },
+        {
+          "index": [
+            -3,
+            0,
+            -1
+          ],
+          "pose": [
+            -0.15000000000000002,
+            0.0,
+            -0.05
+          ],
+          "status": "collision",
+          "intersection_mm3": 0.0002085811640118499
+        },
+        {
+          "index": [
+            -3,
+            0,
+            1
+          ],
+          "pose": [
+            -0.15000000000000002,
+            0.0,
+            0.05
+          ],
+          "status": "collision",
+          "intersection_mm3": 1.226766201781024
+        },
+        {
+          "index": [
+            -2,
+            1,
+            -1
+          ],
+          "pose": [
+            -0.1,
+            0.25,
+            -0.05
+          ],
+          "status": "collision",
+          "intersection_mm3": 0.00020858116401132465
+        },
+        {
+          "index": [
+            -2,
+            1,
+            1
+          ],
+          "pose": [
+            -0.1,
+            0.25,
+            0.05
+          ],
+          "status": "collision",
+          "intersection_mm3": 0.3962771315715366
+        },
+        {
+          "index": [
+            -1,
+            2,
+            -1
+          ],
+          "pose": [
+            -0.05,
+            0.5,
+            -0.05
+          ],
+          "status": "collision",
+          "intersection_mm3": 0.00020858116401090124
+        },
+        {
+          "index": [
+            -1,
+            2,
+            1
+          ],
+          "pose": [
+            -0.05,
+            0.5,
+            0.05
+          ],
+          "status": "collision",
+          "intersection_mm3": 0.0002085811640034842
+        },
+        {
+          "index": [
+            3,
+            0,
+            -1
+          ],
+          "pose": [
+            0.15000000000000002,
+            0.0,
+            -0.05
+          ],
+          "status": "collision",
+          "intersection_mm3": 1.2267662018383223
+        },
+        {
+          "index": [
+            3,
+            0,
+            1
+          ],
+          "pose": [
+            0.15000000000000002,
+            0.0,
+            0.05
+          ],
+          "status": "collision",
+          "intersection_mm3": 0.0002085811640021129
+        },
+        {
+          "index": [
+            2,
+            1,
+            -1
+          ],
+          "pose": [
+            0.1,
+            0.25,
+            -0.05
+          ],
+          "status": "collision",
+          "intersection_mm3": 0.3962771315761428
+        },
+        {
+          "index": [
+            2,
+            1,
+            1
+          ],
+          "pose": [
+            0.1,
+            0.25,
+            0.05
+          ],
+          "status": "collision",
+          "intersection_mm3": 0.00020858116400240308
+        },
+        {
+          "index": [
+            1,
+            2,
+            -1
+          ],
+          "pose": [
+            0.05,
+            0.5,
+            -0.05
+          ],
+          "status": "collision",
+          "intersection_mm3": 0.0002085811640123011
+        },
+        {
+          "index": [
+            1,
+            2,
+            1
+          ],
+          "pose": [
+            0.05,
+            0.5,
+            0.05
+          ],
+          "status": "collision",
+          "intersection_mm3": 0.00020858116400185078
+        },
+        {
+          "index": [
+            0,
+            3,
+            -1
+          ],
+          "pose": [
+            0.0,
+            0.75,
+            -0.05
+          ],
+          "status": "collision",
+          "intersection_mm3": 0.0002085811640073261
+        },
+        {
+          "index": [
+            0,
+            3,
+            1
+          ],
+          "pose": [
+            0.0,
+            0.75,
+            0.05
+          ],
+          "status": "collision",
+          "intersection_mm3": 0.0002085811640008726
+        },
+        {
+          "index": [
+            -5,
+            0,
+            0
+          ],
+          "pose": [
+            -0.25,
+            0.0,
+            0.0
+          ],
+          "status": "collision",
+          "intersection_mm3": 0.8315664509739966
+        },
+        {
+          "index": [
+            -4,
+            0,
+            -1
+          ],
+          "pose": [
+            -0.2,
+            0.0,
+            -0.05
+          ],
+          "status": "collision",
+          "intersection_mm3": 0.00020858116401259384
+        },
+        {
+          "index": [
+            -4,
+            0,
+            1
+          ],
+          "pose": [
+            -0.2,
+            0.0,
+            0.05
+          ],
+          "status": "collision",
+          "intersection_mm3": 2.057282030867832
+        },
+        {
+          "index": [
+            -3,
+            1,
+            -1
+          ],
+          "pose": [
+            -0.15000000000000002,
+            0.25,
+            -0.05
+          ],
+          "status": "collision",
+          "intersection_mm3": 0.00020858116401184984
+        },
+        {
+          "index": [
+            -3,
+            1,
+            1
+          ],
+          "pose": [
+            -0.15000000000000002,
+            0.25,
+            0.05
+          ],
+          "status": "collision",
+          "intersection_mm3": 1.2267662018005838
+        },
+        {
+          "index": [
+            -2,
+            2,
+            -1
+          ],
+          "pose": [
+            -0.1,
+            0.5,
+            -0.05
+          ],
+          "status": "collision",
+          "intersection_mm3": 0.00020858116401164931
+        },
+        {
+          "index": [
+            -2,
+            2,
+            1
+          ],
+          "pose": [
+            -0.1,
+            0.5,
+            0.05
+          ],
+          "status": "collision",
+          "intersection_mm3": 0.3962771315707957
+        },
+        {
+          "index": [
+            -1,
+            3,
+            -1
+          ],
+          "pose": [
+            -0.05,
+            0.75,
+            -0.05
+          ],
+          "status": "collision",
+          "intersection_mm3": 0.0002085811640047515
+        },
+        {
+          "index": [
+            -1,
+            3,
+            1
+          ],
+          "pose": [
+            -0.05,
+            0.75,
+            0.05
+          ],
+          "status": "collision",
+          "intersection_mm3": 0.00020858116399967354
+        },
+        {
+          "index": [
+            5,
+            0,
+            0
+          ],
+          "pose": [
+            0.25,
+            0.0,
+            0.0
+          ],
+          "status": "collision",
+          "intersection_mm3": 0.8315664509739967
+        },
+        {
+          "index": [
+            4,
+            0,
+            -1
+          ],
+          "pose": [
+            0.2,
+            0.0,
+            -0.05
+          ],
+          "status": "collision",
+          "intersection_mm3": 2.057282030917557
+        },
+        {
+          "index": [
+            4,
+            0,
+            1
+          ],
+          "pose": [
+            0.2,
+            0.0,
+            0.05
+          ],
+          "status": "collision",
+          "intersection_mm3": 0.00020858116400303714
+        },
+        {
+          "index": [
+            3,
+            1,
+            -1
+          ],
+          "pose": [
+            0.15000000000000002,
+            0.25,
+            -0.05
+          ],
+          "status": "collision",
+          "intersection_mm3": 1.2267662018380916
+        },
+        {
+          "index": [
+            3,
+            1,
+            1
+          ],
+          "pose": [
+            0.15000000000000002,
+            0.25,
+            0.05
+          ],
+          "status": "collision",
+          "intersection_mm3": 0.00020858116400276878
+        },
+        {
+          "index": [
+            2,
+            2,
+            -1
+          ],
+          "pose": [
+            0.1,
+            0.5,
+            -0.05
+          ],
+          "status": "collision",
+          "intersection_mm3": 0.39627713157622185
+        },
+        {
+          "index": [
+            2,
+            2,
+            1
+          ],
+          "pose": [
+            0.1,
+            0.5,
+            0.05
+          ],
+          "status": "collision",
+          "intersection_mm3": 0.00020858116400276623
+        },
+        {
+          "index": [
+            1,
+            3,
+            -1
+          ],
+          "pose": [
+            0.05,
+            0.75,
+            -0.05
+          ],
+          "status": "collision",
+          "intersection_mm3": 0.0002085811640064782
+        },
+        {
+          "index": [
+            1,
+            3,
+            1
+          ],
+          "pose": [
+            0.05,
+            0.75,
+            0.05
+          ],
+          "status": "collision",
+          "intersection_mm3": 0.00020858116399818764
+        },
+        {
+          "index": [
+            0,
+            4,
+            -1
+          ],
+          "pose": [
+            0.0,
+            1.0,
+            -0.05
+          ],
+          "status": "collision",
+          "intersection_mm3": 0.0002085811640129138
+        },
+        {
+          "index": [
+            0,
+            4,
+            1
+          ],
+          "pose": [
+            0.0,
+            1.0,
+            0.05
+          ],
+          "status": "collision",
+          "intersection_mm3": 0.0002085811640033233
+        },
+        {
+          "index": [
+            -5,
+            1,
+            0
+          ],
+          "pose": [
+            -0.25,
+            0.25,
+            0.0
+          ],
+          "status": "collision",
+          "intersection_mm3": 0.8315664509739966
+        },
+        {
+          "index": [
+            -4,
+            1,
+            -1
+          ],
+          "pose": [
+            -0.2,
+            0.25,
+            -0.05
+          ],
+          "status": "collision",
+          "intersection_mm3": 0.0002085811640125939
+        },
+        {
+          "index": [
+            -4,
+            1,
+            1
+          ],
+          "pose": [
+            -0.2,
+            0.25,
+            0.05
+          ],
+          "status": "collision",
+          "intersection_mm3": 2.0572820308673654
+        },
+        {
+          "index": [
+            -3,
+            2,
+            -1
+          ],
+          "pose": [
+            -0.15000000000000002,
+            0.5,
+            -0.05
+          ],
+          "status": "collision",
+          "intersection_mm3": 0.0002085811640122446
+        },
+        {
+          "index": [
+            -3,
+            2,
+            1
+          ],
+          "pose": [
+            -0.15000000000000002,
+            0.5,
+            0.05
+          ],
+          "status": "collision",
+          "intersection_mm3": 1.2267662018126126
+        },
+        {
+          "index": [
+            -2,
+            3,
+            -1
+          ],
+          "pose": [
+            -0.1,
+            0.75,
+            -0.05
+          ],
+          "status": "collision",
+          "intersection_mm3": 0.00020858116400586358
+        },
+        {
+          "index": [
+            -2,
+            3,
+            1
+          ],
+          "pose": [
+            -0.1,
+            0.75,
+            0.05
+          ],
+          "status": "collision",
+          "intersection_mm3": 0.39627713157354777
+        },
+        {
+          "index": [
+            -1,
+            4,
+            -1
+          ],
+          "pose": [
+            -0.05,
+            1.0,
+            -0.05
+          ],
+          "status": "collision",
+          "intersection_mm3": 0.00020858116401052714
+        },
+        {
+          "index": [
+            -1,
+            4,
+            1
+          ],
+          "pose": [
+            -0.05,
+            1.0,
+            0.05
+          ],
+          "status": "collision",
+          "intersection_mm3": 0.00020858116400311396
+        },
+        {
+          "index": [
+            5,
+            1,
+            0
+          ],
+          "pose": [
+            0.25,
+            0.25,
+            0.0
+          ],
+          "status": "collision",
+          "intersection_mm3": 0.8315664509739967
+        },
+        {
+          "index": [
+            4,
+            1,
+            -1
+          ],
+          "pose": [
+            0.2,
+            0.25,
+            -0.05
+          ],
+          "status": "collision",
+          "intersection_mm3": 2.057282030917569
+        },
+        {
+          "index": [
+            4,
+            1,
+            1
+          ],
+          "pose": [
+            0.2,
+            0.25,
+            0.05
+          ],
+          "status": "collision",
+          "intersection_mm3": 0.000208581164003591
+        },
+        {
+          "index": [
+            3,
+            2,
+            -1
+          ],
+          "pose": [
+            0.15000000000000002,
+            0.5,
+            -0.05
+          ],
+          "status": "collision",
+          "intersection_mm3": 1.2267662018381789
+        },
+        {
+          "index": [
+            3,
+            2,
+            1
+          ],
+          "pose": [
+            0.15000000000000002,
+            0.5,
+            0.05
+          ],
+          "status": "collision",
+          "intersection_mm3": 0.0002085811640031773
+        },
+        {
+          "index": [
+            2,
+            3,
+            -1
+          ],
+          "pose": [
+            0.1,
+            0.75,
+            -0.05
+          ],
+          "status": "collision",
+          "intersection_mm3": 0.3962771315764487
+        },
+        {
+          "index": [
+            2,
+            3,
+            1
+          ],
+          "pose": [
+            0.1,
+            0.75,
+            0.05
+          ],
+          "status": "collision",
+          "intersection_mm3": 0.00020858116399919682
+        },
+        {
+          "index": [
+            1,
+            4,
+            -1
+          ],
+          "pose": [
+            0.05,
+            1.0,
+            -0.05
+          ],
+          "status": "collision",
+          "intersection_mm3": 0.00020858116401210538
+        },
+        {
+          "index": [
+            1,
+            4,
+            1
+          ],
+          "pose": [
+            0.05,
+            1.0,
+            0.05
+          ],
+          "status": "collision",
+          "intersection_mm3": 0.00020858116400153902
+        },
+        {
+          "index": [
+            0,
+            5,
+            -1
+          ],
+          "pose": [
+            0.0,
+            1.25,
+            -0.05
+          ],
+          "status": "collision",
+          "intersection_mm3": 0.00020858116401335094
+        },
+        {
+          "index": [
+            0,
+            5,
+            1
+          ],
+          "pose": [
+            0.0,
+            1.25,
+            0.05
+          ],
+          "status": "collision",
+          "intersection_mm3": 0.0002085811640035819
+        },
+        {
+          "index": [
+            -5,
+            2,
+            0
+          ],
+          "pose": [
+            -0.25,
+            0.5,
+            0.0
+          ],
+          "status": "collision",
+          "intersection_mm3": 0.831566450973997
+        },
+        {
+          "index": [
+            -4,
+            2,
+            -1
+          ],
+          "pose": [
+            -0.2,
+            0.5,
+            -0.05
+          ],
+          "status": "collision",
+          "intersection_mm3": 0.00020858116401279567
+        },
+        {
+          "index": [
+            -4,
+            2,
+            1
+          ],
+          "pose": [
+            -0.2,
+            0.5,
+            0.05
+          ],
+          "status": "collision",
+          "intersection_mm3": 2.0572820308956863
+        },
+        {
+          "index": [
+            -3,
+            3,
+            -1
+          ],
+          "pose": [
+            -0.15000000000000002,
+            0.75,
+            -0.05
+          ],
+          "status": "collision",
+          "intersection_mm3": 0.00020858116400634025
+        },
+        {
+          "index": [
+            -3,
+            3,
+            1
+          ],
+          "pose": [
+            -0.15000000000000002,
+            0.75,
+            0.05
+          ],
+          "status": "collision",
+          "intersection_mm3": 1.226766201770726
+        },
+        {
+          "index": [
+            -2,
+            4,
+            -1
+          ],
+          "pose": [
+            -0.1,
+            1.0,
+            -0.05
+          ],
+          "status": "collision",
+          "intersection_mm3": 0.00020858116401132465
+        },
+        {
+          "index": [
+            -2,
+            4,
+            1
+          ],
+          "pose": [
+            -0.1,
+            1.0,
+            0.05
+          ],
+          "status": "collision",
+          "intersection_mm3": 0.3962771315743548
+        },
+        {
+          "index": [
+            -1,
+            5,
+            -1
+          ],
+          "pose": [
+            -0.05,
+            1.25,
+            -0.05
+          ],
+          "status": "collision",
+          "intersection_mm3": 0.00020858116401114657
+        },
+        {
+          "index": [
+            -1,
+            5,
+            1
+          ],
+          "pose": [
+            -0.05,
+            1.25,
+            0.05
+          ],
+          "status": "collision",
+          "intersection_mm3": 0.0002085811640034842
+        },
+        {
+          "index": [
+            5,
+            2,
+            0
+          ],
+          "pose": [
+            0.25,
+            0.5,
+            0.0
+          ],
+          "status": "collision",
+          "intersection_mm3": 0.831566450973997
+        },
+        {
+          "index": [
+            4,
+            2,
+            -1
+          ],
+          "pose": [
+            0.2,
+            0.5,
+            -0.05
+          ],
+          "status": "collision",
+          "intersection_mm3": 2.0572820309176576
+        },
+        {
+          "index": [
+            4,
+            2,
+            1
+          ],
+          "pose": [
+            0.2,
+            0.5,
+            0.05
+          ],
+          "status": "collision",
+          "intersection_mm3": 0.00020858116400396064
+        },
+        {
+          "index": [
+            3,
+            3,
+            -1
+          ],
+          "pose": [
+            0.15000000000000002,
+            0.75,
+            -0.05
+          ],
+          "status": "collision",
+          "intersection_mm3": 1.2267662017754857
+        },
+        {
+          "index": [
+            3,
+            3,
+            1
+          ],
+          "pose": [
+            0.15000000000000002,
+            0.75,
+            0.05
+          ],
+          "status": "collision",
+          "intersection_mm3": 0.00020858116399978386
+        },
+        {
+          "index": [
+            2,
+            4,
+            -1
+          ],
+          "pose": [
+            0.1,
+            1.0,
+            -0.05
+          ],
+          "status": "collision",
+          "intersection_mm3": 0.3962771315763248
+        },
+        {
+          "index": [
+            2,
+            4,
+            1
+          ],
+          "pose": [
+            0.1,
+            1.0,
+            0.05
+          ],
+          "status": "collision",
+          "intersection_mm3": 0.00020858116400240275
+        },
+        {
+          "index": [
+            1,
+            5,
+            -1
+          ],
+          "pose": [
+            0.05,
+            1.25,
+            -0.05
+          ],
+          "status": "collision",
+          "intersection_mm3": 0.0002085811640125095
+        },
+        {
+          "index": [
+            1,
+            5,
+            1
+          ],
+          "pose": [
+            0.05,
+            1.25,
+            0.05
+          ],
+          "status": "collision",
+          "intersection_mm3": 0.00020858116400185078
+        },
+        {
+          "index": [
+            0,
+            6,
+            -1
+          ],
+          "pose": [
+            0.0,
+            1.5,
+            -0.05
+          ],
+          "status": "collision",
+          "intersection_mm3": 0.0002085811640129138
+        },
+        {
+          "index": [
+            0,
+            6,
+            1
+          ],
+          "pose": [
+            0.0,
+            1.5,
+            0.05
+          ],
+          "status": "collision",
+          "intersection_mm3": 0.00020858116400286782
+        },
+        {
+          "index": [
+            -5,
+            3,
+            0
+          ],
+          "pose": [
+            -0.25,
+            0.75,
+            0.0
+          ],
+          "status": "collision",
+          "intersection_mm3": 0.8315664509739976
+        },
+        {
+          "index": [
+            -4,
+            3,
+            -1
+          ],
+          "pose": [
+            -0.2,
+            0.75,
+            -0.05
+          ],
+          "status": "collision",
+          "intersection_mm3": 0.00020858116400716966
+        },
+        {
+          "index": [
+            -4,
+            3,
+            1
+          ],
+          "pose": [
+            -0.2,
+            0.75,
+            0.05
+          ],
+          "status": "collision",
+          "intersection_mm3": 2.057282030871135
+        },
+        {
+          "index": [
+            -3,
+            4,
+            -1
+          ],
+          "pose": [
+            -0.15000000000000002,
+            1.0,
+            -0.05
+          ],
+          "status": "collision",
+          "intersection_mm3": 0.00020858116401184984
+        },
+        {
+          "index": [
+            -3,
+            4,
+            1
+          ],
+          "pose": [
+            -0.15000000000000002,
+            1.0,
+            0.05
+          ],
+          "status": "collision",
+          "intersection_mm3": 1.2267662017810563
+        },
+        {
+          "index": [
+            -2,
+            5,
+            -1
+          ],
+          "pose": [
+            -0.1,
+            1.25,
+            -0.05
+          ],
+          "status": "collision",
+          "intersection_mm3": 0.00020858116401172038
+        },
+        {
+          "index": [
+            -2,
+            5,
+            1
+          ],
+          "pose": [
+            -0.1,
+            1.25,
+            0.05
+          ],
+          "status": "collision",
+          "intersection_mm3": 0.396277131570791
+        },
+        {
+          "index": [
+            -1,
+            6,
+            -1
+          ],
+          "pose": [
+            -0.05,
+            1.5,
+            -0.05
+          ],
+          "status": "collision",
+          "intersection_mm3": 0.00020858116401052714
+        },
+        {
+          "index": [
+            -1,
+            6,
+            1
+          ],
+          "pose": [
+            -0.05,
+            1.5,
+            0.05
+          ],
+          "status": "collision",
+          "intersection_mm3": 0.00020858116400241142
+        },
+        {
+          "index": [
+            5,
+            3,
+            0
+          ],
+          "pose": [
+            0.25,
+            0.75,
+            0.0
+          ],
+          "status": "collision",
+          "intersection_mm3": 0.831566450973998
+        },
+        {
+          "index": [
+            4,
+            3,
+            -1
+          ],
+          "pose": [
+            0.2,
+            0.75,
+            -0.05
+          ],
+          "status": "collision",
+          "intersection_mm3": 2.0572820309055166
+        },
+        {
+          "index": [
+            4,
+            3,
+            1
+          ],
+          "pose": [
+            0.2,
+            0.75,
+            0.05
+          ],
+          "status": "collision",
+          "intersection_mm3": 0.00020858116400014997
+        },
+        {
+          "index": [
+            3,
+            4,
+            -1
+          ],
+          "pose": [
+            0.15000000000000002,
+            1.0,
+            -0.05
+          ],
+          "status": "collision",
+          "intersection_mm3": 1.2267662018384708
+        },
+        {
+          "index": [
+            3,
+            4,
+            1
+          ],
+          "pose": [
+            0.15000000000000002,
+            1.0,
+            0.05
+          ],
+          "status": "collision",
+          "intersection_mm3": 0.00020858116400277477
+        },
+        {
+          "index": [
+            2,
+            5,
+            -1
+          ],
+          "pose": [
+            0.1,
+            1.25,
+            -0.05
+          ],
+          "status": "collision",
+          "intersection_mm3": 0.39627713157626515
+        },
+        {
+          "index": [
+            2,
+            5,
+            1
+          ],
+          "pose": [
+            0.1,
+            1.25,
+            0.05
+          ],
+          "status": "collision",
+          "intersection_mm3": 0.00020858116400276623
+        },
+        {
+          "index": [
+            1,
+            6,
+            -1
+          ],
+          "pose": [
+            0.05,
+            1.5,
+            -0.05
+          ],
+          "status": "collision",
+          "intersection_mm3": 0.00020858116401210538
+        },
+        {
+          "index": [
+            1,
+            6,
+            1
+          ],
+          "pose": [
+            0.05,
+            1.5,
+            0.05
+          ],
+          "status": "collision",
+          "intersection_mm3": 0.00020858116400084147
+        },
+        {
+          "index": [
+            0,
+            7,
+            -1
+          ],
+          "pose": [
+            0.0,
+            1.75,
+            -0.05
+          ],
+          "status": "collision",
+          "intersection_mm3": 0.0002085811640129138
+        },
+        {
+          "index": [
+            0,
+            7,
+            1
+          ],
+          "pose": [
+            0.0,
+            1.75,
+            0.05
+          ],
+          "status": "collision",
+          "intersection_mm3": 0.00020858116400335728
+        },
+        {
+          "index": [
+            -5,
+            4,
+            0
+          ],
+          "pose": [
+            -0.25,
+            1.0,
+            0.0
+          ],
+          "status": "collision",
+          "intersection_mm3": 0.8315664509739937
+        },
+        {
+          "index": [
+            -4,
+            4,
+            -1
+          ],
+          "pose": [
+            -0.2,
+            1.0,
+            -0.05
+          ],
+          "status": "collision",
+          "intersection_mm3": 0.0002085811640125939
+        },
+        {
+          "index": [
+            -4,
+            4,
+            1
+          ],
+          "pose": [
+            -0.2,
+            1.0,
+            0.05
+          ],
+          "status": "collision",
+          "intersection_mm3": 2.0572820308678694
+        },
+        {
+          "index": [
+            -3,
+            5,
+            -1
+          ],
+          "pose": [
+            -0.15000000000000002,
+            1.25,
+            -0.05
+          ],
+          "status": "collision",
+          "intersection_mm3": 0.00020858116401239324
+        },
+        {
+          "index": [
+            -3,
+            5,
+            1
+          ],
+          "pose": [
+            -0.15000000000000002,
+            1.25,
+            0.05
+          ],
+          "status": "collision",
+          "intersection_mm3": 1.226766201812606
+        },
+        {
+          "index": [
+            -2,
+            6,
+            -1
+          ],
+          "pose": [
+            -0.1,
+            1.5,
+            -0.05
+          ],
+          "status": "collision",
+          "intersection_mm3": 0.00020858116401132465
+        },
+        {
+          "index": [
+            -2,
+            6,
+            1
+          ],
+          "pose": [
+            -0.1,
+            1.5,
+            0.05
+          ],
+          "status": "collision",
+          "intersection_mm3": 0.39627713157341293
+        },
+        {
+          "index": [
+            -1,
+            7,
+            -1
+          ],
+          "pose": [
+            -0.05,
+            1.75,
+            -0.05
+          ],
+          "status": "collision",
+          "intersection_mm3": 0.00020858116401052714
+        },
+        {
+          "index": [
+            -1,
+            7,
+            1
+          ],
+          "pose": [
+            -0.05,
+            1.75,
+            0.05
+          ],
+          "status": "collision",
+          "intersection_mm3": 0.00020858116400312694
+        },
+        {
+          "index": [
+            5,
+            4,
+            0
+          ],
+          "pose": [
+            0.25,
+            1.0,
+            0.0
+          ],
+          "status": "collision",
+          "intersection_mm3": 0.831566450973994
+        },
+        {
+          "index": [
+            4,
+            4,
+            -1
+          ],
+          "pose": [
+            0.2,
+            1.0,
+            -0.05
+          ],
+          "status": "collision",
+          "intersection_mm3": 2.057282030917709
+        },
+        {
+          "index": [
+            4,
+            4,
+            1
+          ],
+          "pose": [
+            0.2,
+            1.0,
+            0.05
+          ],
+          "status": "collision",
+          "intersection_mm3": 0.00020858116400358385
+        },
+        {
+          "index": [
+            3,
+            5,
+            -1
+          ],
+          "pose": [
+            0.15000000000000002,
+            1.25,
+            -0.05
+          ],
+          "status": "collision",
+          "intersection_mm3": 1.2267662018382193
+        },
+        {
+          "index": [
+            3,
+            5,
+            1
+          ],
+          "pose": [
+            0.15000000000000002,
+            1.25,
+            0.05
+          ],
+          "status": "collision",
+          "intersection_mm3": 0.0002085811640031773
+        },
+        {
+          "index": [
+            2,
+            6,
+            -1
+          ],
+          "pose": [
+            0.1,
+            1.5,
+            -0.05
+          ],
+          "status": "collision",
+          "intersection_mm3": 0.39627713157654476
+        },
+        {
+          "index": [
+            2,
+            6,
+            1
+          ],
+          "pose": [
+            0.1,
+            1.5,
+            0.05
+          ],
+          "status": "collision",
+          "intersection_mm3": 0.00020858116400166064
+        },
+        {
+          "index": [
+            1,
+            7,
+            -1
+          ],
+          "pose": [
+            0.05,
+            1.75,
+            -0.05
+          ],
+          "status": "collision",
+          "intersection_mm3": 0.00020858116401210538
+        },
+        {
+          "index": [
+            1,
+            7,
+            1
+          ],
+          "pose": [
+            0.05,
+            1.75,
+            0.05
+          ],
+          "status": "collision",
+          "intersection_mm3": 0.00020858116400174543
+        },
+        {
+          "index": [
+            -5,
+            5,
+            0
+          ],
+          "pose": [
+            -0.25,
+            1.25,
+            0.0
+          ],
+          "status": "collision",
+          "intersection_mm3": 0.8315664509740007
+        },
+        {
+          "index": [
+            -4,
+            5,
+            -1
+          ],
+          "pose": [
+            -0.2,
+            1.25,
+            -0.05
+          ],
+          "status": "collision",
+          "intersection_mm3": 0.00020858116401299852
+        },
+        {
+          "index": [
+            -4,
+            5,
+            1
+          ],
+          "pose": [
+            -0.2,
+            1.25,
+            0.05
+          ],
+          "status": "collision",
+          "intersection_mm3": 2.05728203089568
+        },
+        {
+          "index": [
+            -3,
+            6,
+            -1
+          ],
+          "pose": [
+            -0.15000000000000002,
+            1.5,
+            -0.05
+          ],
+          "status": "collision",
+          "intersection_mm3": 0.00020858116401184984
+        },
+        {
+          "index": [
+            -3,
+            6,
+            1
+          ],
+          "pose": [
+            -0.15000000000000002,
+            1.5,
+            0.05
+          ],
+          "status": "collision",
+          "intersection_mm3": 1.2267662017705845
+        },
+        {
+          "index": [
+            -2,
+            7,
+            -1
+          ],
+          "pose": [
+            -0.1,
+            1.75,
+            -0.05
+          ],
+          "status": "collision",
+          "intersection_mm3": 0.00020858116401132465
+        },
+        {
+          "index": [
+            -2,
+            7,
+            1
+          ],
+          "pose": [
+            -0.1,
+            1.75,
+            0.05
+          ],
+          "status": "collision",
+          "intersection_mm3": 0.39627713157422517
+        },
+        {
+          "index": [
+            5,
+            5,
+            0
+          ],
+          "pose": [
+            0.25,
+            1.25,
+            0.0
+          ],
+          "status": "collision",
+          "intersection_mm3": 0.8315664509740007
+        },
+        {
+          "index": [
+            4,
+            5,
+            -1
+          ],
+          "pose": [
+            0.2,
+            1.25,
+            -0.05
+          ],
+          "status": "collision",
+          "intersection_mm3": 2.0572820309177007
+        },
+        {
+          "index": [
+            4,
+            5,
+            1
+          ],
+          "pose": [
+            0.2,
+            1.25,
+            0.05
+          ],
+          "status": "collision",
+          "intersection_mm3": 0.00020858116400396064
+        },
+        {
+          "index": [
+            3,
+            6,
+            -1
+          ],
+          "pose": [
+            0.15000000000000002,
+            1.5,
+            -0.05
+          ],
+          "status": "collision",
+          "intersection_mm3": 1.2267662017755652
+        },
+        {
+          "index": [
+            3,
+            6,
+            1
+          ],
+          "pose": [
+            0.15000000000000002,
+            1.5,
+            0.05
+          ],
+          "status": "collision",
+          "intersection_mm3": 0.00020858116400210403
+        },
+        {
+          "index": [
+            2,
+            7,
+            -1
+          ],
+          "pose": [
+            0.1,
+            1.75,
+            -0.05
+          ],
+          "status": "collision",
+          "intersection_mm3": 0.39627713157660555
+        },
+        {
+          "index": [
+            2,
+            7,
+            1
+          ],
+          "pose": [
+            0.1,
+            1.75,
+            0.05
+          ],
+          "status": "collision",
+          "intersection_mm3": 0.00020858116400232848
+        },
+        {
+          "index": [
+            -5,
+            6,
+            0
+          ],
+          "pose": [
+            -0.25,
+            1.5,
+            0.0
+          ],
+          "status": "collision",
+          "intersection_mm3": 0.8315664509739966
+        },
+        {
+          "index": [
+            -4,
+            6,
+            -1
+          ],
+          "pose": [
+            -0.2,
+            1.5,
+            -0.05
+          ],
+          "status": "collision",
+          "intersection_mm3": 0.0002085811640125939
+        },
+        {
+          "index": [
+            -4,
+            6,
+            1
+          ],
+          "pose": [
+            -0.2,
+            1.5,
+            0.05
+          ],
+          "status": "collision",
+          "intersection_mm3": 2.0572820308709945
+        },
+        {
+          "index": [
+            -3,
+            7,
+            -1
+          ],
+          "pose": [
+            -0.15000000000000002,
+            1.75,
+            -0.05
+          ],
+          "status": "collision",
+          "intersection_mm3": 0.00020858116401184984
+        },
+        {
+          "index": [
+            -3,
+            7,
+            1
+          ],
+          "pose": [
+            -0.15000000000000002,
+            1.75,
+            0.05
+          ],
+          "status": "collision",
+          "intersection_mm3": 1.2267662017809147
+        },
+        {
+          "index": [
+            5,
+            6,
+            0
+          ],
+          "pose": [
+            0.25,
+            1.5,
+            0.0
+          ],
+          "status": "collision",
+          "intersection_mm3": 0.8315664509739967
+        },
+        {
+          "index": [
+            4,
+            6,
+            -1
+          ],
+          "pose": [
+            0.2,
+            1.5,
+            -0.05
+          ],
+          "status": "collision",
+          "intersection_mm3": 2.057282030905611
+        },
+        {
+          "index": [
+            4,
+            6,
+            1
+          ],
+          "pose": [
+            0.2,
+            1.5,
+            0.05
+          ],
+          "status": "collision",
+          "intersection_mm3": 0.0002085811640028891
+        },
+        {
+          "index": [
+            3,
+            7,
+            -1
+          ],
+          "pose": [
+            0.15000000000000002,
+            1.75,
+            -0.05
+          ],
+          "status": "collision",
+          "intersection_mm3": 1.2267662017756282
+        },
+        {
+          "index": [
+            3,
+            7,
+            1
+          ],
+          "pose": [
+            0.15000000000000002,
+            1.75,
+            0.05
+          ],
+          "status": "collision",
+          "intersection_mm3": 0.00020858116400292897
+        },
+        {
+          "index": [
+            -5,
+            7,
+            0
+          ],
+          "pose": [
+            -0.25,
+            1.75,
+            0.0
+          ],
+          "status": "collision",
+          "intersection_mm3": 0.831566450974001
+        },
+        {
+          "index": [
+            -4,
+            7,
+            -1
+          ],
+          "pose": [
+            -0.2,
+            1.75,
+            -0.05
+          ],
+          "status": "collision",
+          "intersection_mm3": 0.0002085811640125939
+        },
+        {
+          "index": [
+            -4,
+            7,
+            1
+          ],
+          "pose": [
+            -0.2,
+            1.75,
+            0.05
+          ],
+          "status": "collision",
+          "intersection_mm3": 2.057282030867724
+        },
+        {
+          "index": [
+            5,
+            7,
+            0
+          ],
+          "pose": [
+            0.25,
+            1.75,
+            0.0
+          ],
+          "status": "collision",
+          "intersection_mm3": 0.8315664509740008
+        },
+        {
+          "index": [
+            4,
+            7,
+            -1
+          ],
+          "pose": [
+            0.2,
+            1.75,
+            -0.05
+          ],
+          "status": "collision",
+          "intersection_mm3": 2.057282030905676
+        },
+        {
+          "index": [
+            4,
+            7,
+            1
+          ],
+          "pose": [
+            0.2,
+            1.75,
+            0.05
+          ],
+          "status": "collision",
+          "intersection_mm3": 0.00020858116400360326
+        }
+      ],
+      "uncertain_details": []
+    },
+    {
+      "mode": "outward_stuck",
+      "outcome": "inconclusive_no_endpoint_in_reachable_sampled_component",
+      "seconds": 127.9160630059996,
+      "unique_grid_poses_tested": 332,
+      "reachable_grid_poses": 142,
+      "checked_edge_midpoints": 141,
+      "collision_poses": 190,
+      "uncertain_poses": 0,
+      "travel_limited_poses": 0,
+      "reachable_poses": [
+        [
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          -0.05,
+          0.0,
+          0.0
+        ],
+        [
+          0.05,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.25,
+          0.0
+        ],
+        [
+          -0.1,
+          0.0,
+          0.0
+        ],
+        [
+          -0.05,
+          0.25,
+          0.0
+        ],
+        [
+          0.1,
+          0.0,
+          0.0
+        ],
+        [
+          0.05,
+          0.25,
+          0.0
+        ],
+        [
+          0.0,
+          0.5,
+          0.0
+        ],
+        [
+          0.0,
+          0.25,
+          -0.05
+        ],
+        [
+          0.0,
+          0.25,
+          0.05
+        ],
+        [
+          -0.15000000000000002,
+          0.0,
+          0.0
+        ],
+        [
+          -0.1,
+          0.25,
+          0.0
+        ],
+        [
+          -0.05,
+          0.5,
+          0.0
+        ],
+        [
+          -0.05,
+          0.25,
+          -0.05
+        ],
+        [
+          -0.05,
+          0.25,
+          0.05
+        ],
+        [
+          0.15000000000000002,
+          0.0,
+          0.0
+        ],
+        [
+          0.1,
+          0.25,
+          0.0
+        ],
+        [
+          0.05,
+          0.5,
+          0.0
+        ],
+        [
+          0.05,
+          0.25,
+          -0.05
+        ],
+        [
+          0.05,
+          0.25,
+          0.05
+        ],
+        [
+          0.0,
+          0.75,
+          0.0
+        ],
+        [
+          0.0,
+          0.5,
+          -0.05
+        ],
+        [
+          0.0,
+          0.5,
+          0.05
+        ],
+        [
+          -0.2,
+          0.0,
+          0.0
+        ],
+        [
+          -0.15000000000000002,
+          0.25,
+          0.0
+        ],
+        [
+          -0.1,
+          0.5,
+          0.0
+        ],
+        [
+          -0.1,
+          0.25,
+          -0.05
+        ],
+        [
+          -0.05,
+          0.75,
+          0.0
+        ],
+        [
+          -0.05,
+          0.5,
+          -0.05
+        ],
+        [
+          -0.05,
+          0.5,
+          0.05
+        ],
+        [
+          -0.05,
+          0.25,
+          -0.1
+        ],
+        [
+          0.2,
+          0.0,
+          0.0
+        ],
+        [
+          0.15000000000000002,
+          0.25,
+          0.0
+        ],
+        [
+          0.1,
+          0.5,
+          0.0
+        ],
+        [
+          0.1,
+          0.25,
+          0.05
+        ],
+        [
+          0.05,
+          0.75,
+          0.0
+        ],
+        [
+          0.05,
+          0.5,
+          -0.05
+        ],
+        [
+          0.05,
+          0.5,
+          0.05
+        ],
+        [
+          0.05,
+          0.25,
+          0.1
+        ],
+        [
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.75,
+          -0.05
+        ],
+        [
+          0.0,
+          0.75,
+          0.05
+        ],
+        [
+          -0.2,
+          0.25,
+          0.0
+        ],
+        [
+          -0.15000000000000002,
+          0.5,
+          0.0
+        ],
+        [
+          -0.1,
+          0.75,
+          0.0
+        ],
+        [
+          -0.1,
+          0.5,
+          -0.05
+        ],
+        [
+          -0.05,
+          1.0,
+          0.0
+        ],
+        [
+          -0.05,
+          0.75,
+          -0.05
+        ],
+        [
+          -0.05,
+          0.75,
+          0.05
+        ],
+        [
+          -0.05,
+          0.5,
+          -0.1
+        ],
+        [
+          0.2,
+          0.25,
+          0.0
+        ],
+        [
+          0.15000000000000002,
+          0.5,
+          0.0
+        ],
+        [
+          0.1,
+          0.75,
+          0.0
+        ],
+        [
+          0.1,
+          0.5,
+          0.05
+        ],
+        [
+          0.05,
+          1.0,
+          0.0
+        ],
+        [
+          0.05,
+          0.75,
+          -0.05
+        ],
+        [
+          0.05,
+          0.75,
+          0.05
+        ],
+        [
+          0.05,
+          0.5,
+          0.1
+        ],
+        [
+          0.0,
+          1.25,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          -0.05
+        ],
+        [
+          0.0,
+          1.0,
+          0.05
+        ],
+        [
+          -0.2,
+          0.5,
+          0.0
+        ],
+        [
+          -0.15000000000000002,
+          0.75,
+          0.0
+        ],
+        [
+          -0.1,
+          1.0,
+          0.0
+        ],
+        [
+          -0.1,
+          0.75,
+          -0.05
+        ],
+        [
+          -0.05,
+          1.25,
+          0.0
+        ],
+        [
+          -0.05,
+          1.0,
+          -0.05
+        ],
+        [
+          -0.05,
+          1.0,
+          0.05
+        ],
+        [
+          -0.05,
+          0.75,
+          -0.1
+        ],
+        [
+          0.2,
+          0.5,
+          0.0
+        ],
+        [
+          0.15000000000000002,
+          0.75,
+          0.0
+        ],
+        [
+          0.1,
+          1.0,
+          0.0
+        ],
+        [
+          0.1,
+          0.75,
+          0.05
+        ],
+        [
+          0.05,
+          1.25,
+          0.0
+        ],
+        [
+          0.05,
+          1.0,
+          -0.05
+        ],
+        [
+          0.05,
+          1.0,
+          0.05
+        ],
+        [
+          0.05,
+          0.75,
+          0.1
+        ],
+        [
+          0.0,
+          1.5,
+          0.0
+        ],
+        [
+          0.0,
+          1.25,
+          -0.05
+        ],
+        [
+          0.0,
+          1.25,
+          0.05
+        ],
+        [
+          -0.2,
+          0.75,
+          0.0
+        ],
+        [
+          -0.15000000000000002,
+          1.0,
+          0.0
+        ],
+        [
+          -0.1,
+          1.25,
+          0.0
+        ],
+        [
+          -0.1,
+          1.0,
+          -0.05
+        ],
+        [
+          -0.05,
+          1.5,
+          0.0
+        ],
+        [
+          -0.05,
+          1.25,
+          -0.05
+        ],
+        [
+          -0.05,
+          1.25,
+          0.05
+        ],
+        [
+          -0.05,
+          1.0,
+          -0.1
+        ],
+        [
+          0.2,
+          0.75,
+          0.0
+        ],
+        [
+          0.15000000000000002,
+          1.0,
+          0.0
+        ],
+        [
+          0.1,
+          1.25,
+          0.0
+        ],
+        [
+          0.1,
+          1.0,
+          0.05
+        ],
+        [
+          0.05,
+          1.5,
+          0.0
+        ],
+        [
+          0.05,
+          1.25,
+          -0.05
+        ],
+        [
+          0.05,
+          1.25,
+          0.05
+        ],
+        [
+          0.05,
+          1.0,
+          0.1
+        ],
+        [
+          0.0,
+          1.75,
+          0.0
+        ],
+        [
+          0.0,
+          1.5,
+          -0.05
+        ],
+        [
+          0.0,
+          1.5,
+          0.05
+        ],
+        [
+          -0.2,
+          1.0,
+          0.0
+        ],
+        [
+          -0.15000000000000002,
+          1.25,
+          0.0
+        ],
+        [
+          -0.1,
+          1.5,
+          0.0
+        ],
+        [
+          -0.1,
+          1.25,
+          -0.05
+        ],
+        [
+          -0.05,
+          1.75,
+          0.0
+        ],
+        [
+          -0.05,
+          1.5,
+          -0.05
+        ],
+        [
+          -0.05,
+          1.5,
+          0.05
+        ],
+        [
+          -0.05,
+          1.25,
+          -0.1
+        ],
+        [
+          0.2,
+          1.0,
+          0.0
+        ],
+        [
+          0.15000000000000002,
+          1.25,
+          0.0
+        ],
+        [
+          0.1,
+          1.5,
+          0.0
+        ],
+        [
+          0.1,
+          1.25,
+          0.05
+        ],
+        [
+          0.05,
+          1.75,
+          0.0
+        ],
+        [
+          0.05,
+          1.5,
+          -0.05
+        ],
+        [
+          0.05,
+          1.5,
+          0.05
+        ],
+        [
+          0.05,
+          1.25,
+          0.1
+        ],
+        [
+          0.0,
+          1.75,
+          -0.05
+        ],
+        [
+          0.0,
+          1.75,
+          0.05
+        ],
+        [
+          -0.2,
+          1.25,
+          0.0
+        ],
+        [
+          -0.15000000000000002,
+          1.5,
+          0.0
+        ],
+        [
+          -0.1,
+          1.75,
+          0.0
+        ],
+        [
+          -0.1,
+          1.5,
+          -0.05
+        ],
+        [
+          -0.05,
+          1.75,
+          -0.05
+        ],
+        [
+          -0.05,
+          1.75,
+          0.05
+        ],
+        [
+          -0.05,
+          1.5,
+          -0.1
+        ],
+        [
+          0.2,
+          1.25,
+          0.0
+        ],
+        [
+          0.15000000000000002,
+          1.5,
+          0.0
+        ],
+        [
+          0.1,
+          1.75,
+          0.0
+        ],
+        [
+          0.1,
+          1.5,
+          0.05
+        ],
+        [
+          0.05,
+          1.75,
+          -0.05
+        ],
+        [
+          0.05,
+          1.75,
+          0.05
+        ],
+        [
+          0.05,
+          1.5,
+          0.1
+        ],
+        [
+          -0.2,
+          1.5,
+          0.0
+        ],
+        [
+          -0.15000000000000002,
+          1.75,
+          0.0
+        ],
+        [
+          -0.1,
+          1.75,
+          -0.05
+        ],
+        [
+          -0.05,
+          1.75,
+          -0.1
+        ],
+        [
+          0.2,
+          1.5,
+          0.0
+        ],
+        [
+          0.15000000000000002,
+          1.75,
+          0.0
+        ],
+        [
+          0.1,
+          1.75,
+          0.05
+        ],
+        [
+          0.05,
+          1.75,
+          0.1
+        ],
+        [
+          -0.2,
+          1.75,
+          0.0
+        ],
+        [
+          0.2,
+          1.75,
+          0.0
+        ]
+      ],
+      "sampled_path": [],
+      "blocked_poses": [
+        {
+          "index": [
+            0,
+            -1,
+            0
+          ],
+          "pose": [
+            0.0,
+            -0.25,
+            0.0
+          ],
+          "status": "collision",
+          "intersection_mm3": 0.9622783987853426
+        },
+        {
+          "index": [
+            0,
+            0,
+            -1
+          ],
+          "pose": [
+            0.0,
+            0.0,
+            -0.05
+          ],
+          "status": "collision",
+          "intersection_mm3": 0.00011094440899408475
+        },
+        {
+          "index": [
+            0,
+            0,
+            1
+          ],
+          "pose": [
+            0.0,
+            0.0,
+            0.05
+          ],
+          "status": "collision",
+          "intersection_mm3": 0.00011094440899292144
+        },
+        {
+          "index": [
+            -1,
+            -1,
+            0
+          ],
+          "pose": [
+            -0.05,
+            -0.25,
+            0.0
+          ],
+          "status": "collision",
+          "intersection_mm3": 0.9622783987853433
+        },
+        {
+          "index": [
+            -1,
+            0,
+            -1
+          ],
+          "pose": [
+            -0.05,
+            0.0,
+            -0.05
+          ],
+          "status": "collision",
+          "intersection_mm3": 0.00011094440899645851
+        },
+        {
+          "index": [
+            -1,
+            0,
+            1
+          ],
+          "pose": [
+            -0.05,
+            0.0,
+            0.05
+          ],
+          "status": "collision",
+          "intersection_mm3": 0.00011094440899596592
+        },
+        {
+          "index": [
+            1,
+            -1,
+            0
+          ],
+          "pose": [
+            0.05,
+            -0.25,
+            0.0
+          ],
+          "status": "collision",
+          "intersection_mm3": 0.9622783987853428
+        },
+        {
+          "index": [
+            1,
+            0,
+            -1
+          ],
+          "pose": [
+            0.05,
+            0.0,
+            -0.05
+          ],
+          "status": "collision",
+          "intersection_mm3": 0.00011094440899084275
+        },
+        {
+          "index": [
+            1,
+            0,
+            1
+          ],
+          "pose": [
+            0.05,
+            0.0,
+            0.05
+          ],
+          "status": "collision",
+          "intersection_mm3": 0.00011094440899561786
+        },
+        {
+          "index": [
+            -2,
+            -1,
+            0
+          ],
+          "pose": [
+            -0.1,
+            -0.25,
+            0.0
+          ],
+          "status": "collision",
+          "intersection_mm3": 0.9622783987853433
+        },
+        {
+          "index": [
+            -2,
+            0,
+            -1
+          ],
+          "pose": [
+            -0.1,
+            0.0,
+            -0.05
+          ],
+          "status": "collision",
+          "intersection_mm3": 0.00011094440899915902
+        },
+        {
+          "index": [
+            -2,
+            0,
+            1
+          ],
+          "pose": [
+            -0.1,
+            0.0,
+            0.05
+          ],
+          "status": "collision",
+          "intersection_mm3": 0.0177072464725306
+        },
+        {
+          "index": [
+            2,
+            -1,
+            0
+          ],
+          "pose": [
+            0.1,
+            -0.25,
+            0.0
+          ],
+          "status": "collision",
+          "intersection_mm3": 0.9622783987853427
+        },
+        {
+          "index": [
+            2,
+            0,
+            -1
+          ],
+          "pose": [
+            0.1,
+            0.0,
+            -0.05
+          ],
+          "status": "collision",
+          "intersection_mm3": 0.01770724647247196
+        },
+        {
+          "index": [
+            2,
+            0,
+            1
+          ],
+          "pose": [
+            0.1,
+            0.0,
+            0.05
+          ],
+          "status": "collision",
+          "intersection_mm3": 0.00011094440899231335
+        },
+        {
+          "index": [
+            0,
+            1,
+            -2
+          ],
+          "pose": [
+            0.0,
+            0.25,
+            -0.1
+          ],
+          "status": "collision",
+          "intersection_mm3": 0.10087561457418087
+        },
+        {
+          "index": [
+            0,
+            1,
+            2
+          ],
+          "pose": [
+            0.0,
+            0.25,
+            0.1
+          ],
+          "status": "collision",
+          "intersection_mm3": 0.10087561457485618
+        },
+        {
+          "index": [
+            -3,
+            -1,
+            0
+          ],
+          "pose": [
+            -0.15000000000000002,
+            -0.25,
+            0.0
+          ],
+          "status": "collision",
+          "intersection_mm3": 0.9622783987853432
+        },
+        {
+          "index": [
+            -3,
+            0,
+            -1
+          ],
+          "pose": [
+            -0.15000000000000002,
+            0.0,
+            -0.05
+          ],
+          "status": "collision",
+          "intersection_mm3": 0.19331966303511192
+        },
+        {
+          "index": [
+            -3,
+            0,
+            1
+          ],
+          "pose": [
+            -0.15000000000000002,
+            0.0,
+            0.05
+          ],
+          "status": "collision",
+          "intersection_mm3": 0.053876543146000544
+        },
+        {
+          "index": [
+            -2,
+            1,
+            1
+          ],
+          "pose": [
+            -0.1,
+            0.25,
+            0.05
+          ],
+          "status": "collision",
+          "intersection_mm3": 0.05072562308647719
+        },
+        {
+          "index": [
+            -1,
+            1,
+            2
+          ],
+          "pose": [
+            -0.05,
+            0.25,
+            0.1
+          ],
+          "status": "collision",
+          "intersection_mm3": 0.20429027123013538
+        },
+        {
+          "index": [
+            3,
+            -1,
+            0
+          ],
+          "pose": [
+            0.15000000000000002,
+            -0.25,
+            0.0
+          ],
+          "status": "collision",
+          "intersection_mm3": 0.9622783987853426
+        },
+        {
+          "index": [
+            3,
+            0,
+            -1
+          ],
+          "pose": [
+            0.15000000000000002,
+            0.0,
+            -0.05
+          ],
+          "status": "collision",
+          "intersection_mm3": 0.0538765431453027
+        },
+        {
+          "index": [
+            3,
+            0,
+            1
+          ],
+          "pose": [
+            0.15000000000000002,
+            0.0,
+            0.05
+          ],
+          "status": "collision",
+          "intersection_mm3": 0.19331966311395177
+        },
+        {
+          "index": [
+            2,
+            1,
+            -1
+          ],
+          "pose": [
+            0.1,
+            0.25,
+            -0.05
+          ],
+          "status": "collision",
+          "intersection_mm3": 0.05072562308647059
+        },
+        {
+          "index": [
+            1,
+            1,
+            -2
+          ],
+          "pose": [
+            0.05,
+            0.25,
+            -0.1
+          ],
+          "status": "collision",
+          "intersection_mm3": 0.20429027123188498
+        },
+        {
+          "index": [
+            0,
+            2,
+            -2
+          ],
+          "pose": [
+            0.0,
+            0.5,
+            -0.1
+          ],
+          "status": "collision",
+          "intersection_mm3": 0.185610621403605
+        },
+        {
+          "index": [
+            0,
+            2,
+            2
+          ],
+          "pose": [
+            0.0,
+            0.5,
+            0.1
+          ],
+          "status": "collision",
+          "intersection_mm3": 0.1856106214040638
+        },
+        {
+          "index": [
+            -5,
+            0,
+            0
+          ],
+          "pose": [
+            -0.25,
+            0.0,
+            0.0
+          ],
+          "status": "collision",
+          "intersection_mm3": 0.036560258374092484
+        },
+        {
+          "index": [
+            -4,
+            -1,
+            0
+          ],
+          "pose": [
+            -0.2,
+            -0.25,
+            0.0
+          ],
+          "status": "collision",
+          "intersection_mm3": 0.9622783987853931
+        },
+        {
+          "index": [
+            -4,
+            0,
+            -1
+          ],
+          "pose": [
+            -0.2,
+            0.0,
+            -0.05
+          ],
+          "status": "collision",
+          "intersection_mm3": 1.0250833478092531
+        },
+        {
+          "index": [
+            -4,
+            0,
+            1
+          ],
+          "pose": [
+            -0.2,
+            0.0,
+            0.05
+          ],
+          "status": "collision",
+          "intersection_mm3": 0.09005553507741094
+        },
+        {
+          "index": [
+            -3,
+            1,
+            -1
+          ],
+          "pose": [
+            -0.15000000000000002,
+            0.25,
+            -0.05
+          ],
+          "status": "collision",
+          "intersection_mm3": 0.17838037652367333
+        },
+        {
+          "index": [
+            -3,
+            1,
+            1
+          ],
+          "pose": [
+            -0.15000000000000002,
+            0.25,
+            0.05
+          ],
+          "status": "collision",
+          "intersection_mm3": 0.15471289105434055
+        },
+        {
+          "index": [
+            -2,
+            2,
+            1
+          ],
+          "pose": [
+            -0.1,
+            0.5,
+            0.05
+          ],
+          "status": "collision",
+          "intersection_mm3": 0.0931559716004214
+        },
+        {
+          "index": [
+            -2,
+            1,
+            -2
+          ],
+          "pose": [
+            -0.1,
+            0.25,
+            -0.1
+          ],
+          "status": "collision",
+          "intersection_mm3": 0.35652223947338113
+        },
+        {
+          "index": [
+            -1,
+            2,
+            2
+          ],
+          "pose": [
+            -0.05,
+            0.5,
+            0.1
+          ],
+          "status": "collision",
+          "intersection_mm3": 0.3765854208585464
+        },
+        {
+          "index": [
+            -1,
+            0,
+            -2
+          ],
+          "pose": [
+            -0.05,
+            0.0,
+            -0.1
+          ],
+          "status": "collision",
+          "intersection_mm3": 0.0003015930066466883
+        },
+        {
+          "index": [
+            -1,
+            1,
+            -3
+          ],
+          "pose": [
+            -0.05,
+            0.25,
+            -0.15000000000000002
+          ],
+          "status": "collision",
+          "intersection_mm3": 0.2532341480559834
+        },
+        {
+          "index": [
+            5,
+            0,
+            0
+          ],
+          "pose": [
+            0.25,
+            0.0,
+            0.0
+          ],
+          "status": "collision",
+          "intersection_mm3": 0.036560258374092484
+        },
+        {
+          "index": [
+            4,
+            -1,
+            0
+          ],
+          "pose": [
+            0.2,
+            -0.25,
+            0.0
+          ],
+          "status": "collision",
+          "intersection_mm3": 0.9622783987853932
+        },
+        {
+          "index": [
+            4,
+            0,
+            -1
+          ],
+          "pose": [
+            0.2,
+            0.0,
+            -0.05
+          ],
+          "status": "collision",
+          "intersection_mm3": 0.09005553507852665
+        },
+        {
+          "index": [
+            4,
+            0,
+            1
+          ],
+          "pose": [
+            0.2,
+            0.0,
+            0.05
+          ],
+          "status": "collision",
+          "intersection_mm3": 1.025083347713343
+        },
+        {
+          "index": [
+            3,
+            1,
+            -1
+          ],
+          "pose": [
+            0.15000000000000002,
+            0.25,
+            -0.05
+          ],
+          "status": "collision",
+          "intersection_mm3": 0.15471289105897207
+        },
+        {
+          "index": [
+            3,
+            1,
+            1
+          ],
+          "pose": [
+            0.15000000000000002,
+            0.25,
+            0.05
+          ],
+          "status": "collision",
+          "intersection_mm3": 0.17838037659054234
+        },
+        {
+          "index": [
+            2,
+            2,
+            -1
+          ],
+          "pose": [
+            0.1,
+            0.5,
+            -0.05
+          ],
+          "status": "collision",
+          "intersection_mm3": 0.09315597159370784
+        },
+        {
+          "index": [
+            2,
+            1,
+            2
+          ],
+          "pose": [
+            0.1,
+            0.25,
+            0.1
+          ],
+          "status": "collision",
+          "intersection_mm3": 0.35652223940747285
+        },
+        {
+          "index": [
+            1,
+            2,
+            -2
+          ],
+          "pose": [
+            0.05,
+            0.5,
+            -0.1
+          ],
+          "status": "collision",
+          "intersection_mm3": 0.3765854208608868
+        },
+        {
+          "index": [
+            1,
+            0,
+            2
+          ],
+          "pose": [
+            0.05,
+            0.0,
+            0.1
+          ],
+          "status": "collision",
+          "intersection_mm3": 0.0003015930066518902
+        },
+        {
+          "index": [
+            1,
+            1,
+            3
+          ],
+          "pose": [
+            0.05,
+            0.25,
+            0.15000000000000002
+          ],
+          "status": "collision",
+          "intersection_mm3": 0.2532341480558426
+        },
+        {
+          "index": [
+            0,
+            3,
+            -2
+          ],
+          "pose": [
+            0.0,
+            0.75,
+            -0.1
+          ],
+          "status": "collision",
+          "intersection_mm3": 0.28499173465310823
+        },
+        {
+          "index": [
+            0,
+            3,
+            2
+          ],
+          "pose": [
+            0.0,
+            0.75,
+            0.1
+          ],
+          "status": "collision",
+          "intersection_mm3": 0.2849917346530366
+        },
+        {
+          "index": [
+            -5,
+            1,
+            0
+          ],
+          "pose": [
+            -0.25,
+            0.25,
+            0.0
+          ],
+          "status": "collision",
+          "intersection_mm3": 0.10454017469244606
+        },
+        {
+          "index": [
+            -4,
+            1,
+            -1
+          ],
+          "pose": [
+            -0.2,
+            0.25,
+            -0.05
+          ],
+          "status": "collision",
+          "intersection_mm3": 0.934833078844796
+        },
+        {
+          "index": [
+            -4,
+            1,
+            1
+          ],
+          "pose": [
+            -0.2,
+            0.25,
+            0.05
+          ],
+          "status": "collision",
+          "intersection_mm3": 0.25871388266348827
+        },
+        {
+          "index": [
+            -3,
+            2,
+            -1
+          ],
+          "pose": [
+            -0.15000000000000002,
+            0.5,
+            -0.05
+          ],
+          "status": "collision",
+          "intersection_mm3": 0.16351929251131367
+        },
+        {
+          "index": [
+            -3,
+            2,
+            1
+          ],
+          "pose": [
+            -0.15000000000000002,
+            0.5,
+            0.05
+          ],
+          "status": "collision",
+          "intersection_mm3": 0.2848307396753152
+        },
+        {
+          "index": [
+            -2,
+            3,
+            1
+          ],
+          "pose": [
+            -0.1,
+            0.75,
+            0.05
+          ],
+          "status": "collision",
+          "intersection_mm3": 0.14289761769517934
+        },
+        {
+          "index": [
+            -2,
+            2,
+            -2
+          ],
+          "pose": [
+            -0.1,
+            0.5,
+            -0.1
+          ],
+          "status": "collision",
+          "intersection_mm3": 0.32680225629855414
+        },
+        {
+          "index": [
+            -1,
+            3,
+            2
+          ],
+          "pose": [
+            -0.05,
+            0.75,
+            0.1
+          ],
+          "status": "collision",
+          "intersection_mm3": 0.5793054903922777
+        },
+        {
+          "index": [
+            -1,
+            2,
+            -3
+          ],
+          "pose": [
+            -0.05,
+            0.5,
+            -0.15000000000000002
+          ],
+          "status": "collision",
+          "intersection_mm3": 0.46756707036732836
+        },
+        {
+          "index": [
+            5,
+            1,
+            0
+          ],
+          "pose": [
+            0.25,
+            0.25,
+            0.0
+          ],
+          "status": "collision",
+          "intersection_mm3": 0.10454017469244603
+        },
+        {
+          "index": [
+            4,
+            1,
+            -1
+          ],
+          "pose": [
+            0.2,
+            0.25,
+            -0.05
+          ],
+          "status": "collision",
+          "intersection_mm3": 0.25871388267183315
+        },
+        {
+          "index": [
+            4,
+            1,
+            1
+          ],
+          "pose": [
+            0.2,
+            0.25,
+            0.05
+          ],
+          "status": "collision",
+          "intersection_mm3": 0.9348330788552055
+        },
+        {
+          "index": [
+            3,
+            2,
+            -1
+          ],
+          "pose": [
+            0.15000000000000002,
+            0.5,
+            -0.05
+          ],
+          "status": "collision",
+          "intersection_mm3": 0.2848307396793923
+        },
+        {
+          "index": [
+            3,
+            2,
+            1
+          ],
+          "pose": [
+            0.15000000000000002,
+            0.5,
+            0.05
+          ],
+          "status": "collision",
+          "intersection_mm3": 0.1635192925706899
+        },
+        {
+          "index": [
+            2,
+            3,
+            -1
+          ],
+          "pose": [
+            0.1,
+            0.75,
+            -0.05
+          ],
+          "status": "collision",
+          "intersection_mm3": 0.14289761769450035
+        },
+        {
+          "index": [
+            2,
+            2,
+            2
+          ],
+          "pose": [
+            0.1,
+            0.5,
+            0.1
+          ],
+          "status": "collision",
+          "intersection_mm3": 0.32680225632942655
+        },
+        {
+          "index": [
+            1,
+            3,
+            -2
+          ],
+          "pose": [
+            0.05,
+            0.75,
+            -0.1
+          ],
+          "status": "collision",
+          "intersection_mm3": 0.5793054903794591
+        },
+        {
+          "index": [
+            1,
+            2,
+            3
+          ],
+          "pose": [
+            0.05,
+            0.5,
+            0.15000000000000002
+          ],
+          "status": "collision",
+          "intersection_mm3": 0.4675670703695524
+        },
+        {
+          "index": [
+            0,
+            4,
+            -2
+          ],
+          "pose": [
+            0.0,
+            1.0,
+            -0.1
+          ],
+          "status": "collision",
+          "intersection_mm3": 0.3965524527917603
+        },
+        {
+          "index": [
+            0,
+            4,
+            2
+          ],
+          "pose": [
+            0.0,
+            1.0,
+            0.1
+          ],
+          "status": "collision",
+          "intersection_mm3": 0.3965524527986973
+        },
+        {
+          "index": [
+            -5,
+            2,
+            0
+          ],
+          "pose": [
+            -0.25,
+            0.5,
+            0.0
+          ],
+          "status": "collision",
+          "intersection_mm3": 0.19235022670294677
+        },
+        {
+          "index": [
+            -4,
+            2,
+            -1
+          ],
+          "pose": [
+            -0.2,
+            0.5,
+            -0.05
+          ],
+          "status": "collision",
+          "intersection_mm3": 0.8467561967606325
+        },
+        {
+          "index": [
+            -4,
+            2,
+            1
+          ],
+          "pose": [
+            -0.2,
+            0.5,
+            0.05
+          ],
+          "status": "collision",
+          "intersection_mm3": 0.4765222781998576
+        },
+        {
+          "index": [
+            -3,
+            3,
+            -1
+          ],
+          "pose": [
+            -0.15000000000000002,
+            0.75,
+            -0.05
+          ],
+          "status": "collision",
+          "intersection_mm3": 0.1486777913996222
+        },
+        {
+          "index": [
+            -3,
+            3,
+            1
+          ],
+          "pose": [
+            -0.15000000000000002,
+            0.75,
+            0.05
+          ],
+          "status": "collision",
+          "intersection_mm3": 0.43801603189977967
+        },
+        {
+          "index": [
+            -2,
+            4,
+            1
+          ],
+          "pose": [
+            -0.1,
+            1.0,
+            0.05
+          ],
+          "status": "collision",
+          "intersection_mm3": 0.19872207624135838
+        },
+        {
+          "index": [
+            -2,
+            3,
+            -2
+          ],
+          "pose": [
+            -0.1,
+            0.75,
+            -0.1
+          ],
+          "status": "collision",
+          "intersection_mm3": 0.2971221076997206
+        },
+        {
+          "index": [
+            -1,
+            4,
+            2
+          ],
+          "pose": [
+            -0.05,
+            1.0,
+            0.1
+          ],
+          "status": "collision",
+          "intersection_mm3": 0.8076072954885463
+        },
+        {
+          "index": [
+            -1,
+            3,
+            -3
+          ],
+          "pose": [
+            -0.05,
+            0.75,
+            -0.15000000000000002
+          ],
+          "status": "collision",
+          "intersection_mm3": 0.7197086518208824
+        },
+        {
+          "index": [
+            5,
+            2,
+            0
+          ],
+          "pose": [
+            0.25,
+            0.5,
+            0.0
+          ],
+          "status": "collision",
+          "intersection_mm3": 0.19235022670294677
+        },
+        {
+          "index": [
+            4,
+            2,
+            -1
+          ],
+          "pose": [
+            0.2,
+            0.5,
+            -0.05
+          ],
+          "status": "collision",
+          "intersection_mm3": 0.47652227820439874
+        },
+        {
+          "index": [
+            4,
+            2,
+            1
+          ],
+          "pose": [
+            0.2,
+            0.5,
+            0.05
+          ],
+          "status": "collision",
+          "intersection_mm3": 0.8467561967414333
+        },
+        {
+          "index": [
+            3,
+            3,
+            -1
+          ],
+          "pose": [
+            0.15000000000000002,
+            0.75,
+            -0.05
+          ],
+          "status": "collision",
+          "intersection_mm3": 0.4380160319133173
+        },
+        {
+          "index": [
+            3,
+            3,
+            1
+          ],
+          "pose": [
+            0.15000000000000002,
+            0.75,
+            0.05
+          ],
+          "status": "collision",
+          "intersection_mm3": 0.14867779135075493
+        },
+        {
+          "index": [
+            2,
+            4,
+            -1
+          ],
+          "pose": [
+            0.1,
+            1.0,
+            -0.05
+          ],
+          "status": "collision",
+          "intersection_mm3": 0.19872207624074448
+        },
+        {
+          "index": [
+            2,
+            3,
+            2
+          ],
+          "pose": [
+            0.1,
+            0.75,
+            0.1
+          ],
+          "status": "collision",
+          "intersection_mm3": 0.297122107725655
+        },
+        {
+          "index": [
+            1,
+            4,
+            -2
+          ],
+          "pose": [
+            0.05,
+            1.0,
+            -0.1
+          ],
+          "status": "collision",
+          "intersection_mm3": 0.8076072955006179
+        },
+        {
+          "index": [
+            1,
+            3,
+            3
+          ],
+          "pose": [
+            0.05,
+            0.75,
+            0.15000000000000002
+          ],
+          "status": "collision",
+          "intersection_mm3": 0.7197086518192054
+        },
+        {
+          "index": [
+            0,
+            5,
+            -2
+          ],
+          "pose": [
+            0.0,
+            1.25,
+            -0.1
+          ],
+          "status": "collision",
+          "intersection_mm3": 0.518577447736895
+        },
+        {
+          "index": [
+            0,
+            5,
+            2
+          ],
+          "pose": [
+            0.0,
+            1.25,
+            0.1
+          ],
+          "status": "collision",
+          "intersection_mm3": 0.5185774477309019
+        },
+        {
+          "index": [
+            -5,
+            3,
+            0
+          ],
+          "pose": [
+            -0.25,
+            0.75,
+            0.0
+          ],
+          "status": "collision",
+          "intersection_mm3": 0.2958946692913762
+        },
+        {
+          "index": [
+            -4,
+            3,
+            -1
+          ],
+          "pose": [
+            -0.2,
+            0.75,
+            -0.05
+          ],
+          "status": "collision",
+          "intersection_mm3": 0.7609153631282681
+        },
+        {
+          "index": [
+            -4,
+            3,
+            1
+          ],
+          "pose": [
+            -0.2,
+            0.75,
+            0.05
+          ],
+          "status": "collision",
+          "intersection_mm3": 0.7331537218375411
+        },
+        {
+          "index": [
+            -3,
+            4,
+            -1
+          ],
+          "pose": [
+            -0.15000000000000002,
+            1.0,
+            -0.05
+          ],
+          "status": "collision",
+          "intersection_mm3": 0.13390883189926034
+        },
+        {
+          "index": [
+            -3,
+            4,
+            1
+          ],
+          "pose": [
+            -0.15000000000000002,
+            1.0,
+            0.05
+          ],
+          "status": "collision",
+          "intersection_mm3": 0.6106729311618431
+        },
+        {
+          "index": [
+            -2,
+            5,
+            1
+          ],
+          "pose": [
+            -0.1,
+            1.25,
+            0.05
+          ],
+          "status": "collision",
+          "intersection_mm3": 0.25977298090583645
+        },
+        {
+          "index": [
+            -2,
+            4,
+            -2
+          ],
+          "pose": [
+            -0.1,
+            1.0,
+            -0.1
+          ],
+          "status": "collision",
+          "intersection_mm3": 0.26758777522377997
+        },
+        {
+          "index": [
+            -1,
+            5,
+            2
+          ],
+          "pose": [
+            -0.05,
+            1.25,
+            0.1
+          ],
+          "status": "collision",
+          "intersection_mm3": 1.0581444640188793
+        },
+        {
+          "index": [
+            -1,
+            4,
+            -3
+          ],
+          "pose": [
+            -0.05,
+            1.0,
+            -0.15000000000000002
+          ],
+          "status": "collision",
+          "intersection_mm3": 1.003557643850527
+        },
+        {
+          "index": [
+            5,
+            3,
+            0
+          ],
+          "pose": [
+            0.25,
+            0.75,
+            0.0
+          ],
+          "status": "collision",
+          "intersection_mm3": 0.2958946692913762
+        },
+        {
+          "index": [
+            4,
+            3,
+            -1
+          ],
+          "pose": [
+            0.2,
+            0.75,
+            -0.05
+          ],
+          "status": "collision",
+          "intersection_mm3": 0.7331537218388984
+        },
+        {
+          "index": [
+            4,
+            3,
+            1
+          ],
+          "pose": [
+            0.2,
+            0.75,
+            0.05
+          ],
+          "status": "collision",
+          "intersection_mm3": 0.7609153631560308
+        },
+        {
+          "index": [
+            3,
+            4,
+            -1
+          ],
+          "pose": [
+            0.15000000000000002,
+            1.0,
+            -0.05
+          ],
+          "status": "collision",
+          "intersection_mm3": 0.6106729311552632
+        },
+        {
+          "index": [
+            3,
+            4,
+            1
+          ],
+          "pose": [
+            0.15000000000000002,
+            1.0,
+            0.05
+          ],
+          "status": "collision",
+          "intersection_mm3": 0.13390883181363972
+        },
+        {
+          "index": [
+            2,
+            5,
+            -1
+          ],
+          "pose": [
+            0.1,
+            1.25,
+            -0.05
+          ],
+          "status": "collision",
+          "intersection_mm3": 0.2597729809288951
+        },
+        {
+          "index": [
+            2,
+            4,
+            2
+          ],
+          "pose": [
+            0.1,
+            1.0,
+            0.1
+          ],
+          "status": "collision",
+          "intersection_mm3": 0.2675877752453699
+        },
+        {
+          "index": [
+            1,
+            5,
+            -2
+          ],
+          "pose": [
+            0.05,
+            1.25,
+            -0.1
+          ],
+          "status": "collision",
+          "intersection_mm3": 1.058144464000281
+        },
+        {
+          "index": [
+            1,
+            4,
+            3
+          ],
+          "pose": [
+            0.05,
+            1.0,
+            0.15000000000000002
+          ],
+          "status": "collision",
+          "intersection_mm3": 1.0035576438558405
+        },
+        {
+          "index": [
+            0,
+            8,
+            0
+          ],
+          "pose": [
+            0.0,
+            2.0,
+            0.0
+          ],
+          "status": "collision",
+          "intersection_mm3": 2.6609971953847573
+        },
+        {
+          "index": [
+            0,
+            6,
+            -2
+          ],
+          "pose": [
+            0.0,
+            1.5,
+            -0.1
+          ],
+          "status": "collision",
+          "intersection_mm3": 0.6497194810386406
+        },
+        {
+          "index": [
+            0,
+            6,
+            2
+          ],
+          "pose": [
+            0.0,
+            1.5,
+            0.1
+          ],
+          "status": "collision",
+          "intersection_mm3": 0.6497194810587783
+        },
+        {
+          "index": [
+            -5,
+            4,
+            0
+          ],
+          "pose": [
+            -0.25,
+            1.0,
+            0.0
+          ],
+          "status": "collision",
+          "intersection_mm3": 0.41281508333541617
+        },
+        {
+          "index": [
+            -4,
+            4,
+            -1
+          ],
+          "pose": [
+            -0.2,
+            1.0,
+            -0.05
+          ],
+          "status": "collision",
+          "intersection_mm3": 0.677472683053097
+        },
+        {
+          "index": [
+            -4,
+            4,
+            1
+          ],
+          "pose": [
+            -0.2,
+            1.0,
+            0.05
+          ],
+          "status": "collision",
+          "intersection_mm3": 1.022645248104529
+        },
+        {
+          "index": [
+            -3,
+            5,
+            -1
+          ],
+          "pose": [
+            -0.15000000000000002,
+            1.25,
+            -0.05
+          ],
+          "status": "collision",
+          "intersection_mm3": 0.11927684527773161
+        },
+        {
+          "index": [
+            -3,
+            5,
+            1
+          ],
+          "pose": [
+            -0.15000000000000002,
+            1.25,
+            0.05
+          ],
+          "status": "collision",
+          "intersection_mm3": 0.8003165268966294
+        },
+        {
+          "index": [
+            -2,
+            6,
+            1
+          ],
+          "pose": [
+            -0.1,
+            1.5,
+            0.05
+          ],
+          "status": "collision",
+          "intersection_mm3": 0.32537838886410403
+        },
+        {
+          "index": [
+            -2,
+            5,
+            -2
+          ],
+          "pose": [
+            -0.1,
+            1.25,
+            -0.1
+          ],
+          "status": "collision",
+          "intersection_mm3": 0.23832836667526003
+        },
+        {
+          "index": [
+            -1,
+            8,
+            0
+          ],
+          "pose": [
+            -0.05,
+            2.0,
+            0.0
+          ],
+          "status": "collision",
+          "intersection_mm3": 2.6609971953847573
+        },
+        {
+          "index": [
+            -1,
+            6,
+            2
+          ],
+          "pose": [
+            -0.05,
+            1.5,
+            0.1
+          ],
+          "status": "collision",
+          "intersection_mm3": 1.328299980746693
+        },
+        {
+          "index": [
+            -1,
+            5,
+            -3
+          ],
+          "pose": [
+            -0.05,
+            1.25,
+            -0.15000000000000002
+          ],
+          "status": "collision",
+          "intersection_mm3": 1.3149032851385054
+        },
+        {
+          "index": [
+            5,
+            4,
+            0
+          ],
+          "pose": [
+            0.25,
+            1.0,
+            0.0
+          ],
+          "status": "collision",
+          "intersection_mm3": 0.41281508333541617
+        },
+        {
+          "index": [
+            4,
+            4,
+            -1
+          ],
+          "pose": [
+            0.2,
+            1.0,
+            -0.05
+          ],
+          "status": "collision",
+          "intersection_mm3": 1.0226452481120465
+        },
+        {
+          "index": [
+            4,
+            4,
+            1
+          ],
+          "pose": [
+            0.2,
+            1.0,
+            0.05
+          ],
+          "status": "collision",
+          "intersection_mm3": 0.677472683077416
+        },
+        {
+          "index": [
+            3,
+            5,
+            -1
+          ],
+          "pose": [
+            0.15000000000000002,
+            1.25,
+            -0.05
+          ],
+          "status": "collision",
+          "intersection_mm3": 0.8003165269076248
+        },
+        {
+          "index": [
+            3,
+            5,
+            1
+          ],
+          "pose": [
+            0.15000000000000002,
+            1.25,
+            0.05
+          ],
+          "status": "collision",
+          "intersection_mm3": 0.11927684524170648
+        },
+        {
+          "index": [
+            2,
+            6,
+            -1
+          ],
+          "pose": [
+            0.1,
+            1.5,
+            -0.05
+          ],
+          "status": "collision",
+          "intersection_mm3": 0.32537838894467985
+        },
+        {
+          "index": [
+            2,
+            5,
+            2
+          ],
+          "pose": [
+            0.1,
+            1.25,
+            0.1
+          ],
+          "status": "collision",
+          "intersection_mm3": 0.23832836671277555
+        },
+        {
+          "index": [
+            1,
+            8,
+            0
+          ],
+          "pose": [
+            0.05,
+            2.0,
+            0.0
+          ],
+          "status": "collision",
+          "intersection_mm3": 2.6609971953847573
+        },
+        {
+          "index": [
+            1,
+            6,
+            -2
+          ],
+          "pose": [
+            0.05,
+            1.5,
+            -0.1
+          ],
+          "status": "collision",
+          "intersection_mm3": 1.3282999807828573
+        },
+        {
+          "index": [
+            1,
+            5,
+            3
+          ],
+          "pose": [
+            0.05,
+            1.25,
+            0.15000000000000002
+          ],
+          "status": "collision",
+          "intersection_mm3": 1.3149032851325764
+        },
+        {
+          "index": [
+            0,
+            8,
+            -1
+          ],
+          "pose": [
+            0.0,
+            2.0,
+            -0.05
+          ],
+          "status": "collision",
+          "intersection_mm3": 2.6601339290070154
+        },
+        {
+          "index": [
+            0,
+            7,
+            -2
+          ],
+          "pose": [
+            0.0,
+            1.75,
+            -0.1
+          ],
+          "status": "collision",
+          "intersection_mm3": 0.7889875671621661
+        },
+        {
+          "index": [
+            0,
+            8,
+            1
+          ],
+          "pose": [
+            0.0,
+            2.0,
+            0.05
+          ],
+          "status": "collision",
+          "intersection_mm3": 2.660133929006623
+        },
+        {
+          "index": [
+            0,
+            7,
+            2
+          ],
+          "pose": [
+            0.0,
+            1.75,
+            0.1
+          ],
+          "status": "collision",
+          "intersection_mm3": 0.7889875671407517
+        },
+        {
+          "index": [
+            -5,
+            5,
+            0
+          ],
+          "pose": [
+            -0.25,
+            1.25,
+            0.0
+          ],
+          "status": "collision",
+          "intersection_mm3": 0.5414853141004288
+        },
+        {
+          "index": [
+            -4,
+            5,
+            -1
+          ],
+          "pose": [
+            -0.2,
+            1.25,
+            -0.05
+          ],
+          "status": "collision",
+          "intersection_mm3": 0.5966533115266962
+        },
+        {
+          "index": [
+            -4,
+            5,
+            1
+          ],
+          "pose": [
+            -0.2,
+            1.25,
+            0.05
+          ],
+          "status": "collision",
+          "intersection_mm3": 1.340883461949427
+        },
+        {
+          "index": [
+            -3,
+            6,
+            -1
+          ],
+          "pose": [
+            -0.15000000000000002,
+            1.5,
+            -0.05
+          ],
+          "status": "collision",
+          "intersection_mm3": 0.10485196987136512
+        },
+        {
+          "index": [
+            -3,
+            6,
+            1
+          ],
+          "pose": [
+            -0.15000000000000002,
+            1.5,
+            0.05
+          ],
+          "status": "collision",
+          "intersection_mm3": 1.0050083721209442
+        },
+        {
+          "index": [
+            -2,
+            8,
+            0
+          ],
+          "pose": [
+            -0.1,
+            2.0,
+            0.0
+          ],
+          "status": "collision",
+          "intersection_mm3": 2.6609971953847573
+        },
+        {
+          "index": [
+            -2,
+            7,
+            1
+          ],
+          "pose": [
+            -0.1,
+            1.75,
+            0.05
+          ],
+          "status": "collision",
+          "intersection_mm3": 0.3950435981043183
+        },
+        {
+          "index": [
+            -2,
+            6,
+            -2
+          ],
+          "pose": [
+            -0.1,
+            1.5,
+            -0.1
+          ],
+          "status": "collision",
+          "intersection_mm3": 0.20948407962926072
+        },
+        {
+          "index": [
+            -1,
+            8,
+            -1
+          ],
+          "pose": [
+            -0.05,
+            2.0,
+            -0.05
+          ],
+          "status": "collision",
+          "intersection_mm3": 2.6601339290057497
+        },
+        {
+          "index": [
+            -1,
+            8,
+            1
+          ],
+          "pose": [
+            -0.05,
+            2.0,
+            0.05
+          ],
+          "status": "collision",
+          "intersection_mm3": 2.660133929006035
+        },
+        {
+          "index": [
+            -1,
+            7,
+            2
+          ],
+          "pose": [
+            -0.05,
+            1.75,
+            0.1
+          ],
+          "status": "collision",
+          "intersection_mm3": 1.6161657419764117
+        },
+        {
+          "index": [
+            -1,
+            6,
+            -3
+          ],
+          "pose": [
+            -0.05,
+            1.5,
+            -0.15000000000000002
+          ],
+          "status": "collision",
+          "intersection_mm3": 1.6504463121082056
+        },
+        {
+          "index": [
+            5,
+            5,
+            0
+          ],
+          "pose": [
+            0.25,
+            1.25,
+            0.0
+          ],
+          "status": "collision",
+          "intersection_mm3": 0.5414853141004289
+        },
+        {
+          "index": [
+            4,
+            5,
+            -1
+          ],
+          "pose": [
+            0.2,
+            1.25,
+            -0.05
+          ],
+          "status": "collision",
+          "intersection_mm3": 1.3408834619304282
+        },
+        {
+          "index": [
+            4,
+            5,
+            1
+          ],
+          "pose": [
+            0.2,
+            1.25,
+            0.05
+          ],
+          "status": "collision",
+          "intersection_mm3": 0.5966533115711454
+        },
+        {
+          "index": [
+            3,
+            6,
+            -1
+          ],
+          "pose": [
+            0.15000000000000002,
+            1.5,
+            -0.05
+          ],
+          "status": "collision",
+          "intersection_mm3": 1.0050083721557188
+        },
+        {
+          "index": [
+            3,
+            6,
+            1
+          ],
+          "pose": [
+            0.15000000000000002,
+            1.5,
+            0.05
+          ],
+          "status": "collision",
+          "intersection_mm3": 0.10485196990046086
+        },
+        {
+          "index": [
+            2,
+            8,
+            0
+          ],
+          "pose": [
+            0.1,
+            2.0,
+            0.0
+          ],
+          "status": "collision",
+          "intersection_mm3": 2.660997195384757
+        },
+        {
+          "index": [
+            2,
+            7,
+            -1
+          ],
+          "pose": [
+            0.1,
+            1.75,
+            -0.05
+          ],
+          "status": "collision",
+          "intersection_mm3": 0.3950435980674384
+        },
+        {
+          "index": [
+            2,
+            6,
+            2
+          ],
+          "pose": [
+            0.1,
+            1.5,
+            0.1
+          ],
+          "status": "collision",
+          "intersection_mm3": 0.20948407964213134
+        },
+        {
+          "index": [
+            1,
+            8,
+            -1
+          ],
+          "pose": [
+            0.05,
+            2.0,
+            -0.05
+          ],
+          "status": "collision",
+          "intersection_mm3": 2.6601339290060726
+        },
+        {
+          "index": [
+            1,
+            7,
+            -2
+          ],
+          "pose": [
+            0.05,
+            1.75,
+            -0.1
+          ],
+          "status": "collision",
+          "intersection_mm3": 1.6161657419756654
+        },
+        {
+          "index": [
+            1,
+            8,
+            1
+          ],
+          "pose": [
+            0.05,
+            2.0,
+            0.05
+          ],
+          "status": "collision",
+          "intersection_mm3": 2.660133929006545
+        },
+        {
+          "index": [
+            1,
+            6,
+            3
+          ],
+          "pose": [
+            0.05,
+            1.5,
+            0.15000000000000002
+          ],
+          "status": "collision",
+          "intersection_mm3": 1.650446312095469
+        },
+        {
+          "index": [
+            -5,
+            6,
+            0
+          ],
+          "pose": [
+            -0.25,
+            1.5,
+            0.0
+          ],
+          "status": "collision",
+          "intersection_mm3": 0.6806420210311669
+        },
+        {
+          "index": [
+            -4,
+            6,
+            -1
+          ],
+          "pose": [
+            -0.2,
+            1.5,
+            -0.05
+          ],
+          "status": "collision",
+          "intersection_mm3": 0.5187004735540839
+        },
+        {
+          "index": [
+            -4,
+            6,
+            1
+          ],
+          "pose": [
+            -0.2,
+            1.5,
+            0.05
+          ],
+          "status": "collision",
+          "intersection_mm3": 1.6846634905990077
+        },
+        {
+          "index": [
+            -3,
+            8,
+            0
+          ],
+          "pose": [
+            -0.15000000000000002,
+            2.0,
+            0.0
+          ],
+          "status": "collision",
+          "intersection_mm3": 2.6609971953847573
+        },
+        {
+          "index": [
+            -3,
+            7,
+            -1
+          ],
+          "pose": [
+            -0.15000000000000002,
+            1.75,
+            -0.05
+          ],
+          "status": "collision",
+          "intersection_mm3": 0.09070568318816516
+        },
+        {
+          "index": [
+            -3,
+            7,
+            1
+          ],
+          "pose": [
+            -0.15000000000000002,
+            1.75,
+            0.05
+          ],
+          "status": "collision",
+          "intersection_mm3": 1.223338172287502
+        },
+        {
+          "index": [
+            -2,
+            8,
+            -1
+          ],
+          "pose": [
+            -0.1,
+            2.0,
+            -0.05
+          ],
+          "status": "collision",
+          "intersection_mm3": 2.6601339290074537
+        },
+        {
+          "index": [
+            -2,
+            7,
+            -2
+          ],
+          "pose": [
+            -0.1,
+            1.75,
+            -0.1
+          ],
+          "status": "collision",
+          "intersection_mm3": 0.18119800703369998
+        },
+        {
+          "index": [
+            -1,
+            8,
+            -2
+          ],
+          "pose": [
+            -0.05,
+            2.0,
+            -0.1
+          ],
+          "status": "collision",
+          "intersection_mm3": 2.6575447363916536
+        },
+        {
+          "index": [
+            -1,
+            7,
+            -3
+          ],
+          "pose": [
+            -0.05,
+            1.75,
+            -0.15000000000000002
+          ],
+          "status": "collision",
+          "intersection_mm3": 2.0078047026155996
+        },
+        {
+          "index": [
+            5,
+            6,
+            0
+          ],
+          "pose": [
+            0.25,
+            1.5,
+            0.0
+          ],
+          "status": "collision",
+          "intersection_mm3": 0.6806420210311669
+        },
+        {
+          "index": [
+            4,
+            6,
+            -1
+          ],
+          "pose": [
+            0.2,
+            1.5,
+            -0.05
+          ],
+          "status": "collision",
+          "intersection_mm3": 1.6846634905204507
+        },
+        {
+          "index": [
+            4,
+            6,
+            1
+          ],
+          "pose": [
+            0.2,
+            1.5,
+            0.05
+          ],
+          "status": "collision",
+          "intersection_mm3": 0.5187004735289571
+        },
+        {
+          "index": [
+            3,
+            8,
+            0
+          ],
+          "pose": [
+            0.15000000000000002,
+            2.0,
+            0.0
+          ],
+          "status": "collision",
+          "intersection_mm3": 2.6609971953847573
+        },
+        {
+          "index": [
+            3,
+            7,
+            -1
+          ],
+          "pose": [
+            0.15000000000000002,
+            1.75,
+            -0.05
+          ],
+          "status": "collision",
+          "intersection_mm3": 1.2233381723084438
+        },
+        {
+          "index": [
+            3,
+            7,
+            1
+          ],
+          "pose": [
+            0.15000000000000002,
+            1.75,
+            0.05
+          ],
+          "status": "collision",
+          "intersection_mm3": 0.09070568316330485
+        },
+        {
+          "index": [
+            2,
+            8,
+            1
+          ],
+          "pose": [
+            0.1,
+            2.0,
+            0.05
+          ],
+          "status": "collision",
+          "intersection_mm3": 2.660133929006084
+        },
+        {
+          "index": [
+            2,
+            7,
+            2
+          ],
+          "pose": [
+            0.1,
+            1.75,
+            0.1
+          ],
+          "status": "collision",
+          "intersection_mm3": 0.18119800701992173
+        },
+        {
+          "index": [
+            1,
+            8,
+            2
+          ],
+          "pose": [
+            0.05,
+            2.0,
+            0.1
+          ],
+          "status": "collision",
+          "intersection_mm3": 2.6575447363916966
+        },
+        {
+          "index": [
+            1,
+            7,
+            3
+          ],
+          "pose": [
+            0.05,
+            1.75,
+            0.15000000000000002
+          ],
+          "status": "collision",
+          "intersection_mm3": 2.0078047026511725
+        },
+        {
+          "index": [
+            -5,
+            7,
+            0
+          ],
+          "pose": [
+            -0.25,
+            1.75,
+            0.0
+          ],
+          "status": "collision",
+          "intersection_mm3": 0.8293710693725926
+        },
+        {
+          "index": [
+            -4,
+            8,
+            0
+          ],
+          "pose": [
+            -0.2,
+            2.0,
+            0.0
+          ],
+          "status": "collision",
+          "intersection_mm3": 2.660997195384801
+        },
+        {
+          "index": [
+            -4,
+            7,
+            -1
+          ],
+          "pose": [
+            -0.2,
+            1.75,
+            -0.05
+          ],
+          "status": "collision",
+          "intersection_mm3": 0.4438443403714688
+        },
+        {
+          "index": [
+            -4,
+            7,
+            1
+          ],
+          "pose": [
+            -0.2,
+            1.75,
+            0.05
+          ],
+          "status": "collision",
+          "intersection_mm3": 2.05165948331392
+        },
+        {
+          "index": [
+            5,
+            7,
+            0
+          ],
+          "pose": [
+            0.25,
+            1.75,
+            0.0
+          ],
+          "status": "collision",
+          "intersection_mm3": 0.8293710693725925
+        },
+        {
+          "index": [
+            4,
+            8,
+            0
+          ],
+          "pose": [
+            0.2,
+            2.0,
+            0.0
+          ],
+          "status": "collision",
+          "intersection_mm3": 2.660997195384801
+        },
+        {
+          "index": [
+            4,
+            7,
+            -1
+          ],
+          "pose": [
+            0.2,
+            1.75,
+            -0.05
+          ],
+          "status": "collision",
+          "intersection_mm3": 2.0516594833678727
+        },
+        {
+          "index": [
+            4,
+            7,
+            1
+          ],
+          "pose": [
+            0.2,
+            1.75,
+            0.05
+          ],
+          "status": "collision",
+          "intersection_mm3": 0.4438443403891348
+        }
+      ],
+      "uncertain_details": []
+    }
+  ],
+  "validation_note": "Search guide BRep was compared against the previous nominal FreeCAD guide under translation: equal volumes and zero bidirectional difference volumes within 1e-6 mm3. Four saved search solids reopened valid.",
+  "review_note": "Independent review checked pose transform, guide dimensions and same-polygon initial solve. First uncertain obstacle short-circuits classification; conservative rejection, not exhaustive collision diagnosis. No uncertain poses occurred in this run."
+}

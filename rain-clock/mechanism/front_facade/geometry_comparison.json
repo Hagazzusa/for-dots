@@ -1,0 +1,331 @@
+{
+  "parts": 71,
+  "all_solids_valid": true,
+  "moving_window_broadphase_pairs": 3536,
+  "exact_intersections_evaluated": 17,
+  "sampled_angles_each_ring": 17,
+  "window_intersections": [],
+  "visibility_samples": [
+    {
+      "ring": "Outer",
+      "view": "Front",
+      "sample_type": "hub_surface",
+      "hidden_points": 144,
+      "points": 144,
+      "caveat": "Nominal zero-angle pose; sampled-point count, NOT projected area; window bounding boxes only"
+    },
+    {
+      "ring": "Outer",
+      "view": "Front",
+      "sample_type": "spoke_centerlines",
+      "hidden_points": 96,
+      "points": 102,
+      "caveat": "Nominal zero-angle pose; sampled-point count, NOT projected area; window bounding boxes only"
+    },
+    {
+      "ring": "Outer",
+      "view": "Three_quarter",
+      "sample_type": "hub_surface",
+      "hidden_points": 144,
+      "points": 144,
+      "caveat": "Nominal zero-angle pose; sampled-point count, NOT projected area; window bounding boxes only"
+    },
+    {
+      "ring": "Outer",
+      "view": "Three_quarter",
+      "sample_type": "spoke_centerlines",
+      "hidden_points": 102,
+      "points": 102,
+      "caveat": "Nominal zero-angle pose; sampled-point count, NOT projected area; window bounding boxes only"
+    },
+    {
+      "ring": "Inner",
+      "view": "Front",
+      "sample_type": "hub_surface",
+      "hidden_points": 144,
+      "points": 144,
+      "caveat": "Nominal zero-angle pose; sampled-point count, NOT projected area; window bounding boxes only"
+    },
+    {
+      "ring": "Inner",
+      "view": "Front",
+      "sample_type": "spoke_centerlines",
+      "hidden_points": 102,
+      "points": 102,
+      "caveat": "Nominal zero-angle pose; sampled-point count, NOT projected area; window bounding boxes only"
+    },
+    {
+      "ring": "Inner",
+      "view": "Three_quarter",
+      "sample_type": "hub_surface",
+      "hidden_points": 144,
+      "points": 144,
+      "caveat": "Nominal zero-angle pose; sampled-point count, NOT projected area; window bounding boxes only"
+    },
+    {
+      "ring": "Inner",
+      "view": "Three_quarter",
+      "sample_type": "spoke_centerlines",
+      "hidden_points": 102,
+      "points": 102,
+      "caveat": "Nominal zero-angle pose; sampled-point count, NOT projected area; window bounding boxes only"
+    }
+  ],
+  "bead_occlusion_samples": [
+    {
+      "ring": "Outer",
+      "sample": 0,
+      "fully_hidden_bead_bounds": []
+    },
+    {
+      "ring": "Outer",
+      "sample": 1,
+      "fully_hidden_bead_bounds": []
+    },
+    {
+      "ring": "Outer",
+      "sample": 2,
+      "fully_hidden_bead_bounds": []
+    },
+    {
+      "ring": "Outer",
+      "sample": 3,
+      "fully_hidden_bead_bounds": []
+    },
+    {
+      "ring": "Outer",
+      "sample": 4,
+      "fully_hidden_bead_bounds": []
+    },
+    {
+      "ring": "Outer",
+      "sample": 5,
+      "fully_hidden_bead_bounds": []
+    },
+    {
+      "ring": "Outer",
+      "sample": 6,
+      "fully_hidden_bead_bounds": []
+    },
+    {
+      "ring": "Outer",
+      "sample": 7,
+      "fully_hidden_bead_bounds": []
+    },
+    {
+      "ring": "Outer",
+      "sample": 8,
+      "fully_hidden_bead_bounds": []
+    },
+    {
+      "ring": "Outer",
+      "sample": 9,
+      "fully_hidden_bead_bounds": []
+    },
+    {
+      "ring": "Outer",
+      "sample": 10,
+      "fully_hidden_bead_bounds": []
+    },
+    {
+      "ring": "Outer",
+      "sample": 11,
+      "fully_hidden_bead_bounds": []
+    },
+    {
+      "ring": "Outer",
+      "sample": 12,
+      "fully_hidden_bead_bounds": []
+    },
+    {
+      "ring": "Outer",
+      "sample": 13,
+      "fully_hidden_bead_bounds": []
+    },
+    {
+      "ring": "Outer",
+      "sample": 14,
+      "fully_hidden_bead_bounds": []
+    },
+    {
+      "ring": "Outer",
+      "sample": 15,
+      "fully_hidden_bead_bounds": []
+    },
+    {
+      "ring": "Outer",
+      "sample": 16,
+      "fully_hidden_bead_bounds": []
+    },
+    {
+      "ring": "Inner",
+      "sample": 0,
+      "fully_hidden_bead_bounds": [
+        "Inner_bead_05",
+        "Inner_bead_06"
+      ]
+    },
+    {
+      "ring": "Inner",
+      "sample": 1,
+      "fully_hidden_bead_bounds": [
+        "Inner_bead_06"
+      ]
+    },
+    {
+      "ring": "Inner",
+      "sample": 2,
+      "fully_hidden_bead_bounds": [
+        "Inner_bead_06"
+      ]
+    },
+    {
+      "ring": "Inner",
+      "sample": 3,
+      "fully_hidden_bead_bounds": [
+        "Inner_bead_06"
+      ]
+    },
+    {
+      "ring": "Inner",
+      "sample": 4,
+      "fully_hidden_bead_bounds": [
+        "Inner_bead_06"
+      ]
+    },
+    {
+      "ring": "Inner",
+      "sample": 5,
+      "fully_hidden_bead_bounds": [
+        "Inner_bead_06"
+      ]
+    },
+    {
+      "ring": "Inner",
+      "sample": 6,
+      "fully_hidden_bead_bounds": [
+        "Inner_bead_06"
+      ]
+    },
+    {
+      "ring": "Inner",
+      "sample": 7,
+      "fully_hidden_bead_bounds": [
+        "Inner_bead_06"
+      ]
+    },
+    {
+      "ring": "Inner",
+      "sample": 8,
+      "fully_hidden_bead_bounds": [
+        "Inner_bead_06"
+      ]
+    },
+    {
+      "ring": "Inner",
+      "sample": 9,
+      "fully_hidden_bead_bounds": [
+        "Inner_bead_06"
+      ]
+    },
+    {
+      "ring": "Inner",
+      "sample": 10,
+      "fully_hidden_bead_bounds": [
+        "Inner_bead_06"
+      ]
+    },
+    {
+      "ring": "Inner",
+      "sample": 11,
+      "fully_hidden_bead_bounds": [
+        "Inner_bead_06"
+      ]
+    },
+    {
+      "ring": "Inner",
+      "sample": 12,
+      "fully_hidden_bead_bounds": [
+        "Inner_bead_06"
+      ]
+    },
+    {
+      "ring": "Inner",
+      "sample": 13,
+      "fully_hidden_bead_bounds": [
+        "Inner_bead_06"
+      ]
+    },
+    {
+      "ring": "Inner",
+      "sample": 14,
+      "fully_hidden_bead_bounds": [
+        "Inner_bead_06"
+      ]
+    },
+    {
+      "ring": "Inner",
+      "sample": 15,
+      "fully_hidden_bead_bounds": [
+        "Inner_bead_06"
+      ]
+    },
+    {
+      "ring": "Inner",
+      "sample": 16,
+      "fully_hidden_bead_bounds": [
+        "Inner_bead_06"
+      ]
+    }
+  ],
+  "dimensions": {
+    "hub_centers_Y_mm": [
+      -50,
+      -80
+    ],
+    "hub_outer_radius_mm": 10,
+    "shaft_radius_envelope_mm": 3,
+    "spoke_halfangles_deg": [
+      3,
+      18
+    ],
+    "rotating_forward_bridge_lengths_mm": [
+      0,
+      0
+    ],
+    "bead_to_hub_offsets_mm": [
+      14,
+      14
+    ],
+    "facade_bounds_mm": {
+      "x": [
+        -56,
+        56
+      ],
+      "y": [
+        -112,
+        -102
+      ],
+      "z": [
+        77.5,
+        232
+      ]
+    },
+    "shaft_support_planes_Y_mm": [
+      -99,
+      -28
+    ],
+    "base_depth_mm": 210
+  },
+  "limits": "Single alternative only. No bearing or fastening selected; no stiffness, force, full coupled motion or fabrication validation. Foreground facade intentionally hides some beads.",
+  "visual_review": {
+    "final_views": "Front and quarter images inspected; fused mullions have no coplanar overlap artifact; hubs concealed, deliberate lower-bead occlusion visible",
+    "successful_final_render_seconds": 18.559,
+    "total_preview_render_seconds_including_visual_iteration": 37.781,
+    "cpu_threads": 2,
+    "resolution": [
+      900,
+      800
+    ]
+  }
+}
