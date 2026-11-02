@@ -89,7 +89,7 @@ text = "지금은 시간이 멈춰 있어요.\n읽던 이야기와 기다리던 
 autowrap_mode = 3
 [node name="Guide" type="Label" parent="Root/Panel/Padding/Scroll/Content"]
 layout_mode = 2
-text = "WASD  걷기   ·   방향키 / 마우스  둘러보기\nE  대화 · 앉기 · 탑승   ·   F  코코아 마시기\nU  우산 펴기 / 접기   ·   Q  이야기 닫기\n1 / 2  대화 선택   ·   P  풍경 보기   ·   M  음소거\nEsc  마우스 놓기   ·   Space  쉬기 / 돌아가기"
+text = "WASD  걷기   ·   방향키 / 마우스  둘러보기\nE  대화 · 앉기 · 탑승   ·   F  코코아 마시기\nU  우산 펴기 / 접기   ·   Q  이야기 닫기\n1 / 2  대화 선택   ·   P  풍경 보기 / 돌아가기   ·   M  음소거\nT  앉아서 조용히 기다리기   ·   G  우산 빌려주기 이야기\nEsc  마우스 놓기   ·   Space  쉬기 / 돌아가기"
 autowrap_mode = 3
 [node name="Resume" type="Button" parent="Root/Panel/Padding/Scroll/Content"]
 custom_minimum_size = Vector2(0, 44)

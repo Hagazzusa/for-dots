@@ -10,6 +10,17 @@ extends Node3D
 @export var initial_positions: Array[Vector3] = []
 @onready var instances: MultiMeshInstance3D = $Drops
 @export var additional_shelters: Array[AABB] = []
+@export var near_view_start := 0.45
+@export var near_view_end := 1.8
+var view_position := Vector3.ZERO
+var has_view := false
+func set_view_position(point:Vector3)->void:
+	view_position=point
+	has_view=true
+func proximity_scale(point:Vector3)->float:
+	if not has_view:return 1.0
+	return smoothstep(near_view_start,maxf(near_view_end,near_view_start+.001),to_global(point).distance_to(view_position))
+
 var weather_lull := 0.0
 var umbrella_center := Vector3.ZERO
 var umbrella_cover := false
@@ -73,4 +84,4 @@ func _drop_hidden(p: Vector3) -> bool:
 func _update_transforms() -> void:
 	for i in range(drops.size()):
 		var p := drops[i]
-		instances.multimesh.set_instance_transform(i,Transform3D(Basis().scaled(Vector3.ZERO if _drop_hidden(p) else Vector3.ONE),p))
+		instances.multimesh.set_instance_transform(i,Transform3D(Basis().scaled(Vector3.ZERO if _drop_hidden(p) else Vector3.ONE*proximity_scale(p)),p))

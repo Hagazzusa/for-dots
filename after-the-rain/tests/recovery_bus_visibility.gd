@@ -14,7 +14,7 @@ func run() -> void:
 	for node in [a,b,alone]: root.add_child(node)
 	check(alone.visible and alone.route_opacity == 1, "Standalone saved visual remains visible")
 	check(a.visible and not a.visual.visible and a.position.x == a.schedule.approach_x, "Waiting hides only child visual")
-	check(a.visual._fade_meshes.size() == 87, "Every authored mesh cached")
+	check(a.visual._fade_meshes.size() == 93, "Every authored mesh cached")
 	check(a.visual._fade_lights.size() == 3, "All authored lights cached")
 	check(a.find_children("*","CollisionObject3D",true,false).is_empty(), "No added collision")
 	for lamp in a.visual._fade_lights:

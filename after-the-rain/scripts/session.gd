@@ -4,6 +4,7 @@ extends Node3D
 @export var boarding_radius := 1.7
 @export var vending_radius := 1.8
 @export var disposal_radius := 1.6
+@onready var overview = $OverviewView
 @onready var weather = $WeatherCycle
 @onready var clock = $EveningClock
 @onready var exchange = $UmbrellaExchange
@@ -82,7 +83,7 @@ func wait_quietly():
 	clock.advance(skipped)
 	set_note("잠깐 눈을 감았다. 멀리서 버스 불빛이 다가온다.",5)
 func toggle_umbrella():
-	if not boarded: umbrella.toggle_open()
+	if not boarded and not photo_mode: umbrella.toggle_open()
 
 func _on_look(force:Vector2):
 	if drink.has_cup:
@@ -102,6 +103,11 @@ func near(id:String,distance:float)->bool:
 
 func interact():
 	if boarded:
+		if onboard.linger:onboard.stop_linger()
+		elif ride_finished:onboard.start_linger()
+		return
+	if photo_mode:
+		leave_photo_view()
 		return
 	photo_mode=false
 	player.set_motion_enabled(true)
@@ -121,10 +127,12 @@ func interact():
 	elif near("Seat",seat_radius):
 		player.sit(world.anchor("Seat"))
 func drink_action():
+	if photo_mode:return
 	drink.request_action(near("Vending",vending_radius) and not player.seated,boarded)
 func board_bus():
 	if boarded or player.seated or bus.phase!="stopped":
 		return
+	leave_photo_view()
 	var passenger=story.objects.get_node("Passenger")
 	ride_note=exchange.boarding_caption(passenger.state=="boarded" and not exchange.departed)
 	if story:
@@ -142,6 +150,8 @@ func board_bus():
 	Input.mouse_mode=Input.MOUSE_MODE_VISIBLE
 func restart():
 	pause_overlay.reset()
+	leave_photo_view()
+	overview.reset()
 	exchange.reset()
 	clock.reset()
 	weather.reset()
@@ -167,11 +177,26 @@ func restart():
 		Input.mouse_mode=Input.MOUSE_MODE_CAPTURED
 func photo_view():
 	if boarded:return
+	if photo_mode:
+		leave_photo_view()
+		return
 	photo_mode=true
-	player.set_photo_view(Vector3(5.5,2.7,10),Vector3(0,1.2,0))
+	player.set_motion_enabled(false)
+	story.panel.set_suspended(true)
+	overview.begin()
+func leave_photo_view():
+	if not photo_mode:return
+	overview.end()
+	photo_mode=false
+	player.set_motion_enabled(true)
+	story.panel.set_suspended(false)
+
 
 func hint_text()->String:
-	if boarded:return "[R] Start another rainy evening" if ride_finished else "A window seat. The city slips quietly by."
+	if boarded:
+		if onboard.linger:return "[E] 오늘 밤 마무리하기    [R] 다시 시작"
+		return "[E] 창가에 조금 더 앉아 있기    [R] 다시 시작" if ride_finished else "A window seat. The city slips quietly by."
+	if photo_mode:return "[P / E] 바라보던 자리로 돌아가기    Space 잠깐 쉬기"
 	if player.seated:
 		return "[E] Stand up"+("     [F] Sip warm cocoa" if drink.sips>0 else "     Stay a while. There's no hurry.")+("    [T] 조용히 기다리기" if bus.phase=="waiting" else "")
 	if bus.phase=="stopped" and near("Boarding",boarding_radius):
@@ -207,10 +232,11 @@ func _process(delta):
 		story.objects.get_node("SharedUmbrella").visible=not umbrella.held and not exchange.loaned
 	if not boarded:exchange.present(delta,bus.phase)
 	umbrella.present(delta,player.velocity)
+	umbrella.visible=umbrella.held and not boarded and not photo_mode
 	drink.advance(delta)
 	onboard.advance(delta)
 	arrival_display.present("departing" if boarded else bus.phase,bus.countdown_seconds())
-	player.held_drink.present(drink.sips,drink.has_cup,drink.sip_time,boarded,player.velocity,player.rotation.y,player.seated,delta,time)
+	player.held_drink.present(drink.sips,drink.has_cup,drink.sip_time,boarded or photo_mode,player.velocity,player.rotation.y,player.seated,delta,time)
 	warmth=maxf(0,warmth-delta)
 	note_time=maxf(0,note_time-delta)
 	var sheltered=world.is_sheltered(player.position)
@@ -221,11 +247,13 @@ func _process(delta):
 	var feeling=ride_note if boarded else (note if note_time>0 else ("The rain is softer beneath the roof." if sheltered else ("The cocoa's warmth lingers." if warmth>0 else "Cool rain on your sleeves. The shelter is close.")))
 	if story and not boarded and not story.caption(player.global_position).is_empty():
 		feeling=story.caption(player.global_position)
-	if umbrella.held and not boarded:
+	if umbrella.held and not boarded and not photo_mode:
 		hint+="   [U] 우산 접기" if umbrella.is_open else "   [U] 우산 펴기"
 	if covered and not sheltered: feeling="우산 위로 빗방울이 톡톡 떨어진다. 꽃집 불빛은 왼쪽 골목에 있다."
-	hud.present(hint,feeling,"" if boarded else bus.status_text(),ride_finished)
-	hud.set_riding(boarded)
+	hud.present(hint,feeling,"" if boarded else bus.status_text(),ride_finished and not onboard.linger)
+	hud.set_riding(boarded,photo_mode)
+	var active_camera=get_viewport().get_camera_3d()
+	if active_camera:rain.set_view_position(active_camera.global_position)
 	rain.advance(delta)
 
 func capture_preview():

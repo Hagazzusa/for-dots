@@ -312,9 +312,6 @@ size = Vector3(1.3, 0.12, 0.45)
 [sub_resource type="BoxMesh" id="BoxMesh_n1aff"]
 size = Vector3(1.4, 0.1, 0.12)
 
-[sub_resource type="BoxMesh" id="BoxMesh_lp11v"]
-size = Vector3(1.25, 1.8, 0.06)
-
 [sub_resource type="BoxMesh" id="BoxMesh_3nboe"]
 size = Vector3(2.5, 0.3, 0.08)
 
@@ -345,6 +342,42 @@ size = Vector3(0.3, 0.35, 0.75)
 
 [sub_resource type="BoxMesh" id="DoorRearPillarMesh"]
 size = Vector3(0.09, 1.35, 0.13)
+
+[sub_resource type="StandardMaterial3D" id="EntryRubber"]
+albedo_color = Color(0.085, 0.12, 0.125, 1)
+roughness = 0.9
+
+[sub_resource type="StandardMaterial3D" id="EntryWarmLens"]
+albedo_color = Color(0.72, 0.64, 0.46, 1)
+roughness = 0.7
+emission_enabled = true
+emission = Color(0.72, 0.58, 0.34, 1)
+emission_energy_multiplier = 0.3
+
+[sub_resource type="CylinderMesh" id="EntryPoleMesh"]
+top_radius = 0.027
+bottom_radius = 0.027
+height = 1.65
+radial_segments = 8
+rings = 1
+
+[sub_resource type="BoxMesh" id="EntryCeilingHousingMesh"]
+size = Vector3(1.08, 0.08, 0.52)
+
+[sub_resource type="BoxMesh" id="EntryCeilingLensMesh"]
+size = Vector3(0.82, 0.016, 0.32)
+
+[sub_resource type="BoxMesh" id="EntryKickPanelMesh"]
+size = Vector3(1.16, 0.44, 0.06)
+
+[sub_resource type="BoxMesh" id="EntryUpperTreadMesh"]
+size = Vector3(1.18, 0.012, 0.46)
+
+[sub_resource type="BoxMesh" id="EntryUpperNosingMesh"]
+size = Vector3(1.18, 0.012, 0.045)
+
+[sub_resource type="BoxMesh" id="EntryLowerNosingMesh"]
+size = Vector3(1.18, 0.012, 0.045)
 
 [node name="Visual" type="Node3D" unique_id=317212465]
 script = ExtResource("ArchitectureScript")
@@ -724,7 +757,7 @@ mesh = SubResource("CylinderMesh_hd2gq")
 
 [node name="EntryUpperStep" type="MeshInstance3D" parent="." unique_id=813266226]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 2.8, 0.7, -0.8)
-material_override = SubResource("StandardMaterial3D_k4yre")
+material_override = SubResource("StandardMaterial3D_yesi2")
 mesh = SubResource("BoxMesh_e1ykl")
 
 [node name="EntryLowerStep" type="MeshInstance3D" parent="." unique_id=2046052238]
@@ -737,15 +770,10 @@ transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 2.8, 2.49, -1.13)
 material_override = SubResource("StandardMaterial3D_4031q")
 mesh = SubResource("BoxMesh_n1aff")
 
-[node name="InteriorWarmPanel" type="MeshInstance3D" parent="." unique_id=26412802]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 2.8, 1.62, 0.85)
-material_override = SubResource("StandardMaterial3D_k4yre")
-mesh = SubResource("BoxMesh_lp11v")
-
 [node name="EntryLight" type="OmniLight3D" parent="." unique_id=52669593]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 2.8, 2.2, -1.25)
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 2.8, 2.3, -0.25)
 light_color = Color(1, 0.8392157, 0.5803922, 1)
-light_energy = 1.3
+light_energy = 0.75
 omni_range = 3.8
 
 [node name="MeshInstance76" type="MeshInstance3D" parent="." unique_id=530426658]
@@ -811,3 +839,40 @@ mesh = SubResource("EntryFrontFloorMesh")
 position = Vector3(2.105, 1.91, -1.08)
 material_override = SubResource("StandardMaterial3D_4031q")
 mesh = SubResource("DoorRearPillarMesh")
+
+[node name="EntryDetails" type="Node3D" parent="."]
+
+[node name="CeilingHousing" type="MeshInstance3D" parent="EntryDetails"]
+position = Vector3(2.8, 2.42, -0.2)
+material_override = SubResource("StandardMaterial3D_yesi2")
+mesh = SubResource("EntryCeilingHousingMesh")
+
+[node name="CeilingLens" type="MeshInstance3D" parent="EntryDetails"]
+position = Vector3(2.8, 2.371, -0.2)
+material_override = SubResource("EntryWarmLens")
+mesh = SubResource("EntryCeilingLensMesh")
+
+[node name="KickPanel" type="MeshInstance3D" parent="EntryDetails"]
+position = Vector3(2.8, 0.97, 0.52)
+material_override = SubResource("StandardMaterial3D_yesi2")
+mesh = SubResource("EntryKickPanelMesh")
+
+[node name="UpperTread" type="MeshInstance3D" parent="EntryDetails"]
+position = Vector3(2.8, 0.782, -0.72)
+material_override = SubResource("EntryRubber")
+mesh = SubResource("EntryUpperTreadMesh")
+
+[node name="UpperNosing" type="MeshInstance3D" parent="EntryDetails"]
+position = Vector3(2.8, 0.782, -1.095)
+material_override = SubResource("StandardMaterial3D_4031q")
+mesh = SubResource("EntryUpperNosingMesh")
+
+[node name="LowerNosing" type="MeshInstance3D" parent="EntryDetails"]
+position = Vector3(2.8, 0.567, -1.19)
+material_override = SubResource("StandardMaterial3D_4031q")
+mesh = SubResource("EntryLowerNosingMesh")
+
+[node name="SidePole" type="MeshInstance3D" parent="EntryDetails"]
+position = Vector3(3.38, 1.58, -0.12)
+material_override = SubResource("StandardMaterial3D_4031q")
+mesh = SubResource("EntryPoleMesh")

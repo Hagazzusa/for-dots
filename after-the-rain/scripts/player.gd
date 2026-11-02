@@ -25,7 +25,7 @@ var motion_enabled := true
 func _unhandled_input(event: InputEvent):
 	if not input_enabled:
 		return
-	if event is InputEventMouseMotion and Input.mouse_mode == Input.MOUSE_MODE_CAPTURED:
+	if motion_enabled and event is InputEventMouseMotion and Input.mouse_mode == Input.MOUSE_MODE_CAPTURED:
 		if event.relative.length() < 150:
 			look_impulse.emit(Vector2(-event.relative.x,event.relative.y)*.02)
 			rotation.y -= event.relative.x*mouse_sensitivity

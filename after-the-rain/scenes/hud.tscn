@@ -76,6 +76,7 @@ grow_horizontal = 2
 grow_vertical = 2
 color = Color(0.035, 0.06, 0.08, 0.92)
 [node name="Message" type="Label" parent="Ending"]
+theme_override_fonts/font = ExtResource("2_font")
 modulate = Color(1, 0.882353, 0.678431, 1)
 layout_mode = 1
 anchors_preset = 15
@@ -84,6 +85,6 @@ anchor_bottom = 1.0
 grow_horizontal = 2
 grow_vertical = 2
 theme_override_font_sizes/font_size = 26
-text = "08  /  HOME\n\nThe doors close softly.\nFor now, there is nothing else to do.\n\n[R] Another rainy evening"
+text = "08  /  HOME\n\nThe doors close softly.\nFor now, there is nothing else to do.\n\n[E] 창가에 조금 더 앉아 있기\n[R] Another rainy evening"
 horizontal_alignment = 1
 vertical_alignment = 1

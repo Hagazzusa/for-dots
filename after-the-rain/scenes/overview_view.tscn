@@ -1,0 +1,9 @@
+[gd_scene load_steps=2 format=3]
+[ext_resource type="Script" path="res://scripts/overview_view.gd" id="Script"]
+[node name="OverviewView" type="Node3D"]
+script = ExtResource("Script")
+[node name="Camera3D" type="Camera3D" parent="."]
+position = Vector3(5.5, 2.7, 10)
+rotation = Vector3(-0.1306833265090318, 0.5028432109278608, 0)
+fov = 72.0
+near = 0.05

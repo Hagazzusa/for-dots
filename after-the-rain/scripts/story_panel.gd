@@ -5,6 +5,7 @@ signal closed
 signal story_closed(story: Resource)
 var current_story: Resource
 signal choice_selected(index: int)
+var suspended := false
 var is_open: bool = false
 var _pages: Array[String] = []
 var _choice_labels: Array[String] = []
@@ -17,6 +18,10 @@ var _awaiting_choice: bool = false
 @onready var choice_label: Label = $Panel/Choices
 @onready var guide_label: Label = $Panel/Guide
 @onready var page_label: Label = $Panel/Page
+
+func set_suspended(value:bool)->void:
+	suspended=value
+	visible=not value
 
 func open_story(story: StoryText) -> void:
 	if story == null or story.pages.is_empty():
@@ -68,7 +73,7 @@ func _present() -> void:
 	page_label.text = "%d / %d" % [_page+1,_pages.size()]
 
 func _unhandled_key_input(event: InputEvent) -> void:
-	if not is_open or not event is InputEventKey or not event.pressed or event.echo:
+	if suspended or not is_open or not event is InputEventKey or not event.pressed or event.echo:
 		return
 	match event.keycode:
 		KEY_Q:
