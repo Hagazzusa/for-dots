@@ -66,6 +66,16 @@ class PreflightTests(unittest.TestCase):
         for variant in variants:
             self.assertIn('private_absolute_path_pattern', self.codes('a.png', png(variant)))
 
+    def test_png_c2pa_manual_without_disclosure_or_mutation(self):
+        raw = png((b'caBX', b'synthetic provenance ' + FAKE_TOKEN + FAKE_PATH))
+        path = self.put('provenance.png', raw)
+        report = pf.audit(self.root)
+        self.assertEqual(report['findings'], [{'file': 'provenance.png', 'level': 'manual', 'code': 'png_c2pa_provenance_requires_review'}])
+        self.assertNotIn(FAKE_TOKEN.decode(), json.dumps(report))
+        self.assertNotIn(FAKE_PATH.decode(), json.dumps(report))
+        self.assertEqual(path.read_bytes(), raw)
+        self.assertEqual(self.codes('clean.png', png()), set())
+
     def test_png_decompression_limit_and_crc(self):
         bomb = zlib.compress(b'A' * (pf.MAX_METADATA + 1))
         self.assertIn('metadata_incomplete_invalid_or_limit_reached', self.codes('a.png', png((b'zTXt', b'X\0\0' + bomb))))

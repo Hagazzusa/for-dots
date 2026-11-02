@@ -14,13 +14,13 @@ Python 3.8+; Git is needed only for `--tracked`. No engines, plugins, network se
 ## What it checks
 
 - Selected UTF-8 text files: common private absolute-path patterns and a limited set of credential-like prefixes/private-key markers. Ordinary source identifiers such as `password` or `api_token = None` are not credentials.
-- PNG: `tEXt`, compressed `zTXt`, and `iTXt` metadata, bounded decompression and metadata CRCs. EXIF gets a raw pattern scan **and requires structured manual review**, even when it is only benign resolution data. No pixels are decoded.
+- PNG: `tEXt`, compressed `zTXt`, and `iTXt` metadata, bounded decompression and metadata CRCs. EXIF gets a raw pattern scan **and requires structured manual review**, even when it is only benign resolution data. No pixels are decoded. `caBX` / C2PA authenticity metadata is explicitly marked for manual provenance review, without decoding its claim/certificate payloads. Its presence is not automatically suspicious or secret; it is never stripped or treated as cryptographic trust-chain verification.
 - OpenEXR: bounded string attributes, especially absolute `File` paths. Deep/multipart files require native review. Channel/pixel data is not decoded or altered.
 - FreeCAD `.FCStd`: bounded ZIP central directory and XML metadata, including decoded XML values. No archive extraction; ZIP64 is conservatively unsupported. Native binary geometry/properties still require review. Entity declarations are not expanded.
 - `.blend`: always **manual native read-only audit required**, including compressed files. The script never treats a raw string scan as sufficient Blender inspection.
 - Audio, video and other unsupported formats: explicitly unscanned/manual, not implicitly clean.
 
-Limits: 10,000 selected paths; 4 MiB per text file; 1 MiB PNG encoded/decoded metadata or EXR header; 512 CAD members, 1 MiB ZIP central directory/per-XML data and 4 MiB total XML. Oversize, malformed or unavailable data is **incomplete/manual**, never a clean result. Some real assets legitimately exceed these limits. These bounds apply to selected metadata, not total runtime or initial directory/Git enumeration: listing a huge worktree can allocate before the path-count limit is checked. Use a bounded, trusted staging directory; this is not an adversarial filesystem sandbox.
+Limits: 10,000 selected paths; 4 MiB per text file; 1 MiB PNG text/EXIF encoded/decoded metadata or EXR header; 512 CAD members, 1 MiB ZIP central directory/per-XML data and 4 MiB total XML. Oversize, malformed or unavailable data is **incomplete/manual**, never a clean result. Some real assets legitimately exceed these limits. These bounds apply to selected metadata, not total runtime or initial directory/Git enumeration: listing a huge worktree can allocate before the path-count limit is checked. Use a bounded, trusted staging directory; this is not an adversarial filesystem sandbox.
 
 ## Output and follow-up
 

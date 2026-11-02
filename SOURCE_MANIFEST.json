@@ -3104,18 +3104,18 @@
     },
     {
       "path": "tools/README.md",
-      "size": 3984,
-      "sha256": "56aae7647e4f0404b750fbcd958b59546472236c70d4f70e54c4395bd6551dba"
+      "size": 4261,
+      "sha256": "c1ca43b323f80cdbdfe9e0ed233249c655bd448f4fb300737b04bbca06f29650"
     },
     {
       "path": "tools/check_public_assets.py",
-      "size": 14241,
-      "sha256": "a559b9ed9eaa2ce089716ff5e958fe8f70b6bbabc26b2443cd05e76dd4a4c685"
+      "size": 14551,
+      "sha256": "bb3eed32774513e1265baa5242ec7cf59ec9bb419826d75f721fd542c1f914fe"
     },
     {
       "path": "tools/test_check_public_assets.py",
-      "size": 10051,
-      "sha256": "986ceb7e64800c2c81037e40b1fdc3fbeddff451471d86a96d8cecfdd78f5d3a"
+      "size": 10668,
+      "sha256": "f5cc05dc02a96b2832ee53e0ce0c6e18d82bef008ea8d32f95b83cc8a3a58afa"
     },
     {
       "path": "verify_sources.py",

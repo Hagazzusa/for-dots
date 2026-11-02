@@ -60,6 +60,9 @@ def png_metadata(path):
             chunks += 1
             if chunks > 100000 or n + 4 > size - f.tell():
                 raise Incomplete('png_chunk_limit_or_truncation')
+            if kind == b'caBX':
+                # Preserve authenticity metadata; this scanner does not parse or trust it.
+                result.append(('manual', 'png_c2pa_provenance_requires_review'))
             if kind in (b'tEXt', b'zTXt', b'iTXt', b'eXIf'):
                 total += n
                 if total > MAX_METADATA:
@@ -271,6 +274,7 @@ def audit(root, tracked=False):
             'status': 'review_required' if findings else 'no_target_patterns_found',
             'limitations': ['No semantic privacy inference or authorship/license verification.',
                             'No native Blender audit, binary geometry inspection, audio/video metadata decoding or image-pixel decoding.',
+                            'No C2PA payload parsing or cryptographic signature/trust-chain validation.',
                             'No assurance against concurrent file mutation; run on a frozen trusted staging copy.',
                             'No autofix, deletion, upload, credential-store access or network requests.']}
 
