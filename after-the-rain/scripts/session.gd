@@ -4,6 +4,8 @@ extends Node3D
 @export var boarding_radius := 1.7
 @export var vending_radius := 1.8
 @export var disposal_radius := 1.6
+@onready var window_life = $WindowLife
+@onready var rain_details = $RainDetails
 @onready var conversation = $EveningConversation
 @onready var companion = $OnboardView/Companion
 @onready var overview = $OverviewView
@@ -157,6 +159,7 @@ func board_bus():
 	player.set_motion_enabled(false)
 	Input.mouse_mode=Input.MOUSE_MODE_VISIBLE
 func restart():
+	time=0.0
 	pause_overlay.reset()
 	leave_photo_view()
 	overview.reset()
@@ -165,6 +168,8 @@ func restart():
 	exchange.reset()
 	clock.reset()
 	weather.reset()
+	window_life.reset()
+	rain_details.reset()
 	rain.set_weather(0.0)
 	ride_note=""
 	ambience.reset()
@@ -230,6 +235,8 @@ func _process(delta):
 	time+=delta
 	if not ride_finished:clock.advance(delta)
 	weather.present(clock.elapsed)
+	window_life.present(clock.elapsed)
+	rain_details.present(time,weather.strength)
 	rain.set_weather(weather.strength)
 	ambience.set_weather(weather.strength)
 	if exploration and not boarded:exploration.advance(delta,player.global_position,weather.strength)

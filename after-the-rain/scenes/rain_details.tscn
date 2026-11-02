@@ -1,0 +1,98 @@
+[gd_scene format=3]
+[ext_resource type="Script" path="res://scripts/rain_details.gd" id="Script"]
+[sub_resource type="Shader" id="RingShader"]
+code = "shader_type spatial;\nrender_mode unshaded, cull_disabled, depth_draw_never, shadows_disabled;\nuniform float phase = 0.0;\nuniform float opacity = 0.16;\nuniform vec2 center = vec2(0.0);\nvoid fragment(){\n vec2 p=(UV-vec2(0.5))*2.0-center;\n float radius=mix(0.06,0.78,phase);\n float ring=1.0-smoothstep(0.008,0.018,abs(length(p)-radius));\n float fade=smoothstep(0.0,0.08,phase)*(1.0-phase)*(1.0-phase);\n ALBEDO=vec3(0.47,0.58,0.62);\n ALPHA=ring*fade*opacity;\n}"
+[sub_resource type="ShaderMaterial" id="RingMaterial"]
+shader = SubResource("RingShader")
+[sub_resource type="PlaneMesh" id="RingPlane"]
+size = Vector2(2,2)
+[sub_resource type="StandardMaterial3D" id="DropMaterial"]
+transparency = 1
+shading_mode = 0
+albedo_color = Color(0.48,0.58,0.62,0.48)
+[sub_resource type="BoxMesh" id="DropMesh"]
+size = Vector3(0.01,0.045,0.01)
+[sub_resource type="MultiMesh" id="DropPopulation"]
+transform_format = 1
+mesh = SubResource("DropMesh")
+[sub_resource type="StandardMaterial3D" id="SpoutMaterial"]
+albedo_color = Color(0.035,0.16,0.18,1)
+metallic = 0.6
+roughness = 0.35
+[sub_resource type="BoxMesh" id="SpoutMesh"]
+size = Vector3(0.18,0.07,0.16)
+[node name="RainDetails" type="Node3D"]
+script = ExtResource("Script")
+[node name="Puddles" type="Node3D" parent="."]
+[node name="Ripple1" type="MeshInstance3D" parent="Puddles"]
+position = Vector3(1.314518,-0.034,3.0954878)
+scale = Vector3(0.364378561,1,0.32444599449999995)
+mesh = SubResource("RingPlane")
+material_override = SubResource("RingMaterial")
+cast_shadow = 0
+metadata/source_puddle = "RoadAndPavement/MeshInstance208"
+[node name="Ripple2" type="MeshInstance3D" parent="Puddles"]
+position = Vector3(-0.8001938,-0.034,7.9935207)
+scale = Vector3(0.5470206705,1,0.353418253)
+mesh = SubResource("RingPlane")
+material_override = SubResource("RingMaterial")
+cast_shadow = 0
+metadata/source_puddle = "RoadAndPavement/MeshInstance205"
+[node name="Ripple3" type="MeshInstance3D" parent="Puddles"]
+position = Vector3(2.7010288,-0.034,7.636998)
+scale = Vector3(0.361665837,1,0.21145122749999998)
+mesh = SubResource("RingPlane")
+material_override = SubResource("RingMaterial")
+cast_shadow = 0
+metadata/source_puddle = "RoadAndPavement/MeshInstance204"
+[node name="Ripple4" type="MeshInstance3D" parent="Puddles"]
+position = Vector3(-0.4756794,-0.034,8.467884)
+scale = Vector3(0.3343924905,1,0.2024065135)
+mesh = SubResource("RingPlane")
+material_override = SubResource("RingMaterial")
+cast_shadow = 0
+metadata/source_puddle = "RoadAndPavement/MeshInstance223"
+[node name="Ripple5" type="MeshInstance3D" parent="Puddles"]
+position = Vector3(4.988283,-0.034,5.98103)
+scale = Vector3(0.7034460174999999,1,0.44866612499999997)
+mesh = SubResource("RingPlane")
+material_override = SubResource("RingMaterial")
+cast_shadow = 0
+metadata/source_puddle = "RoadAndPavement/MeshInstance219"
+[node name="Ripple6" type="MeshInstance3D" parent="Puddles"]
+position = Vector3(-1.0181837,-0.034,9.325916)
+scale = Vector3(0.773875615,1,0.21560124199999997)
+mesh = SubResource("RingPlane")
+material_override = SubResource("RingMaterial")
+cast_shadow = 0
+metadata/source_puddle = "RoadAndPavement/MeshInstance200"
+[node name="Ripple7" type="MeshInstance3D" parent="Puddles"]
+position = Vector3(6.4759083,-0.034,3.6675434)
+scale = Vector3(0.26888661999999997,1,0.452925645)
+mesh = SubResource("RingPlane")
+material_override = SubResource("RingMaterial")
+cast_shadow = 0
+metadata/source_puddle = "RoadAndPavement/MeshInstance234"
+[node name="Ripple8" type="MeshInstance3D" parent="Puddles"]
+position = Vector3(-1.9533052,-0.034,10.700779)
+scale = Vector3(0.334163815,1,0.405561945)
+mesh = SubResource("RingPlane")
+material_override = SubResource("RingMaterial")
+cast_shadow = 0
+metadata/source_puddle = "RoadAndPavement/MeshInstance212"
+[node name="Gutter" type="Node3D" parent="."]
+position = Vector3(3.7,0,1.51)
+[node name="Spout" type="MeshInstance3D" parent="Gutter"]
+position = Vector3(-0.07,3.02,-0.07)
+mesh = SubResource("SpoutMesh")
+material_override = SubResource("SpoutMaterial")
+[node name="Drops" type="MultiMeshInstance3D" parent="Gutter"]
+multimesh = SubResource("DropPopulation")
+material_override = SubResource("DropMaterial")
+cast_shadow = 0
+[node name="Impact" type="MeshInstance3D" parent="Gutter"]
+position = Vector3(0,0.103,0)
+scale = Vector3(0.07,1,0.07)
+mesh = SubResource("RingPlane")
+material_override = SubResource("RingMaterial")
+cast_shadow = 0

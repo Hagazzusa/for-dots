@@ -1,0 +1,16 @@
+[gd_scene load_steps=5 format=3]
+[ext_resource type="Script" path="res://scripts/window_life.gd" id="Script"]
+[ext_resource type="Shader" path="res://shaders/window_life.gdshader" id="Shader"]
+[sub_resource type="ShaderMaterial" id="Interior"]
+shader = ExtResource("Shader")
+[sub_resource type="QuadMesh" id="PaneMesh"]
+size = Vector2(1.05, 1.44)
+[node name="WindowLife" type="Node3D"]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 0.9529251, 0, 8.742278e-08, 0, -1, 6.0997976, 4.0953, 20.93)
+script = ExtResource("Script")
+metadata/source_anchor = "Across_04 / Apartment_B unlit window; measured glass envelope and 4.4mm front offset"
+[node name="Pane" type="MeshInstance3D" parent="."]
+visible = false
+mesh = SubResource("PaneMesh")
+material_override = SubResource("Interior")
+cast_shadow = 0
