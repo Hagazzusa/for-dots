@@ -42,3 +42,7 @@ godot --headless --script res://tools/build_pack.gd -- /tmp/second-cup-viewer.pc
 패커는 저장된 장면·스크립트·GLB import remap와 생성 리소스·글꼴 및 라이선스의 실제 의존성만 포함합니다. exporter, 검사 도구, QA 그림은 런타임 PCK에 포함하지 않습니다. 테스트 스크립트는 QA JSON을 갱신하므로 읽기 전용 파일 검사와 구별하세요. 기본 오프라인 자산 해시는 `python3 verify_asset.py`로 검사합니다.
 
 실제 네이티브 창에서 방향키 누름/떼기, 확대·축소 양끝, 위/아래 시점 한계, L 켜기/끄기, R 반복 복원과 640×480/1100×800 창을 확인했습니다. 첫 검사에서 밝게 날아간 도기와 상단 잘림을 발견해 조명·프레이밍을 고쳤습니다. [기본 화면](qa/native_preview.png)과 [작은 창](qa/native_small.png)은 실제 Godot 캡처입니다. 소프트웨어 렌더러에서 확인했으며 FPS 벤치마크나 다른 GPU의 동등한 외관을 주장하지 않습니다.
+
+## 별도 차 재질 연구
+
+[차 재질 한정 연구](../tea-material-study/README.md)는 alpha/PBR 후보를 기존 불투명 재질과 비교합니다. 높은 시점의 내부 명암은 일부 개선되었지만 컵 바닥 판독이 충분하지 않아 **통합을 보류**했습니다. 이 뷰어의 기본 차 재질과 자산은 그대로 유지합니다.

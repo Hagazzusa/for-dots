@@ -1,0 +1,70 @@
+{
+  "threshold_per_channel_8bit": 2,
+  "excluded_ui_rows_top": 52,
+  "excluded_ui_rows_bottom": 60,
+  "comparisons": [
+    {
+      "view": "high",
+      "key": "on",
+      "changed_scene_pixels_gt2": 28463,
+      "max_scene_channel_delta": 126,
+      "changed_bounds_xy": [
+        244,
+        196,
+        475,
+        354
+      ]
+    },
+    {
+      "view": "high",
+      "key": "off",
+      "changed_scene_pixels_gt2": 28467,
+      "max_scene_channel_delta": 87,
+      "changed_bounds_xy": [
+        205,
+        182,
+        475,
+        354
+      ]
+    },
+    {
+      "view": "oblique",
+      "key": "on",
+      "changed_scene_pixels_gt2": 12433,
+      "max_scene_channel_delta": 123,
+      "changed_bounds_xy": [
+        240,
+        209,
+        479,
+        279
+      ]
+    },
+    {
+      "view": "oblique",
+      "key": "off",
+      "changed_scene_pixels_gt2": 12420,
+      "max_scene_channel_delta": 125,
+      "changed_bounds_xy": [
+        240,
+        209,
+        479,
+        279
+      ]
+    },
+    {
+      "view": "low",
+      "key": "on",
+      "changed_scene_pixels_gt2": 0,
+      "max_scene_channel_delta": 0,
+      "changed_bounds_xy": null
+    },
+    {
+      "view": "low",
+      "key": "off",
+      "changed_scene_pixels_gt2": 0,
+      "max_scene_channel_delta": 1,
+      "changed_bounds_xy": null
+    }
+  ],
+  "scope": "Pixel differences only; not a physical optical or all-angle proof."
+}

@@ -1,0 +1,53 @@
+{
+  "checked_utc_date": "2026-11-02",
+  "status": "pass",
+  "input_hashes": [
+    {
+      "input": "original_art_blend",
+      "sha256": "eac50adac6aa30158ea9cfac70d9d3c71ae25602abc33975fb0ec2023c9f49bd",
+      "matches_expected": true
+    },
+    {
+      "input": "original_final_render",
+      "sha256": "bf3aca586974f2e7024dae8d5bdc265eb31e4576b7985a2c3bb5162c77d593b0",
+      "matches_expected": true
+    },
+    {
+      "input": "original_viewer_glb",
+      "sha256": "e5b3a05b8db4421d1cca41c7f8f30d266ca718533d2602c40a1bad2e34416a7b",
+      "matches_expected": true
+    },
+    {
+      "input": "isolated_copy_glb",
+      "sha256": "e5b3a05b8db4421d1cca41c7f8f30d266ca718533d2602c40a1bad2e34416a7b",
+      "matches_expected": true
+    }
+  ],
+  "original_art_verifier": {
+    "bundle": "The Second Cup",
+    "verified_files": 13,
+    "geometry_audit": "pass",
+    "final_pixels": [
+      1200,
+      1200
+    ],
+    "renderer_paths_removed": true,
+    "reference_bytes_preserved": true
+  },
+  "original_asset_verifier": {
+    "asset_bundle": "pass",
+    "files_excluding_manifest": 6,
+    "glb_bytes": 1094712,
+    "meshes": 19,
+    "triangles": 62072,
+    "materials": 6,
+    "producer_source_hash": "eac50adac6aa30158ea9cfac70d9d3c71ae25602abc33975fb0ec2023c9f49bd",
+    "glb_sha256": "e5b3a05b8db4421d1cca41c7f8f30d266ca718533d2602c40a1bad2e34416a7b"
+  },
+  "published_viewer_manifest": {
+    "files_verified": 31,
+    "manifest_sha256": "962b61ff6aabd1f361f287a74d65bb2702a9dbfd5103bad9a0f6a829195f8cbc",
+    "all_size_and_sha256_match": true
+  },
+  "scope": "Read-only checks after the final native material experiment. Runtime caches are outside these source manifests. No claim of renderer equivalence or all-angle transparency correctness."
+}

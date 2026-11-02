@@ -3509,8 +3509,8 @@
     },
     {
       "path": "second-cup-viewer/README.md",
-      "size": 4320,
-      "sha256": "8c189f89fa740568c7e2779844266fa395b9d818cbf51d28fd093341aa688b7a"
+      "size": 4684,
+      "sha256": "6887ec547b39f33dad0f696b0c8607f1431af1791ee7bc422c6f22038e1f96ca"
     },
     {
       "path": "second-cup-viewer/asset_manifest.json",
@@ -3560,7 +3560,7 @@
     {
       "path": "second-cup-viewer/manifest.json",
       "size": 5059,
-      "sha256": "962b61ff6aabd1f361f287a74d65bb2702a9dbfd5103bad9a0f6a829195f8cbc"
+      "sha256": "6761492cc3bab8b3f324c0adb67d5da173b3ebf73b248b2672ba389ccdf8f620"
     },
     {
       "path": "second-cup-viewer/project.godot",
@@ -4011,6 +4011,266 @@
       "path": "soft-shadow-study/w0.9_gap1.5.png",
       "size": 128753,
       "sha256": "6af8c67b3be2f6ed3e4af561857f669bfa9c934791017bc1706f99b378f77970"
+    },
+    {
+      "path": "tea-material-study/.gitignore",
+      "size": 14,
+      "sha256": "6f9e072d2e60cdc2609a3371ed3d4b44955d3a36a49d517a6b9560f82ff251bb"
+    },
+    {
+      "path": "tea-material-study/README.md",
+      "size": 2780,
+      "sha256": "b1b457f226f5a582773a65d23ff01b3df2c01a62684be5c45885c16aebae9234"
+    },
+    {
+      "path": "tea-material-study/REPORT.md",
+      "size": 15054,
+      "sha256": "13ae0efdec20f595406e81a95b5f018e9f8334deca59374529d4d5d3723d0af2"
+    },
+    {
+      "path": "tea-material-study/analyze_captures.py",
+      "size": 1576,
+      "sha256": "9e1b063b50d75bbfc4e42d9f3352e7e548276d3bdcb5b9650d8efb537ddb5895"
+    },
+    {
+      "path": "tea-material-study/assets/second_cup_tableau.glb",
+      "size": 1094712,
+      "sha256": "e5b3a05b8db4421d1cca41c7f8f30d266ca718533d2602c40a1bad2e34416a7b"
+    },
+    {
+      "path": "tea-material-study/assets/second_cup_tableau.glb.import",
+      "size": 1067,
+      "sha256": "8cb205d16090072aec1ad209a18364b2a95cf160d30295e1eac7884ffee42e80"
+    },
+    {
+      "path": "tea-material-study/manifest.json",
+      "size": 8570,
+      "sha256": "e7a7090a5bd2d98796ac4c0adcda9232f8e97e7d35ed8481d65460f85d796188"
+    },
+    {
+      "path": "tea-material-study/project.godot",
+      "size": 552,
+      "sha256": "9705c48eb40a9e5cd0907729bf115bb757e42ead09a08497f49b5b64a9dd258e"
+    },
+    {
+      "path": "tea-material-study/provenance.json",
+      "size": 2074,
+      "sha256": "e5a1d2c227c3e0a2bc43434e6fa61b5c44def4739f117fe9a3aead5167919869"
+    },
+    {
+      "path": "tea-material-study/qa/.gdignore",
+      "size": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "tea-material-study/qa/candidate_high_off.png",
+      "size": 80433,
+      "sha256": "b6100289e3a2eafc907a071dd725cbf057513b89070bfdb1c8de7083802c6c78"
+    },
+    {
+      "path": "tea-material-study/qa/candidate_high_on.png",
+      "size": 94241,
+      "sha256": "810bfa600dacc63faaac7bdc12318dce2413763e5a1e5da15269545e5d353e8a"
+    },
+    {
+      "path": "tea-material-study/qa/candidate_low_off.png",
+      "size": 92866,
+      "sha256": "3d068befcbd42eb808e78c306b16b95a171bddc09885e79fff43ab66ef08a1ef"
+    },
+    {
+      "path": "tea-material-study/qa/candidate_low_on.png",
+      "size": 96725,
+      "sha256": "634d44d62ff66c209fb54b984f4c054b472f0ef457d5fad0be514188c6ac2bfc"
+    },
+    {
+      "path": "tea-material-study/qa/candidate_oblique_off.png",
+      "size": 195861,
+      "sha256": "231c5dd304f621d9657984f6ec1874e7952ac4a6843d34d61ba7ebee262f8d98"
+    },
+    {
+      "path": "tea-material-study/qa/candidate_oblique_on.png",
+      "size": 219748,
+      "sha256": "758ea08b52a4ac7652b5e8b580fb97f2a991ddf8c950b356a9cc605bba31afe3"
+    },
+    {
+      "path": "tea-material-study/qa/headless_parse.log",
+      "size": 73,
+      "sha256": "a9912b85473f126d3f4f63ec824170c828df3473a292f866dde86cafda5b66da"
+    },
+    {
+      "path": "tea-material-study/qa/initial/candidate_high_off.png",
+      "size": 118265,
+      "sha256": "bbef343c6a5c97c8ddf2716b8f795e279f27e77c10baad124f9819e06de1623f"
+    },
+    {
+      "path": "tea-material-study/qa/initial/candidate_high_on.png",
+      "size": 139120,
+      "sha256": "d977b737cdac2c4278964da01e2ecdcf00e246cfc5b35da26c21115850801e5d"
+    },
+    {
+      "path": "tea-material-study/qa/initial/candidate_low_off.png",
+      "size": 163138,
+      "sha256": "82e0f07736b812eadddf366aab694759de22db18f9bda51fe64a9e7fe7ee7fd1"
+    },
+    {
+      "path": "tea-material-study/qa/initial/candidate_low_on.png",
+      "size": 176481,
+      "sha256": "778006f3d958b375ad5bfab3b17c0bd713750f5e1c1d9b7744e8ec2314c8e06e"
+    },
+    {
+      "path": "tea-material-study/qa/initial/candidate_oblique_off.png",
+      "size": 324690,
+      "sha256": "6bb4f4268b04548cd149eb57a01ebcafb8044fac1221ba8cc8e671ea56d6b110"
+    },
+    {
+      "path": "tea-material-study/qa/initial/candidate_oblique_on.png",
+      "size": 365211,
+      "sha256": "96f5cec1c7a77c1586821835fc044849c3395e524baace6c62f0e54845d37509"
+    },
+    {
+      "path": "tea-material-study/qa/initial/empirical_tea.gdshader",
+      "size": 1744,
+      "sha256": "2cb7daa0a6b58c0d0f1ad03ba53ff58aa0303475ff2a8b615f5361c7e3fbaa52"
+    },
+    {
+      "path": "tea-material-study/qa/initial/native.log",
+      "size": 402,
+      "sha256": "b327b5ad79b7bc8ec2d0fd59d4416532565b7d5bbb0ff2d9475384ea7f1099f7"
+    },
+    {
+      "path": "tea-material-study/qa/initial/native_matrix.json",
+      "size": 5434,
+      "sha256": "b872fa9d8af5d197c11cb632519ff85062b2875f419941aa4d577202e60a78ea"
+    },
+    {
+      "path": "tea-material-study/qa/initial/opaque_high_off.png",
+      "size": 106909,
+      "sha256": "e7503f7de21a0b1bfcb62696157f73ed861ce128ee8e4d0b9d93560a0f3996f6"
+    },
+    {
+      "path": "tea-material-study/qa/initial/opaque_high_on.png",
+      "size": 124611,
+      "sha256": "a408077af075a8d1af84d1abf33f7d7bf0941250d67476a834c26d627cc010ec"
+    },
+    {
+      "path": "tea-material-study/qa/initial/opaque_low_off.png",
+      "size": 162620,
+      "sha256": "e1164a03ce6b777429f06a19bc5821a026a2a579d1a9eb479ec493d8c007a399"
+    },
+    {
+      "path": "tea-material-study/qa/initial/opaque_low_on.png",
+      "size": 175017,
+      "sha256": "232bc1241f5f0a31b1bcdf9bf17aa6ce736f3396b43a299f97f126632c3d93eb"
+    },
+    {
+      "path": "tea-material-study/qa/initial/opaque_oblique_off.png",
+      "size": 324102,
+      "sha256": "c88f5b56061cf27bfce461cd593d73e1d7097d27cf23d4cbd0e2e31f21ce9da0"
+    },
+    {
+      "path": "tea-material-study/qa/initial/opaque_oblique_on.png",
+      "size": 363909,
+      "sha256": "4fb829230e0a6ac3dc9ce835825e102798eda3c951e8f6d3f3cccc68a67683da"
+    },
+    {
+      "path": "tea-material-study/qa/native.log",
+      "size": 402,
+      "sha256": "b327b5ad79b7bc8ec2d0fd59d4416532565b7d5bbb0ff2d9475384ea7f1099f7"
+    },
+    {
+      "path": "tea-material-study/qa/native_matrix.json",
+      "size": 5687,
+      "sha256": "7dbca747b1e734e3e867b9033b423114b17dc0f45c3aca7c77077cb89c14d66e"
+    },
+    {
+      "path": "tea-material-study/qa/opaque_high_off.png",
+      "size": 71589,
+      "sha256": "a4ffe0e7ff4c708a07061730457ce55777aafe7dfcef06ff1fb7280163a2ea9a"
+    },
+    {
+      "path": "tea-material-study/qa/opaque_high_on.png",
+      "size": 83183,
+      "sha256": "f4613077c3df1eb4625e7ba23ff011241c91ee11826b13005f925ed6e48488cb"
+    },
+    {
+      "path": "tea-material-study/qa/opaque_low_off.png",
+      "size": 92327,
+      "sha256": "046ee4bbd9848eddb9427b8cfe43bf6dd70e898f5b171a65527733deda6b3a00"
+    },
+    {
+      "path": "tea-material-study/qa/opaque_low_on.png",
+      "size": 96140,
+      "sha256": "5e9bceb43f24d678fa6088a4118ad3cc9ccf054d0ea7f9c96bf20d646f0c27e8"
+    },
+    {
+      "path": "tea-material-study/qa/opaque_oblique_off.png",
+      "size": 196558,
+      "sha256": "847ba0c47479b301d3d9d37c2fd9e2611e496831397a670b5c660886fd2de2ca"
+    },
+    {
+      "path": "tea-material-study/qa/opaque_oblique_on.png",
+      "size": 219710,
+      "sha256": "13ec061549c2bede6c1b514fbfdcc8be0a0a75bd5f4b037bf67d1f9fa3922c71"
+    },
+    {
+      "path": "tea-material-study/qa/pixel_comparison.json",
+      "size": 1413,
+      "sha256": "09abe3f4f8eef508a74dc8bd80dc7b9f563f443b224498b9778a2b88652ab5e5"
+    },
+    {
+      "path": "tea-material-study/qa/portable_import.log",
+      "size": 2254,
+      "sha256": "0d4c58efb3b23f029923e1295ebdce07f8cb8616ca83338887c9f0a972e7365f"
+    },
+    {
+      "path": "tea-material-study/qa/portable_parse.log",
+      "size": 73,
+      "sha256": "a9912b85473f126d3f4f63ec824170c828df3473a292f866dde86cafda5b66da"
+    },
+    {
+      "path": "tea-material-study/qa/preservation.json",
+      "size": 1753,
+      "sha256": "4f170216ce8e7c7b54b8fc470be2df2d05352556806d33a6a4ed44ad51fd505b"
+    },
+    {
+      "path": "tea-material-study/qa/reference_high_on_no_liquid.png",
+      "size": 93535,
+      "sha256": "2e6180d28fa4f69bff490131c19dc16fa92efc0f92c77bba84b1d2e7e85884fd"
+    },
+    {
+      "path": "tea-material-study/run_native.sh",
+      "size": 690,
+      "sha256": "b1dcd81e780000baa1b48bec788103dedd4af798f93510fe740b6b8d65797cf2"
+    },
+    {
+      "path": "tea-material-study/scenes/lab.tscn",
+      "size": 1984,
+      "sha256": "64c19fe6cdfa968db4fa749982be9eac550345f7d560318cd8f29b59c281c9ce"
+    },
+    {
+      "path": "tea-material-study/scripts/lab.gd",
+      "size": 5304,
+      "sha256": "263ccf727afc5fce33a9efe38e3d7991e6c75af487c7d05b2680389a3d13e093"
+    },
+    {
+      "path": "tea-material-study/scripts/lab.gd.uid",
+      "size": 20,
+      "sha256": "04a05f0654d01caf0ad32792bed803aa81e9fda6d5c47e1825ba683e56d65f91"
+    },
+    {
+      "path": "tea-material-study/shaders/empirical_tea.gdshader",
+      "size": 1744,
+      "sha256": "732eaaee5f8c7b24acb2c24a839f8c16a47262f8ecf9d0ac14f62b9fb0d566cf"
+    },
+    {
+      "path": "tea-material-study/shaders/empirical_tea.gdshader.uid",
+      "size": 20,
+      "sha256": "8c7afc16e342074e30d1d8e851af98840f8c6da28f6c672e958789db5239422b"
+    },
+    {
+      "path": "tea-material-study/verify_lab.py",
+      "size": 4755,
+      "sha256": "bef1736284fbfbf2139c84d129b28bbe4fc20392352c152636d93baf80564e93"
     },
     {
       "path": "tools/README.md",

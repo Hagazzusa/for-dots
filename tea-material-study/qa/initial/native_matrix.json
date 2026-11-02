@@ -1,0 +1,253 @@
+{
+  "candidate_shader_sha256": "2cb7daa0a6b58c0d0f1ad03ba53ff58aa0303475ff2a8b615f5361c7e3fbaa52",
+  "capture_count": 12,
+  "captures": [
+    {
+      "camera_position": [
+        -0.135000005364418,
+        0.394000023603439,
+        0.444999992847443
+      ],
+      "file": "qa/opaque_high_on.png",
+      "key_light": "on",
+      "look_at": [
+        -0.170000001788139,
+        0.034000001847744,
+        0.165000006556511
+      ],
+      "material": "opaque",
+      "resolution": [
+        1180,
+        812
+      ],
+      "view": "high"
+    },
+    {
+      "camera_position": [
+        -0.135000005364418,
+        0.394000023603439,
+        0.444999992847443
+      ],
+      "file": "qa/opaque_high_off.png",
+      "key_light": "off",
+      "look_at": [
+        -0.170000001788139,
+        0.034000001847744,
+        0.165000006556511
+      ],
+      "material": "opaque",
+      "resolution": [
+        1180,
+        812
+      ],
+      "view": "high"
+    },
+    {
+      "camera_position": [
+        -0.409999996423721,
+        0.233999997377396,
+        0.444999992847443
+      ],
+      "file": "qa/opaque_oblique_on.png",
+      "key_light": "on",
+      "look_at": [
+        -0.170000001788139,
+        0.034000001847744,
+        0.165000006556511
+      ],
+      "material": "opaque",
+      "resolution": [
+        1180,
+        812
+      ],
+      "view": "oblique"
+    },
+    {
+      "camera_position": [
+        -0.409999996423721,
+        0.233999997377396,
+        0.444999992847443
+      ],
+      "file": "qa/opaque_oblique_off.png",
+      "key_light": "off",
+      "look_at": [
+        -0.170000001788139,
+        0.034000001847744,
+        0.165000006556511
+      ],
+      "material": "opaque",
+      "resolution": [
+        1180,
+        812
+      ],
+      "view": "oblique"
+    },
+    {
+      "camera_position": [
+        0.149999991059303,
+        0.068000003695488,
+        0.405000001192093
+      ],
+      "file": "qa/opaque_low_on.png",
+      "key_light": "on",
+      "look_at": [
+        -0.170000001788139,
+        0.034000001847744,
+        0.165000006556511
+      ],
+      "material": "opaque",
+      "resolution": [
+        1180,
+        812
+      ],
+      "view": "low"
+    },
+    {
+      "camera_position": [
+        0.149999991059303,
+        0.068000003695488,
+        0.405000001192093
+      ],
+      "file": "qa/opaque_low_off.png",
+      "key_light": "off",
+      "look_at": [
+        -0.170000001788139,
+        0.034000001847744,
+        0.165000006556511
+      ],
+      "material": "opaque",
+      "resolution": [
+        1180,
+        812
+      ],
+      "view": "low"
+    },
+    {
+      "camera_position": [
+        -0.135000005364418,
+        0.394000023603439,
+        0.444999992847443
+      ],
+      "file": "qa/candidate_high_on.png",
+      "key_light": "on",
+      "look_at": [
+        -0.170000001788139,
+        0.034000001847744,
+        0.165000006556511
+      ],
+      "material": "candidate",
+      "resolution": [
+        1180,
+        812
+      ],
+      "view": "high"
+    },
+    {
+      "camera_position": [
+        -0.135000005364418,
+        0.394000023603439,
+        0.444999992847443
+      ],
+      "file": "qa/candidate_high_off.png",
+      "key_light": "off",
+      "look_at": [
+        -0.170000001788139,
+        0.034000001847744,
+        0.165000006556511
+      ],
+      "material": "candidate",
+      "resolution": [
+        1180,
+        812
+      ],
+      "view": "high"
+    },
+    {
+      "camera_position": [
+        -0.409999996423721,
+        0.233999997377396,
+        0.444999992847443
+      ],
+      "file": "qa/candidate_oblique_on.png",
+      "key_light": "on",
+      "look_at": [
+        -0.170000001788139,
+        0.034000001847744,
+        0.165000006556511
+      ],
+      "material": "candidate",
+      "resolution": [
+        1180,
+        812
+      ],
+      "view": "oblique"
+    },
+    {
+      "camera_position": [
+        -0.409999996423721,
+        0.233999997377396,
+        0.444999992847443
+      ],
+      "file": "qa/candidate_oblique_off.png",
+      "key_light": "off",
+      "look_at": [
+        -0.170000001788139,
+        0.034000001847744,
+        0.165000006556511
+      ],
+      "material": "candidate",
+      "resolution": [
+        1180,
+        812
+      ],
+      "view": "oblique"
+    },
+    {
+      "camera_position": [
+        0.149999991059303,
+        0.068000003695488,
+        0.405000001192093
+      ],
+      "file": "qa/candidate_low_on.png",
+      "key_light": "on",
+      "look_at": [
+        -0.170000001788139,
+        0.034000001847744,
+        0.165000006556511
+      ],
+      "material": "candidate",
+      "resolution": [
+        1180,
+        812
+      ],
+      "view": "low"
+    },
+    {
+      "camera_position": [
+        0.149999991059303,
+        0.068000003695488,
+        0.405000001192093
+      ],
+      "file": "qa/candidate_low_off.png",
+      "key_light": "off",
+      "look_at": [
+        -0.170000001788139,
+        0.034000001847744,
+        0.165000006556511
+      ],
+      "material": "candidate",
+      "resolution": [
+        1180,
+        812
+      ],
+      "view": "low"
+    }
+  ],
+  "display_server": "X11",
+  "engine": "4.6.3-stable (official)",
+  "glb_sha256": "e5b3a05b8db4421d1cca41c7f8f30d266ca718533d2602c40a1bad2e34416a7b",
+  "rendering_method": "gl_compatibility",
+  "source_geometry_modified": false,
+  "video_adapter": "llvmpipe (LLVM 19.1.7, 256 bits)",
+  "view_only_material_override": true
+}

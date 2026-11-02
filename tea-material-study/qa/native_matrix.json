@@ -1,0 +1,256 @@
+{
+  "candidate_shader_sha256": "732eaaee5f8c7b24acb2c24a839f8c16a47262f8ecf9d0ac14f62b9fb0d566cf",
+  "capture_count": 12,
+  "captures": [
+    {
+      "camera_position": [
+        -0.135000005364418,
+        0.394000023603439,
+        0.444999992847443
+      ],
+      "file": "qa/opaque_high_on.png",
+      "key_light": "on",
+      "look_at": [
+        -0.170000001788139,
+        0.034000001847744,
+        0.165000006556511
+      ],
+      "material": "opaque",
+      "resolution": [
+        720,
+        640
+      ],
+      "view": "high"
+    },
+    {
+      "camera_position": [
+        -0.135000005364418,
+        0.394000023603439,
+        0.444999992847443
+      ],
+      "file": "qa/opaque_high_off.png",
+      "key_light": "off",
+      "look_at": [
+        -0.170000001788139,
+        0.034000001847744,
+        0.165000006556511
+      ],
+      "material": "opaque",
+      "resolution": [
+        720,
+        640
+      ],
+      "view": "high"
+    },
+    {
+      "camera_position": [
+        -0.409999996423721,
+        0.233999997377396,
+        0.444999992847443
+      ],
+      "file": "qa/opaque_oblique_on.png",
+      "key_light": "on",
+      "look_at": [
+        -0.170000001788139,
+        0.034000001847744,
+        0.165000006556511
+      ],
+      "material": "opaque",
+      "resolution": [
+        720,
+        640
+      ],
+      "view": "oblique"
+    },
+    {
+      "camera_position": [
+        -0.409999996423721,
+        0.233999997377396,
+        0.444999992847443
+      ],
+      "file": "qa/opaque_oblique_off.png",
+      "key_light": "off",
+      "look_at": [
+        -0.170000001788139,
+        0.034000001847744,
+        0.165000006556511
+      ],
+      "material": "opaque",
+      "resolution": [
+        720,
+        640
+      ],
+      "view": "oblique"
+    },
+    {
+      "camera_position": [
+        0.149999991059303,
+        0.068000003695488,
+        0.405000001192093
+      ],
+      "file": "qa/opaque_low_on.png",
+      "key_light": "on",
+      "look_at": [
+        -0.170000001788139,
+        0.034000001847744,
+        0.165000006556511
+      ],
+      "material": "opaque",
+      "resolution": [
+        720,
+        640
+      ],
+      "view": "low"
+    },
+    {
+      "camera_position": [
+        0.149999991059303,
+        0.068000003695488,
+        0.405000001192093
+      ],
+      "file": "qa/opaque_low_off.png",
+      "key_light": "off",
+      "look_at": [
+        -0.170000001788139,
+        0.034000001847744,
+        0.165000006556511
+      ],
+      "material": "opaque",
+      "resolution": [
+        720,
+        640
+      ],
+      "view": "low"
+    },
+    {
+      "camera_position": [
+        -0.135000005364418,
+        0.394000023603439,
+        0.444999992847443
+      ],
+      "file": "qa/candidate_high_on.png",
+      "key_light": "on",
+      "look_at": [
+        -0.170000001788139,
+        0.034000001847744,
+        0.165000006556511
+      ],
+      "material": "candidate",
+      "resolution": [
+        720,
+        640
+      ],
+      "view": "high"
+    },
+    {
+      "camera_position": [
+        -0.135000005364418,
+        0.394000023603439,
+        0.444999992847443
+      ],
+      "file": "qa/candidate_high_off.png",
+      "key_light": "off",
+      "look_at": [
+        -0.170000001788139,
+        0.034000001847744,
+        0.165000006556511
+      ],
+      "material": "candidate",
+      "resolution": [
+        720,
+        640
+      ],
+      "view": "high"
+    },
+    {
+      "camera_position": [
+        -0.409999996423721,
+        0.233999997377396,
+        0.444999992847443
+      ],
+      "file": "qa/candidate_oblique_on.png",
+      "key_light": "on",
+      "look_at": [
+        -0.170000001788139,
+        0.034000001847744,
+        0.165000006556511
+      ],
+      "material": "candidate",
+      "resolution": [
+        720,
+        640
+      ],
+      "view": "oblique"
+    },
+    {
+      "camera_position": [
+        -0.409999996423721,
+        0.233999997377396,
+        0.444999992847443
+      ],
+      "file": "qa/candidate_oblique_off.png",
+      "key_light": "off",
+      "look_at": [
+        -0.170000001788139,
+        0.034000001847744,
+        0.165000006556511
+      ],
+      "material": "candidate",
+      "resolution": [
+        720,
+        640
+      ],
+      "view": "oblique"
+    },
+    {
+      "camera_position": [
+        0.149999991059303,
+        0.068000003695488,
+        0.405000001192093
+      ],
+      "file": "qa/candidate_low_on.png",
+      "key_light": "on",
+      "look_at": [
+        -0.170000001788139,
+        0.034000001847744,
+        0.165000006556511
+      ],
+      "material": "candidate",
+      "resolution": [
+        720,
+        640
+      ],
+      "view": "low"
+    },
+    {
+      "camera_position": [
+        0.149999991059303,
+        0.068000003695488,
+        0.405000001192093
+      ],
+      "file": "qa/candidate_low_off.png",
+      "key_light": "off",
+      "look_at": [
+        -0.170000001788139,
+        0.034000001847744,
+        0.165000006556511
+      ],
+      "material": "candidate",
+      "resolution": [
+        720,
+        640
+      ],
+      "view": "low"
+    }
+  ],
+  "diagnostic_reference": "qa/reference_high_on_no_liquid.png",
+  "display_server": "X11",
+  "engine": "4.6.3-stable (official)",
+  "geometry_fingerprint_after": "d500b3e3666a4691950a8bfc7477a6b6b1c79e41612bb142a6edb651edf763f8",
+  "geometry_fingerprint_before": "d500b3e3666a4691950a8bfc7477a6b6b1c79e41612bb142a6edb651edf763f8",
+  "glb_sha256": "e5b3a05b8db4421d1cca41c7f8f30d266ca718533d2602c40a1bad2e34416a7b",
+  "rendering_method": "gl_compatibility",
+  "source_geometry_modified": false,
+  "video_adapter": "llvmpipe (LLVM 19.1.7, 256 bits)",
+  "view_only_material_override": true
+}
