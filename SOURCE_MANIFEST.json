@@ -19,8 +19,8 @@
     },
     {
       "path": "README.md",
-      "size": 13061,
-      "sha256": "58887cfa750da905cbd17006ad63dc9e7f93267c0f9889b34170b01b46ad23fb"
+      "size": 13271,
+      "sha256": "04f6dea175150d408b0164801c1b47dbd119560dcb8d49ee9a2a8323fa0930b9"
     },
     {
       "path": "a-place-to-pause/.gitignore",
@@ -2321,6 +2321,16 @@
       "path": "beside-you/waveform.svg",
       "size": 95520,
       "sha256": "8753dadd70a8e5fca8e24e8cc492c0e75b2aad9e5e6586387af9165fe38295a2"
+    },
+    {
+      "path": "docs/readable-props/CHECKLIST.md",
+      "size": 1845,
+      "sha256": "f32018359052716f0c25db458d56b210dc9eebc79e4bb14d0ee972ea8320be11"
+    },
+    {
+      "path": "docs/readable-props/README.md",
+      "size": 5995,
+      "sha256": "806be6f77232e5c9ae61074313eb10bb08969029bbc057c39d565ce30f474a2a"
     },
     {
       "path": "fading-shore/.gitignore",

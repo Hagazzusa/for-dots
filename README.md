@@ -69,3 +69,7 @@ git add SOURCE_MANIFEST.json
 python3 tools/check_public_assets.py --directory garden-of-light
 python3 tools/test_check_public_assets.py
 ```
+
+## 제작 노트
+
+[소품의 의미가 실제 화면에서 읽히는지 확인하기](docs/readable-props/README.md): 기하 검증과 시각적 의미 해석을 구분하는 관찰·체크리스트입니다.
