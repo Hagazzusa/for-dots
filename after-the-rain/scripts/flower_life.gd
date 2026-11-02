@@ -10,6 +10,10 @@ signal caption_requested(text: String)
 @export var rearm_radius := 4.2
 @onready var visual: Node3D = $Visual
 @onready var arm: Node3D = $Visual/WaveArm
+@onready var work_arm: Node3D = $Visual/WorkArm
+@onready var paper_fold: Node3D = $PreparedBouquet/PaperFold
+@export_range(0.0, 1.4) var wrap_reach_radians := 0.9
+@export_range(0.0, 0.3) var paper_press_radians := 0.18
 @onready var head: Node3D = $Visual/Head
 var state := "idle"
 var elapsed := 0.0
@@ -93,10 +97,21 @@ func _present() -> void:
 	visual.position.x = 0.0
 	arm.rotation.z = 0.0
 	head.rotation.z = 0.0
+	work_arm.rotation.z = 0.0
+	work_arm.position = Vector3(-0.205,0.92,0)
+	paper_fold.rotation.z = 0.0
 	if state == "work":
 		opacity = smoothstep(0.0,0.6,elapsed)
 		visual.position.x = lerpf(-0.25,0.0,clampf(elapsed/maxf(work_seconds,0.01),0.0,1.0))
-		head.rotation.z = sin(elapsed*2.0)*0.045
+		# One reach, small press, then release; no independent timer or looping tween.
+		var phase := clampf(elapsed/maxf(work_seconds,0.01),0.0,1.0)
+		var reach := smoothstep(0.18,0.42,phase)*(1.0-smoothstep(0.72,0.96,phase))
+		var press := smoothstep(0.43,0.55,phase)*(1.0-smoothstep(0.61,0.72,phase))
+		work_arm.rotation.z = -wrap_reach_radians*reach
+		work_arm.position.x = -0.205-visual.position.x*reach
+		work_arm.position.z = 0.055*reach
+		paper_fold.rotation.z = -paper_press_radians*press
+		head.rotation.z = 0.07*reach
 	elif state in ["window","wave"]:
 		opacity = 1.0
 		if state == "wave":

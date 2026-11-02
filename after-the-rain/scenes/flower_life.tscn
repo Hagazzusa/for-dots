@@ -1,4 +1,4 @@
-[gd_scene load_steps=20 format=3]
+[gd_scene load_steps=27 format=3]
 [ext_resource type="Script" path="res://scripts/flower_life.gd" id="Script"]
 [sub_resource type="StandardMaterial3D" id="Coat"]
 albedo_color = Color(0.16, 0.21, 0.19, 1)
@@ -79,6 +79,33 @@ height = 0.034
 radial_segments = 10
 rings = 5
 
+[sub_resource type="StandardMaterial3D" id="Paper"]
+albedo_color = Color(0.72, 0.61, 0.40, 1)
+roughness = 0.95
+[sub_resource type="StandardMaterial3D" id="Petals"]
+albedo_color = Color(0.69, 0.40, 0.33, 1)
+roughness = 0.9
+[sub_resource type="CylinderMesh" id="VaseMesh"]
+top_radius = 0.085
+bottom_radius = 0.07
+height = 0.28
+radial_segments = 10
+[sub_resource type="CylinderMesh" id="WrapMesh"]
+top_radius = 0.16
+bottom_radius = 0.045
+height = 0.28
+radial_segments = 10
+[sub_resource type="BoxMesh" id="FoldMesh"]
+size = Vector3(0.19, 0.10, 0.012)
+[sub_resource type="SphereMesh" id="FlowersMesh"]
+radius = 0.15
+height = 0.13
+radial_segments = 10
+rings = 5
+[sub_resource type="StandardMaterial3D" id="Vase"]
+albedo_color = Color(0.22, 0.29, 0.25, 1)
+roughness = 0.7
+
 [node name="FlowerLife" type="Node3D"]
 position = Vector3(0.1, 0.65, 0.065)
 script = ExtResource("Script")
@@ -131,15 +158,18 @@ mesh = SubResource("M5")
 material_override = SubResource("Skin")
 cast_shadow = 0
 
-[node name="Sleeve" type="MeshInstance3D" parent="Visual"]
-position = Vector3(-0.205, 0.76, 0)
+[node name="WorkArm" type="Node3D" parent="Visual"]
+position = Vector3(-0.205, 0.92, 0)
+
+[node name="Sleeve" type="MeshInstance3D" parent="Visual/WorkArm"]
+position = Vector3(0, -0.16, 0)
 scale = Vector3(1, 1, 1)
 mesh = SubResource("M6")
 material_override = SubResource("Coat")
 cast_shadow = 0
 
-[node name="Hand" type="MeshInstance3D" parent="Visual"]
-position = Vector3(-0.205, 0.56, 0)
+[node name="Hand" type="MeshInstance3D" parent="Visual/WorkArm"]
+position = Vector3(0, -0.36, 0)
 scale = Vector3(1, 1, 0.2)
 mesh = SubResource("M7")
 material_override = SubResource("Skin")
@@ -189,3 +219,32 @@ cast_shadow = 0
 
 [node name="Interaction" type="Marker3D" parent="."]
 position = Vector3(0, 1.04, 0.07)
+
+
+[node name="PreparedBouquet" type="Node3D" parent="."]
+position = Vector3(-0.48, 0, 0.04)
+[node name="WaterVase" type="MeshInstance3D" parent="PreparedBouquet"]
+position = Vector3(0, 0.15, 0)
+scale = Vector3(1, 1, 0.16)
+mesh = SubResource("VaseMesh")
+material_override = SubResource("Vase")
+cast_shadow = 0
+[node name="Wrapping" type="MeshInstance3D" parent="PreparedBouquet"]
+position = Vector3(0, 0.46, 0)
+scale = Vector3(1, 1, 0.12)
+mesh = SubResource("WrapMesh")
+material_override = SubResource("Paper")
+cast_shadow = 0
+[node name="PaperFold" type="Node3D" parent="PreparedBouquet"]
+position = Vector3(0.04, 0.59, 0.022)
+[node name="Paper" type="MeshInstance3D" parent="PreparedBouquet/PaperFold"]
+position = Vector3(0, 0.05, 0)
+mesh = SubResource("FoldMesh")
+material_override = SubResource("Paper")
+cast_shadow = 0
+[node name="Flowers" type="MeshInstance3D" parent="PreparedBouquet"]
+position = Vector3(-0.015, 0.64, -0.003)
+scale = Vector3(1, 1, 0.12)
+mesh = SubResource("FlowersMesh")
+material_override = SubResource("Petals")
+cast_shadow = 0

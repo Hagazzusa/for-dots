@@ -19,7 +19,7 @@ func run()->void:
 	f.caption_requested.connect(func(_text:String):waves+=1)
 	cat.caption_requested.connect(func(_text:String):greetings+=1)
 	for node in [f,cat]:
-		check(node.find_children("*","MeshInstance3D",true,false).size()==14,"bounded authored 14-mesh %s"%node.name)
+		check(node.visual.find_children("*","MeshInstance3D",true,false).size()==14,"bounded authored 14-mesh %s"%node.name)
 		check(node.find_children("*","Light3D",true,false).is_empty() and node.find_children("*","CollisionObject3D",true,false).is_empty(),"no extra lights/collisions %s"%node.name)
 	check(f.has_node("Interaction") and cat.has_node("Interaction"),"root aim anchors exist")
 	check(f._materials[0]!=f2._materials[0],"private flower opacity resources")
@@ -96,7 +96,7 @@ func run()->void:
 		check(packed.pack(node)==OK and ResourceSaver.save(packed,path)==OK,"save authored %s"%node.name)
 		var reopened=ResourceLoader.load(path,"",ResourceLoader.CACHE_MODE_IGNORE).instantiate()
 		root.add_child(reopened)
-		check(reopened.has_node("Interaction") and reopened.find_children("*","MeshInstance3D",true,false).size()==14,"reopen all saved mesh and aim nodes")
+		check(reopened.has_node("Interaction") and reopened.visual.find_children("*","MeshInstance3D",true,false).size()==14,"reopen all saved mesh and aim nodes")
 		reopened.free();DirAccess.remove_absolute(ProjectSettings.globalize_path(path))
 	for node in [f,f2,cat,cat2]:node.free()
 	await process_frame

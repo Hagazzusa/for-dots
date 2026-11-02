@@ -114,8 +114,8 @@
     },
     {
       "path": "after-the-rain/WORLD_EXPANSION.md",
-      "size": 8495,
-      "sha256": "eb00f4c17b3723aa6fadec135fd642a7bd74b836f9c1a02e5892bcaade340e82"
+      "size": 11133,
+      "sha256": "97ec7f1ed867cc48229ffc6864e96c54175210b85787368b74bba03f943f4139"
     },
     {
       "path": "after-the-rain/art/.gdignore",
@@ -969,8 +969,8 @@
     },
     {
       "path": "after-the-rain/config/story_flower.tres",
-      "size": 444,
-      "sha256": "e1211d477171407eb5efc650760a484db63fe96a6e6610c4fdbd029eb5efafd4"
+      "size": 468,
+      "sha256": "8d43a741bb0917bc3a4fb186a82db2fa1c8aff7ffaef842c004e0a467fd080ab"
     },
     {
       "path": "after-the-rain/config/story_loan_offer.tres",
@@ -1054,8 +1054,8 @@
     },
     {
       "path": "after-the-rain/narrative/WORLD_BIBLE.md",
-      "size": 9784,
-      "sha256": "41c40836cf4961f40c1c42ed0b0e72804403d21fbf8016b7e66459686f986846"
+      "size": 9919,
+      "sha256": "b0cb58537b963949497517d2509085952df558334eabcaf62b07bbcb52ed823d"
     },
     {
       "path": "after-the-rain/project.godot",
@@ -1139,8 +1139,8 @@
     },
     {
       "path": "after-the-rain/scenes/flower_life.tscn",
-      "size": 5078,
-      "sha256": "8af4dcc3936f33e7392d888ebf6f5e9c89a78255a7d69433765e07db1c180257"
+      "size": 6995,
+      "sha256": "fde52647cb03648a3cbcb5e04f0e71378be84751ba4958783910e40840c3f4ab"
     },
     {
       "path": "after-the-rain/scenes/held_drink.tscn",
@@ -1389,8 +1389,8 @@
     },
     {
       "path": "after-the-rain/scripts/flower_life.gd",
-      "size": 3501,
-      "sha256": "28498c46c6e35e1d9eae79d17fa82ac0329c4574e69704e7e80558b66466374f"
+      "size": 4300,
+      "sha256": "6681fa9c0c8ce09932f5d3d31f7f63b043de91c4f384fa95c20644b4933f415c"
     },
     {
       "path": "after-the-rain/scripts/flower_life.gd.uid",
@@ -1763,6 +1763,16 @@
       "sha256": "bf86de90fbe37ecf4b2437fb0784ccc8ba26c144ab1960ec62bc1a9411d014e0"
     },
     {
+      "path": "after-the-rain/tests/flower_wrapping.gd",
+      "size": 3031,
+      "sha256": "12c17c23685c8cf58c9ee0b0d47b0718acdf1e5ddbbadb419ff6ecb6f6381616"
+    },
+    {
+      "path": "after-the-rain/tests/flower_wrapping.gd.uid",
+      "size": 19,
+      "sha256": "57f87864514c52c6bbcdedada0c248df2a67554cc7d9ee3a9da2752e6493c6f3"
+    },
+    {
       "path": "after-the-rain/tests/onboard_isolation.gd",
       "size": 1108,
       "sha256": "3a1540f9ec1cb49858d09caad1cc3cdc3f04e98251bde15829132cc9f8db574e"
@@ -1864,8 +1874,8 @@
     },
     {
       "path": "after-the-rain/tests/recovery_flower_cat.gd",
-      "size": 5610,
-      "sha256": "02a65718d28b40d999e8ed13d62915807bd8bc9abd93e4a7c5a9b7abb8be1dec"
+      "size": 5624,
+      "sha256": "2089dfb43463ca65bb5205a87a206f62d0d824624f95f7ab661520eadce22ad2"
     },
     {
       "path": "after-the-rain/tests/recovery_flower_cat.gd.uid",
