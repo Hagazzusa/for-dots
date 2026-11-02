@@ -1,0 +1,2486 @@
+{
+  "format": 1,
+  "algorithm": "sha256",
+  "files": [
+    {
+      "path": ".gitignore",
+      "size": 183,
+      "sha256": "632a8bacf326e7fb5a5043235606c0340731d6b11dd18435aa125ff10318600f"
+    },
+    {
+      "path": "GIT_ENVIRONMENT_CHECK.md",
+      "size": 283,
+      "sha256": "319e637ad8285768b7863da83b5fd51794d4ed9cc2fc9b598af2d8128798d3ac"
+    },
+    {
+      "path": "README.md",
+      "size": 4208,
+      "sha256": "56a99db85cf6801473b9014af6f49b807036ead4f40c780a498ab8828418725a"
+    },
+    {
+      "path": "after-the-rain/ARCHITECTURE.md",
+      "size": 18657,
+      "sha256": "f1156c677c9ba68b7aef535f4f3024a497851095bb96f22c270c4ff42fc4e7c3"
+    },
+    {
+      "path": "after-the-rain/README.md",
+      "size": 3322,
+      "sha256": "7e5ac51e96488f97689e08a117a6ac43f7cfbef220b0e5a49606cd760a6c3844"
+    },
+    {
+      "path": "after-the-rain/RECOVERY.md",
+      "size": 17567,
+      "sha256": "014b09dac8a3687875128dc36a3f5ad24733ed45dc78f4ad333eda23d60498db"
+    },
+    {
+      "path": "after-the-rain/art/.gdignore",
+      "size": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "after-the-rain/art/assemble_city.py",
+      "size": 6178,
+      "sha256": "a82e4e8747e97b86db5eb01213f0fd4c925c85302005a1e71cc7bec29742c21d"
+    },
+    {
+      "path": "after-the-rain/art/city_assembly.blend",
+      "size": 38121310,
+      "sha256": "8efd6500f5a2f218919f9cd5d73fff0f25f81c5be3bee610a5a01103734f7b58"
+    },
+    {
+      "path": "after-the-rain/art/city_background_lod.blend",
+      "size": 10447529,
+      "sha256": "176b0790d20f27822eee77ff55311362ee520383e5bf34eeb9879bf7d76d4fbc"
+    },
+    {
+      "path": "after-the-rain/art/city_runtime_lod.blend",
+      "size": 13467561,
+      "sha256": "88b2158cd9f31867499636c7985e5a78d4160d1b56321bdb3125c4ae3e7c76ce"
+    },
+    {
+      "path": "after-the-rain/art/create_shelter.py",
+      "size": 5698,
+      "sha256": "20ee41d3a0484bea78cff4f1a046b77b1c111fce6148f8d1021df188d1a5a96e"
+    },
+    {
+      "path": "after-the-rain/art/optimize_city.py",
+      "size": 1441,
+      "sha256": "80fe725551227de12990b5527f7f4ec45ad2e0f0ecdf3627ceb6aec814e830ed"
+    },
+    {
+      "path": "after-the-rain/art/optimize_city_background.py",
+      "size": 1977,
+      "sha256": "be79a7b6d9c4e16516798a7b06b8eb6c8f5b535f73f2443a5472d348ac0ee4ea"
+    },
+    {
+      "path": "after-the-rain/art/shelter.blend",
+      "size": 1367380,
+      "sha256": "98ea33426df391d2970a5c1e6a3c70fa25e7e8a617578c103601efb91f58bbe0"
+    },
+    {
+      "path": "after-the-rain/art/synthesize_story_radio.py",
+      "size": 1370,
+      "sha256": "52305187974139ed4ee358d5defe7b86e4ffe01e6da504d80722d7a8276f07b8"
+    },
+    {
+      "path": "after-the-rain/art/synthesize_v7_audio.py",
+      "size": 1661,
+      "sha256": "ff9d641e8e4511523c7246354ab23d133b3dfe3d37b32c1723c6bca7f77b49c4"
+    },
+    {
+      "path": "after-the-rain/assets/audio/story_radio.wav",
+      "size": 2116844,
+      "sha256": "e84fcb67d9e16b4c000c3f1ca117bbb4edfb0a70df3a2c5bd3480a794c9bb7db"
+    },
+    {
+      "path": "after-the-rain/assets/audio/story_radio.wav.import",
+      "size": 504,
+      "sha256": "7b695c49010fee9aa0db5e5d9c263edf5daccafb0e176e0bdb104a10c4a82751"
+    },
+    {
+      "path": "after-the-rain/assets/chime.wav",
+      "size": 35324,
+      "sha256": "b6fe03dd1a481d02abc191b11d6bd33fec7d25d9294e5bb2d3c7e9a92e7f19de"
+    },
+    {
+      "path": "after-the-rain/assets/chime.wav.import",
+      "size": 480,
+      "sha256": "ac150f19678d154a2b87d1dd72e0502f75ac6d4fb4a6be17f236374173929239"
+    },
+    {
+      "path": "after-the-rain/assets/city/apartment_a.glb",
+      "size": 2443320,
+      "sha256": "fb1919f40403bef1a0061e24235b62f1671a77c372cce3925499fc2c20204ba6"
+    },
+    {
+      "path": "after-the-rain/assets/city/apartment_a.glb.import",
+      "size": 1050,
+      "sha256": "1080b134e950b4ba5450283f6130f0258150dd9555e09a6c01526904bca5a6e6"
+    },
+    {
+      "path": "after-the-rain/assets/city/apartment_a_detail.glb",
+      "size": 9321808,
+      "sha256": "cd339f17aa78ffb40638c13e7221b5e91b8452a8ac00e4672965f6423d1f8c03"
+    },
+    {
+      "path": "after-the-rain/assets/city/apartment_a_detail.glb.import",
+      "size": 1072,
+      "sha256": "b1ad5acccfdd69cd1d3b81078983babe12a038a9c2175b78b9218b3ca6d2238e"
+    },
+    {
+      "path": "after-the-rain/assets/city/apartment_a_detail_modular_urban_apartments_facade_objects_arm_1k.jpg",
+      "size": 790231,
+      "sha256": "16c23388d22461b5fc8f2a879e5549bc1591d99e0da4f0c057fe2a49c458da38"
+    },
+    {
+      "path": "after-the-rain/assets/city/apartment_a_detail_modular_urban_apartments_facade_objects_arm_1k.jpg.import",
+      "size": 1225,
+      "sha256": "7fb09c44ffb57b161e1950f075202b92f06f88eb7042c647b198e393237d8781"
+    },
+    {
+      "path": "after-the-rain/assets/city/apartment_a_detail_modular_urban_apartments_facade_objects_diff_1k.jpg",
+      "size": 576336,
+      "sha256": "038083f96e63d92e6a30685f1a7f5b5b01a6448118dfecd6ed364d31088db7df"
+    },
+    {
+      "path": "after-the-rain/assets/city/apartment_a_detail_modular_urban_apartments_facade_objects_diff_1k.jpg.import",
+      "size": 1228,
+      "sha256": "d5fdaf0a7130c72b914fad92299a9bbc1f04605d0d8a899cd86c46f1f99bb76b"
+    },
+    {
+      "path": "after-the-rain/assets/city/apartment_a_detail_modular_urban_apartments_facade_objects_nor_gl_1k.jpg",
+      "size": 544638,
+      "sha256": "e5bac0355cbacb09d4400398f7e5f159624fb0519d5c007b639da75e59137030"
+    },
+    {
+      "path": "after-the-rain/assets/city/apartment_a_detail_modular_urban_apartments_facade_objects_nor_gl_1k.jpg.import",
+      "size": 1325,
+      "sha256": "3125823d947da628932283a4697a87cb26c684fa700b091a27f3a9453689c914"
+    },
+    {
+      "path": "after-the-rain/assets/city/apartment_a_detail_modular_urban_apartments_facade_plaster_arm_1k.jpg",
+      "size": 533411,
+      "sha256": "71c2ab6cfe97411f0111e99658b88cd22946abc96a3ed67051e06dab8dde5cb8"
+    },
+    {
+      "path": "after-the-rain/assets/city/apartment_a_detail_modular_urban_apartments_facade_plaster_arm_1k.jpg.import",
+      "size": 1225,
+      "sha256": "24d37e51d504ed2a980dd46a5f0b85b00882fd93ec72059d6db57c0100a10e71"
+    },
+    {
+      "path": "after-the-rain/assets/city/apartment_a_detail_modular_urban_apartments_facade_plaster_diff_1k.jpg",
+      "size": 519200,
+      "sha256": "aac6cb79d9a3f73ad360077a439e1b81b1e919d6ace658a27225b20858bcad3c"
+    },
+    {
+      "path": "after-the-rain/assets/city/apartment_a_detail_modular_urban_apartments_facade_plaster_diff_1k.jpg.import",
+      "size": 1229,
+      "sha256": "da253c9bc2a3dd39bc6bf8cb4f994942983d9d10c0aaf4870dac672f96c5edf6"
+    },
+    {
+      "path": "after-the-rain/assets/city/apartment_a_detail_modular_urban_apartments_facade_plaster_nor_gl_1k.jpg",
+      "size": 1003277,
+      "sha256": "79cebca9b98dcb62efc5474a2d236c98a34b7260b58a65db24e501acf60de66c"
+    },
+    {
+      "path": "after-the-rain/assets/city/apartment_a_detail_modular_urban_apartments_facade_plaster_nor_gl_1k.jpg.import",
+      "size": 1325,
+      "sha256": "6d0508e437c8721780aa3b0bb4e1549af6b0eec953abbd68da9caead9eacf9fc"
+    },
+    {
+      "path": "after-the-rain/assets/city/apartment_a_detail_modular_urban_apartments_facade_trim_01_arm_1k.jpg",
+      "size": 651756,
+      "sha256": "b3fe0aa9389d827afa4a29e15842209a6d8dadb86eca9a0b462c2c9fe4f58987"
+    },
+    {
+      "path": "after-the-rain/assets/city/apartment_a_detail_modular_urban_apartments_facade_trim_01_arm_1k.jpg.import",
+      "size": 1225,
+      "sha256": "28b7339f37d638aabaa5c564e426f8b04e95f1e77029ae7ba1fa0a5922655937"
+    },
+    {
+      "path": "after-the-rain/assets/city/apartment_a_detail_modular_urban_apartments_facade_trim_01_diff_1k.jpg",
+      "size": 553769,
+      "sha256": "62510c9e167363da1ff101b03d0c7705c74cb0e20bb02fc7bc0596f9da26ac8c"
+    },
+    {
+      "path": "after-the-rain/assets/city/apartment_a_detail_modular_urban_apartments_facade_trim_01_diff_1k.jpg.import",
+      "size": 1228,
+      "sha256": "bb86f711c307c4027fd67b5b17c7b774a99441e9c85d899e3f204c1e4af5771e"
+    },
+    {
+      "path": "after-the-rain/assets/city/apartment_a_detail_modular_urban_apartments_facade_trim_01_nor_gl_1k.jpg",
+      "size": 850037,
+      "sha256": "65cf274a67914590329b67eb6d926377d5aa45fa326afb91caa8781a30c99160"
+    },
+    {
+      "path": "after-the-rain/assets/city/apartment_a_detail_modular_urban_apartments_facade_trim_01_nor_gl_1k.jpg.import",
+      "size": 1324,
+      "sha256": "7cf0da5edfbf2dbf66de1fc43b3db7ba30c0b073761bfd8d6f7c76dcee223c4f"
+    },
+    {
+      "path": "after-the-rain/assets/city/apartment_a_detail_modular_urban_apartments_facade_trim_02_arm_1k.jpg",
+      "size": 706292,
+      "sha256": "45a49a17b19b7d579237ec343b56ebee79ce1b06cb9d1179af8609d64ee1c27f"
+    },
+    {
+      "path": "after-the-rain/assets/city/apartment_a_detail_modular_urban_apartments_facade_trim_02_arm_1k.jpg.import",
+      "size": 1226,
+      "sha256": "c486d1bce5b6712ecbe7b4dae52394cb97bc57b2db03549cf18f2b709e68c7ad"
+    },
+    {
+      "path": "after-the-rain/assets/city/apartment_a_detail_modular_urban_apartments_facade_trim_02_diff_1k.jpg",
+      "size": 499399,
+      "sha256": "10097392fa107eb3723fff229f1f9522dedd2f91e4bdc3eaac884325d42ddf8e"
+    },
+    {
+      "path": "after-the-rain/assets/city/apartment_a_detail_modular_urban_apartments_facade_trim_02_diff_1k.jpg.import",
+      "size": 1229,
+      "sha256": "08efc92ad44c791d3dac640ce80076f7f046567d15b5fb99484609f5663ac9bd"
+    },
+    {
+      "path": "after-the-rain/assets/city/apartment_a_detail_modular_urban_apartments_facade_trim_02_nor_gl_1k.jpg",
+      "size": 820776,
+      "sha256": "8a87d143725ec32951061b55935ffcef426755b0d11236d93e8b18cf94612498"
+    },
+    {
+      "path": "after-the-rain/assets/city/apartment_a_detail_modular_urban_apartments_facade_trim_02_nor_gl_1k.jpg.import",
+      "size": 1324,
+      "sha256": "a1f50c26fe9552799c2ef32a6b7cfb8c2cb866302c9ca51202a504178e2be1fa"
+    },
+    {
+      "path": "after-the-rain/assets/city/apartment_a_modular_urban_apartments_facade_objects_arm_1k.jpg",
+      "size": 790231,
+      "sha256": "16c23388d22461b5fc8f2a879e5549bc1591d99e0da4f0c057fe2a49c458da38"
+    },
+    {
+      "path": "after-the-rain/assets/city/apartment_a_modular_urban_apartments_facade_objects_arm_1k.jpg.import",
+      "size": 1205,
+      "sha256": "32a56415edd8a8e9c2cacce211f1c564e7f254bf692f5bb148531ac2b0a4f43e"
+    },
+    {
+      "path": "after-the-rain/assets/city/apartment_a_modular_urban_apartments_facade_objects_diff_1k.jpg",
+      "size": 576336,
+      "sha256": "038083f96e63d92e6a30685f1a7f5b5b01a6448118dfecd6ed364d31088db7df"
+    },
+    {
+      "path": "after-the-rain/assets/city/apartment_a_modular_urban_apartments_facade_objects_diff_1k.jpg.import",
+      "size": 1207,
+      "sha256": "d4db6748a3c89a6e65e159c2083dec35bc6f66d9cc885bf91a0c74169d9264fe"
+    },
+    {
+      "path": "after-the-rain/assets/city/apartment_a_modular_urban_apartments_facade_objects_nor_gl_1k.jpg",
+      "size": 544638,
+      "sha256": "e5bac0355cbacb09d4400398f7e5f159624fb0519d5c007b639da75e59137030"
+    },
+    {
+      "path": "after-the-rain/assets/city/apartment_a_modular_urban_apartments_facade_objects_nor_gl_1k.jpg.import",
+      "size": 1296,
+      "sha256": "e2ab8c84ef875cce5033e258bc3a4130c015887fd4392ddfff3738803a9ad631"
+    },
+    {
+      "path": "after-the-rain/assets/city/apartment_a_modular_urban_apartments_facade_plaster_arm_1k.jpg",
+      "size": 533411,
+      "sha256": "71c2ab6cfe97411f0111e99658b88cd22946abc96a3ed67051e06dab8dde5cb8"
+    },
+    {
+      "path": "after-the-rain/assets/city/apartment_a_modular_urban_apartments_facade_plaster_arm_1k.jpg.import",
+      "size": 1205,
+      "sha256": "cd7ecbdb88d0a334460a9a20faab91295b5803b500a45b8cab39fce1e0fd256a"
+    },
+    {
+      "path": "after-the-rain/assets/city/apartment_a_modular_urban_apartments_facade_plaster_diff_1k.jpg",
+      "size": 519200,
+      "sha256": "aac6cb79d9a3f73ad360077a439e1b81b1e919d6ace658a27225b20858bcad3c"
+    },
+    {
+      "path": "after-the-rain/assets/city/apartment_a_modular_urban_apartments_facade_plaster_diff_1k.jpg.import",
+      "size": 1208,
+      "sha256": "2b6e53c022cf9f4b16aafab6d00b13fee3d4357c508060c6eacc2e5383913b8a"
+    },
+    {
+      "path": "after-the-rain/assets/city/apartment_a_modular_urban_apartments_facade_plaster_nor_gl_1k.jpg",
+      "size": 1003277,
+      "sha256": "79cebca9b98dcb62efc5474a2d236c98a34b7260b58a65db24e501acf60de66c"
+    },
+    {
+      "path": "after-the-rain/assets/city/apartment_a_modular_urban_apartments_facade_plaster_nor_gl_1k.jpg.import",
+      "size": 1297,
+      "sha256": "047007a0e8cea11b2db5a7d780af1d72ba275d4a057cc577d817c0be30d7c89c"
+    },
+    {
+      "path": "after-the-rain/assets/city/apartment_a_modular_urban_apartments_facade_trim_01_arm_1k.jpg",
+      "size": 651756,
+      "sha256": "b3fe0aa9389d827afa4a29e15842209a6d8dadb86eca9a0b462c2c9fe4f58987"
+    },
+    {
+      "path": "after-the-rain/assets/city/apartment_a_modular_urban_apartments_facade_trim_01_arm_1k.jpg.import",
+      "size": 1204,
+      "sha256": "e5cf1fad683edc4b0adbfbcbf38d6a32bdfe25f0dd1616caf4674c0c7e584c25"
+    },
+    {
+      "path": "after-the-rain/assets/city/apartment_a_modular_urban_apartments_facade_trim_01_diff_1k.jpg",
+      "size": 553769,
+      "sha256": "62510c9e167363da1ff101b03d0c7705c74cb0e20bb02fc7bc0596f9da26ac8c"
+    },
+    {
+      "path": "after-the-rain/assets/city/apartment_a_modular_urban_apartments_facade_trim_01_diff_1k.jpg.import",
+      "size": 1208,
+      "sha256": "ba11c59a6467969da636d0a21f3d988fa9863ffd2a21a887ee5568b71f0aabb2"
+    },
+    {
+      "path": "after-the-rain/assets/city/apartment_a_modular_urban_apartments_facade_trim_01_nor_gl_1k.jpg",
+      "size": 850037,
+      "sha256": "65cf274a67914590329b67eb6d926377d5aa45fa326afb91caa8781a30c99160"
+    },
+    {
+      "path": "after-the-rain/assets/city/apartment_a_modular_urban_apartments_facade_trim_01_nor_gl_1k.jpg.import",
+      "size": 1296,
+      "sha256": "7bd1bb9a6c4e6d6d1932c5da881eb73a1545fbddbe9627cf650b6c5f18b9364c"
+    },
+    {
+      "path": "after-the-rain/assets/city/apartment_a_modular_urban_apartments_facade_trim_02_arm_1k.jpg",
+      "size": 706292,
+      "sha256": "45a49a17b19b7d579237ec343b56ebee79ce1b06cb9d1179af8609d64ee1c27f"
+    },
+    {
+      "path": "after-the-rain/assets/city/apartment_a_modular_urban_apartments_facade_trim_02_arm_1k.jpg.import",
+      "size": 1205,
+      "sha256": "5abe941ba985273c1051e270a919d44b73fcb53a8b715cc913eea692202e9e62"
+    },
+    {
+      "path": "after-the-rain/assets/city/apartment_a_modular_urban_apartments_facade_trim_02_diff_1k.jpg",
+      "size": 499399,
+      "sha256": "10097392fa107eb3723fff229f1f9522dedd2f91e4bdc3eaac884325d42ddf8e"
+    },
+    {
+      "path": "after-the-rain/assets/city/apartment_a_modular_urban_apartments_facade_trim_02_diff_1k.jpg.import",
+      "size": 1208,
+      "sha256": "67fa61126b3e3b22924c844548f4dbaa8cb228c01d8686802a3af682f1646b37"
+    },
+    {
+      "path": "after-the-rain/assets/city/apartment_a_modular_urban_apartments_facade_trim_02_nor_gl_1k.jpg",
+      "size": 820776,
+      "sha256": "8a87d143725ec32951061b55935ffcef426755b0d11236d93e8b18cf94612498"
+    },
+    {
+      "path": "after-the-rain/assets/city/apartment_a_modular_urban_apartments_facade_trim_02_nor_gl_1k.jpg.import",
+      "size": 1297,
+      "sha256": "beffa1ed5df100d98ebfcc1d7058701f3745c88368c2d10949e0414b3588095f"
+    },
+    {
+      "path": "after-the-rain/assets/city/apartment_b.glb",
+      "size": 2434088,
+      "sha256": "1e9350afa942e095659c4c0bb913145d3e60a8bdd28e20e14835f5e25cf585d7"
+    },
+    {
+      "path": "after-the-rain/assets/city/apartment_b.glb.import",
+      "size": 1051,
+      "sha256": "baa45683add27379fb7be33b8ef8be6b5a31e09b85352c5bcbfbdc2a16a7d2d4"
+    },
+    {
+      "path": "after-the-rain/assets/city/apartment_b_detail.glb",
+      "size": 9262572,
+      "sha256": "c287ca4a3e6226d6d392faa443885acfd18a6a3c4d3a1c5d795b4b5216a1032d"
+    },
+    {
+      "path": "after-the-rain/assets/city/apartment_b_detail.glb.import",
+      "size": 1072,
+      "sha256": "8e6deabb74a880b37885a40799375b89369de03ff803d0c6bc4cb7323c855edf"
+    },
+    {
+      "path": "after-the-rain/assets/city/apartment_b_detail_modular_urban_apartments_facade_objects_arm_1k.jpg",
+      "size": 790231,
+      "sha256": "16c23388d22461b5fc8f2a879e5549bc1591d99e0da4f0c057fe2a49c458da38"
+    },
+    {
+      "path": "after-the-rain/assets/city/apartment_b_detail_modular_urban_apartments_facade_objects_arm_1k.jpg.import",
+      "size": 1226,
+      "sha256": "7c9aea94664d954a212d39c62ad8b9661fdbc66ef2e4821e479136cf7d4cc30b"
+    },
+    {
+      "path": "after-the-rain/assets/city/apartment_b_detail_modular_urban_apartments_facade_objects_diff_1k.jpg",
+      "size": 576336,
+      "sha256": "038083f96e63d92e6a30685f1a7f5b5b01a6448118dfecd6ed364d31088db7df"
+    },
+    {
+      "path": "after-the-rain/assets/city/apartment_b_detail_modular_urban_apartments_facade_objects_diff_1k.jpg.import",
+      "size": 1228,
+      "sha256": "08a857a24c0d959d4e85317d2602826688927558c6efe53ef54ff264f1b1df6b"
+    },
+    {
+      "path": "after-the-rain/assets/city/apartment_b_detail_modular_urban_apartments_facade_objects_nor_gl_1k.jpg",
+      "size": 544638,
+      "sha256": "e5bac0355cbacb09d4400398f7e5f159624fb0519d5c007b639da75e59137030"
+    },
+    {
+      "path": "after-the-rain/assets/city/apartment_b_detail_modular_urban_apartments_facade_objects_nor_gl_1k.jpg.import",
+      "size": 1325,
+      "sha256": "e68ff7b25fedb1e897a7a9a60681750f82d61adbec24cab761c6332e628e1f9f"
+    },
+    {
+      "path": "after-the-rain/assets/city/apartment_b_detail_modular_urban_apartments_facade_plaster_arm_1k.jpg",
+      "size": 533411,
+      "sha256": "71c2ab6cfe97411f0111e99658b88cd22946abc96a3ed67051e06dab8dde5cb8"
+    },
+    {
+      "path": "after-the-rain/assets/city/apartment_b_detail_modular_urban_apartments_facade_plaster_arm_1k.jpg.import",
+      "size": 1226,
+      "sha256": "8bf50a518e96e8317f6fab80c241bd99550863011e47965378fd3f82fdc8afc3"
+    },
+    {
+      "path": "after-the-rain/assets/city/apartment_b_detail_modular_urban_apartments_facade_plaster_diff_1k.jpg",
+      "size": 519200,
+      "sha256": "aac6cb79d9a3f73ad360077a439e1b81b1e919d6ace658a27225b20858bcad3c"
+    },
+    {
+      "path": "after-the-rain/assets/city/apartment_b_detail_modular_urban_apartments_facade_plaster_diff_1k.jpg.import",
+      "size": 1229,
+      "sha256": "c4c548eb6a89c96cad06be8a95ef5f939cf8cec4c4b26ec67ddb7cf1be165d94"
+    },
+    {
+      "path": "after-the-rain/assets/city/apartment_b_detail_modular_urban_apartments_facade_plaster_nor_gl_1k.jpg",
+      "size": 1003277,
+      "sha256": "79cebca9b98dcb62efc5474a2d236c98a34b7260b58a65db24e501acf60de66c"
+    },
+    {
+      "path": "after-the-rain/assets/city/apartment_b_detail_modular_urban_apartments_facade_plaster_nor_gl_1k.jpg.import",
+      "size": 1325,
+      "sha256": "05a2bdcc05e96e62ec2624a3262f36ec4c087e8bf88d30ddbc2abe456ff94ddd"
+    },
+    {
+      "path": "after-the-rain/assets/city/apartment_b_detail_modular_urban_apartments_facade_trim_01_arm_1k.jpg",
+      "size": 651756,
+      "sha256": "b3fe0aa9389d827afa4a29e15842209a6d8dadb86eca9a0b462c2c9fe4f58987"
+    },
+    {
+      "path": "after-the-rain/assets/city/apartment_b_detail_modular_urban_apartments_facade_trim_01_arm_1k.jpg.import",
+      "size": 1226,
+      "sha256": "70cf532e9c2c5241bc7c974230e43e91fc2c826283972a5b082a81a73a2ef6c5"
+    },
+    {
+      "path": "after-the-rain/assets/city/apartment_b_detail_modular_urban_apartments_facade_trim_01_diff_1k.jpg",
+      "size": 553769,
+      "sha256": "62510c9e167363da1ff101b03d0c7705c74cb0e20bb02fc7bc0596f9da26ac8c"
+    },
+    {
+      "path": "after-the-rain/assets/city/apartment_b_detail_modular_urban_apartments_facade_trim_01_diff_1k.jpg.import",
+      "size": 1228,
+      "sha256": "8bf0035f6b3c50bf69f8849345d21cba2d223499e0a3f8ba99e0ac96676c1244"
+    },
+    {
+      "path": "after-the-rain/assets/city/apartment_b_detail_modular_urban_apartments_facade_trim_01_nor_gl_1k.jpg",
+      "size": 850037,
+      "sha256": "65cf274a67914590329b67eb6d926377d5aa45fa326afb91caa8781a30c99160"
+    },
+    {
+      "path": "after-the-rain/assets/city/apartment_b_detail_modular_urban_apartments_facade_trim_01_nor_gl_1k.jpg.import",
+      "size": 1325,
+      "sha256": "b4b2dec5a73561aa81db9dad64cbc77ef736d4177a7176aa89d80cac5d20f775"
+    },
+    {
+      "path": "after-the-rain/assets/city/apartment_b_detail_modular_urban_apartments_facade_trim_02_arm_1k.jpg",
+      "size": 706292,
+      "sha256": "45a49a17b19b7d579237ec343b56ebee79ce1b06cb9d1179af8609d64ee1c27f"
+    },
+    {
+      "path": "after-the-rain/assets/city/apartment_b_detail_modular_urban_apartments_facade_trim_02_arm_1k.jpg.import",
+      "size": 1226,
+      "sha256": "e6a50550559a68373fc6dc9da17a9de3b251827958919cbdc5edc7782f88f8f9"
+    },
+    {
+      "path": "after-the-rain/assets/city/apartment_b_detail_modular_urban_apartments_facade_trim_02_diff_1k.jpg",
+      "size": 499399,
+      "sha256": "10097392fa107eb3723fff229f1f9522dedd2f91e4bdc3eaac884325d42ddf8e"
+    },
+    {
+      "path": "after-the-rain/assets/city/apartment_b_detail_modular_urban_apartments_facade_trim_02_diff_1k.jpg.import",
+      "size": 1229,
+      "sha256": "34650590926de896c58a4db21a35f9f3c577cc3ed9b66d7d325b977df1234cb4"
+    },
+    {
+      "path": "after-the-rain/assets/city/apartment_b_detail_modular_urban_apartments_facade_trim_02_nor_gl_1k.jpg",
+      "size": 820776,
+      "sha256": "8a87d143725ec32951061b55935ffcef426755b0d11236d93e8b18cf94612498"
+    },
+    {
+      "path": "after-the-rain/assets/city/apartment_b_detail_modular_urban_apartments_facade_trim_02_nor_gl_1k.jpg.import",
+      "size": 1325,
+      "sha256": "dc14f04c4951a66b761395bdfa44c18616ca943c4e78f4af3fa5f8ea3b8b38a2"
+    },
+    {
+      "path": "after-the-rain/assets/city/apartment_b_modular_urban_apartments_facade_objects_arm_1k.jpg",
+      "size": 790231,
+      "sha256": "16c23388d22461b5fc8f2a879e5549bc1591d99e0da4f0c057fe2a49c458da38"
+    },
+    {
+      "path": "after-the-rain/assets/city/apartment_b_modular_urban_apartments_facade_objects_arm_1k.jpg.import",
+      "size": 1204,
+      "sha256": "ef09a96c9023106d5a0e5839fbf25114fd7ce22214fc4c6a5537b006ecd0e4e8"
+    },
+    {
+      "path": "after-the-rain/assets/city/apartment_b_modular_urban_apartments_facade_objects_diff_1k.jpg",
+      "size": 576336,
+      "sha256": "038083f96e63d92e6a30685f1a7f5b5b01a6448118dfecd6ed364d31088db7df"
+    },
+    {
+      "path": "after-the-rain/assets/city/apartment_b_modular_urban_apartments_facade_objects_diff_1k.jpg.import",
+      "size": 1208,
+      "sha256": "368bd65bc042e04c6be16fd395401db05857495c4402d84e276f8abd3c4c5b10"
+    },
+    {
+      "path": "after-the-rain/assets/city/apartment_b_modular_urban_apartments_facade_objects_nor_gl_1k.jpg",
+      "size": 544638,
+      "sha256": "e5bac0355cbacb09d4400398f7e5f159624fb0519d5c007b639da75e59137030"
+    },
+    {
+      "path": "after-the-rain/assets/city/apartment_b_modular_urban_apartments_facade_objects_nor_gl_1k.jpg.import",
+      "size": 1297,
+      "sha256": "05825a9799e0e403b3d5aabd11fbda3dad604af35ebe81ddd54161f37e358e42"
+    },
+    {
+      "path": "after-the-rain/assets/city/apartment_b_modular_urban_apartments_facade_plaster_arm_1k.jpg",
+      "size": 533411,
+      "sha256": "71c2ab6cfe97411f0111e99658b88cd22946abc96a3ed67051e06dab8dde5cb8"
+    },
+    {
+      "path": "after-the-rain/assets/city/apartment_b_modular_urban_apartments_facade_plaster_arm_1k.jpg.import",
+      "size": 1205,
+      "sha256": "b27fb88ebf6ecc9b39de17aa4396df6409c5ddcd33645dc018586d7f35d5e4d7"
+    },
+    {
+      "path": "after-the-rain/assets/city/apartment_b_modular_urban_apartments_facade_plaster_diff_1k.jpg",
+      "size": 519200,
+      "sha256": "aac6cb79d9a3f73ad360077a439e1b81b1e919d6ace658a27225b20858bcad3c"
+    },
+    {
+      "path": "after-the-rain/assets/city/apartment_b_modular_urban_apartments_facade_plaster_diff_1k.jpg.import",
+      "size": 1208,
+      "sha256": "ed163e828b0619427b22ebf5fb495cfecca5bab1022cfd09ca92c416f35769e1"
+    },
+    {
+      "path": "after-the-rain/assets/city/apartment_b_modular_urban_apartments_facade_plaster_nor_gl_1k.jpg",
+      "size": 1003277,
+      "sha256": "79cebca9b98dcb62efc5474a2d236c98a34b7260b58a65db24e501acf60de66c"
+    },
+    {
+      "path": "after-the-rain/assets/city/apartment_b_modular_urban_apartments_facade_plaster_nor_gl_1k.jpg.import",
+      "size": 1297,
+      "sha256": "8b9f75410233b4f1e4e99bc112e77ca3e18dfdcafef33d114f71f2e0d4e25697"
+    },
+    {
+      "path": "after-the-rain/assets/city/apartment_b_modular_urban_apartments_facade_trim_01_arm_1k.jpg",
+      "size": 651756,
+      "sha256": "b3fe0aa9389d827afa4a29e15842209a6d8dadb86eca9a0b462c2c9fe4f58987"
+    },
+    {
+      "path": "after-the-rain/assets/city/apartment_b_modular_urban_apartments_facade_trim_01_arm_1k.jpg.import",
+      "size": 1205,
+      "sha256": "3ac7edbe24b79b8e57734a87577ba434704106a41618ed948ee1313d667374e0"
+    },
+    {
+      "path": "after-the-rain/assets/city/apartment_b_modular_urban_apartments_facade_trim_01_diff_1k.jpg",
+      "size": 553769,
+      "sha256": "62510c9e167363da1ff101b03d0c7705c74cb0e20bb02fc7bc0596f9da26ac8c"
+    },
+    {
+      "path": "after-the-rain/assets/city/apartment_b_modular_urban_apartments_facade_trim_01_diff_1k.jpg.import",
+      "size": 1208,
+      "sha256": "0e13eeeddc010497a926a537b552b8a63de4d4544e2d78ad18cea18d4788e7a5"
+    },
+    {
+      "path": "after-the-rain/assets/city/apartment_b_modular_urban_apartments_facade_trim_01_nor_gl_1k.jpg",
+      "size": 850037,
+      "sha256": "65cf274a67914590329b67eb6d926377d5aa45fa326afb91caa8781a30c99160"
+    },
+    {
+      "path": "after-the-rain/assets/city/apartment_b_modular_urban_apartments_facade_trim_01_nor_gl_1k.jpg.import",
+      "size": 1296,
+      "sha256": "1845c4ae38f9031a6e325e7c074a2775d813a953991d3de81ef9aa3be9e03a41"
+    },
+    {
+      "path": "after-the-rain/assets/city/apartment_b_modular_urban_apartments_facade_trim_02_arm_1k.jpg",
+      "size": 706292,
+      "sha256": "45a49a17b19b7d579237ec343b56ebee79ce1b06cb9d1179af8609d64ee1c27f"
+    },
+    {
+      "path": "after-the-rain/assets/city/apartment_b_modular_urban_apartments_facade_trim_02_arm_1k.jpg.import",
+      "size": 1205,
+      "sha256": "6aab5d3e51e3ce9ae3556d327a04341594997a5fba216cacd6ef85c3de6b240e"
+    },
+    {
+      "path": "after-the-rain/assets/city/apartment_b_modular_urban_apartments_facade_trim_02_diff_1k.jpg",
+      "size": 499399,
+      "sha256": "10097392fa107eb3723fff229f1f9522dedd2f91e4bdc3eaac884325d42ddf8e"
+    },
+    {
+      "path": "after-the-rain/assets/city/apartment_b_modular_urban_apartments_facade_trim_02_diff_1k.jpg.import",
+      "size": 1208,
+      "sha256": "f1ed619d3cad74c44be6c1c281dadacde2de60d7023b274de4b001c6bf3b570b"
+    },
+    {
+      "path": "after-the-rain/assets/city/apartment_b_modular_urban_apartments_facade_trim_02_nor_gl_1k.jpg",
+      "size": 820776,
+      "sha256": "8a87d143725ec32951061b55935ffcef426755b0d11236d93e8b18cf94612498"
+    },
+    {
+      "path": "after-the-rain/assets/city/apartment_b_modular_urban_apartments_facade_trim_02_nor_gl_1k.jpg.import",
+      "size": 1296,
+      "sha256": "2c6a41d1c90e24e0efd5319ea8ffeb2704bd0092de2811de3a189628bb9c3c50"
+    },
+    {
+      "path": "after-the-rain/assets/city/licenses/ASSET_SOURCES.md",
+      "size": 4177,
+      "sha256": "c7fbfeeab071b698d75f9b9606d1fcf560796fd2c778e4eb978f525a3e11c0aa"
+    },
+    {
+      "path": "after-the-rain/assets/city/licenses/CC0-1.0.txt",
+      "size": 7048,
+      "sha256": "a2010f343487d3f7618affe54f789f5487602331c0a8d03f49e9a7c547cf0499"
+    },
+    {
+      "path": "after-the-rain/assets/city/licenses/download_manifest.json",
+      "size": 12608,
+      "sha256": "601f15c934ed22d0d86a2a45616c59067bea3dfc4b0c3037400c4903bcee761a"
+    },
+    {
+      "path": "after-the-rain/assets/city/materials/asphalt_02_diff_1k.jpg",
+      "size": 731707,
+      "sha256": "1aa5ce99f58a625c71d48cfc3e68b65ca85ccb00f39e045c0a928608a0ea25ed"
+    },
+    {
+      "path": "after-the-rain/assets/city/materials/asphalt_02_diff_1k.jpg.import",
+      "size": 1028,
+      "sha256": "2f05944244dc537941003f42ef4100b15f1b364d969fd06e31509aadfea21078"
+    },
+    {
+      "path": "after-the-rain/assets/city/materials/asphalt_02_nor_gl_1k.jpg",
+      "size": 1240122,
+      "sha256": "42a1c381b53204e83a982db2864479a30bc127bbdeebb1006f8ee51bff099df3"
+    },
+    {
+      "path": "after-the-rain/assets/city/materials/asphalt_02_nor_gl_1k.jpg.import",
+      "size": 1034,
+      "sha256": "371825c431e4e50bdb4f93a23ba63b9f9737ceb3616db1b9b7b9edd22fd807c5"
+    },
+    {
+      "path": "after-the-rain/assets/city/materials/asphalt_02_rough_1k.jpg",
+      "size": 544032,
+      "sha256": "70ba3edc65525eb4dc366cf010ca7ae0bd34e0251ff0225c2dad627a873d0712"
+    },
+    {
+      "path": "after-the-rain/assets/city/materials/asphalt_02_rough_1k.jpg.import",
+      "size": 1031,
+      "sha256": "b1ac5c28f8392d6cfcf54f083b1482649933175867ef6588031202da440cd2a3"
+    },
+    {
+      "path": "after-the-rain/assets/city/materials/concrete_wall_007_diff_1k.jpg",
+      "size": 654485,
+      "sha256": "1a5ff668a66e147d9fb795d8407ca67a144a1ca010779a5b8386137a4917a086"
+    },
+    {
+      "path": "after-the-rain/assets/city/materials/concrete_wall_007_diff_1k.jpg.import",
+      "size": 1049,
+      "sha256": "eaf10a0adb6ad3fb8155f625213c74a00898821ae5c54518ffc7d9a0a76d7ba1"
+    },
+    {
+      "path": "after-the-rain/assets/city/materials/concrete_wall_007_nor_gl_1k.jpg",
+      "size": 602349,
+      "sha256": "cccb1841908ced8b89b65b5de97c1926f717dab63a14559264703a99639c291f"
+    },
+    {
+      "path": "after-the-rain/assets/city/materials/concrete_wall_007_nor_gl_1k.jpg.import",
+      "size": 1055,
+      "sha256": "11c03d004a90c49c3ced151c2ddddf2bac1106062e8b687ea6c681e2159146c8"
+    },
+    {
+      "path": "after-the-rain/assets/city/materials/concrete_wall_007_rough_1k.jpg",
+      "size": 563812,
+      "sha256": "5de46a478cbcb4cf4851be9b1dc4a58609c580e498fe758a6959119d45e7a5cb"
+    },
+    {
+      "path": "after-the-rain/assets/city/materials/concrete_wall_007_rough_1k.jpg.import",
+      "size": 1052,
+      "sha256": "4296b0ff4f56fd1c4d80477c0692caabb2ade09acccf276c2964145cb778f134"
+    },
+    {
+      "path": "after-the-rain/assets/city/materials/damp_concrete.tres",
+      "size": 849,
+      "sha256": "591a2b09d0ded3818e02d418ad134b5e91a58e6951de0f2f30b8e350e9c1299e"
+    },
+    {
+      "path": "after-the-rain/assets/city/materials/damp_concrete_uv.tres",
+      "size": 717,
+      "sha256": "c2b7369b4cc0029dcd732922c8b8f8d72e4e898c9d75627108dfd1a4969836ca"
+    },
+    {
+      "path": "after-the-rain/assets/city/materials/wet_asphalt.tres",
+      "size": 825,
+      "sha256": "772e20575591dd497e8576dc5178c06410addd37e14246eaf0411dd31dd9ac5b"
+    },
+    {
+      "path": "after-the-rain/assets/city/materials/wet_asphalt_uv.tres",
+      "size": 693,
+      "sha256": "2535d6c559c6423c6eefc251f5324d28cbf5d48cf1e7e456b92fbe69251f1833"
+    },
+    {
+      "path": "after-the-rain/assets/engine.wav",
+      "size": 352844,
+      "sha256": "22a0934f32003b1e66102cbed210f1de31c0956a205f179a045445fe8aaa634d"
+    },
+    {
+      "path": "after-the-rain/assets/engine.wav.import",
+      "size": 483,
+      "sha256": "657ba537e47a9c3775a9ea19f04ec41820f411e990c3c9ebdb084de4fff461df"
+    },
+    {
+      "path": "after-the-rain/assets/fonts/NotoSansCJK-LICENSE.txt",
+      "size": 14712,
+      "sha256": "849f4ea9c214fa4ac3593b770c699f387534b11ce671264c1b10d85bdcb5997b"
+    },
+    {
+      "path": "after-the-rain/assets/fonts/NotoSansCJK-Regular.ttc",
+      "size": 19484784,
+      "sha256": "b76b0433203017ca80401b2ee0dd69350349871c4b19d504c34dbdd80541690a"
+    },
+    {
+      "path": "after-the-rain/assets/fonts/NotoSansCJK-Regular.ttc.import",
+      "size": 795,
+      "sha256": "69545682d8058fb580268ffc099f5d9bca49e7586e9fd6cce4e2ee01f5067520"
+    },
+    {
+      "path": "after-the-rain/assets/footsteps_roof.wav",
+      "size": 10186,
+      "sha256": "df97ae85b8e388b3b053507d2099c74694669358009ca95981ac7beba16dfbb2"
+    },
+    {
+      "path": "after-the-rain/assets/footsteps_roof.wav.import",
+      "size": 507,
+      "sha256": "9e9a6b0072fe445d0de994ec3066c96b5919fd800df05ad0adc09ecb988d8607"
+    },
+    {
+      "path": "after-the-rain/assets/footsteps_wet.wav",
+      "size": 10186,
+      "sha256": "8d4600cf79a94831a243b093ed22741d5b2f54b19fdbb1d912f829d296fceac1"
+    },
+    {
+      "path": "after-the-rain/assets/footsteps_wet.wav.import",
+      "size": 504,
+      "sha256": "e71ce0e3e4b7f2e235885895524bdebf84ae9ac1fbbf8fb2702bf813b94092ad"
+    },
+    {
+      "path": "after-the-rain/assets/rain.wav",
+      "size": 1411244,
+      "sha256": "ca26ed79fa1df787db05ffeebf54a4a4b80e9a3ce351cb8da9a76306e446b09a"
+    },
+    {
+      "path": "after-the-rain/assets/rain.wav.import",
+      "size": 476,
+      "sha256": "d00832fcd114155bcf3d7a6e0d65cf0131cdc90f2c66930508a8f4ad512e053b"
+    },
+    {
+      "path": "after-the-rain/assets/shelter.glb",
+      "size": 480324,
+      "sha256": "00f5d86dc5427aa57f098a09111fb56a1c56c22522b983ef4a975cad997f5e43"
+    },
+    {
+      "path": "after-the-rain/assets/shelter.glb.import",
+      "size": 1034,
+      "sha256": "aecb0c132f91b5abb9febf589394561c90c3671401691d96e6ca38b81cca681d"
+    },
+    {
+      "path": "after-the-rain/assets/umbrella_taps.wav",
+      "size": 264644,
+      "sha256": "8f90734ee6fe355dadc3a1ae13588317fd8be9196bc7f1fc222cdc50a79f04b5"
+    },
+    {
+      "path": "after-the-rain/assets/umbrella_taps.wav.import",
+      "size": 504,
+      "sha256": "0bf3c15706afe7f1ca589ecb6b71667d3ac6615c0be2abcef497363eb4ddd518"
+    },
+    {
+      "path": "after-the-rain/bus_visual.gd.uid",
+      "size": 20,
+      "sha256": "98b44a80f1bb95bff0e272a31845aad9aeb76b575cf51f7e65a4c7f9e3176f44"
+    },
+    {
+      "path": "after-the-rain/config/bus_schedule.gd",
+      "size": 510,
+      "sha256": "66b4364f04b7f66949a2c3284a16ec0fb2cf445fea8af2f84752e483a8547389"
+    },
+    {
+      "path": "after-the-rain/config/bus_schedule.gd.uid",
+      "size": 20,
+      "sha256": "215ad85a324e58f63b4cd39b113f0e37b228a0c9ed35779f42d1e8599649644b"
+    },
+    {
+      "path": "after-the-rain/config/bus_schedule.tres",
+      "size": 357,
+      "sha256": "8923ccb0b3331779940522bc304df2a4ade5e12d16ff14a079852b9ea744af8c"
+    },
+    {
+      "path": "after-the-rain/config/city_layout.gd",
+      "size": 2087,
+      "sha256": "e2bf542282aacc85428830fe6b41cf62060f02027626d8585ec4e5f3c3d6b1f2"
+    },
+    {
+      "path": "after-the-rain/config/city_layout.gd.uid",
+      "size": 19,
+      "sha256": "e8909e83ad6f4ac4a81cf2492f71d22e11c620814896bbb32b00ed66270434de"
+    },
+    {
+      "path": "after-the-rain/config/city_layout.tres",
+      "size": 176,
+      "sha256": "942f4e75a605ae17fb51fad08d8696d2b29f4e15ecbd691ac58f0ef05585b713"
+    },
+    {
+      "path": "after-the-rain/config/city_layout_detailed.tres",
+      "size": 310,
+      "sha256": "2666c272cc405910ac0ad6a9b0f41e607a6b928f9939de3d06aa61864cf0e82d"
+    },
+    {
+      "path": "after-the-rain/config/rain_positions.json",
+      "size": 75125,
+      "sha256": "02b2533ba43920c9193f7bc70115918967be4aa15bc8fe0cf62bcb406551d2dc"
+    },
+    {
+      "path": "after-the-rain/config/story_flower.tres",
+      "size": 602,
+      "sha256": "5f9bff80278cf807f4fd10c93c683248cc77fe2d19a51e0804c1d533958298ec"
+    },
+    {
+      "path": "after-the-rain/config/story_loan_offer.tres",
+      "size": 698,
+      "sha256": "20ac09f956da65fd5e1524f820cabe52640710ce5a5bd7ee8483a455f391be05"
+    },
+    {
+      "path": "after-the-rain/config/story_memo.tres",
+      "size": 587,
+      "sha256": "601a4e214ec08da1fd8e697dd766a1cfa2520f194b0e3fdaf48033544af0a9ae"
+    },
+    {
+      "path": "after-the-rain/config/story_passenger.tres",
+      "size": 939,
+      "sha256": "0f57f47b60be25b23a2afb7776013f8a4157f68892fafd897a592d71baa18fa5"
+    },
+    {
+      "path": "after-the-rain/config/story_reason_question.tres",
+      "size": 806,
+      "sha256": "753d3935136d0ed98668962e12c24ea8ec7b32e0bb61327619f5a00cab0142c9"
+    },
+    {
+      "path": "after-the-rain/config/story_reason_walk.tres",
+      "size": 368,
+      "sha256": "c2f9f7d78be22569109e135bfbbefb88fb508f72cbc598b5573d80be49b77617"
+    },
+    {
+      "path": "after-the-rain/config/story_reason_work.tres",
+      "size": 355,
+      "sha256": "778acf62be1783de9e1db2f5ba515fc2099eceb0dde371b516005e69194592c4"
+    },
+    {
+      "path": "after-the-rain/config/story_route.tres",
+      "size": 615,
+      "sha256": "5e152859f515b598bd00dc6639053a33c76b091dda15185167e5b1412744783d"
+    },
+    {
+      "path": "after-the-rain/config/story_text.gd",
+      "size": 358,
+      "sha256": "89a3a596df152c5f1317168b80e69f8272b21997f0894cd11e943181d1e8432d"
+    },
+    {
+      "path": "after-the-rain/config/story_text.gd.uid",
+      "size": 20,
+      "sha256": "029937d27bb507b36589452f6eb26e18e6cde40fd330577a386150c75aa251ab"
+    },
+    {
+      "path": "after-the-rain/default_bus_layout.tres",
+      "size": 376,
+      "sha256": "2ab5696f8eb97293f1c66f1bbd1f303f2f9fa64e9837cf486874c106273d0a2d"
+    },
+    {
+      "path": "after-the-rain/liquid_cup.gd",
+      "size": 4559,
+      "sha256": "1ad5f35d9e5c48a6f106acec79486ae7bcf7c33b5b71a246a9dfa23d84001337"
+    },
+    {
+      "path": "after-the-rain/liquid_cup.gd.uid",
+      "size": 20,
+      "sha256": "3753a3327a4b7a6b02a2cd0bf3639369ab612ca703e39fa02d523712257d0ef3"
+    },
+    {
+      "path": "after-the-rain/main.gd.uid",
+      "size": 20,
+      "sha256": "4d3090cfc14309605c1ec8672b2b2fac0e64668b7d2f192a22a2e6038976a236"
+    },
+    {
+      "path": "after-the-rain/main.tscn",
+      "size": 2841,
+      "sha256": "24749f57a8d9f65d7e1f0993ef70c86cfa505b7cfdf7765c45e78f99fe9c42fa"
+    },
+    {
+      "path": "after-the-rain/project.godot",
+      "size": 665,
+      "sha256": "0f1115cad80f6c1491dbde7fd82f0d83728b043430f007dccd2f59a5b338a5a4"
+    },
+    {
+      "path": "after-the-rain/scenes/ambience.tscn",
+      "size": 1276,
+      "sha256": "e1ae7d3c2e5f4d766dd8d7568d9181ef5662dc414cc6cb4216ecb9f43350fc9a"
+    },
+    {
+      "path": "after-the-rain/scenes/arrival_display.tscn",
+      "size": 896,
+      "sha256": "27122e61473d68802d90a3b6e3bea3962b4a37620348282dc7ef923ab3571bb0"
+    },
+    {
+      "path": "after-the-rain/scenes/buildings/brick_midrise.tscn",
+      "size": 637,
+      "sha256": "efc5998210f6ffb91e2d9c6a7e2fa0281ba483723f8e3c1e5afe89e9bc199e62"
+    },
+    {
+      "path": "after-the-rain/scenes/buildings/brick_midrise_detail.tscn",
+      "size": 644,
+      "sha256": "2bad16f0a49002cc0bbf07eac84e5cddac65c99f4f2ad0de48f1d3ddb257ec45"
+    },
+    {
+      "path": "after-the-rain/scenes/buildings/plaster_midrise.tscn",
+      "size": 637,
+      "sha256": "582cce40b969d70d41f1bf00430d96449011a8e205f958996f2fe53ca6bb6224"
+    },
+    {
+      "path": "after-the-rain/scenes/buildings/plaster_midrise_detail.tscn",
+      "size": 644,
+      "sha256": "adc23e7d3de84ef3b177fe000098a4515201659bb5b13525f4755703a1df6359"
+    },
+    {
+      "path": "after-the-rain/scenes/bus_stop.tscn",
+      "size": 8011,
+      "sha256": "422f1c6506393935092bae6784bbcfed49d189a3859442ec0f90284e705835e1"
+    },
+    {
+      "path": "after-the-rain/scenes/bus_visual.tscn",
+      "size": 34721,
+      "sha256": "9c3b37609904968a5c62a5d7107c1c0c6c38ebad9bb50e9e8c39b426e3e409d5"
+    },
+    {
+      "path": "after-the-rain/scenes/city_layout.tscn",
+      "size": 6396,
+      "sha256": "d287843eed0afa4a1c192d45c8d380ae5bc9dfbec3b750a183b35c3e6e29c839"
+    },
+    {
+      "path": "after-the-rain/scenes/cocoa_cup.tscn",
+      "size": 72848,
+      "sha256": "95e5dc7bb1853361d4874242724bad5752b9319fa0997767004d026e4b89f79a"
+    },
+    {
+      "path": "after-the-rain/scenes/cocoa_grip.tscn",
+      "size": 1768,
+      "sha256": "c5d20ae6f64bb0389400d856289b426ee0036da77269b8c924e1b78b9c07ce47"
+    },
+    {
+      "path": "after-the-rain/scenes/cocoa_steam.tscn",
+      "size": 1260,
+      "sha256": "3132de7512a08f00d1ea80dc604e7b7a0e4f9faa58877f57ae7d32668f30a3ba"
+    },
+    {
+      "path": "after-the-rain/scenes/evening_clock.tscn",
+      "size": 195,
+      "sha256": "0c63a8438668ad16eb3d7ae883dbce180f5c5f270e8f9104421ae16d07ff35ca"
+    },
+    {
+      "path": "after-the-rain/scenes/evening_conversation.tscn",
+      "size": 527,
+      "sha256": "1dd31643029199c591a15dc72b8488d0bf4dadef06380e66f5ec24483905cb52"
+    },
+    {
+      "path": "after-the-rain/scenes/exploration.tscn",
+      "size": 475,
+      "sha256": "a41bff3fd930dc59109629c5d26c1cdf46688482cdec756c10c06ddc556f65cf"
+    },
+    {
+      "path": "after-the-rain/scenes/flower_life.tscn",
+      "size": 5078,
+      "sha256": "8af4dcc3936f33e7392d888ebf6f5e9c89a78255a7d69433765e07db1c180257"
+    },
+    {
+      "path": "after-the-rain/scenes/held_drink.tscn",
+      "size": 603,
+      "sha256": "f0b23221fc8b3d304c559de499fd6922d519ca715a0ebe08174eee6dc883a609"
+    },
+    {
+      "path": "after-the-rain/scenes/held_umbrella.tscn",
+      "size": 16956,
+      "sha256": "c843f668adf9dd17090998050f7d49026e34de90268e5e42841ab833eeba0531"
+    },
+    {
+      "path": "after-the-rain/scenes/hud.tscn",
+      "size": 2991,
+      "sha256": "37c432409c3a841090f650c73e76ea8e4184d9930156bab4b109cafe89e82fd7"
+    },
+    {
+      "path": "after-the-rain/scenes/neighborhood_walk.tscn",
+      "size": 15854,
+      "sha256": "9e3ef7023e21bfcdaeccefb224ab93d97d775e8ec58218fff1def07ea61e28ac"
+    },
+    {
+      "path": "after-the-rain/scenes/night_bus.tscn",
+      "size": 405,
+      "sha256": "fd969c07e3fb072d38edbcdc5ee367ad8a1c183a8740becb7f2d26ca3b797be7"
+    },
+    {
+      "path": "after-the-rain/scenes/onboard_companion.tscn",
+      "size": 3296,
+      "sha256": "f878a8a50ba1a4dc651ec600eb674ef47310d8e09bba31691e48769483fa0d8b"
+    },
+    {
+      "path": "after-the-rain/scenes/onboard_view.tscn",
+      "size": 4035,
+      "sha256": "39d89f39f3cedef51b24a3f6af29b6f7d69dae6f4791f3e7d55e9ef56fe740a4"
+    },
+    {
+      "path": "after-the-rain/scenes/overview_view.tscn",
+      "size": 353,
+      "sha256": "95b9f3b42a6b54e693a36916254e15e425d099f8d58657789245e6a2f89c1098"
+    },
+    {
+      "path": "after-the-rain/scenes/pause_overlay.tscn",
+      "size": 4533,
+      "sha256": "4f1194c72003a243410127b67bcbc5e47bcca473cc31734fab1dbcee1057e835"
+    },
+    {
+      "path": "after-the-rain/scenes/player.tscn",
+      "size": 758,
+      "sha256": "d8d47bf8c33a02e466dc0b98ac28133a8a0c42d04638a79cf4446663e7e6fe7d"
+    },
+    {
+      "path": "after-the-rain/scenes/rain.tscn",
+      "size": 764,
+      "sha256": "c85a9454060ea4294ed7a7663978720219f8bf5ec050d64b44b6d56ab00d0f43"
+    },
+    {
+      "path": "after-the-rain/scenes/rain_cat.tscn",
+      "size": 5595,
+      "sha256": "fa67f4d02f2f456925bb3f701dbde2149d38a00b24f7c9d6596a395d459abf31"
+    },
+    {
+      "path": "after-the-rain/scenes/rain_cover.tscn",
+      "size": 233,
+      "sha256": "23a14aa652af538668db3879434b503a13f241c9b03806a367b9b53321d79666"
+    },
+    {
+      "path": "after-the-rain/scenes/rain_details.tscn",
+      "size": 4550,
+      "sha256": "b42fbb3fe246084e82bea76eeaa4ab98f7db7fc3d8e7b88595915e422039c26b"
+    },
+    {
+      "path": "after-the-rain/scenes/stories/memo_board.tscn",
+      "size": 2523,
+      "sha256": "a0e40c2dc3f673fa65c22ebef7f9fbdd57cc3dab8da3df4453b60b55be03d1b6"
+    },
+    {
+      "path": "after-the-rain/scenes/stories/route_board.tscn",
+      "size": 2724,
+      "sha256": "0d33751c6a081f6eff953de58ee9e76d0ed73f1b82344427193c1c2e4b83bf0d"
+    },
+    {
+      "path": "after-the-rain/scenes/stories/shared_umbrella.tscn",
+      "size": 1365,
+      "sha256": "02918eb9eb5dde71a1536b3b218043358f2f28551ee8ad7d1046ee9f52df1f08"
+    },
+    {
+      "path": "after-the-rain/scenes/stories/small_radio.tscn",
+      "size": 4747,
+      "sha256": "fac3efe12484486a997e558fe53d116dfb5e730ab8963f419e148c2495a4f62e"
+    },
+    {
+      "path": "after-the-rain/scenes/stories/stories.tscn",
+      "size": 994,
+      "sha256": "77b503ce9a5a20293913e2b212443236a55a0a4852d484c742639c3810e999bf"
+    },
+    {
+      "path": "after-the-rain/scenes/stories/umbrella_return.tscn",
+      "size": 2922,
+      "sha256": "5fed6cbc65c199bb534b4d783fd95d26d191eb3329bd58783d9c0b1edeba3ac8"
+    },
+    {
+      "path": "after-the-rain/scenes/stories/waiting_passenger.tscn",
+      "size": 5898,
+      "sha256": "f15c534e5227b88edac64a1cbf479096e23c1fc976ac09abae1840f7a78c7333"
+    },
+    {
+      "path": "after-the-rain/scenes/story_corner.tscn",
+      "size": 599,
+      "sha256": "abac6f7f3593265c850a10a0cfea0d19726257ac6d296403e15c350302e9cba9"
+    },
+    {
+      "path": "after-the-rain/scenes/story_panel.tscn",
+      "size": 2483,
+      "sha256": "b5b3b269cc52c00fa1631c5d3332de7c8641091b63c260384f21d7104fdbf339"
+    },
+    {
+      "path": "after-the-rain/scenes/story_radio_audio.tscn",
+      "size": 415,
+      "sha256": "a90a899420fe359ef45af968b8f21e1f5e852b119ff62f2c09252c9ad45cc300"
+    },
+    {
+      "path": "after-the-rain/scenes/trash_can.tscn",
+      "size": 1678,
+      "sha256": "f6b008b2adb2554960c5080863a27d65d2f8a14082fd5c4819ed34b14ed25adb"
+    },
+    {
+      "path": "after-the-rain/scenes/umbrella_exchange.tscn",
+      "size": 1463,
+      "sha256": "c390951b77d99e8e3f7156f5f950199e5cf9fd6bbac5199d928eae421d248fd6"
+    },
+    {
+      "path": "after-the-rain/scenes/weather_cycle.tscn",
+      "size": 252,
+      "sha256": "f4c1b5beef13680d27c7aa85be67d1abe513c44d40b2950491290218866c3a32"
+    },
+    {
+      "path": "after-the-rain/scenes/window_life.tscn",
+      "size": 798,
+      "sha256": "68f41b3a2080246110d2abaa20db9799eea82acebe0dc589c2832217d1447c63"
+    },
+    {
+      "path": "after-the-rain/scenes/world.tscn",
+      "size": 71462,
+      "sha256": "ef211f231c44682c414dd5baacee0f9799a8c436a07dea0ea95f30b58353256f"
+    },
+    {
+      "path": "after-the-rain/scripts/ambience.gd",
+      "size": 3913,
+      "sha256": "80fbdb4efb2172a187b87a52ef37adc21acf4d871a11e2375c9533492f4f5c9f"
+    },
+    {
+      "path": "after-the-rain/scripts/ambience.gd.uid",
+      "size": 20,
+      "sha256": "dcdc5efd45f098b44ab5727ccac45c7e8a1df5df664ec5d54e23a5327bac6a29"
+    },
+    {
+      "path": "after-the-rain/scripts/arrival_display.gd",
+      "size": 488,
+      "sha256": "1b2330edcfe2caedbca4ab4fc3818a1e7a40842fefef88124d6a32fb715894ad"
+    },
+    {
+      "path": "after-the-rain/scripts/arrival_display.gd.uid",
+      "size": 20,
+      "sha256": "16c2ad264e6d17813786ae4775c27c819f10536e763b94da56c6e2d60011c670"
+    },
+    {
+      "path": "after-the-rain/scripts/bus_visual.gd",
+      "size": 2934,
+      "sha256": "c2818526925c850fc82d1f9b7e8e68e33a8cda21bd6ea125bb25c6464cbcc1c2"
+    },
+    {
+      "path": "after-the-rain/scripts/bus_visual.gd.uid",
+      "size": 19,
+      "sha256": "a63e8f703e9d20a7db6ea2e4d606f8a7b415f9bbd62340d32eedfe3890398535"
+    },
+    {
+      "path": "after-the-rain/scripts/city_layout.gd",
+      "size": 3127,
+      "sha256": "797febeaf62217c5718382961c22b98736af1ea83e7c679757bb8f044c4c2ee8"
+    },
+    {
+      "path": "after-the-rain/scripts/city_layout.gd.uid",
+      "size": 20,
+      "sha256": "bc7b6cdf0a2d81bf9a997e1cf26abdadbfb86079d87d1fcd94a1331b4a7406c5"
+    },
+    {
+      "path": "after-the-rain/scripts/cocoa_steam.gd",
+      "size": 1350,
+      "sha256": "6b78da107393deff8f71df3c092def45a876c8189dcb05ca087229a434162111"
+    },
+    {
+      "path": "after-the-rain/scripts/cocoa_steam.gd.uid",
+      "size": 20,
+      "sha256": "176ad77865c95ebc46d077826c4aa10afe87547672a95a810c50f681a6905b60"
+    },
+    {
+      "path": "after-the-rain/scripts/drink_session.gd",
+      "size": 2716,
+      "sha256": "3f855c26f94912e1c3618552c40e9e2f603e142d594b623ebf0fe38a954018c4"
+    },
+    {
+      "path": "after-the-rain/scripts/drink_session.gd.uid",
+      "size": 20,
+      "sha256": "da263fc8b0bb450f3d748fdf7da500b25677c4a793d63a10c924e57f58754afa"
+    },
+    {
+      "path": "after-the-rain/scripts/evening_clock.gd",
+      "size": 508,
+      "sha256": "0a820c851c998632039dc15f42aeecb6d344ec68813557f32a6cd84376e6b2e5"
+    },
+    {
+      "path": "after-the-rain/scripts/evening_clock.gd.uid",
+      "size": 19,
+      "sha256": "f6772cf93df20dc5a01f47a526992426cd6cac18e65e0287534a25cd314513b9"
+    },
+    {
+      "path": "after-the-rain/scripts/evening_conversation.gd",
+      "size": 3466,
+      "sha256": "77783d3a22f8a57433ee93561f8bfbe5a9dd195ff865870d9eeafb56a621d161"
+    },
+    {
+      "path": "after-the-rain/scripts/evening_conversation.gd.uid",
+      "size": 20,
+      "sha256": "ed68e985744dfdc828503e324208676a02a2c39c809e028e6b64bb0c6364adcc"
+    },
+    {
+      "path": "after-the-rain/scripts/exploration.gd",
+      "size": 3006,
+      "sha256": "e24efdf6430a40c71b95974981371b0a0fb79d6a48337e8b6a702e4f3aa1ff3e"
+    },
+    {
+      "path": "after-the-rain/scripts/exploration.gd.uid",
+      "size": 20,
+      "sha256": "1989ab189a1538fcdcf9cb12afc6a95b8067365b824c32e959db95ea299ffda7"
+    },
+    {
+      "path": "after-the-rain/scripts/flower_life.gd",
+      "size": 3501,
+      "sha256": "28498c46c6e35e1d9eae79d17fa82ac0329c4574e69704e7e80558b66466374f"
+    },
+    {
+      "path": "after-the-rain/scripts/flower_life.gd.uid",
+      "size": 20,
+      "sha256": "0dc0a99319777dead6c6ffe5887d7a9b1d14a032eef2a304aad99bd97106d1bf"
+    },
+    {
+      "path": "after-the-rain/scripts/held_drink.gd",
+      "size": 2512,
+      "sha256": "644357b2680ce738a70253356467aa26868ff588f269704926b5d3d27ddc119a"
+    },
+    {
+      "path": "after-the-rain/scripts/held_drink.gd.uid",
+      "size": 20,
+      "sha256": "fdaa25ee1b12b261058cea70ea0500e87963ddbc2a700af16fb315ea6b2e92fa"
+    },
+    {
+      "path": "after-the-rain/scripts/hud.gd",
+      "size": 951,
+      "sha256": "50295f976528f8f4c41d8608a0c1dc21a26a365d05797d9e6cbd71940c0975a0"
+    },
+    {
+      "path": "after-the-rain/scripts/hud.gd.uid",
+      "size": 19,
+      "sha256": "1feb304ee7f063de8f967e8ad284e3f44fbe144c49a7d2c0d9d28f576ffa2c1c"
+    },
+    {
+      "path": "after-the-rain/scripts/night_bus.gd",
+      "size": 3706,
+      "sha256": "7569b80f7b983693bca29b1bb71382dea0663780d26655b23d7f44504cc8fd39"
+    },
+    {
+      "path": "after-the-rain/scripts/night_bus.gd.uid",
+      "size": 20,
+      "sha256": "05b12517bdd887353a03bac30a16d30c21ed629c1417455d4f439bf23c1c4467"
+    },
+    {
+      "path": "after-the-rain/scripts/onboard_companion.gd",
+      "size": 445,
+      "sha256": "d2074c89ff1155df935848f23be243304828c3dff93e48187b2bd802b0f898b0"
+    },
+    {
+      "path": "after-the-rain/scripts/onboard_companion.gd.uid",
+      "size": 19,
+      "sha256": "84e46b6dd69aa0f4d252d70cc92dde885e3b1740360e4252473fb94eefa686b0"
+    },
+    {
+      "path": "after-the-rain/scripts/onboard_view.gd",
+      "size": 2182,
+      "sha256": "58a6a03ddc080390cbeeb0c00d6407f492adfee72f3ef8aed8d9dd3031dedb2a"
+    },
+    {
+      "path": "after-the-rain/scripts/onboard_view.gd.uid",
+      "size": 19,
+      "sha256": "081156dbf2aa29346a0030f5977d2d00c91ed37acb35cb29a8dd2209ea667bac"
+    },
+    {
+      "path": "after-the-rain/scripts/overview_view.gd",
+      "size": 790,
+      "sha256": "c9f120fbe9dab2e26ac3257f70c49ddf76d53d0574900671d3acf3dd8fa12b2b"
+    },
+    {
+      "path": "after-the-rain/scripts/overview_view.gd.uid",
+      "size": 20,
+      "sha256": "31a333119b6c458fdd538592ee4334fc1eeb5de13cdaffcc1dc85f52ac293a34"
+    },
+    {
+      "path": "after-the-rain/scripts/pause_overlay.gd",
+      "size": 4991,
+      "sha256": "ac9a60ac7c8319ab0dcbabd69826262a39b6661f5a123c10275a3bc071115ede"
+    },
+    {
+      "path": "after-the-rain/scripts/pause_overlay.gd.uid",
+      "size": 20,
+      "sha256": "984bac12324b6e95c351913045291c1cb96d47bc8fa350c435e2a687455117ee"
+    },
+    {
+      "path": "after-the-rain/scripts/player.gd",
+      "size": 3657,
+      "sha256": "90f0ca1c2ebbae84257082f99b36c9a6097edbc031fc49b1b620924db6c6208f"
+    },
+    {
+      "path": "after-the-rain/scripts/player.gd.uid",
+      "size": 20,
+      "sha256": "33fb66737f781392254607d4aab7aae35c57bf6125fb232648510f6c5bf0e67a"
+    },
+    {
+      "path": "after-the-rain/scripts/rain.gd",
+      "size": 3059,
+      "sha256": "460702b56af75e3c8c914119455eacf80df20362d81fd637100d8a06cbdc29aa"
+    },
+    {
+      "path": "after-the-rain/scripts/rain.gd.uid",
+      "size": 19,
+      "sha256": "c20e2e8726996f9a48e1d67ced2a57849d41dcff2fcec2def41726e106d15776"
+    },
+    {
+      "path": "after-the-rain/scripts/rain_cat.gd",
+      "size": 2147,
+      "sha256": "0a5c40904fab7f518c7e199be7044ad988df12dee85c6bf85a0415bb519e28ea"
+    },
+    {
+      "path": "after-the-rain/scripts/rain_cat.gd.uid",
+      "size": 20,
+      "sha256": "9d12e882071ed403fdb4a1319d4936a6b074d3049e6749a1a1b58d3361c29fc1"
+    },
+    {
+      "path": "after-the-rain/scripts/rain_cover.gd",
+      "size": 278,
+      "sha256": "05814761e9ed76b6ac14e1fec8f90a877a0c6857c6f899175a4dfe695a7aadca"
+    },
+    {
+      "path": "after-the-rain/scripts/rain_cover.gd.uid",
+      "size": 18,
+      "sha256": "c7a0b7af0a9f32f0cae268fada9d409b42b8029788df4511357654b51fb395c0"
+    },
+    {
+      "path": "after-the-rain/scripts/rain_details.gd",
+      "size": 3404,
+      "sha256": "61b65b9453a16e5d4dacf6e3b7c4e80f3853cb6774c76cd42dcb7430060fc99d"
+    },
+    {
+      "path": "after-the-rain/scripts/rain_details.gd.uid",
+      "size": 20,
+      "sha256": "2bd58abfbf3ddbf548f1d7d2a447a2d69b8a0ee40df406f2a8dc960c7bac2565"
+    },
+    {
+      "path": "after-the-rain/scripts/session.gd",
+      "size": 11975,
+      "sha256": "f1f199826b522a14e1e51a6eb2a711343784a4c2f011c7f6763012f3e7999cec"
+    },
+    {
+      "path": "after-the-rain/scripts/session.gd.uid",
+      "size": 20,
+      "sha256": "4e66da9ea3638d33419f7b818682e9e94528a23428f52aab84d9a207b4e3bfad"
+    },
+    {
+      "path": "after-the-rain/scripts/story_corner.gd",
+      "size": 3136,
+      "sha256": "a1d1042f5bf3d75d9a99846fefaac559a9277bef31276216b65ec4f5a4ce5d3b"
+    },
+    {
+      "path": "after-the-rain/scripts/story_corner.gd.uid",
+      "size": 20,
+      "sha256": "dc049b30b14f82a04640991fc2cd78f9c372f7984cde3960e7c5d19aaaa5afa7"
+    },
+    {
+      "path": "after-the-rain/scripts/story_panel.gd",
+      "size": 2769,
+      "sha256": "61524f8a2c58de533b185a98df01c8f3c0cbbd20aa9fadd1b8b22d9791770a9d"
+    },
+    {
+      "path": "after-the-rain/scripts/story_panel.gd.uid",
+      "size": 20,
+      "sha256": "0b2cb758b84d052a2f7daf921b56f8823858079cb0396de34980235b11004873"
+    },
+    {
+      "path": "after-the-rain/scripts/story_radio.gd",
+      "size": 1811,
+      "sha256": "9ae2be4b2d9b131eff8dd84754de9b7b458b7112e1e34696c2b994bc361426ad"
+    },
+    {
+      "path": "after-the-rain/scripts/story_radio.gd.uid",
+      "size": 20,
+      "sha256": "2e709938632bf740572feba016571e6d4b6933eaa5300971e41bc66484bdb528"
+    },
+    {
+      "path": "after-the-rain/scripts/umbrella.gd",
+      "size": 1607,
+      "sha256": "01e829e32acf01ab26c5a2dc02fc7757b0c3c778fcfa64f57b1ad6ff6c31c619"
+    },
+    {
+      "path": "after-the-rain/scripts/umbrella.gd.uid",
+      "size": 20,
+      "sha256": "bcb8cb4741e9e94687ecf0ebd4cf0f6fc19682e8cab06cfb83e6f2ed6104bc05"
+    },
+    {
+      "path": "after-the-rain/scripts/umbrella_exchange.gd",
+      "size": 4907,
+      "sha256": "55c83c4f1900cfda7d9e4c646e4a5315810dd5f6b35bda66747fa9ddd9aad712"
+    },
+    {
+      "path": "after-the-rain/scripts/umbrella_exchange.gd.uid",
+      "size": 20,
+      "sha256": "68179e4322092b4fb8d0df166c9d73c193eae51f8846e5dd1c87d8b73f258c6f"
+    },
+    {
+      "path": "after-the-rain/scripts/waiting_passenger.gd",
+      "size": 4582,
+      "sha256": "6bd24f882d9669557520c7a1c4c3356379a34f39480489ec93edf8240bd4441f"
+    },
+    {
+      "path": "after-the-rain/scripts/waiting_passenger.gd.uid",
+      "size": 20,
+      "sha256": "b6cbf8ba7ae64132bd15a677e046facc7b3bf321449f2de0453054b9c6baabae"
+    },
+    {
+      "path": "after-the-rain/scripts/weather_cycle.gd",
+      "size": 706,
+      "sha256": "f3cf771491158ab1660b33c452e70545092ac4e032366ae44aee2501a0a6fdc5"
+    },
+    {
+      "path": "after-the-rain/scripts/weather_cycle.gd.uid",
+      "size": 20,
+      "sha256": "bd5011f28756d634fa5f6889f72bb5c2827c466ed42956f26a36f882736aa37d"
+    },
+    {
+      "path": "after-the-rain/scripts/window_life.gd",
+      "size": 1673,
+      "sha256": "56ff43db0435d0a315f22b84b967e9611a1441745c6c7791aaf143749e6ca00d"
+    },
+    {
+      "path": "after-the-rain/scripts/window_life.gd.uid",
+      "size": 20,
+      "sha256": "043c4271fa8e7f15945e4a01e498699e1416c5705cd9bdb927a47b6606985190"
+    },
+    {
+      "path": "after-the-rain/scripts/world.gd",
+      "size": 525,
+      "sha256": "8e975fbd5221ddf8f17cdd7b91743fe3d25df9a3e1f84a399390ed2cec46a765"
+    },
+    {
+      "path": "after-the-rain/scripts/world.gd.uid",
+      "size": 20,
+      "sha256": "ff93c08dfb240da80eab9fe3425119298e05300791aab2afbf1cd93771c88e6e"
+    },
+    {
+      "path": "after-the-rain/shaders/window_life.gdshader",
+      "size": 961,
+      "sha256": "782f996f141f2748392bf5f49bc7aa548f60099e4d41774d94a563c52b4ac232"
+    },
+    {
+      "path": "after-the-rain/shaders/window_life.gdshader.uid",
+      "size": 20,
+      "sha256": "c700d96ae50b4f457364bda8f1ecbdfd4fe2adfcf73251b8044225a69b988cda"
+    },
+    {
+      "path": "after-the-rain/tests/audio_rain_isolation.gd",
+      "size": 1632,
+      "sha256": "11ddf310d0bebad405fcac076e42c4655801bbf467f7086d3375f61984c10363"
+    },
+    {
+      "path": "after-the-rain/tests/audio_rain_isolation.gd.uid",
+      "size": 20,
+      "sha256": "4b075d225dc6bbe64f7053e2a0568f64bfeb851a95203a4963b3d3109e3443c3"
+    },
+    {
+      "path": "after-the-rain/tests/authored_scene_persistence.gd",
+      "size": 5008,
+      "sha256": "3dc766e0f83f12857de406012a3aee0ed57ae1a23e5e88d6bb396a5e6bdbb027"
+    },
+    {
+      "path": "after-the-rain/tests/authored_scene_persistence.gd.uid",
+      "size": 19,
+      "sha256": "3d3caa195299eb5ac49873b56a0cc47a25232e6bbb5ebfcc6d15687c32cd6def"
+    },
+    {
+      "path": "after-the-rain/tests/bus_clearance.gd",
+      "size": 1639,
+      "sha256": "3f96b2f479b3419a357bb45ce5974da9fd3b9d1b1b65411a27520a5cff80c064"
+    },
+    {
+      "path": "after-the-rain/tests/bus_clearance.gd.uid",
+      "size": 20,
+      "sha256": "3e4bb74dcf3b2910df4068a7c6dfde9462443e8edf981db03ef633638a1c664f"
+    },
+    {
+      "path": "after-the-rain/tests/bus_review.gd",
+      "size": 493,
+      "sha256": "ac2592dd1115858da283b5a7130f56498e6f042f55d9b4db5e070e7b84797ba5"
+    },
+    {
+      "path": "after-the-rain/tests/bus_review.gd.uid",
+      "size": 20,
+      "sha256": "e7cf316d3c6c341d897ce510c7a03d8d89126c3746f83173123c754cf07223e5"
+    },
+    {
+      "path": "after-the-rain/tests/bus_review.tscn",
+      "size": 166,
+      "sha256": "81e8a116295de4183725aa81bcf8686d28b8b00739c9523ecc5da22b721094f1"
+    },
+    {
+      "path": "after-the-rain/tests/city_before.tscn",
+      "size": 182,
+      "sha256": "78eec5e14146d78962afc6da709a4f660af8c51e060c609eddca812df7bf5055"
+    },
+    {
+      "path": "after-the-rain/tests/city_layout.gd",
+      "size": 5212,
+      "sha256": "9012c4b70aad7d95577f1432ed5b58c6270f339cd084e5528c7faf828afd1e21"
+    },
+    {
+      "path": "after-the-rain/tests/city_layout.gd.uid",
+      "size": 20,
+      "sha256": "bb0a5001470080912403a05f537c859af69ad2a11d7d95282a4fe753936268f1"
+    },
+    {
+      "path": "after-the-rain/tests/city_review.gd",
+      "size": 935,
+      "sha256": "396d317431c12e16f4b7f633f4b80bb4b825ddf505cd648905c343b3ac2d625e"
+    },
+    {
+      "path": "after-the-rain/tests/city_review.gd.uid",
+      "size": 18,
+      "sha256": "a7901414eb20277bf143e497d4c5329eb602f3d4cce37bb5ae71bce85f3620ce"
+    },
+    {
+      "path": "after-the-rain/tests/city_review.tscn",
+      "size": 168,
+      "sha256": "69b481dd0e1315a31f774457e945a4251a35490c6561766d3a7c85d2048aa56c"
+    },
+    {
+      "path": "after-the-rain/tests/component_isolation.gd",
+      "size": 2375,
+      "sha256": "6b5135516ed20f407b4b8cd52191c0e968e35e00409cd4f642b9163f0fd07a83"
+    },
+    {
+      "path": "after-the-rain/tests/component_isolation.gd.uid",
+      "size": 20,
+      "sha256": "d8da4fa6b651b2f9ffc96f2123663f671a6a4128a6fbeeb8f960d746e8deceec"
+    },
+    {
+      "path": "after-the-rain/tests/disposal_display.gd",
+      "size": 1463,
+      "sha256": "e6195316ced2ec7bb840d9f5c1e08637b2a6f6cd56d4db7a2cb455c6be83c45c"
+    },
+    {
+      "path": "after-the-rain/tests/disposal_display.gd.uid",
+      "size": 20,
+      "sha256": "b23484b810c111cc78c4d1edc12d79b4ac60e03e5556d6649180cb0e7996817d"
+    },
+    {
+      "path": "after-the-rain/tests/fixture_marker.gd",
+      "size": 540,
+      "sha256": "d62ebbfd197d1d83c07c75c2478ff61f2950f339c570c59ca35672ad6f1966ad"
+    },
+    {
+      "path": "after-the-rain/tests/fixture_marker.gd.uid",
+      "size": 19,
+      "sha256": "f6b031834fc75273ec9470bb03c15f67f0fb21f34743289c29266fe3dad55e30"
+    },
+    {
+      "path": "after-the-rain/tests/fixtures/main_before.tscn",
+      "size": 1376,
+      "sha256": "4ab903032cb7d4997b9c721ea741858cecb283139d4fa16204c20d3bb07ddf29"
+    },
+    {
+      "path": "after-the-rain/tests/fixtures/world_before.tscn",
+      "size": 141616,
+      "sha256": "bf86de90fbe37ecf4b2437fb0784ccc8ba26c144ab1960ec62bc1a9411d014e0"
+    },
+    {
+      "path": "after-the-rain/tests/onboard_isolation.gd",
+      "size": 1108,
+      "sha256": "3a1540f9ec1cb49858d09caad1cc3cdc3f04e98251bde15829132cc9f8db574e"
+    },
+    {
+      "path": "after-the-rain/tests/onboard_isolation.gd.uid",
+      "size": 19,
+      "sha256": "59459b110c6f5809073a1491b790150a426cb1cbae5c227ff6880e8c58207ce6"
+    },
+    {
+      "path": "after-the-rain/tests/passenger_lifecycle.gd",
+      "size": 2503,
+      "sha256": "2c8b75c0f8f87725ef37a2434760ba3eeca4da50d74da5ba67d1a4d848cab990"
+    },
+    {
+      "path": "after-the-rain/tests/passenger_lifecycle.gd.uid",
+      "size": 18,
+      "sha256": "6b378b1c068dac83ae7c7e145968cf66117c62d2269def875367d01b1461f620"
+    },
+    {
+      "path": "after-the-rain/tests/player_cup_isolation.gd",
+      "size": 2367,
+      "sha256": "a0b3f9ee6a072e43affab20086611f27218c8bc4780e5f5acd76067e640fd1c2"
+    },
+    {
+      "path": "after-the-rain/tests/player_cup_isolation.gd.uid",
+      "size": 20,
+      "sha256": "487ec08880b19e12854e0f530d05cb87eb8e79d8deb6b471a5d370e299658160"
+    },
+    {
+      "path": "after-the-rain/tests/recovery_atmosphere_integration.gd",
+      "size": 1719,
+      "sha256": "9b32c809ca947036948721a640d86b49d174e5fee99192d9d7b1ab2fc28d55b7"
+    },
+    {
+      "path": "after-the-rain/tests/recovery_atmosphere_integration.gd.uid",
+      "size": 20,
+      "sha256": "6d2d42db52cae5445e3b6c79b215248ec834a623e8a8c192e55ac10262ad7563"
+    },
+    {
+      "path": "after-the-rain/tests/recovery_bus_clarity.gd",
+      "size": 4101,
+      "sha256": "9129f83929d0b4113f6d04315236e3c17ebad21e10645e47c534529e40a49a10"
+    },
+    {
+      "path": "after-the-rain/tests/recovery_bus_clarity.gd.uid",
+      "size": 20,
+      "sha256": "d9f3a814976637ea166e951311929a07cfbba113b05131320954234ab04ab9a4"
+    },
+    {
+      "path": "after-the-rain/tests/recovery_bus_visibility.gd",
+      "size": 4017,
+      "sha256": "551ddcabb99dfc9b1e75f2971ddd9a0668d732e9e0286d75db5fdd4b0b86b316"
+    },
+    {
+      "path": "after-the-rain/tests/recovery_bus_visibility.gd.uid",
+      "size": 19,
+      "sha256": "7d3ed4786152de25630788ef333f57b0a45650521cbcf8ebd81f8979a8cfaa71"
+    },
+    {
+      "path": "after-the-rain/tests/recovery_clock.gd",
+      "size": 4327,
+      "sha256": "f04ddae9503d323ca72b3f0833c79d12a2cdbe684fbdd6e334cc7078d28f4af0"
+    },
+    {
+      "path": "after-the-rain/tests/recovery_clock.gd.uid",
+      "size": 19,
+      "sha256": "ec8cf25e69e43aeaefb6729f80f9f236c3c56a411df016cb94ce7987a20cce59"
+    },
+    {
+      "path": "after-the-rain/tests/recovery_core_integration.gd",
+      "size": 1643,
+      "sha256": "e3fb7bed7707311956428cde8e78e85778f3ec82fa539a200437b99a2aa3304e"
+    },
+    {
+      "path": "after-the-rain/tests/recovery_core_integration.gd.uid",
+      "size": 20,
+      "sha256": "ad20c89feec133cc52fb094edd2140b4158dbbc468ad65b2ed4669c265b8ebfd"
+    },
+    {
+      "path": "after-the-rain/tests/recovery_drink_timing.gd",
+      "size": 2479,
+      "sha256": "8337fd98425328c59962fa9d04877db07dcc34d50ddbd5998c839a7b053a0fc9"
+    },
+    {
+      "path": "after-the-rain/tests/recovery_drink_timing.gd.uid",
+      "size": 20,
+      "sha256": "69994e0805aa4c4cef9400efc1ba01749674c0384fb72c6a5d6b11cc31886812"
+    },
+    {
+      "path": "after-the-rain/tests/recovery_evening_integration.gd",
+      "size": 3409,
+      "sha256": "7327e56ba724421ad0a85bb84332314ad2bc397ef3915938596c1afcc7b506a3"
+    },
+    {
+      "path": "after-the-rain/tests/recovery_evening_integration.gd.uid",
+      "size": 19,
+      "sha256": "a8c72abfce35618336611b743c69424c05e618996932ee36f48daf5268d7b15f"
+    },
+    {
+      "path": "after-the-rain/tests/recovery_flower_cat.gd",
+      "size": 5610,
+      "sha256": "02a65718d28b40d999e8ed13d62915807bd8bc9abd93e4a7c5a9b7abb8be1dec"
+    },
+    {
+      "path": "after-the-rain/tests/recovery_flower_cat.gd.uid",
+      "size": 19,
+      "sha256": "865505c7db6328ec2d75400736aa35b6979a0b54c8a39ee4636c22d14f219622"
+    },
+    {
+      "path": "after-the-rain/tests/recovery_keyboard.gd",
+      "size": 3088,
+      "sha256": "402696f067b8d0c25ee080f695a37494d8eb57cadb470c890b7edc152c42f67e"
+    },
+    {
+      "path": "after-the-rain/tests/recovery_keyboard.gd.uid",
+      "size": 20,
+      "sha256": "d07a3840436fe89a3d0cbdf589dc0f12cc828b988c6a245700728e1ff9f3bd9e"
+    },
+    {
+      "path": "after-the-rain/tests/recovery_loan.gd",
+      "size": 7437,
+      "sha256": "c06de015dc9c95f46684285a5a252b52ca1595f23ca8fa4e5176c2d3c706a73c"
+    },
+    {
+      "path": "after-the-rain/tests/recovery_loan.gd.uid",
+      "size": 20,
+      "sha256": "23bcb6142ce09b9eb9892c2a451718c9e3e7b9b887e0896d9745abec372a8851"
+    },
+    {
+      "path": "after-the-rain/tests/recovery_neighborhood_integration.gd",
+      "size": 1510,
+      "sha256": "20ace67daa43ed5a6a2ae80f2eeabdb534679a3707adf708cb79904550a58567"
+    },
+    {
+      "path": "after-the-rain/tests/recovery_neighborhood_integration.gd.uid",
+      "size": 20,
+      "sha256": "fc25447a6ac422199a150e6b85ac0a2335324954ea0a5e861c2b6c1a101d6a2b"
+    },
+    {
+      "path": "after-the-rain/tests/recovery_passenger_continuity.gd",
+      "size": 7673,
+      "sha256": "abae27d25eb617f21632ab86b62b2ceb9202c706615e34ef50719bd0fc0825d0"
+    },
+    {
+      "path": "after-the-rain/tests/recovery_passenger_continuity.gd.uid",
+      "size": 20,
+      "sha256": "bca4d33da39eaa6fa48e80cc902aa06d9380795ac171409ef720c8fa29d22d76"
+    },
+    {
+      "path": "after-the-rain/tests/recovery_passenger_integration.gd",
+      "size": 2348,
+      "sha256": "9d8ab992bd4ff02aac01ea10082822e519591f0a6883f1cef96d8eb6e1a3f9c6"
+    },
+    {
+      "path": "after-the-rain/tests/recovery_passenger_integration.gd.uid",
+      "size": 19,
+      "sha256": "8610bf7e4229e890a8f1d99d298027c2e4fc9b5aabd77598bc063e2f25f0b71d"
+    },
+    {
+      "path": "after-the-rain/tests/recovery_pause.gd",
+      "size": 5590,
+      "sha256": "67a56f5b818f0526c6fe9ddf0f8a6d589bca656dc48c7fd6d03426a6e0a527c7"
+    },
+    {
+      "path": "after-the-rain/tests/recovery_pause.gd.uid",
+      "size": 20,
+      "sha256": "d254d885ac2769d3c93818ef4ef5a8290eea6ecd1954361833e323c85f1831c4"
+    },
+    {
+      "path": "after-the-rain/tests/recovery_radio_pcm.py",
+      "size": 1966,
+      "sha256": "47da76b4f9eda7cda23b585e869a07120f7d92dd0094c6a3a0b46031160c8753"
+    },
+    {
+      "path": "after-the-rain/tests/recovery_radio_target.gd",
+      "size": 2196,
+      "sha256": "991d1528d3537044d3c002e55382ec0fb80514aaeca4ef09d6ef3c1447a3f0e2"
+    },
+    {
+      "path": "after-the-rain/tests/recovery_radio_target.gd.uid",
+      "size": 19,
+      "sha256": "5b758644d41278bd965db072aba459972ae2bfe9ebbc488b16f35e0b66a81d94"
+    },
+    {
+      "path": "after-the-rain/tests/recovery_rain_details.gd",
+      "size": 4080,
+      "sha256": "9380bde6db4a025673c80f528acfb0ddab633c8332f38c8476303c13dff88163"
+    },
+    {
+      "path": "after-the-rain/tests/recovery_rain_details.gd.uid",
+      "size": 19,
+      "sha256": "7a8e6f3c5afffc9c79b47e9ecdacbe71840364afc22ad20068adcfe748c77b61"
+    },
+    {
+      "path": "after-the-rain/tests/recovery_reader_disposal.gd",
+      "size": 1783,
+      "sha256": "71d755177670dbea93bf2b1878f1b517a791867c10ee1ad985801132dcb27a2a"
+    },
+    {
+      "path": "after-the-rain/tests/recovery_reader_disposal.gd.uid",
+      "size": 20,
+      "sha256": "093f37cc215d9d537e4b3c71a175cd888f7db751130199bb603d0edb5f425e71"
+    },
+    {
+      "path": "after-the-rain/tests/recovery_reasons.gd",
+      "size": 5218,
+      "sha256": "9719ed055b55457957a23127332a2c9a1a074c0b4f908c1986c8fe33f0d2470a"
+    },
+    {
+      "path": "after-the-rain/tests/recovery_reasons.gd.uid",
+      "size": 20,
+      "sha256": "deadd40a127ad433950c2dfe1142129760cbc2ac2d19af6b1606660a53ba51c0"
+    },
+    {
+      "path": "after-the-rain/tests/recovery_views.gd",
+      "size": 4639,
+      "sha256": "2e0e8e66081fbf564fbfef6226880058ef63645cfb7c85001c9594810be4e5ce"
+    },
+    {
+      "path": "after-the-rain/tests/recovery_views.gd.uid",
+      "size": 20,
+      "sha256": "9cc3678b18d8a33c299eb04217fa328ae26661d2a07a31b0407ab6654a1abf19"
+    },
+    {
+      "path": "after-the-rain/tests/recovery_views_integration.gd",
+      "size": 2762,
+      "sha256": "da87ae9d01f93d25873400b938025a2b85c3d8b54a94b38aabae7e0132e051fc"
+    },
+    {
+      "path": "after-the-rain/tests/recovery_views_integration.gd.uid",
+      "size": 19,
+      "sha256": "9fd6b7cf28a9a3e62c03d082fb201df17f2890f20cf3a9d71bef2a0753c97403"
+    },
+    {
+      "path": "after-the-rain/tests/recovery_warmth.gd",
+      "size": 4877,
+      "sha256": "92e70d438e2e5902220f1d4c45ab124458c6505c6cef43e32830a73dbbf9f42f"
+    },
+    {
+      "path": "after-the-rain/tests/recovery_warmth.gd.uid",
+      "size": 19,
+      "sha256": "70dee9cbfd194cec76fb8da45f4767f5f1b6f35df9b6afe9dc7e7ba97aa66f5c"
+    },
+    {
+      "path": "after-the-rain/tests/recovery_weather.gd",
+      "size": 4649,
+      "sha256": "0981c60e61126c02f22760a4d4703aaac2cd694d17ba2666c178d998c1a6eb7e"
+    },
+    {
+      "path": "after-the-rain/tests/recovery_weather.gd.uid",
+      "size": 19,
+      "sha256": "c66207bed7a65fe708ab9e8adc47f539614e94d5c5cac42f66b9d7c0acb9ba96"
+    },
+    {
+      "path": "after-the-rain/tests/recovery_window_life.gd",
+      "size": 5193,
+      "sha256": "9a39fc1e6f3b598b992863153d7e1e38c9c4fb093be7b06996ad69815d70590e"
+    },
+    {
+      "path": "after-the-rain/tests/recovery_window_life.gd.uid",
+      "size": 20,
+      "sha256": "0f835d4f7520eb4900e1ad2c34260bd12dbb8287854829918edcafc4916e126d"
+    },
+    {
+      "path": "after-the-rain/tests/regression.gd",
+      "size": 2673,
+      "sha256": "f3174070931763bde03a3e5a927378e7ea0627231d36cc294cfdae8045c79a3a"
+    },
+    {
+      "path": "after-the-rain/tests/regression.gd.uid",
+      "size": 19,
+      "sha256": "a7c3beb08f6c9c4c9c4d880f8fd0a0d556d811ce4e599eda4c25ccbf0d2d7950"
+    },
+    {
+      "path": "after-the-rain/tests/story_integration.gd",
+      "size": 1746,
+      "sha256": "7655618464a2405c324c57d1ac7cfc4c06ffe8e8d30181e7d8638f958836756a"
+    },
+    {
+      "path": "after-the-rain/tests/story_integration.gd.uid",
+      "size": 19,
+      "sha256": "562236a0e30c6725b8e8707d5eed89a69f41a1f0247630165e8da558ecf2e778"
+    },
+    {
+      "path": "after-the-rain/tests/story_panel.gd",
+      "size": 1977,
+      "sha256": "82ed51ed489857028bd02cb007146ba5a2c7ffab8c68b97568291481ba8e7120"
+    },
+    {
+      "path": "after-the-rain/tests/story_panel.gd.uid",
+      "size": 20,
+      "sha256": "6b08d31e7efad901af8aedc320c90f51491c349549c62c310dce2d9c5763bb9b"
+    },
+    {
+      "path": "after-the-rain/tests/story_radio.gd",
+      "size": 2890,
+      "sha256": "f19f13557ab48c155f679fa8b23452a6f83b68ced58c1a0ca13644e1b2c5da24"
+    },
+    {
+      "path": "after-the-rain/tests/story_radio.gd.uid",
+      "size": 20,
+      "sha256": "7cd17840b0cd96b1895661a1524de0b8a0262727269c9223b1453fa3dd6d422f"
+    },
+    {
+      "path": "after-the-rain/tests/story_review.gd",
+      "size": 644,
+      "sha256": "d66e1d94ccd2524dc9e40fa1b87f39a6b2c987064ddc4ece13bfba2d5def8348"
+    },
+    {
+      "path": "after-the-rain/tests/story_review.gd.uid",
+      "size": 20,
+      "sha256": "25e536f13a767b7a12504dd62fdfa7f60b3f8866d810e54ad60610a944cfd67b"
+    },
+    {
+      "path": "after-the-rain/tests/story_review.tscn",
+      "size": 170,
+      "sha256": "81d9976562acad2cf077f5b24e34725be309c7025a7ae3228fccec1286efb99e"
+    },
+    {
+      "path": "after-the-rain/tests/umbrella.gd",
+      "size": 2296,
+      "sha256": "7f06635c2fe69fcaaa5ca1756118c2d41e244604a85e72c56a2a3bde97230d02"
+    },
+    {
+      "path": "after-the-rain/tests/umbrella.gd.uid",
+      "size": 20,
+      "sha256": "a82a71d0f13dd0f129d4217d8740ca33180d98f98713578fe6c62fbb68aeb9b3"
+    },
+    {
+      "path": "after-the-rain/tests/v7_ambience.gd",
+      "size": 2515,
+      "sha256": "b61e58b80dabf020b4b60791e17ab7dca21a453fe198cdc3ffc34b71b96f6206"
+    },
+    {
+      "path": "after-the-rain/tests/v7_ambience.gd.uid",
+      "size": 19,
+      "sha256": "fc19a2084ec1115bf5547637e9eddbf7bf346467a26f6bf40803b45a356edad5"
+    },
+    {
+      "path": "after-the-rain/tests/v7_qa.gd",
+      "size": 4465,
+      "sha256": "7710c9194c37ca897df28effcbf132870b76a9b1793c6ab6106f4e524c9713ea"
+    },
+    {
+      "path": "after-the-rain/tests/v7_qa.gd.uid",
+      "size": 19,
+      "sha256": "fc5e9474fad5dbe620edd791761d952424fe8834bf703283b84cc0875cc09dd3"
+    },
+    {
+      "path": "after-the-rain/tests/walk_review.gd",
+      "size": 1064,
+      "sha256": "4cec5056af9159d724edecc159d513808535ac93228934c9146b437dddec4597"
+    },
+    {
+      "path": "after-the-rain/tests/walk_review.gd.uid",
+      "size": 20,
+      "sha256": "ceb6bf2804e347b22731c396e47f1acdf7520fa8e7b1c80165c4c69d0327f987"
+    },
+    {
+      "path": "after-the-rain/tests/walk_review.tscn",
+      "size": 168,
+      "sha256": "4955006326177ecbb86e95f378a68e88e372ed1df86a3719912351fa4c8f2e8d"
+    },
+    {
+      "path": "after-the-rain/tools/.gdignore",
+      "size": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "after-the-rain/tools/bake_city_v5.gd",
+      "size": 2091,
+      "sha256": "a0ea6f23f389f440e6ee74193864cd92458b0294fae3b150a8d0c1fb80518aa5"
+    },
+    {
+      "path": "after-the-rain/tools/baseline_session.gd",
+      "size": 4846,
+      "sha256": "be7e4cb89add13a29049a2119e4e5ca2cdfd2e45a287954a883b7002fb261f02"
+    },
+    {
+      "path": "after-the-rain/tools/export-audit.py",
+      "size": 5071,
+      "sha256": "bef79c219e98c98b64b8074d99789568f06f1a1680b89cbee658ee7013bd6952"
+    },
+    {
+      "path": "after-the-rain/tools/export-pack-check.gd",
+      "size": 5974,
+      "sha256": "00fcffd68bb4b06ad58da3e4b2363d631560e9d26deb6ef6dddceb9dd1bbcc5e"
+    },
+    {
+      "path": "after-the-rain/tools/generate_story_radio.py",
+      "size": 3138,
+      "sha256": "6b80595bc5815bca6ff6d2a6086649503e08904511e9f9b1ff0e7cc62fc97184"
+    },
+    {
+      "path": "after-the-rain/tools/legacy_bus_visual.gd",
+      "size": 4896,
+      "sha256": "005733176c0421ba0123173b65f01c15462021d58fe67bf1dcad216dd203de06"
+    },
+    {
+      "path": "after-the-rain/tools/legacy_main.gd",
+      "size": 21504,
+      "sha256": "54aded5b2d5f17eb9e06c4b0b1c84cfda0e5ec16e210c0fd00a7029045477fbd"
+    },
+    {
+      "path": "after-the-rain/tools/run_checks.sh",
+      "size": 2380,
+      "sha256": "20960885a19711c11ddd086fad1d8cc320bdc0040593a97364d28d0bd8458bb8"
+    },
+    {
+      "path": "after-the-rain/tools/uv_ground_v5.gd",
+      "size": 714,
+      "sha256": "6defd13aaea6f081937d3ae760dea7a8e69ed9cec0a224f1ee7947f7258db4bb"
+    },
+    {
+      "path": "after-the-rain/tools/v3_baseline.gd",
+      "size": 21504,
+      "sha256": "54aded5b2d5f17eb9e06c4b0b1c84cfda0e5ec16e210c0fd00a7029045477fbd"
+    },
+    {
+      "path": "filter-overlap-study/.gitignore",
+      "size": 28,
+      "sha256": "e1b943257d252c73670b740940bc312d8b928c68a91fddcb0ea3fb6fc350a5e0"
+    },
+    {
+      "path": "filter-overlap-study/00_control.exr",
+      "size": 268954,
+      "sha256": "6666e9136cdabeaf28a2b42fd97415051066a60d49e852e2bf8a581d164d3af5"
+    },
+    {
+      "path": "filter-overlap-study/00_control.png",
+      "size": 34151,
+      "sha256": "243da915aec7ecbb71930a3506a79def0dae3209daa256975157d0406b56f297"
+    },
+    {
+      "path": "filter-overlap-study/01_cyan.exr",
+      "size": 518460,
+      "sha256": "f388d1980b87a0f1b8c9d4e63d89280bbb555d8295ffb584c51c4b888819beff"
+    },
+    {
+      "path": "filter-overlap-study/01_cyan.png",
+      "size": 53970,
+      "sha256": "f42fbddb5c081bc6b89e2f7478547107bf7d5a78713df088bd3b2154e317bdba"
+    },
+    {
+      "path": "filter-overlap-study/02_yellow.exr",
+      "size": 525850,
+      "sha256": "0c9295077c8ac28054a9e6c2126c684241409917d11cd29b6b1b605156048e86"
+    },
+    {
+      "path": "filter-overlap-study/02_yellow.png",
+      "size": 57322,
+      "sha256": "1cda3d918bd086273f30b88b472b35fb43bca4b0ed6bcc2e0327851395e0b1fa"
+    },
+    {
+      "path": "filter-overlap-study/03_overlap_pure.exr",
+      "size": 527660,
+      "sha256": "e5a506036bc304611ad9d4a58ffa0efa4ea0634f009a7869c3f0efbe5ea24e68"
+    },
+    {
+      "path": "filter-overlap-study/03_overlap_pure.png",
+      "size": 60129,
+      "sha256": "f8baca915da5ebf47b3983dcfa4e758dde876608207b61f286268e1aa5cb1650"
+    },
+    {
+      "path": "filter-overlap-study/04_overlap_gallery.exr",
+      "size": 734695,
+      "sha256": "488d2a8f4022d70a3351a005240a5dbbfbdaf763a4df71f55411985e34543243"
+    },
+    {
+      "path": "filter-overlap-study/04_overlap_gallery.png",
+      "size": 99949,
+      "sha256": "2794663e18c109c00c2091f4b4437feb2b0cb7863505daf066d8ec7deebaa0bf"
+    },
+    {
+      "path": "filter-overlap-study/05_gallery_direct_only.exr",
+      "size": 525290,
+      "sha256": "e19d82be49f462f3c4a269a71a9b8b16797f77bd0f05de105c6e7e49c4cd7c56"
+    },
+    {
+      "path": "filter-overlap-study/05_gallery_direct_only.png",
+      "size": 59830,
+      "sha256": "9dd3e5f2969207455338f3ee7a38a3902fa567de1fec5d25869eac0180f1e18a"
+    },
+    {
+      "path": "filter-overlap-study/Filter-Overlap-Comparison.png",
+      "size": 283005,
+      "sha256": "a2289bf3993eb27feb7e43325aab0e8a61c0c5df436157986331875784b12352"
+    },
+    {
+      "path": "filter-overlap-study/Filter-Overlap.blend",
+      "size": 473308,
+      "sha256": "ccf3c9b1945f75f934e18f6b850b03bca9e307da0a52286b1ac92a1d219139fb"
+    },
+    {
+      "path": "filter-overlap-study/README.md",
+      "size": 4223,
+      "sha256": "33fc542eb7bb812423cf1bb5a291b7a3e5f5bf35e945b8d14a964510c76d1ff1"
+    },
+    {
+      "path": "filter-overlap-study/compose.py",
+      "size": 1680,
+      "sha256": "bdf208a466bc5d87de6b0730ac98fd711ee4b5524adb505f3158e35b2e457259"
+    },
+    {
+      "path": "filter-overlap-study/measurements.json",
+      "size": 3494,
+      "sha256": "2c96e52d59d334dd7b13ad0084008f75624c0f1a3ce7cda9340debd37a362351"
+    },
+    {
+      "path": "filter-overlap-study/study.py",
+      "size": 5348,
+      "sha256": "3680a5d1fe4faf8076d703a6527f273df369eb1e91075091fcf4b101333439c3"
+    },
+    {
+      "path": "garden-of-light/.gitignore",
+      "size": 54,
+      "sha256": "741fd58611fd9c0a727b0dd23d5db08e06b8b2454742a2d84c8958f6c95fc9b3"
+    },
+    {
+      "path": "garden-of-light/Garden-of-Light-loop.mp4",
+      "size": 98494,
+      "sha256": "aed4587194d2ccb6f97d5b79f6835dde2963981196311b2e22469a3b8fbb8e07"
+    },
+    {
+      "path": "garden-of-light/Garden-of-Light.blend",
+      "size": 647568,
+      "sha256": "726c1e356c0c8452124182506217e63317a07c4f81e4f8137a7c8b20f32f5dfd"
+    },
+    {
+      "path": "garden-of-light/Garden-of-Light.png",
+      "size": 743680,
+      "sha256": "9d6cadc38083ba37ac6e001bd61e2f4f2fca91dbaa6cdbd691a96eb1a3b6408f"
+    },
+    {
+      "path": "garden-of-light/README.md",
+      "size": 3211,
+      "sha256": "4594dd873502741c68dc9d2d525e68bd16469a7052c9e30259bcc4004229273b"
+    },
+    {
+      "path": "garden-of-light/build.py",
+      "size": 7056,
+      "sha256": "7f93e0647628fe48c9a05a43ef4d77892839dbeab67a0f01227cc0d3de08d5f7"
+    },
+    {
+      "path": "garden-of-light/render_qa.json",
+      "size": 749,
+      "sha256": "8889d2c3a1be841f656a29a29ae1e09e1f356b8ddea60c73d0aef70ec8417369"
+    },
+    {
+      "path": "garden-of-light/validation_loop.json",
+      "size": 138,
+      "sha256": "d50057a40528b2f1cf42f42d432220217bcddbfb4d076f9edfe309a5f9b2e15e"
+    },
+    {
+      "path": "garden-of-light/validation_none.json",
+      "size": 138,
+      "sha256": "2828e09c3a56f8a7db3c149afd83f5dbdb604626251b0e89fb6b39f4998d4f1f"
+    },
+    {
+      "path": "garden-of-light/validation_still.json",
+      "size": 139,
+      "sha256": "0197d5cd200be9eae18a99266aab4f2349d8e42715bb6396883e34450325013f"
+    },
+    {
+      "path": "garden-of-light/verify.py",
+      "size": 1920,
+      "sha256": "35fad6873879cb5461b25edf55b31fa991d110cd6d975bf1647ea9f9100107ec"
+    },
+    {
+      "path": "rain-clock/.gitignore",
+      "size": 51,
+      "sha256": "163864858b876b19f185d55367bde4602f88bf2150f446a01135a9e84f459aa9"
+    },
+    {
+      "path": "rain-clock/PUBLICATION_DELTA.json",
+      "size": 8632,
+      "sha256": "abbb970890a4f7a4a5782f660862de637e7d882c38e5d9df6ccc41e81f874796"
+    },
+    {
+      "path": "rain-clock/README.md",
+      "size": 2175,
+      "sha256": "d78b1901b1997fc35fab32c00f2b026fecca4c40da483f3d8b9f30fca2cb080c"
+    },
+    {
+      "path": "rain-clock/STUDY_INDEX.md",
+      "size": 8112,
+      "sha256": "f0c1b9cf2169a20be920864561233d0c2282503ffa5f45b3a951b0641464ea0e"
+    },
+    {
+      "path": "rain-clock/build.py",
+      "size": 6779,
+      "sha256": "57abf845cdd4ac40874b6c75f69c2b5577f8d2079a8f352235861208320c27be"
+    },
+    {
+      "path": "rain-clock/consolidation/prepare_backup.py",
+      "size": 4392,
+      "sha256": "3e021a245f97a347b12e4599fa293f7ad1e5dde7dd304386c0dd800381f61f86"
+    },
+    {
+      "path": "rain-clock/consolidation/study_catalog.json",
+      "size": 6281,
+      "sha256": "aa76820801e5ea4d53c7df30a43518763599bf2b7c5f05e06a44815f65af85d0"
+    },
+    {
+      "path": "rain-clock/consolidation/validate.py",
+      "size": 12576,
+      "sha256": "ef2ab5c93773d9f54a7e3270f7773b06078dbdc8d811815687798e48e1121b85"
+    },
+    {
+      "path": "rain-clock/mechanism/.gitignore",
+      "size": 85,
+      "sha256": "1fd423637885edd22a6889e7a7e38d5bac46c02b8cf02dab02e9d1d417bccbc4"
+    },
+    {
+      "path": "rain-clock/mechanism/README.md",
+      "size": 8110,
+      "sha256": "f82072ae11458c03213dff224f67310b2b1d0254927c7dc31348c12d436770ea"
+    },
+    {
+      "path": "rain-clock/mechanism/axle_comparison/README.md",
+      "size": 6198,
+      "sha256": "7caa4f60b7d8702922762d03b2eaa760b7304d44a8340c5bdfe33175bd1c033b"
+    },
+    {
+      "path": "rain-clock/mechanism/axle_comparison/build_alternative.py",
+      "size": 5472,
+      "sha256": "e8803fc02e67adfbcea63a68a23dd3eb9ece97a8ce83773f03fe920a24145af4"
+    },
+    {
+      "path": "rain-clock/mechanism/axle_comparison/geometry_comparison.json",
+      "size": 3401,
+      "sha256": "e578240a0195e4f8d692b8a69d41f192974c61b96afd1be0faf922e973a9dd38"
+    },
+    {
+      "path": "rain-clock/mechanism/axle_comparison/rear_axle_alternative.FCStd",
+      "size": 74448,
+      "sha256": "85496d14ad7dc80739bc33602be2a77e6136fddcfd4d7e72cd7d3b4aefe745f2"
+    },
+    {
+      "path": "rain-clock/mechanism/axle_comparison/rear_axle_front.png",
+      "size": 715887,
+      "sha256": "d7eb7e5733e3260ed229db366995d3ba539ee55a3ac952947b2ece1a4c268a44"
+    },
+    {
+      "path": "rain-clock/mechanism/axle_comparison/rear_axle_quarter.png",
+      "size": 1225806,
+      "sha256": "d83b2f1a3b25a9902105bad09a9ed32436dd7e3fc7ee58d0094f12405aa6f9a1"
+    },
+    {
+      "path": "rain-clock/mechanism/axle_comparison/render_views.py",
+      "size": 2229,
+      "sha256": "fef46616d4ae07ce6bb1dcf006a47c5c5fa35017133406d1246b53cc780b8eef"
+    },
+    {
+      "path": "rain-clock/mechanism/build_mechanism.py",
+      "size": 5976,
+      "sha256": "3341948710554483254d35cd2db2371e62217fe4faf7a92b3d8182ba98f518b2"
+    },
+    {
+      "path": "rain-clock/mechanism/cartridge/README.md",
+      "size": 8356,
+      "sha256": "2a820722486289a0b53d09c4db6e92cc3938f191ffc60ff79d93612ae17abb90"
+    },
+    {
+      "path": "rain-clock/mechanism/cartridge/build_cartridge.py",
+      "size": 3726,
+      "sha256": "d97f081a522e60e0bc6ca34fa380724aa870aa27969f33959086b01fd7cead28"
+    },
+    {
+      "path": "rain-clock/mechanism/cartridge/cartridge_geometry.json",
+      "size": 823,
+      "sha256": "e862431760fcf7af5f3cebc672d45c2cb8aa3a8c83968da5d5a4639bac58b7f3"
+    },
+    {
+      "path": "rain-clock/mechanism/cartridge/contact_motion.json",
+      "size": 40718,
+      "sha256": "dc077914ea9e6242f5af11630a92ed82ee4c43691248eab8debe8a04451fbc1d"
+    },
+    {
+      "path": "rain-clock/mechanism/cartridge/contact_motion.py",
+      "size": 4442,
+      "sha256": "81f13dc5b2c7e514903d5e72d012cde0af21765c0a23d5f621e397598d8b5c9a"
+    },
+    {
+      "path": "rain-clock/mechanism/cartridge/load_path.json",
+      "size": 12417,
+      "sha256": "e5d14f0de786dbb4e08abe1bd6470f1feda17843b7be51d9c13e6d1fe02d7625"
+    },
+    {
+      "path": "rain-clock/mechanism/cartridge/load_path.png",
+      "size": 120908,
+      "sha256": "f2ee21458d852ecfad6582a4aa58d0a3c22455fcd00b363bb1ce09f13cb2f8bc"
+    },
+    {
+      "path": "rain-clock/mechanism/cartridge/load_path.py",
+      "size": 5397,
+      "sha256": "dca870d65e3d93f8542607cd79bf118bf8b0e29a6c37f4227c94a7e6b7975b2a"
+    },
+    {
+      "path": "rain-clock/mechanism/cartridge/load_path.svg",
+      "size": 64369,
+      "sha256": "e297eb1f439f98a044bb724719ce55758d0ba130fb5d8158bd9ecf4ce89bba35"
+    },
+    {
+      "path": "rain-clock/mechanism/cartridge/rear_cartridge_envelope.FCStd",
+      "size": 13904,
+      "sha256": "63b8e7691eccba4be594b6b3a15c626b2147765053b66acfc1c2c8da39dd84c2"
+    },
+    {
+      "path": "rain-clock/mechanism/escape/README.md",
+      "size": 7352,
+      "sha256": "2c01152c7bab118b2096599b822a12226df0a13aa976f7cd2e199f1573dc0dc2"
+    },
+    {
+      "path": "rain-clock/mechanism/escape/escape_search_solids.FCStd",
+      "size": 122077,
+      "sha256": "e2770f8444ff0d33b7228eb25161a9752c95838f124f5fd87cd8980be6144c6b"
+    },
+    {
+      "path": "rain-clock/mechanism/escape/plot_results.py",
+      "size": 3277,
+      "sha256": "86342547ec197b221620c7d8fcd82a48775f84af612e30d6add394f59d84ef38"
+    },
+    {
+      "path": "rain-clock/mechanism/escape/reachable_components.png",
+      "size": 147776,
+      "sha256": "471fccaaf8d7df8878faa1b52c449b4cbe5b0d51564abe454c83d8fd63b6925d"
+    },
+    {
+      "path": "rain-clock/mechanism/escape/reachable_components.svg",
+      "size": 110954,
+      "sha256": "1ecc5055bedfa02ba342e4ec6ef2ca9f0b3c863518f40136fc277bb1ce80e44d"
+    },
+    {
+      "path": "rain-clock/mechanism/escape/results.json",
+      "size": 113507,
+      "sha256": "f0297dab6e2cd171096e30caadada5812e2af47cdd1fac9a51b5a42b4ba2b99b"
+    },
+    {
+      "path": "rain-clock/mechanism/escape/search_escape.py",
+      "size": 7353,
+      "sha256": "33f1e5eda2d313411e4b7a03454326855bbf917f1dc4e14432b6666f9a02a60b"
+    },
+    {
+      "path": "rain-clock/mechanism/escape/summary.json",
+      "size": 1317,
+      "sha256": "56e0b7e826ae94e83a386b44c0f6d1c2d1c4858a6c7ffbf4208bfa79fadaca6c"
+    },
+    {
+      "path": "rain-clock/mechanism/front_facade/README.md",
+      "size": 5519,
+      "sha256": "51dcd7cb60a8c4e6f47f7196806520fde48840dfbe93673107d036b7494d8e2a"
+    },
+    {
+      "path": "rain-clock/mechanism/front_facade/build_concept.py",
+      "size": 6436,
+      "sha256": "44c67a16ce06bbf01dc5afacf0f71e9a2d0005ca6adbceb864b4ae306bba1580"
+    },
+    {
+      "path": "rain-clock/mechanism/front_facade/front_facade_axle.FCStd",
+      "size": 75554,
+      "sha256": "8b9ed34127fc2dd43ad48fdc9ebb918e684160f6e33399ae2af667574786c681"
+    },
+    {
+      "path": "rain-clock/mechanism/front_facade/front_facade_front.png",
+      "size": 717563,
+      "sha256": "ca1b03c137dab5e371c8f2bca6f8860fdaf6eed8eaf20e440f7b6f0cfb5cddcf"
+    },
+    {
+      "path": "rain-clock/mechanism/front_facade/front_facade_quarter.png",
+      "size": 1212302,
+      "sha256": "7aa849de41c01413c60225ad64feef970b56569e3c4780f61cab9b660fe0d29f"
+    },
+    {
+      "path": "rain-clock/mechanism/front_facade/geometry_comparison.json",
+      "size": 7199,
+      "sha256": "ec61807ce543e31074c8bfb1af5fbce239dd4db19e2f410ac457910b53510f48"
+    },
+    {
+      "path": "rain-clock/mechanism/front_facade/render_views.py",
+      "size": 2232,
+      "sha256": "03529d043639abd2af60446c417ea2f9630fca5674d587536fe3a4532745b75c"
+    },
+    {
+      "path": "rain-clock/mechanism/geometry_checks.json",
+      "size": 1978,
+      "sha256": "9ec116849931e031ff511fcdccb9b87ffc87fffcef745179324cd7f35e1a404c"
+    },
+    {
+      "path": "rain-clock/mechanism/mechanism_preview.png",
+      "size": 1388944,
+      "sha256": "9d5ee281a1c254d5bbb776be42198f5f285ce812effd0cd40993bfc4580b4479"
+    },
+    {
+      "path": "rain-clock/mechanism/rain_clock_manual.FCStd",
+      "size": 80074,
+      "sha256": "ff1ec7b695c4d8bfb49f8636ade52616a0a7dda43871ac7220f67f91cfafe657"
+    },
+    {
+      "path": "rain-clock/mechanism/render_mechanism.py",
+      "size": 2191,
+      "sha256": "0fcf10fea0286cf8e662b20dfa2b32f6c0d4b6d1ff086516ea3335b37bd963d5"
+    },
+    {
+      "path": "rain-clock/mechanism/section_diagram.png",
+      "size": 150710,
+      "sha256": "55a1f3491a649c1596f4d31832ba53ec685fe3d4b4056e1e428c350569a51dcd"
+    },
+    {
+      "path": "rain-clock/mechanism/section_diagram.svg",
+      "size": 4133,
+      "sha256": "83f873d1a36cd82715441173852f38f8ab4aecef0e4fef6c22057de111326f4c"
+    },
+    {
+      "path": "rain-clock/mechanism/sensitivity/README.md",
+      "size": 8993,
+      "sha256": "3e229e341a4333fd50a577784df3be92d8cb713a72652b4cd1d7fabbd647e033"
+    },
+    {
+      "path": "rain-clock/mechanism/sensitivity/build_groove_variants.py",
+      "size": 1484,
+      "sha256": "69e94653ae7c16428b58acdcf52b75c82cad988f06573da8272d29cb1c6672af"
+    },
+    {
+      "path": "rain-clock/mechanism/sensitivity/groove_variants.FCStd",
+      "size": 9067,
+      "sha256": "4bae498b18abacddc805ebdca619b00af1b9d55119dce8464a5aef3a6522f5a1"
+    },
+    {
+      "path": "rain-clock/mechanism/sensitivity/groove_variants.json",
+      "size": 933,
+      "sha256": "8473bcea2d7c3bcb27a14d2c36894b9c259d71ee732166e24844accb8bcfe780"
+    },
+    {
+      "path": "rain-clock/mechanism/sensitivity/results.json",
+      "size": 1812819,
+      "sha256": "98bbb252f8f19c861071b988b1d104dd3c75980523ecc63764bfffa8c9f1a799"
+    },
+    {
+      "path": "rain-clock/mechanism/sensitivity/sensitivity_plot.png",
+      "size": 209094,
+      "sha256": "a25b30d46cbb508266edbb5f2af16410a919dd916dcf98518a477031c2f86eb9"
+    },
+    {
+      "path": "rain-clock/mechanism/sensitivity/sensitivity_plot.svg",
+      "size": 124258,
+      "sha256": "73b5059bf7a032c05ed65c2222a21f9592ce4c8c137cdff4213b52e6773692c6"
+    },
+    {
+      "path": "rain-clock/mechanism/sensitivity/summary.json",
+      "size": 6879,
+      "sha256": "820e6cead189122e316f0443d8e48da2565d9df7369301992d807f11632fd3b2"
+    },
+    {
+      "path": "rain-clock/mechanism/sensitivity/sweep.py",
+      "size": 9080,
+      "sha256": "5749cf77319a316ca109eaaebfa0856fa64e90f2dde0846d9e3b7bcbb26d6550"
+    },
+    {
+      "path": "rain-clock/rain_clock.blend",
+      "size": 1069680,
+      "sha256": "16e5ccdf21751fd34f9934b67f9f35492b7017e67218d367f6138aef9c1279f9"
+    },
+    {
+      "path": "rain-clock/rain_clock_loop.mp4",
+      "size": 290132,
+      "sha256": "5e7a102cb7eb9251f1c3c4f9ae51fc974eab7cc075102ee9b7942f0ebb231dbc"
+    },
+    {
+      "path": "rain-clock/rain_clock_still.png",
+      "size": 1140080,
+      "sha256": "6b9cf2450199d527cc8e94016008e5ec4d25bcc604d74ee32804da61a5dfddc6"
+    },
+    {
+      "path": "rain-clock/verification.json",
+      "size": 586,
+      "sha256": "8677cf3e768555e014cbaf86ecb29dc1b5a3474104d39ee53a1cfd837c0f27ee"
+    },
+    {
+      "path": "rain-clock/verify.py",
+      "size": 984,
+      "sha256": "c97813b58abec48ad200577cd1ba720633c30675e5a953e22e0ba7d3caf476b2"
+    },
+    {
+      "path": "verify_sources.py",
+      "size": 3104,
+      "sha256": "fad3d261a8c0a9e499c67668eb5194ca6c58f7d39bc4519525f442306c743fd9"
+    }
+  ]
+}
