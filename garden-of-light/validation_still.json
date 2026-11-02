@@ -1,0 +1,8 @@
+{
+  "blender": "4.3.2",
+  "engine": "CYCLES",
+  "threads": 2,
+  "objects": 13,
+  "loop_endpoint_max_error": 0.0,
+  "render_mode": "still"
+}

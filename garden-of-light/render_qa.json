@@ -1,0 +1,31 @@
+{
+  "frame_count": 48,
+  "shape": [
+    48,
+    480,
+    480,
+    3
+  ],
+  "loop_seam_mean_absolute_rgb_change": 0.0019244110444560647,
+  "ordinary_adjacent_mean_absolute_rgb_change": 0.0019335593096911907,
+  "max_adjacent_mean_absolute_rgb_change": 0.002070664195343852,
+  "brightness_min": 0.4962891936302185,
+  "brightness_max": 0.519596517086029,
+  "no_empty_frame": true,
+  "note": "Pixel differences include path-tracing noise; numerical transform closure is in validation_loop.json.",
+  "video": {
+    "programs": [],
+    "stream_groups": [],
+    "streams": [
+      {
+        "width": 480,
+        "height": 480,
+        "r_frame_rate": "12/1",
+        "nb_frames": "48"
+      }
+    ],
+    "format": {
+      "duration": "4.000000"
+    }
+  }
+}
