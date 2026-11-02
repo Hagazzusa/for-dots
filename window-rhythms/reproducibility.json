@@ -1,0 +1,25 @@
+{
+  "method": "Two independent invocations of build.py with separate output directories, same installed toolchain.",
+  "results": {
+    "window_rhythms.wav": {
+      "identical": true,
+      "sha256": "c25328fa66dcd06ea2975bcc71f13332a5efa4c27765b2b9a37390568b1cd0f6"
+    },
+    "window_rhythms_preview.mp3": {
+      "identical": true,
+      "sha256": "48071b6276c4ce4014c7d77c1ccdecc258410d2e2373b286e48740738b7fa05b"
+    },
+    "qa.json": {
+      "identical": true,
+      "sha256": "713a721770b9b7d5b4bb2c871ca503ba495bd9a1024c2901c4d40f19f1295aef"
+    },
+    "score.json": {
+      "identical": true,
+      "sha256": "5f2d8f11aebbe8b87039d36c0abb2fc7eeb85bb43cf57cc3a581e14db40eb0c7"
+    },
+    "waveform.svg": {
+      "identical": true,
+      "sha256": "8a26079a149718ebf59813dfcf731e9e612cc299d97b639296be7312d99b1a98"
+    }
+  }
+}

@@ -1,0 +1,106 @@
+{
+  "title": "차창 밖의 박자 / Window Rhythms",
+  "seed": 20261102,
+  "review_scope": "Numerical signal and codec checks only. No perceptual audition performed.",
+  "render_gain_db": 12.880000000000003,
+  "droplet_count": 66,
+  "wav": {
+    "duration_seconds": 38.0,
+    "sample_rate_hz": 48000,
+    "channels": 2,
+    "sample_peak_dbfs": -10.056471680113354,
+    "rms_dbfs_per_channel": [
+      -30.262930058872612,
+      -30.33250263724618
+    ],
+    "dc_mean_per_channel": [
+      1.7065750925164474e-09,
+      5.956281695449561e-09
+    ],
+    "clipped_samples": 0,
+    "first_last_samples": [
+      [
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0
+      ]
+    ],
+    "max_adjacent_sample_step": 0.133941650390625,
+    "stereo_correlation": 0.9535730286732416,
+    "power_fraction_below_80hz": 2.3208362057932123e-05,
+    "100ms_rms_dbfs_range": [
+      -98.45853768210829,
+      -25.189723198460467
+    ],
+    "all_samples_finite": true
+  },
+  "mp3_decoded": {
+    "duration_seconds": 38.0,
+    "sample_rate_hz": 48000,
+    "channels": 2,
+    "sample_peak_dbfs": -11.019553085757437,
+    "rms_dbfs_per_channel": [
+      -30.69063565310886,
+      -30.758128149250386
+    ],
+    "dc_mean_per_channel": [
+      3.104174709867671e-07,
+      3.3486281642648074e-07
+    ],
+    "clipped_samples": 0,
+    "first_last_samples": [
+      [
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0
+      ]
+    ],
+    "max_adjacent_sample_step": 0.12470108643174171,
+    "stereo_correlation": 0.9492263638154191,
+    "power_fraction_below_80hz": 2.6943868460974914e-05,
+    "100ms_rms_dbfs_range": [
+      -98.88596389442122,
+      -25.610769418964225
+    ],
+    "all_samples_finite": true
+  },
+  "wav_ffmpeg_loudnorm": {
+    "input_i": "-26.00",
+    "input_tp": "-10.06",
+    "input_lra": "10.00",
+    "input_thresh": "-36.60",
+    "output_i": "-25.24",
+    "output_tp": "-9.00",
+    "output_lra": "9.40",
+    "output_thresh": "-35.58",
+    "normalization_type": "dynamic",
+    "target_offset": "-0.76"
+  },
+  "mp3_ffmpeg_loudnorm": {
+    "input_i": "-26.42",
+    "input_tp": "-10.96",
+    "input_lra": "10.00",
+    "input_thresh": "-37.02",
+    "output_i": "-25.25",
+    "output_tp": "-9.00",
+    "output_lra": "9.40",
+    "output_thresh": "-35.59",
+    "normalization_type": "dynamic",
+    "target_offset": "-0.75"
+  },
+  "tool_versions": {
+    "numpy": "2.3.5",
+    "scipy": "1.17.0",
+    "ffmpeg": "ffmpeg version 7.1.5-0+deb13u1 Copyright (c) 2000-2026 the FFmpeg developers"
+  },
+  "sha256": {
+    "window_rhythms.wav": "c25328fa66dcd06ea2975bcc71f13332a5efa4c27765b2b9a37390568b1cd0f6",
+    "window_rhythms_preview.mp3": "48071b6276c4ce4014c7d77c1ccdecc258410d2e2373b286e48740738b7fa05b"
+  }
+}

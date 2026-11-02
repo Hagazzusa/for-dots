@@ -14,8 +14,8 @@
     },
     {
       "path": "README.md",
-      "size": 4985,
-      "sha256": "c88a29da4e79308c1ed9633ec9b9b6865d20f9b726a4cc80d8d2c06028a550b7"
+      "size": 5371,
+      "sha256": "d96264c522558a81c0ad97c7f083af883ff978ee2c7f31293111d5b91b18a780"
     },
     {
       "path": "after-the-rain/ARCHITECTURE.md",
@@ -2686,6 +2686,61 @@
       "path": "verify_sources.py",
       "size": 3104,
       "sha256": "fad3d261a8c0a9e499c67668eb5194ca6c58f7d39bc4519525f442306c743fd9"
+    },
+    {
+      "path": "window-rhythms/README.md",
+      "size": 5144,
+      "sha256": "269aa6cf418a733e5c0039b57e085d5ebf0aac4c396d3fd07cd2de68a0731e4b"
+    },
+    {
+      "path": "window-rhythms/build.py",
+      "size": 8474,
+      "sha256": "4ee07e5ff748ad6213ed3d26b4eddfab61bec0a7c8069fd005e993b243ed6c9d"
+    },
+    {
+      "path": "window-rhythms/playback_qa.json",
+      "size": 974,
+      "sha256": "52f3972fab7082bb3a4ffe2ebf1d9ed409583a1c6509dedc61d66798d616c099"
+    },
+    {
+      "path": "window-rhythms/qa.json",
+      "size": 2729,
+      "sha256": "713a721770b9b7d5b4bb2c871ca503ba495bd9a1024c2901c4d40f19f1295aef"
+    },
+    {
+      "path": "window-rhythms/reproducibility.json",
+      "size": 835,
+      "sha256": "fdbfaf810ae9fe557cbcf3b87cd7617674e226444902c15d1d4f72d57d22b564"
+    },
+    {
+      "path": "window-rhythms/requirements.txt",
+      "size": 27,
+      "sha256": "1668a3152e33680d94637b13421c15e68bd97cd8701f7f555c691f5bc5c0b9f3"
+    },
+    {
+      "path": "window-rhythms/score.json",
+      "size": 5074,
+      "sha256": "5f2d8f11aebbe8b87039d36c0abb2fc7eeb85bb43cf57cc3a581e14db40eb0c7"
+    },
+    {
+      "path": "window-rhythms/verify_playback.py",
+      "size": 1806,
+      "sha256": "e24d9b70748f15e0478c3917351184e5f7e2b317f3df62868af99974ac4914a0"
+    },
+    {
+      "path": "window-rhythms/waveform.svg",
+      "size": 95516,
+      "sha256": "8a26079a149718ebf59813dfcf731e9e612cc299d97b639296be7312d99b1a98"
+    },
+    {
+      "path": "window-rhythms/window_rhythms.wav",
+      "size": 7296044,
+      "sha256": "c25328fa66dcd06ea2975bcc71f13332a5efa4c27765b2b9a37390568b1cd0f6"
+    },
+    {
+      "path": "window-rhythms/window_rhythms_preview.mp3",
+      "size": 609068,
+      "sha256": "48071b6276c4ce4014c7d77c1ccdecc258410d2e2373b286e48740738b7fa05b"
     }
   ]
 }

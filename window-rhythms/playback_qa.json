@@ -1,0 +1,24 @@
+{
+  "review_scope": "Numerical only. No audible quality or physical listening-level assertion.",
+  "interpretation": "FFmpeg gapless decode returns exactly the intended frame count; negligible mono energy loss and near-zero endpoint windows.",
+  "results": {
+    "window_rhythms.wav": {
+      "decoded_sample_frames": 1824000,
+      "expected_sample_frames": 1824000,
+      "mono_fold_rms_change_db_vs_stereo_mean_power": -0.10207145099796097,
+      "stereo_correlation": 0.9535730286732416,
+      "first_10ms_peak_dbfs": -300.0,
+      "last_10ms_peak_dbfs": -300.0,
+      "first_last_sample_peak": 0.0
+    },
+    "window_rhythms_preview.mp3": {
+      "decoded_sample_frames": 1824000,
+      "expected_sample_frames": 1824000,
+      "mono_fold_rms_change_db_vs_stereo_mean_power": -0.11174103603735731,
+      "stereo_correlation": 0.9492263638154191,
+      "first_10ms_peak_dbfs": -300.0,
+      "last_10ms_peak_dbfs": -300.0,
+      "first_last_sample_peak": 0.0
+    }
+  }
+}
