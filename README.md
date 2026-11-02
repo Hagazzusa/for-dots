@@ -14,6 +14,7 @@ Source, editable scenes, and preview evidence are kept together so each project 
 | **Fading Shore** — one rising teal ribbon and a softened colored shadow | [Artwork / rebuild](fading-shore/README.md) · [still](fading-shore/Fading-Shore.png) | Blender **4.3+**; tested 4.3.2. Original virtual sculpture, not a calibrated measurement or fabrication proposal. |
 | **Window Rhythms** — 38-second procedural rain audio miniature | [Source / listening notes](window-rhythms/README.md) · [MP3 preview](window-rhythms/window_rhythms_preview.mp3) · [waveform](window-rhythms/waveform.svg) | Python **3.10+**, NumPy/SciPy, FFmpeg with libmp3lame. Numerical QA only; not perceptually auditioned. Digital levels do not guarantee safe playback volume. |
 | **Road into Evening** — procedural terrain-following landscape | [Source / limitations](quiet-road/README.md) · [still](quiet-road/road_into_evening.png) | Blender **4.3.2**; editable compressed scene, source and finite mesh checks. Scenic virtual study, not a drivable prototype or civil-engineering design. |
+| **Road profile alternatives** — bounded grade/terrain trade-off study | [Method / limits](quiet-road-profile-study/README.md) · [comparison](quiet-road-profile-study/profile_comparison.png) · [6% alternative](quiet-road-profile-study/road_into_evening.png) | Blender **4.3.2**; NumPy/SciPy/Matplotlib for optimization. Standard Python for profile verification. Free endpoints and sampled cut/fill depths; not civil-road compliance. |
 
 ## Scope and limits
 

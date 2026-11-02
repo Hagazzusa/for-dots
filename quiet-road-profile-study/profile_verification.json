@@ -1,0 +1,10 @@
+{
+  "sample_count": 841,
+  "finite": true,
+  "strictly_increasing_y": true,
+  "cap_fraction": 0.06,
+  "maximum_conservative_y_grade_percent": 6.000000000035044,
+  "maximum_horizontal_chord_segment_grade_percent": 5.999986903208033,
+  "passed": true,
+  "scope": "Finite piecewise-linear virtual-profile check, not road safety certification."
+}

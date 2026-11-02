@@ -1,0 +1,22 @@
+{
+  "baseline_project": "quiet_road",
+  "baseline_manifest_verified_unchanged": true,
+  "baseline_files": {
+    "road_into_evening.blend": "fdfdfcf997f769fb7c62beec238929d8ca556f4bff751d7b70a212b58a559f26",
+    "validation.json": "0f1b734d36bf743a1d24bd90e870ccbfcdfa101a1f3debe9fdbf32fa9ea6fcf5",
+    "build.py": "be2cdef152354b97d7fbce1897cb9fc4f93fffc21e24102de7000d498ecc29f9",
+    "check_mesh.py": "b1565abb747e5bb30026a16caa97f8abf182533a97ac192d41f1817d10482a1d",
+    "road_into_evening.png": "4889a5ab94eca4ec97be070435f98aed31ec96c1490957ebe3e391b8279bf5f0",
+    "README.md": "4d6a347f5917dd3e253866e7855c87edb026caa8b11f58e4a2ea193a8dfddc91"
+  },
+  "published_baseline_directory": "../quiet-road",
+  "published_baseline_files": {
+    "road_into_evening.blend": "f1c932fe0c7f6a46f0cf91d481396fcb895ee94ffa044575373ce31c66bcfe13",
+    "validation.json": "0f1b734d36bf743a1d24bd90e870ccbfcdfa101a1f3debe9fdbf32fa9ea6fcf5",
+    "build.py": "be2cdef152354b97d7fbce1897cb9fc4f93fffc21e24102de7000d498ecc29f9",
+    "check_mesh.py": "b1565abb747e5bb30026a16caa97f8abf182533a97ac192d41f1817d10482a1d",
+    "road_into_evening.png": "d33ceff15833242a33d1c742de53c19a607cc004721c4dd8716d2b98f21c8aa5",
+    "README.md": "d23c8d39fba0f9b12a00e48ca51aab6d3c8ffdc42675b82e520ba94698e6abd3"
+  },
+  "hash_scope_note": "baseline_files identifies original research inputs; published_baseline_files identifies metadata-normalized repository copies."
+}

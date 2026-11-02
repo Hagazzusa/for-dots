@@ -1,0 +1,61 @@
+{
+  "scope": "Virtual aesthetic grade caps, not civil-road standards. Fixed planar centerline and original terrain.",
+  "solver": "SciPy SLSQP",
+  "scipy_version": "1.17.0",
+  "nodes": 211,
+  "knot_spacing_m_y": 3,
+  "lambda_second_difference": 25.0,
+  "slope_smoothing": "Positive normalized Gaussian convolution, sigma 3 virtual m of y-distance; recentered to natural mean height",
+  "endpoint_constraints": "Free endpoint heights; not connected to external roads.",
+  "grade_constraint": "abs(delta height)<=cap*delta y; conservative versus true horizontal arc length. Piecewise-linear reconstruction preserves bound.",
+  "baseline": {
+    "maximum_grade_percent": 11.544809470315064,
+    "maximum_cut_m": 2.012894723544207,
+    "maximum_fill_m": 1.8024325479794654,
+    "rms_centerline_displacement_m": 0.0,
+    "maximum_centerline_displacement_m": 0.0,
+    "rms_grade_change_per_m": 0.000751539015976105
+  },
+  "results": {
+    "4% cap": {
+      "maximum_grade_percent": 3.9999992234480612,
+      "maximum_cut_m": 4.633001837245837,
+      "maximum_fill_m": 5.632066024448358,
+      "rms_centerline_displacement_m": 2.7157073622777967,
+      "maximum_centerline_displacement_m": 5.576996430493844,
+      "rms_grade_change_per_m": 0.000524286726914936,
+      "solver_success": true,
+      "solver_message": "Optimization terminated successfully",
+      "solver_iterations": 92,
+      "solver_seconds": 1.361348253001779,
+      "maximum_constraint_violation_m": 2.852162950262027e-13
+    },
+    "6% cap": {
+      "maximum_grade_percent": 5.999986903208144,
+      "maximum_cut_m": 3.333946959483603,
+      "maximum_fill_m": 3.529703707184034,
+      "rms_centerline_displacement_m": 1.6337811494202985,
+      "maximum_centerline_displacement_m": 3.4037890402623465,
+      "rms_grade_change_per_m": 0.0007163742458858734,
+      "solver_success": true,
+      "solver_message": "Optimization terminated successfully",
+      "solver_iterations": 109,
+      "solver_seconds": 1.5166182719985954,
+      "maximum_constraint_violation_m": 1.9643731086205207e-12
+    },
+    "8% cap": {
+      "maximum_grade_percent": 7.999982537587331,
+      "maximum_cut_m": 2.014054529712665,
+      "maximum_fill_m": 2.1664789318845945,
+      "rms_centerline_displacement_m": 0.8122645728898044,
+      "maximum_centerline_displacement_m": 1.9335262364042034,
+      "rms_grade_change_per_m": 0.0008838288089368227,
+      "solver_success": true,
+      "solver_message": "Optimization terminated successfully",
+      "solver_iterations": 125,
+      "solver_seconds": 1.5099530890001915,
+      "maximum_constraint_violation_m": 7.540634783254063e-13
+    }
+  },
+  "grade_measure_definition": "Maximum finite-segment height difference divided by horizontal centerline chord length; not exact integrated arc length"
+}
