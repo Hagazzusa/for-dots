@@ -21,7 +21,8 @@ func initialize(held_item:Node3D, reading_panel:CanvasLayer):
 func _on_caption(text:String):
  note_requested.emit(text,5.0)
 func advance(delta:float,viewer_position:Vector3,lull:float):
- flower_life.advance(delta,flower_life.to_local(viewer_position))
+ var reading_flower_note:bool = panel != null and panel.is_open and not panel.suspended and panel.current_story == flower_text
+ flower_life.advance(delta,flower_life.to_local(viewer_position),reading_flower_note)
  cat.advance(delta,lull)
 func life_target(camera:Camera3D,viewer_position:Vector3)->String:
  if cat.can_greet() and aimed(camera,viewer_position,cat.get_node("Interaction").global_position):return "cat"

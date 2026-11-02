@@ -50,7 +50,7 @@ func request_wave() -> bool:
 	_present()
 	return true
 
-func advance(delta: float, viewer_local_position: Vector3) -> void:
+func advance(delta: float, viewer_local_position: Vector3, reading_flower_note := false) -> void:
 	if not is_finite(delta) or not viewer_local_position.is_finite(): return
 	var distance := Vector2(viewer_local_position.x,viewer_local_position.z).length()
 	if state == "done":
@@ -66,6 +66,9 @@ func advance(delta: float, viewer_local_position: Vector3) -> void:
 	var remaining := maxf(delta,0.0)
 	# At most six finite states per visit: large injected deltas cannot loop forever.
 	for transition in range(6):
+		# Preserve only this visit's remaining greeting window, never the work/wave pose.
+		if state == "window" and not waved and reading_flower_note and distance <= notice_radius:
+			break
 		var duration := _duration()
 		if duration <= 0.0: break
 		var step := minf(remaining,maxf(0.0,duration-elapsed))

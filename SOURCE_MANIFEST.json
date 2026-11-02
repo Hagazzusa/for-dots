@@ -104,8 +104,8 @@
     },
     {
       "path": "after-the-rain/README.md",
-      "size": 5757,
-      "sha256": "0f8757aef40ccca607ddb27bbfc1f9b8e38c2e6b053fa37c59e80d7dab1594f9"
+      "size": 5944,
+      "sha256": "2e036988f84b2379b60463bc9333289c1a0ab4aaa9751faf04907489c32d4927"
     },
     {
       "path": "after-the-rain/RECOVERY.md",
@@ -1033,6 +1033,11 @@
       "sha256": "73423ac0890e8ad51b1644edebbbcc6bafb6d58ab0a6bb32b1d9a84f2252579a"
     },
     {
+      "path": "after-the-rain/docs/FLOWER_READING.md",
+      "size": 2967,
+      "sha256": "24cae9b20db0c290a0b4a7b13e306a7a93ed0f754b6cee1eaf57c616fce54752"
+    },
+    {
       "path": "after-the-rain/liquid_cup.gd",
       "size": 4559,
       "sha256": "1ad5f35d9e5c48a6f106acec79486ae7bcf7c33b5b71a246a9dfa23d84001337"
@@ -1404,8 +1409,8 @@
     },
     {
       "path": "after-the-rain/scripts/exploration.gd",
-      "size": 3006,
-      "sha256": "e24efdf6430a40c71b95974981371b0a0fb79d6a48337e8b6a702e4f3aa1ff3e"
+      "size": 3153,
+      "sha256": "16668d0bd1e0358db193f9964d54ab25e545201f848dc56186e391443c4d6361"
     },
     {
       "path": "after-the-rain/scripts/exploration.gd.uid",
@@ -1414,8 +1419,8 @@
     },
     {
       "path": "after-the-rain/scripts/flower_life.gd",
-      "size": 4300,
-      "sha256": "6681fa9c0c8ce09932f5d3d31f7f63b043de91c4f384fa95c20644b4933f415c"
+      "size": 4515,
+      "sha256": "a1a2d76b6d3d6cd1a8eda912aa90c2df017ced6dd301f3afdbb09ae3e512f0c2"
     },
     {
       "path": "after-the-rain/scripts/flower_life.gd.uid",
@@ -1796,6 +1801,16 @@
       "path": "after-the-rain/tests/fixtures/world_before.tscn",
       "size": 141616,
       "sha256": "bf86de90fbe37ecf4b2437fb0784ccc8ba26c144ab1960ec62bc1a9411d014e0"
+    },
+    {
+      "path": "after-the-rain/tests/flower_reading.gd",
+      "size": 4512,
+      "sha256": "f45455864841c0c81cb6e684249bdbf58c25040c79a85546a95f776586969afc"
+    },
+    {
+      "path": "after-the-rain/tests/flower_reading.gd.uid",
+      "size": 20,
+      "sha256": "d9df4066475948acb2cb4d90b014ee58e12d67ee9c963c01dd4f83bc25763221"
     },
     {
       "path": "after-the-rain/tests/flower_wrapping.gd",
