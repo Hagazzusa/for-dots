@@ -1,0 +1,102 @@
+extends SceneTree
+class AvailablePassenger extends Node:
+	var available := true
+	func is_available() -> bool: return available
+var checks := 0
+var failures := 0
+func check(value: bool, message: String) -> void:
+	checks += 1
+	if not value:
+		failures += 1
+		push_error("REASONS FAIL: "+message)
+func _initialize() -> void:
+	call_deferred("run")
+func meet(component, panel, greeting):
+	var first = component.next_story()
+	check(first == greeting, "First interaction returns unchanged greeting")
+	panel.open_story(first)
+	panel.close_story()
+	check(component.has_met and not panel.is_open, "Matching close marks met without opening another reader")
+func run() -> void:
+	var panel_scene = load("res://scenes/story_panel.tscn")
+	var component_scene = load("res://scenes/evening_conversation.tscn")
+	var panel = panel_scene.instantiate()
+	var other_panel = panel_scene.instantiate()
+	var component = component_scene.instantiate()
+	var other = component_scene.instantiate()
+	var passenger := AvailablePassenger.new()
+	var second_passenger := AvailablePassenger.new()
+	for node in [panel,other_panel,component,other,passenger,second_passenger]: root.add_child(node)
+	var greeting = load("res://config/story_passenger.tres")
+	var unrelated = load("res://config/story_memo.tres")
+	var original_pages: Array = greeting.pages.duplicate()
+	var question_pages: Array = component.question_story.pages.duplicate()
+	component.initialize(panel,greeting,passenger)
+	other.initialize(other_panel,greeting,second_passenger)
+	check(component.ride_memory().is_empty() and not component.has_met, "No invented reason initially")
+	panel.open_story(greeting)
+	panel.close_story()
+	check(not component.has_met, "Unowned greeting close cannot progress")
+	meet(component,panel,greeting)
+	check(component.reason.is_empty() and not other.has_met, "Meeting doesn't choose reason or mutate second instance")
+	var question = component.next_story()
+	check(question != greeting and question != component.question_story and question.pages == question_pages and question.choice_labels.size() == 2, "Explicit second interaction offers two ordinary reasons")
+	panel.open_story(question)
+	panel.close_story()
+	check(component.reason.is_empty() and component.has_met, "Q before choice leaves reason unset and retryable")
+	var retry = component.next_story()
+	check(retry != question, "Each attempt has a unique reader identity")
+	panel.open_story(retry)
+	panel.select_choice(0)
+	check(component.reason == "work" and not component.ride_memory().is_empty(), "Exact live work choice commits")
+	panel.choice_selected.emit(1)
+	check(component.reason == "work", "Duplicate event cannot overwrite choice")
+	panel.close_story()
+	check(component.next_story() == component.work_story and component.work_story.choice_labels.is_empty(), "Completed conversation has no repeated mandatory choice")
+	check(greeting.pages == original_pages and component.question_story.pages == question_pages and other.reason.is_empty(), "Shared text and other component untouched")
+	component.reset()
+	meet(component,panel,greeting)
+	panel.open_story(component.next_story())
+	panel.select_choice(1)
+	check(component.reason == "walk" and component.ride_memory().contains("걷다가"), "Walk choice has coherent optional memory")
+	component.reset()
+	meet(component,panel,greeting)
+	var stale = component.next_story()
+	panel.open_story(stale)
+	panel.open_story(unrelated)
+	panel.choice_selected.emit(0)
+	panel.open_story(stale)
+	panel.choice_selected.emit(1)
+	check(component.reason.is_empty(), "Replaced reader invalidates old choice ownership")
+	panel.close_story()
+	panel.open_story(component.next_story())
+	passenger.available = false
+	component._process(0)
+	check(not panel.is_open and component.reason.is_empty(), "Departure cancels only owned pending reader")
+	panel.choice_selected.emit(0)
+	check(component.reason.is_empty() and component.next_story() == null, "Unavailable passenger cannot commit/offer reason")
+	passenger.available = true
+	panel.open_story(component.next_story())
+	component.reset()
+	panel.choice_selected.emit(0)
+	check(not component.has_met and component.reason.is_empty() and not panel.is_open, "Reset cancels stale choice")
+	meet(component,panel,greeting)
+	panel.open_story(component.next_story())
+	component.initialize(other_panel,greeting,second_passenger)
+	panel.choice_selected.emit(0)
+	panel.story_closed.emit(greeting)
+	check(not component.has_met and component.reason.is_empty(), "Rebind disconnects old panel and clears transaction")
+	# An unrelated reader must survive component reset.
+	other_panel.open_story(unrelated)
+	component.reset()
+	check(other_panel.is_open and other_panel.current_story == unrelated, "Reset never closes another reader's content")
+	other_panel.close_story()
+	# Greeting closed only after passenger departure does not count as a meeting.
+	other_panel.open_story(other.next_story())
+	second_passenger.available = false
+	other_panel.close_story()
+	check(not other.has_met, "Unavailable greeting close cannot mark met")
+	for node in [component,other,panel,other_panel,passenger,second_passenger]: node.queue_free()
+	await process_frame
+	print("RECOVERY REASONS: ",checks," checks, ",failures," failures")
+	quit(1 if failures else 0)

@@ -1,0 +1,8 @@
+[gd_resource type="Resource" load_steps=2 format=3]
+[ext_resource type="Script" path="res://config/story_text.gd" id="1"]
+[resource]
+script = ExtResource("1")
+title = "버스를 기다리는 동안"
+pages = Array[String](["승객이 품에 안은 종이봉투를 고쳐 든다.\n\n“어디 다녀오는 길이에요?”"])
+choice_labels = Array[String](["일 마치고요.", "그냥 걷다가요."])
+choice_responses = Array[String](["“늦게 끝났네요. 버스에서는 좀 앉아 가요.”\n\n승객은 봉투를 조금 더 안쪽으로 끌어안는다.\n“저는 이 빵 식기 전에 들어가려고요.”", "“비 오는 날 걷는 것도 나쁘진 않죠. 신발만 안 젖으면.”\n\n승객이 자기 신발 끝을 한번 내려다본다.\n“돌아갈 때는 버스 타고 가요.”"])

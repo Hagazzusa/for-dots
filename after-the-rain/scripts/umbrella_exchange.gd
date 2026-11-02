@@ -7,6 +7,7 @@ var loaned := false
 var departed := false
 var offering := false
 var _owns_reader := false
+var _thanks_pending := false
 var umbrella: Node3D
 var passenger: Node3D
 var panel: CanvasLayer
@@ -14,6 +15,7 @@ var panel: CanvasLayer
 var _old_prop_visibility: Dictionary = {}
 
 func initialize(held_umbrella: Node3D, person: Node3D, reader: CanvasLayer) -> void:
+	_thanks_pending = false
 	_restore_old_prop()
 	_disconnect_reader()
 	umbrella = held_umbrella
@@ -63,15 +65,20 @@ func _on_choice(index: int) -> void:
 	# Commit ownership before return_umbrella emits state_changed, so basket
 	# listeners never observe a returned item that is simultaneously lent.
 	loaned = true
+	_thanks_pending = true
 	umbrella.return_umbrella()
 	_present_prop()
 	lent.emit()
 
-func _on_story_closed(_story: Resource) -> void:
+func _on_story_closed(story: Resource) -> void:
+	var nod: bool = _thanks_pending and _owns_reader and story == offer_text and is_instance_valid(passenger) and passenger.is_available()
+	_thanks_pending = false
 	offering = false
 	_owns_reader = false
+	if nod: passenger.request_thanks()
 
 func present(_delta: float, bus_phase: String = "") -> void:
+	if _thanks_pending and not _reader_matches(): _thanks_pending = false
 	if loaned and is_instance_valid(passenger) and passenger.state == "boarded" and bus_phase == "departing":
 		departed = true
 	_present_prop()
@@ -86,6 +93,7 @@ func present(_delta: float, bus_phase: String = "") -> void:
 
 func reset() -> void:
 	var close_owned: bool = _reader_matches()
+	_thanks_pending = false
 	offering = false
 	_owns_reader = false
 	loaned = false

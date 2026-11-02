@@ -10,6 +10,13 @@ extends Node3D
 @onready var prompt_sign: Label3D = $Sign
 var state := "wait"
 var returning := false
+var departed := false
+@export_range(0.2, 3.0, 0.05) var thanks_duration := 1.6
+@export_range(0.0, 0.4, 0.01) var thanks_angle := 0.26
+@onready var head_pivot: Node3D = $Visual/HeadPivot
+var thanking := false
+var thanks_elapsed := 0.0
+var _head_rest: Transform3D
 var _home: Transform3D
 var _layer: int
 var _mask: int
@@ -19,6 +26,7 @@ var _path: Array[Vector3] = []
 var _trail: Array[Vector3] = []
 
 func _ready() -> void:
+	_head_rest = head_pivot.transform
 	_home = global_transform
 	_layer = solid.collision_layer
 	_mask = solid.collision_mask
@@ -30,6 +38,8 @@ func is_available() -> bool:
 func reset() -> void:
 	global_transform = _home
 	state = "wait"
+	departed = false
+	_cancel_thanks()
 	returning = false
 	_time = 0.0
 	_stop_time = 0.0
@@ -43,6 +53,7 @@ func reset() -> void:
 	_set_solid(true)
 
 func leave_with_player() -> void:
+	_cancel_thanks()
 	state = "boarded"
 	returning = false
 	_path.clear()
@@ -55,6 +66,7 @@ func _set_solid(value: bool) -> void:
 	solid.collision_mask = _mask if value else 0
 
 func _start_walk(boarding_point: Vector3) -> void:
+	_cancel_thanks()
 	state = "walk"
 	returning = false
 	_trail.assign([_home.origin])
@@ -75,9 +87,12 @@ func _return_home() -> void:
 		_path.append(_trail[i])
 
 func advance(delta: float, bus_phase: String, boarding_point: Vector3, dialogue_open: bool) -> void:
+	if not is_finite(delta): return
 	if state == "boarded":
+		if bus_phase == "departing": departed = true
 		return
 	var dt := maxf(delta, 0.0)
+	_advance_thanks(dt)
 	_time += dt
 	if state == "wait":
 		visual.position.y = sin(_time * 1.7) * 0.008
@@ -117,3 +132,21 @@ func advance(delta: float, bus_phase: String, boarding_point: Vector3, dialogue_
 			reset()
 		else:
 			leave_with_player()
+
+func request_thanks() -> bool:
+	if not is_available() or thanking: return false
+	thanking = true
+	thanks_elapsed = 0.0
+	return true
+
+func _advance_thanks(delta: float) -> void:
+	if not thanking: return
+	thanks_elapsed = minf(thanks_elapsed+delta,maxf(thanks_duration,0.01))
+	head_pivot.transform = _head_rest
+	head_pivot.rotate_object_local(Vector3.RIGHT,sin(PI*thanks_elapsed/maxf(thanks_duration,0.01))*clampf(thanks_angle,0.0,0.4))
+	if thanks_elapsed >= maxf(thanks_duration,0.01): _cancel_thanks()
+
+func _cancel_thanks() -> void:
+	thanking = false
+	thanks_elapsed = 0.0
+	head_pivot.transform = _head_rest

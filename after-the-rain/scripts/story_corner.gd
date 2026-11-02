@@ -7,6 +7,8 @@ extends Node3D
 @onready var objects = $Objects
 var stories := {}
 var active_story := ""
+var passenger_story_provider: Callable
+var passenger_prompt_provider: Callable
 const PROMPTS = {"Memo":"[E] 정류장에 남겨진 메모 읽기", "Route":"[E] 08번 노선도 살펴보기", "Passenger":"[E] 비를 피하는 승객에게 인사하기", "Radio":"[E] 작은 라디오 켜기 / 끄기"}
 func _ready():
  panel.closed.connect(func(): active_story="")
@@ -29,6 +31,8 @@ func target(camera:Camera3D, viewer_position:Vector3)->String:
 func hint(camera:Camera3D, viewer_position:Vector3)->String:
  if panel.is_open: return "[Q] 이야기 닫기 · 버스가 오면 바로 타도 괜찮아요"
  var id := target(camera,viewer_position)
+ if id=="Passenger" and passenger_prompt_provider.is_valid():
+  return str(passenger_prompt_provider.call())
  return PROMPTS.get(id,"")
 func try_interact(camera:Camera3D,viewer_position:Vector3)->bool:
  if panel.is_open:
@@ -39,7 +43,8 @@ func try_interact(camera:Camera3D,viewer_position:Vector3)->bool:
  if id=="Radio":radio.toggle()
  else:
   active_story=id
-  panel.open_story(stories[id])
+  var selected_story = passenger_story_provider.call() if id=="Passenger" and passenger_story_provider.is_valid() else stories[id]
+  if selected_story != null: panel.open_story(selected_story)
  return true
 func leave():
  panel.close_story()

@@ -1,0 +1,6 @@
+[gd_resource type="Resource" load_steps=2 format=3]
+[ext_resource type="Script" path="res://config/story_text.gd" id="1"]
+[resource]
+script = ExtResource("1")
+title = "걷다가 쉬는 곳"
+pages = Array[String](["“이 길은 밤에 차가 뜸해서 좋더라고요.”\n\n말이 잠깐 끊긴다.\n지붕에서 떨어진 빗물이 보도 끝으로 흘러간다."])

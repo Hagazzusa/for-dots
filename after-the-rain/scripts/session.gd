@@ -4,6 +4,8 @@ extends Node3D
 @export var boarding_radius := 1.7
 @export var vending_radius := 1.8
 @export var disposal_radius := 1.6
+@onready var conversation = $EveningConversation
+@onready var companion = $OnboardView/Companion
 @onready var overview = $OverviewView
 @onready var weather = $WeatherCycle
 @onready var clock = $EveningClock
@@ -44,6 +46,9 @@ func _ready():
 		rain.additional_shelters.assign(world.additional_shelters)
 		exploration.shared_available=func():return not exchange.loaned
 	exchange.initialize(umbrella,story.objects.get_node("Passenger"),story.panel)
+	conversation.initialize(story.panel,story.stories["Passenger"],story.objects.get_node("Passenger"))
+	story.passenger_story_provider=conversation.next_story
+	story.passenger_prompt_provider=conversation.prompt_text
 	player.quiet_wait_requested.connect(wait_quietly)
 	player.loan_requested.connect(offer_umbrella)
 	player.umbrella_requested.connect(toggle_umbrella)
@@ -134,7 +139,9 @@ func board_bus():
 		return
 	leave_photo_view()
 	var passenger=story.objects.get_node("Passenger")
-	ride_note=exchange.boarding_caption(passenger.state=="boarded" and not exchange.departed)
+	var actual_companion=passenger.state=="boarded" and not passenger.departed
+	ride_note=exchange.boarding_caption(actual_companion)
+	if ride_note.is_empty():ride_note=conversation.ride_memory()
 	if story:
 		story.leave()
 		story.objects.get_node("Passenger").leave_with_player()
@@ -145,6 +152,7 @@ func board_bus():
 	bus.close_doors()
 	bus.hide()
 	onboard.begin()
+	companion.configure(actual_companion,exchange.loaned)
 	ride_finished=false
 	player.set_motion_enabled(false)
 	Input.mouse_mode=Input.MOUSE_MODE_VISIBLE
@@ -152,6 +160,8 @@ func restart():
 	pause_overlay.reset()
 	leave_photo_view()
 	overview.reset()
+	conversation.reset()
+	companion.reset()
 	exchange.reset()
 	clock.reset()
 	weather.reset()

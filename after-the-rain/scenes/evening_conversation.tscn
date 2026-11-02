@@ -1,0 +1,10 @@
+[gd_scene load_steps=5 format=3]
+[ext_resource type="Script" path="res://scripts/evening_conversation.gd" id="1"]
+[ext_resource type="Resource" path="res://config/story_reason_question.tres" id="2"]
+[ext_resource type="Resource" path="res://config/story_reason_work.tres" id="3"]
+[ext_resource type="Resource" path="res://config/story_reason_walk.tres" id="4"]
+[node name="EveningConversation" type="Node"]
+script = ExtResource("1")
+question_story = ExtResource("2")
+work_story = ExtResource("3")
+walk_story = ExtResource("4")

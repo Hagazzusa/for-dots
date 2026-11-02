@@ -1,0 +1,6 @@
+[gd_resource type="Resource" load_steps=2 format=3]
+[ext_resource type="Script" path="res://config/story_text.gd" id="1"]
+[resource]
+script = ExtResource("1")
+title = "집으로 가는 길"
+pages = Array[String](["“저기 불빛 보이면 우리 버스겠네요.”\n\n승객이 길 쪽을 바라본다.\n나도 도로 끝의 불빛을 바라본다."])
