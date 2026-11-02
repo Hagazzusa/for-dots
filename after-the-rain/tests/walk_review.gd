@@ -21,7 +21,7 @@ func _unhandled_key_input(event):
   game.drink.advance(1.5)
  if event is InputEventKey and event.pressed and event.keycode==KEY_B:
   game.restart()
-  game.bus.advance(26)
+  game.bus.advance(game.bus.effective_wait_seconds()+1)
   game.bus.advance(9)
   game.bus.set_paused(true)
   game.player.set_photo_view(Vector3(-5,2.1,2.25),Vector3(2,1.2,1.8))

@@ -1,5 +1,7 @@
 extends CharacterBody3D
 ## Owns locomotion and view. Emits intents; never queries sibling gameplay nodes.
+signal quiet_wait_requested
+signal loan_requested
 signal umbrella_requested
 signal interaction_requested
 signal action_requested
@@ -33,6 +35,8 @@ func _unhandled_input(event: InputEvent):
 	if event is InputEventKey and event.pressed and not event.echo:
 		match event.keycode:
 			KEY_ESCAPE: Input.mouse_mode = Input.MOUSE_MODE_VISIBLE
+			KEY_T: quiet_wait_requested.emit()
+			KEY_G: loan_requested.emit()
 			KEY_U: umbrella_requested.emit()
 			KEY_E: interaction_requested.emit()
 			KEY_F: action_requested.emit()
@@ -51,7 +55,7 @@ func apply_keyboard_look(axis: Vector2, delta: float) -> void:
 		look_impulse.emit(Vector2(-step.x,-step.y)*10.0)
 
 func _physics_process(_delta: float):
-	var look_axis := Vector2(float(Input.is_physical_key_pressed(KEY_RIGHT))-float(Input.is_physical_key_pressed(KEY_LEFT)),float(Input.is_physical_key_pressed(KEY_UP))-float(Input.is_physical_key_pressed(KEY_DOWN)))
+	var look_axis := Vector2(float(Input.is_key_pressed(KEY_RIGHT))-float(Input.is_key_pressed(KEY_LEFT)),float(Input.is_key_pressed(KEY_UP))-float(Input.is_key_pressed(KEY_DOWN)))
 	apply_keyboard_look(look_axis,_delta)
 	if not motion_enabled or seated:
 		return

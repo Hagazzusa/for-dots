@@ -9,6 +9,7 @@ signal phase_changed(new_phase: String)
 var phase := "waiting"
 var phase_time := 0.0
 var paused := false
+var completed_cycles := 0
 @onready var visual: Node3D = get_node_or_null("Visual")
 
 func _ready() -> void:
@@ -24,7 +25,7 @@ func advance(delta: float) -> void:
 	match phase:
 		"waiting":
 			position.x = schedule.approach_x
-			if phase_time >= schedule.wait_seconds:
+			if phase_time >= effective_wait_seconds():
 				_transition("approaching")
 		"approaching":
 			var t := minf(phase_time / schedule.approach_seconds, 1.0)
@@ -42,6 +43,7 @@ func advance(delta: float) -> void:
 			var t := minf(phase_time / schedule.departure_seconds, 1.0)
 			position.x = lerpf(schedule.stop_x, schedule.departure_x, pow(t, 2))
 			if phase_time >= schedule.departure_seconds:
+				completed_cycles += 1
 				_transition("waiting")
 
 	_update_visual()
@@ -77,6 +79,7 @@ func reset() -> void:
 	phase = "waiting"
 	phase_time = 0.0
 	paused = false
+	completed_cycles = 0
 	position.x = schedule.approach_x
 	position.z = schedule.lane_z
 	_update_visual()
@@ -84,8 +87,22 @@ func reset() -> void:
 	if changed:
 		phase_changed.emit(phase)
 
+func effective_wait_seconds() -> float:
+	return schedule.wait_seconds if completed_cycles == 0 else schedule.repeat_wait_seconds
+
+## Caller credits only this returned duration to the shared clock. No physics
+## advance or approach time is consumed here. Invalid/paused attempts return -1.
+func skip_waiting() -> float:
+	if paused or phase != "waiting":
+		return -1.0
+	var skipped := maxf(0.0, effective_wait_seconds() - phase_time)
+	# A just-completed departure still has its old endpoint until next advance.
+	position.x = schedule.approach_x
+	_transition("approaching")
+	return skipped
+
 func countdown_seconds() -> int:
-	return maxi(0, ceili(schedule.wait_seconds-phase_time+schedule.approach_seconds))
+	return maxi(0, ceili(effective_wait_seconds()-phase_time+schedule.approach_seconds))
 
 func status_text() -> String:
 	match phase:

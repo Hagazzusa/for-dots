@@ -1,0 +1,8 @@
+[gd_resource type="Resource" load_steps=2 format=3]
+[ext_resource type="Script" path="res://config/story_text.gd" id="Story"]
+[resource]
+script = ExtResource("Story")
+title = "함께 쓰는 우산"
+pages = Array[String](["승객이 지붕 밖으로 손을 내밀어 비를 가늠한다.\n\n들고 있는 공용 우산을 빌려줄까?"])
+choice_labels = Array[String](["이 우산 쓰세요", "조금 더 쓰고 있을게요"])
+choice_responses = Array[String](["“고마워요. 빵도 덜 젖겠네요.”\n\n승객이 우산을 받아 든다.\n“다음 비 오는 날, 그 자리에 둘게요.”", "우산 손잡이를 다시 고쳐 쥔다.\n잠시 나란히 서서 빗소리를 듣는다."])

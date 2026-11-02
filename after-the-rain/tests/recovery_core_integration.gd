@@ -18,7 +18,7 @@ func run():
  game.restart()
  assert(not game.story.panel.is_open and not game.pause_overlay.active)
  assert(not game.bus.visual.visible and not game.boarded)
- game.bus.advance(26);game.bus.advance(9)
+ game.bus.advance(game.bus.effective_wait_seconds()+1);game.bus.advance(9)
  assert(game.bus.phase=="stopped" and game.bus.visual.visible)
  game.board_bus()
  assert(game.boarded and not game.bus.visible and game.bus.paused)

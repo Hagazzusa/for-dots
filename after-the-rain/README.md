@@ -1,6 +1,6 @@
-# After the Rain — core reconstruction
+# After the Rain — evening reconstruction
 
-This is the surviving V7 source of a small rainy-night bus-stop game. Later local revisions were lost in a workspace rollback. This baseline preserves what remains; it is **not V37**, and it does not claim later fixes or test results.
+This small rainy-night bus-stop game is being reconstructed from its surviving V7 source. Later local revisions were lost in a workspace rollback. The preservation commit remains in history; this is **not V37**, and missing historical code or test results are not claimed as recovered.
 
 ## Run
 Open `project.godot` in Godot 4.6.x Standard and press F5. Windows, macOS and Linux source project; Blender is not needed to play. Generated `.godot` imports are intentionally excluded.
@@ -11,11 +11,13 @@ Open `project.godot` in Godot 4.6.x Standard and press F5. Windows, macOS and Li
 - E: nearby interaction, sit/stand, board a stopped bus, dispose an empty cup, read or talk.
 - F: obtain cocoa near the vending machine, then sip (three sips).
 - U: open/fold a borrowed umbrella; E at its basket to borrow/return.
+- G: optional umbrella-loan conversation when facing the passenger while holding it; 1 lend, 2 keep, Q cancel.
+- T: while seated, quietly skip the remaining wait (not the approaching bus).
 - Q: close story; 1/2: offered dialogue choices.
 - R: restart; M: mute; Esc: release mouse; click: recapture.
 - P: existing overview/photo view; R returns to the opening.
 
-Core reconstruction adds arrow looking, explicit keyboard pause/help and phase-appropriate bus visibility. Later content must still be reconstructed and tested afresh rather than attributed to missing source.
+Reconstruction adds arrow looking, explicit keyboard pause/help, phase-appropriate bus visibility, an elapsed evening clock starting23:40, and optional umbrella lending. First arrival is75seconds; later arrivals are33seconds after departure. There is no last-bus deadline. Later content must still be reconstructed and tested afresh rather than attributed to missing source.
 
 ## Editable source and third-party assets
 Saved scenes, scripts, configurations, procedural audio source and packed Blender assemblies are included. See `ARCHITECTURE.md`. City derivatives use Poly Haven CC0 data; provenance/legal text is in `assets/city/licenses/`. The Noto CJK font license is in `assets/fonts/NotoSansCJK-LICENSE.txt`. No external copyrighted music samples are used.

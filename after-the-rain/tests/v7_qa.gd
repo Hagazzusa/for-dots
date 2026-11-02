@@ -61,7 +61,9 @@ func run():
  # Multiple natural-size bus cycles: passenger boards once and never ghosts back.
  var stops:=0
  var prior="waiting"
- for i in range(1900):
+ var moving_seconds=g.bus.schedule.approach_seconds+g.bus.schedule.stop_seconds+g.bus.schedule.departure_seconds
+ var three_cycles=g.bus.schedule.wait_seconds+moving_seconds+2*(g.bus.schedule.repeat_wait_seconds+moving_seconds)+1
+ for i in range(ceili(three_cycles/.1)):
   g.bus.advance(.1)
   g.story.advance_passenger(.1,g.bus.phase,g.world.anchor("Boarding"))
   if g.bus.phase=="stopped" and prior!="stopped":stops+=1

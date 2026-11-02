@@ -1,0 +1,125 @@
+extends SceneTree
+var failures := 0
+var checks := 0
+var transfers := 0
+var atomic_seen := false
+func check(ok: bool,label: String) -> void:
+	checks+=1
+	if not ok:
+		failures+=1
+		push_error(label)
+func _initialize() -> void:call_deferred("run")
+func run() -> void:
+	var exchange=load("res://scenes/umbrella_exchange.tscn").instantiate()
+	var other=load("res://scenes/umbrella_exchange.tscn").instantiate()
+	var panel=load("res://scenes/story_panel.tscn").instantiate()
+	var reader2=load("res://scenes/story_panel.tscn").instantiate()
+	var held=load("res://scenes/held_umbrella.tscn").instantiate()
+	var held2=load("res://scenes/held_umbrella.tscn").instantiate()
+	var passenger=load("res://scenes/stories/waiting_passenger.tscn").instantiate()
+	var person2=load("res://scenes/stories/waiting_passenger.tscn").instantiate()
+	for node in [exchange,other,panel,reader2,held,held2,passenger,person2]:root.add_child(node)
+	await process_frame
+	exchange.initialize(held,passenger,panel)
+	exchange.initialize(held,passenger,panel)
+	other.initialize(held2,person2,reader2)
+	exchange.lent.connect(func():transfers+=1)
+	held.state_changed.connect(func(is_held:bool,_opened:bool):
+		if not is_held:atomic_seen=exchange.loaned)
+	check(panel.choice_selected.get_connections().size()==1,"reinit connects once")
+	check(not exchange.request_offer(),"cannot lend absent item")
+	held.borrow()
+	check(exchange.request_offer() and panel.current_story==exchange.offer_text,"explicit offer opens owned identity")
+	check(not exchange.request_offer() and held.held,"repeat offer cannot replace reader or transfer")
+	panel.close_story()
+	check(held.held and not exchange.loaned and not exchange.offering,"cancel preserves item")
+	exchange.request_offer();panel.select_choice(1)
+	check(held.held and not exchange.loaned and transfers==0,"decline preserves item")
+	panel.close_story()
+	exchange.request_offer()
+	var foreign=exchange.offer_text.duplicate()
+	panel.open_story(foreign);panel.select_choice(0)
+	check(held.held and not exchange.loaned,"same-title foreign resource cannot transfer")
+	panel.close_story()
+	exchange.request_offer()
+	passenger.state="walk"
+	panel.select_choice(0)
+	check(held.held and not exchange.loaned and not panel.is_open,"departure at choice rejects transfer")
+	passenger.reset()
+	exchange.request_offer()
+	passenger.state="walk"
+	exchange.present(0.01,"stopped")
+	check(not panel.is_open and held.held,"departure proactively cancels open offer")
+	passenger.reset()
+	exchange.request_offer()
+	var pages=exchange.offer_text.pages.duplicate()
+	panel.select_choice(0)
+	check(exchange.loaned and not held.held and transfers==1 and atomic_seen,"accept atomically transfers exactly one item")
+	check(exchange.loan_prop.visible and not other.loan_prop.visible,"accepted item has instance-local visible prop")
+	check(not passenger.visual.get_node("ClosedUmbrella").visible,"loan replaces prototype prop without duplicate umbrella")
+	var meshes=exchange.loan_prop.find_children("*","MeshInstance3D",true,false)
+	var bounds_ok:=true
+	for mesh in meshes:
+		for vertex in mesh.mesh.get_faces():
+			var point:Vector3=passenger.visual.global_transform.affine_inverse()*mesh.global_transform*vertex
+			bounds_ok=bounds_ok and point.y>0.14 and point.y<0.75 and point.x>-.34 and point.x<-.22
+	check(meshes.size()==3 and bounds_ok,"actual folded geometry stays beside legs above pavement")
+	check(exchange.loan_prop.find_children("*","CollisionObject3D",true,false).is_empty() and exchange.loan_prop.find_children("*","Light3D",true,false).is_empty(),"prop adds no lights or collisions")
+	passenger.position=Vector3(2,0,1)
+	passenger.visual.rotation.y=0.4
+	exchange.present(0.1,"stopped")
+	check(exchange.loan_prop.get_node("Grip").global_position.is_equal_approx(passenger.visual.get_node("HandLeft").global_position),"held grip follows actual walking hand transform")
+	passenger.reset()
+	exchange.present(0.0,"stopped")
+	panel.choice_selected.emit(0)
+	check(transfers==1 and exchange.loaned,"duplicate choice cannot transfer twice")
+	check(not other.loaned and other.offer_text.pages==pages,"second instance and shared resource immutable")
+	check(not exchange.request_offer(),"second loan blocked")
+	check(exchange.boarding_caption(false).contains("떠오른다"),"early player boarding does not imply nearby NPC")
+	passenger.state="boarded"
+	exchange.present(0.1,"stopped")
+	check(not exchange.departed and exchange.boarding_caption(true).contains("작은 목소리"),"same stopped bus actual companion uses promise")
+	exchange.present(0.1,"departing")
+	check(not exchange.loan_prop.visible,"departed loan prop hidden")
+	check(exchange.departed and exchange.boarding_caption(true).contains("떠오른다"),"departed bus cannot become phantom companion")
+	passenger.reset()
+	exchange.present(0.1,"waiting")
+	check(exchange.loaned and exchange.departed,"NPC local return/reset cannot erase exchange ownership")
+	exchange.reset()
+	check(not exchange.loaned and not exchange.departed and not exchange.offering and not panel.is_open,"new evening clears state before owned close")
+	check(not exchange.loan_prop.visible and not passenger.visual.get_node("ClosedUmbrella").visible,"reset keeps story passenger unarmed and loan prop hidden")
+	check(exchange.boarding_caption(true)=="","new evening has no stale caption")
+	held.borrow()
+	exchange.request_offer()
+	panel.open_story(foreign)
+	exchange.reset()
+	check(panel.is_open and panel.current_story==foreign and held.held,"reset preserves unrelated reader and unaccepted item")
+	panel.close_story()
+	exchange.request_offer();exchange.reset()
+	panel.choice_selected.emit(0)
+	check(not exchange.loaned and held.held,"reset-before-close prevents stale callback transfer")
+	exchange.initialize(held,passenger,reader2)
+	check(panel.choice_selected.get_connections().is_empty(),"reader replacement disconnects old signal")
+	exchange.initialize(held,passenger,panel)
+	var closed_stories:Array[Resource]=[]
+	panel.story_closed.connect(func(story:Resource):closed_stories.append(story))
+	panel.open_story(foreign);panel.close_story();panel.close_story()
+	check(closed_stories.size()==1 and closed_stories[0]==foreign and panel.current_story==null,"typed closure exact resource once")
+	var saved:=PackedScene.new()
+	check(saved.pack(exchange)==OK and ResourceSaver.save(saved,"user://loan_roundtrip.tscn")==OK,"authored exchange saves")
+	var reopened=ResourceLoader.load("user://loan_roundtrip.tscn","",ResourceLoader.CACHE_MODE_IGNORE).instantiate()
+	root.add_child(reopened)
+	check(not reopened.loaned and not reopened.offering and reopened.offer_text!=null,"reopen clean state and Inspector resource")
+	DirAccess.remove_absolute(ProjectSettings.globalize_path("user://loan_roundtrip.tscn"))
+	# Each passenger has one exchange owner; release the second binding first.
+	other.free()
+	exchange.initialize(held,person2,panel)
+	check(passenger.visual.get_node("ClosedUmbrella").visible,"rebind restores released passenger authored prop")
+	exchange.initialize(held,passenger,panel)
+	check(not passenger.visual.get_node("ClosedUmbrella").visible,"binding suppresses prototype umbrella before loan")
+	exchange.free()
+	check(passenger.visual.get_node("ClosedUmbrella").visible,"free restores standalone authored appearance")
+	for node in [reopened,panel,reader2,held,held2,passenger,person2]:node.free()
+	await process_frame
+	print("RECOVERY LOAN: %d checks / %d failures"%[checks,failures])
+	quit(1 if failures else 0)

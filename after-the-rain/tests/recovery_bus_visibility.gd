@@ -26,7 +26,7 @@ func run() -> void:
 	var mode: int = original.transparency
 	check(faded != b.visual._fade_meshes[0].faded, "Private fade material per instance")
 	for cycle in range(3):
-		a.advance(a.schedule.wait_seconds + 17)
+		a.advance(a.effective_wait_seconds() + 17)
 		check(a.phase == "approaching" and a.phase_time == 0, "Original single-transition excess-delta behavior")
 		check(not a.visual.visible and a.position.x == a.schedule.approach_x, "Invisible approach endpoint")
 		a.advance(.5)
@@ -49,7 +49,7 @@ func run() -> void:
 		check(a.position.x == a.schedule.approach_x and not a.visual.visible, "Waiting relocation invisible")
 	check(original.albedo_color == color and original.transparency == mode, "Shared original untouched")
 	check(entry.faded == faded, "No fade-resource churn across cycles")
-	a.advance(a.schedule.wait_seconds)
+	a.advance(a.effective_wait_seconds())
 	a.advance(a.schedule.approach_seconds)
 	a.hide()
 	a.set_paused(true)
@@ -58,7 +58,7 @@ func run() -> void:
 	a.reset()
 	check(not a.visible and not a.visual.visible and not a.paused and a.phase_time == 0, "Reset preserves root visibility ownership")
 	a.show()
-	a.advance(a.schedule.wait_seconds)
+	a.advance(a.effective_wait_seconds())
 	a.advance(4)
 	check(a.visual.is_visible_in_tree(), "Explicit root restoration allows next journey")
 	a.hide()

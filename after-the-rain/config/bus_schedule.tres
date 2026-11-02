@@ -4,7 +4,8 @@
 
 [resource]
 script = ExtResource("1")
-wait_seconds = 25.0
+wait_seconds = 67.0
+repeat_wait_seconds = 25.0
 approach_seconds = 8.0
 stop_seconds = 20.0
 departure_seconds = 8.0

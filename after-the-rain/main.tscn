@@ -1,4 +1,4 @@
-[gd_scene load_steps=13 format=3]
+[gd_scene load_steps=15 format=3]
 [ext_resource type="Script" path="res://scripts/session.gd" id="1"]
 [ext_resource type="PackedScene" path="res://scenes/world.tscn" id="2"]
 [ext_resource type="PackedScene" path="res://scenes/player.tscn" id="3"]
@@ -11,6 +11,8 @@
 [ext_resource type="PackedScene" path="res://scenes/story_corner.tscn" id="10"]
 [ext_resource type="PackedScene" path="res://scenes/exploration.tscn" id="11"]
 [ext_resource type="PackedScene" path="res://scenes/pause_overlay.tscn" id="12"]
+[ext_resource type="PackedScene" path="res://scenes/evening_clock.tscn" id="13"]
+[ext_resource type="PackedScene" path="res://scenes/umbrella_exchange.tscn" id="14"]
 [node name="AfterTheRain" type="Node3D"]
 script = ExtResource("1")
 [node name="World" parent="." instance=ExtResource("2")]
@@ -33,3 +35,6 @@ visible = false
 [node name="Exploration" parent="." instance=ExtResource("11")]
 
 [node name="PauseOverlay" parent="." instance=ExtResource("12")]
+
+[node name="EveningClock" parent="." instance=ExtResource("13")]
+[node name="UmbrellaExchange" parent="." instance=ExtResource("14")]

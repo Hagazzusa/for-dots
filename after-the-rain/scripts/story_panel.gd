@@ -2,6 +2,8 @@ extends CanvasLayer
 ## Optional reading surface. No movement lock or global E interception.
 const StoryText = preload("res://config/story_text.gd")
 signal closed
+signal story_closed(story: Resource)
+var current_story: Resource
 signal choice_selected(index: int)
 var is_open: bool = false
 var _pages: Array[String] = []
@@ -19,6 +21,7 @@ var _awaiting_choice: bool = false
 func open_story(story: StoryText) -> void:
 	if story == null or story.pages.is_empty():
 		return
+	current_story = story
 	_pages.assign(story.pages)
 	_choice_labels.assign(story.choice_labels)
 	_choice_responses.assign(story.choice_responses)
@@ -50,10 +53,13 @@ func select_choice(index: int) -> void:
 func close_story() -> void:
 	if not is_open:
 		return
+	var closing_story := current_story
+	current_story = null
 	is_open = false
 	_awaiting_choice = false
 	panel.hide()
 	closed.emit()
+	story_closed.emit(closing_story)
 
 func _present() -> void:
 	body_label.text = _pages[_page]

@@ -4,6 +4,8 @@ extends Node3D
 @export var boarding_radius := 1.7
 @export var vending_radius := 1.8
 @export var disposal_radius := 1.6
+@onready var clock = $EveningClock
+@onready var exchange = $UmbrellaExchange
 @onready var pause_overlay = $PauseOverlay
 @onready var exploration = get_node_or_null("Exploration")
 @onready var umbrella = $Player/Camera3D/HeldUmbrella
@@ -26,13 +28,19 @@ var warmth := 0.0
 var note := "Just one more stop, then home."
 var note_time := 7.0
 var testing := false
+var ride_note := ""
 
 func _ready():
 	testing = "--test" in OS.get_cmdline_user_args() and ResourceLoader.exists("res://tests/regression.gd")
 	pause_overlay.restart_requested.connect(restart)
 	pause_overlay.mute_requested.connect(ambience.toggle_mute)
 	# All child _ready callbacks are self-contained; wire only after they exist.
-	if exploration: exploration.initialize(umbrella,story.panel)
+	if exploration:
+		exploration.initialize(umbrella,story.panel)
+		exploration.shared_available=func():return not exchange.loaned
+	exchange.initialize(umbrella,story.objects.get_node("Passenger"),story.panel)
+	player.quiet_wait_requested.connect(wait_quietly)
+	player.loan_requested.connect(offer_umbrella)
 	player.umbrella_requested.connect(toggle_umbrella)
 	player.interaction_requested.connect(interact)
 	player.action_requested.connect(drink_action)
@@ -59,6 +67,16 @@ func _ready():
 	else:
 		Input.mouse_mode=Input.MOUSE_MODE_CAPTURED
 
+func can_offer_umbrella()->bool:
+	return not boarded and not photo_mode and not story.panel.is_open and exchange.can_offer() and story.target(player.camera,player.global_position)=="Passenger"
+func offer_umbrella():
+	if can_offer_umbrella():exchange.request_offer()
+func wait_quietly():
+	if boarded or photo_mode or not player.seated:return
+	var skipped:float=bus.skip_waiting()
+	if skipped<0:return
+	clock.advance(skipped)
+	set_note("잠깐 눈을 감았다. 멀리서 버스 불빛이 다가온다.",5)
 func toggle_umbrella():
 	if not boarded: umbrella.toggle_open()
 
@@ -103,9 +121,12 @@ func drink_action():
 func board_bus():
 	if boarded or player.seated or bus.phase!="stopped":
 		return
+	var passenger=story.objects.get_node("Passenger")
+	ride_note=exchange.boarding_caption(passenger.state=="boarded" and not exchange.departed)
 	if story:
 		story.leave()
 		story.objects.get_node("Passenger").leave_with_player()
+		exchange.present(0,bus.phase)
 	umbrella.hide()
 	boarded=true
 	bus.set_paused(true)
@@ -117,6 +138,9 @@ func board_bus():
 	Input.mouse_mode=Input.MOUSE_MODE_VISIBLE
 func restart():
 	pause_overlay.reset()
+	exchange.reset()
+	clock.reset()
+	ride_note=""
 	ambience.reset()
 	if story: story.reset()
 	if exploration: exploration.reset()
@@ -143,7 +167,7 @@ func photo_view():
 func hint_text()->String:
 	if boarded:return "[R] Start another rainy evening" if ride_finished else "A window seat. The city slips quietly by."
 	if player.seated:
-		return "[E] Stand up"+("     [F] Sip warm cocoa" if drink.sips>0 else "     Stay a while. There's no hurry.")
+		return "[E] Stand up"+("     [F] Sip warm cocoa" if drink.sips>0 else "     Stay a while. There's no hurry.")+("    [T] 조용히 기다리기" if bus.phase=="waiting" else "")
 	if bus.phase=="stopped" and near("Boarding",boarding_radius):
 		return "[E] Board the 08 home     /     Or let this one pass."
 	if near_disposal() and drink.has_cup and drink.sips==0:
@@ -151,6 +175,7 @@ func hint_text()->String:
 	if exploration and not story.panel.is_open:
 		var exploration_hint=exploration.hint(player.camera,player.global_position)
 		if not exploration_hint.is_empty(): return exploration_hint
+	if can_offer_umbrella():return "[E] 승객과 이야기하기    [G] 우산 빌려주기 이야기"
 	if story:
 		var story_hint=story.hint(player.camera,player.global_position)
 		if not story_hint.is_empty(): return story_hint
@@ -162,12 +187,15 @@ func hint_text()->String:
 
 func _process(delta):
 	time+=delta
+	if not ride_finished:clock.advance(delta)
+	hud.set_clock(clock.time_text())
 	var hint=hint_text()
 	if not testing:
 		bus.advance(delta)
 	if story and not boarded:
 		story.advance_passenger(delta,bus.phase,world.anchor("Boarding")+Vector3(0,0,.65))
-		story.objects.get_node("SharedUmbrella").visible=not umbrella.held
+		story.objects.get_node("SharedUmbrella").visible=not umbrella.held and not exchange.loaned
+	if not boarded:exchange.present(delta,bus.phase)
 	umbrella.present(delta,player.velocity)
 	drink.advance(delta)
 	onboard.advance(delta)
@@ -180,7 +208,7 @@ func _process(delta):
 	rain.set_umbrella_cover(player.global_position,covered)
 	ambience.advance(delta,sheltered,boarded,bus.phase,covered)
 	ambience.footsteps(delta,Vector2(player.velocity.x,player.velocity.z).length()>0.2 and player.motion_enabled and not player.seated and not boarded,sheltered)
-	var feeling="" if boarded else (note if note_time>0 else ("The rain is softer beneath the roof." if sheltered else ("The cocoa's warmth lingers." if warmth>0 else "Cool rain on your sleeves. The shelter is close.")))
+	var feeling=ride_note if boarded else (note if note_time>0 else ("The rain is softer beneath the roof." if sheltered else ("The cocoa's warmth lingers." if warmth>0 else "Cool rain on your sleeves. The shelter is close.")))
 	if story and not boarded and not story.caption(player.global_position).is_empty():
 		feeling=story.caption(player.global_position)
 	if umbrella.held and not boarded:
