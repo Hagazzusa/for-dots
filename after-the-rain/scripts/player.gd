@@ -11,6 +11,7 @@ signal look_impulse(force: Vector2)
 
 @export var move_speed := 2.4
 @export var mouse_sensitivity := .002
+@export var keyboard_look_speed := 1.0
 @export var safe_x_bounds := Vector2(-12,12)
 @export var safe_z_bounds := Vector2(-8,2.65)
 @export var input_enabled := true
@@ -40,7 +41,18 @@ func _unhandled_input(event: InputEvent):
 			KEY_M: mute_requested.emit()
 			KEY_F12: capture_requested.emit()
 
+func apply_keyboard_look(axis: Vector2, delta: float) -> void:
+	if not input_enabled or not motion_enabled:
+		return
+	var step := axis.limit_length(1.0) * keyboard_look_speed * clampf(delta,0.0,.1)
+	rotation.y -= step.x
+	camera.rotation.x = clampf(camera.rotation.x + step.y,-1.15,1.15)
+	if not step.is_zero_approx():
+		look_impulse.emit(Vector2(-step.x,-step.y)*10.0)
+
 func _physics_process(_delta: float):
+	var look_axis := Vector2(float(Input.is_physical_key_pressed(KEY_RIGHT))-float(Input.is_physical_key_pressed(KEY_LEFT)),float(Input.is_physical_key_pressed(KEY_UP))-float(Input.is_physical_key_pressed(KEY_DOWN)))
+	apply_keyboard_look(look_axis,_delta)
 	if not motion_enabled or seated:
 		return
 	var direction := Vector3(float(Input.is_physical_key_pressed(KEY_D))-float(Input.is_physical_key_pressed(KEY_A)),0,float(Input.is_physical_key_pressed(KEY_S))-float(Input.is_physical_key_pressed(KEY_W))) if input_enabled else Vector3.ZERO

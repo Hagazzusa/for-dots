@@ -2,6 +2,7 @@ extends Node3D
 var game
 var index:=0
 func _ready():
+ preload("res://tests/fixture_marker.gd").attach(self)
  game=load("res://main.tscn").instantiate()
  add_child(game)
  game.bus.set_paused(true)

@@ -1,6 +1,6 @@
 extends Node3D
 ## Owns only route state. Composition root explicitly advances this controller.
-## Dependency: its saved Visual child implements set_door_open(bool).
+## Dependency: its saved Visual child implements set_door_open(bool) and set_route_opacity(float).
 const Schedule = preload("res://config/bus_schedule.gd")
 signal arrived
 signal phase_changed(new_phase: String)
@@ -14,6 +14,7 @@ var paused := false
 func _ready() -> void:
 	position.x = schedule.approach_x
 	position.z = schedule.lane_z
+	_update_visual()
 
 func advance(delta: float) -> void:
 	if paused:
@@ -43,9 +44,22 @@ func advance(delta: float) -> void:
 			if phase_time >= schedule.departure_seconds:
 				_transition("waiting")
 
+	_update_visual()
+
+func _update_visual() -> void:
+	# Only distant endpoints fade; session alone owns this controller root visibility.
+	var opacity := 1.0
+	match phase:
+		"waiting": opacity = 0.0
+		"approaching": opacity = smoothstep(0.0, 12.0, absf(position.x - schedule.approach_x))
+		"departing": opacity = smoothstep(0.0, 12.0, absf(schedule.departure_x - position.x))
+	if is_instance_valid(visual) and visual.has_method("set_route_opacity"):
+		visual.set_route_opacity(opacity)
+
 func _transition(next_phase: String) -> void:
 	phase = next_phase
 	phase_time = 0.0
+	_update_visual()
 	phase_changed.emit(phase)
 
 func _set_doors(open: bool) -> void:
@@ -65,6 +79,7 @@ func reset() -> void:
 	paused = false
 	position.x = schedule.approach_x
 	position.z = schedule.lane_z
+	_update_visual()
 	close_doors()
 	if changed:
 		phase_changed.emit(phase)

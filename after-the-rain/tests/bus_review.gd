@@ -1,6 +1,7 @@
 extends Node3D
 ## Isolated visual QA entry point; production main scene is unchanged.
 func _ready():
+ preload("res://tests/fixture_marker.gd").attach(self)
  var game=load("res://main.tscn").instantiate()
  add_child(game)
  game.bus.advance(26)

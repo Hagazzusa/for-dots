@@ -4,6 +4,7 @@ extends Node3D
 @export var boarding_radius := 1.7
 @export var vending_radius := 1.8
 @export var disposal_radius := 1.6
+@onready var pause_overlay = $PauseOverlay
 @onready var exploration = get_node_or_null("Exploration")
 @onready var umbrella = $Player/Camera3D/HeldUmbrella
 @onready var story = get_node_or_null("StoryCorner")
@@ -27,7 +28,9 @@ var note_time := 7.0
 var testing := false
 
 func _ready():
-	testing = "--test" in OS.get_cmdline_user_args()
+	testing = "--test" in OS.get_cmdline_user_args() and ResourceLoader.exists("res://tests/regression.gd")
+	pause_overlay.restart_requested.connect(restart)
+	pause_overlay.mute_requested.connect(ambience.toggle_mute)
 	# All child _ready callbacks are self-contained; wire only after they exist.
 	if exploration: exploration.initialize(umbrella,story.panel)
 	player.umbrella_requested.connect(toggle_umbrella)
@@ -113,6 +116,7 @@ func board_bus():
 	player.set_motion_enabled(false)
 	Input.mouse_mode=Input.MOUSE_MODE_VISIBLE
 func restart():
+	pause_overlay.reset()
 	ambience.reset()
 	if story: story.reset()
 	if exploration: exploration.reset()

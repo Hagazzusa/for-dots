@@ -59,6 +59,10 @@ func run():
 	var b_closed = b_left.position
 	var a_mesh = a_left.get_child(0)
 	var b_mesh = b_left.get_child(0)
+	# Full opacity intentionally restores authored immutable materials. Waiting now
+	# uses private fade copies; that distinct behavior is covered by recovery_bus_visibility.
+	a.visual.set_route_opacity(1.0)
+	b.visual.set_route_opacity(1.0)
 	var original_color = b_mesh.material_override.albedo_color
 	# Static bus materials intentionally share immutable resources. Door motion must not mutate them.
 	assert(a_mesh.material_override == b_mesh.material_override)

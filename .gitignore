@@ -8,3 +8,7 @@ __pycache__/
 .DS_Store
 .env
 .env.*
+
+# Local test evidence and exports
+qa_work/
+*.pck

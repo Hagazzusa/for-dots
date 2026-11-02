@@ -3,6 +3,7 @@ var game
 var index := 0
 var ids := ["Memo","Route","Radio"]
 func _ready():
+ preload("res://tests/fixture_marker.gd").attach(self)
  game=load("res://main.tscn").instantiate()
  add_child(game)
  game.bus.set_paused(true)

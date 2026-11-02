@@ -41,7 +41,7 @@ offset_top = 666.0
 offset_right = 1200.0
 offset_bottom = 687.0
 theme_override_font_sizes/font_size = 14
-text = "WASD walk   MOUSE look   E sit / board   F cocoa / sip   R restart   M mute   ESC release"
+text = "WASD walk   MOUSE / ARROWS look   E sit / board   F cocoa / sip   R restart   M mute   ESC release"
 [node name="BusStatus" type="Label" parent="."]
 modulate = Color(1, 0.886275, 0.67451, 1)
 offset_left = 900.0

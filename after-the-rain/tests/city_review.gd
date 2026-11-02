@@ -1,6 +1,7 @@
 extends Node3D
 @export var before := false
 func _ready():
+ preload("res://tests/fixture_marker.gd").attach(self)
  var game=load("res://tests/fixtures/main_before.tscn" if before else "res://main.tscn").instantiate()
  add_child(game)
  game.player.set_photo_view(Vector3(-3,1.8,1.9),Vector3(1,4,23))

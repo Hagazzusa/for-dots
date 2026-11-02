@@ -12,4 +12,4 @@ func present(hint_text: String, feeling_text: String, status_text: String, endin
 	ending.visible = ending_visible
 
 func set_riding(riding:bool):
-	$Guide.text = "R restart   M mute   ESC release" if riding else "WASD walk   MOUSE look   E interact / sit / board   F cocoa / sip   U umbrella   Q close   R restart   M mute   ESC release"
+	$Guide.text = "Space pause/help   R restart   M mute   ESC release" if riding else "WASD walk   MOUSE / ARROWS look   E interact / sit / board   F cocoa / sip   U umbrella   Q close   Space pause/help   R restart   M mute   ESC release"
