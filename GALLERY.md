@@ -1,0 +1,65 @@
+# 잠깐 머무는 작은 세계
+
+비를 피하는 공간, 천천히 움직이는 빛, 길가의 빈 벤치.
+이미지와 짧은 영상으로 먼저 둘러볼 수 있는 다섯 작업을 골랐습니다.
+편집 가능한 장면과 제작 소스는 각 작품의 안내에 함께 있습니다.
+
+## 1. Glass Refuge · 유리 쉼터
+
+곡선 목재와 유리 아래, 저녁빛을 담은 작은 자리를 만들었습니다.
+
+![Glass Refuge — 실제 Blender 모델의 Cycles 렌더](glass-refuge/renders/05_final.png)
+
+**위 이미지는 실제 Blender 모델의 렌더입니다. 게임 화면이나 GPT Image 컨셉 이미지가 아닙니다.**
+
+하나의 공간을 서로 다른 방식으로 이어 보았습니다.
+
+- **출발 — 생성 이미지:** [GPT Image 컨셉 원본](glass-refuge/reference/gpt_image_concept.png). 공간의 분위기와 형태를 위한 참고 이미지입니다.
+- **모델 — 편집 가능한 3D:** [Blender 장면·제작 소스](glass-refuge/README.md) · [구조 둘러보기 영상](glass-refuge/renders/06_structural_inspection.mp4). 한 장의 그림을 해석해 만든 모델로, 치수는 추정이며 시공용 설계가 아닙니다.
+- **뷰어 — 직접 돌려보기:** [Godot 실행·조작 안내](glass-refuge-viewer/README.md). 모델에서 내보낸 실제 3D 형상을 회전하고 조명·유리를 켜고 끕니다. 재질은 단순화했고 식물과 배경 풍경은 제외했습니다.
+- **게임 — 안으로 걸어 들어가기:** [After the Rain](after-the-rain/README.md)에서는 같은 파생 모델의 쉼터에 들어가 앉고, 코코아를 마시며 기다릴 수 있습니다. 역시 단순화된 실시간 표현이며 위 렌더와 같지 않습니다. 등장인물과 동네 이야기는 허구입니다.
+
+## 2. Rain Clock · 비를 세는 창
+
+따뜻한 창 주위로 작은 빗방울들이 서로 다른 박자로 흔들립니다.
+
+![Rain Clock — 두 원형 궤도와 밝은 창이 있는 가상 조각](rain-clock/rain_clock_still.png)
+
+[8초 반복 영상](rain-clock/rain_clock_loop.mp4) · [Blender 장면·제작 소스](rain-clock/README.md)
+
+가상 키네틱 조각입니다. 움직임은 키프레임 애니메이션이며, 실제 시계나 검증된 기계 장치는 아닙니다.
+
+## 3. Garden of Light · 빛의 정원
+
+살구색, 청록색, 연보라색 필터 사이로 빛이 한 바퀴 돌아갑니다.
+
+![Garden of Light — 세 색 필터와 바닥에 드리운 색](garden-of-light/Garden-of-Light.png)
+
+[4초 반복 영상](garden-of-light/Garden-of-Light-loop.mp4) · [Blender 장면·제작 소스](garden-of-light/README.md)
+
+가상의 빛 설치 작업입니다. 색 투과를 근사한 렌더이며 실제 유리의 광학 성능을 재현한 실험은 아닙니다.
+
+## 4. Fading Shore · 사라지는 해안
+
+청록색 띠가 바닥에서 멀어질수록 그림자의 경계가 흐려집니다.
+
+![Fading Shore — 청록색 곡선과 부드러운 그림자](fading-shore/Fading-Shore.png)
+
+[원본 이미지](fading-shore/Fading-Shore.png) · [Blender 장면·제작 소스](fading-shore/README.md)
+
+한 장의 이미지로 남긴 디지털 조각입니다. 떠 있는 형태는 의도된 가상 표현이며 제작 도면이나 정량 광학 측정이 아닙니다.
+
+## 5. A Place to Pause · 잠깐 멈춘 길
+
+멀어지는 도로 옆에 벤치 하나와 넓은 여백을 남겼습니다.
+
+![A Place to Pause — 별도 받침 위의 벤치와 멀어지는 길](a-place-to-pause/a_place_to_pause.png)
+
+[원본 이미지](a-place-to-pause/a_place_to_pause.png) · [Blender 장면·제작 소스](a-place-to-pause/README.md)
+
+단순한 기하 형태로 만든 가상 풍경입니다. 도로·벤치의 실물 안전이나 시공 가능성을 보증하는 설계는 아닙니다.
+
+---
+
+더 자세한 실험과 실행 환경은 [전체 작업 목록](README.md)에 있습니다.
+출처와 이용 조건은 각 프로젝트의 안내를 따릅니다. 게임에 포함된 외부 에셋의 라이선스도 별도로 보존되어 있으며, 이 갤러리는 저장소 전체에 하나의 라이선스를 부여하지 않습니다.

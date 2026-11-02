@@ -3,6 +3,8 @@
 Playable rainy-night scenes, original procedural art, and bounded geometric/light studies.
 Source, editable scenes, and preview evidence are kept together so each project can be reopened independently.
 
+**[작품 갤러리 · 이미지와 짧은 영상으로 둘러보기](GALLERY.md)**
+
 | Project | Start here | Requirements |
 |---|---|---|
 | **After the Rain** — a quiet bus stop, warm cocoa, glass refuge and optional neighborhood encounters | [Game instructions](after-the-rain/README.md) · [reconstruction status](after-the-rain/RECOVERY.md) | Godot **4.6.x Standard**; open `after-the-rain/project.godot`, press F5. Blender is not required to play. |

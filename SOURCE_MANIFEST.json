@@ -8,14 +8,19 @@
       "sha256": "632a8bacf326e7fb5a5043235606c0340731d6b11dd18435aa125ff10318600f"
     },
     {
+      "path": "GALLERY.md",
+      "size": 4125,
+      "sha256": "cab43c57a3510340399e5f6bc02adbee0405abbe6ca3bbcdb74c0333074cbb61"
+    },
+    {
       "path": "GIT_ENVIRONMENT_CHECK.md",
       "size": 283,
       "sha256": "319e637ad8285768b7863da83b5fd51794d4ed9cc2fc9b598af2d8128798d3ac"
     },
     {
       "path": "README.md",
-      "size": 9479,
-      "sha256": "d904459a4382605abd682d9cca076dca8b72042e4e0b28a7c5f3e7c77d3b0dce"
+      "size": 9564,
+      "sha256": "cb37f799ffb928c3f68ee7eb0c1b8984e1d3a700be7c51a97aa6e64928c3e1e7"
     },
     {
       "path": "a-place-to-pause/.gitignore",
