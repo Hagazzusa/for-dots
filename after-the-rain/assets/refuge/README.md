@@ -1,7 +1,7 @@
-# Glass Refuge realtime derivative
+# Glass Refuge 실시간 파생 에셋
 
-`refuge.glb` is the unchanged original derivative also preserved in `../../../glass-refuge-viewer/assets/refuge.glb` in this repository. SHA256: `fcd180b17573e343ed36954c30e3a31e74c6498a3e95824559d17027c83484af`.
+`refuge.glb`는 이 저장소의 `../../../glass-refuge-viewer/assets/refuge.glb`에도 보존된, 변경하지 않은 원본 파생 에셋입니다. SHA256: `fcd180b17573e343ed36954c30e3a31e74c6498a3e95824559d17027c83484af`.
 
-33 mesh nodes, 35 material surfaces, 78,388 indexed triangles and 10 approximate PBR materials. No botanical geometry, textures, cameras or source lighting. The game adds its own simple collision and warm pendant light. This is an original fictional interpretation of the GPT Image concept, not Cycles parity, surveyed architecture or validated construction.
+메시 노드 33개, 재질 표면 35개, 인덱스 삼각형 78,388개, 근사 PBR 재질 10개로 구성됩니다. 식물 지오메트리, 텍스처, 카메라, 원본 조명은 포함하지 않습니다. 게임은 별도의 단순 충돌체와 따뜻한 펜던트 조명을 더합니다. GPT Image 콘셉트를 독자적으로 해석한 가상의 공간이며, Cycles와의 동일성, 실측 건축, 검증된 시공을 뜻하지 않습니다.
 
-The runtime copy intentionally makes this Godot project independent of sibling folders. Editable Blender source, reference and exporter are preserved in the repository's `glass-refuge/` and `glass-refuge-viewer/` projects.
+이 런타임 복사본은 Godot 프로젝트가 형제 폴더에 의존하지 않도록 의도적으로 포함했습니다. 편집 가능한 Blender 소스, 참조 이미지, 내보내기 도구는 저장소의 `glass-refuge/`와 `glass-refuge-viewer/` 프로젝트에 보존되어 있습니다.

@@ -1,39 +1,39 @@
-# Seeded Roadscapes — twelve terrain seeds, three postcards
+# Seeded Roadscapes — 지형 시드 열두 개, 엽서 세 장
 
-A bounded foundation for calm road-trip landscapes, separate from the canonical `quiet_road` artwork and its profile study. **The original study's seed changed only decorative stones; its road and terrain were fixed analytic functions.** This study genuinely seeds terrain wave amplitudes, phases and horizontal scales. Decorative stones also use the seed. The road's planar S-curve, camera, light, palette, road width and profile-fitting method stay fixed to isolate terrain/profile behavior.
+고요한 자동차 여행 풍경을 위한 범위가 정해진 토대 연구입니다. 정본 `quiet_road` 작품 및 프로파일 연구와는 별개입니다. **원래 연구의 시드는 장식용 돌만 바꿨고 도로와 지형은 고정된 해석 함수였습니다.** 이번 연구는 실제로 시드에 따라 지형 파동의 진폭, 위상, 수평 척도를 바꿉니다. 장식용 돌도 시드를 사용합니다. 지형/프로파일의 동작을 분리해 보기 위해 도로의 평면 S곡선, 카메라, 조명, 팔레트, 도로 폭, 프로파일 적합 방법은 고정합니다.
 
-## What the seed controls
+## 시드가 제어하는 것
 
-`landscape.parameters(seed)` uses a private deterministic Python random generator. Three wave amplitudes lie in [3,7], [2,5] and [2,4] virtual m; phases in [−π,π]; x scales in [70,110] and [85,140] m; y scales in [100,160], [120,190] and [150,220] m. These are sinusoid denominator scales, **not full wavelengths**. All parameters are recorded in `seed_report.json` and each profile. There are no external assets, textures or user data.
+`landscape.parameters(seed)`는 전용 결정론적 Python 난수 생성기를 사용합니다. 파동 진폭 세 개는 가상 m 기준 [3,7], [2,5], [2,4], 위상은 [−π,π], x척도는 [70,110] 및 [85,140] m, y척도는 [100,160], [120,190], [150,220] m입니다. 이는 사인파 분모 척도이며 **전체 파장이 아닙니다**. 모든 매개변수는 `seed_report.json`과 각 프로파일에 기록합니다. 외부 에셋, 텍스처, 사용자 데이터는 없습니다.
 
-**1 unit = 1 virtual metre.** The 6% cap is an adjustable aesthetic parameter, not an engineering standard. Each profile uses 211 SLSQP nodes at 3 m y-spacing, closeness + second-difference smoothing (weight 25), then positive normalized y-slope convolution (sigma 3 m), mean recentering and piecewise-linear reconstruction at 0.75 m. Endpoints are free. The cap applies only to y = −130…500 m; the terrain extension beyond that domain is not cap-certified. Final reported grades use horizontal chord-segment lengths; conservative constraints use y-distance.
+**1단위 = 가상 1미터**. 6% 상한은 공학 기준이 아닌 조절 가능한 미적 매개변수입니다. 각 프로파일은 y간격 3 m의 SLSQP 노드 211개, 근접성 + 2차 차분 평활화(가중치 25), 양의 정규화 y기울기 컨볼루션(시그마 3 m), 평균 재중심화, 0.75 m 간격의 구간별 선형 재구성을 사용합니다. 끝점은 자유입니다. 상한은 y = −130…500 m에만 적용하며, 그 영역 밖의 지형 확장은 상한 검증 대상이 아닙니다. 최종 보고 경사는 수평 현 구간 길이를, 보수적 제약은 y거리를 사용합니다.
 
-## Bounded verification
+## 범위를 정한 검증
 
-Twelve seeds **1101…1112** were tested, not an unbounded search:
+무제한 탐색이 아니라 시드 **1101…1112** 열두 개를 시험했습니다.
 
-- Every seed: **307,510 terrain quads / 615,020 triangles**, plus **840 road quads / 1,680 triangles**, covered by positive vertical cross-product checks. Because all seeds share the same XY topology, these arrays are computed and checked **once**, and the result applies to all twelve height fields; this is not twelve separate mesh builds. Both triangles of one diagonal triangulation per quad are checked. The non-folding row mapping has a positive horizontal Jacobian independent of terrain height; numerical tests inspect all generated horizontal triangle coordinates, not merely the centerline.
-- Every seed: **841** profile samples / **840** segments; conservative y-grade stays ≤6% within floating tolerance. Original natural-following maximum grades range **5.54–9.82%**.
-- Every seed: **84,941** signed earthwork-depth samples (841 rows × 101 nominal lateral offsets −50…50). Worst across all twelve: **2.324 m cut**, **3.038 m fill**. These are sampled vertical depths, **not volumes**, and exclude the 4.5 cm asphalt rendering offset.
-- Selected rendered seeds: all actual Blender terrain/road polygon normals checked, **4,200 BVH clearance samples each**, zero misses/intersections. This stronger mesh-intersection check applies to the three rendered cases, not the other nine numerical cases.
-- Independent standard-library regeneration: **231** terrain-height samples per seed reproduce recorded fingerprints exactly; all **12 fingerprints differ**. Stored profiles pass every segment's grade check.
-- The complete twelve-seed optimization was rerun: `profiles.json` reproduced **byte-for-byte**. This is same-environment reproducibility, not a promise of bitwise identity across SciPy/BLAS/platform versions.
+- 모든 시드: 지형 사각 면 **307,510개 / 삼각형 615,020개**, 도로 사각 면 **840개 / 삼각형 1,680개**에 양의 수직 외적 검사를 적용했습니다. 모든 시드가 같은 XY 토폴로지를 공유하므로 이 배열은 **한 번** 계산·검사하고 결과를 열두 높이장 모두에 적용합니다. 별도 메시를 열두 번 빌드한 것이 아닙니다. 사각 면마다 하나의 대각선 삼각분할에 속한 두 삼각형을 검사합니다. 접히지 않는 행 매핑은 지형 높이와 무관하게 양의 수평 야코비안을 갖습니다. 수치 검사는 중심선만이 아니라 생성한 모든 수평 삼각형 좌표를 살펴봅니다.
+- 모든 시드: 프로파일 표본 **841개 / 구간 840개**. 보수적 y경사는 부동소수점 허용 오차 안에서 ≤6%입니다. 원래 자연 지형 추종 최대 경사는 **5.54–9.82%**입니다.
+- 모든 시드: 부호 있는 토공 깊이 표본 **84,941개**(841행 × 명목 측면 오프셋 −50…50의 101개). 열두 개 전체의 최댓값은 **절토 2.324 m**, **성토 3.038 m**입니다. 표본 수직 깊이이며 **부피가 아니고**, 아스팔트 렌더링 오프셋 4.5 cm는 제외합니다.
+- 선택해 렌더링한 시드: 모든 실제 Blender 지형/도로 다각형 노멀 검사, **각각 BVH 간격 표본 4,200개**, 누락/교차 0건. 이 더 강한 메시 교차 검사는 렌더링한 세 사례에 적용되며 나머지 수치 사례 아홉 개에는 적용되지 않습니다.
+- 독립적인 표준 라이브러리 재생성: 시드별 지형 높이 표본 **231개**가 기록된 지문을 정확히 재현하며, **지문 12개가 모두 다릅니다**. 저장된 프로파일은 모든 구간의 경사 검사를 통과합니다.
+- 열두 시드 전체의 최적화를 다시 실행해 `profiles.json`을 **바이트 단위로 동일하게** 재현했습니다. 같은 환경에서의 재현성이며 SciPy/BLAS/플랫폼 버전이 달라도 비트 단위로 같다는 약속은 아닙니다.
 
-## Three selected postcards
+## 선택한 엽서 세 장
 
-The selection uses a fixed 231-position terrain-height fingerprint: farthest pair by RMS height distance, then max-min third. It is selected by terrain, not stones or hand-picked solver outcomes.
+고정된 231개 위치의 지형 높이 지문을 사용해 선택합니다. RMS 높이 거리가 가장 먼 쌍을 고른 뒤 최소 거리를 최대화하는 세 번째를 택합니다. 돌이나 손으로 고른 솔버 결과가 아니라 지형으로 선택합니다.
 
-| Seed | Maximum cut | Maximum fill |
+| 시드 | 최대 절토 | 최대 성토 |
 |---|---:|---:|
 | 1105 | 2.148 m | 3.038 m |
 | 1107 | 1.075 m | 1.215 m |
 | 1111 | 1.126 m | 1.010 m |
 
-`seed_1105.png`, `seed_1107.png`, `seed_1111.png`: three 600×400 Cycles CPU previews, 32 samples, two threads, rendered serially. All actual pixels were inspected; the changed terrain visibly changes the road's vertical presentation and horizon without changing its planar path. `postcard_triptych.png` is a labeled comparison layout. Only **`seed_1105.blend`** is retained, native-compressed with editable geometry; it was reopened and verified. No extra huge scene files are required for the other two seeds.
+`seed_1105.png`, `seed_1107.png`, `seed_1111.png`: 600×400 Cycles CPU 미리보기 세 장. 32샘플, 스레드 두 개로 순차 렌더링했습니다. 실제 픽셀을 모두 확인했습니다. 지형 변화가 평면 경로를 바꾸지 않으면서 도로의 수직 모습과 지평선을 눈에 띄게 바꿉니다. `postcard_triptych.png`는 라벨을 붙인 비교 배치입니다. 기본 압축하고 편집 가능한 지오메트리를 갖춘 **`seed_1105.blend`**만 보존했으며, 다시 열어 검증했습니다. 나머지 두 시드에는 거대한 추가 장면 파일이 필요하지 않습니다.
 
-## Rebuild
+## 다시 만들기
 
-Python analysis needs NumPy and SciPy (tested 1.17.0); the comparison layout needs Matplotlib. Blender tested 4.3.2. The Blender generator reads precomputed profiles and uses the standard-library `landscape.py`.
+Python 분석에는 NumPy와 SciPy(시험 버전 1.17.0), 비교 배치에는 Matplotlib이 필요합니다. Blender는 4.3.2로 시험했습니다. Blender 생성기는 미리 계산한 프로파일과 표준 라이브러리 기반 `landscape.py`를 사용합니다.
 
 ```sh
 OPENBLAS_NUM_THREADS=2 OMP_NUM_THREADS=2 python analyze_seeds.py
@@ -45,14 +45,14 @@ blender -b seed_1105.blend -t 2 --python verify_saved_blend.py
 python make_triptych.py
 ```
 
-Run render commands serially. Output paths are relative to the scripts, with no global CLI/config changes. Mesh validators write their JSON reports. No physical simulation, driving system, road-network connectivity, navigation mesh or civil-road certification is provided. Both prior studies remain unchanged.
+렌더 명령은 순차 실행하세요. 출력 경로는 스크립트 기준 상대 경로이며 전역 CLI/설정 변경은 없습니다. 메시 검증기는 JSON 보고서를 저장합니다. 물리 시뮬레이션, 운전 시스템, 도로망 연결성, 내비게이션 메시, 토목 도로 인증은 제공하지 않습니다. 앞선 두 연구는 그대로입니다.
 
-Official optimization API reference: [SciPy SLSQP](https://docs.scipy.org/doc/scipy/reference/optimize.minimize-slsqp.html).
+공식 최적화 API 참고: [SciPy SLSQP](https://docs.scipy.org/doc/scipy/reference/optimize.minimize-slsqp.html).
 
-## Independent review
+## 독립 검토
 
-Independent verification reproduced all twelve terrain fingerprints, all twelve cut/fill results, the selected seeds, and the shared XY topology counts/positive cross-products. It confirmed the source keeps the planar road, camera, lighting and profile method fixed. Its clarification that topology is checked once for shared XY—not twelve separate mesh builds—is applied above. Review was read-only and did not perform extra renders.
+독립 검증으로 지형 지문 열두 개, 절토/성토 결과 열두 개, 선택한 시드, 공유 XY 토폴로지 개수/양의 외적을 모두 재현했습니다. 소스가 평면 도로, 카메라, 조명, 프로파일 방법을 고정함을 확인했습니다. 토폴로지는 별도 메시 열두 번이 아닌 공유 XY에 대해 한 번 검사한다는 명확화를 위에 반영했습니다. 검토는 읽기 전용이었고 추가 렌더링은 하지 않았습니다.
 
-## Portable checkpoint
+## 이식 가능한 체크포인트
 
-Publication copies omit PNG text metadata without changing decoded pixels. Saved Blender browser/render paths are relative. Logs and caches are excluded; `checksums.json` identifies the included copies. Original source-study manifest hashes in `provenance.json` identify the research inputs before metadata normalization; added published-source manifest hashes identify the corresponding repository copies. The canonical [landscape](../quiet-road/README.md) and [profile study](../quiet-road-profile-study/README.md) remain unchanged.
+공개 사본은 디코딩한 픽셀을 바꾸지 않고 PNG 텍스트 메타데이터를 제외했습니다. 저장된 Blender 탐색기/렌더 경로는 상대 경로입니다. 로그와 캐시는 제외하며 `checksums.json`이 포함된 사본을 식별합니다. `provenance.json`의 원본 소스 연구 매니페스트 해시는 메타데이터 정규화 전의 연구 입력을 식별하고, 추가한 공개 소스 매니페스트 해시는 해당 저장소 사본을 식별합니다. 정본 [풍경](../quiet-road/README.md)과 [프로파일 연구](../quiet-road-profile-study/README.md)는 그대로입니다.

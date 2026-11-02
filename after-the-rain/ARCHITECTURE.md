@@ -1,49 +1,49 @@
-# After the Rain — scene architecture
+# After the Rain — 장면 구조
 
-The core composition below began in the surviving prototype. The reconstruction boundaries and timing additions are documented in the final section; version labels describe provenance, not recovered later source.
+아래의 핵심 구성은 남아 있던 프로토타입에서 시작했습니다. 재구현의 경계와 시간 관련 추가 사항은 마지막 부분에 기록했습니다. 버전 표시는 출처를 설명하며, 이후 소스를 복구했다는 뜻이 아닙니다.
 
-## Editor-first composition
+## 편집기 중심의 구성
 
-Open `main.tscn`. The local Scene dock now contains authored scene instances, not an empty root whose script constructs the set. Open each component scene to edit its stable children; enable **Editable Children** on an instance only when an intentional instance override is needed. Imported shelter geometry remains an instance of `assets/shelter.glb`, with original Blender source under `art/`.
+`main.tscn`을 여세요. 로컬 장면 독에는 스크립트가 세트를 만드는 빈 루트가 아니라 직접 구성해 저장한 장면 인스턴스가 있습니다. 각 구성 요소의 장면을 열어 고정된 자식 노드를 편집하세요. 의도적인 인스턴스 재정의가 필요할 때만 인스턴스의 **Editable Children(자식 편집 가능)**을 켜세요. 가져온 정류장 지오메트리는 `assets/shelter.glb` 인스턴스로 유지하며, 원본 Blender 소스는 `art/`에 있습니다.
 
-| Boundary | Responsibility / editable data |
+| 경계 | 책임 / 편집 가능한 데이터 |
 | --- | --- |
-| `main.tscn` + `scripts/session.gd` | Composition root, one-time signal wiring, interaction priority, session warmth/note/boarding/ending state. Inspector radii tune seat, vending, boarding and disposal reach. Does not construct world geometry. |
-| `scenes/world.tscn` + `scripts/world.gd` | Authored road, buildings, lights, environment and BusStop instance. Shelter bounds exported; named placement anchors exposed through `anchor()`. |
-| `scenes/bus_stop.tscn` | Authored shelter GLB instance, collision, signage/lights, and Start/Seat/Stand/Vending/Boarding anchors. ArrivalDisplay and TrashCan are independent saved instances. |
-| `scenes/player.tscn` + `scripts/player.gd` | CharacterBody3D, collision and camera; movement, look, sit/stand/reset; emits action intents rather than locating gameplay siblings. Inspector speed/sensitivity and safe movement bounds. |
-| `scenes/held_drink.tscn` + `scripts/held_drink.gd` | Camera-local pose, movement impulses, sip animation and steam. Inspector resting/sipping offsets, tilts, pose speed and impulse scale. Owns CocoaCup instance, not drink inventory. |
-| `scenes/cocoa_cup.tscn` + `liquid_cup.gd` | Saved hollow vessel/rim/walls and Liquid mesh node. Only the deforming liquid mesh is rebuilt. Inspector initial fill, fill-change speed, spring strength/damping. Bounded damped surface approximation, not CFD or simulated spilling. |
-| `DrinkSession` + `scripts/drink_session.gd` | Inventory, dispensing/sip debounce, delayed fill change, three servings and empty-cup disposal. Emits notes, chime request and fill target changes. Inspector timing and serving count. |
-| `scenes/night_bus.tscn` + `scripts/night_bus.gd` | Route state and arrival/phase signals. `config/bus_schedule.tres` is shared immutable tuning for durations and route endpoints; each instance owns elapsed time, phase and pause state. |
-| `scenes/bus_visual.tscn` + `scripts/bus_visual.gd` | Saved bus meshes, lights and door nodes; local door tween only. Inspector door travel and duration. |
-| `scenes/rain.tscn` + `scripts/rain.gd` | Saved MultiMeshInstance3D, drop mesh and material; procedural population/transform updates. Inspector speed, wind, count and shelter cutoff bounds. |
-| `scenes/ambience.tscn` + `scripts/ambience.gd` | Saved rain/engine/chime AudioStreamPlayers and streams; explicit shelter/bus mix. Inspector filter frequencies, volume targets and smoothing. |
-| `scenes/hud.tscn` + `scripts/hud.gd` | Saved labels, guide and ending overlay; `present()` receives text/visibility without querying siblings or owning game state. |
-| `scenes/arrival_display.tscn` + `scripts/arrival_display.gd` | World-space destination/countdown labels. Session passes phase and seconds; no independent route timer. |
-| `scenes/trash_can.tscn` | Authored bin, collision and Interaction Marker3D. Session resolves proximity/priority; DrinkSession decides whether disposal is valid. |
-| `scenes/onboard_view.tscn` + `scripts/onboard_view.gd` | Authored window-side interior/camera. Explicit `begin/advance/reset`; one finished signal per ride. Inspector duration, travel and gentle sway. Eight-second tableau, not a bus driving simulation. |
+| `main.tscn` + `scripts/session.gd` | 구성 루트, 한 번만 하는 신호 연결, 상호작용 우선순위, 세션의 온기/메모/탑승/결말 상태. 인스펙터의 반경으로 좌석, 자판기, 탑승, 폐기 도달 거리를 조절합니다. 월드 지오메트리는 만들지 않습니다. |
+| `scenes/world.tscn` + `scripts/world.gd` | 직접 구성한 도로, 건물, 조명, 환경, BusStop 인스턴스. 정류장 경계를 내보내고 이름 있는 배치 기준점을 `anchor()`로 제공합니다. |
+| `scenes/bus_stop.tscn` | 직접 구성한 정류장 GLB 인스턴스, 충돌체, 표지/조명, Start/Seat/Stand/Vending/Boarding 기준점. ArrivalDisplay와 TrashCan은 독립적으로 저장한 인스턴스입니다. |
+| `scenes/player.tscn` + `scripts/player.gd` | CharacterBody3D, 충돌체, 카메라. 이동, 시점, 앉기/일어서기/초기화. 게임플레이 형제 노드를 찾는 대신 동작 의도를 신호로 보냅니다. 인스펙터에서 속도/감도와 안전 이동 경계를 설정합니다. |
+| `scenes/held_drink.tscn` + `scripts/held_drink.gd` | 카메라 로컬 자세, 이동 충격, 마시기 애니메이션, 김. 인스펙터에서 대기/마시기 오프셋, 기울기, 자세 속도, 충격 배율을 설정합니다. 음료 인벤토리가 아닌 CocoaCup 인스턴스를 소유합니다. |
+| `scenes/cocoa_cup.tscn` + `liquid_cup.gd` | 속이 빈 용기/테두리/벽과 Liquid 메시 노드를 저장합니다. 변형되는 액체 메시만 다시 만듭니다. 인스펙터에서 초기 수위, 수위 변화 속도, 스프링 강도/감쇠를 설정합니다. 범위를 제한한 감쇠 표면 근사이며 CFD나 쏟아짐 시뮬레이션이 아닙니다. |
+| `DrinkSession` + `scripts/drink_session.gd` | 인벤토리, 받기/마시기 중복 입력 억제, 지연된 수위 변화, 세 모금, 빈 컵 폐기. 메모, 알림음 요청, 목표 수위 변경을 신호로 보냅니다. 인스펙터에서 시간과 모금 수를 설정합니다. |
+| `scenes/night_bus.tscn` + `scripts/night_bus.gd` | 노선 상태와 도착/단계 신호. `config/bus_schedule.tres`는 지속 시간과 노선 끝점에 대한 공유 불변 설정이며, 각 인스턴스는 경과 시간, 단계, 일시 정지 상태를 소유합니다. |
+| `scenes/bus_visual.tscn` + `scripts/bus_visual.gd` | 저장된 버스 메시, 조명, 문 노드. 로컬 문 트윈만 담당합니다. 인스펙터에서 문 이동 거리와 시간을 설정합니다. |
+| `scenes/rain.tscn` + `scripts/rain.gd` | 저장된 MultiMeshInstance3D, 빗방울 메시와 재질. 개체 배치/변환을 절차적으로 갱신합니다. 인스펙터에서 속도, 바람, 수, 정류장의 비 차단 경계를 설정합니다. |
+| `scenes/ambience.tscn` + `scripts/ambience.gd` | 저장된 비/엔진/알림음 AudioStreamPlayer와 스트림. 정류장/버스 믹스를 명시적으로 받습니다. 인스펙터에서 필터 주파수, 목표 음량, 평활화를 설정합니다. |
+| `scenes/hud.tscn` + `scripts/hud.gd` | 저장된 라벨, 안내, 결말 오버레이. `present()`는 형제 노드를 조회하거나 게임 상태를 소유하지 않고 텍스트/가시성을 전달받습니다. |
+| `scenes/arrival_display.tscn` + `scripts/arrival_display.gd` | 월드 공간 목적지/남은 시간 라벨. 세션이 단계와 초를 전달하며 독립 노선 타이머는 없습니다. |
+| `scenes/trash_can.tscn` | 직접 구성한 쓰레기통, 충돌체, 상호작용 Marker3D. 세션이 거리/우선순위를 판정하고 DrinkSession이 폐기 가능 여부를 결정합니다. |
+| `scenes/onboard_view.tscn` + `scripts/onboard_view.gd` | 직접 구성한 창가 실내/카메라. 명시적인 `begin/advance/reset`, 승차 한 번당 완료 신호 하나. 인스펙터에서 지속 시간, 이동, 부드러운 흔들림을 설정합니다. 8초 장면이며 버스 운전 시뮬레이션이 아닙니다. |
 
-The three final entries are v4 enhancements added after the baseline refactor gate. Their integration/visual verification is separate from the persistence test below.
+마지막 세 항목은 기준 리팩터링 검증 이후 추가한 v4 개선입니다. 통합/시각 검증은 아래의 저장 지속성 테스트와 별개입니다.
 
-## Dependency and update rules
+## 의존성과 갱신 규칙
 
-Children keep local paths only. The composition root injects cross-system commands and connects signals once in `_ready()`, after child initialization. No service locator, global gameplay autoload or per-frame tree search is required. Independent scenes initialize without a gameplay parent. Input capture, active camera and Master mute are necessarily project/global concerns; two whole playable sessions are not intended to run together.
+자식은 로컬 경로만 유지합니다. 구성 루트는 자식 초기화 뒤 `_ready()`에서 시스템 간 명령을 주입하고 신호를 한 번 연결합니다. 서비스 로케이터, 전역 게임플레이 오토로드, 매 프레임 트리 검색은 필요하지 않습니다. 독립 장면은 게임플레이 부모 없이 초기화합니다. 입력 캡처, 활성 카메라, Master 음소거는 필연적으로 프로젝트/전역 관심사이며, 플레이 가능한 전체 세션 두 개를 동시에 실행하는 용도는 아닙니다.
 
-Player movement remains `_physics_process()` with `move_and_slide()`. Session `_process()` preserves the original relative subsystem order: compute interaction hint; advance bus; advance drink; present held drink/liquid; decay warmth and note; mix ambience; present HUD; advance rain. The added onboard advancement and arrival-display presentation sit between drink advancement and held-drink presentation. Door tweens remain engine-managed. Bus advancement intentionally accepts **at most one state transition per call**, discarding overshoot as v3 did; do not replace it with a catch-up loop without changing tests/timing intentionally. Hint computation retains the prototype's possible one-frame boundary lag.
+플레이어 이동은 계속 `_physics_process()`와 `move_and_slide()`를 사용합니다. 세션 `_process()`는 기존 하위 시스템의 상대 순서를 유지합니다. 상호작용 힌트 계산 → 버스 진행 → 음료 진행 → 손에 든 음료/액체 표현 → 온기와 메모 감쇠 → 환경음 믹스 → HUD 표시 → 비 진행 순서입니다. 추가한 차내 진행과 도착 표시 갱신은 음료 진행과 손에 든 음료 표현 사이에 들어갑니다. 문 트윈은 엔진이 관리합니다. 버스 진행은 v3처럼 초과 시간을 버리며 **호출당 최대 한 번의 상태 전이**만 의도적으로 허용합니다. 테스트/시간 동작을 의도적으로 바꾸지 않는 한 따라잡기 반복문으로 대체하지 마세요. 힌트 계산에는 프로토타입의 경계에서 한 프레임 늦을 수 있는 특성이 남아 있습니다.
 
-## Saved ownership, procedural exceptions and resources
+## 저장 소유권, 절차적 예외, 리소스
 
-- Stable world/prop/player/UI/door/cup geometry is serialized with valid owners. Nested GLB scene references must survive a `PackedScene.pack()` / save / reload cycle; do not flatten or recreate the shelter in `_ready()`.
-- `config/rain_positions.json` stores the exact baked v3 rain positions after world RNG consumption. Session injects them; rain's independent seeded fallback is for standalone viewing, **not** a replacement for that sequence. The production update consumes no additional random numbers.
-- Rain allocates a fresh MultiMesh and positions array per instance. Cocoa allocates its own liquid mesh and duplicated mutable liquid material; springs/fill/velocity are instance state. Authored immutable mesh/material resources may be shared.
-- The bus schedule is shared immutable configuration. Bus presentation duplicates mutable materials per instance before applying phase visibility/fade; door motion changes authored nodes. Never mutate cached shared materials to fade or recolor an individual instance.
-- `default_bus_layout.tres` defines Master and ShelterRain plus low-pass effect. No runtime `add_bus()` call is allowed. Audio players/volumes are per instance, but ShelterRain filter and Master mute are explicitly one **shared project mix**. Multiple simultaneously active ambience scenes cannot have independent low-pass filters; repeated loads do not leak global buses.
-- Reset is a coordinated session command, not scene reconstruction. Each subsystem resets its own mutable state; signal connections are not re-added on restart.
+- 고정된 월드/소품/플레이어/UI/문/컵 지오메트리는 유효한 소유자와 함께 직렬화합니다. 중첩 GLB 장면 참조는 `PackedScene.pack()` / 저장 / 다시 불러오기 주기를 거쳐도 유지되어야 합니다. `_ready()`에서 정류장을 평탄화하거나 다시 만들지 마세요.
+- `config/rain_positions.json`은 월드 난수 생성기를 사용한 뒤의 정확한 v3 빗방울 위치를 베이크해 저장합니다. 세션이 이를 주입합니다. 비의 독립 시드 기반 대체 동작은 단독 보기를 위한 것이며 해당 수열의 대체물이 **아닙니다**. 실제 실행의 갱신은 추가 난수를 소비하지 않습니다.
+- 비는 인스턴스마다 새 MultiMesh와 위치 배열을 할당합니다. 코코아는 자체 액체 메시와 복제된 가변 액체 재질을 할당하며, 스프링/수위/속도는 인스턴스 상태입니다. 직접 구성한 불변 메시/재질 리소스는 공유할 수 있습니다.
+- 버스 시간표는 공유 불변 설정입니다. 버스 표현은 단계별 가시성/페이드를 적용하기 전에 가변 재질을 인스턴스마다 복제하며, 문 움직임은 저장된 노드를 바꿉니다. 개별 인스턴스를 흐리거나 색을 바꾸려고 캐시된 공유 재질을 변경하지 마세요.
+- `default_bus_layout.tres`는 Master와 ShelterRain, 저역 통과 효과를 정의합니다. 런타임 `add_bus()` 호출은 허용하지 않습니다. 오디오 플레이어/음량은 인스턴스별이지만 ShelterRain 필터와 Master 음소거는 명시적으로 하나의 **공유 프로젝트 믹스**입니다. 동시에 활성화한 환경음 장면 여러 개가 독립적인 저역 통과 필터를 가질 수는 없습니다. 반복 로드는 전역 버스를 누수시키지 않습니다.
+- 초기화는 장면 재구성이 아닌 조율된 세션 명령입니다. 각 하위 시스템은 자기 가변 상태를 초기화하며, 재시작 때 신호 연결을 다시 추가하지 않습니다.
 
-## Reproducible checks
+## 재현 가능한 검사
 
-From the project directory, with installed Godot 4.6.3:
+Godot 4.6.3이 설치된 환경에서 프로젝트 디렉터리에서 실행합니다.
 
 ```sh
 godot --headless --editor --path . --quit
@@ -54,63 +54,63 @@ godot --headless --path . --script res://tests/audio_rain_isolation.gd
 godot --headless --path . -- --test
 ```
 
-`authored_scene_persistence.gd` actually packs, saves to `user://`, reloads with cache ignored, compares all node paths/classes/transforms, mesh types/surface counts/bounds and collision types, checks owner ancestry and the imported GLB reference, then deletes temporary files. It also drives two real `night_bus.tscn` instances through arrival, waits for real door tweens, checks signal count/state/reset isolation, verifies immutable materials are unchanged, demonstrates a duplicated local material edit, and repeats two-instance ambience creation three times. Orphan-node and bus counts must return to baseline. The test does not replace GPU/GUI visual inspection; headless dummy rendering cannot establish pixel correctness, rain visibility or liquid appearance.
+`authored_scene_persistence.gd`는 실제로 패킹하고 `user://`에 저장한 뒤 캐시를 무시해 다시 불러옵니다. 모든 노드 경로/클래스/변환, 메시 종류/표면 수/경계, 충돌체 종류를 비교하고 소유자 계층과 가져온 GLB 참조를 검사한 다음 임시 파일을 지웁니다. 실제 `night_bus.tscn` 인스턴스 두 개를 도착까지 진행시키고, 실제 문 트윈을 기다리며, 신호 수/상태/초기화 격리를 검사합니다. 불변 재질이 바뀌지 않았는지 확인하고 복제한 로컬 재질 편집을 보여 주며, 환경음 두 인스턴스 생성을 세 번 반복합니다. 고아 노드와 버스 수는 기준값으로 돌아와야 합니다. 이 테스트는 GPU/GUI 시각 검사를 대체하지 않습니다. 헤드리스 더미 렌더링으로 픽셀 정확성, 비의 가시성, 액체의 외관을 입증할 수 없습니다.
 
-Other tests cover controller timings/intent debounce, cup/player instance isolation and liquid bounds, rain arrays and HUD, and full gameplay disposal/boarding/ending/restart. Always check process exit **and** log for script/assertion errors. Also play in the actual GUI: walk/sit/sip, inspect extreme cup tilts, miss and catch a bus, dispose/refill, board with a cup and restart during/after the window ride. Preserve previous version snapshots when updating this architecture.
+다른 테스트는 컨트롤러 시간/의도 중복 입력 억제, 컵/플레이어 인스턴스 격리와 액체 경계, 비 배열과 HUD, 전체 게임플레이의 폐기/탑승/결말/재시작을 다룹니다. 스크립트/단언 오류는 항상 프로세스 종료 상태**와** 로그를 함께 확인하세요. 실제 GUI에서도 걷기/앉기/마시기, 컵의 극단적 기울기, 버스 놓치기와 타기, 폐기/다시 받기, 컵을 든 채 탑승, 창가 이동 중/이후 재시작을 확인하세요. 이 구조를 갱신할 때는 이전 버전 스냅샷을 보존하세요.
 
-## Final integration verification
-Seven headless suites passed on Godot 4.6.3: gameplay, player/cup, component state, rain/audio, authored persistence, disposal/display, onboard isolation. Shared-desktop GUI verified baseline locomotion/dispense/seated sip and boarding with a cup, moving window view, ending and restart; three sips followed by bin disposal. Cloud audio initialization failed and fell back to dummy driver; sound not auditioned. Software graphics VSync mode warning is environmental. No game script/parser errors.
+## 최종 통합 검증
+Godot 4.6.3에서 헤드리스 테스트 묶음 일곱 개가 통과했습니다. 게임플레이, 플레이어/컵, 구성 요소 상태, 비/오디오, 저장 구성 지속성, 폐기/표시, 차내 격리입니다. 공유 데스크톱 GUI에서 기본 이동/음료 받기/앉아서 마시기와 컵을 든 채 탑승, 움직이는 창가 시점, 결말, 재시작, 세 모금 뒤 쓰레기통 폐기를 확인했습니다. 클라우드 오디오 초기화는 실패해 더미 드라이버로 대체되었고 직접 청취 검증은 하지 못했습니다. 소프트웨어 그래픽의 VSync 모드 경고는 환경에 따른 것입니다. 게임 스크립트/파서 오류는 없었습니다.
 
-## v4.1 front entry correction
-The +X-facing bus previously placed its x2.4 entry above the x2.35 axle. Door, steps, light and body aperture now center at x2.8; front axle is x1.35. Lower entry edge x2.15 minus tire front x1.83 gives 0.32 m clear longitudinal gap. Authored floor has an entry notch. Doors recess to two interior tracks before sliding rearward; close reverses sequence. Boarding marker is x2.8 at the safe curb z2.65. `tests/bus_clearance.gd` checks actual transformed mesh bounds through closed, open, transit and reversal. `tests/bus_review.tscn` is an optional curb-side visual QA scene; normal main scene remains unchanged.
+## v4.1 앞문 입구 수정
++X 방향을 보는 버스는 이전에 x2.4 입구를 x2.35 차축 위에 두었습니다. 문, 계단, 조명, 차체 개구부의 중심은 이제 x2.8이며 앞 차축은 x1.35입니다. 입구의 작은 X값 쪽 경계 x2.15에서 타이어 앞쪽 x1.83을 빼면 종방향 여유 간격은 0.32 m입니다. 저장된 바닥에는 입구 홈이 있습니다. 문은 실내의 두 레일로 들어간 뒤 뒤로 미끄러지며, 닫을 때는 반대 순서입니다. 탑승 기준점은 안전한 보도 경계 z2.65의 x2.8입니다. `tests/bus_clearance.gd`는 닫힘, 열림, 이동, 반전 상태에서 실제 변환된 메시 경계를 검사합니다. `tests/bus_review.tscn`은 선택적인 보도 쪽 시각 검토 장면이며 일반 메인 장면은 그대로입니다.
 
-## v5 city authorship and budget
-`scenes/city_layout.tscn` instances two independently authored building scenes. Its `layout` Resource exposes seed, rows, spacing, setbacks, height range, envelope and node budget. The editor-only Rebuild preview action replaces only Generated; saving persists the instances. Runtime never consumes city RNG or regenerates content. Original rain inputs/order remain unchanged.
+## v5 도시 구성과 예산
+`scenes/city_layout.tscn`은 독립적으로 구성한 건물 장면 두 종류의 인스턴스를 사용합니다. `layout` Resource는 시드, 행 수, 간격, 후퇴 거리, 높이 범위, 외피, 노드 예산을 노출합니다. 편집기 전용 Rebuild 미리보기 동작은 Generated만 교체하며 저장하면 인스턴스가 유지됩니다. 런타임에서는 도시 난수를 소비하거나 콘텐츠를 재생성하지 않습니다. 원래의 비 입력/순서는 바뀌지 않았습니다.
 
-Poly Haven CC0 facade modules were assembled and material-merged in Blender. Packed high-detail source is preserved; runtime GLBs are reduced to 20,021 / 19,076 triangles, 9 material surfaces each. Default city: 16 buildings, 81 nodes, 16 mesh instances, 144 surfaces, 16 simple box colliders. Front doors face the street; minimum nominal gap is 1 m and clear street interval is z[-2,18]. Bus lane and safe walking bounds remain unchanged. World save/reopen contains 365 nodes with intact imported assets.
+Poly Haven CC0 외벽 모듈을 Blender에서 조립하고 재질을 합쳤습니다. 패킹된 고상세 소스를 보존했으며 런타임 GLB는 삼각형 20,021 / 19,076개, 각각 재질 표면 9개로 줄였습니다. 기본 도시는 건물 16개, 노드 81개, 메시 인스턴스 16개, 표면 144개, 단순 상자 충돌체 16개입니다. 앞문은 거리를 향하며 최소 명목 간격은 1 m, 비어 있는 도로 구간은 z[-2,18]입니다. 버스 차선과 안전 보행 경계는 그대로입니다. 월드를 저장/다시 열면 가져온 에셋을 온전히 유지한 노드 365개가 있습니다.
 
-`tests/city_layout.gd` verifies repeatable seed/type/transforms, actual mesh envelope, no overlap, road setbacks, no automatic generation, node budget, invalid-build preservation and owner persistence. `tests/city_before.tscn` and `tests/city_review.tscn` provide identical-camera comparison; local captures live in art/. These review scenes are not the normal gameplay entry point.
+`tests/city_layout.gd`는 재현 가능한 시드/종류/변환, 실제 메시 외피, 겹침 없음, 도로 후퇴 거리, 자동 생성 없음, 노드 예산, 잘못된 빌드 시 기존 내용 보존, 소유자 지속성을 검증합니다. `tests/city_before.tscn`과 `tests/city_review.tscn`은 동일 카메라 비교를 제공하며 로컬 캡처는 art/에 있습니다. 이 검토 장면들은 일반 게임플레이 진입점이 아닙니다.
 
-License/source/hash evidence is in assets/city/licenses/. Factory facade was evaluated but is not included in the runtime streetscape. This remains a small atmospheric diorama, not a fully traversable or photorealistic simulated city.
+라이선스/출처/해시 근거는 assets/city/licenses/에 있습니다. 공장 외벽은 평가했지만 런타임 거리 풍경에는 포함하지 않았습니다. 완전히 돌아다닐 수 있거나 실사 같은 도시 시뮬레이션이 아니라 작은 분위기 디오라마입니다.
 
-Runtime street surfaces use metre-scaled UV PlaneMeshes with original floor collision retained, avoiding triple texture projections on broad horizontal surfaces. Render scale remains native 1.0: reducing pixel resolution did not materially help this software-renderer bottleneck. Default city uses lightweight distant modules; config/city_layout_detailed.tres selects the preserved 20k-triangle variants through the same editor baker. Performance figures are device-specific, not a guarantee.
+런타임 도로 표면은 원래 바닥 충돌체를 유지한 미터 단위 UV PlaneMesh를 사용해 넓은 수평면에서 세 방향 텍스처 투영을 피합니다. 렌더 배율은 네이티브 1.0을 유지합니다. 픽셀 해상도를 낮춰도 이 소프트웨어 렌더러 병목에는 실질적인 도움이 없었습니다. 기본 도시는 가벼운 원거리 모듈을 사용하며 config/city_layout_detailed.tres는 같은 편집기 베이커로 보존된 약 2만 삼각형 변형을 선택합니다. 성능 수치는 기기별 결과이지 보장이 아닙니다.
 
-## V5 city validation and quality tiers
-CityLayout explicitly bakes 16 reusable CC0-derived building scene instances into its saved Generated subtree; there is no generation at runtime. Fixed seed, actual bounds, street setbacks, instance ownership and save/reopen are covered by tests/city_layout.gd. Each building has one simple box collider. Default background meshes are 4,704/4,482 triangles; config/city_layout_detailed.tres selects the preserved 20,021/19,076 variants. The Blender high-detail assembly is retained separately. The comparison harness tests/city_before.tscn and tests/city_review.tscn uses one camera and paused bus; local captures/metrics are in art/. Metrics are short samples, not percentile profiling. Final native GUI regression: walk to vending, dispense, sit, sip, stand, board while carrying cup, window ride, ending, restart. Core headless regression and actual bus-clearance suite passed after final asset replacement. Cloud audio remains dummy/not auditioned; cloud software rasterization remains ~10 FPS in the comparison view despite reducing visible primitives from 157k to 54k. No external publication or automatic ZIP delivery.
+## V5 도시 검증과 품질 단계
+CityLayout은 재사용 가능한 CC0 파생 건물 장면 인스턴스 16개를 저장된 Generated 하위 트리에 명시적으로 베이크하며 런타임 생성은 없습니다. 고정 시드, 실제 경계, 도로 후퇴 거리, 인스턴스 소유권, 저장/다시 열기는 tests/city_layout.gd가 다룹니다. 각 건물에는 단순 상자 충돌체 하나가 있습니다. 기본 배경 메시는 삼각형 4,704/4,482개이며 config/city_layout_detailed.tres는 보존된 20,021/19,076개 변형을 선택합니다. Blender 고상세 조립본은 별도로 유지합니다. 비교 도구 tests/city_before.tscn과 tests/city_review.tscn은 카메라 하나와 일시 정지한 버스를 사용하며 로컬 캡처/측정값은 art/에 있습니다. 측정값은 짧은 표본이지 백분위 프로파일링이 아닙니다. 최종 네이티브 GUI 회귀 검사는 자판기로 걷기, 음료 받기, 앉기, 마시기, 일어서기, 컵을 든 채 탑승, 창가 이동, 결말, 재시작입니다. 최종 에셋 교체 뒤 핵심 헤드리스 회귀와 실제 버스 여유 간격 테스트 묶음이 통과했습니다. 클라우드 오디오는 여전히 더미이며 직접 청취 검증이 없고, 비교 시점의 클라우드 소프트웨어 래스터화는 보이는 프리미티브를 157k에서 54k로 줄여도 약 10 FPS입니다. 외부 공개나 자동 ZIP 전달은 하지 않았습니다.
 
-## V6 optional stories
-StoryCorner composes authored Objects (Memo/Route/Passenger/Radio), StoryPanel, and RadioAudio. It owns only optional-content targeting and local UI/audio lifecycle. Session provides camera/position, prioritizes eligible boarding, then an open reader, then standing; disposal precedes new content, and closes content on board/restart. StoryText Resources are immutable inputs; each panel copies page/choice arrays. Radio duplicates its stream resource before configuring loop playback, uses existing Master bus, and starts off. Geometry is saved, shadowless primitive composition; only passenger and radio stand add simple box colliders. New Korean font is bundled with its license. The original 16-second radio synthesis source is in art/. No mandatory objectives or plot flags gate the bus. Tests/story_integration.gd covers directional target selection, optional reading, boarding with dialogue open and full reset; story_panel.gd and story_radio.gd cover independent instances and cleanup. Baseline bench regression now explicitly faces the seat because E intentionally selects looked-at content before the broad seat-radius fallback.
-Final GUI checks: Korean memo/route/passenger pages and both dialogue control hints are legible at 1280×720; radio caption toggles; movement around new props reaches vending, dispense and boarding/end/reset still work. Route board was moved left to x−1.65 after visual QA revealed it obscured the arrival display. Final story save/reopen and integration test passes after this correction. Four harmless parameter-shadow warnings were fixed; the remaining GUI diagnostics are the pre-existing cloud VSync/audio-device/dummy-driver limitations.
+## V6 선택적 이야기
+StoryCorner는 직접 구성한 Objects(Memo/Route/Passenger/Radio), StoryPanel, RadioAudio로 구성됩니다. 선택 콘텐츠의 대상 판정과 로컬 UI/오디오 수명 주기만 소유합니다. Session은 카메라/위치를 제공하며 가능한 탑승, 열린 읽기 창, 일어서기 순서로 우선합니다. 폐기는 새 콘텐츠보다 먼저 처리하며 탑승/재시작 때 콘텐츠를 닫습니다. StoryText Resource는 불변 입력이며 각 패널은 페이지/선택지 배열을 복사합니다. 라디오는 반복 재생을 설정하기 전에 스트림 리소스를 복제하고 기존 Master 버스를 사용하며 처음에는 꺼져 있습니다. 지오메트리는 그림자가 없는 프리미티브 구성을 저장한 것이며 승객과 라디오 받침에만 단순 상자 충돌체를 더합니다. 새 한국어 글꼴은 라이선스와 함께 포함했습니다. 원래의 16초 라디오 합성 소스는 art/에 있습니다. 필수 목표나 줄거리 플래그가 버스의 조건이 되지 않습니다. Tests/story_integration.gd는 방향에 따른 대상 선택, 선택적 읽기, 대화가 열린 상태의 탑승, 전체 초기화를 검사하며 story_panel.gd와 story_radio.gd는 독립 인스턴스와 정리를 다룹니다. E가 넓은 좌석 반경 대체 판정보다 바라보는 콘텐츠를 의도적으로 먼저 선택하므로 기본 벤치 회귀 검사는 이제 좌석을 명시적으로 바라봅니다.
+최종 GUI 검사에서는 한국어 메모/노선/승객 페이지와 두 대화 조작 힌트가 1280×720에서 읽히고, 라디오 자막이 전환되며, 새 소품 주변을 지나 자판기에 도달해 음료 받기와 탑승/결말/초기화가 계속 작동했습니다. 시각 검사에서 도착 표시를 가리는 문제가 드러나 노선판을 왼쪽 x−1.65로 옮겼습니다. 수정 뒤 최종 이야기 저장/다시 열기와 통합 테스트가 통과했습니다. 무해한 매개변수 가림 경고 네 개를 고쳤으며 남은 GUI 진단은 기존의 클라우드 VSync/오디오 장치/더미 드라이버 한계입니다.
 
-## V7 a short rainy walk
-Exploration owns only optional borrow/return and flower-note interaction; Session injects the independent held umbrella and shared reading panel. HeldUmbrella is a saved camera attachment, separate from HeldDrink. Rain receives a canopy center/enabled command and hides only nearby drops beneath its radius; ambience receives an optional umbrella flag, preserving four-argument callers. This is a visual/audio approximation, not cloth or water simulation. Player bounds expand only on the shelter side (x ±12, z −8..2.65), never into the road. NeighborhoodWalk owns its saved ground collision and flower display. Passenger owns its idle/walk/return/boarded lifecycle and receives bus phase, entry point and dialogue flag; no sibling searches. Its movement disables blocking collision and follows authored safe waypoint offsets. The session closes passenger reading only while that specific story is active. A fresh independent QA agent caught stale story ownership closing later flower notes; closing the panel now clears its owner. Tests/v7_qa.gd reproduces and guards that case alongside real capsule navigation, three bus cycles and item/reset/interaction priorities.
-Final validation: all 15 focused suites plus main gameplay regression passed on Godot 4.6.3. Actual engine review verified umbrella+filled cocoa framing, Korean flower note fit, and passenger walking along the curb then disappearing at the entry when boarded. The tiny shop is an authored display vignette, not an accessible shop interior. Umbrella/cocoa use separate camera attachments; no cloth, splashes or full fluid simulation is implied. Native audio remains unavailable, so mix and loop behavior are programmatically verified only.
+## V7 짧은 빗속 산책
+Exploration은 선택적인 빌리기/반납과 꽃집 쪽지 상호작용만 소유합니다. Session이 독립적인 손에 든 우산과 공유 읽기 패널을 주입합니다. HeldUmbrella는 HeldDrink와 별개로 저장된 카메라 부착물입니다. Rain은 우산 중심/활성화 명령을 받아 해당 반경 아래 가까운 빗방울만 숨깁니다. ambience는 선택적인 우산 플래그를 받으며 기존 네 인자 호출을 유지합니다. 이는 시각/오디오 근사이며 천이나 물 시뮬레이션이 아닙니다. 플레이어 경계는 정류장 쪽(x ±12, z −8..2.65)으로만 넓히며 도로로는 확장하지 않습니다. NeighborhoodWalk는 저장된 바닥 충돌체와 꽃 진열을 소유합니다. Passenger는 대기/걷기/돌아오기/탑승 완료 수명 주기를 소유하고 버스 단계, 입구 위치, 대화 플래그를 전달받으며 형제 노드를 검색하지 않습니다. 이동 중에는 막는 충돌을 끄고 직접 구성한 안전 경유점 오프셋을 따릅니다. 세션은 해당 승객 이야기가 활성화되어 있을 때만 승객 읽기를 닫습니다. 새 독립 QA 에이전트가 낡은 이야기 소유권 때문에 이후 꽃집 쪽지가 닫히는 문제를 발견했습니다. 이제 패널을 닫으면 소유자도 비웁니다. Tests/v7_qa.gd는 실제 캡슐 이동, 버스 세 주기, 아이템/초기화/상호작용 우선순위와 함께 이 사례를 재현하고 방지합니다.
+최종 검증에서는 Godot 4.6.3에서 집중 테스트 묶음 15개와 메인 게임플레이 회귀 검사가 모두 통과했습니다. 실제 엔진 검토로 우산과 가득 찬 코코아의 화면 구도, 한국어 꽃집 쪽지의 맞춤, 보도를 따라 걷다가 탑승 시 입구에서 사라지는 승객을 확인했습니다. 작은 꽃집은 직접 구성한 진열 장면이며 들어갈 수 있는 실내가 아닙니다. 우산/코코아는 별도의 카메라 부착물을 사용하며 천, 물 튀김, 완전한 유체 시뮬레이션을 뜻하지 않습니다. 네이티브 오디오를 계속 사용할 수 없어 믹스와 반복 동작은 프로그램으로만 검증했습니다.
 
 
-## Reconstruction boundaries
+## 재구현 경계
 
-| Saved unit | Ownership / injected context |
+| 저장 단위 | 소유권 / 주입되는 맥락 |
 | --- | --- |
-| `EveningClock` / `WeatherCycle` | Clock owns simulation elapsed time; weather reads it deterministically. The completed evening has no last-bus cutoff. |
-| `PauseOverlay` | Always-processing keyboard help overlay owns tree pause and resume; emits restart/mute requests. Esc remains mouse release, not implicit pause. |
-| `UmbrellaExchange` / `EveningConversation` | Optional loan and work/walk state; immutable exported story Resources and exact-reader identity guards. Neither gates boarding. |
-| `FlowerLife` / `RainCat` / `RainCover` | Explicitly stepped local events; one authored awning volume drives both shelter decisions and rain masking. |
-| `OverviewView` / `OnboardView` | Camera ownership and authored rest poses; overview preserves the body/page, optional linger keeps the completed ending available. |
-| `OnboardCompanion` | Peripheral props appear only from the root's actual same-bus snapshot, never an inferred loan alone. |
-| `DrinkSession` / `HeldDrink` | Session is the sole sip timing/fill/heat owner. Presentation receives normalized sip progress and shelter context; approved procedural liquid remains independent. |
-| `WindowLife` / `RainDetails` | Private CPU-phased materials/buffers; fixed authored geometry and no new lights. Window uses evening time, physical drips use resettable presentation time. |
+| `EveningClock` / `WeatherCycle` | 시계가 시뮬레이션 경과 시간을 소유하고 날씨는 이를 결정론적으로 읽습니다. 완성된 저녁에는 막차 마감이 없습니다. |
+| `PauseOverlay` | 항상 처리되는 키보드 도움말 오버레이가 트리 일시 정지와 재개를 소유하며 재시작/음소거 요청을 신호로 보냅니다. Esc는 암묵적 일시 정지가 아니라 계속 마우스 해제입니다. |
+| `UmbrellaExchange` / `EveningConversation` | 선택적 대여와 일/산책 상태. 내보낸 불변 이야기 Resource와 정확한 읽기 창 식별 방어를 사용합니다. 어느 쪽도 탑승 조건이 되지 않습니다. |
+| `FlowerLife` / `RainCat` / `RainCover` | 명시적으로 진행시키는 로컬 이벤트. 직접 구성한 차양 공간 하나가 비 피하기 판정과 빗방울 마스킹을 함께 결정합니다. |
+| `OverviewView` / `OnboardView` | 카메라 소유권과 저장된 기본 자세. 전체 보기는 몸/페이지를 유지하며 선택적 머무르기는 완료된 결말을 계속 볼 수 있게 합니다. |
+| `OnboardCompanion` | 주변 소품은 루트의 실제 같은 버스 탑승 스냅샷으로만 나타나며 대여 사실만으로 추론하지 않습니다. |
+| `DrinkSession` / `HeldDrink` | 세션은 마시기 시간/수위/열의 유일한 소유자입니다. 표현은 정규화한 마시기 진행률과 비 피하기 맥락을 전달받으며 승인된 절차적 액체는 독립적으로 유지합니다. |
+| `WindowLife` / `RainDetails` | 인스턴스 전용 CPU 위상 재질/버퍼. 고정된 저장 지오메트리를 쓰며 새 조명은 없습니다. 창문은 저녁 시간을, 물방울은 초기화 가능한 표현 시간을 사용합니다. |
 
-Shared evening clock/weather are evaluated before their consumers. Quiet-wait advances only skipped evening time, not drink, passenger walking or physical rain trajectories. Pause freezes the session tree. After the default ending the clock is fixed, while optional window linger and physical rain presentation can continue; restart resets both clocks. Newly added effects do not consume world RNG or shader wall-clock `TIME`.
+공유 저녁 시계/날씨는 이를 소비하는 요소보다 먼저 계산합니다. 조용히 기다리기는 건너뛴 저녁 시간만 진행시키며 음료, 승객 걷기, 물리적 빗방울 궤적은 진행시키지 않습니다. 일시 정지는 세션 트리를 멈춥니다. 기본 결말 뒤 시계는 고정되지만 선택적 창가 머무르기와 물리적 비 표현은 계속될 수 있으며, 재시작은 두 시계를 모두 초기화합니다. 새 효과는 월드 난수 생성기나 셰이더의 실제 경과 시간 `TIME`을 사용하지 않습니다.
 
-Use `tools/run_checks.sh` for the serial aggregate and `tools/export-audit.py` for the isolated production-PCK gate. Both use an external disk-backed QA directory and a shared lock, exclude their own fixtures from the runtime pack, and must be supplemented by ordinary-game native inspection. A fixture/test flag is never the user handoff scene. Public validation notes are in `RECOVERY.md`; local screenshots and raw logs are not project assets.
+직렬 통합 검사는 `tools/run_checks.sh`, 격리된 실제 배포용 PCK 검증은 `tools/export-audit.py`를 사용하세요. 둘 다 디스크에 저장하는 외부 QA 디렉터리와 공유 잠금을 사용하며 자체 테스트 자료를 런타임 팩에서 제외합니다. 일반 게임의 네이티브 검토도 반드시 함께 해야 합니다. 테스트 자료/테스트 플래그는 사용자에게 전달할 장면이 아닙니다. 공개 검증 메모는 `RECOVERY.md`에 있으며 로컬 스크린샷과 원시 로그는 프로젝트 에셋이 아닙니다.
 
-## Shared evening pocket
+## 함께하는 저녁의 작은 공간
 
-| Unit | Saved ownership | Contract / state |
+| 단위 | 저장 소유권 | 계약 / 상태 |
 |---|---|---|
-| NeighborhoodExtension | `scenes/neighborhood_extension.tscn` | Owns local reader markers, private heater PCM and seated idle phase. Session injects StoryPanel, updates phase, supplies its cover to World/Rain and suspends it when boarding. |
-| GlassRefuge | Saved imported GLB child, authored floor/wall colliders and pendant | Runtime creates only per-instance transparent material overrides. Original geometry remains unchanged. The asymmetric front entry is open. RestSeat owns immutable Sit/Stand/Interaction markers; Session copies the chosen exit Vector3 and resets it to the original stop on restart. |
-| ParkedCar | `scenes/parked_car.tscn` | 99 authored primitive nodes, two occupant roots and one static chassis collider; no autonomous vehicle/camera/global state. `art/build_parked_car.py` regenerates this scene only. |
-| Story data | `config/story_car.tres`, `story_refuge.tres`, existing flower/passenger Resources | Shared immutable Korean content; the existing reader copies page/choice arrays. No new dialogue manager or quest flags. |
+| NeighborhoodExtension | `scenes/neighborhood_extension.tscn` | 로컬 읽기 기준점, 인스턴스 전용 히터 PCM, 앉은 대기 위상을 소유합니다. Session이 StoryPanel을 주입하고 위상을 갱신하며 비 차단 영역을 World/Rain에 제공하고 탑승 때 중단합니다. |
+| GlassRefuge | 저장된 가져오기 GLB 자식, 직접 구성한 바닥/벽 충돌체와 펜던트 | 런타임에서는 인스턴스별 투명 재질 재정의만 만듭니다. 원본 지오메트리는 그대로이며 비대칭 앞 입구는 열려 있습니다. RestSeat가 불변 Sit/Stand/Interaction 기준점을 소유합니다. Session은 선택한 출구 Vector3를 복사하고 재시작 때 원래 정류장으로 초기화합니다. |
+| ParkedCar | `scenes/parked_car.tscn` | 직접 구성한 프리미티브 노드 99개, 탑승자 루트 두 개, 정적 차체 충돌체 하나. 자율 차량/카메라/전역 상태는 없습니다. `art/build_parked_car.py`는 이 장면만 재생성합니다. |
+| 이야기 데이터 | `config/story_car.tres`, `story_refuge.tres`, 기존 꽃집/승객 Resource | 공유 불변 한국어 콘텐츠. 기존 읽기 창이 페이지/선택지 배열을 복사합니다. 새 대화 관리자나 퀘스트 플래그는 없습니다. |
 
-The expanded bounds add a small right-side pavement pocket, not an open-city streaming system. The bus lane, schedule, original interaction ordering and approved liquid component remain unchanged. Boarding and an already-open reader retain priority over optional neighborhood observations.
+확장된 경계는 오른쪽의 작은 보도 공간을 더한 것이며 개방형 도시 스트리밍 시스템이 아닙니다. 버스 차선, 시간표, 원래 상호작용 순서, 승인된 액체 구성 요소는 그대로입니다. 탑승과 이미 열린 읽기 창은 선택적 동네 관찰보다 계속 우선합니다.

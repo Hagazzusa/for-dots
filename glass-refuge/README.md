@@ -1,35 +1,35 @@
-# Glass Refuge — image → editable spatial study
+# Glass Refuge — 이미지에서 편집 가능한 공간 연구로
 
-An original, procedural Blender reconstruction of an original GPT Image concept. This is an architectural **design study**, not a construction or engineering package.
+독창적인 GPT Image 콘셉트를 바탕으로 절차적으로 재구성한 Blender 작품입니다. 건축 **디자인 연구**이며 시공·공학 문서 묶음이 아닙니다.
 
-## Provenance
+## 출처
 
-- `reference/gpt_image_concept.png` is the preserved original concept image, generated with the built-in GPT Image tool before modeling. No source pixels were painted over.
-- Concept brief (human-readable summary, not a claim to reproduce the exact generation prompt): a small curved timber-and-glass garden refuge on a wet stone terrace, copper-clad ribs, muted sage lower panels, an open entrance, a cozy bench and warm globe pendant, overlooking a blue-hour lake landscape.
-- All model geometry, materials, vegetation and background are newly authored procedural work in `build.py`. No downloaded assets, textures, HDRIs or external asset licenses are involved.
-- The exact original generation prompt and provenance are preserved in `reference/concept_prompt.txt`. The original image was visually inspected before modeling. This is manual/procedural interpretation, **not automatic image-to-mesh conversion or exact CAD recovery**.
+- `reference/gpt_image_concept.png`는 모델링 전에 내장 GPT Image 도구로 생성하고 보존한 원본 콘셉트 이미지입니다. 원본 픽셀 위에 덧칠하지 않았습니다.
+- 콘셉트 요약(사람이 읽기 위한 요약이며 정확한 생성 프롬프트의 재현이 아님): 젖은 석재 테라스 위의 작은 곡선형 목재·유리 정원 쉼터. 구리로 덮은 리브, 차분한 세이지색 하부 패널, 열린 입구, 아늑한 벤치와 따뜻한 구형 펜던트 조명을 갖추고 블루아워의 호수 풍경을 바라봅니다.
+- 모든 모델 지오메트리, 재질, 식물, 배경은 `build.py`에서 새로 만든 절차적 작업입니다. 다운로드한 에셋, 텍스처, HDRI 또는 외부 에셋 라이선스는 사용하지 않았습니다.
+- 정확한 원본 생성 프롬프트와 출처 기록은 `reference/concept_prompt.txt`에 보존했습니다. 모델링 전에 원본 이미지를 육안으로 확인했습니다. 수작업/절차적 해석이며 **자동 이미지→메시 변환이나 정확한 CAD 복원이 아닙니다**.
 
-## What is observed / what is inferred
+## 관찰한 것과 추론한 것
 
-**Observed:** barrel-vault silhouette; repeated timber arches with dark copper weather caps; glazed roof and side walls; asymmetrical front with a narrow left sidelight and a wide open entrance; muted sage vertical boarding; timber bench with light and olive cushions and a draped throw; planted right-side box; suspended round warm light; raised dark stone platform and approach steps; wet evening surfaces.
+**관찰:** 배럴 볼트 실루엣, 짙은 구리 방수 덮개를 두른 반복 목재 아치, 유리 지붕과 측벽, 왼쪽의 좁은 측면창과 넓게 열린 입구로 이루어진 비대칭 전면, 차분한 세이지색 수직 판재, 밝은색·올리브색 쿠션과 늘어뜨린 담요가 있는 목재 벤치, 식물이 심긴 오른쪽 상자, 매달린 둥근 온색 조명, 높인 짙은 석재 플랫폼과 진입 계단, 젖은 저녁 표면.
 
-**Inferred:** a 3.20 × 3.20 m nominal footprint, floor +0.42 m, spring line +2.32 m, roof crown +3.568 m; a shallow elliptical barrel; five regularly spaced ribs; 6 mm nominal glazing; complete rear wall; bench and planter joinery; post shoes and fasteners; glass panel subdivision; unseen contact/support relationships. Dimensions are chosen to make a coherent editable model, not measured from the picture. Perspective, generated-image inconsistencies and hidden surfaces prevent unique reconstruction.
+**추론:** 명목 평면 크기 3.20 × 3.20 m, 바닥 +0.42 m, 아치 시작선 +2.32 m, 지붕 정점 +3.568 m, 얕은 타원형 배럴, 일정한 간격의 리브 다섯 개, 명목 유리 두께 6 mm, 완전한 후면 벽, 벤치와 화분 상자의 접합, 기둥 받침과 체결부, 유리 패널 분할, 보이지 않는 접촉/지지 관계. 치수는 일관된 편집 가능 모델을 만들기 위한 선택이며 그림에서 측정한 값이 아닙니다. 원근, 생성 이미지의 불일치, 가려진 표면 때문에 유일한 재구성은 불가능합니다.
 
-**Deliberately simplified:** geographic landscape, clouds, dense wild plants, water droplets, upholstery wrinkles and weathering. The background is atmospheric scene dressing, not a reconstruction of an actual place.
+**의도적으로 단순화:** 지리적 풍경, 구름, 빽빽한 야생 식물, 물방울, 천 주름, 풍화. 배경은 분위기를 위한 장면 장식이며 실제 장소의 재구성이 아닙니다.
 
-## Files and use
+## 파일과 사용법
 
-- `Glass_Refuge.blend` — compressed editable scene, packed concept, named collections, saved camera, original materials.
-- `build.py` — standalone deterministic source (Blender 4.3 or compatible).
-- `renders/01_blockout.png` — initial small preview retained for comparison.
-- `renders/05_final.png` — final 1200 × 800 image.
-- `renders/06_structural_inspection.gif` and `.mp4` — **구조 확인용 / structural inspection**, 24 actual Workbench views. Glazing, landscape and light fixtures are intentionally hidden only for this output. This is not a beauty render.
-- `inspection_turntable.py` — reproducible Workbench orbit, does not save changes to the model.
-- `manifest.json` — SHA-256 hashes of the publication files.
-- `audit.py` / `geometry_audit.json` — measured closed-solid, winding and packed-reference validation.
-- `checks.json` — generated dimension and configuration checks.
+- `Glass_Refuge.blend` — 압축된 편집 가능 장면, 내장 콘셉트 이미지, 이름 있는 컬렉션, 저장된 카메라, 직접 제작한 재질.
+- `build.py` — 독립적인 결정론적 소스(Blender 4.3 또는 호환 버전).
+- `renders/01_blockout.png` — 비교용으로 보존한 첫 소형 미리보기.
+- `renders/05_final.png` — 최종 1200 × 800 이미지.
+- `renders/06_structural_inspection.gif`와 `.mp4` — **구조 확인용**, 실제 Workbench 시점 24개. 이 출력에서만 유리, 풍경, 조명 기구를 의도적으로 숨깁니다. 미관용 최종 렌더가 아닙니다.
+- `inspection_turntable.py` — 재현 가능한 Workbench 회전 관찰. 모델에 변경 사항을 저장하지 않습니다.
+- `manifest.json` — 공개 파일의 SHA-256 해시.
+- `audit.py` / `geometry_audit.json` — 닫힌 입체, 면 방향, 내장 참조 이미지의 측정 기반 검증.
+- `checks.json` — 생성된 치수와 구성 검사.
 
-From this directory:
+이 디렉터리에서 실행하세요.
 
 ```bash
 mkdir -p tmp
@@ -37,31 +37,31 @@ TMPDIR="$PWD/tmp" blender -b -t 2 --python build.py -- --preview
 TMPDIR="$PWD/tmp" blender -b -t 2 --python build.py
 ```
 
-The script uses CPU Cycles, two render threads, no unsupported denoiser, 48 samples for later 600 × 400 previews (the first blockout used 24) and 128 samples for the 1200 × 800 final. Re-running replaces the `.blend` and corresponding render; the preview command writes `renders/preview.png` and does not replace the historical blockout. Materials and geometry remain editable; procedural curves are explicit mesh rib solids rather than opaque imported scans. The original concept is packed into the blend and also preserved as a separate PNG.
+스크립트는 CPU Cycles, 렌더 스레드 두 개를 사용하며 지원되지 않는 디노이저는 사용하지 않습니다. 이후 600 × 400 미리보기는 48샘플(첫 블록아웃은 24), 1200 × 800 최종 이미지는 128샘플입니다. 다시 실행하면 `.blend`와 해당 렌더를 교체합니다. 미리보기 명령은 `renders/preview.png`에 저장하며 역사 기록인 블록아웃을 교체하지 않습니다. 재질과 지오메트리는 편집 가능하며, 절차적 곡선은 불투명한 가져오기 스캔이 아니라 명시적인 메시 리브 입체입니다. 원본 콘셉트는 blend에 내장하고 별도 PNG로도 보존했습니다.
 
-## Limits
+## 한계
 
-No structural calculations, timber connection design, wind/snow loads, tempered/laminated safety-glass specification, foundation/soil design, water drainage, waterproofing, ventilation, thermal analysis, accessibility or building-code validation has been performed. A large open entry and nominal support contacts are geometric checks only. This is not fabrication-ready and must not be used as construction documentation.
+구조 계산, 목재 연결부 설계, 풍하중/적설하중, 강화/접합 안전유리 사양, 기초/지반 설계, 배수, 방수, 환기, 열 해석, 접근성, 건축 법규 검증은 수행하지 않았습니다. 넓은 열린 입구와 명목 지지 접촉은 기하 검사일 뿐입니다. 제작 준비가 된 설계가 아니며 시공 문서로 사용해서는 안 됩니다.
 
-## Comparison and refinement record
+## 비교와 개선 기록
 
-The first preview exposed a silhouette that was too tall/narrow and a camera that looked down too steeply. Pixel comparison motivated a lower camera and an elliptical rather than semicircular barrel: the revised eave is 1.90 m above the terrace and the roof rise is 1.248 m. This is a design inference, not recovered survey data.
+첫 미리보기에서는 실루엣이 너무 높고 좁으며 카메라가 너무 가파르게 내려다보는 문제가 보였습니다. 픽셀 비교를 바탕으로 카메라를 낮추고 반원 대신 타원형 배럴을 택했습니다. 수정한 처마는 테라스 위 1.90 m, 지붕 솟음 높이는 1.248 m입니다. 이는 설계적 추론이지 복원한 실측 자료가 아닙니다.
 
-The next pass corrected inward arch face winding, exposed the lake above the ground, shortened the planter to leave a positive gap before the bench, and reduced exterior amber fill. It replaced a hardcoded post-contact assertion with a vertex-bound measurement. A further check corrected a sky-coordinate sign and shortened the pendant cord after lowering the roof; the round globe itself was kept round. Stone corners and tops now vary rather than forming a perfect tile grid.
+다음 작업에서는 안쪽을 향한 아치 면 방향을 바로잡고, 지면 위로 호수가 보이게 했으며, 화분 상자를 줄여 벤치 앞에 양의 간격을 두고 바깥 호박색 보조광을 줄였습니다. 하드코딩된 기둥 접촉 단언을 정점 경계 측정으로 교체했습니다. 추가 검사에서는 하늘 좌표의 부호를 수정하고, 지붕을 낮춘 뒤 펜던트 줄을 줄였습니다. 둥근 구체 자체는 둥글게 유지했습니다. 석재 모서리와 윗면은 완벽한 타일 격자 대신 변화를 갖습니다.
 
-Noise control is explicit: Cycles CPU, 128 samples, direct sample clamp 10 and indirect clamp 2; no denoiser. The final clear-glass material uses 0.015 roughness and restrained micro-bump. Reflective/refractive caustics are disabled, another explicit render-time compromise. Clamping trades some highlight energy for fewer fireflies and is not a claim of radiometric fidelity. The scene is an editable reconstruction with recognizable architectural correspondence, **not photographic parity** with the generated image. Fine vegetation, weather, terrain complexity, textiles and random droplets remain substantially simpler.
+노이즈 제어는 명시적입니다. Cycles CPU, 128샘플, 직접 샘플 클램프 10, 간접 클램프 2, 디노이저 없음입니다. 최종 투명 유리 재질은 거칠기 0.015와 절제된 미세 범프를 사용합니다. 반사/굴절 코스틱을 끈 것도 명시적인 렌더 시간 절충입니다. 클램핑은 일부 하이라이트 에너지를 줄여 밝은 점 노이즈를 억제하며, 방사 측정적 충실도를 주장하지 않습니다. 장면은 알아볼 수 있는 건축적 대응을 갖춘 편집 가능한 재구성이지 생성 이미지와 **사진처럼 같은 결과가 아닙니다**. 미세한 식물, 날씨, 지형 복잡도, 직물, 무작위 물방울은 상당히 단순합니다.
 
-Geometric checks concern the modeled envelope: nominal entrance width, arch clearance, globe low point, post contacts, closed outward-wound rib/glazing solids and a positive bench–planter gap. They do not verify a safe or buildable structure.
+기하 검사는 모델링된 외피를 다룹니다. 명목 입구 폭, 아치 여유 높이, 구체의 최저점, 기둥 접촉, 닫히고 면 방향이 바깥인 리브/유리 입체, 양의 벤치–화분 상자 간격입니다. 안전하거나 시공 가능한 구조임을 검증하지 않습니다.
 
-The final saved-file audit measured 1,000 mesh objects, 22 closed outward-wound arch/cap/roof-glass solids, no zero-area base mesh faces and no non-finite coordinates. The reference is confirmed packed. Post-contact testing checks the nominal terrace datum, not exact rough-stone contact or foundation load paths.
+최종 저장 파일 감사에서는 메시 오브젝트 1,000개, 닫히고 면 방향이 바깥인 아치/덮개/지붕 유리 입체 22개, 면적 0인 기본 메시 면 없음, 비유한 좌표 없음을 측정했습니다. 참조 이미지가 내장되어 있음을 확인했습니다. 기둥 접촉 검사는 명목 테라스 기준면을 검사하며, 거친 돌과의 정확한 접촉이나 기초 하중 전달 경로를 검사하지 않습니다.
 
-The publication package intentionally includes one historical blockout and the final result; intermediate local test renders and machine logs are omitted. The structural GIF uses material colors and simplified Workbench lighting, hides glass so the interior can be inspected, and is generated from the same saved editable model, not from synthesized image views.
+공개 묶음에는 의도적으로 역사 기록인 블록아웃 하나와 최종 결과를 포함하고, 중간 로컬 시험 렌더와 기기 로그는 제외했습니다. 구조 GIF는 재질 색과 단순화한 Workbench 조명을 사용하고 내부를 살펴보도록 유리를 숨겼습니다. 합성한 이미지 시점이 아니라 같은 저장된 편집 가능 모델에서 생성합니다.
 
-## Portable saved copy
+## 이식 가능한 저장 사본
 
-The publication copy normalizes the saved browser directory to `//` and render destination to `//renders/05_final.png`; both the image and its nested packed-file path use `//reference/gpt_image_concept.png`, with packed image bytes unchanged. Geometry, materials, camera and render settings are unchanged. A plain-text embedded concept-to-geometry guide records design limitations; it is not an executable script. Rebuilt files should be reviewed again before sharing.
+공개 사본은 저장된 탐색기 디렉터리를 `//`, 렌더 목적지를 `//renders/05_final.png`로 정규화했습니다. 이미지와 내부의 내장 파일 경로 모두 `//reference/gpt_image_concept.png`를 사용하며 내장 이미지 바이트는 그대로입니다. 지오메트리, 재질, 카메라, 렌더 설정은 변경하지 않았습니다. 내장된 일반 텍스트 콘셉트→지오메트리 안내에는 설계 한계를 기록했으며 실행 스크립트가 아닙니다. 다시 만든 파일은 공유 전에 다시 검토해야 합니다.
 
-To inspect the saved model or regenerate the simplified structural views:
+저장 모델을 검사하거나 단순화한 구조 시점을 다시 만들려면:
 
 ```sh
 blender -b Glass_Refuge.blend -t 2 --python audit.py
@@ -69,4 +69,4 @@ blender -b Glass_Refuge.blend -t 2 --python inspection_turntable.py
 ffmpeg -y -framerate 8 -i renders/inspection_frames/%03d.png -c:v libx264 -pix_fmt yuv420p -map_metadata -1 renders/06_structural_inspection.mp4
 ```
 
-The audit writes its JSON report. The inspection script changes only its in-memory scene and generated frames; it does not save those visibility or lighting changes into the delivery blend.
+감사 도구는 JSON 보고서를 저장합니다. 검사 스크립트는 메모리 안의 장면과 생성 프레임만 바꾸며, 그 가시성·조명 변경을 제공 blend에 저장하지 않습니다.

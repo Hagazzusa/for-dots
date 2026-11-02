@@ -1,84 +1,84 @@
-# Rain Clock · rear-cartridge envelope and load-path correction
+# Rain Clock · 뒤쪽 카트리지 포락선과 하중 경로 정정
 
-## Result: travel works in the imposed-contact model; retention is not solved
+## 결과: 강제 접촉 모델에서는 이동 가능하지만 이탈 방지는 미해결
 
-A geometry-only upper slider can accommodate the tested three-lobe example within a nominal ±1 mm travel envelope. **This is not yet a supported, escape-resistant mechanism.** A failed-return case reduces the existing lip's projected overlap to about **0.248 mm**. Axial pitching, guide friction, retention and hand torque remain unresolved. Do not treat the candidate as build-ready or select fabrication tolerances from it.
+기하만 고려한 위쪽 슬라이더는 검사한 3로브 예를 명목 ±1 mm 이동 포락선 안에서 수용할 수 있습니다. **아직 지지되고 이탈에 저항하는 기구는 아닙니다.** 복귀 실패 사례에서는 기존 턱의 투영 겹침이 약 **0.248 mm**로 줄어듭니다. 축방향 피칭, 가이드 마찰, 이탈 방지, 손 토크는 미해결입니다. 제작 준비가 된 후보로 취급하거나 여기서 제조 공차를 선정하지 마세요.
 
-The completed sculpture/mechanism and sensitivity files were left unchanged. This directory adds a bounded, independently reviewed mathematical correction and one local CAD envelope—not a larger product design.
+완료된 조각/기구와 민감도 파일은 바꾸지 않았습니다. 이 디렉터리는 범위를 한정하고 독립 검토를 거친 수학적 정정과 로컬 CAD 포락선 하나를 더하며, 더 큰 제품 설계가 아닙니다.
 
-## Corrected support layout
+## 정정한 지지 배치
 
-Use two lower fixed guides at 210° / 330° and one upper radial follower at 90°. This gives a possible gravity load path, unlike treating clearance alone as support. The top carriage could be gravity-biased, but **its return force and ability to overcome friction are not established**. No spring, bearing, motor or load capacity was selected.
+210° / 330°의 아래쪽 고정 가이드 두 개와 90°의 위쪽 반경방향 종동자 하나를 사용합니다. 간격만으로 지지를 가정하는 것과 달리, 가능한 중력 하중 경로를 제공합니다. 위쪽 캐리지는 중력으로 복귀하도록 할 수 있지만, **복귀력과 마찰을 이길 능력은 입증하지 않았습니다**. 스프링, 베어링, 모터, 하중 용량은 선정하지 않았습니다.
 
-The upper guide's axial groove setting is independent of its radial travel. The CAD retains the original 0.2 mm side gap and 2 mm radial lip overhang; it does not silently enlarge the lip or move ornament pins. The `.4 mm` alternative from the earlier study remains a sensitivity variant, not a selected fit.
+위쪽 가이드의 축방향 홈 설정은 반경방향 이동과 독립적입니다. CAD는 원래의 옆 간격 0.2 mm와 반경방향 턱 돌출 2 mm를 유지하며, 턱을 몰래 키우거나 장식 핀을 옮기지 않습니다. 이전 연구의 `.4 mm` 대안은 민감도 변형으로 남고, 선정된 끼워맞춤이 아닙니다.
 
-## Normalized free-body: why front weight matters
+## 정규화한 자유물체: 앞쪽 무게가 중요한 이유
 
-Coordinates: X horizontal; Y rearward; Z upward. Set ring weight **W=1**, with no assumed kilograms or material densities.
+좌표: X는 수평, Y는 뒤쪽, Z는 위쪽입니다. 킬로그램이나 재료 밀도를 가정하지 않고 고리 무게를 **W=1**로 둡니다.
 
-- For unspecified top follower preload **P ≥ 0**, ideal symmetric lower radial reactions are **N_left = N_right = 1 + P**. This balances vertical force, but P=0 does not establish follower tracking.
-- Beads sit 14 mm ahead of the track; the tab envelope's center is 21 mm ahead. For hypothetical weight fractions f and t, with remaining weight in the track plane, **d = 14f + 21t mm**. Actual masses and COM are unknown.
-- Weight at Y=−d creates an overturning moment **+d about X** in normalized units.
-- A possible opposing axial reaction pair is top-front **+Q toward the rear**, and each lower-rear **−Q/2 toward the front**. With vertical contact separation h, **Q h = d**.
-- For illustration only, axial contacts are placed at mid-overlap radii R_eff=142 / 111 mm, giving **h=1.5 R_eff**. Their real pressure centers are unknown.
+- 미지정 위쪽 종동자 예압 **P ≥ 0**에서 이상적인 대칭 아래쪽 반경방향 반력은 **N_left = N_right = 1 + P**입니다. 수직 힘의 평형은 맞지만, P=0이라고 종동자 추종이 입증되지는 않습니다.
+- 구슬은 트랙보다 14 mm 앞에 있고, 손잡이 포락선 중심은 21 mm 앞에 있습니다. 가상 무게 비율 f와 t를 두고 나머지 무게가 트랙 평면에 있다면 **d = 14f + 21t mm**입니다. 실제 질량과 질량 중심은 모릅니다.
+- Y=−d의 무게는 정규화 단위로 **X축에 대해 +d**의 전도 모멘트를 만듭니다.
+- 가능한 반대 방향 축반력 쌍은 위쪽 앞의 **뒤쪽을 향하는 +Q**와 아래쪽 뒤 각각의 **앞쪽을 향하는 −Q/2**입니다. 접촉점 수직 분리 h에서 **Q h = d**입니다.
+- 예시로만 축방향 접촉을 겹침 중간 반지름 R_eff=142 / 111 mm에 두어 **h=1.5 R_eff**로 합니다. 실제 압력 중심은 모릅니다.
 
-The script verifies force and moment sums in this ideal symmetric model to below 2×10⁻¹⁵ numerical residual. This is algebraic equilibrium—not a capacity, stability, wear or safe-operation result.
+스크립트는 이 이상적인 대칭 모델의 힘과 모멘트 합을 수치 잔차 2×10⁻¹⁵ 미만으로 검증합니다. 대수적 평형이지 용량, 안정성, 마모, 안전 조작 결과가 아닙니다.
 
-The front-weight moment means the ring tends to **seat against opposing axial contacts**. “Positive side clearance” must not be described as flange-free running. Sliding flange contact can create drag; a rolling thrust-support design has not been selected.
+앞쪽 무게 모멘트 때문에 고리는 **서로 반대인 축방향 접촉면에 기대어 자리 잡으려는** 경향이 있습니다. “양의 옆 간격”을 플랜지 접촉 없는 운전이라고 설명해서는 안 됩니다. 미끄러지는 플랜지 접촉은 저항을 만들 수 있으며, 구름 방식 추력 지지 설계는 선정하지 않았습니다.
 
-### Axial seating versus the earlier tilt envelope
+### 축방향 안착과 앞선 기울기 포락선
 
-If a rigid ring is free to translate axially, top-front y=−g and lower-rear y=+g contact give `tan(|pitch|)=2g/h` and a center translation **+g/3**. At g=0.2 mm, this illustrative seating pitch is ~0.108° outer / 0.138° inner. Increasing g doubles the pitch freedom; it does not remove the load's moment.
+강체 고리가 축방향으로 자유롭게 평행 이동할 수 있다면 위쪽 앞 y=−g와 아래쪽 뒤 y=+g의 접촉에서 `tan(|pitch|)=2g/h`, 중심 평행 이동 **+g/3**을 얻습니다. g=0.2 mm에서 이 예시 안착 피치는 바깥쪽 약 0.108° / 안쪽 0.138°입니다. g를 두 배로 늘리면 이 식에서 tan(피치각)은 두 배가 되며, 작은 각도에서는 피치각도 약 두 배가 됩니다. 하중 모멘트를 없애지는 않습니다.
 
-These figures are **not** the earlier 0.080° / 0.102° conservative fixed-center, full-circumference envelope thresholds. That earlier envelope was not an actual three-contact onset or supported pose.
+이 값들은 이전의 보수적인 고정 중심/전체 원주 포락선 임계값 0.080° / 0.102°가 **아닙니다**. 그 이전 포락선은 실제 세 접촉의 시작이나 지지된 자세가 아니었습니다.
 
-The single side tab also creates an unknown horizontal COM offset and in-plane gravity torque about Y. Actual contact normals can generate torque too. The symmetric free-body omits those effects; hand torque may be required even without friction. No full rotation equilibrium is claimed.
+옆 손잡이 하나도 미지의 수평 질량 중심 오프셋과 Y축 주위 평면 내 중력 토크를 만듭니다. 실제 접촉 법선도 토크를 만들 수 있습니다. 대칭 자유물체는 이 효과들을 생략하며, 마찰이 없어도 손 토크가 필요할 수 있습니다. 완전한 회전 평형을 주장하지 않습니다.
 
-## Contact-constrained motion—not the earlier free-gap optimizer
+## 접촉 구속 운동 — 앞선 자유 간격 최적화와 다름
 
-`contact_motion.py` imposes all three radial root contacts, solving ring-center X/Z and upper follower displacement. The hypothetical running surface has 0.25 mm third-harmonic shape amplitude; decorative pins remain on a circular centerline. Each ring is checked at **25 shape phases over its 120° repeat**, using 4,096 polygon segments.
+`contact_motion.py`는 반경방향 홈 바닥 접촉 세 개를 모두 강제하고, 고리 중심 X/Z와 위쪽 종동자 변위를 풉니다. 가상 구름면의 3차 고조파 형상 진폭은 0.25 mm이며, 장식 핀은 원형 중심선에 남습니다. 각 고리는 4,096개 다각형 구간으로 **120° 반복 범위의 형상 위상 25개**에서 검사합니다.
 
-| Sampled quantity | Outer | Inner |
+| 표본에서 검사한 양 | 바깥쪽 | 안쪽 |
 |---|---:|---:|
-| Follower displacement | −0.7513…+0.7487 mm | −0.7515…+0.7484 mm |
-| Maximum center excursion | 0.5013 mm | 0.5015 mm |
-| Minimum circular pin-envelope / lip gap | 0.74997 mm | 0.75000 mm |
+| 종동자 변위 | −0.7513…+0.7487 mm | −0.7515…+0.7484 mm |
+| 최대 중심 이동 | 0.5013 mm | 0.5015 mm |
+| 최소 원형 핀 포락선 / 턱 간격 | 0.74997 mm | 0.75000 mm |
 
-All imposed contact-distance residuals are below 1.1×10⁻¹² mm. This is a numerical residual, not physical accuracy. Sampled extrema are **not continuous guarantees**. The solver does not establish actual return motion, equilibrium, friction, stiffness or torque.
+강제한 모든 접촉 거리 잔차는 1.1×10⁻¹² mm 미만입니다. 물리적 정확도가 아니라 수치 잔차입니다. 표본 극값은 **연속적인 보장이 아닙니다**. 해석기는 실제 복귀 운동, 평형, 마찰, 강성, 토크를 입증하지 않습니다.
 
-The first-order relation is `follower shift = 3s`, `ring-center shift = 2s` toward the upper guide, with s the three contacts' common radial shape error. Therefore the motions are correlated: the 1 mm nominal pin/lip gap becomes approximately `1+s`, not `1 − |follower travel| − |center travel|`.
+1차 관계는 위쪽 가이드를 향해 `follower shift = 3s`, `ring-center shift = 2s`이며, s는 세 접촉의 공통 반경방향 형상 오차입니다. 따라서 운동은 서로 연관됩니다. 명목 핀/턱 간격 1 mm는 대략 `1+s`가 되며, `1 − |follower travel| − |center travel|`가 아닙니다.
 
-Additional planar samples retain ~0.751 mm outer-post/frame separation and ~3.250 mm outer-bead-sweep/inner-upper-post separation across independent phase pairs. These do not check all solids or axial pitching.
+추가 평면 표본은 독립 위상 쌍에 걸쳐 바깥 기둥/프레임 분리 약 0.751 mm와 바깥 구슬 이동 영역/안쪽 위 기둥 분리 약 3.250 mm를 유지합니다. 모든 솔리드나 축방향 피칭을 검사한 것은 아닙니다.
 
-## The unresolved failed-return / escape case
+## 미해결 복귀 실패 / 이탈 사례
 
-If the top follower stays at its +1 mm outward stop while the ring requires about −0.752 mm, the root loses contact by about 1.752 mm. The 2 mm lip overhang then retains only **0.2485 mm projected overlap** at the worst tested phase. This is a warning, not proof of either retention or escape: pitch, axial translation and the lip's edge geometry can alter the path.
+고리가 약 −0.752 mm를 요구하는 동안 위쪽 종동자가 바깥쪽 +1 mm 스토퍼에 머무르면, 홈 바닥 접촉이 약 1.752 mm 벌어집니다. 검사한 최악 위상에서 2 mm 턱 돌출의 **투영 겹침은 0.2485 mm**만 남습니다. 이는 경고이지 이탈 방지나 이탈 어느 쪽의 증명도 아닙니다. 피치, 축방향 평행 이동, 턱 가장자리 기하가 경로를 바꿀 수 있습니다.
 
-Do not enlarge the lip or move bead pins from this one calculation alone. The reviewer specifically recommended an explicit return/retention investigation rather than calling the assembly “captive.” The CAD's front keepers retain the **slider carriage envelope**, not the ring.
+이 계산 하나만으로 턱을 키우거나 구슬 핀을 옮기지 마세요. 검토자는 조립체를 “빠지지 않음”이라고 부르기보다 명시적인 복귀/이탈 방지 조사를 권고했습니다. CAD의 앞쪽 고정 띠가 붙잡는 것은 고리가 아니라 **슬라이더 캐리지 포락선**입니다.
 
-## What the CAD actually contains
+## CAD에 실제로 들어 있는 것
 
-`rear_cartridge_envelope.FCStd` contains 14 valid named solids plus a parameter object:
+`rear_cartridge_envelope.FCStd`에는 유효한 이름 있는 솔리드 14개와 매개변수 객체가 있습니다.
 
-- Rear mounting plate, rail envelopes, front keeper strips and two stop blocks.
-- Sliding carriage with nominal ±1 mm vertical travel.
-- Unchanged groove root and front/rear lips, axle/collar envelopes and long rear post.
-- Separate axial-gap parameter; no finished shim/fastener arrangement.
+- 뒤쪽 장착판, 레일 포락선, 앞쪽 고정 띠, 스토퍼 블록 두 개.
+- 명목 수직 이동 ±1 mm의 슬라이딩 캐리지.
+- 변경하지 않은 홈 바닥과 앞/뒤 턱, 축/칼라 포락선, 긴 뒤쪽 기둥.
+- 별도의 축방향 간격 매개변수. 완성된 심/체결부 배치는 없음.
 
-Exact local CAD checks show zero carriage/stop overlap at ±1 mm and at sampled required positions; ±1.1 mm produces 15.2 mm³ stop overlap. This only demonstrates a geometric stop envelope. Guide clearances, fasteners and the long cantilever's stiffness are unspecified. The top plate reaches 382 mm in the original sculpture coordinates—slightly beyond the 379.5 mm frame envelope—so even this rear-only candidate has a small silhouette change to resolve.
+정확한 로컬 CAD 검사에서 ±1 mm 및 표본으로 검사한 요구 위치의 캐리지/스토퍼 겹침은 0이고, ±1.1 mm에서는 스토퍼 겹침 15.2 mm³가 생깁니다. 이는 기하학적 스토퍼 포락선만 보여 줍니다. 가이드 간격, 체결부, 긴 외팔보 강성은 미정입니다. 위쪽 판은 원본 조각 좌표에서 382 mm까지 올라가 379.5 mm 프레임 포락선을 조금 넘습니다. 뒤쪽만 바꾸는 이 후보에도 해결해야 할 작은 윤곽 변화가 있습니다.
 
-The front remains free of spokes and new decoration; the 19-bead concept and window are not redesigned. No extra weights, electronics, purchased parts or physical build are specified.
+앞쪽에는 스포크와 새 장식을 더하지 않으며, 구슬 19개 콘셉트와 창은 재설계하지 않습니다. 추가 추, 전자 장치, 구매 부품, 실제 제작은 지정하지 않습니다.
 
-## Independent review incorporated
+## 반영한 독립 검토
 
-The independent reviewer checked the free-body signs, guide orientation, contact-normal balance, correlated pin clearance and planar gap formulas. It did **not** certify hardware. Its corrections are incorporated here: allow axial seating translation, distinguish sampled from continuous results, include unknown side-tab torque, and leave ring capture unresolved.
+독립 검토자는 자유물체의 부호, 가이드 방향, 접촉 법선 평형, 상관된 핀 간격, 평면 간격 공식을 검사했습니다. 하드웨어를 인증한 것은 **아닙니다**. 축방향 안착 평행 이동을 허용하고, 표본 결과와 연속 결과를 구분하고, 미지의 옆 손잡이 토크를 포함하며, 고리 이탈 방지는 미해결로 남기라는 정정을 반영했습니다.
 
-## Files
+## 파일
 
-- `load_path.py`, `.json`, `.png`, `.svg`: normalized free-body and visually reviewed diagram.
-- `contact_motion.py`, `.json`: imposed-contact samples and failed-return envelope.
-- `build_cartridge.py`, `rear_cartridge_envelope.FCStd`, `cartridge_geometry.json`: source, editable CAD envelope and stop checks.
+- `load_path.py`, `.json`, `.png`, `.svg`: 정규화한 자유물체와 시각 검토한 도해.
+- `contact_motion.py`, `.json`: 강제 접촉 표본과 복귀 실패 포락선.
+- `build_cartridge.py`, `rear_cartridge_envelope.FCStd`, `cartridge_geometry.json`: 소스, 편집 가능한 CAD 포락선, 스토퍼 검사.
 
-Use `/usr/bin/python3 build_cartridge.py` for the installed FreeCAD API; other scripts use the normal Python environment with NumPy/SciPy/Matplotlib. This completed virtual-study checkpoint is preserved in the repository; no physical build or external asset inputs are involved.
+설치된 FreeCAD API에는 `/usr/bin/python3 build_cartridge.py`를 사용합니다. 다른 스크립트는 NumPy/SciPy/Matplotlib을 갖춘 일반 Python 환경을 사용합니다. 완료된 가상 연구 체크포인트는 저장소에 보존하며, 실제 제작이나 외부 에셋 입력은 없습니다.
 
-**Next bounded test:** investigate a continuous 3D escape path with the follower both tracking and stuck at the outward stop, including pitch/axial translation and the side-tab mass offset symbolically. Only then choose a keeper/return architecture. The present study does not satisfy an escape-resistant hardware requirement.
+**다음의 한정된 검사:** 종동자가 추종하는 경우와 바깥 스토퍼에 고착된 경우 모두에서 피치/축방향 평행 이동과 기호식으로 나타낸 옆 손잡이 질량 오프셋을 포함해 연속 3D 이탈 경로를 조사합니다. 그 후에만 고정/복귀 구조를 선택하세요. 현재 연구는 이탈 저항 하드웨어 요건을 충족하지 않습니다.

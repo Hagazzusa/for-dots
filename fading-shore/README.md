@@ -1,56 +1,32 @@
 # 사라지는 해안 · Fading Shore
 
-A single teal ribbon lifts slowly away from a warm paper surface. Its nearby
-shadow begins with a defined edge; farther along the rising curve, the boundary
-opens into a quiet wash of color. The space around it is intentionally empty.
+청록색 띠 하나가 따뜻한 종이 표면에서 천천히 떠오릅니다. 가까운 그림자는 또렷한 가장자리로 시작하고, 곡선이 높아질수록 그 경계는 고요한 색의 번짐으로 풀립니다. 주변 공간은 의도적으로 비워 두었습니다.
 
-This is an original **digital sculpture**. The unsupported ribbon is deliberately
-virtual—not a real-object fabrication proposal.
+독창적인 **디지털 조각**입니다. 받침 없는 띠는 의도적으로 가상에만 존재하며, 실제 물체 제작 제안이 아닙니다.
 
-## The image
+## 이미지
 
-- `Fading-Shore.png` — 1000 × 800 gallery still.
-- `Fading-Shore.blend` — editable scene, camera, light and materials.
-- `build.py` — all original geometry and procedural material source.
-- `validation.json` — geometry and camera-framing checks.
+- `Fading-Shore.png` — 1000 × 800 갤러리 정지 이미지.
+- `Fading-Shore.blend` — 편집 가능한 장면, 카메라, 조명, 재질.
+- `build.py` — 직접 제작한 모든 지오메트리와 절차적 재질 소스.
+- `validation.json` — 지오메트리와 카메라 구도 검사.
 
-No external assets, image textures, compositor effects, or post-process blur.
-The colored shadow and its softened boundary come from Cycles lighting through
-the filter approximation. One finite disk emitter illuminates the composition;
-the small world fill and diffuse material component are part of the artwork.
-This image is not a calibrated experiment or a quantitative measurement of
-penumbra width. The adjacent [soft-shadow study](../soft-shadow-study/README.md) contains that separate work.
+외부 에셋, 이미지 텍스처, 합성기 효과, 후처리 흐림은 없습니다. 유색 그림자와 부드러운 경계는 필터 근사 모델을 통과하는 Cycles 조명으로 생깁니다. 유한한 크기의 원판 광원 하나가 구도를 비추며, 작은 월드 보조광과 확산 재질 성분도 작품의 일부입니다. 이 이미지는 보정된 실험이나 반그림자 폭의 정량 측정이 아닙니다. 그 별도 연구는 이웃한 [부드러운 그림자 연구](../soft-shadow-study/README.md)에 있습니다.
 
-The material combines 89% colored non-refracting transparency and 11% diffuse
-surface shading. It is not physical spectral glass or a caustics simulation.
-All displayed color is view-transformed through AgX. Fine path-tracing noise
-is retained; denoising is disabled for the tested Blender build.
+재질은 89%의 굴절 없는 유색 투명 성분과 11%의 확산 표면 음영을 결합합니다. 물리적 분광 유리나 코스틱 시뮬레이션이 아닙니다. 표시된 모든 색에는 AgX 뷰 변환을 적용했습니다. 미세한 경로 추적 노이즈를 남겼으며, 시험한 Blender 빌드에서는 디노이징을 껐습니다.
 
-## Geometry
+## 지오메트리
 
-An S-shaped strip uses 220 longitudinal segments, with height strictly increasing
-from 0.045 to 1.745 scene units. Each cross-section has constant height and nonzero
-width. Disjoint longitudinal segments occupy disjoint height intervals, so the
-strip does not fold into or intersect itself. A hairline teal perimeter clarifies
-the shape without an opaque supporting frame.
+S자 띠는 길이 방향 220개 구간으로 이루어지며, 높이는 장면 단위 0.045에서 1.745까지 엄격하게 증가합니다. 각 단면은 높이가 일정하고 폭이 0이 아닙니다. 서로 떨어진 길이 방향 구간은 겹치지 않는 높이 구간을 차지하므로 띠가 자기 안으로 접히거나 자신과 교차하지 않습니다. 머리카락처럼 얇은 청록색 테두리는 불투명한 지지 프레임 없이 형태를 또렷하게 합니다.
 
-## Rebuild
+## 다시 만들기
 
 ```sh
 blender -b -t 2 --python build.py
 ```
 
-Tested with Blender 4.3.2, Cycles CPU, two threads, 64 samples. The script resolves
-outputs relative to itself; the saved blend uses a relative render path. No loop
-is included: the still already expresses the transition without adding motion
-for its own sake. The original Garden of Light and controlled study are unchanged.
+Blender 4.3.2, Cycles CPU, 스레드 두 개, 64샘플로 시험했습니다. 스크립트는 자신을 기준으로 출력 경로를 정하며, 저장된 blend는 상대 렌더 경로를 사용합니다. 정지 이미지 자체로 변화를 표현하므로 움직임만을 위한 움직임을 더하지 않았고, 반복 영상은 없습니다. 원본 Garden of Light와 통제 연구는 변경하지 않았습니다.
 
-## Verification
+## 검증
 
-Final still inspected at actual output resolution: the entire ribbon and its
-soft shadow are framed, with intentional negative space above and around them.
-The mesh has 442 vertices and 220 nonzero-area faces, strictly increasing section
-heights, and no self-folding. Saved blend reopened with five scene objects,
-relative render output, and no external image dependencies. Renderer text/EXIF
-metadata is stripped from the PNG without changing its image/color chunks;
-decoded pixel equality was independently verified.
+최종 정지 이미지를 실제 출력 해상도로 확인했습니다. 띠 전체와 부드러운 그림자가 구도 안에 들어오며, 위와 주변에 의도한 여백이 있습니다. 메시에는 정점 442개와 면적이 0이 아닌 면 220개가 있고, 단면 높이가 엄격히 증가하며 스스로 접히지 않습니다. 저장한 blend를 다시 열어 장면 오브젝트 다섯 개, 상대 렌더 출력 경로, 외부 이미지 의존성 없음을 확인했습니다. PNG의 이미지/색상 청크는 바꾸지 않고 렌더러 텍스트/EXIF 메타데이터를 제거했으며, 디코딩한 픽셀이 동일한지 독립적으로 검증했습니다.

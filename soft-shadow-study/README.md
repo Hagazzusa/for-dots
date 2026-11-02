@@ -1,44 +1,24 @@
-# Three heights, one light
+# 세 높이, 하나의 빛
 
-An original quiet virtual sculpture and a controlled companion study, prompted
-by the observation that the Garden of Light's colored shadows soften with distance.
-The original Garden files are unchanged.
+Garden of Light의 유색 그림자가 거리에 따라 부드러워진다는 관찰에서 출발한 독창적이고 고요한 가상 조각과 통제된 동반 연구입니다. 원래 Garden 파일은 변경하지 않았습니다.
 
-## Artwork
+## 작품
 
-`Three-Heights-One-Light.png` / `.blend`: three identical rounded teal filters
-on slender brass supports, held 0.4, 0.9 and 1.4 scene units above an ivory paper
-plinth. One broad light lets their shadow boundaries become increasingly soft.
-All geometry and textures are procedural. No external assets or composited shadows.
-This is virtual art, not a physical glass fabrication plan.
+`Three-Heights-One-Light.png` / `.blend`: 가느다란 황동 지지대에 동일한 둥근 청록색 필터 세 개를 올리고, 상아색 종이 받침 위 장면 단위 0.4, 0.9, 1.4 높이에 둡니다. 넓은 광원 하나로 그림자 경계가 점점 부드러워집니다. 모든 지오메트리와 텍스처는 절차적으로 만들었습니다. 외부 에셋이나 합성한 그림자는 없습니다. 가상 예술이며 실제 유리 제작 계획이 아닙니다.
 
-The artwork uses a colored transparent/diffuse thin-sheet approximation, a
-small world fill and warm light. Its image is **illustrative, not the calibrated
-measurement setup** below.
+작품은 유색 투명/확산 얇은 판 근사, 작은 월드 보조광, 따뜻한 빛을 사용합니다. 작품 이미지는 **설명용이며 아래의 보정된 측정 설정이 아닙니다**.
 
-## Why the edge spreads
+## 가장자리가 퍼지는 이유
 
-A finite area emitter reaches the receiver along a range of directions.
-Near the projected boundary, only part of the emitter is seen through the
-filter; the rest is seen unfiltered. More separation lets those directions
-spread over a wider region of the receiving surface. A larger emitter also
-widens that region. This is a geometric **penumbra**, not evidence that glass
-is diffusing or scattering light.
+크기가 유한한 면광원은 여러 방향으로 수광면에 도달합니다. 투영 경계 근처에서는 광원의 일부만 필터를 통해 보이고 나머지는 필터 없이 보입니다. 간격이 커지면 이 방향들이 수광면의 더 넓은 영역에 퍼집니다. 광원이 커져도 그 영역이 넓어집니다. 이는 기하학적 **반그림자**이며 유리가 빛을 확산하거나 산란한다는 증거가 아닙니다.
 
-This behavior is consistent with Blender's official description of
-[area lights and soft borders](https://docs.blender.org/manual/en/4.4/render/lights/light_object.html).
-The [Transparent BSDF](https://docs.blender.org/manual/en/4.4/render/shader_nodes/shader/transparent.html)
-passes light straight through without refraction; the experiment does not use
-volumetric scattering or a glass shader.
+이 동작은 Blender 공식 문서의 [면광원과 부드러운 경계](https://docs.blender.org/manual/en/4.4/render/lights/light_object.html) 설명과 일치합니다. [Transparent BSDF](https://docs.blender.org/manual/en/4.4/render/shader_nodes/shader/transparent.html)는 굴절 없이 빛을 직진 통과시킵니다. 실험에는 체적 산란이나 유리 셰이더를 사용하지 않습니다.
 
-## Controlled measurements
+## 통제 측정
 
-Fixed source-to-receiver distance L = 4.0 scene units. One horizontal 1.2 × 1.6
-filter; three heights h; two square-emitter widths a. Identical matte receiver,
-white light power, camera and seed. A separate no-filter control for each emitter
-size compensates for its illumination field. Eight renders total.
+광원에서 수광면까지의 거리는 L = 4.0 장면 단위로 고정합니다. 수평 1.2 × 1.6 필터 하나, 높이 h 세 가지, 정사각형 광원 폭 a 두 가지를 사용합니다. 무광 수광면, 백색광 출력, 카메라, 시드는 동일합니다. 광원 크기별 별도 무필터 대조군으로 조명 분포를 보정합니다. 총 여덟 번 렌더링합니다.
 
-| Emitter width a | Gap h | Measured 10–90% width | Width in pixels |
+| 광원 폭 a | 간격 h | 측정한 10–90% 폭 | 픽셀 단위 폭 |
 |---:|---:|---:|---:|
 | 0.3 | 0.5 | 0.0366 | 3.5 |
 | 0.3 | 1.0 | 0.0809 | 7.8 |
@@ -47,47 +27,26 @@ size compensates for its illumination field. Eight renders total.
 | 0.9 | 1.0 | 0.2386 | 22.9 |
 | 0.9 | 1.5 | 0.4296 | 41.2 |
 
-Both trend assertions pass: width increases with gap at either emitter size;
-the wider emitter produces softer edges at every gap.
+추세 단언문 두 개 모두 통과합니다. 어느 광원 크기에서든 간격이 커지면 폭이 늘고, 모든 간격에서 더 넓은 광원이 더 부드러운 경계를 만듭니다.
 
-### Definition and controls
+### 정의와 통제
 
-- 384 × 384 Cycles renders; 96 samples; seed 23; two CPU threads; no denoising.
-- World light is zero. **Indirect diffuse bounces are disabled.** Pure colored
-  transparent filter, with red transmission T = 0.2. Broadening therefore
-  occurs without the artwork's diffuse mixture or indirect illumination.
-- Filters hidden from camera rays only; still active for light/shadow rays.
-  This isolates receiver light rather than looking through the filter twice.
-- Read 32-bit EXR float buffers, verified **Linear Rec.709**, not display PNGs.
-  See Blender's [linear-buffer color pipeline](https://developer.blender.org/docs/features/render_pipeline/color_management/).
-- Normalize every red-channel pixel to the corresponding no-filter control:
-  `u = (I_red / I_red_control - 0.2) / 0.8`.
-  Thus u=0 is fully filtered; u=1 is unfiltered.
-- Average 16 central scanlines. Find the right edge's u=0.1 and u=0.9 crossings
-  with adjacent-sample linear interpolation. Width is x90−x10. No blur or
-  smoothing is applied to the measured profile.
-- Pixel pitch is 4/384 = 0.010417 scene units. The narrowest transition spans
-  only 3.5 pixels, so its precision is sampling-limited. Four decimal places
-  identify computed outputs, not a claim of physical measurement accuracy.
-- Finite samples and pixel filtering also affect the result; no uncertainty
-  confidence interval was estimated.
+- 384 × 384 Cycles 렌더, 96샘플, 시드 23, CPU 스레드 두 개, 디노이징 없음.
+- 월드 조명은 0입니다. **간접 확산 반사는 껐습니다.** 빨강 투과율 T = 0.2인 순수 유색 투명 필터입니다. 따라서 작품의 확산 혼합이나 간접 조명 없이도 퍼짐이 생깁니다.
+- 필터는 카메라 광선에서만 숨기고 조명/그림자 광선에는 작용합니다. 필터를 두 번 통과해 보는 대신 수광면의 빛을 분리합니다.
+- 표시용 PNG가 아닌 32비트 EXR 부동소수점 버퍼를 읽고 **Linear Rec.709**를 확인했습니다. Blender의 [선형 버퍼 색 파이프라인](https://developer.blender.org/docs/features/render_pipeline/color_management/)을 참고하세요.
+- 모든 빨강 채널 픽셀을 대응하는 무필터 대조군으로 정규화합니다. `u = (I_red / I_red_control - 0.2) / 0.8`. 따라서 u=0은 완전히 필터링된 상태, u=1은 필터가 없는 상태입니다.
+- 중앙 주사선 16개를 평균합니다. 인접 표본의 선형 보간으로 오른쪽 경계의 u=0.1과 u=0.9 교차점을 찾습니다. 폭은 x90−x10입니다. 측정 프로파일에 흐림이나 평활화를 적용하지 않습니다.
+- 픽셀 피치는 4/384 = 0.010417 장면 단위입니다. 가장 좁은 전환은 3.5픽셀에 불과해 정밀도가 표본화에 제한됩니다. 소수점 네 자리는 계산 출력을 식별하기 위한 것이며 물리적 측정 정확도 주장이 아닙니다.
+- 유한 샘플과 픽셀 필터링도 결과에 영향을 줍니다. 불확실성 신뢰구간은 추정하지 않았습니다.
 
-### Projection versus softness
+### 투영과 부드러움의 구분
 
-Similar triangles give the full geometric penumbra span `a*h/(L-h)` for this
-parallel source/filter/receiver setup. The filter's projected image also grows
-by `L/(L-h)`—that is **magnification**, separate from boundary softness.
-For an ideal uniformly weighted square source, 10–90% width is approximately
-`0.8*a*h/(L-h)`. Rendered area-light angular weighting and pixel sampling mean
-this reference is not asserted as an exact equality. The evidence plot compares
-all six measured widths with that approximation. Edge-profile curves are
-centered on their own measured midpoint so magnification does not masquerade
-as a wider transition.
+이 평행 광원/필터/수광면 설정에서 닮은 삼각형으로 전체 기하 반그림자 폭 `a*h/(L-h)`를 얻습니다. 필터의 투영 이미지도 `L/(L-h)`만큼 커집니다. 이는 경계의 부드러움과 별개인 **확대**입니다. 균일한 가중치의 이상적인 정사각 광원에서 10–90% 폭은 대략 `0.8*a*h/(L-h)`입니다. 렌더링한 면광원의 각도별 가중치와 픽셀 샘플링 때문에 이 기준이 정확한 등식이라고 주장하지 않습니다. 근거 그래프는 측정 폭 여섯 개 모두를 이 근사와 비교합니다. 확대를 더 넓은 전환으로 오인하지 않도록, 경계 프로파일 곡선을 각각의 측정 중점에 맞춰 가운데 정렬합니다.
 
-The artwork's tilted illumination and supports introduce additional geometry;
-do not transfer calibrated values directly to that composition.
+작품의 기울어진 조명과 지지대는 추가 지오메트리를 도입합니다. 보정값을 그 구도에 직접 옮겨 적용하지 마세요.
 
-## Files and reproduction
+## 파일과 재현
 
 ```sh
 blender -b -t 2 --python measure.py
@@ -95,46 +54,21 @@ python plot.py
 blender -b -t 2 --python art.py
 ```
 
-`measurements.json` records definitions, settings, thresholds and trend checks.
-`edge_profiles.csv` retains all 384 profile samples for every condition.
-The eight EXRs are linear evidence; eight PNGs are Standard/sRGB previews.
-`Penumbra-Evidence.png` is the explanatory scientific figure (matplotlib/numpy).
-`Soft-Shadow-Measurement.blend` retains the final calibration condition.
-All outputs resolve relative to their source scripts. No animation or external
-assets are required. Only the source scripts and deliverable/evidence files
-should be versioned, not logs, Blender backups or plotting caches.
+`measurements.json`은 정의, 설정, 임계값, 추세 검사를 기록합니다. `edge_profiles.csv`는 모든 조건의 프로파일 표본 384개를 보존합니다. EXR 여덟 개는 선형 근거이며 PNG 여덟 개는 Standard/sRGB 미리보기입니다. `Penumbra-Evidence.png`는 설명용 과학 도표(matplotlib/numpy)입니다. `Soft-Shadow-Measurement.blend`는 마지막 보정 조건을 보존합니다. 모든 출력은 소스 스크립트 기준으로 정합니다. 애니메이션이나 외부 에셋은 필요하지 않습니다. 로그, Blender 백업, 플로팅 캐시가 아니라 소스 스크립트와 산출물/근거 파일만 버전 관리해야 합니다.
 
-## Narrowest-case spatial-resolution check
+## 가장 좁은 경우의 공간 해상도 검사
 
-To close the 3.5-pixel limitation, reran **only** emitter width 0.3 / gap 0.5 at
-**768 × 768**, with a matching 768 px unfiltered control. Kept 96 samples,
-seed 23 and the same scene. Averaged 32 scanlines at 768 instead of 16 at 384,
-preserving the physical vertical averaging span. Same linear EXR normalization
-and unsmoothed, adjacent-sample threshold interpolation.
+3.5픽셀 한계를 확인하기 위해 광원 폭 0.3 / 간격 0.5 **한 조건만** 대응하는 768 px 무필터 대조군과 함께 **768 × 768**로 다시 실행했습니다. 96샘플, 시드 23, 같은 장면을 유지했습니다. 물리적 수직 평균 범위를 유지하려고 384에서 16개였던 평균 주사선을 768에서 32개로 늘렸습니다. 같은 선형 EXR 정규화와 평활화 없는 인접 표본 임계값 보간을 사용했습니다.
 
-- 384 px width: **0.0365845** scene units.
-- 768 px width: **0.0346973** scene units, spanning **6.66 pixels**.
-- Absolute difference: **0.0018872**; **5.44%** relative to the higher-resolution value.
-- 768 px result is **1.20%** above the 0.0342857 uniform-source approximation.
+- 384 px 폭: **0.0365845** 장면 단위.
+- 768 px 폭: **0.0346973** 장면 단위, **6.66픽셀**.
+- 절대 차이: **0.0018872**. 고해상도 값 대비 **5.44%**.
+- 768 px 결과는 균일 광원 근사 0.0342857보다 **1.20%** 높습니다.
 
-Therefore the narrowest original value should **not** be presented as precise
-to four decimal places, or as an exact physical width. The higher-resolution
-result moves closer to the geometric approximation, but two resolutions do
-not establish an asymptotic limit, uncertainty interval or exact convergence.
-Pixel filtering, Monte Carlo sampling, and emitter angular weighting remain.
-The broadening trend is unaffected; this check qualifies numerical precision.
+따라서 원래의 가장 좁은 값을 소수점 네 자리까지 정확하다거나 정확한 물리적 폭으로 제시해서는 **안 됩니다**. 고해상도 결과는 기하 근사에 가까워지지만, 두 해상도만으로 점근 한계, 불확실성 구간, 정확한 수렴을 입증할 수는 없습니다. 픽셀 필터링, 몬테카를로 샘플링, 광원의 각도별 가중치가 남습니다. 퍼짐 추세에는 영향이 없으며 이 검사는 수치 정밀도에 조건을 덧붙입니다.
 
-`convergence.py` regenerates these two additional renders after `measure.py`.
-`convergence.json`, `convergence_profile.csv`, and the two `convergence_768_*.exr`
-files preserve evidence. `plot_convergence.py` produces `Resolution-Check.png`.
-Original full-matrix JSON, CSV and measurement blend were SHA-256 checked before
-and after and remained unchanged.
+`convergence.py`는 `measure.py` 뒤에 이 추가 렌더 두 개를 다시 생성합니다. `convergence.json`, `convergence_profile.csv`, `convergence_768_*.exr` 두 파일이 근거를 보존합니다. `plot_convergence.py`는 `Resolution-Check.png`를 만듭니다. 원래 전체 조건 행렬의 JSON, CSV, 측정 blend는 전후 SHA-256을 검사했고 그대로였습니다.
 
-## Portable evidence copies
+## 이식 가능한 근거 사본
 
-Publication copies omit machine-local path metadata. The two convergence EXRs
-replace only the `File` string attribute with a padded `<untitled>` value; every
-other header byte, offset table and compressed channel/pixel payload is unchanged.
-Original and publication hashes are recorded in `metadata_provenance.json`. The
-eight original full-matrix EXRs remain byte-identical. PNG decoded pixels are
-unchanged after removing text metadata; saved Blender browser paths are relative.
+공개 사본은 기기 로컬 경로 메타데이터를 제외합니다. 수렴 검사 EXR 두 개는 `File` 문자열 속성만 패딩한 `<untitled>` 값으로 바꾸며, 다른 모든 헤더 바이트, 오프셋 테이블, 압축 채널/픽셀 페이로드는 그대로입니다. 원본과 공개 해시는 `metadata_provenance.json`에 기록합니다. 원래 전체 조건 행렬의 EXR 여덟 개는 바이트 단위로 동일합니다. PNG 텍스트 메타데이터를 제거한 뒤에도 디코딩 픽셀은 그대로이며, 저장된 Blender 탐색기 경로는 상대 경로입니다.

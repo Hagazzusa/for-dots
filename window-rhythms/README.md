@@ -1,31 +1,31 @@
 # 차창 밖의 박자 / Window Rhythms
 
-**38 seconds inside a parked car, while the rain goes on without you.**
+**주차된 차 안에서 보내는 38초. 비는 당신과 상관없이 계속 내립니다.**
 
-An original procedural audio miniature: irregular soft droplets on glass, a narrow stereo field, and two distant road-wash swells. The rain thins out between clusters; nothing arrives that needs an answer. No recordings, speech, borrowed music, external assets, or binaural effects are used. This is an art study, not a therapeutic or sleep product.
+독창적인 절차적 오디오 소품입니다. 유리 위의 불규칙하고 부드러운 물방울, 좁은 스테레오 공간, 멀리서 두 번 부풀었다 사라지는 젖은 도로 소리를 담았습니다. 빗방울 무리 사이에는 비가 잦아들고, 답을 요구하는 것은 찾아오지 않습니다. 녹음, 말소리, 빌려 온 음악, 외부 에셋, 바이노럴 효과를 사용하지 않았습니다. 치료·수면 제품이 아닌 예술 연구입니다.
 
-## Listen
+## 듣기
 
-- `window_rhythms_preview.mp3` — 128 kb/s stereo preview, about 595 KiB.
-- `window_rhythms.wav` — 48 kHz, stereo, 16-bit PCM master, about 7 MiB.
+- `window_rhythms_preview.mp3` — 128 kb/s 스테레오 미리보기, 약 595 KiB.
+- `window_rhythms.wav` — 48 kHz, 스테레오, 16비트 PCM 마스터, 약 7 MiB.
 
-Start with your device volume low and adjust comfortably. Restrained digital levels do **not** guarantee a safe physical listening level; the playback device and volume still matter. Nothing autoplays.
+기기 음량을 낮게 시작해 편안하게 조절하세요. 절제된 디지털 레벨이 안전한 실제 청취 음량을 보장하지는 **않습니다**. 재생 기기와 음량이 여전히 중요합니다. 자동 재생하지 않습니다.
 
-## Little score
+## 작은 악보
 
-| Time | Gesture |
+| 시간 | 움직임 |
 |---|---|
-| 0–6 s | A slow entrance and the first loose gathering of droplets |
-| 6–14 s | Another gathering, then distant tires swelling and receding |
-| 14–21 s | A few closer drops; room for the background to fall away |
-| 21–30 s | Rain returns; a second road wash passes outside |
-| 30–38 s | Final scatter, then a three-second fade to zero |
+| 0–6 s | 천천히 시작하며 첫 물방울 무리가 느슨하게 모임 |
+| 6–14 s | 또 한 무리가 모인 뒤 멀리서 타이어 소리가 커졌다 사라짐 |
+| 14–21 s | 조금 더 가까운 물방울 몇 개와 배경이 물러날 여백 |
+| 21–30 s | 비가 돌아오고 바깥에서 두 번째 도로 소리가 지나감 |
+| 30–38 s | 마지막 물방울이 흩어진 뒤 3초에 걸쳐 0으로 사라짐 |
 
-Each droplet is a seeded, band-limited noise burst with a small decaying glass resonance and a 3–7 ms rounded attack. The road layer combines shared and quieter independent stereo noise, filtered above the deep bass region. A final 110 Hz high-pass filter removes DC/deep low-frequency energy. The whole piece has a 2.4-second fade-in and 3-second fade-out. There is no repeating music grid and no added reverb tail.
+각 물방울은 시드가 고정된 대역 제한 노이즈 버스트로, 작게 감쇠하는 유리 공명과 3–7 ms의 둥근 어택을 갖습니다. 도로 레이어는 공통 노이즈와 더 조용한 독립 스테레오 노이즈를 결합하고 초저음 영역 위로 필터링합니다. 마지막 110 Hz 하이패스 필터가 DC/깊은 저주파 에너지를 제거합니다. 곡 전체에는 2.4초 페이드인과 3초 페이드아웃이 있습니다. 반복되는 음악 격자나 추가한 잔향 꼬리는 없습니다.
 
-## Rebuild
+## 다시 만들기
 
-Requires Python 3.10+, NumPy, SciPy, and FFmpeg with `libmp3lame`. No downloads or network calls occur in the builder.
+Python 3.10+, NumPy, SciPy와 `libmp3lame`이 포함된 FFmpeg가 필요합니다. 빌더에서 다운로드나 네트워크 호출은 하지 않습니다.
 
 ```sh
 python -m pip install numpy scipy  # only if absent; requires package access
@@ -34,39 +34,39 @@ python build.py
 python build.py --out /tmp/window-rhythms-check
 ```
 
-The script fixes the random seed (`20261102`) and limits numerical-library/FFmpeg worker threads. It renders one process at a time, sets linear gain from a measured first pass, writes the master, encodes the preview, decodes and inspects that preview, and regenerates the score, waveform and QA. No limiter or compressor is applied. Exact hashes are reproducible with the same NumPy/SciPy/FFmpeg versions; codecs/library changes can alter the bytes. `requirements.txt` records the tested Python library versions, and `qa.json` records the FFmpeg build.
+스크립트는 난수 시드(`20261102`)를 고정하고 수치 라이브러리/FFmpeg 작업 스레드를 제한합니다. 한 번에 한 프로세스를 렌더링하며, 첫 측정으로 선형 게인을 정하고, 마스터 저장, 미리보기 인코딩, 미리보기 디코딩과 검사, 악보·파형·품질 검사 재생성을 수행합니다. 리미터나 컴프레서는 적용하지 않습니다. 같은 NumPy/SciPy/FFmpeg 버전에서는 정확한 해시를 재현할 수 있으며, 코덱/라이브러리가 바뀌면 바이트가 달라질 수 있습니다. `requirements.txt`에는 시험한 Python 라이브러리 버전이, `qa.json`에는 FFmpeg 빌드가 기록되어 있습니다.
 
-## Verification
+## 검증
 
-**Numerical review only; this work has not been perceptually auditioned.** A waveform or a loudness measurement cannot verify that synthesized rain sounds convincing, pleasant, or free of perceptually distracting details. The environment's Dummy audio backend is not a listening review.
+**수치 검토만 했으며, 직접 청취 검증은 하지 못했습니다.** 파형이나 음량 측정으로 합성 빗소리의 설득력, 쾌적함, 청각적으로 거슬리는 세부 요소가 없음을 검증할 수 없습니다. 환경의 Dummy 오디오 백엔드는 청취 검증이 아닙니다.
 
-| Measurement | WAV | Decoded MP3 |
+| 측정 | WAV | 디코딩한 MP3 |
 |---|---:|---:|
-| Duration | 38.000 s | 38.000 s |
-| Integrated loudness | −26.00 LUFS | −26.42 LUFS |
-| True peak | −10.06 dBTP | −10.96 dBTP |
-| Loudness range | 10.00 LU | 10.00 LU |
-| Clipped samples | 0 | 0 |
-| L/R correlation | 0.954 | 0.949 |
-| Maximum absolute channel DC mean | 5.96e−9 | 3.35e−7 |
-| Power below 80 Hz | 0.00232% | 0.00269% |
+| 길이 | 38.000 s | 38.000 s |
+| 통합 음량 | −26.00 LUFS | −26.42 LUFS |
+| 트루 피크 | −10.06 dBTP | −10.96 dBTP |
+| 음량 범위 | 10.00 LU | 10.00 LU |
+| 클리핑 샘플 | 0 | 0 |
+| 좌/우 상관도 | 0.954 | 0.949 |
+| 채널 DC 평균의 최대 절댓값 | 5.96e−9 | 3.35e−7 |
+| 80 Hz 아래 전력 | 0.00232% | 0.00269% |
 
-Both channels begin and end at exact zero. The left/right RMS difference is under 0.1 dB. The correlated stereo image avoids phase-inverted channels and has strong mono compatibility. Every sample is finite. Assertions enforce duration, clipping, DC, deep-bass energy, peak and integrated-loudness bounds.
+두 채널은 정확히 0에서 시작하고 끝납니다. 좌우 RMS 차이는 0.1 dB 미만입니다. 상관된 스테레오 이미지는 위상 반전 채널을 피하며 모노 호환성이 높습니다. 모든 샘플은 유한합니다. 단언문은 길이, 클리핑, DC, 초저음 에너지, 피크, 통합 음량의 한계를 검사합니다.
 
-`qa.json` holds the actual samples/codec measurements and audio SHA-256 hashes; `score.json` holds all 66 drop onsets, durations and pans. `waveform.svg` displays a full-scale min/max waveform (not an autoscaled drawing). `reproducibility.json` records the independent repeated-build comparison.
+`qa.json`에는 실제 샘플/코덱 측정과 오디오 SHA-256 해시가, `score.json`에는 물방울 66개의 시작 시점, 길이, 팬 위치가 있습니다. `waveform.svg`는 전체 스케일 최소/최대 파형을 표시하며 자동 축척 그림이 아닙니다. `reproducibility.json`에는 독립적인 반복 빌드 비교가 기록되어 있습니다.
 
-The `*_ffmpeg_loudnorm` entries retain FFmpeg's complete measurement report. **Only `input_*` describes the delivered audio.** `output_*` describes the analysis filter's discarded output; the delivered files do not use that dynamic normalization.
+`*_ffmpeg_loudnorm` 항목은 FFmpeg의 전체 측정 보고서를 보존합니다. **제공한 오디오를 설명하는 것은 `input_*`뿐입니다.** `output_*`는 분석 필터의 버린 출력을 설명하며, 제공 파일에는 그 동적 정규화를 사용하지 않았습니다.
 
-## Files
+## 파일
 
-- `build.py` — entire procedural instrument and verifier
-- `requirements.txt` — tested Python dependency versions
-- WAV / MP3 — master and small preview
-- `score.json` / `qa.json` / `reproducibility.json` — reproducible event data and numerical evidence
-- `waveform.svg` — lightweight stereo waveform overview
+- `build.py` — 전체 절차적 악기와 검증기
+- `requirements.txt` — 시험한 Python 의존성 버전
+- WAV / MP3 — 마스터와 작은 미리보기
+- `score.json` / `qa.json` / `reproducibility.json` — 재현 가능한 이벤트 데이터와 수치 근거
+- `waveform.svg` — 가벼운 스테레오 파형 개요
 
-No game project was modified. No external asset licenses are needed for this self-generated piece.
+게임 프로젝트는 변경하지 않았습니다. 자체 생성한 작품이므로 외부 에셋 라이선스가 필요하지 않습니다.
 
-### Supplemental playback check
+### 추가 재생 검사
 
-Run `python verify_playback.py` to regenerate `playback_qa.json` without changing the audio. Mono folding changes RMS by only −0.102 dB (WAV) / −0.112 dB (MP3), with no substantial cancellation. FFmpeg gapless MP3 decoding returns exactly 1,824,000 frames, matching the WAV. Both first and last 10 ms windows are exact digital silence in both files (the report's −300 dBFS is a finite logging floor for zero). Gapless behavior in other players is not verified. Low-frequency energy and stereo correlation are already covered in the main QA above. No perceptual listening review was possible.
+`python verify_playback.py`를 실행하면 오디오를 바꾸지 않고 `playback_qa.json`을 다시 생성합니다. 모노 합산에 따른 RMS 변화는 −0.102 dB(WAV) / −0.112 dB(MP3)에 불과하며 상당한 상쇄가 없습니다. FFmpeg의 갭리스 MP3 디코딩은 WAV와 일치하는 정확히 1,824,000프레임을 반환합니다. 두 파일 모두 처음과 마지막 10 ms 구간이 정확한 디지털 무음입니다. 보고서의 −300 dBFS는 0을 기록하기 위한 유한한 하한값입니다. 다른 플레이어의 갭리스 동작은 검증하지 않았습니다. 저주파 에너지와 스테레오 상관도는 위의 주 품질 검사에서 이미 다룹니다. 직접 청취 검증은 할 수 없었습니다.

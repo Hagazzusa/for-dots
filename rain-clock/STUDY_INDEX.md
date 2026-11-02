@@ -1,84 +1,84 @@
-# 비를 세는 창 / Rain Clock — research index
+# 비를 세는 창 / Rain Clock — 연구 안내
 
-A virtual desk sculpture about rhythm, not timekeeping. The original warm window and rain-bead rings developed into several **unvalidated mechanical concepts**. This index closes the current research chain rather than selecting fabrication hardware.
+시간 측정이 아니라 리듬을 다루는 가상 탁상 조각입니다. 원래의 따뜻한 창과 빗방울 구슬 고리는 여러 **검증되지 않은 기계 콘셉트**로 발전했습니다. 이 안내는 제작용 하드웨어를 선정하는 대신 현재 연구의 흐름을 마무리합니다.
 
-**Current visual preference:** [foreground window](mechanism/front_facade/README.md), provided hiding one or two lower beads is acceptable. It eliminates the long rotating braces while keeping the quiet window character. Otherwise a visibly supported hub is the more honest aesthetic choice. Neither option is manufacture-ready.
+**현재 시각적 선호:** 아래쪽 구슬 한두 개가 가려져도 괜찮다면 [앞쪽 창](mechanism/front_facade/README.md)입니다. 긴 회전 버팀대를 없애면서 조용한 창의 성격을 유지합니다. 그렇지 않다면 지지 구조가 드러나는 허브를 미적 선택으로 삼는 편이 더 정직합니다. 어느 쪽도 제조 준비가 끝난 상태는 아닙니다.
 
-## Read in this order
+## 읽는 순서
 
-| Study | What it establishes | What it does not establish |
+| 연구 | 확인하는 것 | 확인하지 않는 것 |
 |---|---|---|
-| [Original virtual art](README.md) · [still](rain_clock_still.png) · [8-second loop](rain_clock_loop.mp4) | Original editable procedural artwork; named scene and matching animation endpoint poses | Physical supports, a functioning clock or a proven mechanism |
-| [Nominal rim guide](mechanism/README.md) · [diagram](mechanism/section_diagram.png) | Valid modeled solids; **invariant** 16 mm Y-interval separation from the shelter under the specified Y rotation; six nominal guide-contact checks | Full collision freedom, useful fabrication tolerances, stiffness or safe capture |
-| [Sensitivity](mechanism/sensitivity/README.md) · [plot](mechanism/sensitivity/sensitivity_plot.png) | Deterministic hypothetical error envelopes, first-order recentering model and nonlinear spot checks | Measured manufacturing distributions, actual follower behavior or loaded equilibrium |
-| [Cartridge/load path](mechanism/cartridge/README.md) · [free-body](mechanism/cartridge/load_path.png) | Normalized symmetric force/moment algebra; **sampled** contact-constrained travel and local stop envelopes | Selected preload, torque balance, reliable return or ring retention |
-| [Bounded escape search](mechanism/escape/README.md) · [plot](mechanism/escape/reachable_components.png) | **Inconclusive** finite-grid investigation using actual finite-width BRep guide/track solids | Absence of a continuous escape path, full-assembly escape or safety |
-| [Rear axle / original window](mechanism/axle_comparison/README.md) · [view](mechanism/axle_comparison/rear_axle_quarter.png) | Sampled geometric concealment/collision comparison; independent hub concept | A mechanically superior solution: long 97/144 mm links create unresolved leverage |
-| [Foreground facade](mechanism/front_facade/README.md) · [front](mechanism/front_facade/front_facade_front.png) · [quarter](mechanism/front_facade/front_facade_quarter.png) | Zero rotating forward links; 14 mm bead offsets; sampled window clearance and deliberate bead occlusion | Bearing ratings, structural integrity, complete motion proof or fabrication readiness |
+| [원본 가상 작품](README.md) · [정지 이미지](rain_clock_still.png) · [8초 반복 영상](rain_clock_loop.mp4) | 편집 가능한 독창적 절차적 작품, 이름 있는 장면, 일치하는 애니메이션 양 끝 자세 | 물리적 지지, 작동하는 시계, 검증된 기구 |
+| [명목 림 가이드](mechanism/README.md) · [도해](mechanism/section_diagram.png) | 유효한 모델 솔리드, 지정된 Y축 회전에서 쉼터와 **불변인** 16 mm Y구간 분리, 명목 가이드 접촉 검사 여섯 개 | 전체 충돌 없음, 유효한 제조 공차, 강성, 안전한 이탈 방지 |
+| [민감도](mechanism/sensitivity/README.md) · [그래프](mechanism/sensitivity/sensitivity_plot.png) | 결정론적 가상 오차 포락선, 1차 중심 재정렬 모델, 비선형 표본 검사 | 측정된 제조 분포, 실제 종동자 거동, 하중 상태의 평형 |
+| [카트리지/하중 경로](mechanism/cartridge/README.md) · [자유물체도](mechanism/cartridge/load_path.png) | 정규화한 대칭 힘/모멘트 대수, **표본으로 검사한** 접촉 구속 이동 및 로컬 스토퍼 포락선 | 선정된 예압, 토크 평형, 신뢰할 수 있는 복귀, 고리 이탈 방지 |
+| [범위 제한 이탈 탐색](mechanism/escape/README.md) · [그래프](mechanism/escape/reachable_components.png) | 실제 유한 폭 BRep 가이드/트랙 솔리드를 사용한 **결론 미정의** 유한 격자 조사 | 연속 이탈 경로의 부재, 전체 조립체의 이탈, 안전성 |
+| [뒤쪽 축 / 원래 창](mechanism/axle_comparison/README.md) · [보기](mechanism/axle_comparison/rear_axle_quarter.png) | 표본 기하학적 은폐/충돌 비교, 독립 허브 콘셉트 | 기계적으로 우월한 해결책: 긴 97/144 mm 링크의 지레 작용은 미해결 |
+| [앞쪽 외관](mechanism/front_facade/README.md) · [정면](mechanism/front_facade/front_facade_front.png) · [사선](mechanism/front_facade/front_facade_quarter.png) | 회전하는 전방 링크 없음, 14 mm 구슬 오프셋, 표본 창 간격과 의도적 구슬 가림 | 베어링 정격, 구조적 건전성, 전체 운동 증명, 제작 준비 완료 |
 
-## Evidence vocabulary — keep the distinctions
+## 근거 용어 — 구분을 유지하기
 
-- **Invariant geometry:** the nominal rim study's moving and shelter solids occupy disjoint Y intervals; the specified Y-axis rotation preserves those intervals. This narrow statement applies to that unchanged model. It is not a general mechanical validation.
-- **Exact BRep operation:** the geometry kernel intersected the supplied solids. A polygonized lobed profile is still an approximation to a smooth profile; a kernel result is not a physical test.
-- **Sampled geometry:** only specified angles, phases, poses and pairs were evaluated. Minima and maxima from those samples are not continuous guarantees.
-- **Model equilibrium:** algebra balances an idealized symmetric free-body. The cartridge's side-tab torque, friction, real COM and response remain unresolved.
-- **Inconclusive search:** the escape search found no endpoint in 582 grid tests plus 212 midpoint checks. Restricted motion directions, approximate follower response and graph connectivity prevent an absence proof.
-- **Unvalidated hardware:** applies to every study, including the preferred visual concept.
+- **불변 기하 조건:** 명목 림 연구의 움직이는 솔리드와 쉼터 솔리드는 겹치지 않는 Y구간을 차지하며, 지정된 Y축 회전은 그 구간을 보존합니다. 이 좁은 진술은 변경하지 않은 해당 모델에 적용됩니다. 일반적인 기계 검증이 아닙니다.
+- **정확한 BRep 연산:** 지오메트리 커널이 주어진 솔리드의 교집합을 계산했습니다. 다각형으로 만든 로브 프로파일은 여전히 매끄러운 프로파일의 근사이며, 커널 결과는 물리 실험이 아닙니다.
+- **표본 기하 검사:** 지정한 각도, 위상, 자세, 쌍만 평가했습니다. 표본의 최솟값과 최댓값은 연속적인 보장이 아닙니다.
+- **모델 평형:** 대수로 이상화된 대칭 자유물체의 평형을 맞춥니다. 카트리지의 옆 손잡이 토크, 마찰, 실제 질량 중심, 응답은 미해결입니다.
+- **결론 미정 탐색:** 이탈 탐색은 격자 검사 582개와 중점 검사 212개에서 끝점에 도달하지 못했습니다. 제한된 운동 방향, 근사 종동자 응답, 그래프 연결성 때문에 경로 부재를 증명할 수 없습니다.
+- **미검증 하드웨어:** 선호하는 시각 콘셉트를 포함한 모든 연구에 해당합니다.
 
-Two corrections matter when reading earlier snapshots:
+이전 스냅샷을 읽을 때 중요한 정정 두 가지가 있습니다.
 
-1. The sensitivity study's approximately 0.080° outer tilt value is a conservative fixed-center/full-circumference envelope—not the onset of contact in a loaded three-guide mechanism.
-2. Positive clearance is not support. Front-offset weight pitches the ring into axial reactions; a follower stuck outward had only about 0.248 mm projected lip overlap in the tested example. Neither that overlap nor the later no-path search proves retention.
+1. 민감도 연구의 약 0.080° 외측 기울기 값은 고정 중심/전체 원주에 대한 보수적 포락선이지, 하중을 받는 3가이드 기구에서 접촉이 시작되는 값이 아닙니다.
+2. 양의 간격은 지지를 뜻하지 않습니다. 앞쪽으로 치우친 무게는 고리를 기울여 축방향 반력을 발생시킵니다. 바깥쪽에 고착된 종동자는 검사한 예에서 투영된 턱 겹침이 약 0.248 mm뿐이었습니다. 그 겹침도, 이후 경로를 찾지 못한 탐색도 이탈 방지를 증명하지 않습니다.
 
-The original bead/sill overlap estimate used a smooth-ellipsoid/unbeveled-box reconstruction, not the exact original Blender mesh.
+원래 구슬/창턱 겹침 추정은 매끄러운 타원체/베벨 없는 상자로 재구성한 모델을 사용했으며, 정확한 원본 Blender 메시가 아닙니다.
 
-## Validate this preserved checkpoint without rebuilding or rendering
+## 다시 빌드하거나 렌더링하지 않고 보존된 체크포인트 검증하기
 
-From the study root:
+연구 루트에서 실행합니다.
 
 ```sh
 python consolidation/validate.py --negative-test
 ```
 
-The command uses the Python standard library, reads files/results, checks syntax, JSON contracts, PNG CRCs, CAD ZIP/XML integrity and object counts, relative project dependencies, and optional video metadata. It intentionally rejects an unsupported `manufacture_ready` evidence label and a path-traversal fixture.
+이 명령은 Python 표준 라이브러리로 파일/결과를 읽고, 문법, JSON 계약, PNG CRC, CAD ZIP/XML 무결성과 객체 수, 상대 프로젝트 의존성, 선택적 영상 메타데이터를 검사합니다. 지원하지 않는 `manufacture_ready` 근거 라벨과 경로 탈출 픽스처는 의도적으로 거부합니다.
 
-**It does not rerun CAD, recompute the research, render images, or certify hardware.** The reported evidence is checked for integrity and consistency, not independently proved.
+**CAD 재실행, 연구 재계산, 이미지 렌더링, 하드웨어 인증은 하지 않습니다.** 보고된 근거의 무결성과 일관성을 검사할 뿐, 독립적으로 증명하지는 않습니다.
 
-### Reproduce a study only in a working copy
+### 연구 재현은 작업용 복사본에서만
 
-Each study README names its build script. Builders overwrite their generated outputs and may reset evidence files; copy the tree first if preserving this checkpoint. `preview_mesh.json` files are intentionally absent and regenerated by CAD builders. The two local `.blend` caches can also be regenerated and are excluded from the portable backup payload. The duplicate GIF is optional and was intentionally omitted from the public repository; the validator reports that omission without failing. A manifest still requires every file it explicitly lists.
+각 연구 README에 빌드 스크립트 이름이 있습니다. 빌더는 생성 결과물을 덮어쓰고 근거 파일을 초기화할 수 있으므로, 이 체크포인트를 보존하려면 먼저 트리를 복사하세요. `preview_mesh.json` 파일은 의도적으로 없으며 CAD 빌더가 다시 생성합니다. 로컬 `.blend` 캐시 두 개도 재생성 가능하므로 이동 가능한 백업 내용에서 제외합니다. 중복 GIF는 선택 사항이며 공개 저장소에서 의도적으로 생략했습니다. 검증기는 누락을 알리지만 실패로 처리하지 않습니다. 단, 매니페스트에 명시적으로 기재된 파일은 모두 있어야 합니다.
 
-Runtime portability is explicit, not overstated:
+실행 이식성은 다음과 같이 명시하며 과장하지 않습니다.
 
-- Project-data dependencies use the preserved relative tree.
-- Historical CAD scripts target this Linux installation of FreeCAD through its Python API; adapt the interpreter/module locations on another platform. The local `freecadcmd` launcher crashed, while API builds worked.
-- Blender 4.3.2 was used, CPU renders capped at two threads; denoising was disabled because this build lacks OpenImageDenoise.
-- Numerical/plot scripts require NumPy, SciPy and Matplotlib; their Linux cache directory is a runtime setting.
+- 프로젝트 데이터 의존성은 보존된 상대 경로 트리를 사용합니다.
+- 과거 CAD 스크립트는 이 Linux 설치의 FreeCAD Python API를 대상으로 합니다. 다른 플랫폼에서는 인터프리터/모듈 위치를 조정하세요. 로컬 `freecadcmd` 실행기는 충돌했지만 API 빌드는 작동했습니다.
+- Blender 4.3.2를 사용했고 CPU 렌더링은 스레드 두 개로 제한했습니다. 이 빌드에는 OpenImageDenoise가 없어 노이즈 제거를 껐습니다.
+- 수치/그래프 스크립트에는 NumPy, SciPy, Matplotlib이 필요합니다. Linux 캐시 디렉터리는 실행 환경 설정입니다.
 
-## Prepare a local backup payload
+## 로컬 백업 내용 준비하기
 
 ```sh
 python consolidation/prepare_backup.py
 ```
 
-This creates a **new sibling directory**, refuses to overwrite an existing stage, copies only cataloged deliverables, and removes private path metadata from PNG copies while verifying identical IDAT bytes. Originals and historical results stay unchanged. It excludes bytecode, transient meshes and regenerable `.blend` caches with machine-specific output paths.
+이 명령은 **새 형제 디렉터리**를 만들고 기존 준비 디렉터리 덮어쓰기를 거부합니다. 목록에 있는 산출물만 복사하고, IDAT 바이트가 동일한지 확인하면서 PNG 복사본의 비공개 경로 메타데이터를 제거합니다. 원본과 과거 결과는 바꾸지 않습니다. 바이트코드, 임시 메시, 장치별 출력 경로를 가진 재생성 가능한 `.blend` 캐시는 제외합니다.
 
-The stage contains:
+준비 디렉터리에 포함되는 파일:
 
-- `BACKUP_MANIFEST.json`: exact relative filenames, byte sizes, SHA-256 hashes and source/transformation provenance for the full local archive.
-- `PUBLICATION_DELTA.json`: only the newly completed study folders plus this index/consolidation files; existing published studies are not implicitly overwritten.
-- `VALIDATION_REPORT.json`: the lightweight audit result before final manifest hashing.
+- `BACKUP_MANIFEST.json`: 전체 로컬 아카이브의 정확한 상대 파일명, 바이트 크기, SHA-256 해시, 소스/변환 출처.
+- `PUBLICATION_DELTA.json`: 새로 완료한 연구 폴더와 이 안내/통합 파일만 포함. 기존 공개 연구를 암묵적으로 덮어쓰지 않습니다.
+- `VALIDATION_REPORT.json`: 최종 목록 해시 계산 전에 수행한 경량 감사 결과.
 
-To verify the staged bytes:
+준비된 바이트 검증:
 
 ```sh
 python consolidation/validate.py --negative-test --manifest BACKUP_MANIFEST.json
 ```
 
-A backup-ready manifest describes local bytes, not remote repository state. Check the repository commit and file hashes separately.
+백업 준비 목록은 로컬 바이트를 설명하며, 원격 저장소 상태를 뜻하지 않습니다. 저장소 커밋과 파일 해시는 별도로 확인하세요.
 
-## Project provenance and validation status
+## 프로젝트 출처와 검증 상태
 
-These original geometric studies were completed on 2026-11-02. Earlier READMEs are frozen creation-time snapshots; local-only wording describes the state at creation. The source scripts, result files and CAD remain preserved with their stated limitations.
+이 독창적인 기하 연구들은 2026-11-02에 완료했습니다. 이전 README는 제작 당시를 고정해 기록한 스냅샷이며, 로컬 작업만 했다는 문구는 제작 시점의 상태를 설명합니다. 소스 스크립트, 결과 파일, CAD는 명시된 한계와 함께 보존됩니다.
 
-The index consolidates completed evidence without recomputing CAD or certifying hardware. The bounded escape investigation remains inconclusive; sampled clearances are not continuous guarantees. No fabrication readiness, safe retention or physical performance is established.
+이 안내는 CAD를 다시 계산하거나 하드웨어를 인증하지 않고 완료된 근거를 모았습니다. 범위 제한 이탈 조사는 여전히 결론 미정이며, 표본 간격은 연속적인 보장이 아닙니다. 제작 준비 완료, 안전한 이탈 방지, 물리 성능은 입증되지 않았습니다.

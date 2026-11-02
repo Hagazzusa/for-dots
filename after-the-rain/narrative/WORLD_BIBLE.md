@@ -1,66 +1,66 @@
 # Rainy Town · 비가 그치기 전
 
-Narrative continuity for *After the Rain*, *Glass Refuge*, and *Beside You*.
-Reconciled against the playable shared-evening checkpoint `9f6165c30b83d68415bae7053312344880c546f2`.
-**Author truth** is fictional background; **implemented** means present in resources or runtime, not necessarily a literal animation. Future details are not shipped features.
+*After the Rain*, *Glass Refuge*, *Beside You*의 이야기 연속성을 정리합니다.
+플레이 가능한 공동 저녁 체크포인트 `9f6165c30b83d68415bae7053312344880c546f2`와 대조해 조정했습니다.
+**설정상 사실**은 가상의 배경이며, **구현됨**은 리소스나 런타임에 존재한다는 뜻이지 반드시 실제 애니메이션을 뜻하지는 않습니다. 향후 세부 사항은 배포된 기능이 아닙니다.
 
-## The evening and the street
+## 저녁과 거리
 
-- The opening is **23:40 on an unspecified fictional local holiday**; no real date or holiday is implied. The player's work/walk reason remains optional.
-- Route 08 remains **this stop → Market Street → Riverside → terminus**. Its first arrival is after 75 seconds; later buses repeat. It is not a last-bus emergency.
-- The flower shop faces the original stop. The refuge is in the reachable behind/right-side extension; the parked car is farther right. Neither adds a bus stop or changes the passenger's destination.
-- There are **two playable resting places total**: the original stop bench and the new refuge bench. The car's two front seats belong to its two adult occupants and are not player seats.
-- The refuge is dry and walk-in; cocoa, sitting, quiet waiting and local standing work there. Exploration, reading, waving and lending remain optional. No clue collection gates the ride or ending.
+- 시작 시점은 **이름을 정하지 않은 가상의 지역 휴일, 23:40**입니다. 실제 날짜나 휴일을 뜻하지 않습니다. 플레이어의 일/산책 이유는 선택 사항입니다.
+- 08번 노선은 **이 정류장 → Market Street → Riverside → 종점**을 유지합니다. 첫 도착은 75초 후이며, 이후 버스가 반복 운행합니다. 막차를 서둘러 잡아야 하는 상황이 아닙니다.
+- 꽃집은 원래 정류장 맞은편에 있습니다. 쉼터는 걸어갈 수 있는 뒤쪽/오른쪽 확장 구역에 있고, 주차된 차는 더 오른쪽에 있습니다. 둘 다 버스 정류장을 추가하거나 승객의 목적지를 바꾸지 않습니다.
+- **플레이어가 쉴 수 있는 자리는 총 두 곳**입니다. 원래 정류장 벤치와 새 쉼터 벤치입니다. 차의 앞좌석 두 개는 성인 탑승자 두 명의 자리이며 플레이어 좌석이 아닙니다.
+- 쉼터에는 걸어 들어가 비를 피할 수 있고, 코코아 마시기, 앉기, 조용히 기다리기, 그 자리에서 일어서기가 가능합니다. 탐색, 읽기, 손인사, 빌려주기는 선택 사항입니다. 단서를 모아야 승차하거나 결말에 도달하는 구조가 아닙니다.
 
-## Three small reasons
+## 세 가지 작은 이유
 
-### The car
+### 차
 
-**Author truth:** An older sister has helped her younger brother move into his first place of his own nearby. The last box is upstairs. He came back down to return a moving strap, and they are postponing an ordinary goodbye for a few minutes. They are not estranged or awaiting bad news. Her hands stay off the wheel. The silence needs no diagnosis and implies no forced romance.
+**설정상 사실:** 누나는 남동생이 근처의 첫 독립 공간으로 이사하는 일을 도왔습니다. 마지막 상자는 위층에 있습니다. 동생은 이삿짐 끈을 돌려주러 다시 내려왔고, 두 사람은 평범한 작별을 몇 분 미루고 있습니다. 소원해진 사이도, 나쁜 소식을 기다리는 중도 아닙니다. 누나의 손은 운전대에서 떨어져 있습니다. 침묵을 진단할 필요는 없으며, 억지스러운 연애 관계를 암시하지도 않습니다.
 
-**Implemented:** Exactly two seated adults, a flattened moving carton, a small dashboard card, warm cabin light, very slight breathing motion and a synthetic heater loop. The readable card ends “— 누나,” revealing the relationship through an optional clue. Its complete wording is in the accessible reader, not legible handwritten geometry. The player observes from outside the passenger-side window; there is no car entry, driving, dialogue performance or forced scene.
+**구현됨:** 앉아 있는 성인 정확히 두 명, 납작하게 접은 이삿짐 상자, 대시보드의 작은 카드, 따뜻한 실내 조명, 아주 미세한 호흡 움직임, 합성 히터 루프가 있습니다. 읽을 수 있는 카드는 “— 누나”로 끝나며 선택적 단서로 관계를 드러냅니다. 전문은 접근 가능한 읽기 창에 있고, 읽을 수 있는 손글씨 지오메트리는 아닙니다. 플레이어는 조수석 창 밖에서 관찰하며, 차에 들어가기, 운전, 대화 연기, 강제 장면은 없습니다.
 
-**Not implemented:** A moving strap prop or a hand loosening around it. The original gesture remains a future detail, not an animation claim. Names, future visits and the precise emotion of either sibling remain unstated. *Beside You* is the interior listening perspective on this same parked interval, not a second trip or an assertion that its source audio was imported into the game.
+**미구현:** 이삿짐 끈 소품이나 그것을 잡은 손이 느슨해지는 동작은 없습니다. 원래의 몸짓은 향후 세부 사항이지, 구현된 애니메이션이 아닙니다. 이름, 다음 방문, 남매 각자의 정확한 감정은 명시하지 않습니다. *Beside You*는 이와 같은 정차 시간의 실내 청취 관점이며, 별도의 두 번째 여행도 아니고 원본 오디오를 게임으로 가져왔다는 주장도 아닙니다.
 
-### The flower shop
+### 꽃집
 
-**Author truth:** Closed for ordinary trade on the holiday, the owner keeps one late-pickup promise to a regular customer finishing work. The owner lives upstairs, comes down to tend the reserved bouquet, and leaves the front corner lit. The flowers are for that customer's own table; no death or hidden rendezvous is needed. This customer is neither sibling nor the bread passenger.
+**설정상 사실:** 휴일에는 일반 영업을 쉬지만, 주인은 일을 마치는 단골에게 늦게 꽃을 찾아가도 된다는 약속 하나를 지킵니다. 위층에 사는 주인은 예약된 꽃다발을 돌보러 내려오고, 앞쪽 모퉁이의 불을 켜 둡니다. 꽃은 손님 자신의 식탁을 위한 것이며, 죽음이나 숨겨진 만남은 필요하지 않습니다. 이 손님은 남매 중 누구도, 빵을 든 승객도 아닙니다.
 
-**Implemented:** The closed-shop title, late-pickup note and bouquet/water description are readable. The existing owner work/window/wave/retreat loop, cat and radio remain. The owner retreating from the window does not cancel the promise or reopen the whole shop.
+**구현됨:** 휴무 제목, 늦은 수령 쪽지, 꽃다발/물에 대한 묘사를 읽을 수 있습니다. 기존 주인의 일하기/창가/손인사/물러남 반복, 고양이, 라디오는 유지합니다. 주인이 창가에서 물러난다고 약속을 취소하거나 가게 전체를 다시 여는 것은 아닙니다.
 
-**Not implemented:** A dedicated water-pouring animation or the customer's collection. The narration can describe a small action without claiming an animated simulation. The customer's identity remains private to the fiction.
+**미구현:** 별도의 물 붓기 애니메이션이나 손님의 수령 장면은 없습니다. 서술은 작은 동작을 묘사할 수 있지만, 그것이 애니메이션 시뮬레이션이라는 뜻은 아닙니다. 손님의 정체는 이야기 안에서 드러내지 않습니다.
 
-### The bread passenger
+### 빵을 든 승객
 
-**Author truth:** Two soboro are going home to a spouse who has the kettle ready. Sharing them before bed is a small holiday ritual; catching this bus leaves a little more evening together. Rain on the side glass prompted a brief look toward the road, not a desire to stand soaked or a need to be rescued.
+**설정상 사실:** 소보로 두 개를, 주전자를 준비한 배우자가 있는 집으로 가져갑니다. 자기 전에 나누어 먹는 것은 작은 휴일 의식이며, 이 버스를 타면 함께하는 저녁이 조금 길어집니다. 옆 유리에 흐르는 빗물이 도로를 잠깐 바라보게 했을 뿐, 흠뻑 젖은 채 서 있고 싶거나 구조가 필요한 것은 아닙니다.
 
-**Implemented:** The passenger says someone at home is making tea; the original soboro/crunchy-top anecdote remains. The route response identifies Market Street and explains that they looked out because rain obscured the glass. Their waiting position stays under the roof; the optional loan and existing boarding walk remain unchanged.
+**구현됨:** 승객은 집에서 누군가 차를 준비한다고 말하며, 원래 소보로/바삭한 윗부분 이야기는 유지합니다. 노선 답변은 Market Street를 목적지로 밝히고 빗물로 유리가 가려져 밖을 보았다고 설명합니다. 대기 위치는 지붕 아래를 유지하며, 선택적 우산 대여와 기존 탑승 보행은 바꾸지 않습니다.
 
-**Not implemented:** A separate roof-edge step-and-return animation. The person waiting at home is not identified on screen as a spouse, and the bag's exact contents are not individually modeled. No refusal penalty or urgent deadline is added.
+**미구현:** 별도로 지붕 끝에 다가갔다 돌아오는 애니메이션은 없습니다. 집에서 기다리는 사람이 배우자라는 사실은 화면에서 밝히지 않으며, 가방 내용물을 하나씩 모델링하지 않았습니다. 거절에 대한 불이익이나 촉박한 제한 시간은 추가하지 않습니다.
 
-## Refuge origin and asset identity
+## 쉼터의 기원과 에셋 정체성
 
-**Fictional author canon:** A local carpenter reused panes from a dismantled greenhouse and brought their former home bench to the shelter, repairing it at the workshop. Neighbors supplied cushions and a blanket; the small workshop lamp is left on for walkers. This is not a secret headquarters, and none of the stop's characters must be its founder.
+**설정상 사실:** 동네 목수가 해체된 온실의 유리판을 다시 쓰고, 예전에 집에서 쓰던 벤치를 작업실에서 수리해 쉼터로 가져왔습니다. 이웃들이 쿠션과 담요를 보탰고, 작은 작업실 등은 걷는 사람들을 위해 켜 둡니다. 비밀 본부가 아니며, 정류장의 인물 중 누군가가 반드시 만든 사람일 필요도 없습니다.
 
-**Explicit draft reconciliation:** “Former home bench, repaired at the workshop” is the selected provenance. The earlier draft's “new bench made from spare workshop wood” is retired; workshop wood may be repair material, not a second competing origin. This history is newly authored fiction, not inferred evidence about an actual building.
+**초안 조정의 명시:** 선택한 기원은 “옛 집에서 쓰던 벤치, 작업실에서 수리함”입니다. 이전 초안의 “작업실에 남은 목재로 새로 만든 벤치”는 폐기합니다. 작업실 목재는 수리 재료일 수 있지만, 경쟁하는 두 번째 기원은 아닙니다. 이 역사는 새로 창작한 설정이지 실제 건물에 관한 추론된 증거가 아닙니다.
 
-**Implemented asset:** The game uses the actual derived `assets/refuge/refuge.glb`, preserved from the standalone viewer, with its own collision, dry cover and pendant light. It does not load the high-resolution Blender scene. The derivative has approximate realtime materials; source botanical geometry, landscape and procedural textures are not included. The original concept, editable Blender source and exporter remain distinct artifacts. The car is a stylized original geometry interpretation of its preserved generated concept, not an exact reconstruction or a background image.
+**구현된 에셋:** 게임은 독립 뷰어에서 보존한 실제 파생 `assets/refuge/refuge.glb`에 별도의 충돌체, 비를 막는 영역, 펜던트 조명을 더해 사용합니다. 고해상도 Blender 장면을 불러오지 않습니다. 파생 에셋은 근사적인 실시간 재질을 사용하며, 원본 식물 지오메트리, 풍경, 절차적 텍스처는 포함하지 않습니다. 원본 콘셉트, 편집 가능한 Blender 소스, 내보내기 도구는 서로 구분된 산출물입니다. 차는 보존된 생성 콘셉트를 독자적으로 양식화한 지오메트리 해석이며, 정확한 재구성이나 배경 이미지가 아닙니다.
 
-## Original eight-clue ledger
+## 원래 단서 여덟 개의 기록
 
-The original wording is retained here as an authoring record. Status, not silent replacement, distinguishes what shipped.
+원래 문구를 제작 기록으로 남깁니다. 조용히 대체하지 않고 상태로 실제 배포 내용을 구분합니다.
 
-| ID | Original Korean fragment | Shipped status |
+| ID | 원래 한국어 문구 | 배포 상태 |
 |---|---|---|
-| passenger_glance | 승객이 지붕 끝에서 도로를 살피고 한 걸음 물러선다. 빵 봉투는 비가 닿지 않는 쪽에 안고 있다. | Draft observation; not a separate caption or step animation. |
-| passenger_reason | “집에선 차 끓이고 있대요. 빵이랑 같이 먹으려고요. 그런데 유리에 빗물이 흘러서 버스가 잘 안 보이네요.” | Adapted across opening text and existing route response; no extra choice. |
-| flower_pickup_note | 오늘은 쉽니다. 예약 꽃 찾으실 분께: 늦어도 괜찮아요. 앞쪽 불은 켜 둘게요. | Exact first flower-reader page. |
-| flower_prepared | 포장을 마친 꽃다발 하나가 물통에 꽂혀 있다. 주인은 물을 조금 더 붓고 안쪽으로 들어간다. | Exact second flower-reader page; water action is narration. |
-| car_tableau | 뒷좌석에는 납작하게 접은 이삿짐 상자. 앞자리의 두 사람은 출발하지 않고 비를 듣고 있다. | Exact first car-reader page; carton and occupants exist. |
-| car_card | 첫 집 축하해. 밥 먹으러 와. — 누나 | Exact wording on second car-reader page; physical card has abstract marks. |
-| car_gesture | 조수석의 손에서 짐끈이 느슨해진다. 운전석의 손은 아직 무릎 위에 있다. | Only driver's hands sentence retained; strap omitted. Heater sentence added in runtime. |
-| refuge_lane_note | 작업실 옆 유리 쉼터. 벤치와 담요는 함께 씁니다. 마지막에 나가도 작은 등은 켜 두세요. | Exact refuge-reader page; this is a shared-use notice, not a new bus route. |
+| passenger_glance | 승객이 지붕 끝에서 도로를 살피고 한 걸음 물러선다. 빵 봉투는 비가 닿지 않는 쪽에 안고 있다. | 초안의 관찰 묘사. 별도 자막이나 발걸음 애니메이션은 아님. |
+| passenger_reason | “집에선 차 끓이고 있대요. 빵이랑 같이 먹으려고요. 그런데 유리에 빗물이 흘러서 버스가 잘 안 보이네요.” | 첫 글과 기존 노선 답변에 나누어 반영. 추가 선택지는 없음. |
+| flower_pickup_note | 오늘은 쉽니다. 예약 꽃 찾으실 분께: 늦어도 괜찮아요. 앞쪽 불은 켜 둘게요. | 꽃집 읽기 창 첫 페이지와 정확히 일치. |
+| flower_prepared | 포장을 마친 꽃다발 하나가 물통에 꽂혀 있다. 주인은 물을 조금 더 붓고 안쪽으로 들어간다. | 꽃집 읽기 창 두 번째 페이지와 정확히 일치. 물 붓기는 서술임. |
+| car_tableau | 뒷좌석에는 납작하게 접은 이삿짐 상자. 앞자리의 두 사람은 출발하지 않고 비를 듣고 있다. | 차 읽기 창 첫 페이지와 정확히 일치. 상자와 탑승자가 존재함. |
+| car_card | 첫 집 축하해. 밥 먹으러 와. — 누나 | 차 읽기 창 두 번째 페이지의 정확한 문구. 실제 카드에는 추상적인 표시가 있음. |
+| car_gesture | 조수석의 손에서 짐끈이 느슨해진다. 운전석의 손은 아직 무릎 위에 있다. | 운전자의 손에 관한 문장만 유지. 끈은 생략. 런타임에는 히터 문장을 추가함. |
+| refuge_lane_note | 작업실 옆 유리 쉼터. 벤치와 담요는 함께 씁니다. 마지막에 나가도 작은 등은 켜 두세요. | 쉼터 읽기 창 페이지와 정확히 일치. 공동 사용 안내이며 새 버스 노선이 아님. |
 
-## Tone boundary
+## 분위기의 경계
 
-The works share rain, places and small acts of consideration—not an all-connected tragedy. No character biography derives from a player's personal life. Silence, lending, resting and leaving are equally legitimate choices. Do not describe the fiction as treatment, a test of kindness, or a mystery that must be solved.
+작품들이 공유하는 것은 비, 장소, 작은 배려이지 모든 일이 이어지는 비극이 아닙니다. 어떤 인물의 이력도 플레이어의 개인사에서 가져오지 않습니다. 침묵, 빌려주기, 쉬기, 떠나기는 모두 동등하게 타당한 선택입니다. 이 이야기를 치료, 친절의 시험, 반드시 풀어야 하는 수수께끼로 설명하지 마세요.

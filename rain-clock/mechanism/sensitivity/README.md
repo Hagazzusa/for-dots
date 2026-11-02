@@ -1,115 +1,115 @@
-# Rain Clock · deterministic clearance sensitivity
+# Rain Clock · 결정론적 간격 민감도
 
-## Decision
+## 판단
 
-**Do not freeze the original 0.2 mm groove-side gap as a fabrication tolerance.** In the ideal model, it disappears at only **0.080° outer-track tilt / 0.102° inner-track tilt**, with no other errors. Reserving 0.05 mm axial offset and 0.05 mm sinusoidal axial waviness reduces the outer threshold to **0.040°**.
+**원래 홈 옆 간격 0.2 mm를 제조 공차로 확정하지 마세요.** 이상적 모델에서는 다른 오차가 없어도 **바깥 트랙 기울기 0.080° / 안쪽 트랙 기울기 0.102°**만으로 사라집니다. 축방향 오프셋 0.05 mm와 사인형 축방향 물결 오차 0.05 mm를 따로 배정하면 바깥쪽 임계값은 **0.040°**로 줄어듭니다.
 
-The useful next virtual candidate is an **axially adjustable guide cartridge**, leaving the front beads, ring radii and quiet appearance unchanged. Compare 0.2 / 0.4 / 0.6 mm side-gap envelopes; do not declare one a production fit. Adjust axial alignment before simply opening the gap. Keep radial take-up independently adjustable: a wider axial groove cannot cure radial shape interference.
+다음의 유용한 가상 후보는 앞쪽 구슬, 고리 반지름, 조용한 외관을 바꾸지 않는 **축방향 조정 가능 가이드 카트리지**입니다. 옆 간격 0.2 / 0.4 / 0.6 mm 포락선을 비교하되 어느 하나를 생산용 끼워맞춤으로 선언하지 마세요. 단순히 간격을 넓히기 전에 축방향 정렬을 조정하세요. 반경방향 유격 보정은 독립적으로 조정 가능하게 유지해야 합니다. 축방향 홈을 넓혀도 반경방향 형상 간섭은 해결되지 않습니다.
 
-## What was varied—not measured
+## 측정이 아니라 변화시킨 입력
 
-This is a deterministic what-if grid, **not a manufacturing distribution or estimate of failure probability**. None of these inputs is a known fabrication capability.
+결정론적인 가정 실험 격자이며, **제조 분포나 실패 확률 추정이 아닙니다**. 어떤 입력도 알려진 제작 능력을 뜻하지 않습니다.
 
-- Both track outer contact radii: 143 mm outer / 112 mm inner (different from their 139 / 108 mm centerline radii).
-- Nominal side gap: 0.2, 0.4, 0.6 mm.
-- Axial offset: 0, 0.05, 0.10, 0.20 mm.
-- Sinusoidal axial waviness amplitude: 0, 0.05, 0.10, 0.20 mm. Amplitude means **half peak-to-peak**, not total indicated runout.
-- Track tilt: 0, 0.02, 0.05, 0.10, 0.20 degrees.
-- Roller axial-alignment error bound: 0, 0.05, 0.10, 0.25 mm.
-- Radial examples: a round surface eccentric to a reference, two-lobe ovality, three-lobe shape error, and uniformly oversized radius; amplitudes 0.05, 0.10, 0.25 mm. One roller outward adjustments: 0, 0.10, 0.25 mm.
+- 두 트랙의 바깥 접촉 반지름: 바깥쪽 143 mm / 안쪽 112 mm(중심선 반지름 139 / 108 mm와 다름).
+- 명목 옆 간격: 0.2, 0.4, 0.6 mm.
+- 축방향 오프셋: 0, 0.05, 0.10, 0.20 mm.
+- 사인형 축방향 물결 오차 진폭: 0, 0.05, 0.10, 0.20 mm. 진폭은 **최댓값과 최솟값 차이의 절반**이지 전체 지시 흔들림이 아닙니다.
+- 트랙 기울기: 0, 0.02, 0.05, 0.10, 0.20도.
+- 롤러 축방향 정렬 오차 상한: 0, 0.05, 0.10, 0.25 mm.
+- 반경방향 예: 기준에 대해 편심인 원형 표면, 2로브 타원도, 3로브 형상 오차, 균일하게 큰 반지름. 진폭 0.05, 0.10, 0.25 mm. 롤러 하나의 바깥쪽 조정량: 0, 0.10, 0.25 mm.
 
-There are 1,920 axial scenarios and 5,184 first-order radial scenarios. They are inexpensive equations, not thousands of CAD simulations.
+축방향 시나리오 1,920개와 1차 반경방향 시나리오 5,184개입니다. 저비용 방정식 계산이지 수천 번의 CAD 시뮬레이션이 아닙니다.
 
-## Axial model and failure envelope
+## 축방향 모델과 실패 포락선
 
-With unknown independent phases, a conservative envelope is:
+서로 독립적인 위상을 모를 때 보수적 포락선은 다음과 같습니다. 수식은 원문 그대로 보존했습니다.
 
 `remaining side gap = nominal side gap − |axial offset| − waviness amplitude − R × tan(tilt) − roller alignment error bound`
 
-This sums worst-case contributions; it is not a claim that all peaks coincide in a real ring. The cross-section projection, elastic deformation, contact forces and wear are omitted.
+최악 기여분을 더한 것이며, 실제 고리에서 모든 피크가 일치한다는 주장은 아닙니다. 단면 투영, 탄성 변형, 접촉력, 마모는 생략했습니다.
 
-| Side gap per side | Outer tilt-only zero margin | Inner tilt-only zero margin | Outer zero margin after 0.10 mm reserved for other errors |
+| 한쪽당 옆 간격 | 기울기만 있을 때 바깥쪽 여유 0 | 기울기만 있을 때 안쪽 여유 0 | 다른 오차에 0.10 mm를 배정한 뒤 바깥쪽 여유 0 |
 |---|---:|---:|---:|
 | 0.2 mm | 0.080° | 0.102° | 0.040° |
 | 0.4 mm | 0.160° | 0.205° | 0.120° |
 | 0.6 mm | 0.240° | 0.307° | 0.200° |
 
-Negative margin means overlapping ideal envelopes. Positive margin means geometric room only—not acceptable wobble, retention, smoothness or safety. More gap trades reduced binding risk for greater possible axial freedom.
+음의 여유는 이상적 포락선이 겹친다는 뜻입니다. 양의 여유는 기하학적 공간만 뜻하며, 허용할 만한 흔들림, 이탈 방지, 부드러움, 안전성을 뜻하지 않습니다. 간격을 늘리면 걸림 위험을 줄이는 대신 가능한 축방향 자유도가 커집니다.
 
-## Radial result: do not confuse eccentricity with shape error
+## 반경방향 결과: 편심과 형상 오차를 혼동하지 않기
 
-A rim-guided ring has no central shaft fixing its center. It may translate. A perfectly round running surface eccentric to a decorative/reference center can therefore recenter; its beads may wobble visually, but eccentricity alone is not proof of radial jamming.
+림으로 안내되는 고리에는 중심을 고정하는 중앙 축이 없어 평행 이동할 수 있습니다. 따라서 장식/기준 중심에 대해 편심인 완전한 원형 구름면은 중심을 다시 맞출 수 있습니다. 구슬은 시각적으로 흔들릴 수 있지만, 편심만으로 반경방향 걸림이 증명되지는 않습니다.
 
-For three equally spaced guide normals `n_i`, and small radial shape errors `s_i` / roller offsets `e_i`, the first-order gap is:
+동일 간격의 가이드 법선 세 개 `n_i`, 작은 반경방향 형상 오차 `s_i` / 롤러 오프셋 `e_i`에서 1차 간격은 다음과 같습니다.
 
 `g_i = e_i − s_i − n_i · c`
 
-Since the three normals sum to zero, free translation can equalize the gaps, and the best minimum first-order gap is `mean(e_i − s_i)`. This model predicts:
+세 법선의 합이 0이므로 자유 평행 이동으로 간격을 같게 할 수 있고, 최선의 최소 1차 간격은 `mean(e_i − s_i)`입니다. 이 모델의 예측:
 
-- Reference eccentricity: center translation absorbs the first harmonic.
-- Two-lobe ovality: translation also absorbs its samples at these three contact positions **to first order**. It still moves the center; it is not globally “perfectly round.”
-- Three-lobe error: the three rollers can simultaneously face three outward lobes. Translation cannot remove this common radial demand.
-- Uniform oversize: likewise cannot be removed by translation.
+- 기준 편심: 중심 평행 이동이 1차 고조파를 흡수합니다.
+- 2로브 타원도: 평행 이동이 이 세 접촉 위치의 표본을 **1차 근사에서** 흡수합니다. 그래도 중심은 움직이며, 전체가 “완전한 원”이 되는 것은 아닙니다.
+- 3로브 오차: 롤러 세 개가 바깥쪽 로브 세 개를 동시에 마주할 수 있습니다. 평행 이동은 이 공통 반경방향 요구를 없앨 수 없습니다.
+- 균일한 초과 크기: 마찬가지로 평행 이동으로 없앨 수 없습니다.
 
-At 0.25 mm three-lobe amplitude and adverse phase, best minimum gap is approximately **−0.25 mm** for both ring sizes. Moving just one roller outward by 0.25 mm adds only 0.083 mm to the first-order average gap—not a complete correction. Static adjustment may also trade one phase's interference for another phase's free play.
+3로브 진폭 0.25 mm와 불리한 위상에서 최선의 최소 간격은 두 고리 크기 모두 약 **−0.25 mm**입니다. 롤러 하나만 0.25 mm 밖으로 옮기면 1차 평균 간격에 0.083 mm만 더해져 완전한 보정이 되지 않습니다. 정적 조정은 한 위상의 간섭을 다른 위상의 유격으로 바꿀 수도 있습니다.
 
-### Nonlinear spot checks
+### 비선형 표본 검사
 
-A separate polygon-to-circle distance model uses 4,096 boundary segments, 9 mm guide-roller root radii, ±1 mm allowed center translation, and a multi-start constrained optimizer. Fourteen cases cover both rings. Key results:
+별도의 다각형-원 거리 모델은 경계 구간 4,096개, 가이드 롤러 홈 바닥 반지름 9 mm, 허용 중심 평행 이동 ±1 mm, 다중 시작 구속 최적화기를 사용합니다. 두 고리를 포함한 사례 14개입니다. 주요 결과:
 
-- Round reference eccentricity of 0.25 mm: recentering ≈0.25 mm; residual numerical gap near zero.
-- Two-lobe 0.25 mm example: best minimum gap ≈+0.0005 to +0.0006 mm; first-order zero is a close approximation, not an exact result.
-- Three-lobe 0.25 mm adverse phase: ≈−0.24998 mm.
-- Uniform 0.25 mm radial oversize: ≈−0.24998 mm.
+- 원형 기준 편심 0.25 mm: 중심 재정렬 약 0.25 mm, 잔류 수치 간격은 0에 가까움.
+- 2로브 0.25 mm 예: 최선의 최소 간격 약 +0.0005부터 +0.0006 mm. 1차의 0은 가까운 근사이지 정확한 결과가 아님.
+- 3로브 0.25 mm 불리한 위상: 약 −0.24998 mm.
+- 균일한 반경 초과 0.25 mm: 약 −0.24998 mm.
 
-Two outer-ring cases were repeated at 8,192 segments; gap changes were below 0.0001 mm. These are local multi-start optimization results, **not a global infeasibility certificate**. Friction, gravity, preload and the ability to actually recenter are absent.
+바깥 고리 사례 두 개를 8,192구간으로 반복했으며 간격 변화는 0.0001 mm 미만이었습니다. 로컬 다중 시작 최적화 결과이지 **전역 불가능성 증명서가 아닙니다**. 마찰, 중력, 예압, 실제로 중심을 다시 맞출 수 있는 능력은 고려하지 않습니다.
 
-### Original small motion, not full revolutions
+### 원래의 작은 운동이지 완전한 회전이 아님
 
-The broad phase sweep represents unknown mounting phase, not a claim that the artwork makes full revolutions. Additional cases use the original ±8.59° / ±10.89° motions. With the 0.25 mm three-lobe example:
+넓은 위상 훑기는 미지의 장착 위상을 나타낼 뿐, 작품이 완전히 회전한다는 주장이 아닙니다. 추가 사례는 원래 ±8.59° / ±10.89° 운동을 사용합니다. 0.25 mm 3로브 예에서:
 
-- Initial phase 0°: overlap throughout either motion band.
-- Initial phase 30°: gap changes sign; outer approximately −0.109 to +0.109 mm, inner −0.135 to +0.135 mm.
-- Initial phase 60°: positive gap throughout, which can mean loss of three-point contact—not a supported pass.
+- 초기 위상 0°: 두 운동 구간 모두 전체에 걸쳐 겹침.
+- 초기 위상 30°: 간격 부호가 바뀜. 바깥쪽 약 −0.109부터 +0.109 mm, 안쪽 −0.135부터 +0.135 mm.
+- 초기 위상 60°: 전체에서 양의 간격. 이는 3점 접촉 상실일 수 있으며 지지 검증 통과가 아님.
 
-## Coupled-ring checks: limited but useful
+## 결합 고리 검사: 제한적이지만 유용함
 
-Simple envelope budgets, not full 3D collision sweeps:
+전체 3D 충돌 훑기가 아니라 단순 포락선 예산입니다.
 
-| Pair | Nominal gap | Explicit hypothetical allowance | Remaining |
+| 쌍 | 명목 간격 | 명시적인 가상 배정량 | 잔여 |
 |---|---:|---:|---:|
-| Outer beads / inner rollers, axial | 6.4 mm | 0.5 mm moving excursion + 0.5 mm roller reposition | 5.4 mm |
-| Outer bead sweep / inner posts, radial | 4.5 mm | 0.5 mm sweep growth + 0.5 mm post outward shift | 3.5 mm |
-| Bead pins / same-ring roller lips, radial | 1.0 mm | 0.25 mm center excursion + 0.25 mm inward roller error | 0.5 mm |
-| Moving geometry / shelter, axial | 16.0 mm | 0.5 mm rearward excursion | 15.5 mm |
+| 바깥 구슬 / 안쪽 롤러, 축방향 | 6.4 mm | 이동량 0.5 mm + 롤러 재배치 0.5 mm | 5.4 mm |
+| 바깥 구슬 이동 영역 / 안쪽 기둥, 반경방향 | 4.5 mm | 이동 영역 확장 0.5 mm + 기둥 바깥 이동 0.5 mm | 3.5 mm |
+| 구슬 핀 / 같은 고리 롤러 턱, 반경방향 | 1.0 mm | 중심 이동 0.25 mm + 롤러 안쪽 오차 0.25 mm | 0.5 mm |
+| 움직이는 지오메트리 / 쉼터, 축방향 | 16.0 mm | 뒤쪽 이동 0.5 mm | 15.5 mm |
 
-Within **these selected budgets**, guide fit is more restrictive than inter-ring or shelter separation. This is not a complete coupled collision clearance or safety assessment.
+**이 선택한 예산 안에서는** 가이드 맞춤이 고리 사이 또는 쉼터와의 분리보다 더 제한적입니다. 완전한 결합 충돌 간격 또는 안전 평가가 아닙니다.
 
-## Adjustable geometry without changing the front composition
+## 앞쪽 구도를 바꾸지 않는 조정 가능 기하
 
-`groove_variants.FCStd` contains three separate virtual guide coupons. Root radius 9 mm, retaining-lip radius 11 mm, and lip thickness 2.8 mm are held constant. Only the axial groove spacing changes:
+`groove_variants.FCStd`에는 별도의 가상 가이드 시험편 세 개가 있습니다. 홈 바닥 반지름 9 mm, 이탈 방지 턱 반지름 11 mm, 턱 두께 2.8 mm는 고정하고 축방향 홈 간격만 바꿉니다.
 
-| Side gap | Groove width | Total roller width | Nominal bead-back / front-lip gap |
+| 옆 간격 | 홈 폭 | 전체 롤러 폭 | 명목 구슬 뒤 / 앞쪽 턱 간격 |
 |---|---:|---:|---:|
 | 0.2 mm | 4.4 mm | 10.0 mm | 4.4 mm |
 | 0.4 mm | 4.8 mm | 10.4 mm | 4.2 mm |
 | 0.6 mm | 5.2 mm | 10.8 mm | 4.0 mm |
 
-The additional depth is behind the existing beads; no spokes, larger front ring, new drive or extra ornament are introduced. A spacer/shim-adjusted cartridge is a **proposed architecture**, not a modeled fastener assembly. A later model should separate the functions of radial support, axial retention and compliant take-up instead of demanding three perfectly rigid zero-clearance contacts. Spring rate, preload, adjustment travel and bearing selection remain deliberately unspecified.
+추가 깊이는 기존 구슬 뒤쪽에 있으며, 스포크, 더 큰 앞 고리, 새 구동부, 추가 장식을 도입하지 않습니다. 스페이서/심으로 조정하는 카트리지는 **제안된 구조**이지 모델링한 체결부 조립체가 아닙니다. 후속 모델은 완전 강체의 무간격 접촉 세 개를 요구하기보다 반경방향 지지, 축방향 이탈 방지, 순응성 유격 보정의 기능을 분리해야 합니다. 스프링 상수, 예압, 조정 이동 범위, 베어링 선정은 의도적으로 미정입니다.
 
-## Evidence and limits
+## 근거와 한계
 
-[Mitutoyo's official precision-measurement guide](https://www2.mitutoyo.co.jp/eng/useful/E11003/pageindices/index64.html) distinguishes reference-circle evaluation, centering effects and inclination effects. [NIST's roundness measurement guidance](https://itl.nist.gov/div898/handbook/mpc/section3/mpc344.htm) explains why a single trace can mix spindle error and workpiece error. These justify keeping reference eccentricity, form error and alignment separate. The contact models and hypothetical numbers above are our calculations—not manufacturer recommendations.
+[Mitutoyo의 공식 정밀 측정 안내](https://www2.mitutoyo.co.jp/eng/useful/E11003/pageindices/index64.html)는 기준 원 평가, 중심 맞춤 효과, 기울기 효과를 구분합니다. [NIST의 진원도 측정 지침](https://itl.nist.gov/div898/handbook/mpc/section3/mpc344.htm)은 단일 측정 궤적에 스핀들 오차와 공작물 오차가 섞일 수 있는 이유를 설명합니다. 이는 기준 편심, 형상 오차, 정렬을 구분할 근거입니다. 위 접촉 모델과 가상 수치는 자체 계산이며 제조사의 권장 사항이 아닙니다.
 
-No physical fabrication, measurement, force/torque estimate, power design or purchase occurred. No material strength, tolerance capability, friction, wear, fatigue, stability, guards or safe hand use has been established. The completed parent study remains unchanged.
+실제 제작, 측정, 힘/토크 추정, 전원 설계, 구매는 하지 않았습니다. 재료 강도, 공차 능력, 마찰, 마모, 피로, 안정성, 방호, 안전한 손 사용은 입증하지 않았습니다. 완료된 상위 연구는 바꾸지 않았습니다.
 
-## Reproduce / inspect
+## 재현 / 살펴보기
 
-- `sweep.py`: run `OPENBLAS_NUM_THREADS=1 OMP_NUM_THREADS=1 python sweep.py`.
-- `results.json`: full deterministic inputs/results, operating-band and coupled envelopes.
-- `summary.json`: thresholds and nonlinear checks.
-- `sensitivity_plot.png` / `.svg`: visually reviewed scientific model curves.
-- `build_groove_variants.py`: run with `/usr/bin/python3` and the installed FreeCAD API.
-- `groove_variants.FCStd` / `.json`: six valid coupon solids and parameters.
+- `sweep.py`: `OPENBLAS_NUM_THREADS=1 OMP_NUM_THREADS=1 python sweep.py` 실행.
+- `results.json`: 전체 결정론적 입력/결과, 작동 구간 및 결합 포락선.
+- `summary.json`: 임계값과 비선형 검사.
+- `sensitivity_plot.png` / `.svg`: 시각 검토한 과학 모델 곡선.
+- `build_groove_variants.py`: `/usr/bin/python3`와 설치된 FreeCAD API로 실행.
+- `groove_variants.FCStd` / `.json`: 유효한 시험편 솔리드 여섯 개와 매개변수.
 
-**Next bounded virtual test:** model an explicit rear adjustable cartridge with separate axial spacing and radial compliant travel, then test whether it maintains contact across the adverse three-lobe cases without consuming the 1 mm pin/lip clearance. Do not select a motor until the guide architecture makes geometric sense.
+**다음의 한정된 가상 검사:** 축방향 간격과 반경방향 순응 이동을 분리한 뒤쪽 조정 카트리지를 명시적으로 모델링하고, 불리한 3로브 사례에서 핀/턱 간격 1 mm를 소진하지 않으면서 접촉을 유지하는지 검사합니다. 가이드 구조가 기하학적으로 타당해지기 전에는 모터를 선정하지 마세요.

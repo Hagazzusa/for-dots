@@ -1,68 +1,68 @@
-# Rain Clock · one proportion change: a taller foreground window
+# Rain Clock · 비례 한 가지 변경: 더 높은 앞쪽 창
 
-## Recommendation
+## 권고
 
-**This is the strongest of the tested virtual concepts for keeping the quiet warm-window character while removing the long rotating braces.** It is not a finished mechanism. Accept that the window becomes a foreground element and deliberately hides part of the rain field. If seeing all 19 beads is essential, prefer an honestly visible hub/support instead of continuing to hide it with complicated geometry.
+**검사한 가상 콘셉트 중, 조용하고 따뜻한 창의 성격을 지키면서 긴 회전 버팀대를 없애는 데 가장 강한 후보입니다.** 완성된 기구는 아닙니다. 창이 앞쪽 요소가 되어 비 영역 일부를 의도적으로 가린다는 점을 받아들여야 합니다. 구슬 19개를 모두 보는 것이 필수라면, 복잡한 기하로 계속 숨기기보다 허브/지지를 솔직하게 드러내는 편을 권합니다.
 
-Only one candidate was developed: move a moderately taller window facade in front of the rings, and place each independent hub and its downward spokes directly in its ring plane. Earlier studies remain unchanged.
+후보는 하나만 개발했습니다. 적당히 높인 창 외관을 고리 앞으로 옮기고, 각 독립 허브와 아래로 향한 스포크를 해당 고리 평면에 직접 놓았습니다. 이전 연구는 바꾸지 않았습니다.
 
-## Demonstrable geometric improvement
+## 보여 줄 수 있는 기하 개선
 
-| Quantity | Rear-hub / original-window alternative | Taller foreground-window candidate |
+| 양 | 뒤쪽 허브 / 원래 창 대안 | 더 높은 앞쪽 창 후보 |
 |---|---:|---:|
-| Rotating forward links | 97 / 144 mm | **0 / 0 mm** |
-| Bead-plane offset from hub plane | 111 / 158 mm | **14 / 14 mm** |
-| Hub center Y | +47 / +64 mm | −50 / −80 mm, matching rings |
-| Window body height | 135 mm | 154.5 mm |
-| Canopy top Z | 221.5 mm | 241 mm |
-| Base depth | 220 mm | 210 mm |
+| 회전하는 전방 링크 | 97 / 144 mm | **0 / 0 mm** |
+| 허브 평면에서 구슬 평면까지의 오프셋 | 111 / 158 mm | **14 / 14 mm** |
+| 허브 중심 Y | +47 / +64 mm | −50 / −80 mm, 고리와 일치 |
+| 창 본체 높이 | 135 mm | 154.5 mm |
+| 차양 꼭대기 Z | 221.5 mm | 241 mm |
+| 받침대 깊이 | 220 mm | 210 mm |
 
-These are coordinate differences, not force or stiffness results. Shortening the rotating lever arms is real in the model; bearing capacity and shaft deflection remain unknown.
+좌표 차이이지 힘이나 강성 결과가 아닙니다. 모델에서 회전 모멘트 팔이 짧아진 것은 사실이지만, 베어링 용량과 축 처짐은 여전히 모릅니다.
 
-The common stationary shaft spans 76 mm, with support envelopes near Y=−99 and −28 mm. Both hubs lie between those supports. The front support belongs to the fixed window frame/back cross-member—not the luminous pane. No shaft, bearing, collar or fastener dimensions are recommended for fabrication.
+공통 고정 축의 길이는 76 mm이며 지지 포락선은 Y=−99와 −28 mm 부근에 있습니다. 두 허브는 그 지지 사이에 있습니다. 앞쪽 지지는 발광 창판이 아니라 고정 창틀/뒤쪽 가로 부재에 속합니다. 제작용 축, 베어링, 칼라, 체결부 치수를 권장하지 않습니다.
 
-## What the facade changes
+## 외관이 바꾸는 것
 
-- Window body bounds: X=±56 mm, Y=−112…−102 mm, Z=77.5…232 mm.
-- The top rises **19.5 mm**, while the overall circular frame stays unchanged.
-- Two small fixed legs connect the window-frame envelope to the base.
-- The warm four-pane appearance is restored. The rendered panel is opaque/frosted-looking, not transparent glass; real translucent materials may reveal internal silhouettes and have not been evaluated.
-- Outer spokes stay narrowly downward (±3°); inner spokes narrow from ±45° to ±18° because their connections no longer have to reach around the original window body.
-- Existing ring radii, 19 bead objects and right-side manual tabs remain. There is no motor, timing mechanism or phase linkage.
+- 창 본체 경계: X=±56 mm, Y=−112…−102 mm, Z=77.5…232 mm.
+- 꼭대기가 **19.5 mm** 높아지며, 전체 원형 프레임은 바꾸지 않습니다.
+- 작은 고정 다리 두 개가 창틀 포락선을 받침대에 연결합니다.
+- 따뜻한 네 칸 창 외관을 복원합니다. 렌더링한 판은 불투명/반투명하게 흐린 모습이지 투명 유리가 아닙니다. 실제 반투명 재료는 내부 윤곽을 드러낼 수 있으며 평가하지 않았습니다.
+- 바깥 스포크는 아래로 좁게 향한 상태(±3°)를 유지합니다. 안쪽 스포크는 더 이상 원래 창 본체를 돌아 연결할 필요가 없어 ±45°에서 ±18°로 좁힙니다.
+- 기존 고리 반지름, 구슬 객체 19개, 오른쪽 수동 손잡이는 유지합니다. 모터, 시간 측정 기구, 위상 연결은 없습니다.
 
-## Visual cost, not hidden in the recommendation
+## 권고에서 감추지 않는 시각적 대가
 
-The lower rings now pass **behind** the foreground window. A conservative frontal bounding-box test at 17 sampled angles per ring found:
+아래쪽 고리는 이제 앞쪽 창 **뒤**로 지나갑니다. 고리마다 표본 각도 17개에서 보수적인 정면 경계 상자 검사를 수행한 결과:
 
-- Inner bead #6 completely hidden at every sampled pose.
-- Inner bead #5 completely hidden at some sampled poses.
-- No outer bead bounding box entirely hidden by the body, though parts of outer beads/arcs are occluded.
+- 안쪽 구슬 #6은 모든 표본 자세에서 완전히 가려집니다.
+- 안쪽 구슬 #5는 일부 표본 자세에서 완전히 가려집니다.
+- 바깥 구슬/호 일부는 가려지지만, 본체가 완전히 가리는 바깥 구슬 경계 상자는 없습니다.
 
-Both hub sample sets were hidden in frontal and three-quarter ray tests (144/144 sampled hub points per ring/view at nominal pose). All sampled inner spoke centerline points were hidden in both views. A short outer spoke portion below the window remains visible frontally. These counts are not image-area percentages or a continuous visibility proof.
+두 허브 표본 집합은 정면과 사선 광선 검사에서 가려졌습니다(명목 자세의 고리/시점당 허브 표본점 144/144). 모든 안쪽 스포크 중심선 표본점은 두 시점 모두에서 가려졌습니다. 창 아래의 짧은 바깥 스포크 부분은 정면에서 보입니다. 이 개수는 이미지 면적 비율이나 연속 가시성 증명이 아닙니다.
 
-The two rendered views were visually inspected. They show the actual trade: cleaner support concealment and no long side braces, but fewer visible lower beads and a more prominent window.
+렌더링한 두 시점을 시각 검토했습니다. 실제 절충이 드러납니다. 지지를 더 깔끔하게 숨기고 긴 옆 버팀대는 없애지만, 보이는 아래쪽 구슬이 줄고 창은 더 두드러집니다.
 
-## Geometry checks and limits
+## 기하 검사와 한계
 
-- **71 valid named solids**, saved and reopened.
-- 17 sampled angles per ring over the earlier ±8.59° / ±10.89° motion ranges.
-- **3,536 moving-part/window bounding-box pairs** checked. Disjoint boxes excluded impossible intersections; **17 overlapping-box cases** used exact BRep solid intersections. No intersections were found.
-- This includes moving tracks, beads, pins, tabs, spokes, hubs and bearing envelopes against the fixed shelter/pane/canopy/sill. It is not a complete all-part, simultaneous-phase or continuous swept-volume proof.
-- Nominal inner-bead/facade-body axial separation is 3.4 mm. That is a model gap, not a validated fabrication tolerance or global minimum clearance.
-- Mullion shapes are fused to avoid coplanar overlapping render surfaces.
+- **유효한 이름 있는 솔리드 71개**, 저장 후 다시 열었습니다.
+- 앞선 ±8.59° / ±10.89° 운동 범위에서 고리당 표본 각도 17개.
+- **움직이는 부품/창 경계 상자 쌍 3,536개** 검사. 겹치지 않는 상자로 불가능한 교집합을 제외하고, **상자가 겹친 17건**은 정확한 BRep 솔리드 교집합을 계산했습니다. 교집합은 없었습니다.
+- 움직이는 트랙, 구슬, 핀, 손잡이, 스포크, 허브, 베어링 포락선을 고정 쉼터/창판/차양/창턱과 검사했습니다. 모든 부품, 동시 위상, 연속 이동 체적에 대한 완전한 증명은 아닙니다.
+- 안쪽 구슬/외관 본체의 명목 축방향 분리는 3.4 mm입니다. 모델 간격이지 검증된 제조 공차나 전역 최소 간격이 아닙니다.
+- 공면으로 겹치는 렌더링 표면을 피하도록 창살 형상을 합쳤습니다.
 
-No forces, bearing ratings, frame stiffness, shaft deflection, drag, balancing, collar retention, assembly method, wear, tip stability or safe hand operation were validated. The window frame would now participate in the support load path; its thin visual envelope is not a structural specification. Prior rim-guide capture results do not certify this different architecture.
+힘, 베어링 정격, 프레임 강성, 축 처짐, 저항, 균형, 칼라 이탈 방지, 조립 방법, 마모, 전도 안정성, 안전한 손 조작은 검증하지 않았습니다. 이제 창틀이 지지 하중 경로에 참여하므로 얇은 시각적 포락선은 구조 사양이 아닙니다. 이전 림 가이드의 이탈 방지 결과는 이 다른 구조를 인증하지 않습니다.
 
-## Stop here for the architecture decision
+## 구조 결정은 여기서 멈추기
 
-Prefer this foreground-window concept **if occluding one or two lower beads is acceptable**. Otherwise keep a visibly supported hub as an intentional aesthetic feature. Do not add more concealed linkages merely to preserve every original projection. A later authorized engineering prototype would need explicit materials, supported bearings, retention and testing; none is implied by these local illustrations.
+**아래쪽 구슬 한두 개가 가려져도 괜찮다면** 이 앞쪽 창 콘셉트를 권합니다. 그렇지 않다면 지지되는 허브를 의도적인 미적 요소로 드러내세요. 원래 투영을 모두 유지하려고 숨겨진 연결 기구를 더하지 마세요. 추후 승인된 공학 프로토타입에는 명시적인 재료, 지지된 베어링, 이탈 방지, 테스트가 필요합니다. 이 로컬 그림이 그러한 것들을 뜻하지는 않습니다.
 
-## Files / reproduce
+## 파일 / 재현
 
-- `front_facade_axle.FCStd`: editable named solids.
-- `build_concept.py`: run with `/usr/bin/python3`; reads the unchanged parent `rain_clock_manual.FCStd`.
-- `geometry_comparison.json`: sampled collision and visibility evidence.
-- `render_views.py`: after rebuilding, run `blender -b -t 2 --python render_views.py`.
-- `front_facade_front.png`, `front_facade_quarter.png`: visually checked previews.
+- `front_facade_axle.FCStd`: 편집 가능한 이름 있는 솔리드.
+- `build_concept.py`: `/usr/bin/python3`로 실행합니다. 변경하지 않은 상위 `rain_clock_manual.FCStd`를 읽습니다.
+- `geometry_comparison.json`: 표본 충돌 및 가시성 근거.
+- `render_views.py`: 다시 빌드한 뒤 `blender -b -t 2 --python render_views.py` 실행.
+- `front_facade_front.png`, `front_facade_quarter.png`: 시각 검토한 미리보기.
 
-Temporary mesh exchange is regenerated by the build. No fabrication, purchases, uploads or publication occurred.
+임시 메시 교환 파일은 빌드로 다시 생성합니다. 제작, 구매, 업로드, 공개는 하지 않았습니다.

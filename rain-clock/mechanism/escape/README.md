@@ -1,84 +1,84 @@
-# Rain Clock · bounded 3D track-escape investigation
+# Rain Clock · 범위 제한 3D 트랙 이탈 조사
 
-**Result: INCONCLUSIVE.** No extraction endpoint was found in either reachable sampled component. This does not establish capture, retention, safety or absence of an escape path.
+**결과: 결론 미정.** 도달 가능한 표본 연결 성분 두 경우 모두에서 추출 끝점을 찾지 못했습니다. 포획, 이탈 방지, 안전성, 이탈 경로의 부재를 입증하지 않습니다.
 
-| Case | Reachable grid poses | Grid poses tested | Edge midpoints tested | Collision poses | Travel-limit poses | Wall time |
+| 경우 | 도달 가능한 격자 자세 | 검사한 격자 자세 | 검사한 변의 중점 | 충돌 자세 | 이동 한계 자세 | 경과 시간 |
 |---|---:|---:|---:|---:|---:|---:|
-| Approximate translation following | 72 | 250 | 71 | 160 | 18 | 85.8 s |
-| Outward stuck | 142 | 332 | 141 | 190 | 0 | 127.9 s |
+| 근사 평행 이동 추종 | 72 | 250 | 71 | 160 | 18 | 85.8 s |
+| 바깥쪽 고착 | 142 | 332 | 141 | 190 | 0 | 127.9 s |
 
-Total: **582 distinct grid tests + 212 admitted-edge midpoint checks**, ~214 s serial computation. No uncertain-volume classifications occurred. No physical test or geometry fix was made.
+합계: **서로 다른 격자 검사 582개 + 허용된 변의 중점 검사 212개**, 직렬 계산 약 214초. 불확실 체적 분류는 없었습니다. 물리 실험이나 지오메트리 수정은 하지 않았습니다.
 
-Both reached axial offsets −0.2…+0.2 mm and vertical lifts 0…1.75 mm. The approximate-following branch reached **no nonzero sampled pitch**, while the stuck branch reached −0.1…+0.1°. The former restriction may reflect the approximate follower rule and graph connectivity; it must not be described as a real follower preventing pitch.
+두 경우 모두 축방향 오프셋 −0.2…+0.2 mm, 수직 들림 0…1.75 mm에 도달했습니다. 근사 추종 분기는 **0이 아닌 표본 피치에 전혀 도달하지 못했고**, 고착 분기는 −0.1…+0.1°에 도달했습니다. 전자의 제한은 근사 종동자 규칙과 그래프 연결성을 반영할 수 있으므로, 실제 종동자가 피치를 막는다고 설명해서는 안 됩니다.
 
-## Question
+## 질문
 
-Does an adverse outer-track pose admit a connected sampled path past the three guide flanges, comparing an idealized translation-following upper guide with a follower stuck at its outward stop?
+불리한 바깥 트랙 자세에서 가이드 플랜지 세 개를 지나가는 연결된 표본 경로가 있는지, 이상화한 평행 이동 추종 상부 가이드와 바깥쪽 스토퍼에 고착된 종동자를 비교합니다.
 
-This deliberately does **not** redesign hardware. The earlier ~0.248 mm projected lip overlap is only a warning; it is not an escape path or a retention proof.
+하드웨어를 의도적으로 재설계하지 **않습니다**. 앞서 나온 약 0.248 mm의 투영된 턱 겹침은 경고일 뿐, 이탈 경로나 이탈 방지 증명이 아닙니다.
 
-## Actual modeled solids
+## 실제로 모델링한 솔리드
 
-- Outer track: 4 mm axial extrusion, inner radius 135 mm, outer profile `143 + 0.25 cos(3(theta−phase))` mm, adverse phase 60° with theta measured from +Z.
-- Outer profile is a **720-segment polygon**; the inner bore is an analytic circle. The profile is not an exact smooth three-lobe curve. A conservative interpolation deviation bound is approximately 0.0014 mm from the supplied smooth curve (second-derivative bound 147 mm/rad² and segment angle 2π/720).
-- Three full grooved roller solids: root radius 9 mm, flange radius 11 mm, overall width 10 mm, 4.4 mm axial groove, 2 mm bore.
-- Lower guide centers remain fixed at 210° and 330°. Upper center is nominally at 90°, with the selected radial displacement.
-- The initial ring-center and closed-follower positions are solved for the same polygon used by the BRep—not imported from the earlier finer polygon.
+- 바깥 트랙: 축방향 압출 4 mm, 안쪽 반지름 135 mm, 바깥 프로파일 `143 + 0.25 cos(3(theta−phase))` mm. 불리한 위상 60°이며 theta는 +Z에서 측정합니다.
+- 바깥 프로파일은 **720구간 다각형**이며 안쪽 구멍은 해석적 원입니다. 정확히 매끄러운 3로브 곡선은 아닙니다. 주어진 매끄러운 곡선에 대한 보수적 보간 편차 상한은 약 0.0014 mm입니다(2차 도함수 상한 147 mm/rad², 구간 각도 2π/720).
+- 완전한 홈 롤러 솔리드 세 개: 홈 바닥 반지름 9 mm, 플랜지 반지름 11 mm, 전체 폭 10 mm, 축방향 홈 4.4 mm, 구멍 2 mm.
+- 아래쪽 가이드 중심은 210°와 330°에 고정합니다. 위쪽 중심은 명목 90°이며 선택한 반경방향 변위를 적용합니다.
+- 초기 고리 중심과 닫힌 접촉 종동자 위치는 BRep와 같은 다각형으로 풀며, 이전의 더 촘촘한 다각형 결과를 가져오지 않습니다.
 
-`escape_search_solids.FCStd` preserves this subset. It includes **real flange thickness and axial groove volume**, not only projected lip-overlap arithmetic. It is not the full sculpture.
+`escape_search_solids.FCStd`는 이 부분집합을 보존합니다. 투영된 턱 겹침 계산만이 아니라 **실제 플랜지 두께와 축방향 홈 체적**을 포함합니다. 전체 조각은 아닙니다.
 
-## Finite pose family
+## 유한한 자세 집합
 
-Coordinates relative to the solved adverse pose:
+풀어낸 불리한 자세를 기준으로 한 좌표:
 
-- Axial Y translation: −8 to +8 mm, step 0.05 mm.
-- Vertical Z lift: −0.5 to +2.5 mm, step 0.25 mm.
-- Pitch about X: −6 to +6°, step 0.05°.
-- Horizontal X translation, roll about Z and in-plane ring phase remain fixed.
+- 축방향 Y 평행 이동: −8부터 +8 mm, 간격 0.05 mm.
+- 수직 Z 들림: −0.5부터 +2.5 mm, 간격 0.25 mm.
+- X축 피치: −6부터 +6°, 간격 0.05°.
+- 수평 X 평행 이동, Z축 롤, 평면 내 고리 위상은 고정합니다.
 
-The algorithm explores only the connected collision-free sampled component reached from the initial pose using six axis-adjacent grid neighbors. Each admitted edge also has its midpoint tested. This does **not** certify every point on a continuous edge, and can miss narrow or coordinated paths between grid nodes.
+알고리즘은 축에 인접한 격자 이웃 여섯 개를 사용해 초기 자세에서 도달하는, 충돌 없는 표본 연결 성분만 탐색합니다. 허용된 변마다 중점도 검사합니다. 연속인 변 위의 모든 점을 보증하지 **않으며**, 격자 노드 사이의 좁은 경로나 협응 운동 경로를 놓칠 수 있습니다.
 
-Escape endpoint: the entire track's Y bounds have passed the flange slab with 0.1 mm clearance (`Ymax < −5.1` or `Ymin > +5.1`). This is a track-subset endpoint, not sufficient by itself to establish escape of the decorated assembly.
+이탈 끝점: 트랙 전체의 Y경계가 0.1 mm 간격을 두고 플랜지 슬래브를 지난 상태(`Ymax < −5.1` 또는 `Ymin > +5.1`). 트랙 부분집합의 끝점이지, 이것만으로 장식된 조립체의 이탈을 입증할 수는 없습니다.
 
-## Follower assumptions
+## 종동자 가정
 
-1. **Approximate translation following:** follower displacement equals its initial closed-contact displacement plus the ring's vertical lift. It is limited to ±1 mm travel. Pitch-dependent tracking, contact loss and forces are not solved. This is a restrictive geometric rule—not a real return mechanism or an exact three-dimensional contact constraint.
-2. **Outward stuck:** upper follower is fixed at +1 mm. Lower guides remain fixed.
+1. **근사 평행 이동 추종:** 종동자 변위는 초기 닫힌 접촉 변위에 고리의 수직 들림을 더한 값입니다. 이동은 ±1 mm로 제한합니다. 피치에 따른 추종, 접촉 상실, 힘은 풀지 않습니다. 제한적인 기하 규칙이지 실제 복귀 기구나 정확한 3차원 접촉 구속이 아닙니다.
+2. **바깥쪽 고착:** 위쪽 종동자를 +1 mm에 고정합니다. 아래쪽 가이드도 고정 상태를 유지합니다.
 
-A no-path result with these assumptions cannot establish that a physical follower prevents escape.
+이 가정에서 경로를 찾지 못했다고 실제 종동자가 이탈을 막는다고 입증할 수는 없습니다.
 
-## What is exact and what is approximate
+## 정확한 것과 근사인 것
 
-OpenCascade computes BRep solid intersections for each tested pose. Those intersections use the actual finite-width root/flange solids and transformed extruded track. “Exact BRep” means exact intersection operations on the supplied model, subject to kernel/numerical tolerances—not physically exact geometry.
+OpenCascade는 검사하는 각 자세에서 BRep 솔리드 교집합을 계산합니다. 실제 유한 폭 홈 바닥/플랜지 솔리드와 변환한 압출 트랙을 사용합니다. “정확한 BRep”는 커널/수치 공차 내에서 주어진 모델에 정확한 교집합 연산을 한다는 뜻이지, 물리적으로 정확한 기하라는 뜻이 아닙니다.
 
-Classification:
+분류:
 
-- Intersection volume ≤10⁻⁹ mm³: sampled pose treated as free.
-- Volume >10⁻⁵ mm³: blocked.
-- Intermediate volume: uncertain and excluded from the reachable component.
+- 교집합 체적 ≤10⁻⁹ mm³: 표본 자세를 자유로운 상태로 취급.
+- 체적 >10⁻⁵ mm³: 차단됨.
+- 중간 체적: 불확실하며 도달 가능한 연결 성분에서 제외.
 
-Excluding uncertain contact poses makes the search conservative against claiming a free path but **can hide a real path**. It cannot support an absence proof.
+불확실한 접촉 자세를 제외하면 자유 경로를 주장하는 데 보수적이지만, **실제 경로를 숨길 수 있습니다**. 부재 증명의 근거가 될 수 없습니다.
 
-The search omits beads, pins, tab, posts, frame and rear carriage. A path found here would require full-assembly validation. The omitted solids can obstruct paths, and no model of elasticity, gravity, manual force, friction or breakage is present.
+탐색에서는 구슬, 핀, 손잡이, 기둥, 프레임, 뒤쪽 캐리지를 생략합니다. 여기서 경로를 찾아도 전체 조립체 검증이 필요합니다. 생략한 솔리드가 경로를 막을 수 있으며, 탄성, 중력, 손 힘, 마찰, 파손 모델은 없습니다.
 
-## Outcome interpretation
+## 결과 해석
 
-- Found track-subset path: a candidate sampled counterexample requiring full decorated-assembly and continuous-segment checks, not automatically a physical escape demonstration.
-- No endpoint reached: **inconclusive within this finite grid, pose family and follower rule**. Never “escape-proof,” “safe” or “retained under all motion.”
+- 트랙 부분집합 경로 발견: 전체 장식 조립체와 연속 구간 검사가 필요한 표본 반례 후보이며, 자동으로 물리적 이탈 시연이 되지는 않습니다.
+- 끝점 미도달: **이 유한 격자, 자세 집합, 종동자 규칙 안에서 결론 미정**입니다. “이탈 불가능”, “안전”, “모든 운동에서 유지됨”이라고 해서는 안 됩니다.
 
-No physical fabrication, purchases, uploads or publication. Completed earlier checkpoints are unchanged.
+실제 제작, 구매, 업로드, 공개는 하지 않았습니다. 완료된 이전 체크포인트는 바꾸지 않았습니다.
 
 
-## Review, deliverables and next decision
+## 검토, 산출물, 다음 판단
 
-The four saved search solids reopened valid. The guide BRep was also compared against the previous nominal FreeCAD guide after translation: equal volumes and bidirectional difference volumes below 10⁻⁶ mm³. The lobed track intentionally differs from the earlier circular track and remains polygonized.
+저장한 탐색 솔리드 네 개를 다시 열어 유효함을 확인했습니다. 가이드 BRep는 평행 이동 후 이전 명목 FreeCAD 가이드와도 비교했습니다. 체적은 같고 양방향 차집합 체적은 10⁻⁶ mm³ 미만입니다. 로브 트랙은 이전 원형 트랙과 의도적으로 다르며 다각형화된 상태를 유지합니다.
 
-An independent reviewer checked the pose transform, guide dimensions and same-polygon initial solve. A missing phase term in the descriptive JSON metadata was corrected; the computation already used the 60° phase. Classification stops at the first uncertain obstacle, so an uncertainty would be conservative rejection rather than an exhaustive collision diagnosis. There were no such poses in this run.
+독립 검토자가 자세 변환, 가이드 치수, 같은 다각형의 초기 해를 검사했습니다. 설명용 JSON 메타데이터의 누락된 위상 항을 수정했으며, 계산은 이미 60° 위상을 사용하고 있었습니다. 분류는 첫 불확실 장애물에서 멈추므로, 불확실성이 있다면 모든 충돌을 진단하는 것이 아니라 보수적으로 거부합니다. 이번 실행에는 그런 자세가 없었습니다.
 
-- `search_escape.py`, `results.json`, `summary.json`: reproducible source, complete results and compact counts.
-- `escape_search_solids.FCStd`: actual modeled track and guide BReps.
-- `plot_results.py`, `reachable_components.png` / `.svg`: visually reviewed reachable-component projection, explicitly zoomed and inconclusive.
+- `search_escape.py`, `results.json`, `summary.json`: 재현 가능한 소스, 전체 결과, 간략 집계.
+- `escape_search_solids.FCStd`: 실제 모델링한 트랙과 가이드 BRep.
+- `plot_results.py`, `reachable_components.png` / `.svg`: 시각 검토한 도달 가능 연결 성분의 투영. 확대된 보기이며 결론 미정임을 명시합니다.
 
-**Most informative omitted motion:** a targeted simultaneous **horizontal translation X + roll about Z**, which breaks the imposed left/right symmetry and can unload one lower guide. This is more informative than simply extending axial range or densifying the same grid. First replace the approximate upper-guide rule with a proper three-dimensional contact/loss-of-contact rule; otherwise a zero-pitch result may be an artifact. Contact forces, friction and follower return would then be needed to assess whether a geometric path is physically accessible.
+**생략한 운동 중 가장 유익한 것:** 의도적인 동시 **수평 X 평행 이동 + Z축 롤**입니다. 강제한 좌우 대칭을 깨고 아래쪽 가이드 하나의 하중을 덜 수 있습니다. 단순히 축방향 범위를 늘리거나 같은 격자를 촘촘하게 하는 것보다 유익합니다. 먼저 근사 상부 가이드 규칙을 적절한 3차원 접촉/접촉 상실 규칙으로 바꾸세요. 그렇지 않으면 피치가 0인 결과가 인위적 산물일 수 있습니다. 기하 경로가 물리적으로 가능한지 평가하려면 이후 접촉력, 마찰, 종동자 복귀도 필요합니다.
 
-Do not keep increasing compute solely because no escape was found. A practical design decision is to compare this increasingly constrained rim-guidance concept with a simple supported central axle/spoke concept, making the visual trade-off explicit. No new hardware architecture is selected by this inconclusive search.
+이탈을 찾지 못했다는 이유만으로 계산량을 계속 늘리지 마세요. 실용적인 설계 판단은 갈수록 제약이 늘어나는 림 가이드 콘셉트를 단순하게 지지한 중앙 축/스포크 콘셉트와 비교하고 시각적 대가를 명시하는 것입니다. 이 결론 미정 탐색으로 새 하드웨어 구조를 선정하지 않습니다.

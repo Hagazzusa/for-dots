@@ -1,44 +1,44 @@
 # 잠깐 멈춘 길 / A Place to Pause
 
-One human-scale art-direction pass on the existing **terrain seed 1107**, separate from the canonical road artwork and seeded numerical study. A warm bench in the lower-left invites a pause; the road recedes through sage ground toward cool blue distance, with open sky and empty ground providing breathing room.
+기존 **지형 시드 1107**에 사람 크기의 감각을 더한 한 차례의 미술 연출입니다. 정본 도로 작품 및 시드 기반 수치 연구와는 별개입니다. 왼쪽 아래의 따뜻한 벤치는 잠깐 멈추도록 초대하고, 도로는 세이지색 땅을 지나 서늘한 푸른 원경으로 멀어집니다. 열린 하늘과 빈 땅은 숨 쉴 여백을 만듭니다.
 
-**Road, terrain and all original non-bench geometry remain unchanged.** Camera, lighting, sky and materials were art-directed; the six existing bench parts were moved/rotated together onto one new local stone pad. No extra decorative props were added. No people, vehicles, forest or external assets. The source's simple low-poly geometry remains intentionally visible rather than disguised as a photoreal landscape.
+**도로, 지형, 벤치 외의 모든 원본 지오메트리는 그대로입니다.** 카메라, 조명, 하늘, 재질을 연출했고, 기존 벤치 부품 여섯 개를 함께 이동·회전해 새 국소 석재 받침 하나에 놓았습니다. 장식 소품은 추가하지 않았습니다. 사람, 차량, 숲, 외부 에셋은 없습니다. 원본의 단순한 로우폴리 지오메트리를 사진 같은 풍경으로 감추지 않고 의도적으로 드러냈습니다.
 
-## Deliverable
+## 산출물
 
-- `a_place_to_pause.png`: final 900×600 still, Cycles CPU, 128 samples, two threads, no denoising (the installed Blender lacks OpenImageDenoise support).
-- `a_place_to_pause.blend`: native-compressed editable scene.
-- `build.py`: portable hero build; consumes `landscape.py` and `profiles.json`.
-- `build_variant.py`: frozen original seeded geometry generator, retained as the independent comparison fixture—not the hero entry point.
-- `check_geometry.py`: reconstructs source seed 1107 in memory, reopens the hero, and compares all mesh-object geometry and transforms.
+- `a_place_to_pause.png`: 최종 900×600 정지 이미지. Cycles CPU, 128샘플, 스레드 두 개, 디노이징 없음(설치된 Blender가 OpenImageDenoise를 지원하지 않음).
+- `a_place_to_pause.blend`: 기본 압축된 편집 가능 장면.
+- `build.py`: 이식 가능한 대표 장면 빌드. `landscape.py`와 `profiles.json`을 사용합니다.
+- `build_variant.py`: 고정된 원본 시드 지오메트리 생성기. 대표 장면의 진입점이 아니라 독립 비교 기준으로 보존합니다.
+- `check_geometry.py`: 메모리에서 원본 시드 1107을 재구성하고 대표 장면을 다시 열어 모든 메시 오브젝트의 지오메트리와 변환을 비교합니다.
 
 ```sh
 blender -b -t 2 --python build.py -- --seed 1107 --save-blend
 blender -b -t 2 --python check_geometry.py
 ```
 
-Tested Blender 4.3.2. No SciPy is required to rebuild this artwork from its stored profile. Output paths resolve beside these scripts. The source profile is the previously verified virtual 6% aesthetic alternative, not a civil-road design; its free endpoints, finite sampling and terrain-extension limitations still apply.
+Blender 4.3.2로 시험했습니다. 저장된 프로파일에서 이 작품을 다시 만드는 데 SciPy는 필요하지 않습니다. 출력 경로는 이 스크립트들 옆으로 정합니다. 소스 프로파일은 앞서 검증한 가상 6% 미적 대안이며 토목 도로 설계가 아닙니다. 자유 끝점, 유한 표본, 지형 확장의 한계는 그대로 적용됩니다.
 
-## Art direction and verification
+## 미술 연출과 검증
 
-Camera is approximately standing eye-height above the chosen roadbed, near the existing pull-off, using a 32 mm lens. The material changes separate warm wood/gravel from cool charcoal asphalt and distant blue hills. A Nishita sky and low amber sidelight replace the original uniform brown world. No depth-of-field blur hides road geometry. The initial render read as a bench on a continuous asphalt apron. A bounded correction moved the bench off that apron onto a separate pad with a visible grass gap, and turned it outward toward the landscape. Superseded candidates are omitted from this source checkpoint.
+카메라는 기존 정차 공간 근처에서 선택한 노반 위에 대략 서 있는 눈높이로 놓고 32 mm 렌즈를 사용합니다. 재질 변경은 따뜻한 목재/자갈을 서늘한 차콜색 아스팔트와 먼 푸른 언덕에서 분리합니다. Nishita 하늘과 낮은 호박색 측광이 원래의 균일한 갈색 월드를 대체합니다. 피사계 심도 흐림으로 도로 지오메트리를 숨기지 않았습니다. 첫 렌더에서는 연속된 아스팔트 앞마당 위의 벤치처럼 보였습니다. 범위를 정한 수정으로 벤치를 그 포장면에서 떨어진 별도 받침으로 옮겨 풀밭 간격이 보이게 하고, 풍경을 향해 바깥쪽으로 돌렸습니다. 이전 후보는 이 소스 체크포인트에서 제외했습니다.
 
-Geometry verification checks **165 mesh objects**, retaining all original local vertices/topology. **159** original objects retain geometry/transforms/bevel settings; the **6** bench parts allow only transform changes, and exactly **one** local pad is added. Materials, camera and lighting are deliberately excluded because they are the authorized edits. The saved scene also retains all-face orientation checks and **4,200** road/terrain BVH clearance samples with zero misses/intersections. Sampled cut/fill remains **1.075 / 1.215 virtual m**; this denotes vertical depth, not volume. These checks are not physical-road safety certification.
+지오메트리 검증은 **메시 오브젝트 165개**를 검사하며 모든 원본 로컬 정점/토폴로지를 유지합니다. 원본 오브젝트 **159개**는 지오메트리/변환/베벨 설정을 유지하고, 벤치 부품 **6개**는 변환만 바꿀 수 있으며, 국소 받침은 정확히 **하나**를 추가합니다. 재질, 카메라, 조명은 허용된 편집이므로 의도적으로 제외합니다. 저장 장면은 전체 면 방향 검사와 도로/지형 BVH 간격 표본 **4,200개**도 유지하며 누락/교차는 0건입니다. 표본 절토/성토는 **가상 1.075 / 1.215 m**로 그대로입니다. 부피가 아닌 수직 깊이입니다. 이 검사는 실제 도로 안전 인증이 아닙니다.
 
-Official sky API: [Blender 4.3 ShaderNodeTexSky](https://docs.blender.org/api/4.3/bpy.types.ShaderNodeTexSky.html). The analytic geometry and seeded terrain inputs remain local and editable; source provenance and hashes are recorded separately. All earlier study folders remain unchanged.
+공식 하늘 API: [Blender 4.3 ShaderNodeTexSky](https://docs.blender.org/api/4.3/bpy.types.ShaderNodeTexSky.html). 해석적 지오메트리와 시드 지형 입력은 로컬에 편집 가능하게 남으며, 소스 출처와 해시는 별도로 기록합니다. 앞선 모든 연구 폴더는 그대로입니다.
 
-## Separate pedestrian stop correction
+## 분리된 보행자 쉼터 수정
 
-The final bench stands on a **2.4×3.2 m** stone/gravel-colored pad beyond the outer shoulder, facing approximately positive X, away from the road. `verify_stop.py` tests the pad rectangle against **every actual road and shoulder quad in XY** using separating-axis tests, not just distance from the analytic centerline. Minimum pad separation is **2.971 m from asphalt** and **1.959 m from the shoulder**, leaving a visible grass strip. All six bench meshes lie entirely inside that disjoint pad footprint.
+최종 벤치는 바깥 갓길 너머의 **2.4×3.2 m** 석재/자갈색 받침 위에서, 도로 반대편인 대략 양의 X방향을 바라봅니다. `verify_stop.py`는 해석적 중심선과의 거리만 보는 대신, 분리축 검사로 받침 사각형을 **XY 평면의 모든 실제 도로·갓길 사각 면**과 비교합니다. 받침의 최소 간격은 **아스팔트에서 2.971 m**, **갓길에서 1.959 m**이며, 눈에 보이는 풀띠를 남깁니다. 벤치 메시 여섯 개 모두 이 분리된 받침 영역 안에 완전히 들어갑니다.
 
-Both feet meet the pad top within **0.002 mm** numerical tolerance. At **441** support samples the underside follows the actual terrain with **1.64–2.01 mm** numerical separation; the flat pad top stands **3.50–10.18 cm** above local ground. This thin near-contact tolerance prevents coincident surfaces; it is not a suspended platform. The checks do not prove every unsampled point or certify road/pedestrian safety.
+두 다리 모두 수치 허용 오차 **0.002 mm** 이내로 받침 윗면에 닿습니다. 지지 표본 **441개**에서 아랫면은 수치 간격 **1.64–2.01 mm**로 실제 지형을 따르며, 평평한 받침 윗면은 국소 지면보다 **3.50–10.18 cm** 높습니다. 이 얇은 근접 접촉 허용 간격은 표면 겹침을 막기 위한 것이며, 공중에 매단 플랫폼이 아닙니다. 표본 사이 모든 점을 증명하거나 도로/보행자 안전을 인증하는 검사는 아닙니다.
 
-`check_geometry.py` and `verify_stop.py` verify the saved scene. Geometry provenance now reads **road/terrain unchanged, local bench/pad adjusted**. To repeat the independent stop check:
+`check_geometry.py`와 `verify_stop.py`는 저장 장면을 검증합니다. 지오메트리 출처 기록은 이제 **도로/지형 유지, 국소 벤치/받침 조정**입니다. 독립적인 쉼터 검사를 반복하려면:
 
 ```sh
 blender -b a_place_to_pause.blend -t 2 --python verify_stop.py
 ```
 
-## Portable checkpoint
+## 이식 가능한 체크포인트
 
-PNG text metadata is omitted without changing decoded pixels. Saved Blender browser/render paths are relative. Logs, caches and superseded candidates are excluded; `checksums.json` identifies these publication copies. Source fixtures and numerical validation are unchanged. The original [Seeded Roadscapes study](../seeded-roadscapes/README.md) remains separate.
+디코딩한 픽셀을 바꾸지 않고 PNG 텍스트 메타데이터를 제외했습니다. 저장된 Blender 탐색기/렌더 경로는 상대 경로입니다. 로그, 캐시, 이전 후보는 제외하며, `checksums.json`이 이 공개 사본을 식별합니다. 소스 기준 자료와 수치 검증은 그대로입니다. 원본 [Seeded Roadscapes 연구](../seeded-roadscapes/README.md)는 별도로 남습니다.

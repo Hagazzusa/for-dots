@@ -1,23 +1,23 @@
-# Road into Evening — virtual grade/profile research
+# Road into Evening — 가상 경사·프로파일 연구
 
-A separate, bounded experiment on the frozen `quiet_road` scene. The planar centerline, original natural terrain, seed 1102, road width, 40 m earthwork transition, lighting and camera are unchanged. Only the road's height profile changes. **No civil-road engineering or safety compliance is claimed.** The 4/6/8% caps are aesthetic research parameters, not standards.
+고정된 `quiet_road` 장면을 대상으로 범위를 정한 별도 실험입니다. 평면 중심선, 원래 자연 지형, 시드 1102, 도로 폭, 40 m 토공 전환 구간, 조명, 카메라는 그대로입니다. 도로의 높이 프로파일만 바꿉니다. **토목 도로 공학이나 안전 준수를 주장하지 않습니다.** 4/6/8% 상한은 기준이 아닌 미적 연구 매개변수입니다.
 
-## Results
+## 결과
 
-| Profile | Maximum virtual grade | Maximum cut | Maximum fill | RMS centerline displacement |
+| 프로파일 | 최대 가상 경사 | 최대 절토 | 최대 성토 | RMS 중심선 변위 |
 |---|---:|---:|---:|---:|
-| Natural follow | 11.545% | 2.013 m | 1.802 m | 0 m |
-| 4% cap | 4.000% | 4.633 m | 5.632 m | 2.716 m |
-| 6% cap | 6.000% | 3.334 m | 3.530 m | 1.634 m |
-| 8% cap | 8.000% | 2.014 m | 2.166 m | 0.812 m |
+| 자연 지형 추종 | 11.545% | 2.013 m | 1.802 m | 0 m |
+| 4% 상한 | 4.000% | 4.633 m | 5.632 m | 2.716 m |
+| 6% 상한 | 6.000% | 3.334 m | 3.530 m | 1.634 m |
+| 8% 상한 | 8.000% | 2.014 m | 2.166 m | 0.812 m |
 
-Lower grade is not automatically better: it requires moving the road away from the natural surface. The 8% option preserves terrain most closely; 6% provides a larger grade reduction with moderate additional earthwork; 4% creates considerably more cut/fill. Only the 6% candidate was rebuilt/rendered. `profile_comparison.png` plots height, signed grade and centerline displacement. Cut/fill extrema in the table cover the whole sampled earthwork cross-section, not only its centerline; asphalt's ~4.5 cm anti-z-fighting offset is excluded.
+경사가 낮다고 자동으로 더 좋은 것은 아닙니다. 도로를 자연 표면에서 멀리 옮겨야 하기 때문입니다. 8% 안은 지형을 가장 가깝게 보존하고, 6%는 적당한 추가 토공으로 경사를 더 많이 낮추며, 4%는 절토/성토가 상당히 늘어납니다. 6% 후보만 다시 만들고 렌더링했습니다. `profile_comparison.png`는 높이, 부호 있는 경사, 중심선 변위를 표시합니다. 표의 절토/성토 극값은 중심선만이 아니라 표본 추출한 전체 토공 횡단면을 다룹니다. 아스팔트의 약 4.5 cm Z-파이팅 방지 오프셋은 제외합니다.
 
-## Method and reproducibility
+## 방법과 재현성
 
-`analyze.py` uses NumPy, SciPy 1.17.0 and Matplotlib. A 211-node quadratic height objective balances closeness to the original terrain against squared second differences (weight 25). SciPy SLSQP solves it under linear adjacent-height bounds. Endpoint heights are **free**, not connected to existing roads. Using y-distance for the bounds is conservative relative to horizontal centerline arc length. Fits took approximately 1.4–1.5 s each on this machine; timing is not a benchmark guarantee.
+`analyze.py`는 NumPy, SciPy 1.17.0, Matplotlib을 사용합니다. 높이 노드 211개의 이차 목적 함수가 원래 지형과의 근접성과 제곱 2차 차분(가중치 25)의 균형을 잡습니다. SciPy SLSQP가 인접 높이의 선형 한계 아래에서 풉니다. 끝점 높이는 **자유**이며 기존 도로에 연결하지 않습니다. 한계에 y거리를 쓰는 것은 수평 중심선 호 길이에 비해 보수적입니다. 이 기기에서 각 적합에 약 1.4–1.5초가 걸렸으며 벤치마크 보장은 아닙니다.
 
-A positive normalized Gaussian convolution of the reconstructed slopes (sigma 3 virtual metres of y-distance), followed by mean-height recentering, softens knot transitions while preserving the grade bound. The final profile is stored every 0.75 m in `profile_6pct.json` and reconstructed piecewise-linearly. It is not an analytic C2 curve; numerical grade-change measurements and finite sampling have limits. The final smoothed curve is a postprocessed constrained fit, not claimed to be the exact optimum of the initial objective.
+재구성한 기울기에 양의 정규화 가우시안 컨볼루션(y거리의 가상 3미터 시그마)을 적용하고 평균 높이를 다시 맞추어, 경사 한계를 유지하면서 절점 전환을 부드럽게 합니다. 최종 프로파일은 `profile_6pct.json`에 0.75 m마다 저장하며 구간별 선형으로 재구성합니다. 해석적 C2 곡선이 아니므로 수치 경사 변화 측정과 유한 표본에는 한계가 있습니다. 최종 평활 곡선은 후처리한 제약 적합이며 초기 목적 함수의 정확한 최적해라고 주장하지 않습니다.
 
 ```sh
 OPENBLAS_NUM_THREADS=2 OMP_NUM_THREADS=2 python analyze.py
@@ -25,28 +25,28 @@ blender -b -t 2 --python build.py
 blender -b road_into_evening.blend -t 2 --python check_mesh.py
 ```
 
-Commands operate within this study only. The Blender build consumes the JSON profile with Python's standard library; SciPy is needed only to regenerate optimization data. It writes one 900×600, 64-sample Cycles CPU still with two threads and a native-compressed editable blend. `metrics.json` contains all optimization comparisons; `validation.json` contains the rendered mesh's independent checks.
+명령은 이 연구 안에서만 동작합니다. Blender 빌드는 Python 표준 라이브러리로 JSON 프로파일을 읽으며, SciPy는 최적화 데이터를 다시 만들 때만 필요합니다. 스레드 두 개로 900×600, 64샘플 Cycles CPU 정지 이미지 하나와 기본 압축된 편집 가능 blend를 저장합니다. `metrics.json`에는 모든 최적화 비교가, `validation.json`에는 렌더링한 메시의 독립 검사가 있습니다.
 
-Official API reference: [SciPy SLSQP](https://docs.scipy.org/doc/scipy/reference/optimize.minimize-slsqp.html). Solver success and explicit constraint residuals are checked rather than inferred from a plotted curve.
+공식 API 참고: [SciPy SLSQP](https://docs.scipy.org/doc/scipy/reference/optimize.minimize-slsqp.html). 그린 곡선으로 추측하지 않고 솔버 성공 여부와 명시적 제약 잔차를 검사합니다.
 
-## Exact sampling, units and provenance
+## 정확한 표본 구성, 단위, 출처
 
-All distances are virtual metres: **1 Blender unit = 1 virtual metre**. Grade is `100 × vertical change / horizontal distance`; the final reported grade uses planar centerline chord lengths. The optimization cap instead uses y-distance, so it is conservative relative to that chord-based measure. This is a **user-adjustable aesthetic parameter**; 6% is this experiment's selected example, not a user mandate or an engineering standard.
+모든 거리는 가상 미터입니다. **1 Blender 단위 = 가상 1미터**. 경사는 `100 × vertical change / horizontal distance`이며 최종 보고 경사는 평면 중심선의 현 길이를 사용합니다. 최적화 상한은 대신 y거리를 사용하므로 현 기반 측정에 비해 보수적입니다. 이는 **사용자가 조절할 수 있는 미적 매개변수**입니다. 6%는 이 실험에서 선택한 예시이며 사용자의 지시나 공학 기준이 아닙니다.
 
-- Fit: **211** height nodes, y = −130…500 m, 3 m spacing.
-- Delivered profile: **841** heights and **840** intervals, 0.75 m y-spacing.
-- Earthwork: **84,941** signed final-minus-natural samples = 841 rows × 101 lateral offsets (`u = −50…50`); maximum cut is the magnitude of the most negative sample, maximum fill the most positive. `u` is nominal road-normal distance; rows remain at constant y and are mapped to x with the local slope factor.
-- Mesh verification: **840** road faces, **all** terrain faces checked for upward normals; **4,200** vertical raycasts at road face centers and inset corners. Zero misses/intersections. Asphalt clearance **0.044960…0.045029 m**, excluded from earthwork comparisons.
-- Independent profile verification: every stored height finite, y strictly increasing, maximum conservative y-grade **6.000000000035%** (floating-point residual), maximum chord-based grade **5.999986903208%**. Tolerance is explicit in `verify_profile.py`.
+- 적합: 높이 노드 **211**개, y = −130…500 m, 간격 3 m.
+- 제공 프로파일: 높이 **841**개, 구간 **840**개, y간격 0.75 m.
+- 토공: 최종값에서 자연값을 뺀 부호 있는 표본 **84,941**개 = 841행 × 측면 오프셋 101개(`u = −50…50`). 최대 절토는 가장 음수인 표본의 크기, 최대 성토는 가장 양수인 표본입니다. `u`는 명목 도로 법선 거리입니다. 행은 일정한 y에 남고 국소 기울기 계수로 x에 매핑합니다.
+- 메시 검증: 도로 면 **840**개와 **모든** 지형 면의 위쪽 노멀을 검사하고, 도로 면 중심과 안쪽 모서리에서 수직 광선 **4,200**개를 쏘았습니다. 누락/교차 0건. 아스팔트 간격 **0.044960…0.045029 m**는 토공 비교에서 제외합니다.
+- 독립 프로파일 검증: 저장된 모든 높이가 유한하고 y가 엄격히 증가합니다. 최대 보수적 y경사 **6.000000000035%**(부동소수점 잔차), 최대 현 기반 경사 **5.999986903208%**. 허용 오차는 `verify_profile.py`에 명시되어 있습니다.
 
-`baseline_provenance.json` records the unchanged frozen baseline file hashes. `checksums.json` records per-file research hashes. The baseline remains the canonical artwork; this folder is a separate profile alternative, not its replacement. The compressed Blender file was reopened for saved-mesh verification. `verify_profile.py` can run with standard Python independently of SciPy or Blender.
+`baseline_provenance.json`은 변경하지 않은 고정 기준본의 파일 해시를 기록합니다. `checksums.json`은 연구 파일별 해시를 기록합니다. 기준본은 정본 작품으로 남으며, 이 폴더는 대체물이 아닌 별도의 프로파일 대안입니다. 압축된 Blender 파일을 다시 열어 저장 메시를 검증했습니다. `verify_profile.py`는 SciPy나 Blender와 독립적으로 표준 Python에서 실행할 수 있습니다.
 
-## Independent review
+## 독립 검토
 
-Independent verification reproduced baseline and 6% cut/fill and RMS values, checked the unchanged-baseline hashes, and confirmed the conservative y-grade bound survives positive-kernel slope smoothing and linear reconstruction. Its naming clarification is applied: sampled chord length is not exact integrated arc length. Dense analytic-XY checks reach approximately 6.00000000001%, within floating-point tolerance. Endpoint height offsets versus the natural terrain are approximately **+1.65664 m at the start** and **+0.02952 m at the end**; free endpoints remain a deliberate limitation. No rerender or geometry change was needed after review.
+독립 검증에서 기준본과 6%의 절토/성토 및 RMS 값을 재현하고, 기준본 해시가 그대로인지 검사했으며, 양의 커널 기울기 평활화와 선형 재구성 후에도 보수적 y경사 한계가 유지됨을 확인했습니다. 용어 명확화도 반영했습니다. 표본 현 길이는 정확히 적분한 호 길이가 아닙니다. 촘촘한 해석적 XY 검사는 약 6.00000000001%에 도달하며 부동소수점 허용 오차 안에 있습니다. 자연 지형 대비 끝점 높이 오프셋은 **시작 약 +1.65664 m**, **끝 약 +0.02952 m**입니다. 자유 끝점은 의도한 한계로 남습니다. 검토 후 재렌더링이나 지오메트리 변경은 필요하지 않았습니다.
 
-The cap is verified only on the delivered road-profile domain **y = −130…500 m** (all 840 piecewise-linear intervals). The Blender terrain extension outside that interval follows the natural terrain with an endpoint offset and is **not** claimed to satisfy the cap. Reported finite chord grades are segment averages; they are not exact continuous arc-length derivatives. Cut/fill values are sampled maximum vertical depths, **not earthwork volumes**.
+상한은 제공한 도로 프로파일 영역 **y = −130…500 m**(구간별 선형 구간 840개 전체)에서만 검증했습니다. 이 구간 바깥의 Blender 지형 확장은 끝점 오프셋을 두고 자연 지형을 따르며 상한을 만족한다고 주장하지 **않습니다**. 보고한 유한 현 경사는 구간 평균이며 정확한 연속 호 길이 미분값이 아닙니다. 절토/성토 값은 표본의 최대 수직 깊이이며 **토공 부피가 아닙니다**.
 
-## Portable checkpoint
+## 이식 가능한 체크포인트
 
-This folder is a separate alternative to [the canonical artwork](../quiet-road/README.md). PNG text metadata is omitted with decoded pixels unchanged; saved Blender browser/render paths are relative. Logs and caches are excluded. `checksums.json` covers the publication copies. In `baseline_provenance.json`, `baseline_files` retains the original research-input hashes before publication metadata normalization; `published_baseline_files` identifies the canonical repository copies. Geometry and numerical results are unchanged.
+이 폴더는 [정본 작품](../quiet-road/README.md)의 별도 대안입니다. 디코딩한 픽셀은 그대로 두고 PNG 텍스트 메타데이터를 제외했으며, 저장된 Blender 탐색기/렌더 경로는 상대 경로입니다. 로그와 캐시는 제외했습니다. `checksums.json`은 공개 사본을 다룹니다. `baseline_provenance.json`에서 `baseline_files`는 공개 메타데이터 정규화 전의 원본 연구 입력 해시를 유지하고, `published_baseline_files`는 정본 저장소 사본을 식별합니다. 지오메트리와 수치 결과는 그대로입니다.

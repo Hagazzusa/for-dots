@@ -1,37 +1,37 @@
 # 저녁으로 가는 길 / Road into Evening
 
-A bounded original landscape study: a quiet ribbon road, soft hills, and a small bench at a widened viewpoint. No external assets, people, vehicles, game framework, or generated bitmap textures.
+범위를 정해 만든 독창적인 풍경 연구입니다. 고요한 띠 모양 도로, 부드러운 언덕, 폭이 넓어진 전망 지점의 작은 벤치로 구성됩니다. 외부 에셋, 사람, 차량, 게임 프레임워크, 생성 비트맵 텍스처는 없습니다.
 
-## Rebuild
+## 다시 만들기
 
-Tested with Blender 4.3.2. Run from any directory:
+Blender 4.3.2로 시험했습니다. 어느 디렉터리에서든 실행할 수 있습니다.
 
 ```sh
 blender -b -t 2 --python /path/to/quiet_road/build.py
 blender -b /path/to/quiet_road/road_into_evening.blend -t 2 --python /path/to/quiet_road/check_mesh.py
 ```
 
-Outputs are written beside the scripts. The build replaces only this study's output files. One still: 900 × 600, Cycles CPU, 64 samples, two threads, denoising disabled because this Blender build lacks OpenImageDenoise. Editable geometry and named materials are retained in `road_into_evening.blend`.
+결과는 스크립트 옆에 저장하며, 빌드는 이 연구의 출력 파일만 교체합니다. 정지 이미지 하나를 900 × 600, Cycles CPU, 64샘플, 스레드 두 개로 생성합니다. 이 Blender 빌드에 OpenImageDenoise가 없어 디노이징은 껐습니다. `road_into_evening.blend`에는 편집 가능한 지오메트리와 이름 있는 재질을 보존합니다.
 
-## Parameters and limits
+## 매개변수와 한계
 
-- Seed: **1102**, used for original meadow stones.
-- Units: **1 Blender unit = 1 virtual metre**.
-- Centerline: `x(y) = 21 sin((y + 25)/46) + 0.07y`; vertical profile in `bed()` follows the original natural terrain centerline.
-- Nominal normal road width: 6 m, widening to approximately 10.5 m at the pull-off.
-- Roadbed blends into meadow over 40 m; asphalt is lifted only 0.045 m to prevent coincident surfaces, not suspended over unmodified terrain.
-- Numerical geometry checks and virtual grade/curvature results are in `validation.json`. They are design diagnostics, **not civil-road engineering or safety standards**.
-- `check_mesh.py` independently raycasts the saved road and terrain meshes at face centers and inset corners; finite sampling does not prove all-point clearance.
-- This is a visual composition, not a drivable prototype, navigation mesh, physical simulation, or accessibility assessment.
+- 시드: **1102**. 직접 만든 초원 돌에 사용합니다.
+- 단위: **1 Blender 단위 = 가상 1미터**.
+- 중심선: `x(y) = 21 sin((y + 25)/46) + 0.07y`. `bed()`의 수직 프로파일은 원래 자연 지형의 중심선을 따릅니다.
+- 명목 법선 방향 도로 폭: 6 m. 전망 정차 공간에서는 약 10.5 m로 넓어집니다.
+- 노반은 40 m에 걸쳐 초원과 섞입니다. 아스팔트는 표면 겹침을 피하려고 0.045 m만 높인 것이며, 수정하지 않은 지형 위에 떠 있는 것이 아닙니다.
+- 수치 지오메트리 검사와 가상 경사/곡률 결과는 `validation.json`에 있습니다. 설계 진단이며 **토목 도로 공학이나 안전 기준이 아닙니다**.
+- `check_mesh.py`는 저장된 도로와 지형 메시의 면 중심 및 안쪽으로 들인 모서리 위치에 독립적으로 광선을 쏩니다. 유한한 표본으로 모든 점의 간격을 증명할 수는 없습니다.
+- 시각적 구도이며 운전 가능한 프로토타입, 내비게이션 메시, 물리 시뮬레이션, 접근성 평가가 아닙니다.
 
-## Visual review
+## 시각 검토
 
-The initial normal-offset terrain folded at large offsets and separate distant sheets overlapped. The final terrain uses a non-folding row mapping and a single continuous distant surface. Its material transitions from sage foreground to lavender distance. A later review found that an independent low road baseline still carved a continuous canal. The corrected road follows the natural centerline terrain rather than hiding the problem with a camera change. Closer framing makes the bench and pull-off readable. Superseded candidates are omitted from this source checkpoint.
+초기의 법선 오프셋 지형은 큰 오프셋에서 접혔고 분리된 원경 표면끼리 겹쳤습니다. 최종 지형은 접히지 않는 행 매핑과 하나의 연속된 원경 표면을 사용합니다. 재질은 세이지색 전경에서 라벤더색 원경으로 전환됩니다. 이후 검토에서 독립적인 낮은 도로 기준선이 여전히 연속된 수로를 파고 있음을 발견했습니다. 수정한 도로는 카메라 변경으로 문제를 숨기는 대신 자연 중심선 지형을 따릅니다. 더 가까운 구도로 벤치와 정차 공간을 알아보기 쉽게 했습니다. 이전 후보는 이 소스 체크포인트에서 제외했습니다.
 
-Final mesh verification: 840 upward road faces, zero non-upward terrain faces, 4,200 mesh raycast samples with no misses or terrain intersections. Sampled separation is approximately 4.497–4.503 cm. Maximum virtual grade is 11.54%; minimum virtual curvature radius is 101.2 m. These finite tests are not an engineering certification.
+최종 메시 검증: 위쪽을 향한 도로 면 840개, 위쪽이 아닌 지형 면 0개, 누락이나 지형 교차가 없는 메시 광선 표본 4,200개. 표본 간격은 약 4.497–4.503 cm입니다. 최대 가상 경사는 11.54%, 최소 가상 곡률 반경은 101.2 m입니다. 이 유한 검사는 공학적 인증이 아닙니다.
 
-Earthwork is measured separately from the asphalt gap: 84,941 signed final-minus-natural terrain samples give maximum cut **2.013 m** and maximum fill **1.802 m**. The 40 m smooth transition flattens the local cross section rather than excavating an independent low route. Terrain-following introduces a maximum virtual grade of 11.54%; this remains a scenic study, not a road design. The final `.blend` uses Blender native compression and was reopened for independent mesh verification, retaining all editable geometry.
+토공 깊이는 아스팔트 간격과 별도로 측정합니다. 최종 지형에서 자연 지형을 뺀 부호 있는 표본 84,941개에서 최대 절토 **2.013 m**, 최대 성토 **1.802 m**를 얻었습니다. 40 m의 부드러운 전환은 독립적으로 낮은 경로를 굴착하는 대신 국소 횡단면을 평평하게 만듭니다. 지형을 따라가므로 최대 가상 경사가 11.54%가 됩니다. 여전히 경관 연구이지 도로 설계가 아닙니다. 최종 `.blend`는 Blender 기본 압축을 사용하며, 모든 편집 가능 지오메트리를 유지한 채 다시 열어 독립적인 메시 검증을 수행했습니다.
 
-## Portable checkpoint
+## 이식 가능한 체크포인트
 
-PNG path metadata is omitted without changing decoded pixels. Saved Blender browser and render paths are relative. `checksums.json` records these publication copies, not superseded local candidates. Logs and caches are excluded.
+디코딩한 픽셀을 바꾸지 않고 PNG 경로 메타데이터를 제외했습니다. 저장된 Blender 탐색기와 렌더 경로는 상대 경로입니다. `checksums.json`은 이전 로컬 후보가 아닌 이 공개 사본을 기록합니다. 로그와 캐시는 제외했습니다.

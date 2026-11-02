@@ -1,31 +1,31 @@
 # 비를 세는 창 · Rain Clock
 
-A virtual desk-scale kinetic art study: a small amber refuge inside two gentle fields of rain. It counts a feeling, not seconds.
+가상의 탁상 크기 키네틱 아트 연구입니다. 잔잔한 비의 두 영역 안에 작은 호박빛 쉼터가 있습니다. 초가 아니라 느낌을 셉니다.
 
-## Design
-- Midnight enamel shelter and frame; champagne brass paths; celadon rain beads.
-- Two concentric paths rock slowly out of phase around the warm window.
-- Eight-second seamless pose cycle, 96 frames at 12 fps. Frame 97 equals frame 1 and is excluded from the loop.
-- All geometry is original and generated locally. No external assets.
+## 디자인
+- 짙은 밤색 에나멜 쉼터와 프레임, 샴페인색 황동 경로, 청자색 빗방울 구슬.
+- 동심 경로 두 개가 따뜻한 창 주변에서 서로 다른 위상으로 천천히 흔들립니다.
+- 8초짜리 이음새 없는 자세 주기이며, 12 fps 기준 96프레임입니다. 97프레임은 1프레임과 같아 반복 영상에서 제외합니다.
+- 모든 지오메트리는 독창적으로 로컬에서 생성했습니다. 외부 에셋은 없습니다.
 
-## Files and reproducibility
-- `rain_clock.blend`: editable scene, named geometry, materials, lights, camera and keyframes.
-- `build.py`: complete procedural source, Blender 4.3.2.
-- Build: `blender -b -t 2 --python build.py`
-- Still: append `-- --still` (800 × 800, 24 samples).
-- Loop frames: append `-- --loop` (480 × 480, 8 samples, every other frame); encode at 6 fps for eight seconds.
+## 파일과 재현
+- `rain_clock.blend`: 편집 가능한 장면, 이름 있는 지오메트리, 재질, 조명, 카메라, 키프레임.
+- `build.py`: 전체 절차적 소스, Blender 4.3.2.
+- 빌드: `blender -b -t 2 --python build.py`
+- 정지 이미지: `-- --still` 추가(800 × 800, 24샘플).
+- 반복 프레임: `-- --loop` 추가(480 × 480, 8샘플, 한 프레임씩 건너뜀). 6 fps로 인코딩하면 8초입니다.
 
-The sculpture is a **virtual design study**, not a functional clock or a proven mechanism. Animation is artistic keyframing, not physics. Bearings, motors, power, clearances, stability and manufacturability have not been designed or tested. No hardware or purchase is required.
+이 조각은 **가상 디자인 연구**이지, 작동하는 시계나 검증된 기구가 아닙니다. 애니메이션은 예술적 키프레임이며 물리 시뮬레이션이 아닙니다. 베어링, 모터, 전원, 간격, 안정성, 제조 가능성은 설계하거나 테스트하지 않았습니다. 하드웨어나 구매는 필요하지 않습니다.
 
-The duplicate GIF and intermediate frames/logs are omitted from this source checkpoint. Preview PNG workspace-path metadata is removed without changing image pixels. Saved file-browser/render paths are relative.
+중복 GIF와 중간 프레임/로그는 이 소스 체크포인트에서 제외했습니다. 미리보기 PNG의 작업 공간 경로 메타데이터는 이미지 픽셀을 바꾸지 않고 제거했습니다. 저장된 파일 탐색기/렌더링 경로는 상대 경로입니다.
 
-## Verified output
-- `rain_clock_still.png`: 800 × 800, visually reviewed.
-- `rain_clock_loop.mp4`: 480 × 480, 48 frames at 6 fps, eight seconds.
-- Opposite-phase animation frames visually reviewed; exact animation endpoint equality tested.
-- Still render: 20.25 s; loop render: 114.08 s; two CPU threads.
-- Denoising is disabled because this local Blender build lacks OpenImageDenoise; previews retain mild low-sample grain.
-- `verification.json`: scene, motion, visual-review and media checks.
+## 검증한 결과물
+- `rain_clock_still.png`: 800 × 800, 시각 검토 완료.
+- `rain_clock_loop.mp4`: 480 × 480, 6 fps의 48프레임, 8초.
+- 반대 위상의 애니메이션 프레임을 시각 검토하고, 애니메이션 양 끝 자세의 정확한 일치를 테스트했습니다.
+- 정지 이미지 렌더링: 20.25초. 반복 영상 렌더링: 114.08초. CPU 스레드 두 개.
+- 로컬 Blender 빌드에 OpenImageDenoise가 없어 노이즈 제거를 껐습니다. 미리보기에는 적은 샘플로 인한 약한 입자가 남아 있습니다.
+- `verification.json`: 장면, 움직임, 시각 검토, 미디어 검사.
 
-## Source verification
-Run `blender -b -t 2 rain_clock.blend --python verify.py` for geometry/motion checks. This regenerates `verification.json` with `render_verified: false`; visual review must be recorded separately. No external assets, textures, fonts or music are required.
+## 소스 검증
+지오메트리/움직임 검사는 `blender -b -t 2 rain_clock.blend --python verify.py`로 실행합니다. 이 명령은 `verification.json`을 `render_verified: false` 상태로 다시 생성하므로, 시각 검토는 별도로 기록해야 합니다. 외부 에셋, 텍스처, 글꼴, 음악은 필요하지 않습니다.

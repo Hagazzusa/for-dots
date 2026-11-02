@@ -1,6 +1,8 @@
-# Publication preflight helpers
+# 공개 전 점검 도구
 
-`check_public_assets.py` is a **read-only, standard-library metadata-pattern check** for a deliberately selected staging directory. It is not a security certification, a full secret detector, a privacy-context interpreter, a license check, or permission to publish.
+`check_public_assets.py`는 의도적으로 선택한 준비 디렉터리를 대상으로 하는 **표준 라이브러리 기반의 읽기 전용 메타데이터 패턴 검사기**입니다. 보안 인증, 완전한 비밀 정보 탐지기, 개인정보 맥락 해석기, 라이선스 검사 또는 공개 허가가 아닙니다.
+
+다음 명령 블록의 주석은 원문 그대로 보존했습니다.
 
 ```sh
 python3 tools/check_public_assets.py --directory garden-of-light
@@ -9,28 +11,28 @@ python3 tools/check_public_assets.py --tracked .
 python3 tools/test_check_public_assets.py
 ```
 
-Python 3.8+; Git is needed only for `--tracked`. No engines, plugins, network services or credentials are used. Run against a frozen trusted staging copy, not a live credential directory. Directory traversal does not follow symlinks. Known credential-store names and development/config directories are reported without reading their contents. There is no automatic upload, edit, deletion or sanitization.
+Python 3.8+가 필요하며 Git은 `--tracked`에만 필요합니다. 엔진, 플러그인, 네트워크 서비스, 자격 증명을 사용하지 않습니다. 실제 자격 증명 디렉터리가 아니라 변경을 멈춘 신뢰할 수 있는 준비 사본에서 실행하세요. 디렉터리를 순회할 때 심볼릭 링크를 따라가지 않습니다. 알려진 자격 증명 저장소 이름과 개발·설정 디렉터리는 내용을 읽지 않고 보고합니다. 자동 업로드, 편집, 삭제, 정리는 하지 않습니다.
 
-## What it checks
+## 검사 대상
 
-- Selected UTF-8 text files: common private absolute-path patterns and a limited set of credential-like prefixes/private-key markers. Ordinary source identifiers such as `password` or `api_token = None` are not credentials.
-- PNG: `tEXt`, compressed `zTXt`, and `iTXt` metadata, bounded decompression and metadata CRCs. EXIF gets a raw pattern scan **and requires structured manual review**, even when it is only benign resolution data. No pixels are decoded. `caBX` / C2PA authenticity metadata is explicitly marked for manual provenance review, without decoding its claim/certificate payloads. Its presence is not automatically suspicious or secret; it is never stripped or treated as cryptographic trust-chain verification.
-- OpenEXR: bounded string attributes, especially absolute `File` paths. Deep/multipart files require native review. Channel/pixel data is not decoded or altered.
-- FreeCAD `.FCStd`: bounded ZIP central directory and XML metadata, including decoded XML values. No archive extraction; ZIP64 is conservatively unsupported. Native binary geometry/properties still require review. Entity declarations are not expanded.
-- `.blend`: always **manual native read-only audit required**, including compressed files. The script never treats a raw string scan as sufficient Blender inspection.
-- Audio, video and other unsupported formats: explicitly unscanned/manual, not implicitly clean.
+- 선택된 UTF-8 텍스트 파일: 흔한 비공개 절대 경로 패턴과 제한된 종류의 자격 증명 유사 접두사·개인 키 표식. `password`나 `api_token = None` 같은 일반적인 소스 식별자는 자격 증명이 아닙니다.
+- PNG: `tEXt`, 압축된 `zTXt`, `iTXt` 메타데이터, 크기를 제한한 압축 해제, 메타데이터 CRC. EXIF는 원시 패턴 검사를 하며, 무해한 해상도 데이터만 있더라도 **구조를 살펴보는 수동 검토가 필요합니다**. 픽셀은 디코딩하지 않습니다. `caBX` / C2PA 진위 메타데이터는 주장·인증서 내용을 디코딩하지 않고 출처를 수동 검토하도록 명시합니다. 그 존재만으로 의심스럽거나 비밀인 것은 아닙니다. 제거하지 않으며 암호학적 신뢰 체인 검증으로 취급하지도 않습니다.
+- OpenEXR: 크기를 제한한 문자열 속성, 특히 절대 `File` 경로. 딥·멀티파트 파일은 네이티브 도구로 검토해야 합니다. 채널·픽셀 데이터는 디코딩하거나 바꾸지 않습니다.
+- FreeCAD `.FCStd`: 크기를 제한한 ZIP 중앙 디렉터리와 XML 메타데이터(디코딩된 XML 값 포함). 압축 파일은 풀지 않으며 ZIP64는 보수적으로 미지원 처리합니다. 네이티브 바이너리 기하·속성은 별도로 검토해야 합니다. 엔티티 선언은 확장하지 않습니다.
+- `.blend`: 압축 파일을 포함해 항상 **네이티브 도구를 통한 읽기 전용 수동 감사가 필요합니다**. 스크립트는 원시 문자열 검색만으로 Blender 검사가 충분하다고 간주하지 않습니다.
+- 오디오, 영상, 그 밖의 미지원 형식: 암묵적으로 안전하다고 처리하지 않고 미검사·수동 검토 대상으로 명시합니다.
 
-Limits: 10,000 selected paths; 4 MiB per text file; 1 MiB PNG text/EXIF encoded/decoded metadata or EXR header; 512 CAD members, 1 MiB ZIP central directory/per-XML data and 4 MiB total XML. Oversize, malformed or unavailable data is **incomplete/manual**, never a clean result. Some real assets legitimately exceed these limits. These bounds apply to selected metadata, not total runtime or initial directory/Git enumeration: listing a huge worktree can allocate before the path-count limit is checked. Use a bounded, trusted staging directory; this is not an adversarial filesystem sandbox.
+한도는 선택 경로 10,000개, 텍스트 파일당 4 MiB, PNG 텍스트·EXIF의 인코딩·디코딩 메타데이터 또는 EXR 헤더 1 MiB, CAD 항목 512개, ZIP 중앙 디렉터리·개별 XML 데이터 1 MiB, XML 전체 4 MiB입니다. 크기 초과, 잘못된 형식, 사용할 수 없는 데이터는 **불완전·수동 검토 대상**이지 정상 결과가 아닙니다. 실제 에셋이 정당하게 이 한도를 넘을 수도 있습니다. 이 한도는 선택된 메타데이터에 적용되며 전체 실행 시간이나 초기 디렉터리·Git 열거를 제한하지는 않습니다. 큰 작업 트리의 목록을 만들 때는 경로 수 한도를 검사하기 전에 메모리가 할당될 수 있습니다. 범위를 한정한 신뢰할 수 있는 준비 디렉터리를 사용하세요. 이 도구는 적대적인 파일 시스템을 격리하는 샌드박스가 아닙니다.
 
-## Output and follow-up
+## 출력과 후속 검토
 
-JSON findings contain relative file locations and fixed reason codes, never matched values or exception text. Suspicious filenames are redacted. This does not hide ordinary relative names, and no output should be blindly published without review.
+JSON 결과에는 상대 파일 위치와 고정된 사유 코드가 들어가며, 일치한 값이나 예외 메시지는 넣지 않습니다. 의심스러운 파일명은 가립니다. 일반적인 상대 이름까지 숨기는 것은 아니므로 출력을 검토 없이 공개해서는 안 됩니다.
 
-Exit codes:
-- `0`: no targeted patterns found in inspected portions; **not publication clearance**.
-- `1`: finding or manual-review item exists (including intentionally unsupported files).
-- `2`: explicit target could not be selected or completed.
+종료 코드:
+- `0`: 검사한 부분에서 대상 패턴을 찾지 못함. **공개 승인 아님**.
+- `1`: 탐지 결과나 수동 검토 항목이 있음(의도적으로 지원하지 않는 파일 포함).
+- `2`: 명시한 대상을 선택하거나 검사를 완료하지 못함.
 
-Review every finding and inspect unsupported/native formats separately. Absolute-path flags can be intentional public code examples; credential-like matches can be synthetic fixtures. Conversely, unrecognized credentials, encoded text and private meaning may evade these finite patterns. There is no suppression/automatic-approval mechanism. Concurrent file replacement is outside this small utility's threat model; use frozen staging inputs.
+모든 결과를 검토하고 미지원·네이티브 형식은 따로 살펴보세요. 절대 경로 표시는 의도적인 공개 코드 예시일 수 있고 자격 증명 유사 일치는 합성 테스트 자료일 수 있습니다. 반대로 인식하지 못하는 자격 증명, 인코딩된 텍스트, 비공개 의미는 이 유한한 패턴으로 찾아내지 못할 수 있습니다. 경고 억제나 자동 승인 기능은 없습니다. 검사 중 파일이 교체되는 상황은 이 작은 도구의 위협 모델 밖에 있으므로 변경을 멈춘 준비 사본을 사용하세요.
 
-The root `verify_sources.py` separately verifies exact checkpoint bytes. Do not confuse integrity hashes with metadata/privacy review. The synthetic unit suite tests redaction, clean encoder/source cases, compressed PNG metadata and limits, EXR paths, bounded CAD XML, symlink/store exclusions and tracked-only selection without real secrets.
+루트의 `verify_sources.py`는 별도로 체크포인트 바이트가 정확히 일치하는지 검증합니다. 무결성 해시를 메타데이터·개인정보 검토와 혼동하지 마세요. 합성 단위 테스트 묶음은 실제 비밀 정보 없이 가림 처리, 문제가 없는 인코더·소스 사례, 압축 PNG 메타데이터와 한도, EXR 경로, 크기가 제한된 CAD XML, 심볼릭 링크·저장소 제외, 추적 파일만 선택하는 동작을 검사합니다.

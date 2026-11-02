@@ -1,33 +1,33 @@
-# Continuity checklist
+# 연속성 점검표
 
-Use after a rollback or an extension. This is a review checklist, not a claim that a new test run occurred.
-Baseline: `9f6165c30b83d68415bae7053312344880c546f2`; see [world expansion verification](../WORLD_EXPANSION.md) for that checkpoint's verification and known audio-shutdown limitation.
+롤백이나 확장 후 사용하세요. 검토용 점검표이며, 새 테스트 실행이 이루어졌다는 뜻은 아닙니다.
+기준본: `9f6165c30b83d68415bae7053312344880c546f2`. 해당 체크포인트의 검증과 알려진 오디오 종료 한계는 [세계 확장 검증](../WORLD_EXPANSION.md)을 참고하세요.
 
-## Text and staging
+## 글과 연출
 
-- [ ] Preserve all eight source clues with their status ledger; do not relabel draft actions as shipped animation.
-- [ ] Keep holiday unspecified, 23:40 opening, ordinary repeating route 08 and Market Street passenger destination.
-- [ ] Preserve flower closed status plus late-pickup promise; owner retreat/wave must not imply business reopening or pickup completion.
-- [ ] Preserve soboro, crunchy-top memory, tea at home and rain-obscured view; no mandatory spouse exposition or new question list.
-- [ ] Keep exactly two adult car occupants; card relationship clue stays optional. No player entry, dialogue, driving or third occupant.
-- [ ] Preserve source-concept provenance and actual derived GLB identity; do not claim Blender/Cycles parity or full source landscape in-game.
-- [ ] Refuge bench canon is the carpenter's former home bench, repaired at the workshop—not a newly made second-origin bench.
+- [ ] 원래의 단서 여덟 개와 상태 기록을 모두 보존합니다. 초안의 동작을 배포된 애니메이션으로 바꾸어 표기하지 않습니다.
+- [ ] 이름을 정하지 않은 휴일, 23:40 시작, 반복 운행하는 평범한 08번 노선, 승객의 Market Street 목적지를 유지합니다.
+- [ ] 꽃집의 휴무와 늦은 수령 약속을 함께 보존합니다. 주인의 물러남/손인사가 영업 재개나 수령 완료를 뜻해서는 안 됩니다.
+- [ ] 소보로, 바삭한 윗부분에 대한 기억, 집에서 준비하는 차, 빗물로 가려진 시야를 보존합니다. 배우자 설명을 의무화하거나 새 질문 목록을 더하지 않습니다.
+- [ ] 차 안의 성인은 정확히 두 명으로 유지합니다. 카드의 관계 단서는 선택 사항입니다. 플레이어의 탑승, 대화, 운전, 세 번째 탑승자는 없습니다.
+- [ ] 원본 콘셉트의 출처와 실제 파생 GLB의 정체성을 보존합니다. Blender/Cycles와의 동일성이나 원본 전체 풍경이 게임에 들어갔다고 주장하지 않습니다.
+- [ ] 쉼터 벤치의 공식 설정은 목수의 옛 집에서 쓰던 벤치를 작업실에서 수리했다는 것입니다. 새로 만든 벤치라는 두 번째 기원을 만들지 않습니다.
 
-## Interaction and time
+## 상호작용과 시간
 
-- [ ] Original stop and refuge remain the only two player seat identities. Each stand action uses its own clear exit position.
-- [ ] Eligible bus boarding has priority; an open reader consumes E before standing. Q closes the reader without relocating the player.
-- [ ] Cocoa, held umbrella, T quiet wait, pause and overview remain compatible with either seat. Missing a bus while seated does not relocate the player.
-- [ ] Passenger interaction requires actual waiting availability; opening a loan panel cannot authorize transfer after boarding begins.
-- [ ] One umbrella has one owner: basket, player or passenger. Interrupted passenger approach retraces the path without canceling a committed loan.
-- [ ] Passenger who boarded and departed stays absent on later arrivals. Same-bus companion requires actual recorded presence; otherwise loan recollection is memory, not phantom speech.
-- [ ] Flower/car/refuge observations do not alter bus timing, award items, determine the ending or teleport any character.
-- [ ] Reset restores passenger, umbrella, ambient visit, car pose, reader and original opening consistently. Car heater stops on boarding and releases its stream on teardown.
-- [ ] Ignoring all new observations still permits the original ride and quiet ending.
+- [ ] 원래 정류장과 쉼터만 플레이어가 앉을 수 있는 두 자리로 유지합니다. 각 자리에서 일어설 때는 해당 자리의 막히지 않은 출구 위치를 사용합니다.
+- [ ] 가능한 버스 탑승을 우선합니다. 읽기 창이 열려 있으면 일어서기 전에 E 입력을 소비합니다. Q는 플레이어를 옮기지 않고 읽기 창만 닫습니다.
+- [ ] 코코아, 든 우산, T 조용히 기다리기, 일시 정지, 전체 보기는 어느 자리에서든 함께 작동합니다. 앉아 있다가 버스를 놓쳐도 플레이어를 옮기지 않습니다.
+- [ ] 승객 상호작용에는 실제로 대기 중이며 상호작용 가능한 상태가 필요합니다. 대여 패널을 열었다고 해서 탑승 시작 뒤의 전달까지 허용되지는 않습니다.
+- [ ] 우산 하나의 소유자는 바구니, 플레이어, 승객 중 하나뿐입니다. 승객의 접근이 중단되면 경로를 되짚되, 확정된 대여는 취소하지 않습니다.
+- [ ] 탑승해 떠난 승객은 이후 버스 도착 때도 나타나지 않습니다. 같은 버스의 동행은 기록된 실제 탑승을 요구합니다. 그렇지 않으면 대여 회상은 기억이지 유령의 대사가 아닙니다.
+- [ ] 꽃집/차/쉼터 관찰은 버스 시간을 바꾸거나, 물건을 보상하거나, 결말을 결정하거나, 인물을 순간 이동시키지 않습니다.
+- [ ] 재시작은 승객, 우산, 주변 방문, 차의 자세, 읽기 창, 원래 시작 상태를 일관되게 복원합니다. 차의 히터는 버스 탑승 때 멈추며, 정리 시 스트림을 해제합니다.
+- [ ] 새 관찰 요소를 모두 무시해도 원래의 승차와 조용한 결말에 도달할 수 있습니다.
 
-## Evidence anchors
+## 근거 경로
 
-Paths below are relative to the `after-the-rain/` project root, one directory above this document.
+아래 경로는 이 문서의 한 단계 위인 `after-the-rain/` 프로젝트 루트를 기준으로 합니다.
 
 `config/story_{passenger,flower,car,refuge}.tres`; `scenes/neighborhood_extension.tscn`; `scripts/neighborhood_extension.gd`, `glass_refuge.gd`, `flower_life.gd`, `waiting_passenger.gd`, `umbrella_exchange.gd`, `onboard_companion.gd`; `art/build_parked_car.py`; `assets/refuge/README.md`; `WORLD_EXPANSION.md`.
-Relevant regression coverage: `tests/world_expansion.gd`, `tests/refuge_seating.gd` and the passenger/umbrella lifecycle suites. Documentation review alone does not substitute for rerunning them after code changes.
+관련 회귀 검증 범위: `tests/world_expansion.gd`, `tests/refuge_seating.gd`, 승객/우산 수명 주기 테스트 묶음. 문서 검토만으로 코드 변경 후의 재실행을 대신할 수는 없습니다.

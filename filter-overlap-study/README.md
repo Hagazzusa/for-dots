@@ -1,80 +1,49 @@
-# When two filters overlap
+# 두 필터가 겹칠 때
 
-A bounded companion experiment to **Garden of Light**. Instead of another
-palette variation, this asks whether its colored shadows behave like
-subtractive RGB filters, and what changes when a diffuse surface component is added.
+**Garden of Light**에 곁들인 범위가 정해진 실험입니다. 또 다른 팔레트 변주 대신, 유색 그림자가 감산 RGB 필터처럼 동작하는지와 확산 표면 성분을 더할 때 무엇이 달라지는지를 묻습니다.
 
-## Result
+## 결과
 
-Measured floor-patch RGB divided by the identical unfiltered reference:
+바닥 패치에서 측정한 RGB를 동일한 무필터 기준값으로 나눈 값입니다.
 
-| Condition | R | G | B |
+| 조건 | R | G | B |
 |---|---:|---:|---:|
-| No filters | 1.000000 | 1.000000 | 1.000000 |
-| Cyan, C | 0.200000 | 0.850000 | 0.900000 |
-| Yellow, Y | 0.950000 | 0.850000 | 0.200000 |
-| Pure overlapping filters | 0.190000 | 0.722500 | 0.180000 |
-| Overlap, gallery-style 12% diffuse mix | 0.150503 | 0.587904 | 0.153065 |
-| Same gallery mix, indirect diffuse disabled | 0.147136 | 0.559504 | 0.139392 |
+| 필터 없음 | 1.000000 | 1.000000 | 1.000000 |
+| 시안, C | 0.200000 | 0.850000 | 0.900000 |
+| 노랑, Y | 0.950000 | 0.850000 | 0.200000 |
+| 순수 필터 겹침 | 0.190000 | 0.722500 | 0.180000 |
+| 겹침, 갤러리 방식의 12% 확산 혼합 | 0.150503 | 0.587904 | 0.153065 |
+| 같은 갤러리 혼합, 간접 확산 끔 | 0.147136 | 0.559504 | 0.139392 |
 
-Pure transmission matches the channelwise product **C × Y**, within
-**3.8 × 10⁻⁸** in normalized RGB. This is floating-point agreement inside this
-shader model, not a real-material accuracy rating.
+순수 투과는 정규화 RGB에서 **3.8 × 10⁻⁸** 이내로 채널별 곱 **C × Y**와 일치합니다. 이 셰이더 모델 안의 부동소수점 일치이며 실제 재료 정확도 등급이 아닙니다.
 
-The gallery mixture's direct-path prediction is **0.88² × C × Y**. With diffuse
-bounces enabled, measured normalized green is 0.587904 rather than 0.559504.
-Disabling indirect diffuse reduces the maximum prediction residual from
-**0.028400** to **3.7 × 10⁻⁸**. This controlled ablation supports diffuse
-interreflection as the source of the excess in this scene; the noisy residual
-is not an exact physical radiometric measurement.
+갤러리 혼합의 직접 경로 예측은 **0.88² × C × Y**입니다. 확산 반사를 켜면 측정한 정규화 녹색은 0.559504가 아닌 0.587904입니다. 간접 확산을 끄면 최대 예측 잔차가 **0.028400**에서 **3.7 × 10⁻⁸**로 줄어듭니다. 이 통제된 성분 제거 실험은 이 장면에서 초과분의 원인이 확산 상호반사라는 설명을 뒷받침합니다. 노이즈가 있는 잔차는 정확한 물리적 방사 측정값이 아닙니다.
 
-## Controls and limits
+## 통제 조건과 한계
 
-- Same matte 0.8 diffuse floor, white area light, camera, exposure, seed, patch
-  geometry, and sampling in all six conditions.
-- Black world; no colored lights, compositor coloring, or external textures.
-- 256 × 256, 64 samples, fixed seed 17, two CPU threads, no denoising.
-- Measured the identical central 32 × 32 floor patch from **32-bit float EXR**,
-  loaded by Blender as **Linear Rec.709**. Divided each channel by the control.
-- PNG previews use Standard / sRGB, exposure 0, gamma 1. Their display values
-  are **not** used for calculation. Color-management nonlinearities would make
-  multiplying ordinary screenshot RGB values invalid for this test.
-- Filters remain active for shadow and indirect rays but are hidden from
-  camera rays, isolating the floor rather than viewing it through the filters
-  a second time. This is a measurement setup, not a proposed camera trick for
-  the original installation.
-- Two plane sizes/heights give approximately aligned shadow footprints. Only
-  the central patch, safely inside both penumbras, is measured.
-- The gallery comparison repeats the original 88% transparent / 12% diffuse
-  structure, but changes colors and controlled geometry. It does not claim to
-  measure the original gallery scene pixel-for-pixel.
-- RGB non-refractive approximations, not spectral transmission, real glass,
-  wavelength-dependent scattering, or focused caustics.
+- 여섯 조건 모두 동일한 0.8 무광 확산 바닥, 흰 면광원, 카메라, 노출, 시드, 패치 지오메트리, 샘플링을 사용합니다.
+- 검은 월드. 유색광, 합성기 착색, 외부 텍스처는 없습니다.
+- 256 × 256, 64샘플, 고정 시드 17, CPU 스레드 두 개, 디노이징 없음.
+- Blender가 **Linear Rec.709**로 읽은 **32비트 부동소수점 EXR**에서 동일한 중앙 32 × 32 바닥 패치를 측정했습니다. 각 채널을 대조군 값으로 나눴습니다.
+- PNG 미리보기는 Standard / sRGB, 노출 0, 감마 1을 사용합니다. 표시값은 계산에 사용하지 **않습니다**. 색 관리의 비선형성 때문에 일반 화면 캡처 RGB 값을 곱하는 것은 이 검사의 유효한 방법이 아닙니다.
+- 필터는 그림자·간접 광선에 작용하지만 카메라 광선에는 숨겨집니다. 필터를 두 번째로 통과해 보는 대신 바닥을 분리하기 위함입니다. 측정 설정이며 원래 설치 작품을 위한 카메라 기법 제안이 아닙니다.
+- 평면의 크기/높이 두 가지로 그림자 영역을 대략 맞췄습니다. 두 반그림자 안쪽에 안전하게 놓인 중앙 패치만 측정합니다.
+- 갤러리 비교는 원본의 투명 88% / 확산 12% 구조를 반복하지만 색과 통제 지오메트리를 바꿉니다. 원래 갤러리 장면을 픽셀 단위로 측정했다고 주장하지 않습니다.
+- 굴절 없는 RGB 근사이며 분광 투과, 실제 유리, 파장 의존 산란, 집광 코스틱이 아닙니다.
 
-## Reproduce
+## 재현
 
 ```sh
 blender -b -t 2 --python study.py
 python compose.py
 ```
 
-Blender includes numpy for measurement. Contact-sheet composition requires
-Pillow (with a default-font fallback). All source paths resolve relative to
-the scripts. The saved blend opens at the final, direct-only condition; run
-the source to regenerate every controlled variant.
+Blender에는 측정용 numpy가 포함되어 있습니다. 비교 이미지 구성에는 Pillow가 필요하며 기본 글꼴 대체 경로가 있습니다. 모든 소스 경로는 스크립트 기준으로 정합니다. 저장한 blend는 마지막 직접광만의 조건에서 열립니다. 모든 통제 변형을 다시 생성하려면 소스를 실행하세요.
 
-`Filter-Overlap-Comparison.png` is a visually inspected contact sheet of the
-actual six floor renders, not recolored illustrative swatches.
-`measurements.json` retains unnormalized means, predictions, residuals and
-loaded color-space names. The six `.exr` files retain the linear evidence;
-`.png` files retain display previews. `Filter-Overlap.blend` is editable.
+`Filter-Overlap-Comparison.png`는 실제 여섯 바닥 렌더를 육안으로 확인한 비교 이미지이며, 다시 칠한 설명용 색상 견본이 아닙니다. `measurements.json`에는 정규화하지 않은 평균, 예측, 잔차, 읽어 들인 색 공간 이름을 보존합니다. 여섯 `.exr` 파일은 선형 근거를, `.png` 파일은 표시용 미리보기를 보존합니다. `Filter-Overlap.blend`는 편집 가능합니다.
 
-## Primary technical references
+## 1차 기술 참고 자료
 
-- Blender's [Transparent BSDF documentation](https://docs.blender.org/manual/en/4.4/render/shader_nodes/shader/transparent.html)
-  defines straight-through transparency without refraction and colored transmission.
-- Blender's [color-management implementation documentation](https://developer.blender.org/docs/features/render_pipeline/color_management/)
-  describes scene-linear float image buffers.
-- [OpenEXR scene-linear documentation](https://openexr.com/en/latest/SceneLinear.html)
-  cautions that an EXR file alone does not guarantee linear-light interpretation;
-  this experiment additionally records Blender's loaded color-space designation.
+- Blender의 [Transparent BSDF 문서](https://docs.blender.org/manual/en/4.4/render/shader_nodes/shader/transparent.html)는 굴절 없는 직진 투명성과 유색 투과를 정의합니다.
+- Blender의 [색 관리 구현 문서](https://developer.blender.org/docs/features/render_pipeline/color_management/)는 장면 선형 부동소수점 이미지 버퍼를 설명합니다.
+- [OpenEXR 장면 선형 문서](https://openexr.com/en/latest/SceneLinear.html)는 EXR 파일이라는 사실만으로 선형 광량 해석이 보장되지는 않는다고 주의합니다. 이 실험은 Blender가 읽어 들인 색 공간 지정도 기록합니다.

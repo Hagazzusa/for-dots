@@ -1,56 +1,56 @@
 # 옆자리 / Beside You
 
-**A heater switch. A little movement in the passenger seat. No one needs to speak.**
+**히터 스위치. 조수석의 작은 움직임. 아무도 말할 필요가 없습니다.**
 
-One restrained, 38-second alternate to *차창 밖의 박자 / Window Rhythms*. This fictional parked-car scene depicts cold rain, a heater, and the suggestion of a silent companion. It makes no claim about any real person or situation.
+*차창 밖의 박자 / Window Rhythms*의 절제된 38초 변주입니다. 차가운 비, 히터, 말없는 동행의 기척을 담은 허구의 주차된 차 안 장면이며, 실제 인물이나 상황을 묘사한다고 주장하지 않습니다.
 
-## Listen
+## 듣기
 
-`beside_you_preview.mp3` is the small 128 kb/s preview; `beside_you.wav` is the 48 kHz stereo 16-bit PCM master. Start playback at a low device volume. File-level measurements do not establish physical listening safety. Nothing autoplays.
+`beside_you_preview.mp3`는 작은 128 kb/s 미리보기이고, `beside_you.wav`는 48 kHz 스테레오 16비트 PCM 마스터입니다. 기기 음량을 낮게 설정하고 재생을 시작하세요. 파일 수준 측정으로 실제 청취 안전성을 입증할 수 없습니다. 자동 재생하지 않습니다.
 
-| Time | Intended narrative cue |
+| 시간 | 의도한 서사적 단서 |
 |---|---|
-| 0–5 s | The original exterior rain enters |
-| 5.5 s | One muted procedural heater-switch click |
-| 5.7–10 s | Soft fan rises while the outside layer settles by 6 dB |
-| 13.2–13.9 s | A small filtered-noise cloth/seat movement, slightly right |
-| 14–35 s | Fan, rain, and space; no conversational cue |
-| 35–38 s | Smooth fade to silence |
+| 0–5 s | 원래의 바깥 빗소리가 들어옴 |
+| 5.5 s | 절차적으로 만든 먹먹한 히터 스위치 클릭 한 번 |
+| 5.7–10 s | 부드러운 팬 소리가 커지고 바깥 레이어는 6 dB 낮아짐 |
+| 13.2–13.9 s | 약간 오른쪽에서 필터링한 노이즈로 만든 작은 옷감/좌석 움직임 |
+| 14–35 s | 팬, 비, 여백. 대화를 유도하는 단서는 없음 |
+| 35–38 s | 부드럽게 무음으로 사라짐 |
 
-The outside attenuation is a creative change in listening perspective, **not** a physical claim that a heater reduces rain volume. No voices, breathing, melody, recordings, or external assets were added. The fan is correlated band-limited noise, not a tonal drone or binaural effect. This is audio art, not a health or sleep product.
+바깥 소리의 감쇠는 청취 시점을 바꾸는 창작적 표현이지, 히터가 빗소리 음량을 줄인다는 물리적 주장이 **아닙니다**. 목소리, 숨소리, 선율, 녹음, 외부 에셋은 추가하지 않았습니다. 팬은 상관된 대역 제한 노이즈이며 음조가 있는 드론이나 바이노럴 효과가 아닙니다. 건강·수면 제품이 아닌 오디오 예술입니다.
 
-The original experiment remains untouched. `rain_source.py` vendors its deterministic instrument and measurement helpers so this folder can rebuild independently; no parent-folder imports or hidden inputs are required. The original source gain is retained. There is no upward loudness normalization, compressor, or limiter in this alternate.
+원래 실험은 그대로입니다. `rain_source.py`에 결정론적 악기와 측정 도우미를 포함하여 이 폴더만으로 다시 만들 수 있으며, 상위 폴더 가져오기나 숨겨진 입력은 필요하지 않습니다. 원본 소스 게인을 유지했습니다. 이 변주에는 음량을 올리는 정규화, 컴프레서, 리미터가 없습니다.
 
-## Rebuild and inspect
+## 다시 만들고 살펴보기
 
-Requires Python 3.10+, NumPy/SciPy from `requirements.txt`, and FFmpeg with libmp3lame.
+Python 3.10+, `requirements.txt`의 NumPy/SciPy, libmp3lame이 포함된 FFmpeg가 필요합니다.
 
 ```sh
 python build.py
 python build.py --out /tmp/beside-you-repeat
 ```
 
-No network access or asset downloads occur during the build. Random seeds are fixed; worker threads are restricted. Byte-identical output is verified for repeated runs on the installed toolchain; another FFmpeg/library version may produce different bytes.
+빌드 중 네트워크 접근이나 에셋 다운로드는 없습니다. 난수 시드는 고정했고 작업 스레드를 제한했습니다. 설치된 도구 버전으로 반복 실행했을 때 바이트까지 동일한 결과를 검증했습니다. 다른 FFmpeg/라이브러리 버전에서는 바이트가 달라질 수 있습니다.
 
-## Numerical QA — not a listening review
+## 수치 품질 검사 — 청취 검증이 아님
 
-Audio input was unavailable. **No perceptual audition was performed.** The intended fan, cloth, and warmer interior cues are unverified perceptually. These measurements cannot establish pleasantness, audible realism, subjective warmth, or actual masking success.
+오디오 입력을 사용할 수 없어 **직접 청취 검증은 하지 못했습니다**. 의도한 팬, 옷감, 더 따뜻한 실내의 단서는 지각적으로 검증하지 못했습니다. 이 측정으로 쾌적함, 청각적 사실성, 주관적 따뜻함, 실제 마스킹 성공을 입증할 수 없습니다.
 
-| Metric | WAV master | Decoded MP3 |
+| 지표 | WAV 마스터 | 디코딩한 MP3 |
 |---|---:|---:|
-| Duration | 38.000 s | 38.000 s |
-| Integrated loudness | −31.09 LUFS | −31.51 LUFS |
-| True peak | −11.97 dBTP | −12.50 dBTP |
-| Clipped samples | 0 | 0 |
-| Stereo correlation | 0.955 | 0.951 |
-| Mono-fold RMS change | −0.100 dB | −0.109 dB |
-| Power below 80 Hz | 0.00221% | 0.00256% |
-| First / last 10 ms | Exact zero | Exact zero |
+| 길이 | 38.000 s | 38.000 s |
+| 통합 음량 | −31.09 LUFS | −31.51 LUFS |
+| 트루 피크 | −11.97 dBTP | −12.50 dBTP |
+| 클리핑 샘플 | 0 | 0 |
+| 스테레오 상관도 | 0.955 | 0.951 |
+| 모노 합산 RMS 변화 | −0.100 dB | −0.109 dB |
+| 80 Hz 아래 전력 | 0.00221% | 0.00256% |
+| 처음 / 마지막 10 ms | 정확히 0 | 정확히 0 |
 
-Maximum absolute channel DC mean is below 2.7e−7. Both files decode to exactly 1,824,000 stereo sample frames. Other players' gapless behavior is not verified.
+채널 DC 평균의 최대 절댓값은 2.7e−7 미만입니다. 두 파일 모두 정확히 1,824,000개의 스테레오 샘플 프레임으로 디코딩됩니다. 다른 플레이어의 갭리스 동작은 검증하지 않았습니다.
 
-**Matching-frame comparison, 10–35 seconds:** exterior RMS is exactly 6.00 dB below the same original frames; fan RMS is 11.70 dB below that exterior layer; the complete mix is 5.72 dB below the original. The fan is not simply piled onto the old mix at its old level. These are energy measurements, not a perceptual masking model. Integrated loudness is approximately 5.1 LU lower than the original master.
+**동일 프레임 비교, 10–35초:** 바깥 소리 RMS는 같은 원본 프레임보다 정확히 6.00 dB 낮고, 팬 RMS는 그 바깥 레이어보다 11.70 dB 낮으며, 전체 믹스는 원본보다 5.72 dB 낮습니다. 원래 음량의 기존 믹스 위에 팬을 단순히 더한 것이 아닙니다. 이는 에너지 측정이지 지각적 마스킹 모델이 아닙니다. 통합 음량은 원본 마스터보다 약 5.1 LU 낮습니다.
 
-`qa.json` contains complete measured results and audio SHA-256 hashes. In the retained FFmpeg loudnorm diagnostics, only **`input_*`** describes the delivered audio; `output_*` is discarded analysis-filter output, not an applied normalization. `reproducibility.json` compares independent rebuilds. `waveform.svg` shows min/max stereo waveforms on a full-scale linear axis, not autoscaled.
+`qa.json`에는 전체 측정 결과와 오디오 SHA-256 해시가 있습니다. 보존한 FFmpeg loudnorm 진단에서 제공한 오디오를 설명하는 것은 **`input_*`**뿐입니다. `output_*`는 버린 분석 필터 출력이며, 적용한 정규화가 아닙니다. `reproducibility.json`은 독립적인 재빌드를 비교합니다. `waveform.svg`는 자동 축척이 아니라 전체 스케일 선형 축에 최소/최대 스테레오 파형을 표시합니다.
 
-The builder asserts no clipping, finite samples, correct duration, low DC/deep-bass energy, restrained true peak and loudness, mono compatibility, low endpoint levels, exact exterior attenuation, and a quieter matching-window mix. These are technical checks, not promises of comfort.
+빌더의 단언문은 클리핑 없음, 유한한 샘플, 정확한 길이, 낮은 DC/초저음 에너지, 절제된 트루 피크와 음량, 모노 호환성, 낮은 끝점 레벨, 정확한 바깥 소리 감쇠, 동일 구간에서 더 조용한 믹스를 검사합니다. 이는 기술 검사이지 편안함에 대한 약속이 아닙니다.

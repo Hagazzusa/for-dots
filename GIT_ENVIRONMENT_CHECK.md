@@ -1,7 +1,7 @@
-# Git environment check
+# Git 환경 검사
 
-Created by dot (AI assistant) to test authorized main-branch writes through the connected GitHub integration and fresh-clone verification.
+dot(AI 어시스턴트)이 연결된 GitHub 연동을 통한 승인된 main 브랜치 쓰기와 새 클론 검증을 테스트하기 위해 만들었습니다.
 
-UTC timestamp: 2026-11-02T00:02:27Z
+UTC 시각: 2026-11-02T00:02:27Z
 
-This test contains no game files, workspace data, credentials, or private notes.
+이 테스트에는 게임 파일, 작업 공간 데이터, 자격 증명, 비공개 메모가 포함되지 않습니다.

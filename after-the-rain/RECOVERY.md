@@ -1,94 +1,94 @@
-# Reconstruction checkpoints
+# 재구현 체크포인트
 
-The surviving V7 baseline is preserved in Git history. Later local revisions were lost; this work reconstructs selected behavior and validates new code. It is not recovery of the original later source.
+남아 있던 V7 기준본은 Git 이력에 보존되어 있습니다. 이후 로컬 수정본은 유실되었으며, 이 작업은 선택한 동작을 다시 구현하고 새 코드를 검증합니다. 원래의 이후 소스를 복구한 것이 아닙니다.
 
-## Core stage design
-| Unit | Responsibility | Interface / ownership |
+## 핵심 단계 설계
+| 단위 | 책임 | 인터페이스 / 소유권 |
 |---|---|---|
-| Player scene | Mouse and keyboard look, locomotion | Inspector keyboard speed; seated look; existing anti-warp mouse guard |
-| NightBus + Visual | Route phase and distant visual fade | Route owns opacity; private cached materials; session still owns boarded root hiding |
-| PauseOverlay scene | Explicit pause/help and keyboard navigation | Owns only pause it acquired; restart/mute signals wired by session; saved controls/font |
-| Session | Compose components, gate source-only regression entry | Never disable gameplay for an unavailable test runner |
-| Source review fixtures | Clearly identified visual test scenes | TEST ONLY title/banner; not dependencies of normal main |
+| Player 장면 | 마우스와 키보드 시점, 이동 | 인스펙터 키보드 속도, 앉은 시점, 기존 마우스 순간 이동 방어 |
+| NightBus + Visual | 노선 단계와 원거리 시각 페이드 | 노선이 불투명도를 소유하며 인스턴스 전용 재질을 캐시함. 탑승 시 루트 숨기기는 계속 세션이 소유 |
+| PauseOverlay 장면 | 명시적 일시 정지/도움말과 키보드 탐색 | 자신이 시작한 일시 정지만 소유. 세션이 재시작/음소거 신호를 연결하며 조작 요소/글꼴은 저장됨 |
+| Session | 구성 요소 조합, 소스에만 있는 회귀 검사 진입 제어 | 테스트 실행기를 사용할 수 없다는 이유로 게임플레이를 끄지 않음 |
+| 소스 검토용 테스트 자료 | 명확히 구별되는 시각 테스트 장면 | TEST ONLY 제목/배너. 일반 메인 장면의 의존성이 아님 |
 
-No liquid, cup geometry, bus door/wheel geometry, schedule or content changes belong to this stage. Esc remains mouse release; Space is explicit pause. No focus-loss automatic pause. Tests are fresh evidence, not inherited results from lost revisions.
+이 단계에는 액체, 컵 지오메트리, 버스 문/바퀴 지오메트리, 시간표, 콘텐츠 변경이 포함되지 않습니다. Esc는 계속 마우스 해제이고 Space는 명시적인 일시 정지입니다. 포커스를 잃었다고 자동 일시 정지하지 않습니다. 테스트는 유실된 수정본의 결과를 물려받은 것이 아니라 새 근거입니다.
 
-### Core validation notes
-Godot4.6.3 Compatibility. The first fresh gate exposed an old test assuming material sharing while parked; its full-opacity sharing assertion now explicitly selects full opacity, while a new test checks private waiting/fade resources. New integration-test audio is stopped/drained before teardown. Real input tests wait for dispatched press/release frames rather than assuming synchronous event delivery.
+### 핵심 검증 메모
+Godot 4.6.3 Compatibility를 사용했습니다. 첫 새 검증에서 주차 중 재질 공유를 가정하던 오래된 테스트가 드러났습니다. 완전 불투명 상태의 공유 단언은 이제 완전 불투명을 명시적으로 선택하며, 새 테스트는 대기/페이드의 인스턴스 전용 리소스를 검사합니다. 새 통합 테스트 오디오는 정리 전에 멈추고 남은 데이터를 비웁니다. 실제 입력 테스트는 동기 이벤트 전달을 가정하지 않고 전달된 누름/해제 프레임을 기다립니다.
 
-Native keyboard play verified seated arrow look, ordinary arrival/boarding, pause during the window ride, the default ending and restart. Help is readable at1180×812 and636×356; Home/End reaches overflow content. Portrait478×718 exposed a real focus bug: Tab could focus a button outside the scroll area. Focus changes now queue scroll reveal, with a dedicated Home→Tab regression. A source-only review fixture was inspected with its red TEST ONLY banner and distinct window title, then closed; it is never the normal scene.
+네이티브 키보드 플레이로 앉은 상태의 방향키 시점, 일반 도착/탑승, 창가 이동 중 일시 정지, 기본 결말, 재시작을 확인했습니다. 도움말은 1180×812와 636×356에서 읽히며 Home/End로 넘치는 내용에 도달합니다. 세로 478×718에서 Tab이 스크롤 영역 밖 버튼에 포커스를 줄 수 있는 실제 버그가 드러났습니다. 포커스 변경은 이제 스크롤로 해당 요소를 드러내는 작업을 예약하며 전용 Home→Tab 회귀 검사를 추가했습니다. 소스에만 있는 검토용 테스트 장면은 빨간 TEST ONLY 배너와 구별되는 창 제목을 확인한 뒤 닫았으며 일반 장면으로 사용하지 않습니다.
 
-No audible audition is claimed on the cloud Dummy audio driver. The native cloud renderer is llvmpipe; performance is not representative of a hardware-GPU desktop. Later content/overview polish and other remembered features remain subsequent reconstruction stages.
+클라우드 Dummy 오디오 드라이버에서 직접 청취 검증을 했다고 주장하지 않습니다. 네이티브 클라우드 렌더러는 llvmpipe이며 성능은 하드웨어 GPU 데스크톱을 대표하지 않습니다. 이후 콘텐츠/전체 보기 다듬기와 기억에 남아 있는 다른 기능은 후속 재구현 단계로 남겨 두었습니다.
 
-Final core gate (2026-11-02):21 serial checks including import and main, zero failures; bus visibility58 checks and pause62 checks. A145-file production PCK passes isolated normal and `--test` runs with input enabled and no source fixtures. Native portrait Home→Tab recheck reveals the focused Restart button correctly. The ordinary main opening was restored at1180×812 after fixtures. Original liquid and bus-door geometry remain unchanged.
+최종 핵심 검증(2026-11-02): 가져오기와 메인을 포함한 직렬 검사 21개, 실패 0개. 버스 가시성 검사 58개와 일시 정지 검사 62개입니다. 파일 145개인 배포용 PCK는 입력이 켜져 있고 소스 테스트 장면이 없는 격리된 일반 실행과 `--test` 실행을 통과합니다. 네이티브 세로 화면 Home→Tab 재검사에서 포커스된 Restart 버튼이 올바르게 드러납니다. 테스트 장면 뒤 일반 메인 시작 화면을 1180×812로 복원했습니다. 원래 액체와 버스 문 지오메트리는 그대로입니다.
 
-## Evening stage design
-EveningClock owns elapsed simulation time and starts23:40. NightBus owns first/repeated wait durations (67/25seconds plus8second approach), cycle count and exact remaining-wait skip. SeatedT advances only that remaining waiting time and the displayed clock, not drink physics, passenger motion or an already approaching bus. No deadline or forced last bus.
+## 저녁 단계 설계
+EveningClock은 경과한 시뮬레이션 시간을 소유하며 23:40에 시작합니다. NightBus는 첫/반복 대기 시간(67/25초에 접근 8초 추가), 주기 수, 정확한 남은 대기 건너뛰기를 소유합니다. 앉아서 T를 누르면 남은 대기 시간과 표시 시계만 진행하며 음료 물리, 승객 이동, 이미 접근 중인 버스는 진행시키지 않습니다. 마감이나 강제 막차는 없습니다.
 
-UmbrellaExchange owns optional loan state; StoryPanel supplies Resource identity and a close event. Explicit G opens a1/2 choice only while holding the umbrella and facing an available passenger. Q does not lend; accepting transfers the single shared item and leaves its basket unavailable until restart. The reconstructed G interface and dialogue are new, not claimed identical to missing historical code. Same-bus voice is conditional on the passenger actually being aboard; a later bus retains only a memory. Existing passenger movement is preserved.
+UmbrellaExchange는 선택적 대여 상태를 소유하며 StoryPanel은 Resource 식별과 닫기 이벤트를 제공합니다. 우산을 들고 상호작용 가능한 승객을 바라볼 때만 명시적인 G 입력으로 1/2 선택지를 엽니다. Q는 빌려주지 않습니다. 수락하면 하나의 공유 물건을 넘기고 재시작 전까지 바구니를 사용할 수 없게 합니다. 재구현한 G 인터페이스와 대화는 새 것이며, 사라진 과거 코드와 같다고 주장하지 않습니다. 같은 버스의 대사는 승객이 실제 탑승했을 때만 나오며 이후 버스에는 기억만 남습니다. 기존 승객 이동은 보존합니다.
 
-The exchange's three-mesh folded umbrella follows the recipient's authored hand. While bound, it suppresses the old decorative umbrella, so the NPC does not already hold a second umbrella before borrowing. Reset hides the loan prop; freeing/rebinding restores the independent original NPC appearance. Independent review found that early player boarding could leave the sibling prop visible after the passenger disappeared; boarding now refreshes its presentation immediately, covered by a root integration assertion.
+대여 기능의 메시 세 개짜리 접힌 우산은 받는 사람의 저장된 손 위치를 따릅니다. 연결된 동안에는 기존 장식 우산을 숨기므로 NPC가 빌리기 전부터 두 번째 우산을 들고 있지 않습니다. 초기화는 대여 소품을 숨기며, 해제/재연결은 독립적인 원래 NPC 외관을 복원합니다. 독립 검토에서 플레이어가 일찍 탑승하면 승객이 사라진 뒤에도 형제 노드인 소품이 보일 수 있음을 발견했습니다. 이제 탑승 시 표현을 즉시 갱신하며 루트 통합 단언문이 이를 검사합니다.
 
-The existing three-cycle passenger regression now derives its simulation duration from first/repeated schedules rather than its former fixed190seconds; its original three-cycle/no-ghost assertion is retained.
+기존 세 주기 승객 회귀 검사는 이전의 고정 190초 대신 첫/반복 시간표로 시뮬레이션 시간을 계산합니다. 원래의 세 주기/유령 승객 없음 단언은 유지합니다.
 
-### Evening native verification and input correction
-Native play confirmed the optional loan's cancel/keep/lend branches, one visible transferred umbrella, seated T changing23:40 to23:41 as the arrival begins, ordinary boarding, the completed ending and R resetting the clock/countdown. The ordinary main opening was restored after inspection.
+### 저녁 네이티브 검증과 입력 수정
+네이티브 플레이로 선택적 대여의 취소/계속 갖기/빌려주기 분기, 눈에 보이는 전달된 우산 하나, 앉아서 T를 눌렀을 때 도착이 시작되며 23:40이 23:41로 바뀌는 것, 일반 탑승, 완료된 결말, R로 시계/남은 시간 초기화를 확인했습니다. 검토 뒤 일반 메인 시작 화면을 복원했습니다.
 
-Correction to the earlier core note: the first seated-look check did not prove remote logical-only arrow input. The evening pass reproduced that gap and changes arrow polling to logical keycodes, leaving physical WASD unchanged. Held Left now visibly rotates in the native game; release and pause/resume do not leave rotation stuck. A real key-event regression supplements the earlier direct-method checks.
+앞선 핵심 메모의 정정: 처음 앉은 시점 검사는 원격 논리 키 입력만으로 방향키가 작동함을 증명하지 못했습니다. 저녁 단계에서 이 문제를 재현하고 방향키 폴링을 논리 키코드로 바꾸었으며 물리 WASD는 그대로 두었습니다. 이제 네이티브 게임에서 왼쪽 키를 누르고 있으면 실제로 회전하고, 해제와 일시 정지/재개 뒤 회전이 계속 붙어 있지 않습니다. 실제 키 이벤트 회귀 검사를 더해 앞선 직접 메서드 검사를 보완했습니다.
 
-Final evening gate (2026-11-02):24 serial checks, zero failures, including logical-only press/hold/release through the real input dispatcher and actual passenger walking onto the same bus. The synthetic-input test now settles initial viewport frames and explicitly flushes buffered events before asserting key state; it still asserts physical arrow state is false. Production PCK audit:150 files, isolated normal and `--test` runs both playable, no source fixtures. No liquid or bus-door geometry changes.
+최종 저녁 검증(2026-11-02): 직렬 검사 24개, 실패 0개. 실제 입력 디스패처를 통한 논리 키만의 누름/유지/해제와 실제 승객이 같은 버스로 걸어 탑승하는 경우를 포함합니다. 합성 입력 테스트는 이제 초기 뷰포트 프레임이 안정될 때까지 기다리고 버퍼된 이벤트를 명시적으로 비운 뒤 키 상태를 단언하며, 물리 방향키 상태가 거짓이라는 단언도 유지합니다. 배포용 PCK 감사: 파일 150개, 격리된 일반 실행과 `--test` 모두 플레이 가능, 소스 테스트 장면 없음. 액체나 버스 문 지오메트리는 바꾸지 않았습니다.
 
-## Neighborhood stage design
-WeatherCycle owns the deterministic180-second rain-lull envelope from evening simulation time (45-second onset,12-second fade,18-second hold,12-second return). Rain keeps every baked trajectory advancing and varies only the drawn subset; Ambience reduces only its rain target by up to4.5dB. Quiet-wait intentionally advances this evening time; ordinary pause freezes it. No survival penalty or last-bus deadline.
+## 동네 단계 설계
+WeatherCycle은 저녁 시뮬레이션 시간으로 결정되는 180초 빗소강 포락선(45초에 시작, 12초 감소, 18초 유지, 12초 복귀)을 소유합니다. Rain은 베이크된 모든 궤적을 계속 진행시키되 그리는 부분집합만 바꿉니다. Ambience는 비 목표 음량만 최대 4.5 dB 낮춥니다. 조용히 기다리기는 이 저녁 시간을 의도적으로 진행시키며 일반 일시 정지는 멈춥니다. 생존 불이익이나 막차 마감은 없습니다.
 
-The flower-shop awning has one authored RainCover volume, injected identically into the world's shelter check and rain masking. It follows the actual underside and footprint, not a broad proximity radius. FlowerLife and RainCat are independent saved compositions with explicit stepping and local state, no new lights, collisions or global timers. Optional E gestures never gate boarding; reset starts a fresh encounter. These are fresh reconstructions of remembered scenes, not recovered original source or wording.
+꽃집 차양에는 직접 구성한 RainCover 공간 하나가 있으며 월드의 비 피하기 검사와 비 마스킹에 동일하게 주입합니다. 넓은 근접 반경이 아니라 실제 아랫면과 평면 영역을 따릅니다. FlowerLife와 RainCat은 명시적 진행과 로컬 상태를 가진 독립 저장 구성으로, 새 조명·충돌체·전역 타이머는 없습니다. 선택적인 E 몸짓은 탑승 조건이 아니며 초기화는 새 만남을 시작합니다. 기억한 장면을 새로 재구현한 것이지 원래 소스나 문구를 복구한 것이 아닙니다.
 
-Neighborhood validation (2026-11-02):27 serial checks/0 failures, including36 weather checks and37 flower/cat checks. Actual intermediate mesh bounds, two-instance state, pause, save/reopen, unchanged rain trajectories and shared cover decisions are tested. Headless Dummy MultiMesh readback is not treated as render proof; native inspection separately confirmed the sheltered view and cat placement. The physical walking test now targets the actual paper's relocated marker while retaining capsule collision movement, rather than the former window-center waypoint.
+동네 검증(2026-11-02): 직렬 검사 27개/실패 0개. 날씨 검사 36개와 꽃집/고양이 검사 37개를 포함합니다. 실제 중간 메시 경계, 두 인스턴스 상태, 일시 정지, 저장/다시 열기, 변하지 않은 비 궤적, 공유 비 차단 판정을 검사했습니다. 헤드리스 Dummy MultiMesh 읽기 결과를 렌더링의 증거로 취급하지 않으며 네이티브 검토로 비를 피하는 시점과 고양이 배치를 따로 확인했습니다. 물리 보행 테스트는 캡슐 충돌 이동을 유지하면서 이전 창문 중심 경유점 대신 실제 종이의 옮겨진 기준점을 향합니다.
 
-Native ordinary play: walked to the flower window, saw the staff appear, used E for the visible wave and Korean response; watched the cat move out during the lull and accepted its E greeting; entered the awning and observed the shelter response; read the paper at its actual location; reset, quietly waited, boarded normally and restored the ordinary opening. Cloud audio remains unauditioned. Production PCK158files passes isolated normal/`--test` play with fixtures excluded.
+네이티브 일반 플레이에서는 꽃집 창가까지 걸어가 직원이 나타나는 것을 보고 E로 손인사와 한국어 응답을 확인했습니다. 비가 잦아들 때 고양이가 나오는 모습을 보고 E 인사를 받아 주었으며, 차양 안으로 들어가 비 피하기 반응을 확인하고 실제 위치의 종이를 읽었습니다. 초기화, 조용히 기다리기, 일반 탑승을 거쳐 일반 시작 화면을 복원했습니다. 클라우드 오디오는 여전히 직접 청취 검증하지 않았습니다. 파일 158개의 배포용 PCK는 테스트 자료를 제외한 격리 일반/`--test` 플레이를 통과합니다.
 
-## Views stage design
-The default8-second ride and completion remain intact. OnboardView now respects the full authored camera rest transform; optional E after completion shows the window again with bounded camera-only sway at the fixed endpoint, without replaying completion. E returns to the ending; R resets. OverviewView is a separate saved camera and never teleports the player. Session suspends only the reader's presentation/input and player motion while viewing; P/E restores the same seat/body/page, without a second E interaction. Camera ownership is restored only when still owned by the overview.
+## 시점 단계 설계
+기본 8초 승차 장면과 완료는 그대로입니다. OnboardView는 이제 저장된 카메라 기본 변환 전체를 따릅니다. 완료 후 선택적 E는 완료를 다시 재생하지 않고 고정 끝점에서 범위가 제한된 카메라 흔들림만으로 창문을 다시 보여 줍니다. E는 결말로 돌아가고 R은 초기화합니다. OverviewView는 별도로 저장된 카메라이며 플레이어를 순간 이동시키지 않습니다. 보는 동안 Session은 읽기 창의 표시/입력과 플레이어 이동만 중단합니다. P/E는 두 번째 E 상호작용 없이 같은 좌석/몸/페이지를 복원합니다. 카메라 소유권은 여전히 전체 보기가 소유하고 있을 때만 복원합니다.
 
-The oversized emissive bus-interior panel is removed, existing steps use a dark nonemissive material, and the existing entry light is restrained. Seven simple authored details make the boarding space legible; door/wheel geometry and0.32m clearance are preserved. Near-view rain shrinks smoothly within0.45–1.8m of the actual active camera, without changing any trajectory, RNG sequence or population. This is a lightweight visual approximation, not collision-driven droplets.
+지나치게 큰 발광 버스 실내 패널은 제거하고 기존 계단은 어두운 비발광 재질을 사용하며 기존 입구 조명은 절제했습니다. 직접 구성한 단순 디테일 일곱 개가 탑승 공간을 알아보기 쉽게 하며 문/바퀴 지오메트리와 0.32 m 간격은 보존했습니다. 근거리 비는 실제 활성 카메라에서 0.45–1.8 m 범위 안에서 부드럽게 작아지며 궤적, 난수 수열, 개체 수는 바꾸지 않습니다. 충돌로 움직이는 물방울이 아니라 가벼운 시각 근사입니다.
 
-Views validation (2026-11-02):30 serial checks/0 failures;160-file production PCK passes both isolated modes. Tests include10,000 linger steps, authored-camera variation, weak camera ownership, actual P/E dispatch preserving seat/reader, suppressed hidden choices, reset, near-camera scale bounds,635 bus clarity/door-sweep checks and the original cup regressions. Independent review caught an overview-only U hint despite disabled U; removed and regression-covered. No runtime errors in native log.
+시점 검증(2026-11-02): 직렬 검사 30개/실패 0개. 파일 160개의 배포용 PCK는 두 격리 모드를 모두 통과합니다. 검사에는 머무르기 진행 10,000회, 저장 카메라 변형, 약한 카메라 소유권, 좌석/읽기 창을 유지하는 실제 P/E 전달, 숨겨진 선택지 억제, 초기화, 근거리 카메라 축척 경계, 버스 가독성/문 이동 영역 검사 635개, 원래 컵 회귀 검사가 포함됩니다. 독립 검토에서 U를 비활성화했는데 전체 보기에서만 U 힌트가 나오는 문제를 찾아 제거하고 회귀 검사로 다룹니다. 네이티브 로그에 런타임 오류는 없습니다.
 
-Native ordinary game verified: open dialogue→P overview→E returns to the same unanswered dialogue; seated P/E restores the same seat; clearer steps/aisle and normal boarding; default ending→E window linger→Space pause→resume→E ending→R opening. Korean ending/help text is readable. Near-camera rain no longer creates the earlier large foreground streaks. The normal opening is left playable, not a fixture. Original liquid source remains byte-identical.
+네이티브 일반 게임에서 확인한 흐름은 대화 열기→P 전체 보기→E로 응답하지 않은 같은 대화 복귀, 앉은 상태의 P/E로 같은 좌석 복귀, 더 명확한 계단/통로와 일반 탑승, 기본 결말→E 창가 머무르기→Space 일시 정지→재개→E 결말→R 시작 화면입니다. 한국어 결말/도움말은 읽을 수 있습니다. 근거리 비는 이전의 큰 전경 줄무늬를 더 이상 만들지 않습니다. 테스트 장면이 아니라 일반 시작 화면을 플레이 가능한 상태로 남겼습니다. 원래 액체 소스는 바이트까지 동일합니다.
 
-## Warmth stage design
-DrinkSession is the single owner of sip duration and normalized progress (−1 inactive,0–1 active), cup age and a bounded presentation heat value. The approved default1.3-second sip and liquid fill/slosh remain unchanged; varied sip durations no longer drift from a separate presentation timer. Heat fades over180seconds to a small floor while cocoa remains, resets on refill, and never imposes a survival penalty.
+## 온기 단계 설계
+DrinkSession은 마시기 지속 시간과 정규화 진행률(−1은 비활성, 0–1은 활성), 컵의 경과 시간, 범위가 제한된 표현용 열 값의 유일한 소유자입니다. 승인된 기본 1.3초 마시기와 액체 수위/출렁임은 그대로이며, 다양한 마시기 지속 시간이 별도 표현 타이머와 어긋나지 않습니다. 코코아가 남아 있으면 열은 180초에 걸쳐 작은 하한까지 낮아지고 다시 받으면 초기화되며 생존 불이익을 주지 않습니다.
 
-HeldDrink receives heat/shelter/umbrella state explicitly. Three CPU-phased textured billboard wisps replace sphere particles, with quieter drift under cover and no shader wall-clock time. A small authored coat/gloved grip supports the cup. Steam hides while sipping, empty, boarding or in overview. The seated attachment uses a world-height floor to keep cup and grip above the bench even when looking down. The approved liquid script and six-part cup scene remain byte-identical.
+HeldDrink는 열/비 피하기/우산 상태를 명시적으로 받습니다. CPU 위상으로 움직이는 텍스처 빌보드 김 세 개가 구체 입자를 대체하며, 가림 아래에서는 더 조용히 흐르고 셰이더 실제 경과 시간은 사용하지 않습니다. 작게 구성한 코트/장갑 쥔 손이 컵을 받칩니다. 김은 마시는 중, 컵이 빈 상태, 탑승 중, 전체 보기에서 숨습니다. 앉은 부착물은 월드 높이 하한을 사용해 아래를 보더라도 컵과 손이 벤치 위에 있게 합니다. 승인된 액체 스크립트와 여섯 부분의 컵 장면은 바이트까지 동일합니다.
 
-Warmth validation (2026-11-02):32 serial checks/0 failures,163-file isolated production pack passes normal and`--test`. Timing variants0.65/1.3/2.6seconds, exact approved midpoint pose,180-second heat floor/refill, extreme seated camera pitches, private/resettable steam and actual grip surface/bench bounds pass. Steam is6 triangles and the authored grip448 triangles. Native seated cocoa showed faint rising wisps and a supporting glove; consecutive F sips visibly lowered the liquid, the empty cup had no steam, and extreme downward look/overview-return/reset stayed usable. Normal opening restored. No perceptual cloud-audio claim.
+온기 검증(2026-11-02): 직렬 검사 32개/실패 0개. 파일 163개의 격리 배포 팩이 일반 및 `--test` 실행을 통과합니다. 시간 변형 0.65/1.3/2.6초, 승인된 정확한 중간 자세, 180초 열 하한/다시 받기, 앉은 카메라의 극단적 상하 각도, 인스턴스 전용/초기화 가능한 김, 실제 손 표면/벤치 경계가 통과했습니다. 김은 삼각형 6개, 직접 구성한 손은 448개입니다. 네이티브 앉은 코코아 장면에서 희미하게 오르는 김과 받치는 장갑이 보였습니다. F로 연속 마시면 액체가 눈에 띄게 낮아지고 빈 컵에는 김이 없으며, 극단적으로 내려다보기/전체 보기 복귀/초기화가 계속 사용 가능했습니다. 일반 시작 화면을 복원했습니다. 클라우드 오디오의 지각적 검증을 주장하지 않습니다.
 
-### Remaining reconstruction scope
-The original later source has not been recovered. At the warmth checkpoint, passenger thanks/true same-bus visual continuity and optional work/walk conversation, window activity, puddle ripples, gutter droplets and the later procedural radio arrangement were still pending. Existing V7 radio and stories remain playable. Tests here validate new code only, not parity with lost revisions.
+### 남은 재구현 범위
+원래의 이후 소스는 복구하지 못했습니다. 온기 체크포인트 당시에는 승객의 감사/실제 같은 버스의 시각 연속성, 선택적 일/산책 대화, 창문 움직임, 물웅덩이 파문, 홈통 물방울, 이후 절차적 라디오 편곡이 남아 있었습니다. 기존 V7 라디오와 이야기는 계속 플레이할 수 있습니다. 여기의 테스트는 새 코드만 검증하며 유실된 수정본과의 동등성을 검증하지 않습니다.
 
 
-## Passenger continuity stage design
-WaitingPassenger owns an independent departure latch, not inferred from whether an umbrella was lent. Session snapshots actual same-bus presence before hiding the world passenger; only that snapshot shows peripheral bag/sleeve props on board, and only a real loan adds the folded umbrella. An early boarding or a later bus never fabricates a nearby passenger. The borrowed umbrella remains folded throughout this reconstruction; a separate opening/folding animation is not claimed.
+## 승객 연속성 단계 설계
+WaitingPassenger는 우산을 빌려주었는지로 추론하지 않는 독립적인 떠남 상태를 소유합니다. Session은 월드 승객을 숨기기 전에 실제 같은 버스 탑승 여부를 기록합니다. 그 스냅샷만 차내 주변부 가방/소매 소품을 표시하며 실제 대여가 있을 때만 접힌 우산을 더합니다. 일찍 탑승하거나 이후 버스를 타도 근처 승객을 만들어 내지 않습니다. 빌린 우산은 이 재구현에서 계속 접힌 상태이며 별도의 펴기/접기 애니메이션을 주장하지 않습니다.
 
-An accepted loan response can trigger one small head-only thanks gesture when its exact reader closes; reset/rebind/foreign closure cannot replay it. EveningConversation owns optional reason state and exported immutable story Resources. The first greeting stays unchanged; a second explicit E may offer work/walk, with Q leaving it unset and no automatic popup. Loan memory takes priority over the optional personal ride memory. No conversation gates the bus.
+수락한 대여 응답은 정확히 그 읽기 창이 닫힐 때 머리만 움직이는 작은 감사 몸짓을 한 번 유발할 수 있습니다. 초기화/재연결/다른 창 닫기는 이를 재생하지 못합니다. EveningConversation은 선택적 이유 상태와 내보낸 불변 이야기 Resource를 소유합니다. 첫 인사는 그대로이며 두 번째 명시적 E가 일/산책 선택지를 제시할 수 있습니다. Q는 선택하지 않은 채 남기고 자동 팝업은 없습니다. 대여 기억은 선택적 개인 승차 기억보다 우선합니다. 어떤 대화도 버스의 조건이 되지 않습니다.
 
-Passenger validation (2026-11-02):35 serial suites/0 failures, including40 focused continuity checks;170-file production PCK passes isolated normal and `--test`. Real walking, early/same/later bus presence, reset, private resources, cancelled/repeated/foreign reader choices and near-departure thanks cancellation are covered. Native ordinary play verified the optional question, cancel/retry, walk answer, loan-response nod and shared ride with smaller peripheral bag/sleeve/folded umbrella. The central window remains clear. No opening/folding animation or original-source parity is claimed.
+승객 검증(2026-11-02): 직렬 테스트 묶음 35개/실패 0개. 집중 연속성 검사 40개를 포함하며 파일 170개의 배포용 PCK가 격리 일반 및 `--test` 실행을 통과합니다. 실제 걷기, 이른/같은/이후 버스 탑승 여부, 초기화, 인스턴스 전용 리소스, 취소/반복/다른 읽기 창 선택, 출발 직전 감사 취소를 다룹니다. 네이티브 일반 플레이로 선택적 질문, 취소/재시도, 산책 답변, 대여 응답의 고개 끄덕임, 더 작은 주변부 가방/소매/접힌 우산이 있는 동승을 확인했습니다. 가운데 창은 가리지 않습니다. 펴기/접기 애니메이션이나 원본 소스와의 동등성은 주장하지 않습니다.
 
-## Atmosphere stage design
-One saved two-triangle pane fits the verified unlit glass of the across-street apartment. Its private CPU-phased shader dims a warm window and passes one quiet silhouette; no new lights or crowds. Eight inset puddle planes and one small gutter detail follow the actual road/roof geometry, with twelve fixed drop slots (at most seven visible), private materials and a fresh per-instance MultiMesh. These are decorative approximations, not fluid physics.
+## 분위기 단계 설계
+저장된 삼각형 두 개짜리 유리 면 하나가 길 건너 아파트의 검증된 불 꺼진 유리에 맞습니다. 인스턴스 전용 CPU 위상 셰이더가 따뜻한 창을 어둡게 하고 조용한 실루엣 하나를 지나가게 하며 새 조명이나 군중은 없습니다. 안쪽으로 배치한 물웅덩이 평면 여덟 개와 작은 홈통 디테일 하나는 실제 도로/지붕 지오메트리를 따릅니다. 고정 물방울 슬롯 열두 개(동시에 최대 일곱 개 표시), 인스턴스 전용 재질, 인스턴스마다 새 MultiMesh를 사용합니다. 유체 물리가 아닌 장식적 근사입니다.
 
-Window activity follows the evening clock. Physical drips/ripples follow a separate resettable presentation time, so they keep moving during optional post-ending window linger even though the completed evening clock stops. Pause freezes both; quiet-wait skips only evening time, not falling trajectories. Shader wall-clock TIME and new random draws are not used.
+창문 움직임은 저녁 시계를 따릅니다. 물방울/파문은 초기화 가능한 별도의 표현 시간을 따르므로 완료된 저녁 시계가 멈춰도 선택적 결말 뒤 창가 머무르기 중 계속 움직입니다. 일시 정지는 둘 다 멈추며 조용히 기다리기는 저녁 시간만 건너뛰고 떨어지는 궤적은 건너뛰지 않습니다. 셰이더 실제 경과 시간 TIME과 새 난수 추출은 사용하지 않습니다.
 
-Atmosphere validation (2026-11-02):38 serial suites/0 failures;175-file production pack passes isolated normal and `--test`. Tests verify imported glass alignment, actual puddle and gutter bounds, private resources, bounded drop population, deterministic reset, pause, quiet-wait and continuing rain detail during linger. Independent review corrected a test that attempted boarding while seated/approaching and made its pause check exercise enabled processing. Native ordinary walking verified the warm window and passing silhouette behind its sash, subtle inset ripple and connected roof outlet/falling droplets. No extra lights or collision bodies; approximately12 added draw calls and at most116 visible triangles. Ordinary main is restored after inspection.
+분위기 검증(2026-11-02): 직렬 테스트 묶음 38개/실패 0개. 파일 175개의 배포 팩이 격리 일반 및 `--test` 실행을 통과합니다. 테스트는 가져온 유리 정렬, 실제 물웅덩이/홈통 경계, 인스턴스 전용 리소스, 제한된 물방울 수, 결정론적 초기화, 일시 정지, 조용히 기다리기, 머무르는 동안 계속되는 비 디테일을 검증합니다. 독립 검토로 앉아 있고 버스가 접근 중인데 탑승을 시도하던 테스트를 고쳤고, 일시 정지 검사가 실제 활성 처리 동작을 실행하게 했습니다. 네이티브 일반 보행으로 창틀 뒤의 따뜻한 창과 지나가는 실루엣, 미묘한 안쪽 파문, 연결된 지붕 배출구/떨어지는 물방울을 확인했습니다. 추가 조명이나 충돌체는 없으며 드로 콜 약 12개와 표시 삼각형 최대 116개를 더합니다. 검토 뒤 일반 메인을 복원했습니다.
 
-## Radio and reader completion
-The original local radio is now a reproducible48-second instrumental with three16-second phrases, synthesized from source without external samples. Three captions follow the audio player's playback position, not evening time. The interaction/audio anchor now matches the actual radio body at world y=.92; narrower per-target paper/radio cones preserve the passenger's broader approach.
+## 라디오와 읽기 창 완성
+원래 로컬 라디오는 이제 16초 악구 세 개로 이루어진 재현 가능한 48초 연주곡이며 외부 샘플 없이 소스에서 합성합니다. 자막 세 개는 저녁 시간이 아닌 오디오 플레이어의 재생 위치를 따릅니다. 상호작용/오디오 기준점은 이제 월드 y=.92의 실제 라디오 몸체와 일치합니다. 종이/라디오의 대상별 원뿔 범위를 좁히되 승객의 더 넓은 접근 범위는 유지합니다.
 
-A consolidated review also found an inherited input conflict: an empty cup beside the bin could override an open reader's E action. Boarding keeps its intentional priority, but an active reader now precedes disposal. DrinkSession owns one disposal-readiness predicate used by both action and HUD; final sip/refill no longer advertises disposal before it can succeed.
+통합 검토에서는 물려받은 입력 충돌도 발견했습니다. 쓰레기통 옆 빈 컵이 열린 읽기 창의 E 동작을 덮어쓸 수 있었습니다. 탑승의 의도적인 우선순위는 유지하되 활성 읽기 창은 이제 폐기보다 우선합니다. DrinkSession은 동작과 HUD가 함께 사용하는 폐기 준비 판정 하나를 소유합니다. 마지막 모금/다시 받기 때 실제로 가능하기 전에 폐기를 안내하지 않습니다.
 
-Validation (2026-11-02):41 serial checks/0 failures, including reproducible Python PCM generation,48-second format/headroom/seam checks, actual player seek/loop/pause/mute/reset/isolation, body-aligned targeting, and root-level reader/bin/boarding priority.175-file production pack passes isolated normal and `--test`. Native ordinary play verified direct radio targeting/caption, pause/resume, three cocoa sips, opening the route reader and walking to the bin, E advancing/closing the reader while retaining the empty cup, then separate E disposal. Audio was not perceptually auditioned on the cloud Dummy driver.
+검증(2026-11-02): 직렬 검사 41개/실패 0개. 재현 가능한 Python PCM 생성, 48초 형식/헤드룸/이음새 검사, 실제 플레이어 탐색/반복/일시 정지/음소거/초기화/격리, 몸체와 일치하는 대상 판정, 루트 수준 읽기 창/쓰레기통/탑승 우선순위를 포함합니다. 파일 175개의 배포 팩이 격리 일반 및 `--test` 실행을 통과합니다. 네이티브 일반 플레이에서는 라디오 직접 선택/자막, 일시 정지/재개, 코코아 세 모금, 노선 읽기 창을 연 채 쓰레기통까지 걷기, 빈 컵을 유지하면서 E로 글 넘기기/닫기, 그 뒤 별도 E로 폐기를 확인했습니다. 클라우드 Dummy 드라이버에서 오디오를 직접 들어 검증하지는 않았습니다.
 
-### Restoration status and limits
-The surviving V7 is preserved in Git history. Newly reconstructed: keyboard looking/pause, correct bus phase visibility and source-only fixture separation; evening clock/quiet wait; optional umbrella loan and same/later-bus continuity; flower wave/cat/weather/awning cover; overview and optional ride linger; single-owner sip timing/steam/grip; optional work/walk answer; window activity, puddles/gutter and radio arrangement. Approved liquid/cup source and corrected door geometry remain preserved.
+### 복원 상태와 한계
+남아 있던 V7은 Git 이력에 보존되어 있습니다. 새로 재구현한 것은 키보드 시점/일시 정지, 올바른 버스 단계 가시성과 소스 전용 테스트 장면 분리, 저녁 시계/조용히 기다리기, 선택적 우산 대여와 같은/이후 버스 연속성, 꽃집 손인사/고양이/날씨/차양 가림, 전체 보기와 선택적 승차 뒤 머무르기, 단일 소유자의 마시기 시간/김/쥔 손, 선택적 일/산책 답변, 창문 움직임, 물웅덩이/홈통, 라디오 편곡입니다. 승인된 액체/컵 소스와 수정된 문 지오메트리는 보존했습니다.
 
-Missing original V8–V37 source, exact historical wording/tuning and its historical test evidence remain unavailable. This is not a byte-identical restoration or a claim of V37 parity. The loan prop stays folded (no separate opening/folding animation), the city/passenger are stylized, rain/liquid are bounded approximations, and there is no full bus-driving or fluid simulation. Validation is fresh for this code. Native rendering uses the cloud software renderer; real-machine performance and perceptual audio quality remain unmeasured.
+유실된 원래 V8–V37 소스, 정확한 과거 문구/조정값, 당시 테스트 근거는 여전히 없습니다. 바이트까지 동일한 복원이나 V37과의 동등성을 주장하지 않습니다. 대여 소품은 접힌 채로 남고(별도 펴기/접기 애니메이션 없음), 도시/승객은 양식화되어 있으며 비/액체는 범위를 제한한 근사입니다. 완전한 버스 운전이나 유체 시뮬레이션은 없습니다. 검증은 이 코드를 대상으로 새로 수행한 것입니다. 네이티브 렌더링은 클라우드 소프트웨어 렌더러를 사용하며 실제 기기 성능과 지각적 오디오 품질은 측정하지 않았습니다.

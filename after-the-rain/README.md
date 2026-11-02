@@ -1,38 +1,38 @@
-# After the Rain — reconstruction
+# After the Rain — 재구현
 
-This small rainy-night bus-stop game is being reconstructed from its surviving V7 source. Later local revisions were lost in a workspace rollback. The preservation commit remains in history; this is **not V37**, and missing historical code or test results are not claimed as recovered.
+이 작은 비 오는 밤의 버스 정류장 게임은 남아 있던 V7 소스를 바탕으로 재구현 중입니다. 이후의 로컬 수정본은 작업 공간 롤백으로 유실되었습니다. 보존 커밋은 이력에 남아 있습니다. 현재 버전은 **V37이 아니며**, 사라진 과거 코드나 테스트 결과를 복구했다고 주장하지 않습니다.
 
-## Run
-Open `project.godot` in Godot 4.6.x Standard and press F5. Windows, macOS and Linux source project; Blender is not needed to play. Generated `.godot` imports are intentionally excluded.
+## 실행
+Godot 4.6.x Standard에서 `project.godot`을 열고 F5를 누르세요. Windows, macOS, Linux용 소스 프로젝트이며, 플레이에 Blender는 필요하지 않습니다. 생성되는 `.godot` 가져오기 파일은 의도적으로 제외했습니다.
 
-## Existing controls
-- WASD: walk; mouse or arrow keys: look (including while seated).
-- Space: pause/help; E or Space: resume; R: restart; M: mute while paused.
-- E: nearby interaction, sit/stand, board a stopped bus, dispose an empty cup, read or talk.
-- F: obtain cocoa near the vending machine, then sip (three sips).
-- U: open/fold a borrowed umbrella; E at its basket to borrow/return.
-- G: optional umbrella-loan conversation when facing the passenger while holding it; 1 lend, 2 keep, Q cancel.
-- T: while seated, quietly skip the remaining wait (not the approaching bus).
-- Q: close story; 1/2: offered dialogue choices.
-- R: restart; M: mute; Esc: release mouse; click: recapture.
-- P: separate overview camera; P or E returns without moving your body or advancing the reader.
-- E after the ending: linger by the bus window; E finishes, R restarts.
-- E near the flower-window staff/cat: optional wave or greeting when offered.
+## 기존 조작
+- WASD: 걷기. 마우스 또는 방향키: 둘러보기(앉아 있을 때도 가능).
+- Space: 일시 정지/도움말. E 또는 Space: 계속하기. R: 다시 시작. 일시 정지 중 M: 음소거.
+- E: 가까운 대상과 상호작용, 앉기/일어서기, 정차한 버스 탑승, 빈 컵 버리기, 읽기 또는 대화.
+- F: 자판기 근처에서 코코아 받기, 이후 마시기(세 모금).
+- U: 빌린 우산 펴기/접기. 바구니에서 E: 빌리기/반납하기.
+- G: 우산을 든 채 승객을 바라보면 선택적 우산 대여 대화. 1: 빌려주기, 2: 계속 갖고 있기, Q: 취소.
+- T: 앉아 있을 때 남은 대기 시간을 조용히 건너뛰기(접근 중인 버스는 건너뛰지 않음).
+- Q: 이야기 닫기. 1/2: 표시된 대화 선택지.
+- R: 다시 시작. M: 음소거. Esc: 마우스 해제. 클릭: 다시 잡기.
+- P: 별도의 전체 보기 카메라. P 또는 E로 몸의 위치나 읽던 페이지를 바꾸지 않고 돌아오기.
+- 결말 뒤 E: 버스 창가에 더 머무르기. E: 마치기, R: 다시 시작.
+- 꽃집 창가 직원/고양이 근처 E: 가능한 때에 선택적으로 손인사하거나 인사하기.
 
-Reconstruction adds arrow looking, explicit keyboard pause/help, phase-appropriate bus visibility, an elapsed evening clock starting23:40, and optional umbrella lending. First arrival is75seconds; later arrivals are33seconds after departure. There is no last-bus deadline. Flower-window staff, a sheltered cat and a gentle rain lull are also reconstructed. The optional overview and post-ending window linger, cocoa steam/gloved grip, and passenger work/walk conversation are reconstructed too. A bag and folded borrowed umbrella appear beside the window only when that passenger actually boarded the same bus. These are newly implemented and tested features, not recovered historical source. Window activity, puddle/gutter detail and a reproducible48-second original radio arrangement are also rebuilt. See `RECOVERY.md` for restoration status and verification limits.
+재구현에서는 방향키 시점 조작, 명시적인 키보드 일시 정지/도움말, 버스 운행 단계에 맞는 가시성, 23:40부터 흐르는 저녁 시계, 선택적 우산 빌려주기를 추가했습니다. 첫 버스는 75초 후 도착하며, 이후 버스는 출발한 뒤 33초 후 도착합니다. 막차 제한 시간은 없습니다. 꽃집 창가 직원, 비를 피하는 고양이, 잠시 잦아드는 비도 재구현했습니다. 선택적 전체 보기와 결말 뒤 창가 머무르기, 코코아 김/장갑을 낀 손, 승객의 일/산책 대화도 재구현했습니다. 가방과 접힌 대여 우산은 그 승객이 실제로 같은 버스에 탔을 때만 창가 옆에 나타납니다. 이들은 새로 구현하고 테스트한 기능이지, 복구한 과거 소스가 아닙니다. 창문의 움직임, 물웅덩이/홈통 표현, 재현 가능한 48초짜리 창작 라디오 편곡도 다시 만들었습니다. 복원 상태와 검증 한계는 `RECOVERY.md`를 참고하세요.
 
-## Shared evening neighborhood
+## 함께하는 저녁 동네
 
-The same walkable street now includes a warm glass refuge and a stationary compact car with two adult siblings. Follow the small **유리 쉼터 →** sign behind/right of the bus stop. Enter the refuge through its open front, or continue along the pavement to observe the car from the passenger side with **E**. The player remains outside the car; there is no driving or third-occupant camera. The flower-shop note and bread passenger add optional everyday context.
+같은 도보 거리 안에 따뜻한 유리 쉼터와 성인 남매 두 명이 탄 정차 중인 소형차가 있습니다. 정류장 뒤 오른쪽의 작은 **유리 쉼터 →** 표지판을 따라가세요. 열린 앞쪽으로 쉼터에 들어가거나, 보도를 더 따라가 조수석 쪽에서 **E**로 차를 살펴볼 수 있습니다. 플레이어는 차 밖에 머무르며, 운전이나 세 번째 탑승자 시점은 없습니다. 꽃집 쪽지와 빵을 든 승객은 선택적으로 읽을 수 있는 일상의 맥락을 더합니다.
 
-These visits never gate the bus, umbrella, cocoa or ending. Missing a bus simply leaves another one to arrive. The refuge is a walk-in dry spot: face its bench and press E to sit, F to sip cocoa, or T to wait quietly. E stands beside the same bench; it never returns you to the bus stop. While a reader is open, E advances/closes the text and Q closes it without standing. See [scope and verification](WORLD_EXPANSION.md).
+이 방문은 버스, 우산, 코코아, 결말의 조건이 되지 않습니다. 버스를 놓치면 다음 버스가 옵니다. 쉼터는 걸어 들어가 비를 피하는 곳입니다. 벤치를 바라보고 E로 앉고, F로 코코아를 마시고, T로 조용히 기다릴 수 있습니다. E로 일어서면 같은 벤치 옆에 서며, 정류장으로 돌아가지 않습니다. 읽기 창이 열려 있으면 E는 글을 넘기거나 닫고, Q는 일어서지 않고 창을 닫습니다. [범위와 검증](WORLD_EXPANSION.md)을 참고하세요.
 
-The [fictional world bible](narrative/WORLD_BIBLE.md) separates author background from implemented clues. The [continuity checklist](narrative/CONTINUITY_CHECKLIST.md) records interaction and story invariants for future revisions.
+[가상 세계 설정집](narrative/WORLD_BIBLE.md)은 작가가 정한 배경과 구현된 단서를 구분합니다. [연속성 점검표](narrative/CONTINUITY_CHECKLIST.md)는 이후 수정에서도 지켜야 할 상호작용과 이야기의 원칙을 기록합니다.
 
-## Editable source and third-party assets
-Saved scenes, scripts, configurations, procedural audio source and packed Blender assemblies are included. See `ARCHITECTURE.md`. City derivatives use Poly Haven CC0 data; provenance/legal text is in `assets/city/licenses/`. The Noto CJK font license is in `assets/fonts/NotoSansCJK-LICENSE.txt`. No external copyrighted music samples are used.
+## 편집 가능한 소스와 외부 에셋
+저장된 장면, 스크립트, 설정, 절차적 오디오 소스, 패킹된 Blender 조립본을 포함합니다. `ARCHITECTURE.md`를 참고하세요. 도시 파생 에셋은 Poly Haven CC0 데이터를 사용하며, 출처/법률 원문은 `assets/city/licenses/`에 있습니다. Noto CJK 글꼴 라이선스는 `assets/fonts/NotoSansCJK-LICENSE.txt`에 있습니다. 외부 저작권 음악 샘플은 사용하지 않았습니다.
 
-The original catalogue needed to re-run `art/assemble_city.py` is not required for gameplay; obtain the source-relative files documented in the asset manifest if regenerating from scratch. Packed `.blend` assemblies and runtime derivatives are retained.
+`art/assemble_city.py`를 다시 실행하는 데 필요한 원본 카탈로그는 플레이에 필요하지 않습니다. 처음부터 다시 생성하려면 에셋 목록에 기록된 소스 상대 경로의 파일을 구하세요. 패킹된 `.blend` 조립본과 런타임 파생 에셋은 보존되어 있습니다.
 
-## Baseline status
-The original preservation commit remains in history; current changes are documented in `RECOVERY.md`. Screenshots, generated cache, local performance records and private feedback notes are excluded. This repository is the durable source checkpoint; successful remote verification, not a local commit alone, establishes preservation.
+## 기준본 상태
+최초 보존 커밋은 이력에 남아 있으며, 현재 변경 사항은 `RECOVERY.md`에 기록했습니다. 스크린샷, 생성 캐시, 로컬 성능 기록, 비공개 피드백 메모는 제외했습니다. 이 저장소는 소스를 지속적으로 보존하는 체크포인트입니다. 로컬 커밋만으로는 부족하며, 원격 검증 성공이 보존을 확인합니다.

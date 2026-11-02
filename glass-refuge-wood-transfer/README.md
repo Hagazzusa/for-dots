@@ -1,40 +1,40 @@
-# Glass Refuge — wood-albedo transfer comparison (512 / 1024)
+# Glass Refuge — 목재 알베도 전사 비교 (512 / 1024)
 
-This is a **separate technical proof**, not a replacement for the frozen viewer or current game. The original model and frozen viewer remain unchanged; native A/B observations belong to this separate study.
+이것은 **별도의 기술 검증**이며 고정된 뷰어나 현재 게임을 대체하지 않습니다. 원본 모델과 고정된 뷰어는 그대로이며, 네이티브 A/B 관찰은 이 별도 연구에 속합니다.
 
-## Comparison result
+## 비교 결과
 
-The single 1024 refinement uses exactly the accepted normalized UV layout and mapping, with 8-pixel dilation and ~16-pixel island gaps. It took **2.94 seconds** at the same 8 samples / 2 CPU threads. The 1024 PNG is 642,380 bytes; its GLB is 4,294,328 bytes (+437,764 bytes versus 512). Position/normal/UV/index accessor bytes match the 512 GLB exactly. Only the image resolution/payload changes.
+한 차례의 1024 개선은 승인된 정규화 UV 배치와 매핑을 정확히 유지하고, 8픽셀 확장과 약 16픽셀 섬 간격을 사용합니다. 같은 8샘플 / CPU 스레드 두 개로 **2.94초**가 걸렸습니다. 1024 PNG는 642,380바이트, GLB는 4,294,328바이트로 512보다 437,764바이트 큽니다. 위치/노멀/UV/인덱스 접근자 바이트는 512 GLB와 정확히 일치합니다. 이미지 해상도와 페이로드만 달라집니다.
 
-Actual atlas pixels show finer grain at 1024. In the identical 640×640 applied-wood view, the improvement is modest: posts/bench sharpen somewhat, while the broad soft/banded arch appearance remains. Higher resolution does not fix the source mapping or add surface relief. This is not grounds for an automatic production promotion.
+실제 아틀라스 픽셀에서 1024의 나뭇결이 더 세밀합니다. 동일한 640×640 목재 적용 시점에서는 개선이 작습니다. 기둥과 벤치는 조금 또렷해지지만 넓고 부드럽거나 띠처럼 보이는 아치의 모습은 남습니다. 해상도를 높여도 원본 매핑을 고치거나 표면 요철을 추가하지는 않습니다. 자동으로 본 작업에 반영할 근거는 아닙니다.
 
-Current `assets/refuge.glb` is the **1024 proof**, not the 512 baseline. Historical 512 figures below describe the retained comparison. Both atlas PNGs and applied previews are preserved. Native variant QA is recorded below; no production promotion has occurred.
+현재 `assets/refuge.glb`는 512 기준본이 아닌 **1024 검증본**입니다. 아래의 과거 512 수치는 보존한 비교 대상을 설명합니다. 두 아틀라스 PNG와 적용 미리보기를 모두 보존했습니다. 네이티브 변형 품질 검사는 아래에 기록했으며, 본 작업에는 반영하지 않았습니다.
 
-### Historical 512 proof
+### 과거 512 검증 기록
 
-- One 512 × 512 albedo-only emission bake, 8 samples, 2 CPU threads, measured **2.00 seconds**. No lighting, AO, normal, roughness or metallic map was baked.
-- Atlas PNG: `assets/wood_albedo_512.png` (204,619 bytes).
-- Actual applied wood-only Workbench inspection: `qa/wood_512_applied.png`. Workbench lighting is diagnostic, not a final beauty render.
-- Retained `assets/refuge_512.glb`: **3,856,564 bytes; 33 mesh nodes, 35 surfaces, 78,388 triangles; one embedded texture**. The embedded image matches the atlas pixels exactly.
-- Godot 4.6.3 headless import confirms the oak texture is 512² and material emission is disabled. The 42 viewer logic checks still pass. No FPS claim is made. Native appearance was subsequently inspected as described below.
+- 512 × 512 알베도만 얻는 베이크 한 번. 색상만 추출하려고 발광 출력을 사용했으며 8샘플, CPU 스레드 두 개에서 **2.00초**를 측정했습니다. 조명, AO, 노멀, 거칠기, 금속성 맵은 베이크하지 않았습니다.
+- 아틀라스 PNG: `assets/wood_albedo_512.png` (204,619바이트).
+- 실제 적용된 목재만의 Workbench 검사: `qa/wood_512_applied.png`. Workbench 조명은 진단용이며 최종 미관 렌더가 아닙니다.
+- 보존한 `assets/refuge_512.glb`: **3,856,564바이트, 메시 노드 33개, 표면 35개, 삼각형 78,388개, 내장 텍스처 하나**. 내장 이미지는 아틀라스 픽셀과 정확히 일치합니다.
+- Godot 4.6.3 헤드리스 가져오기에서 참나무 텍스처가 512²이고 재질 발광이 꺼져 있음을 확인했습니다. 뷰어 로직 검사 42개도 계속 통과합니다. FPS는 주장하지 않습니다. 이후 네이티브 외관도 아래 설명대로 검사했습니다.
 
-## What was fixed before baking
+## 베이크 전에 수정한 것
 
-The original 27 cube-based wood objects reused identical UV nets; five curved ribs had no UVs. An all-smart-project layout produced 212 islands and only 17.66% coverage. Reusing connected cube nets initially failed because selecting mesh faces with UV sync disabled did not select legacy UV loops. Explicit UV selection resolved the overlap bug.
+원본의 큐브 기반 목재 오브젝트 27개는 동일한 UV 전개도를 재사용했고, 곡선 리브 다섯 개에는 UV가 없었습니다. 전체에 스마트 투영을 적용한 배치에서는 섬 212개와 UV 공간 점유율 17.66%만 얻었습니다. 연결된 큐브 전개도 재사용은 처음에 실패했습니다. UV 동기화를 끈 상태에서 메시 면을 선택해도 기존 UV 루프는 선택되지 않았기 때문입니다. UV를 명시적으로 선택해 겹침 버그를 해결했습니다.
 
-The final layout uses 95 islands. A fractional packing margin of 4/512 per island side produces a measured ~8-pixel gap. Analytic checks find zero positive-area triangle overlaps, zero degenerate UV triangles and all UVs inside the atlas. Coverage is **31.27%**; bake dilation is 4 pixels. Sampled native front, oblique and distant views showed no conspicuous atlas-color bleed; this is not exhaustive mip-level coverage.
+최종 배치는 섬 95개를 사용합니다. 섬의 각 변에 4/512의 비율 패킹 여백을 주어 약 8픽셀 간격을 측정했습니다. 해석적 검사는 면적이 양수인 삼각형 겹침 0개, 퇴화 UV 삼각형 0개, 모든 UV가 아틀라스 안에 있음을 확인합니다. UV 공간 점유율은 **31.27%**, 베이크 확장은 4픽셀입니다. 표본으로 확인한 네이티브 정면·사선·원거리 시점에서 눈에 띄는 아틀라스 색 번짐은 없었습니다. 모든 밉 레벨을 빠짐없이 검사한 것은 아닙니다.
 
-Area-average density is about 46.52 texels/metre, but the reused cube-net charts are anisotropic. Broad-face area-weighted directional densities are about 168 texels/metre in the high-resolution direction and 11 in the low-resolution direction. Actual pixels show meaningful long grain on posts and bench; arch texture remains softer/patchier. These measurements do not prove full procedural-shader fidelity.
+면적 평균 밀도는 약 46.52텍셀/m이지만 재사용한 큐브 전개도 차트는 비등방성입니다. 넓은 면의 면적 가중 방향별 밀도는 고해상도 방향 약 168텍셀/m, 저해상도 방향 약 11텍셀/m입니다. 실제 픽셀에서 기둥과 벤치에는 의미 있는 긴 나뭇결이 보이지만 아치 텍스처는 더 부드럽고 얼룩져 있습니다. 이 측정이 절차적 셰이더의 완전한 충실도를 증명하지는 않습니다.
 
-## Mapping and limits
+## 매핑과 한계
 
-The source uses Generated coordinates → multiply (5,5,0.23) → Noise → ColorRamp → oak Base Color. Each original object's normalized local bounds were captured as a point attribute **before** bevel evaluation and joining. That explicit attribute drives the original color network during baking. This is a reconstruction of Generated mapping, **not independently proven bit-exact Blender ORCO equivalence**.
+원본은 Generated 좌표 → (5,5,0.23) 곱셈 → Noise → ColorRamp → 참나무 Base Color를 사용합니다. 각 원본 오브젝트의 정규화된 로컬 경계를 베벨 평가와 병합 **전에** 점 속성으로 기록했습니다. 베이크 중 이 명시적 속성이 원본 색상 네트워크를 구동합니다. Generated 매핑의 재구성이며 **Blender ORCO와 비트 단위까지 같다고 독립적으로 입증한 것은 아닙니다**.
 
-Only the oak base color transfers. All other materials retain the frozen viewer's approximate constant PBR values. Surface bump and microscopic detail are absent. The lamp remains dynamic because its illumination was not baked into the wood.
+참나무 기본 색만 전사합니다. 다른 모든 재질은 고정된 뷰어의 근사 상수 PBR 값을 유지합니다. 표면 범프와 미세 디테일은 없습니다. 조명을 목재에 베이크하지 않았으므로 램프는 동적으로 유지됩니다.
 
-## Reproduce the bounded proofs
+## 범위를 정한 검증 재현
 
-From this directory, with Blender 4.3.2, Python 3 and Godot 4.6.3 available:
+Blender 4.3.2, Python 3, Godot 4.6.3을 사용할 수 있는 환경에서 이 디렉터리를 기준으로 실행하세요.
 
 ```sh
 blender -b -t 2 --python tools/prepare_wood_atlas.py -- --source ../glass-refuge/Glass_Refuge.blend
@@ -49,22 +49,22 @@ godot --headless --path . --script res://tools/test_wood_texture.gd
 godot --headless --path . --script res://tools/test_viewer.gd
 ```
 
-The preparation and bake save derivative files only under this experiment's `tmp/`. Never save over the source Blender file. The source input hash and protected viewer hash are recorded in the QA reports. A metadata-normalized public copy of the source may have a different container hash without a geometry change.
+준비와 베이크는 이 실험의 `tmp/` 아래에만 파생 파일을 저장합니다. 원본 Blender 파일을 덮어쓰면 안 됩니다. 소스 입력 해시와 보호 대상 뷰어 해시는 품질 검사 보고서에 기록합니다. 메타데이터를 정규화한 공개 소스 사본은 지오메트리 변경 없이 컨테이너 해시가 다를 수 있습니다.
 
-**Status:** One 512 proof and one 1024 comparison are complete. The 1024 texture import and all 42 viewer logic checks pass. A separate native A/B study was inspected. No additional materials or production integration were performed. Device performance remains unmeasured.
+**상태:** 512 검증 한 번과 1024 비교 한 번을 완료했습니다. 1024 텍스처 가져오기와 뷰어 로직 검사 42개를 모두 통과했습니다. 별도의 네이티브 A/B 연구를 검사했습니다. 추가 재질이나 본 작업 통합은 수행하지 않았습니다. 기기 성능은 측정하지 않았습니다.
 
-RGBA8-equivalent texture storage with a full mip chain increases from about 1.33 MiB to 5.33 MiB (four times the pixels); actual Godot GPU compression/storage was not measured. No FPS claim is made. Protected original source, final render and frozen viewer hashes remain unchanged.
+전체 밉 체인을 포함한 RGBA8 환산 텍스처 저장량은 약 1.33 MiB에서 5.33 MiB로 늘어납니다(픽셀 수 네 배). 실제 Godot GPU 압축/저장량은 측정하지 않았습니다. FPS는 주장하지 않습니다. 보호 대상인 원본 소스, 최종 렌더, 고정된 뷰어 해시는 그대로입니다.
 
-## Native comparison study
+## 네이티브 비교 연구
 
-The explicitly labeled study offers **B** (or the Wood button) to swap only the 512/1024 albedo texture on the same mesh, material and camera; **R** restores 1024/front/lamp ON/glass ON. Native close front and oblique A/B showed modest finer post grain at 1024, little practical improvement at ordinary framing, and persistent broad arch softness. Lamp OFF visibly removes warm illumination, confirming dynamic lighting is retained. Keyboard orbit/zoom and glass visibility were exercised. Exact close-view screenshots are in `qa/native_close_512.jpg` and `qa/native_close_1024.jpg`.
+연구임을 명시한 뷰어에서 **B**(또는 Wood 버튼)는 같은 메시, 재질, 카메라에서 512/1024 알베도 텍스처만 바꿉니다. **R**은 1024/정면/조명 켜짐/유리 켜짐으로 복원합니다. 네이티브 근접 정면·사선 A/B에서는 1024의 기둥 나뭇결이 조금 더 세밀했고, 일반 구도에서는 실질적 개선이 작았으며, 넓은 아치의 부드러움은 남았습니다. 조명을 끄면 따뜻한 빛이 눈에 띄게 사라져 동적 조명이 유지됨을 확인했습니다. 키보드 회전/확대·축소와 유리 가시성도 시험했습니다. 정확한 근접 시점 화면은 `qa/native_close_512.jpg`와 `qa/native_close_1024.jpg`에 있습니다.
 
-Recommendation: retain this as a successful color-transfer proof, not an automatic production upgrade. 512 is defensible for ordinary viewing; 1024 offers a small close-up benefit at four times uncompressed texture storage. Better arch detail needs a more isotropic chart layout or an explicitly approximate trim-sheet, not another resolution increase. No further bake is planned. Both atlases load during A/B, so this study is not a clean memory benchmark.
+권고: 자동으로 본 작업을 업그레이드하기보다 성공적인 색상 전사 검증으로 보존합니다. 일반 관찰에는 512가 타당하며, 1024는 비압축 텍스처 저장량 네 배로 작은 근접 이점을 제공합니다. 아치 디테일을 개선하려면 또 해상도를 올릴 것이 아니라 더 등방적인 차트 배치나 근사임을 명시한 트림 시트가 필요합니다. 추가 베이크는 계획하지 않았습니다. A/B 중에는 두 아틀라스를 모두 로드하므로 순수한 메모리 벤치마크가 아닙니다.
 
-## Chosen integration candidate: 512
+## 선택한 통합 후보: 512
 
-Use **`assets/refuge_512.glb`**, not the 1024 study GLB with an external override. It embeds exactly one 512² image; all geometry, index, normal and UV accessor bytes, mesh/surface structure and nodes match the 1024 proof. Validation: `qa/candidate_512_validation.json`. This is the previously exported 512 proof, preserved without a third bake.
+외부 재정의를 적용한 1024 연구 GLB가 아니라 **`assets/refuge_512.glb`**를 사용합니다. 정확히 하나의 512² 이미지를 내장하며 모든 지오메트리, 인덱스, 노멀, UV 접근자 바이트와 메시/표면 구조, 노드가 1024 검증본과 일치합니다. 검증: `qa/candidate_512_validation.json`. 세 번째 베이크 없이 보존한, 앞서 내보낸 512 검증본입니다.
 
-512 is selected for a separately tested world candidate: ordinary-distance grain is meaningful, while 1024 costs another 437,764 GLB bytes and approximately 4 MiB RGBA8-equivalent mipmapped texture storage for a modest close-up gain. Actual GPU memory and FPS were not measured. Arch softness and anisotropic charts remain documented limits. The current game is unchanged.
+별도로 시험할 월드 후보에는 512를 선택했습니다. 일반 거리에서 나뭇결이 의미 있게 보이는 반면, 1024는 작은 근접 개선을 위해 GLB 437,764바이트와 RGBA8 환산 밉맵 텍스처 저장량 약 4 MiB가 더 듭니다. 실제 GPU 메모리와 FPS는 측정하지 않았습니다. 아치의 부드러움과 비등방성 차트는 기록된 한계로 남습니다. 현재 게임은 변경하지 않았습니다.
 
-The reproducible scripts create `tmp/` intermediates locally; these are not publication dependencies. Preparation accepts `--source`, or the public sibling `../glass-refuge/Glass_Refuge.blend` by default. The runtime study is self-contained. `PUBLICATION_MANIFEST.json` is the explicit allowlist; omit `.godot`, `tmp`, import caches, logs, UV raw data, superseded failed-layout reports and unused exporter texture sidecars.
+재현 스크립트는 로컬에서 `tmp/` 중간 파일을 생성하며, 이는 공개본의 의존 파일이 아닙니다. 준비 단계는 `--source`를 받거나 기본값으로 공개 이웃 파일 `../glass-refuge/Glass_Refuge.blend`를 사용합니다. 런타임 연구는 독립적으로 동작합니다. `PUBLICATION_MANIFEST.json`이 명시적인 허용 목록입니다. `.godot`, `tmp`, 가져오기 캐시, 로그, UV 원시 데이터, 이전의 실패한 배치 보고서, 사용하지 않는 내보내기 텍스처 부속 파일은 제외합니다.

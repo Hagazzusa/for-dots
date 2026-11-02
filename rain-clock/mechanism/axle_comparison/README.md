@@ -1,61 +1,61 @@
-# Rain Clock · rear axle versus rim guides
+# Rain Clock · 뒤쪽 축과 림 가이드 비교
 
-## Decision from this bounded concept pass
+## 이번 범위 제한 콘셉트 검토의 판단
 
-**A rear axle preserves the calm frontal composition better than the visible rim guides, but it is not an invisible or mechanically validated replacement.** Both hubs hide head-on. The inner spokes emerge beside the window, the inner hub peeks above the roof from three-quarter view, and long forward braces become visible.
+**뒤쪽 축은 드러난 림 가이드보다 차분한 정면 구도를 더 잘 보존하지만, 보이지 않거나 기계적으로 검증된 대체재는 아닙니다.** 정면에서는 두 허브가 모두 가려집니다. 안쪽 스포크는 창 옆으로 드러나고, 사선에서는 안쪽 허브가 지붕 위로 살짝 보이며, 긴 전방 버팀대도 드러납니다.
 
-Keep this as an alternative visual/load-path baseline. Do not continue refining rim-guide escape grids just because they were inconclusive, and do not call this axle design manufacture-ready. The next design choice is whether the visible side braces and rear depth are acceptable—and whether the hubs can be brought closer to the moving rings without changing the window's identity.
+시각/하중 경로 비교의 대안 기준으로 남깁니다. 림 가이드 이탈 격자 탐색이 결론 미정이었다는 이유만으로 계속 세분화하지 말고, 이 축 설계를 제조 준비가 끝났다고 부르지 마세요. 다음 설계 선택은 드러난 옆 버팀대와 뒤쪽 깊이를 받아들일 수 있는지, 그리고 창의 정체성을 바꾸지 않고 허브를 움직이는 고리 가까이 가져올 수 있는지입니다.
 
-## What changed / what stayed
+## 바꾼 것 / 유지한 것
 
-The prior FreeCAD study supplies the fixed window, frame, 19 beads, ring radii, front ring planes and manual tabs. No earlier files were edited.
+앞선 FreeCAD 연구에서 고정 창, 프레임, 구슬 19개, 고리 반지름, 앞쪽 고리 평면, 수동 손잡이를 가져옵니다. 이전 파일은 수정하지 않았습니다.
 
-- Replace six rim rollers, their posts and follower logic with **two independently rotating hub envelopes on one stationary shaft**.
-- Outer hub center Y=47 mm; inner Y=64 mm. No coupled shaft or automatic phase linkage is implied.
-- Two narrow downward spokes per hub: outer ±3°, inner ±45° relative to downward vertical.
-- Forward links connect spokes to the existing front rings: **97 mm outer / 144 mm inner**.
-- Two short bearing/bushing envelopes per hub, plus front/rear collar envelopes. These are not selected bearings, fits, fastening methods or load ratings.
-- Rear base depth grows from the rim study's 210 to **220 mm**; original artistic scale is still an invented 100 mm per Blender unit.
+- 림 롤러 여섯 개와 기둥, 종동자 로직을 **고정 축 하나에서 독립적으로 회전하는 허브 포락선 두 개**로 대체합니다.
+- 바깥 허브 중심 Y=47 mm, 안쪽 Y=64 mm. 결합된 축이나 자동 위상 연결을 뜻하지 않습니다.
+- 허브마다 좁고 아래로 향하는 스포크 두 개: 아래쪽 수직 기준 바깥쪽 ±3°, 안쪽 ±45°.
+- 전방 링크가 스포크와 기존 앞쪽 고리를 연결합니다. **바깥쪽 97 mm / 안쪽 144 mm**.
+- 허브마다 짧은 베어링/부싱 포락선 두 개와 앞/뒤 칼라 포락선이 있습니다. 선정된 베어링, 끼워맞춤, 체결 방법, 정격 하중이 아닙니다.
+- 뒤쪽 받침대 깊이는 림 연구의 210 mm에서 **220 mm**로 커집니다. 원래 예술적 축척은 여전히 Blender 1단위당 가상 100 mm입니다.
 
-The original very thin artistic ring wire is not restored here: the current 8×4 mm nominal tracks are retained so the comparison isolates support architecture.
+원본의 아주 가는 예술적 고리 선재는 복원하지 않습니다. 지지 구조만 분리해 비교하기 위해 현재의 명목 8×4 mm 트랙을 유지합니다.
 
-## Why the inner spokes cannot be completely hidden
+## 안쪽 스포크를 완전히 숨길 수 없는 이유
 
-The ring axis is at Z=210 mm, close to the top of the fixed window. The canopy hides a rear hub in frontal projection, but not from every elevated side view.
+고리 축은 고정 창 꼭대기에 가까운 Z=210 mm에 있습니다. 차양은 정면 투영에서 뒤쪽 허브를 가리지만, 높은 측면 시점 모두에서 가리지는 않습니다.
 
-The outer ring's low attachment points can pass **below** the window through the original oscillation range. For the smaller inner ring, narrow downward attachment points sit inside the window's body. Forward links there would pass through the window. Spreading its spokes to ±45° moves the links to the sides, avoiding the body but exposing short diagonal segments. No invisible connection was assumed.
+바깥 고리의 낮은 연결 지점은 원래 진동 범위에서 창 **아래**를 지나갈 수 있습니다. 더 작은 안쪽 고리는 좁게 아래로 향하는 연결 지점이 창 본체 안에 놓입니다. 그곳의 전방 링크는 창을 통과하게 됩니다. 스포크를 ±45°로 벌리면 링크가 옆으로 이동해 본체를 피하지만 짧은 대각선 부분이 드러납니다. 보이지 않는 연결을 가정하지 않았습니다.
 
-## Evidence
+## 근거
 
-- **71 valid solids**, saved in `rear_axle_alternative.FCStd` and reopened.
-- **680 exact support/window intersection and distance checks**: 17 angles per ring over ±8.59° outer / ±10.89° inner. Tested spokes, forward links and hubs against the fixed shelter/pane/canopy/sill. No intersections; smallest tested distance **1.664 mm**, outer forward link to shelter. Sampled checks are not a complete all-pair or continuous swept-volume proof.
-- Nominal-pose window-occlusion ray samples: both hub samples fully hidden frontally (144/144 each). Three-quarter samples hide 127/144 outer and 88/144 inner. These are **sampled points against window bounding boxes, not percentages of image area**.
-- Front spoke-centerline samples hidden: 96/102 outer and 72/102 inner. Long links can project end-on as small features frontally but become prominent from the side; point counts alone are not an aesthetic score.
-- `rear_axle_front.png` and `rear_axle_quarter.png` were visually inspected. Both views retain the open upper rings and warm window; the quarter view honestly exposes the braces and hub cap. Render cost: **20.69 seconds total**, two CPU threads, two 900×800 images, 16 samples each.
+- **유효한 솔리드 71개**, `rear_axle_alternative.FCStd`에 저장 후 다시 열었습니다.
+- **정확한 지지/창 교집합 및 거리 검사 680개**: 바깥쪽 ±8.59° / 안쪽 ±10.89° 범위에서 고리당 각도 17개. 스포크, 전방 링크, 허브를 고정 쉼터/창판/차양/창턱과 검사했습니다. 교집합은 없었고, 검사한 최소 거리는 바깥 전방 링크와 쉼터 사이의 **1.664 mm**였습니다. 표본 검사는 모든 쌍이나 연속 이동 체적의 완전한 증명이 아닙니다.
+- 명목 자세의 창 가림 광선 표본: 두 허브 표본 모두 정면에서 완전히 가려졌습니다(각 144/144). 사선에서는 바깥쪽 127/144, 안쪽 88/144가 가려졌습니다. **창 경계 상자에 대해 검사한 표본점이지 이미지 면적의 비율이 아닙니다**.
+- 정면에서 가려진 스포크 중심선 표본: 바깥쪽 96/102, 안쪽 72/102. 긴 링크는 정면에서는 끝단이 작은 형상으로 투영되지만 옆에서는 두드러집니다. 점 개수만으로 미적 점수를 매길 수는 없습니다.
+- `rear_axle_front.png`와 `rear_axle_quarter.png`를 시각 검토했습니다. 두 시점 모두 열린 위쪽 고리와 따뜻한 창을 유지하며, 사선은 버팀대와 허브 캡을 숨기지 않고 드러냅니다. 렌더링 비용: **총 20.69초**, CPU 스레드 두 개, 900×800 이미지 두 장, 각 16샘플.
 
-## Practical comparison
+## 실제적인 비교
 
-| Question | Rim-guided study | Rear-axle alternative |
+| 질문 | 림 가이드 연구 | 뒤쪽 축 대안 |
 |---|---|---|
-| Frontal appearance | Six wheels and guide hardware visible | Hubs hidden; two small diagonal spoke segments remain |
-| Three-quarter appearance | Guide posts and depth stack visible | Long braces and inner hub cap visible |
-| Constraint architecture | Ring form, guide alignment, follower return and flange capture interact | Two fixed-axis revolute hub concepts; no rim-running contact |
-| Axial retention | Rim-flange escape/capture unresolved | Retention concentrated at hub collars, but fastening/strength still unspecified |
-| Out-of-round decorative ring | Directly changes guide contact | No longer a running surface; still changes clearance and balance |
-| Weight/moment concern | Beads are 14 mm ahead of the running track | Beads are **111 / 158 mm ahead of hubs**; long forward links are not stiffness-validated |
-| Manual operation | Existing front tabs; independent rings | Same tabs and independence; hand torque and balance unknown |
-| Access | Exposed guides easy to inspect | Rear assembly/service access required; fixed window hides hubs |
+| 정면 외관 | 바퀴 여섯 개와 가이드 하드웨어가 보임 | 허브는 가려지고 작은 대각선 스포크 두 부분이 남음 |
+| 사선 외관 | 가이드 기둥과 깊이 방향 적층이 보임 | 긴 버팀대와 안쪽 허브 캡이 보임 |
+| 구속 구조 | 고리 형상, 가이드 정렬, 종동자 복귀, 플랜지 이탈 방지가 상호작용 | 고정 축 회전 허브 콘셉트 두 개. 림 구름 접촉 없음 |
+| 축방향 이탈 방지 | 림 플랜지의 이탈/포획은 미해결 | 이탈 방지를 허브 칼라에 집중하지만 체결/강도는 여전히 미정 |
+| 진원에서 벗어난 장식 고리 | 가이드 접촉을 직접 바꿈 | 더는 구름면이 아니지만 간격과 균형은 여전히 바꿈 |
+| 무게/모멘트 우려 | 구슬이 구름 트랙보다 14 mm 앞에 있음 | 구슬이 **허브보다 111 / 158 mm 앞**에 있음. 긴 전방 링크의 강성은 미검증 |
+| 수동 조작 | 기존 앞쪽 손잡이, 독립 고리 | 같은 손잡이와 독립성. 손 토크와 균형은 미상 |
+| 접근 | 드러난 가이드를 검사하기 쉬움 | 뒤쪽 조립/정비 접근 필요. 고정 창이 허브를 가림 |
 
-**The axle's load leverage is a serious trade-off.** The 111/158 mm figures are bead-component lever arms, not the full assembly's COM or a calculated force. Hub/spoke/link/track masses are unknown. No stiffness, shaft deflection, bearing life, drag, torque, axial retention capacity or safe hand operation was established. The thin modeled spokes and 6 mm shaft diameter are visual envelopes—not recommended hardware sizes.
+**축의 하중 지레 작용은 중요한 대가입니다.** 111/158 mm는 구슬 부품의 모멘트 팔이지, 전체 조립체의 질량 중심이나 계산한 힘이 아닙니다. 허브/스포크/링크/트랙의 질량은 모릅니다. 강성, 축 처짐, 베어링 수명, 저항, 토크, 축방향 이탈 방지 용량, 안전한 손 조작은 입증하지 않았습니다. 얇게 모델링한 스포크와 6 mm 축 지름은 시각적 포락선이지 권장 하드웨어 치수가 아닙니다.
 
-The general concepts of radial support and axial location are distinguished in [SKF's bearing-arrangement guidance](https://www.skf.com/binaries/pub12/Images/0901d1968013be94-SKF-bearing-maintenance-handbook---10001_1-EN%281%29_tcm_12-463040.pdf). No SKF bearing or rating is selected or implied here. Our geometry and trade-off judgments remain original virtual-design work.
+[SKF의 베어링 배치 지침](https://www.skf.com/binaries/pub12/Images/0901d1968013be94-SKF-bearing-maintenance-handbook---10001_1-EN%281%29_tcm_12-463040.pdf)은 반경방향 지지와 축방향 위치 결정의 일반 개념을 구분합니다. 여기서는 SKF 베어링이나 정격을 선정하거나 암시하지 않습니다. 지오메트리와 절충 판단은 독창적인 가상 디자인 작업입니다.
 
-## Files / reproduction
+## 파일 / 재현
 
-- `rear_axle_alternative.FCStd`: editable named solids.
-- `build_alternative.py`: rebuild through `/usr/bin/python3`; reads the unchanged parent `rain_clock_manual.FCStd`.
-- `geometry_comparison.json`: checks, dimensions and occlusion samples.
-- `render_views.py`: after building, run `blender -b -t 2 --python render_views.py`.
-- `rear_axle_front.png`, `rear_axle_quarter.png`: verified local previews.
+- `rear_axle_alternative.FCStd`: 편집 가능한 이름 있는 솔리드.
+- `build_alternative.py`: `/usr/bin/python3`로 다시 빌드합니다. 변경하지 않은 상위 `rain_clock_manual.FCStd`를 읽습니다.
+- `geometry_comparison.json`: 검사, 치수, 가림 표본.
+- `render_views.py`: 빌드 뒤 `blender -b -t 2 --python render_views.py` 실행.
+- `rear_axle_front.png`, `rear_axle_quarter.png`: 검증한 로컬 미리보기.
 
-`preview_mesh.json` is temporary and regenerated by the build. No purchases, physical fabrication, uploads or publication occurred.
+`preview_mesh.json`은 임시 파일이며 빌드로 다시 생성합니다. 구매, 실제 제작, 업로드, 공개는 하지 않았습니다.

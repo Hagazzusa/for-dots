@@ -10,11 +10,11 @@
 
 ![Glass Refuge — 실제 Blender 모델의 Cycles 렌더](glass-refuge/renders/05_final.png)
 
-**위 이미지는 실제 Blender 모델의 렌더입니다. 게임 화면이나 GPT Image 컨셉 이미지가 아닙니다.**
+**위 이미지는 실제 Blender 모델의 렌더입니다. 게임 화면이나 GPT Image 콘셉트 이미지가 아닙니다.**
 
 하나의 공간을 서로 다른 방식으로 이어 보았습니다.
 
-- **출발 — 생성 이미지:** [GPT Image 컨셉 원본](glass-refuge/reference/gpt_image_concept.png). 공간의 분위기와 형태를 위한 참고 이미지입니다.
+- **출발 — 생성 이미지:** [GPT Image 콘셉트 원본](glass-refuge/reference/gpt_image_concept.png). 공간의 분위기와 형태를 위한 참고 이미지입니다.
 - **모델 — 편집 가능한 3D:** [Blender 장면·제작 소스](glass-refuge/README.md) · [구조 둘러보기 영상](glass-refuge/renders/06_structural_inspection.mp4). 한 장의 그림을 해석해 만든 모델로, 치수는 추정이며 시공용 설계가 아닙니다.
 - **뷰어 — 직접 돌려보기:** [Godot 실행·조작 안내](glass-refuge-viewer/README.md). 모델에서 내보낸 실제 3D 형상을 회전하고 조명·유리를 켜고 끕니다. 재질은 단순화했고 식물과 배경 풍경은 제외했습니다.
 - **게임 — 안으로 걸어 들어가기:** [After the Rain](after-the-rain/README.md)에서는 같은 파생 모델의 쉼터에 들어가 앉고, 코코아를 마시며 기다릴 수 있습니다. 역시 단순화된 실시간 표현이며 위 렌더와 같지 않습니다. 등장인물과 동네 이야기는 허구입니다.

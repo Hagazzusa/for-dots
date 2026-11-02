@@ -1,70 +1,70 @@
-# Rain Clock · manual mechanism study 01
+# Rain Clock · 수동 기구 연구 01
 
-**Result:** the original sculpture is not a buildable mechanism. This revision gives the two moving rings explicit guide tracks and supports, and removes a nominal bead/sill collision. It is still an untested geometric concept—not fabrication-ready, a timekeeper, a self-running mechanism, or tested safe hardware.
+**결과:** 원본 조각은 제작 가능한 기구가 아닙니다. 이번 수정은 움직이는 고리 두 개에 명시적인 가이드 트랙과 지지를 더하고, 명목 구슬/창턱 충돌을 없앱니다. 여전히 테스트하지 않은 기하 콘셉트이며, 제작 준비가 끝난 제품, 시간 측정 장치, 스스로 작동하는 기구, 안전성이 검증된 하드웨어가 아닙니다.
 
-## What the original animation hides
+## 원래 애니메이션이 가리는 것
 
-The original Blender scene has two freely floating rings, 11 + 8 decorative beads, and independent sine-angle keyframes. There are no bearings, supports, drive, or physical phase linkage. At frame 25, inner bead #6 intersects the sill in a smooth-ellipsoid/unbeveled-box reconstruction (about 38.0 mm³). This is a nominal-solid audit, not an exact intersection of the original low-poly/beveled Blender mesh.
+원본 Blender 장면에는 자유롭게 떠 있는 고리 두 개, 장식 구슬 11 + 8개, 독립적인 사인 각도 키프레임이 있습니다. 베어링, 지지, 구동, 물리적 위상 연결은 없습니다. 25프레임에서 안쪽 구슬 #6은 매끄러운 타원체/베벨 없는 상자로 재구성한 모델의 창턱과 교차합니다(약 38.0 mm³). 명목 솔리드 감사이지, 원본 저폴리/베벨 Blender 메시의 정확한 교집합 계산이 아닙니다.
 
-All dimensions here use an **invented study scale: 1 original Blender unit = 100 mm**. The original did not establish physical dimensions.
+여기의 모든 치수는 **연구용으로 정한 가상 축척: 원본 Blender 1단위 = 100 mm**를 사용합니다. 원본은 실제 치수를 정하지 않았습니다.
 
-## Options considered
+## 검토한 선택지
 
-1. **Central shaft, hub and spokes:** direct load path; however spokes occupy the window view, and two independently moving concentric rings require separate coaxial bearings/shafts or a linkage. Not selected for the first study.
-2. **Three rim-guide rollers per ring — selected:** keeps the center open, avoids a coaxial shaft, and makes support/adjustment visible. Needs round tracks, correct groove fit, alignment, retention and validation of resistance to wobble.
-3. **Suspended/flexure-supported arcs:** fewer rolling parts but no longer the original closed-ring motion; flexure fatigue, stiffness and stroke would need a separate study. Not pursued here.
+1. **중앙 축, 허브, 스포크:** 직접적인 하중 경로입니다. 그러나 스포크가 창의 시야를 차지하고, 독립적으로 움직이는 동심 고리 두 개에는 별도의 동축 베어링/축 또는 연결 기구가 필요합니다. 첫 연구에서는 선택하지 않았습니다.
+2. **고리마다 림 가이드 롤러 세 개 — 선택함:** 중앙을 비우고 동축 축을 피하며 지지/조정을 드러냅니다. 원형 트랙, 올바른 홈 맞춤, 정렬, 이탈 방지, 흔들림 저항 검증이 필요합니다.
+3. **매달거나 탄성 지지한 호:** 구르는 부품은 줄지만 원래의 닫힌 고리 운동과 달라집니다. 탄성부의 피로, 강성, 이동 범위는 별도 연구가 필요합니다. 여기서는 진행하지 않았습니다.
 
-## Selected architecture: manual first
+## 선택한 구조: 먼저 수동으로
 
-Each decorative ring gains a smooth annular track behind its beads. Three exterior grooved rollers at 0°, 120°, 240° locate the track; their flanges provisionally constrain axial drift. Posts connect the roller axles to rear columns and the base. Rear slotted carriers indicate a need for adjustment; the red carrier is the candidate adjustment point, not a manufactured eccentric bearing.
+각 장식 고리의 구슬 뒤에 매끄러운 환형 트랙을 더합니다. 0°, 120°, 240°의 바깥쪽 홈 롤러 세 개가 트랙의 위치를 잡고, 플랜지는 잠정적으로 축방향 표류를 구속합니다. 기둥은 롤러 축을 뒤쪽 기둥과 받침대에 연결합니다. 뒤쪽 슬롯 캐리어는 조정 필요성을 표시합니다. 빨간 캐리어는 조정 지점 후보이지 제작된 편심 베어링이 아닙니다.
 
-Each ring has its own front tab. A person would move one ring at a time, slowly through the original approximate amplitudes (±8.6° outer; ±10.9° inner). **This does not reproduce the automatic eight-second, phase-offset loop.** There is no motor, power source, stored-energy drive, gearing or claimed continuous operation. The amber pane is only a visual placeholder: this prototype does not include electronics or working illumination.
+각 고리에는 앞쪽 손잡이가 있습니다. 사람이 원래의 대략적인 진폭(바깥쪽 ±8.6°, 안쪽 ±10.9°) 안에서 한 번에 고리 하나를 천천히 움직이는 방식입니다. **자동 8초 위상차 반복을 재현하지 않습니다.** 모터, 전원, 저장 에너지 구동, 기어가 없으며 연속 운전을 주장하지 않습니다. 호박빛 창은 시각적 자리 표시자일 뿐이며, 이 프로토타입에는 전자 장치나 작동하는 조명이 없습니다.
 
-Bearing/bushing choice, axle retention, fasteners, adjuster travel and preload are unresolved. The CAD's 4 mm wheel bores and 3.6 mm axle envelopes are placeholders, not recommended fits. No torque, load rating, material strength, service life or hand-force value is assumed.
+베어링/부싱 선정, 축 이탈 방지, 체결부, 조절 이동 범위, 예압은 미해결입니다. CAD의 4 mm 바퀴 구멍과 3.6 mm 축 포락선은 자리 표시자이지 권장 끼워맞춤이 아닙니다. 토크, 정격 하중, 재료 강도, 수명, 손의 힘 값을 가정하지 않습니다.
 
-## Deliberate geometric changes
+## 의도적인 기하 변경
 
-| Feature | Original nominal mm | Revision mm | Reason / visual effect |
+| 항목 | 원본 명목 mm | 수정 mm | 이유 / 시각 효과 |
 |---|---:|---:|---|
-| Outer ring radius | 139 | 139 | Preserved |
-| Inner ring radius | 112 | 108 | Clears inner support posts from outer bead sweep; slightly larger gap between rings |
-| Decorative bead planes Y | −2, −19 | −64, −94 | Pull beads forward of shelter and guide rollers |
-| Track center planes Y | same as beads | −50, −80 | Separate running surfaces from ornaments |
-| Running track section | 2.8 mm round wire | 8 radial × 4 axial | Visible wider flat track, not a stiffness-qualified section |
-| Fixed outer frame inner radius | 154.5 | 156.5 | Gives rear posts 1.5 mm nominal radial separation |
-| Base width × depth | 390 × 125 | 390 × 210 | Accommodates the deeper stack; tipping not analyzed |
-| Bead count | 11 + 8 | 11 + 8 | Preserved |
+| 바깥 고리 반지름 | 139 | 139 | 유지 |
+| 안쪽 고리 반지름 | 112 | 108 | 안쪽 지지 기둥을 바깥 구슬의 이동 영역에서 분리. 고리 사이 간격이 약간 커짐 |
+| 장식 구슬 평면 Y | −2, −19 | −64, −94 | 구슬을 쉼터와 가이드 롤러보다 앞으로 이동 |
+| 트랙 중심 평면 Y | 구슬과 같음 | −50, −80 | 구름면과 장식을 분리 |
+| 구름 트랙 단면 | 지름 2.8 mm 원형 선재 | 반경방향 8 × 축방향 4 | 더 넓고 눈에 보이는 평평한 트랙. 강성 검증 단면은 아님 |
+| 고정 외곽 프레임 안쪽 반지름 | 154.5 | 156.5 | 뒤쪽 기둥에 명목 반경방향 분리 1.5 mm 확보 |
+| 받침대 너비 × 깊이 | 390 × 125 | 390 × 210 | 깊어진 적층 수용. 전도는 분석하지 않음 |
+| 구슬 수 | 11 + 8 | 11 + 8 | 유지 |
 
-The deeper stack and visible rollers/posts make this less ethereal than the original render. The bead rings still overlap portions of the window in a frontal projection—this is visual occlusion, not solid collision after depth separation. Rear rails are also deliberately visible. The CAD omits the original bevels and fine decoration to expose the mechanism.
+깊어진 적층과 드러난 롤러/기둥 때문에 원본 렌더링보다 덜 가벼워 보입니다. 정면 투영에서는 구슬 고리가 여전히 창 일부를 가립니다. 깊이로 분리한 뒤에는 솔리드 충돌이 아니라 시각적 가림입니다. 뒤쪽 레일도 의도적으로 드러냅니다. CAD는 기구를 드러내기 위해 원본 베벨과 미세 장식을 생략합니다.
 
-## What was actually checked
+## 실제로 검사한 것
 
-- FreeCAD 1.0 Python API generated valid solids; saved an editable `.FCStd` with named parts and a reproducible script.
-- **All-angle shelter separation:** Y-axis rotation leaves Y extents unchanged. Every moving solid has a disjoint Y interval from every shelter solid. Minimum separating interval: **16 mm**. This proves this narrow geometric condition for all angles, not merely sampled frames.
-- Six track/roller pairs: exact CAD intersections have **0 mm³ overlap**, and nominal tangent contact is present.
-- Conservative swept-envelope gaps: bead backs to roller fronts **4.4 mm**; pins to roller lips **1 mm**; outer bead sweep to inner support posts **4.5 mm**; rear columns to canopy **12 mm**; outer posts to fixed-frame inner edge **1.5 mm**.
-- Groove width 4.4 mm around a 4 mm track leaves **0.2 mm per side** in ideal geometry. **This is not an accepted tolerance**, and may be unusable with real runout, warping, dirt or inaccurate fabrication.
-- These checks do not establish all-pair clearance, structural support adequacy, contact stress, friction, noise, balance, safety, dimensional stack-up, life or manufacturability. There is no finite-element or motion-dynamics simulation.
+- FreeCAD 1.0 Python API로 유효한 솔리드를 생성하고, 이름 있는 부품의 편집 가능한 `.FCStd`와 재현 가능한 스크립트를 저장했습니다.
+- **모든 각도에서의 쉼터 분리:** Y축 회전은 Y범위를 바꾸지 않습니다. 모든 움직이는 솔리드의 Y구간은 모든 쉼터 솔리드의 Y구간과 겹치지 않습니다. 최소 분리 구간: **16 mm**. 이 좁은 기하 조건을 표본 프레임뿐 아니라 모든 각도에 대해 증명합니다.
+- 트랙/롤러 여섯 쌍: 정확한 CAD 교집합의 **겹침은 0 mm³**이며, 명목 접선 접촉이 있습니다.
+- 보수적인 이동 포락선 간격: 구슬 뒤에서 롤러 앞까지 **4.4 mm**, 핀에서 롤러 턱까지 **1 mm**, 바깥 구슬 이동 영역에서 안쪽 지지 기둥까지 **4.5 mm**, 뒤쪽 기둥에서 차양까지 **12 mm**, 바깥 기둥에서 고정 프레임 안쪽 가장자리까지 **1.5 mm**.
+- 4 mm 트랙 주변의 4.4 mm 홈 폭은 이상적 기하에서 **한쪽당 0.2 mm**를 남깁니다. **승인된 공차가 아니며**, 실제 흔들림, 뒤틀림, 먼지, 부정확한 제작에서는 사용할 수 없을 수도 있습니다.
+- 이 검사는 모든 쌍의 간격, 구조적 지지의 적절성, 접촉 응력, 마찰, 소음, 균형, 안전성, 치수 누적, 수명, 제조 가능성을 입증하지 않습니다. 유한요소나 운동역학 시뮬레이션은 없습니다.
 
-## Evidence, not endorsement
+## 근거이지 보증이 아님
 
-[HepcoMotion's official ring-guide description](https://www.hepcomotion.com/product/curved-rails-and-track-system-components/large-diameter-ring-guides-segments-and-track-systems/) describes internal/external rolling guide edges, open centers, and adjustable eccentric bearings. This supports considering rim guidance as an architecture. Its commercial load/speed claims **do not apply** to this small original study or its simplified U-groove wheels.
+[HepcoMotion의 공식 링 가이드 설명](https://www.hepcomotion.com/product/curved-rails-and-track-system-components/large-diameter-ring-guides-segments-and-track-systems/)은 안쪽/바깥쪽 구름 가이드 가장자리, 열린 중앙, 조정 가능한 편심 베어링을 설명합니다. 이는 림 가이드를 구조 후보로 고려할 근거입니다. 상용 제품의 하중/속도 주장은 이 작은 독창적 연구나 단순화한 U홈 바퀴에 **적용되지 않습니다**.
 
-[HepcoMotion's official eccentric-adjustment explanation](https://www.hepcomotion.com/videos/animation-gv3-eccentric-adjustment/) confirms that their V-bearing systems use adjustment to restore running condition after wear. Our slotted carrier is only an inferred adjustment concept, not that product's implementation.
+[HepcoMotion의 공식 편심 조정 설명](https://www.hepcomotion.com/videos/animation-gv3-eccentric-adjustment/)은 V베어링 시스템에서 마모 후 운전 상태를 회복하려고 조정한다는 점을 확인합니다. 여기의 슬롯 캐리어는 추론한 조정 콘셉트일 뿐, 해당 제품의 구현이 아닙니다.
 
-## Before any physical trial
+## 실제 실험 전에
 
-Do not treat exposed nip points, removable beads or sharp edges as safe. A physical prototype needs captive parts, guarded roller/track nips, retained axles, travel stops and a stable base before hand operation. None is safety-validated here. No purchase, fabrication order or physical test has occurred.
+노출된 끼임 지점, 분리 가능한 구슬, 날카로운 가장자리를 안전하다고 여기지 마세요. 실제 프로토타입은 손으로 조작하기 전에 빠지지 않는 부품, 롤러/트랙 끼임 방호, 축 이탈 방지, 이동 스토퍼, 안정된 받침대가 필요합니다. 여기서는 어느 것도 안전성을 검증하지 않았습니다. 구매, 제작 주문, 물리 실험은 하지 않았습니다.
 
-**Next bounded step:** make a virtual single-ring coupon variant and sweep groove side clearance and radial runout. Find where the 0.2 mm ideal side gap or 1 mm pin clearance first produces interference, then specify what a later authorized bench coupon must measure (starting/running hand force, wobble, rubbing, retention and wear). This is more useful than selecting a motor before the ring guide has demonstrated smooth motion.
+**다음의 한정된 단계:** 가상 단일 고리 시험편 변형을 만들고 홈 옆 간격과 반경방향 흔들림을 훑어봅니다. 이상적 옆 간격 0.2 mm 또는 핀 간격 1 mm에서 처음 간섭이 생기는 지점을 찾고, 추후 승인된 탁상 시험편으로 무엇을 측정해야 하는지(시동/작동 손 힘, 흔들림, 마찰 접촉, 이탈 방지, 마모) 정합니다. 고리 가이드가 부드러운 운동을 입증하기 전에 모터를 고르는 것보다 유용합니다.
 
-## Local files / reproduction
+## 로컬 파일 / 재현
 
-- `rain_clock_manual.FCStd`: named, individually positionable FreeCAD solids. Rebuild dimensions through `build_mechanism.py`; not a constrained manufacturing assembly.
-- `build_mechanism.py`: `/usr/bin/python3 build_mechanism.py`; uses the installed FreeCAD Python API via the Linux FreeCAD module path `/usr/lib/freecad/lib`; adapt that import path to your installation if needed.
-- `geometry_checks.json`: narrow geometry proof and numeric results.
-- `render_mechanism.py`, `mechanism_preview.png`: review preview and reproducible renderer. Run the build first to regenerate `preview_mesh.json`, then `blender -b -t 2 --python render_mechanism.py`. The derived preview `.blend` is not included; the editable mechanism source is the `.FCStd`.
-- No original sculpture or game files were changed. All geometry is original; no external assets. This completed study is preserved separately in the repository. Intermediate caches and the derived preview blend are excluded; PNG path metadata was removed without changing pixels.
+- `rain_clock_manual.FCStd`: 이름이 있고 개별 위치를 정할 수 있는 FreeCAD 솔리드. 치수 재생성은 `build_mechanism.py`를 사용합니다. 구속된 제조 조립체는 아닙니다.
+- `build_mechanism.py`: `/usr/bin/python3 build_mechanism.py`. Linux FreeCAD 모듈 경로 `/usr/lib/freecad/lib`를 통해 설치된 FreeCAD Python API를 사용합니다. 필요하면 설치 환경에 맞게 가져오기 경로를 조정하세요.
+- `geometry_checks.json`: 좁은 범위의 기하 증명과 수치 결과.
+- `render_mechanism.py`, `mechanism_preview.png`: 검토 미리보기와 재현 가능한 렌더러. 먼저 빌드하여 `preview_mesh.json`을 다시 생성한 다음 `blender -b -t 2 --python render_mechanism.py`를 실행합니다. 파생 미리보기 `.blend`는 포함하지 않으며, 편집 가능한 기구 소스는 `.FCStd`입니다.
+- 원본 조각이나 게임 파일은 변경하지 않았습니다. 모든 지오메트리는 독창적이며 외부 에셋은 없습니다. 완료된 연구는 저장소에 별도로 보존합니다. 중간 캐시와 파생 미리보기 blend는 제외했으며, PNG 경로 메타데이터는 픽셀을 바꾸지 않고 제거했습니다.
 
-- `section_diagram.svg` / `.png`: annotated axial-stack and guide-contact explanation, visually reviewed.
-- Mechanism preview visually reviewed; 15.50 seconds, two CPU threads, 1000 × 800, 16 samples, no denoiser.
+- `section_diagram.svg` / `.png`: 주석이 있는 축방향 적층 및 가이드 접촉 설명. 시각 검토 완료.
+- 기구 미리보기 시각 검토 완료. 15.50초, CPU 스레드 두 개, 1000 × 800, 16샘플, 노이즈 제거 없음.
