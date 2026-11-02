@@ -1,0 +1,55 @@
+[gd_scene load_steps=8 format=3]
+[sub_resource type="StandardMaterial3D" id="Coat"]
+albedo_color = Color(0.32, 0.23, 0.17, 1)
+roughness = 0.94
+[sub_resource type="StandardMaterial3D" id="Cuff"]
+albedo_color = Color(0.52, 0.39, 0.27, 1)
+roughness = 0.95
+[sub_resource type="StandardMaterial3D" id="Glove"]
+albedo_color = Color(0.23, 0.28, 0.27, 1)
+roughness = 0.95
+[sub_resource type="CapsuleMesh" id="Sleeve"]
+material = SubResource("Coat")
+radius = 0.041
+height = 0.18
+radial_segments = 8
+rings = 2
+[sub_resource type="CylinderMesh" id="CuffMesh"]
+material = SubResource("Cuff")
+top_radius = 0.042
+bottom_radius = 0.042
+height = 0.035
+radial_segments = 8
+[sub_resource type="SphereMesh" id="PalmMesh"]
+material = SubResource("Glove")
+radius = 0.031
+height = 0.08
+radial_segments = 8
+rings = 3
+[sub_resource type="CapsuleMesh" id="Fingers"]
+material = SubResource("Glove")
+radius = 0.008
+height = 0.095
+radial_segments = 6
+rings = 1
+[node name="Grip" type="Node3D"]
+[node name="Sleeve" type="MeshInstance3D" parent="."]
+position = Vector3(0.125, -0.075, 0.14)
+rotation = Vector3(1.5707963, 0, 0)
+mesh = SubResource("Sleeve")
+[node name="Cuff" type="MeshInstance3D" parent="."]
+position = Vector3(0.12, -0.06, 0.055)
+rotation = Vector3(1.5707963, 0, 0)
+mesh = SubResource("CuffMesh")
+[node name="Palm" type="MeshInstance3D" parent="."]
+position = Vector3(0.107, -0.024, 0.025)
+scale = Vector3(1, 1, 0.75)
+mesh = SubResource("PalmMesh")
+[node name="FingersUpper" type="MeshInstance3D" parent="."]
+position = Vector3(0.073, 0.012, 0.005)
+rotation = Vector3(1.5707963, 0, 0)
+mesh = SubResource("Fingers")
+[node name="FingersLower" type="MeshInstance3D" parent="."]
+position = Vector3(0.071, -0.023, 0.005)
+rotation = Vector3(1.5707963, 0, 0)
+mesh = SubResource("Fingers")

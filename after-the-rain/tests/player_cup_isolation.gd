@@ -39,7 +39,7 @@ func run():
 	player._unhandled_input(key)
 	assert(intent_count == 1)
 	player.held_drink.set_fill(1,true)
-	player.held_drink.present(3,true,0,false,Vector3(1,0,0),0,false,.016,1)
+	player.held_drink.present(3,true,-1,false,Vector3(1,0,0),0,false,.016,1)
 	assert(player.held_drink.visible and not second.held_drink.visible)
 	player.held_drink.reset_visuals()
 	assert(not player.held_drink.visible)
