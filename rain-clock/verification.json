@@ -1,0 +1,22 @@
+{
+  "objects": 47,
+  "rain_beads": 19,
+  "animation_seam": "PASS: frame 97 = frame 1",
+  "motion": "PASS: interior poses differ",
+  "geometry": "PASS: finite mesh vertices",
+  "render_verified": true,
+  "visual_review": "800px still and loop frames 25 and 73 inspected: no clipping/framing faults; mild low-sample grain",
+  "preview": {
+    "width": 480,
+    "height": 480,
+    "frames": 48,
+    "fps": 6,
+    "seconds": 8
+  },
+  "cost_seconds": {
+    "still": 20.246,
+    "loop": 114.083
+  },
+  "cpu_threads": 2,
+  "denoising": "Disabled: local Blender build lacks OpenImageDenoise"
+}

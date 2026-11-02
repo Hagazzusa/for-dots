@@ -1,0 +1,6 @@
+frames/
+renders/
+*.log
+*.blend1
+*.gif
+__pycache__/
