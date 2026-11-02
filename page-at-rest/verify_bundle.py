@@ -45,7 +45,7 @@ for path in sorted((ROOT/'renders').glob('*.png')):
     assert Image.open(path).tobytes()==Image.open(original).tobytes()
     im=Image.open(path).convert('RGB'); vals=list(im.get_flattened_data() if hasattr(im,'get_flattened_data') else im.getdata()); total=len(vals)
     report={'file':str(path.relative_to(ROOT)),'private_text_chunks_removed':removed,'idat_sha256':idat,
-            'identical_decoded_pixels':True,'c2pa_unchanged':True,
+            'identical_decoded_pixels':True,'c2pa_present':any(t==b'caBX' for t,_,_ in cs),'c2pa_unchanged':True,
             'size':list(im.size),'all_channels_at_255_fraction':sum(v==(255,255,255) for v in vals)/total,
             'any_channel_at_255_fraction':sum(max(v)==255 for v in vals)/total}
     reports.append(report)

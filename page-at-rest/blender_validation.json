@@ -1,0 +1,94 @@
+{
+  "scope": "virtual geometric and file validation only, not manufacturing/electrical/thermal safety",
+  "freecad_transfer": [
+    {
+      "name": "Walnut_Base",
+      "max_vertex_transfer_error_m": 3.6954879711892374e-09,
+      "triangles_unchanged": true,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "name": "Left_Brass_Cradle",
+      "max_vertex_transfer_error_m": 1.8477439925335126e-09,
+      "triangles_unchanged": true,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "name": "Right_Brass_Cradle",
+      "max_vertex_transfer_error_m": 1.8477439925335126e-09,
+      "triangles_unchanged": true,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    }
+  ],
+  "millimetres_to_metres_factor": 0.001,
+  "camera_projected_bounds": {
+    "left": 0.22637002170085907,
+    "right": 0.7078759074211121,
+    "bottom": 0.07179757952690125,
+    "top": 0.8404045104980469
+  },
+  "pages": [
+    {
+      "name": "Left_Page",
+      "finite": true,
+      "closed_manifold": true,
+      "volume_m3": 8.231658529762535e-06,
+      "thickness_mm": 0.7
+    },
+    {
+      "name": "Right_Page",
+      "finite": true,
+      "closed_manifold": true,
+      "volume_m3": 6.816549243963314e-06,
+      "thickness_mm": 0.7
+    }
+  ],
+  "overlaps": {
+    "Left_Page_own_cradle": {
+      "intersecting_face_pairs": 871,
+      "max_page_v": 0.005555555555555556,
+      "interpretation": "intentional shallow lower-edge seat only"
+    },
+    "Left_Page_Walnut_Base": 0,
+    "Left_Page_Right_Brass_Cradle": 0,
+    "Right_Page_own_cradle": {
+      "intersecting_face_pairs": 1166,
+      "max_page_v": 0.005555555555555556,
+      "interpretation": "intentional shallow lower-edge seat only"
+    },
+    "Right_Page_Walnut_Base": 0,
+    "Right_Page_Left_Brass_Cradle": 0,
+    "page_page": 0
+  },
+  "base_to_desktop_gap_m": -7.211993373405898e-18,
+  "paper_emission_nodes": 0,
+  "compositor_enabled": false,
+  "external_images": [],
+  "objects": 15,
+  "source_mesh_sha256": "dfdff78b25422ed9cd964080e217e24c3fe71264875337ff43c056dbc15eee3b",
+  "render": {
+    "width": 1200,
+    "height": 800,
+    "max_samples": 512,
+    "adaptive_min_samples": 128,
+    "adaptive_threshold": 0.004999999888241291,
+    "threads": 2,
+    "device": "CPU",
+    "denoising": false,
+    "reflective_caustics": true,
+    "refractive_caustics": true,
+    "denoising_note": "Installed Blender build has no OpenImageDenoise support; native samples only"
+  }
+}

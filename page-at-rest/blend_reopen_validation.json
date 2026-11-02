@@ -1,0 +1,11 @@
+{
+  "reopened": true,
+  "external_dependencies": [],
+  "relative_render_output": "//renders/a_page_at_rest_final.png",
+  "object_count": 15,
+  "threads": 2,
+  "cpu": true,
+  "camera": "Camera \u2014 quiet three-quarter",
+  "compositor": false,
+  "non_emissive_paper": true
+}

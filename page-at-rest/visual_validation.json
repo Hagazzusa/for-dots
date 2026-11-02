@@ -1,0 +1,22 @@
+{
+  "method": "RMS of pixel minus four-neighbour mean in top-right background region x=0.75..1, y=0..0.35; diagnostic, not a general image-quality score",
+  "renders": {
+    "preview_128.png": {
+      "quiet_background_high_frequency_rms_8bit": 7.023156773905024,
+      "resolution": [
+        1200,
+        800
+      ]
+    },
+    "a_page_at_rest_final.png": {
+      "quiet_background_high_frequency_rms_8bit": 3.7092122785886303,
+      "resolution": [
+        1200,
+        800
+      ]
+    }
+  },
+  "visual_review": "Both page tips inside frame; restrained warm cast and lower-edge supports visible; fine residual CPU path-tracing grain remains",
+  "top_margin_fraction": 0.15959548950195312,
+  "postprocessing": "No image denoising, bloom or pixel editing"
+}

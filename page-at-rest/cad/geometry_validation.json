@@ -1,0 +1,438 @@
+{
+  "scope": "virtual geometric validation only; not manufacturing, structural, electrical or thermal safety",
+  "freecad_version": [
+    "1",
+    "0",
+    "0"
+  ],
+  "unit": "mm",
+  "objects": [
+    {
+      "name": "Walnut_Base",
+      "valid": true,
+      "solids": 1,
+      "volume_mm3": 124060.24231868607,
+      "vertices": 35632,
+      "triangles": 71260
+    },
+    {
+      "name": "Left_Brass_Cradle",
+      "valid": true,
+      "solids": 1,
+      "volume_mm3": 654.0311393489775,
+      "vertices": 18665,
+      "triangles": 37326
+    },
+    {
+      "name": "Right_Brass_Cradle",
+      "valid": true,
+      "solids": 1,
+      "volume_mm3": 651.9965797025343,
+      "vertices": 18461,
+      "triangles": 36918
+    }
+  ],
+  "seat_samples": [
+    {
+      "page": "Left_Page",
+      "u": 0.25,
+      "edge_mm": [
+        -17.3,
+        4.90685424949238,
+        36.5
+      ],
+      "cradle_center_mm": [
+        -17.3,
+        4.90685424949238,
+        35.47
+      ],
+      "intentional_insertion_mm": 0.12
+    },
+    {
+      "page": "Left_Page",
+      "u": 0.29833333333333334,
+      "edge_mm": [
+        -20.490000000000002,
+        6.90575959132146,
+        37.95
+      ],
+      "cradle_center_mm": [
+        -20.490000000000002,
+        6.90575959132146,
+        36.92
+      ],
+      "intentional_insertion_mm": 0.12
+    },
+    {
+      "page": "Left_Page",
+      "u": 0.3466666666666667,
+      "edge_mm": [
+        -23.680000000000003,
+        8.756295300516385,
+        39.4
+      ],
+      "cradle_center_mm": [
+        -23.680000000000003,
+        8.756295300516385,
+        38.37
+      ],
+      "intentional_insertion_mm": 0.12
+    },
+    {
+      "page": "Left_Page",
+      "u": 0.395,
+      "edge_mm": [
+        -26.87,
+        10.443682870620362,
+        40.85
+      ],
+      "cradle_center_mm": [
+        -26.87,
+        10.443682870620362,
+        39.82
+      ],
+      "intentional_insertion_mm": 0.12
+    },
+    {
+      "page": "Left_Page",
+      "u": 0.44333333333333336,
+      "edge_mm": [
+        -30.060000000000002,
+        11.95689819708727,
+        42.3
+      ],
+      "cradle_center_mm": [
+        -30.060000000000002,
+        11.95689819708727,
+        41.269999999999996
+      ],
+      "intentional_insertion_mm": 0.12
+    },
+    {
+      "page": "Left_Page",
+      "u": 0.4916666666666667,
+      "edge_mm": [
+        -33.25,
+        13.288925266471125,
+        43.75
+      ],
+      "cradle_center_mm": [
+        -33.25,
+        13.288925266471125,
+        42.72
+      ],
+      "intentional_insertion_mm": 0.12
+    },
+    {
+      "page": "Left_Page",
+      "u": 0.54,
+      "edge_mm": [
+        -36.44,
+        14.436917610515822,
+        45.2
+      ],
+      "cradle_center_mm": [
+        -36.44,
+        14.436917610515822,
+        44.17
+      ],
+      "intentional_insertion_mm": 0.12
+    },
+    {
+      "page": "Left_Page",
+      "u": 0.5883333333333334,
+      "edge_mm": [
+        -39.63,
+        15.402263809727025,
+        46.650000000000006
+      ],
+      "cradle_center_mm": [
+        -39.63,
+        15.402263809727025,
+        45.620000000000005
+      ],
+      "intentional_insertion_mm": 0.12
+    },
+    {
+      "page": "Left_Page",
+      "u": 0.6366666666666667,
+      "edge_mm": [
+        -42.82,
+        16.190555539043217,
+        48.1
+      ],
+      "cradle_center_mm": [
+        -42.82,
+        16.190555539043217,
+        47.07
+      ],
+      "intentional_insertion_mm": 0.12
+    },
+    {
+      "page": "Left_Page",
+      "u": 0.685,
+      "edge_mm": [
+        -46.01,
+        16.811458890946163,
+        49.55
+      ],
+      "cradle_center_mm": [
+        -46.01,
+        16.811458890946163,
+        48.519999999999996
+      ],
+      "intentional_insertion_mm": 0.12
+    },
+    {
+      "page": "Left_Page",
+      "u": 0.7333333333333334,
+      "edge_mm": [
+        -49.2,
+        17.278491937152488,
+        51.0
+      ],
+      "cradle_center_mm": [
+        -49.2,
+        17.278491937152488,
+        49.97
+      ],
+      "intentional_insertion_mm": 0.12
+    },
+    {
+      "page": "Left_Page",
+      "u": 0.7816666666666666,
+      "edge_mm": [
+        -52.38999999999999,
+        17.608713647687065,
+        52.45
+      ],
+      "cradle_center_mm": [
+        -52.38999999999999,
+        17.608713647687065,
+        51.42
+      ],
+      "intentional_insertion_mm": 0.12
+    },
+    {
+      "page": "Left_Page",
+      "u": 0.83,
+      "edge_mm": [
+        -55.57999999999999,
+        17.82233132600297,
+        53.9
+      ],
+      "cradle_center_mm": [
+        -55.57999999999999,
+        17.82233132600297,
+        52.87
+      ],
+      "intentional_insertion_mm": 0.12
+    },
+    {
+      "page": "Right_Page",
+      "u": 0.25,
+      "edge_mm": [
+        17.05,
+        4.90685424949238,
+        36.5
+      ],
+      "cradle_center_mm": [
+        17.05,
+        4.90685424949238,
+        35.47
+      ],
+      "intentional_insertion_mm": 0.12
+    },
+    {
+      "page": "Right_Page",
+      "u": 0.29833333333333334,
+      "edge_mm": [
+        20.191666666666666,
+        6.90575959132146,
+        37.95
+      ],
+      "cradle_center_mm": [
+        20.191666666666666,
+        6.90575959132146,
+        36.92
+      ],
+      "intentional_insertion_mm": 0.12
+    },
+    {
+      "page": "Right_Page",
+      "u": 0.3466666666666667,
+      "edge_mm": [
+        23.333333333333336,
+        8.756295300516385,
+        39.4
+      ],
+      "cradle_center_mm": [
+        23.333333333333336,
+        8.756295300516385,
+        38.37
+      ],
+      "intentional_insertion_mm": 0.12
+    },
+    {
+      "page": "Right_Page",
+      "u": 0.395,
+      "edge_mm": [
+        26.475,
+        10.443682870620362,
+        40.85
+      ],
+      "cradle_center_mm": [
+        26.475,
+        10.443682870620362,
+        39.82
+      ],
+      "intentional_insertion_mm": 0.12
+    },
+    {
+      "page": "Right_Page",
+      "u": 0.44333333333333336,
+      "edge_mm": [
+        29.61666666666667,
+        11.95689819708727,
+        42.3
+      ],
+      "cradle_center_mm": [
+        29.61666666666667,
+        11.95689819708727,
+        41.269999999999996
+      ],
+      "intentional_insertion_mm": 0.12
+    },
+    {
+      "page": "Right_Page",
+      "u": 0.4916666666666667,
+      "edge_mm": [
+        32.75833333333333,
+        13.288925266471125,
+        43.75
+      ],
+      "cradle_center_mm": [
+        32.75833333333333,
+        13.288925266471125,
+        42.72
+      ],
+      "intentional_insertion_mm": 0.12
+    },
+    {
+      "page": "Right_Page",
+      "u": 0.54,
+      "edge_mm": [
+        35.9,
+        14.436917610515822,
+        45.2
+      ],
+      "cradle_center_mm": [
+        35.9,
+        14.436917610515822,
+        44.17
+      ],
+      "intentional_insertion_mm": 0.12
+    },
+    {
+      "page": "Right_Page",
+      "u": 0.5883333333333334,
+      "edge_mm": [
+        39.041666666666664,
+        15.402263809727025,
+        46.650000000000006
+      ],
+      "cradle_center_mm": [
+        39.041666666666664,
+        15.402263809727025,
+        45.620000000000005
+      ],
+      "intentional_insertion_mm": 0.12
+    },
+    {
+      "page": "Right_Page",
+      "u": 0.6366666666666667,
+      "edge_mm": [
+        42.18333333333334,
+        16.190555539043217,
+        48.1
+      ],
+      "cradle_center_mm": [
+        42.18333333333334,
+        16.190555539043217,
+        47.07
+      ],
+      "intentional_insertion_mm": 0.12
+    },
+    {
+      "page": "Right_Page",
+      "u": 0.685,
+      "edge_mm": [
+        45.325,
+        16.811458890946163,
+        49.55
+      ],
+      "cradle_center_mm": [
+        45.325,
+        16.811458890946163,
+        48.519999999999996
+      ],
+      "intentional_insertion_mm": 0.12
+    },
+    {
+      "page": "Right_Page",
+      "u": 0.7333333333333334,
+      "edge_mm": [
+        48.46666666666667,
+        17.278491937152488,
+        51.0
+      ],
+      "cradle_center_mm": [
+        48.46666666666667,
+        17.278491937152488,
+        49.97
+      ],
+      "intentional_insertion_mm": 0.12
+    },
+    {
+      "page": "Right_Page",
+      "u": 0.7816666666666666,
+      "edge_mm": [
+        51.60833333333333,
+        17.608713647687065,
+        52.45
+      ],
+      "cradle_center_mm": [
+        51.60833333333333,
+        17.608713647687065,
+        51.42
+      ],
+      "intentional_insertion_mm": 0.12
+    },
+    {
+      "page": "Right_Page",
+      "u": 0.83,
+      "edge_mm": [
+        54.74999999999999,
+        17.82233132600297,
+        53.9
+      ],
+      "cradle_center_mm": [
+        54.74999999999999,
+        17.82233132600297,
+        52.87
+      ],
+      "intentional_insertion_mm": 0.12
+    }
+  ],
+  "intended_base_insertion_mm": 0.5,
+  "support_pair_intersection_mm3": 0.0,
+  "support_base_intended_seats_mm3": [
+    10.560040877966612,
+    10.560040927613418
+  ],
+  "fcstd_reopened_valid": true,
+  "native_parametric_objects": 49,
+  "step_reopened_valid": true,
+  "step_solid_count": 3,
+  "mesh_sha256": "dfdff78b25422ed9cd964080e217e24c3fe71264875337ff43c056dbc15eee3b"
+}

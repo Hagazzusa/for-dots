@@ -14,7 +14,8 @@ assert s.render.threads==2 and s.cycles.device=='CPU'
 assert not s.use_nodes
 assert all(math.isfinite(c) for ob in s.objects if ob.type=='MESH' for v in ob.data.vertices for c in v.co)
 assert len([ob for ob in s.objects if ob.name.endswith('Brass_Cradle')])==2
-paper=bpy.data.materials['Ivory fibre paper — diffuse plus transmitted light, no emission']
+paper=bpy.data.objects['Left_Page'].data.materials[0]
+assert paper==bpy.data.objects['Right_Page'].data.materials[0]
 assert not any(n.type=='EMISSION' for n in paper.node_tree.nodes)
 result={'reopened':True,'external_dependencies':external,'relative_render_output':s.render.filepath,
         'object_count':len(s.objects),'threads':s.render.threads,'cpu':s.cycles.device=='CPU',

@@ -1,0 +1,87 @@
+{
+  "scope": "metadata integrity, pixel clipping counts and bounded file dependencies; not safety certification",
+  "renders": [
+    {
+      "file": "renders/a_page_at_rest_final.png",
+      "private_text_chunks_removed": [
+        "tEXt"
+      ],
+      "idat_sha256": "039fa8561100d79153b77fc7e7ce00ebc1e880deaaaae688b5bb91a70d0a130e",
+      "identical_decoded_pixels": true,
+      "c2pa_present": false,
+      "c2pa_unchanged": true,
+      "size": [
+        1200,
+        800
+      ],
+      "all_channels_at_255_fraction": 0.0,
+      "any_channel_at_255_fraction": 0.005185416666666666
+    },
+    {
+      "file": "renders/draft_01.png",
+      "private_text_chunks_removed": [],
+      "idat_sha256": "a5a2510948b59e4e236b639c1313a95a62b4b870996fefa84c7beb2128776c6e",
+      "identical_decoded_pixels": true,
+      "c2pa_present": false,
+      "c2pa_unchanged": true,
+      "size": [
+        600,
+        400
+      ],
+      "all_channels_at_255_fraction": 0.0,
+      "any_channel_at_255_fraction": 0.023391666666666668
+    },
+    {
+      "file": "renders/draft_02.png",
+      "private_text_chunks_removed": [],
+      "idat_sha256": "f2cc66fc67296b1640fc9d28b4e2344ccf8eed3568112337664ce84d0ce7174c",
+      "identical_decoded_pixels": true,
+      "c2pa_present": false,
+      "c2pa_unchanged": true,
+      "size": [
+        600,
+        400
+      ],
+      "all_channels_at_255_fraction": 0.0,
+      "any_channel_at_255_fraction": 0.0068125
+    },
+    {
+      "file": "renders/draft_03_caustics_off.png",
+      "private_text_chunks_removed": [
+        "tEXt"
+      ],
+      "idat_sha256": "5522781ff1b88c1b93c9b03e24b68f8603f50badaab796a407818506bae974dc",
+      "identical_decoded_pixels": true,
+      "c2pa_present": false,
+      "c2pa_unchanged": true,
+      "size": [
+        600,
+        400
+      ],
+      "all_channels_at_255_fraction": 0.0,
+      "any_channel_at_255_fraction": 0.006833333333333334
+    },
+    {
+      "file": "renders/preview_128.png",
+      "private_text_chunks_removed": [],
+      "idat_sha256": "2aa13dc3cb45e05fd79bf60a08ee640acabd5751d677e2cfeeb53457dd3a590f",
+      "identical_decoded_pixels": true,
+      "c2pa_present": false,
+      "c2pa_unchanged": true,
+      "size": [
+        1200,
+        800
+      ],
+      "all_channels_at_255_fraction": 0.0,
+      "any_channel_at_255_fraction": 0.0054625
+    }
+  ],
+  "concept": {
+    "file": "reference/gpt_image_concept.png",
+    "sha256": "a20c015201fbf6371717e80eab2b1cb2d26d795aa81c10d23be7a64efce4fb5b",
+    "c2pa_present": true,
+    "c2pa_sha256": "83b9452aacde4272bc261474751290e250cdf1353070e2f78f14e57081da873f"
+  },
+  "fcstd_document_has_no_private_paths": true,
+  "blend_has_no_private_path_bytes": true
+}

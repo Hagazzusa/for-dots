@@ -12,13 +12,21 @@ sys.path.insert(0,str(ROOT))
 from geometry import page_point
 P=json.loads((ROOT/'parameters.json').read_text())
 DRAFT='--draft' in sys.argv
+NO_CAUSTICS='--no-caustics' in sys.argv
+DRAFT_NAME='draft_03_caustics_off.png' if NO_CAUSTICS else 'draft_02.png'
 OUT=ROOT/'renders'; OUT.mkdir(exist_ok=True)
 bpy.ops.object.select_all(action='SELECT'); bpy.ops.object.delete(use_global=False)
 S=bpy.context.scene; S.unit_settings.system='METRIC'; S.unit_settings.scale_length=1.0
 S.render.engine='CYCLES'; S.cycles.device='CPU'; S.render.threads_mode='FIXED'; S.render.threads=2
 S.cycles.samples=P['render']['draft_samples' if DRAFT else 'final_samples']; S.cycles.use_denoising=False
+S.cycles.use_adaptive_sampling=True
+S.cycles.adaptive_threshold=.01 if DRAFT else .005
+S.cycles.adaptive_min_samples=0 if DRAFT else 128
 S.cycles.max_bounces=10; S.cycles.diffuse_bounces=5; S.cycles.transmission_bounces=6
 S.cycles.seed=21
+if NO_CAUSTICS:
+    S.cycles.caustics_reflective=False
+    S.cycles.caustics_refractive=False
 S.render.resolution_x=P['render']['draft_width' if DRAFT else 'final_width']
 S.render.resolution_y=P['render']['draft_height' if DRAFT else 'final_height']
 S.render.resolution_percentage=100
@@ -163,6 +171,8 @@ def bvh(ob):
 
 report={'scope':'virtual geometric and file validation only, not manufacturing/electrical/thermal safety',
         'freecad_transfer':transfer,'millimetres_to_metres_factor':.001,'camera_projected_bounds':camera_bounds,'pages':[], 'overlaps':{}}
+report['base_to_desktop_gap_m']=min(v.co.z for v in cad['Walnut_Base'].data.vertices)
+assert abs(report['base_to_desktop_gap_m'])<1e-8
 for name,ob in pages.items():
     bm=bmesh.new(); bm.from_mesh(ob.data)
     finite=all(math.isfinite(x) for v in bm.verts for x in v.co)
@@ -183,21 +193,31 @@ assert report['paper_emission_nodes']==0
 report['compositor_enabled']=S.use_nodes; assert not S.use_nodes
 report['external_images']=[im.filepath for im in bpy.data.images if im.source=='FILE']; assert not report['external_images']
 report['objects']=len(S.objects); report['source_mesh_sha256']=hashlib.sha256((ROOT/'cad/parts_mesh.json').read_bytes()).hexdigest()
-report['render']={'width':S.render.resolution_x,'height':S.render.resolution_y,'samples':S.cycles.samples,'threads':S.render.threads,'device':'CPU','denoising':False,'denoising_note':'Installed Blender build has no OpenImageDenoise support; native samples only'}
+report['render']={'width':S.render.resolution_x,'height':S.render.resolution_y,'max_samples':S.cycles.samples,'adaptive_min_samples':S.cycles.adaptive_min_samples,'adaptive_threshold':S.cycles.adaptive_threshold,'threads':S.render.threads,'device':'CPU','denoising':False,'reflective_caustics':S.cycles.caustics_reflective,'refractive_caustics':S.cycles.caustics_refractive,'denoising_note':'Installed Blender build has no OpenImageDenoise support; native samples only'}
 (ROOT/'blender_validation.json').write_text(json.dumps(report,indent=2)+'\n')
 # Factory startup includes a File Browser pointed at a home directory. Set its
 # saved location to this portable project, not the workstation user's home.
 for screen in bpy.data.screens:
     for area_ui in screen.areas:
         for space in area_ui.spaces:
+            if space.type=='VIEW_3D':
+                space.clip_start=.001
+                space.clip_end=100
+                space.shading.type='SOLID'
+                space.shading.color_type='MATERIAL'
+                space.region_3d.view_perspective='CAMERA'
             if space.type=='FILE_BROWSER' and space.params:
                 # Overwrite the entire fixed-size C buffer before the short
                 # relative path; otherwise stale startup-directory bytes remain.
                 space.params.directory=b'/'*1023
                 space.params.directory=b'//'
-S.render.filepath='//renders/'+('draft_02.png' if DRAFT else 'a_page_at_rest_final.png')
+bpy.ops.object.select_all(action='DESELECT')
+S['Artwork']='머무는 페이지 / A Page at Rest'
+S['Scope']='Original virtual sculpture; not a physical, manufacturing or safety-validated product'
+S['Geometry handoff']='FreeCAD native parametric shapes -> exact tessellation JSON -> Blender, mm to m once'
+S.render.filepath='//renders/'+(DRAFT_NAME if DRAFT else 'a_page_at_rest_final.png')
 bpy.ops.wm.save_as_mainfile(filepath=str(ROOT/'A_Page_at_Rest.blend'))
-S.render.filepath=str(OUT/('draft_02.png' if DRAFT else 'a_page_at_rest_final.png'))
+S.render.filepath=str(OUT/(DRAFT_NAME if DRAFT else 'a_page_at_rest_final.png'))
 if '--no-render' not in sys.argv:
     bpy.ops.render.render(write_still=True)
     print('PAGE_AT_REST_RENDER_COMPLETE',S.render.filepath)

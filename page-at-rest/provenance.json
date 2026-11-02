@@ -23,8 +23,8 @@
     "blender_builder": "build_blender.py",
     "unit_conversion": "millimetres to metres, multiplication by 0.001 once at import",
     "no_duplicate_remodeling": true,
-    "parameter_sha256": "40cc6764472bb0792c84f06b6e4926c06748d3c7684649ee4ada55a06d582fda",
-    "source_mesh_sha256": "dfdd09880120ec69a9c485f008268753775861f900e45258510f881c32c7180f"
+    "parameter_sha256": "5c269a928c899a32873dbfb42a169433f90c22e371937e195fe7e32ad4afc676",
+    "source_mesh_sha256": "dfdff78b25422ed9cd964080e217e24c3fe71264875337ff43c056dbc15eee3b"
   },
   "materials": "original procedural walnut, brass, fibre-paper-like shader, linen and plaster; no external textures",
   "lighting": "non-emissive paper; concealed area-light representation, no compositor glow",
@@ -34,5 +34,19 @@
     "No structural analysis",
     "No manufacturing validation",
     "No safety certification"
-  ]
+  ],
+  "render": {
+    "engine": "Blender Cycles CPU",
+    "resolution": [
+      1200,
+      800
+    ],
+    "threads": 2,
+    "adaptive_max_samples": 512,
+    "adaptive_min_samples": 128,
+    "adaptive_threshold": 0.005,
+    "denoising": false,
+    "reason": "installed Blender build does not include OpenImageDenoise",
+    "caustics_off_trial": "not adopted; retained as a diagnostic draft"
+  }
 }

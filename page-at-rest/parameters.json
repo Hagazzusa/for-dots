@@ -8,5 +8,5 @@
   ],
   "paper": {"root_z": 29.0, "half_gap": 0.8, "thickness": 0.7, "segments_u": 72, "segments_v": 90},
   "supports": {"cradle_start": 0.25, "cradle_end": 0.83, "radius": 1.15, "seat_insertion": 0.12, "base_insertion": 0.5},
-  "render": {"draft_width": 600, "draft_height": 400, "draft_samples": 24, "final_width": 1200, "final_height": 800, "final_samples": 128, "threads": 2}
+  "render": {"draft_width": 600, "draft_height": 400, "draft_samples": 24, "final_width": 1200, "final_height": 800, "final_samples": 512, "threads": 2}
 }

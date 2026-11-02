@@ -9,8 +9,8 @@
     },
     {
       "path": "GALLERY.md",
-      "size": 5801,
-      "sha256": "4999afc1fbbc22ae1b79f1b3c2e8ea1d65d996c3eb9dcf0f0812af6eb0d31913"
+      "size": 6490,
+      "sha256": "b74c292d93a7bb5f5fffaf1229b84a1c5aaa780456c7eeb70b4d499b679c1f94"
     },
     {
       "path": "GIT_ENVIRONMENT_CHECK.md",
@@ -19,8 +19,8 @@
     },
     {
       "path": "README.md",
-      "size": 13271,
-      "sha256": "04f6dea175150d408b0164801c1b47dbd119560dcb8d49ee9a2a8323fa0930b9"
+      "size": 13726,
+      "sha256": "d9d44b190ea51d009394bb5a20471a1d63e6ee87da6469f7e7dcc5b8e9ce2037"
     },
     {
       "path": "a-place-to-pause/.gitignore",
@@ -3083,24 +3083,69 @@
       "sha256": "70c32350d2b4e518898f3888f1e60cdddb157de87243eb2c2c383ecc9ceffc19"
     },
     {
-      "path": "page-at-rest/README.md",
-      "size": 5322,
-      "sha256": "b4b3cbc13846ea058a633f444fd8c68595ebc88727ae7736db73617f0ac9477e"
+      "path": "page-at-rest/ARTIFACT_MANIFEST.json",
+      "size": 6781,
+      "sha256": "fb82ce4c1fb646d14af7cd19c0ffab2db0f89b328aa20442e333f166dd4f66df"
     },
     {
-      "path": "page-at-rest/SOURCE_FREEZE_MANIFEST.json",
-      "size": 1683,
-      "sha256": "b14ab7f14ea0fc28b6e0644e0fc45522ffaef16e56fd55c10e81a684928dbf78"
+      "path": "page-at-rest/A_Page_at_Rest.blend",
+      "size": 9777976,
+      "sha256": "4d0ee8b68c98381dfb89e68bd77b3b85ef6d29c716d97d6c2e78f7893937a72e"
+    },
+    {
+      "path": "page-at-rest/README.md",
+      "size": 8250,
+      "sha256": "f547301f9384c499ade7aed9da2abbd76e0ba126ac6601fd4c24585545afa568"
+    },
+    {
+      "path": "page-at-rest/blend_reopen_validation.json",
+      "size": 275,
+      "sha256": "9d27a58dc66cf9c93c8b52d38c590bbd3e2fbf03796ed3f4240c20ba3f8cbbd4"
+    },
+    {
+      "path": "page-at-rest/blender_validation.json",
+      "size": 2487,
+      "sha256": "1742932ad1d1cc041b545f8e896e018b1646fe41895ce6a32686dc00c6f67fca"
     },
     {
       "path": "page-at-rest/build_blender.py",
-      "size": 14173,
-      "sha256": "f7067ab8329937ddaa9a3049c423a81d2c80bb59cdc578221f4f698466ae33c2"
+      "size": 15422,
+      "sha256": "4b6770d89fff024fa61ed27c85cda4b556e3cb7e68d9c9381d7aafa349fe9b67"
     },
     {
       "path": "page-at-rest/build_freecad.py",
       "size": 5938,
       "sha256": "9205e326f866b12670c1f19d19ac03e2d6f59ceb8aa37519f934305c67c7ff50"
+    },
+    {
+      "path": "page-at-rest/bundle_validation.json",
+      "size": 2692,
+      "sha256": "95c0f13c0c136345cd10ebf509d95b448a611eab097e95509725e479ea5ed86c"
+    },
+    {
+      "path": "page-at-rest/cad/A_Page_at_Rest.FCStd",
+      "size": 121611,
+      "sha256": "18074a44a1708512d40deee44de6ba0a046c26fbb87f3cc19f56c0d9229beeee"
+    },
+    {
+      "path": "page-at-rest/cad/A_Page_at_Rest.step",
+      "size": 186233,
+      "sha256": "9555954fb4b515e908f9f36d1ec58bead484fa82245e3208bf5bba789a462fc5"
+    },
+    {
+      "path": "page-at-rest/cad/geometry_validation.json",
+      "size": 8957,
+      "sha256": "e29cdb373670e792e8e57fdc3eb34327d673b9cc37037bead14c86b23e361248"
+    },
+    {
+      "path": "page-at-rest/cad/parametric_recompute_validation.json",
+      "size": 549,
+      "sha256": "ce718ffda44ef56eab465f8150c886607cbbb422cf24945dc9c22fda09ac0cee"
+    },
+    {
+      "path": "page-at-rest/cad/parts_mesh.json",
+      "size": 6926317,
+      "sha256": "dfdff78b25422ed9cd964080e217e24c3fe71264875337ff43c056dbc15eee3b"
     },
     {
       "path": "page-at-rest/geometry.py",
@@ -3109,18 +3154,23 @@
     },
     {
       "path": "page-at-rest/inspect_blend.py",
-      "size": 1325,
-      "sha256": "ea3bcc3e54e446ed4f454bfafb280355e2f65824d26b57384565d2d1fd5521b5"
+      "size": 1348,
+      "sha256": "04ee5e38d2e85eb48382d7e2d2a73f053609d41ac59809dc930407aa04887341"
+    },
+    {
+      "path": "page-at-rest/inspect_freecad.py",
+      "size": 2459,
+      "sha256": "d82cdc4933ca8696e1c1b00e0e3d84e1239c3e893ff3dc72bda5ab38d35b82ff"
     },
     {
       "path": "page-at-rest/parameters.json",
       "size": 851,
-      "sha256": "40cc6764472bb0792c84f06b6e4926c06748d3c7684649ee4ada55a06d582fda"
+      "sha256": "5c269a928c899a32873dbfb42a169433f90c22e371937e195fe7e32ad4afc676"
     },
     {
       "path": "page-at-rest/provenance.json",
-      "size": 1609,
-      "sha256": "77622b9c9650e2856186003420cec1a12d4303d427fd2a14da496c7cfc512aff"
+      "size": 2001,
+      "sha256": "07781e89b24853db82e6192f6a0979da3c6655b8c86765eb3b82f3eb17bfc8b8"
     },
     {
       "path": "page-at-rest/reference/concept_prompt.txt",
@@ -3128,9 +3178,44 @@
       "sha256": "a3dc65f1f81b9a81015519ce61239745412ec9939e74f113743732f27b2520cb"
     },
     {
+      "path": "page-at-rest/reference/gpt_image_concept.png",
+      "size": 1900926,
+      "sha256": "a20c015201fbf6371717e80eab2b1cb2d26d795aa81c10d23be7a64efce4fb5b"
+    },
+    {
+      "path": "page-at-rest/renders/a_page_at_rest_final.png",
+      "size": 1638813,
+      "sha256": "b4ba19703c8702f4006746638c6f339a934036960a3938e754fde461582231eb"
+    },
+    {
+      "path": "page-at-rest/renders/draft_01.png",
+      "size": 480714,
+      "sha256": "4a27fc0eac4014370c3292eb7cfc803759df5b86ca411500adab6c35d8a2d558"
+    },
+    {
+      "path": "page-at-rest/renders/draft_02.png",
+      "size": 544807,
+      "sha256": "8f170b3025c775aee9296fa65ef6ce5cb75350282c6cd7b629347c8160fe99f0"
+    },
+    {
+      "path": "page-at-rest/renders/draft_03_caustics_off.png",
+      "size": 544228,
+      "sha256": "7f0e4e349437302a5b8d09afdf5441c76efc931d4b2878c5a143b2171eaf0ff5"
+    },
+    {
+      "path": "page-at-rest/renders/preview_128.png",
+      "size": 1851498,
+      "sha256": "cf93423427866cd365578b0b4c36cc44a01031bf3461cde3246b3b5554742234"
+    },
+    {
       "path": "page-at-rest/verify_bundle.py",
-      "size": 3680,
-      "sha256": "b0bc26b0cc16d1cbcce912b486d01edb19292c879e165b8294e4914dbc2e7efd"
+      "size": 3727,
+      "sha256": "b8fd10392b4b0f74bacb3cdb98fd9af456889ede729c447f1761690e378b264b"
+    },
+    {
+      "path": "page-at-rest/visual_validation.json",
+      "size": 761,
+      "sha256": "a8bd216de020c27c5421f7c1e96aac171fbf7f4bc8c35648809ccf9ed57b3a49"
     },
     {
       "path": "quiet-road-profile-study/.gitignore",

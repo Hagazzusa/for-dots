@@ -1,0 +1,14 @@
+{
+  "scope": "native parametric recomputation and CAD roundtrip, not physical safety",
+  "fcstd_reopened_and_recomputed": true,
+  "base_major_radius_plus_1mm_volume_increase_mm3": 1712.3238326249702,
+  "left_stem_bottom_radius_plus_0_2mm_volume_increase_mm3": 5.877501126536913,
+  "restored_volume_errors_mm3": {
+    "Walnut_Base": 0.0,
+    "Left_Brass_Cradle": 1.1368683772161603e-13,
+    "Right_Brass_Cradle": 0.0
+  },
+  "step_volume_roundtrip_error_mm3": 0.00019844624330289662,
+  "input_fcstd_unchanged": true,
+  "no_cad_save_performed": true
+}

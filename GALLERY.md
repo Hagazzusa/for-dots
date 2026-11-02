@@ -1,7 +1,7 @@
 # 잠깐 머무는 작은 세계
 
 비를 피하는 공간, 천천히 움직이는 빛, 길가의 빈 벤치.
-이미지와 짧은 영상으로 먼저 둘러볼 수 있는 일곱 작업을 골랐습니다.
+이미지와 짧은 영상으로 먼저 둘러볼 수 있는 여덟 작업을 골랐습니다.
 편집 가능한 장면과 제작 소스는 각 작품의 안내에 함께 있습니다.
 
 ## 1. Glass Refuge · 유리 쉼터
@@ -79,6 +79,16 @@
 [편집 가능한 장면·제작 과정](second-cup/README.md) · [키보드로 돌려보는 독립 Godot 뷰어](second-cup-viewer/README.md) · [실제 Blender 렌더의 6초 무음 영상](second-cup-film/renders/The_Second_Cup_Silent_Film.mp4) · [별도로 보존한 GPT Image 콘셉트](second-cup/reference/gpt_image_concept.png)
 
 위 이미지는 절차적 재질과 직접 만든 메시의 실제 Blender 렌더입니다. 실물 사진이나 게임 화면, 생성 콘셉트 자체가 아닙니다. 물리적 유체·열 시뮬레이션이나 실제 식기의 안전 검증을 뜻하지 않습니다.
+
+## 8. 머무는 페이지 · A Page at Rest
+
+두 장의 얇은 곡면 아래 황동 받침을 놓고, 뒤편의 따뜻한 빛이 책상에 머물게 했습니다.
+
+![머무는 페이지 — 실제 Blender Cycles 렌더](page-at-rest/renders/a_page_at_rest_final.png)
+
+[편집 가능한 CAD·Blender 장면과 검증](page-at-rest/README.md) · [별도로 보존한 생성 콘셉트](page-at-rest/reference/gpt_image_concept.png)
+
+위 이미지는 FreeCAD의 받침·지지부를 Blender로 옮긴 실제 CPU 렌더입니다. 생성 콘셉트 자체가 아니며 미세한 렌더 입자가 남습니다. 가상 조형물로, 실물 전기·제조·안전 검증을 뜻하지 않습니다.
 
 ---
 
