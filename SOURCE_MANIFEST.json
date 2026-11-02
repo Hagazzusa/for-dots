@@ -3078,6 +3078,61 @@
       "sha256": "3294a75a7325f2f605c7c35a4fc0f18fbd6f69698595b34309dc9f6cb3ce54e0"
     },
     {
+      "path": "page-at-rest/.gitignore",
+      "size": 64,
+      "sha256": "70c32350d2b4e518898f3888f1e60cdddb157de87243eb2c2c383ecc9ceffc19"
+    },
+    {
+      "path": "page-at-rest/README.md",
+      "size": 5322,
+      "sha256": "b4b3cbc13846ea058a633f444fd8c68595ebc88727ae7736db73617f0ac9477e"
+    },
+    {
+      "path": "page-at-rest/SOURCE_FREEZE_MANIFEST.json",
+      "size": 1683,
+      "sha256": "b14ab7f14ea0fc28b6e0644e0fc45522ffaef16e56fd55c10e81a684928dbf78"
+    },
+    {
+      "path": "page-at-rest/build_blender.py",
+      "size": 14173,
+      "sha256": "f7067ab8329937ddaa9a3049c423a81d2c80bb59cdc578221f4f698466ae33c2"
+    },
+    {
+      "path": "page-at-rest/build_freecad.py",
+      "size": 5938,
+      "sha256": "9205e326f866b12670c1f19d19ac03e2d6f59ceb8aa37519f934305c67c7ff50"
+    },
+    {
+      "path": "page-at-rest/geometry.py",
+      "size": 1072,
+      "sha256": "cb0652ecfff86eeeadb67e585f18003b44472ad0b44e510c0f7d517b5bba758c"
+    },
+    {
+      "path": "page-at-rest/inspect_blend.py",
+      "size": 1325,
+      "sha256": "ea3bcc3e54e446ed4f454bfafb280355e2f65824d26b57384565d2d1fd5521b5"
+    },
+    {
+      "path": "page-at-rest/parameters.json",
+      "size": 851,
+      "sha256": "40cc6764472bb0792c84f06b6e4926c06748d3c7684649ee4ada55a06d582fda"
+    },
+    {
+      "path": "page-at-rest/provenance.json",
+      "size": 1609,
+      "sha256": "77622b9c9650e2856186003420cec1a12d4303d427fd2a14da496c7cfc512aff"
+    },
+    {
+      "path": "page-at-rest/reference/concept_prompt.txt",
+      "size": 1735,
+      "sha256": "a3dc65f1f81b9a81015519ce61239745412ec9939e74f113743732f27b2520cb"
+    },
+    {
+      "path": "page-at-rest/verify_bundle.py",
+      "size": 3680,
+      "sha256": "b0bc26b0cc16d1cbcce912b486d01edb19292c879e165b8294e4914dbc2e7efd"
+    },
+    {
       "path": "quiet-road-profile-study/.gitignore",
       "size": 28,
       "sha256": "e1b943257d252c73670b740940bc312d8b928c68a91fddcb0ea3fb6fc350a5e0"

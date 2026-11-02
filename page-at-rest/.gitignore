@@ -1,0 +1,6 @@
+__pycache__/
+*.log
+*.blend1
+*.FCStd1
+*.FCBak
+private_originals/

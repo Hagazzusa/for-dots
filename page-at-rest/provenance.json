@@ -1,0 +1,38 @@
+{
+  "title": "머무는 페이지 / A Page at Rest",
+  "created_utc_date": "2026-11-02",
+  "kind": "original virtual tabletop sculpture, not a physical or safety-validated product",
+  "concept": {
+    "file": "reference/gpt_image_concept.png",
+    "prompt": "reference/concept_prompt.txt",
+    "generator": "OpenAI image generation",
+    "viewed_before_modeling": true,
+    "c2pa_chunk": "caBX preserved unchanged",
+    "interpretation": "independent wing-like two-page geometry; not exact geometric or dimensional recovery"
+  },
+  "geometry": {
+    "parameters": "parameters.json",
+    "shared_page_edge_function": "geometry.py",
+    "cad_builder": "build_freecad.py",
+    "cad_source": "native FreeCAD 1.0.0 parametric objects",
+    "cad_files": [
+      "cad/A_Page_at_Rest.FCStd",
+      "cad/A_Page_at_Rest.step"
+    ],
+    "interchange": "cad/parts_mesh.json",
+    "blender_builder": "build_blender.py",
+    "unit_conversion": "millimetres to metres, multiplication by 0.001 once at import",
+    "no_duplicate_remodeling": true,
+    "parameter_sha256": "40cc6764472bb0792c84f06b6e4926c06748d3c7684649ee4ada55a06d582fda",
+    "source_mesh_sha256": "dfdd09880120ec69a9c485f008268753775861f900e45258510f881c32c7180f"
+  },
+  "materials": "original procedural walnut, brass, fibre-paper-like shader, linen and plaster; no external textures",
+  "lighting": "non-emissive paper; concealed area-light representation, no compositor glow",
+  "limitations": [
+    "No electrical design",
+    "No thermal analysis",
+    "No structural analysis",
+    "No manufacturing validation",
+    "No safety certification"
+  ]
+}
