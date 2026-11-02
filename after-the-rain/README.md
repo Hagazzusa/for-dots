@@ -21,6 +21,12 @@ Open `project.godot` in Godot 4.6.x Standard and press F5. Windows, macOS and Li
 
 Reconstruction adds arrow looking, explicit keyboard pause/help, phase-appropriate bus visibility, an elapsed evening clock starting23:40, and optional umbrella lending. First arrival is75seconds; later arrivals are33seconds after departure. There is no last-bus deadline. Flower-window staff, a sheltered cat and a gentle rain lull are also reconstructed. The optional overview and post-ending window linger, cocoa steam/gloved grip, and passenger work/walk conversation are reconstructed too. A bag and folded borrowed umbrella appear beside the window only when that passenger actually boarded the same bus. These are newly implemented and tested features, not recovered historical source. Window activity, puddle/gutter detail and a reproducible48-second original radio arrangement are also rebuilt. See `RECOVERY.md` for restoration status and verification limits.
 
+## Shared evening neighborhood
+
+The same walkable street now includes a warm glass refuge and a stationary compact car with two adult siblings. Follow the small **유리 쉼터 →** sign behind/right of the bus stop. Enter the refuge through its open front, or continue along the pavement to observe the car from the passenger side with **E**. The player remains outside the car; there is no driving or third-occupant camera. The flower-shop note and bread passenger add optional everyday context.
+
+These visits never gate the bus, umbrella, cocoa or ending. Missing a bus simply leaves another one to arrive. The refuge is a walk-in dry spot; its bench is decorative in this first connected slice. See [scope and verification](WORLD_EXPANSION.md).
+
 ## Editable source and third-party assets
 Saved scenes, scripts, configurations, procedural audio source and packed Blender assemblies are included. See `ARCHITECTURE.md`. City derivatives use Poly Haven CC0 data; provenance/legal text is in `assets/city/licenses/`. The Noto CJK font license is in `assets/fonts/NotoSansCJK-LICENSE.txt`. No external copyrighted music samples are used.
 

@@ -1,0 +1,6 @@
+[gd_resource type="Resource" load_steps=2 format=3]
+[ext_resource type="Script" path="res://config/story_text.gd" id="1"]
+[resource]
+script = ExtResource("1")
+title = "유리 쉼터"
+pages = Array[String](["작업실 옆 유리 쉼터. 벤치와 담요는 함께 씁니다. 마지막에 나가도 작은 등은 켜 두세요."])

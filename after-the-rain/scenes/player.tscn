@@ -7,6 +7,8 @@ radius = 0.24
 height = 1.6
 [node name="Player" type="CharacterBody3D"]
 script = ExtResource("1")
+safe_x_bounds = Vector2(-12,16)
+safe_z_bounds = Vector2(-10,2.65)
 [node name="CollisionShape3D" type="CollisionShape3D" parent="."]
 position = Vector3(0,-0.7,0)
 shape = SubResource("PlayerCapsule")

@@ -4,6 +4,7 @@ extends Node3D
 @export var boarding_radius := 1.7
 @export var vending_radius := 1.8
 @export var disposal_radius := 1.6
+@onready var neighborhood = $NeighborhoodExtension
 @onready var window_life = $WindowLife
 @onready var rain_details = $RainDetails
 @onready var conversation = $EveningConversation
@@ -44,9 +45,10 @@ func _ready():
 	if exploration:
 		exploration.initialize(umbrella,story.panel)
 		exploration.note_requested.connect(set_note)
-		world.additional_shelters.assign([exploration.rain_cover.get_world_bounds()])
+		world.additional_shelters.assign([exploration.rain_cover.get_world_bounds(),neighborhood.cover.get_world_bounds()])
 		rain.additional_shelters.assign(world.additional_shelters)
 		exploration.shared_available=func():return not exchange.loaned
+	neighborhood.initialize(story.panel)
 	exchange.initialize(umbrella,story.objects.get_node("Passenger"),story.panel)
 	conversation.initialize(story.panel,story.stories["Passenger"],story.objects.get_node("Passenger"))
 	story.passenger_story_provider=conversation.next_story
@@ -127,6 +129,8 @@ func interact():
 	elif near_disposal() and drink.can_dispose_empty():
 		if drink.dispose_empty():
 			player.held_drink.reset_visuals()
+	elif neighborhood.try_interact(player.camera,player.global_position):
+		pass
 	elif exploration and exploration.try_interact(player.camera,player.global_position):
 		pass
 	elif story and story.try_interact(player.camera,player.global_position):
@@ -140,6 +144,7 @@ func board_bus():
 	if boarded or player.seated or bus.phase!="stopped":
 		return
 	leave_photo_view()
+	neighborhood.set_active(false)
 	var passenger=story.objects.get_node("Passenger")
 	var actual_companion=passenger.state=="boarded" and not passenger.departed
 	ride_note=exchange.boarding_caption(actual_companion)
@@ -164,6 +169,7 @@ func restart():
 	leave_photo_view()
 	overview.reset()
 	conversation.reset()
+	neighborhood.reset()
 	companion.reset()
 	exchange.reset()
 	clock.reset()
@@ -222,6 +228,8 @@ func hint_text()->String:
 		return "[E] Put the empty cup in the bin"
 	if near_disposal() and drink.has_cup and drink.sips==0:
 		return "마지막 한 모금을 마시는 중…" if drink.sip_time>0 else "코코아를 준비하는 중…"
+	var neighborhood_hint=neighborhood.hint(player.camera,player.global_position)
+	if not neighborhood_hint.is_empty():return neighborhood_hint
 	if exploration and not story.panel.is_open:
 		var exploration_hint=exploration.hint(player.camera,player.global_position)
 		if not exploration_hint.is_empty(): return exploration_hint
@@ -243,6 +251,8 @@ func _process(delta):
 	rain_details.present(time,weather.strength)
 	rain.set_weather(weather.strength)
 	ambience.set_weather(weather.strength)
+	neighborhood.set_active(not boarded)
+	if not boarded:neighborhood.advance(delta)
 	if exploration and not boarded:exploration.advance(delta,player.global_position,weather.strength)
 	hud.set_clock(clock.time_text())
 	var hint=hint_text()
@@ -286,6 +296,7 @@ func run_tests():
 	var runner=load("res://tests/regression.gd").new()
 	add_child(runner)
 	await runner.run(self)
+	neighborhood.shutdown()
 	ambience.stop_all()
 	for audio in ambience.get_children():
 		if audio is AudioStreamPlayer:audio.stream=null

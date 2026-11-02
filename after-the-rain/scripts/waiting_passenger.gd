@@ -92,11 +92,16 @@ func advance(delta: float, bus_phase: String, boarding_point: Vector3, dialogue_
 		if bus_phase == "departing": departed = true
 		return
 	var dt := maxf(delta, 0.0)
+	var was_thanking := thanking
 	_advance_thanks(dt)
 	_time += dt
 	if state == "wait":
 		visual.position.y = sin(_time * 1.7) * 0.008
 		visual.rotation.y = sin(_time * 0.32) * 0.09
+		if not thanking and not was_thanking:
+			head_pivot.transform = _head_rest
+			if not dialogue_open:
+				head_pivot.rotate_object_local(Vector3.UP,sin(clampf(fmod(_time,18.0)-9.0,0.0,3.0)/3.0*PI)*0.30)
 		if bus_phase != "stopped":
 			_stop_time = 0.0
 			return

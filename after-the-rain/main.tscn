@@ -1,4 +1,4 @@
-[gd_scene load_steps=20 format=3]
+[gd_scene load_steps=21 format=3]
 [ext_resource type="Script" path="res://scripts/session.gd" id="1"]
 [ext_resource type="PackedScene" path="res://scenes/world.tscn" id="2"]
 [ext_resource type="PackedScene" path="res://scenes/player.tscn" id="3"]
@@ -18,6 +18,7 @@
 [ext_resource type="PackedScene" path="res://scenes/evening_conversation.tscn" id="17"]
 [ext_resource type="PackedScene" path="res://scenes/window_life.tscn" id="18"]
 [ext_resource type="PackedScene" path="res://scenes/rain_details.tscn" id="19"]
+[ext_resource type="PackedScene" path="res://scenes/neighborhood_extension.tscn" id="20"]
 [node name="AfterTheRain" type="Node3D"]
 script = ExtResource("1")
 [node name="World" parent="." instance=ExtResource("2")]
@@ -53,3 +54,5 @@ visible = false
 [node name="WindowLife" parent="." instance=ExtResource("18")]
 
 [node name="RainDetails" parent="." instance=ExtResource("19")]
+
+[node name="NeighborhoodExtension" parent="." instance=ExtResource("20")]

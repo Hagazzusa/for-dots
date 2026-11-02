@@ -103,3 +103,14 @@ Final validation: all 15 focused suites plus main gameplay regression passed on 
 Shared evening clock/weather are evaluated before their consumers. Quiet-wait advances only skipped evening time, not drink, passenger walking or physical rain trajectories. Pause freezes the session tree. After the default ending the clock is fixed, while optional window linger and physical rain presentation can continue; restart resets both clocks. Newly added effects do not consume world RNG or shader wall-clock `TIME`.
 
 Use `tools/run_checks.sh` for the serial aggregate and `tools/export-audit.py` for the isolated production-PCK gate. Both use an external disk-backed QA directory and a shared lock, exclude their own fixtures from the runtime pack, and must be supplemented by ordinary-game native inspection. A fixture/test flag is never the user handoff scene. Public validation notes are in `RECOVERY.md`; local screenshots and raw logs are not project assets.
+
+## Shared evening pocket
+
+| Unit | Saved ownership | Contract / state |
+|---|---|---|
+| NeighborhoodExtension | `scenes/neighborhood_extension.tscn` | Owns local reader markers, private heater PCM and seated idle phase. Session injects StoryPanel, updates phase, supplies its cover to World/Rain and suspends it when boarding. |
+| GlassRefuge | Saved imported GLB child, authored floor/wall colliders and pendant | Runtime creates only per-instance transparent material overrides. Original geometry remains unchanged. The asymmetric front entry is open. |
+| ParkedCar | `scenes/parked_car.tscn` | 99 authored primitive nodes, two occupant roots and one static chassis collider; no autonomous vehicle/camera/global state. `art/build_parked_car.py` regenerates this scene only. |
+| Story data | `config/story_car.tres`, `story_refuge.tres`, existing flower/passenger Resources | Shared immutable Korean content; the existing reader copies page/choice arrays. No new dialogue manager or quest flags. |
+
+The expanded bounds add a small right-side pavement pocket, not an open-city streaming system. The bus lane, schedule, original interaction ordering and approved liquid component remain unchanged. Boarding and an already-open reader retain priority over optional neighborhood observations.

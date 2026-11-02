@@ -5,7 +5,7 @@ Source, editable scenes, and preview evidence are kept together so each project 
 
 | Project | Start here | Requirements |
 |---|---|---|
-| **After the Rain** — a quiet bus stop, warm cocoa, optional neighborhood encounters | [Game instructions](after-the-rain/README.md) · [reconstruction status](after-the-rain/RECOVERY.md) | Godot **4.6.x Standard**; open `after-the-rain/project.godot`, press F5. Blender is not required to play. |
+| **After the Rain** — a quiet bus stop, warm cocoa, glass refuge and optional neighborhood encounters | [Game instructions](after-the-rain/README.md) · [reconstruction status](after-the-rain/RECOVERY.md) | Godot **4.6.x Standard**; open `after-the-rain/project.godot`, press F5. Blender is not required to play. |
 | **Rain Clock** — virtual kinetic sculpture | [Source / render instructions](rain-clock/README.md) · [still](rain-clock/rain_clock_still.png) · [loop](rain-clock/rain_clock_loop.mp4) | Blender **4.3.2**; ffmpeg for encoding regenerated frames. |
 | **Rain Clock mechanism studies** — geometric alternatives and measured limitations | [Study index](rain-clock/STUDY_INDEX.md) · [manual mechanism](rain-clock/mechanism/README.md) | FreeCAD for `.FCStd`; Blender for procedural previews. Each study documents its script and assumptions. |
 | **Garden of Light** — moving light through three colored filters | [Instructions](garden-of-light/README.md) · [still](garden-of-light/Garden-of-Light.png) · [loop](garden-of-light/Garden-of-Light-loop.mp4) | Blender **4.3+**; ffmpeg for video; Pillow, numpy and ffprobe for pixel/video QA. |

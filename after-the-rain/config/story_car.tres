@@ -1,0 +1,6 @@
+[gd_resource type="Resource" load_steps=2 format=3]
+[ext_resource type="Script" path="res://config/story_text.gd" id="1"]
+[resource]
+script = ExtResource("1")
+title = "비를 듣는 두 사람"
+pages = Array[String](["뒷좌석에는 납작하게 접은 이삿짐 상자. 앞자리의 두 사람은 출발하지 않고 비를 듣고 있다.", "첫 집 축하해. 밥 먹으러 와. — 누나\n\n운전석의 손은 아직 무릎 위에 있다.\n두 사람 사이로 히터의 낮은 소리가 흐른다."])

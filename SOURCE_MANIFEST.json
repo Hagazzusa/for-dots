@@ -14,8 +14,8 @@
     },
     {
       "path": "README.md",
-      "size": 9019,
-      "sha256": "9b74897125939e2caa051850a6f79d531121ee4e6eb51a9970bba7f15e317a47"
+      "size": 9036,
+      "sha256": "6bb00a0e72b919309ccb13e82abdf37835c3d7be250d002d84b39eac0e09923d"
     },
     {
       "path": "a-place-to-pause/.gitignore",
@@ -94,18 +94,23 @@
     },
     {
       "path": "after-the-rain/ARCHITECTURE.md",
-      "size": 18657,
-      "sha256": "f1156c677c9ba68b7aef535f4f3024a497851095bb96f22c270c4ff42fc4e7c3"
+      "size": 19948,
+      "sha256": "0cc13d4663ea19ebd09292d91720323144cd386b844e4743cd0ca563d04a8496"
     },
     {
       "path": "after-the-rain/README.md",
-      "size": 3322,
-      "sha256": "7e5ac51e96488f97689e08a117a6ac43f7cfbef220b0e5a49606cd760a6c3844"
+      "size": 4073,
+      "sha256": "0dfbed313f32ebbb9bc1bfdd9b8e99b7ed218140c265c9aba05b533e25704eb2"
     },
     {
       "path": "after-the-rain/RECOVERY.md",
       "size": 17567,
       "sha256": "014b09dac8a3687875128dc36a3f5ad24733ed45dc78f4ad333eda23d60498db"
+    },
+    {
+      "path": "after-the-rain/WORLD_EXPANSION.md",
+      "size": 3947,
+      "sha256": "4b18403136d2b7ebcbc75fdd4bba21155a31d3f18a32292ddf4e716597a921d0"
     },
     {
       "path": "after-the-rain/art/.gdignore",
@@ -116,6 +121,11 @@
       "path": "after-the-rain/art/assemble_city.py",
       "size": 6178,
       "sha256": "a82e4e8747e97b86db5eb01213f0fd4c925c85302005a1e71cc7bec29742c21d"
+    },
+    {
+      "path": "after-the-rain/art/build_parked_car.py",
+      "size": 7775,
+      "sha256": "ab490ddd11748b1e69497e870532965a1d54fcb0553c58871be4a808040b4e7f"
     },
     {
       "path": "after-the-rain/art/city_assembly.blend",
@@ -146,6 +156,21 @@
       "path": "after-the-rain/art/optimize_city_background.py",
       "size": 1977,
       "sha256": "be79a7b6d9c4e16516798a7b06b8eb6c8f5b535f73f2443a5472d348ac0ee4ea"
+    },
+    {
+      "path": "after-the-rain/art/reference/.gdignore",
+      "size": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "after-the-rain/art/reference/car/car_concept.png",
+      "size": 2672753,
+      "sha256": "b82efbf8f7a12365f4a5a4e5e611aee43a8fa6b62801decd6a61f051d0ec73d9"
+    },
+    {
+      "path": "after-the-rain/art/reference/car/car_concept_prompt.txt",
+      "size": 1822,
+      "sha256": "80a2aa1d888546c3f5767142881bbabe48c21e9a87c26dd03af8b2bce0fde2d2"
     },
     {
       "path": "after-the-rain/art/shelter.blend",
@@ -853,6 +878,21 @@
       "sha256": "d00832fcd114155bcf3d7a6e0d65cf0131cdc90f2c66930508a8f4ad512e053b"
     },
     {
+      "path": "after-the-rain/assets/refuge/README.md",
+      "size": 833,
+      "sha256": "4790ca358336df5e7c19a2fd969e4f5749d021b0e3972f9056158fcb79c1a370"
+    },
+    {
+      "path": "after-the-rain/assets/refuge/refuge.glb",
+      "size": 3617000,
+      "sha256": "fcd180b17573e343ed36954c30e3a31e74c6498a3e95824559d17027c83484af"
+    },
+    {
+      "path": "after-the-rain/assets/refuge/refuge.glb.import",
+      "size": 1037,
+      "sha256": "4aae905347bbd282a04878406a48878846e74e6edbc621fbab658d9b8eaef970"
+    },
+    {
       "path": "after-the-rain/assets/shelter.glb",
       "size": 480324,
       "sha256": "00f5d86dc5427aa57f098a09111fb56a1c56c22522b983ef4a975cad997f5e43"
@@ -918,9 +958,14 @@
       "sha256": "02b2533ba43920c9193f7bc70115918967be4aa15bc8fe0cf62bcb406551d2dc"
     },
     {
+      "path": "after-the-rain/config/story_car.tres",
+      "size": 508,
+      "sha256": "67efb0ba1684696f507d24b3aeefe1d10120ed43518d86b20a2bbebdfdfaebc3"
+    },
+    {
       "path": "after-the-rain/config/story_flower.tres",
-      "size": 602,
-      "sha256": "5f9bff80278cf807f4fd10c93c683248cc77fe2d19a51e0804c1d533958298ec"
+      "size": 444,
+      "sha256": "e1211d477171407eb5efc650760a484db63fe96a6e6610c4fdbd029eb5efafd4"
     },
     {
       "path": "after-the-rain/config/story_loan_offer.tres",
@@ -934,8 +979,8 @@
     },
     {
       "path": "after-the-rain/config/story_passenger.tres",
-      "size": 939,
-      "sha256": "0f57f47b60be25b23a2afb7776013f8a4157f68892fafd897a592d71baa18fa5"
+      "size": 1019,
+      "sha256": "43f2ed67efd3579b8c9c6846f531c15343405f0ca8bd5908617ad6a6a32ff2e6"
     },
     {
       "path": "after-the-rain/config/story_reason_question.tres",
@@ -951,6 +996,11 @@
       "path": "after-the-rain/config/story_reason_work.tres",
       "size": 355,
       "sha256": "778acf62be1783de9e1db2f5ba515fc2099eceb0dde371b516005e69194592c4"
+    },
+    {
+      "path": "after-the-rain/config/story_refuge.tres",
+      "size": 329,
+      "sha256": "eaf61fec195242d6a561d22b605eed9383851acb12f07d36e2c402285e8984d8"
     },
     {
       "path": "after-the-rain/config/story_route.tres",
@@ -989,13 +1039,13 @@
     },
     {
       "path": "after-the-rain/main.tscn",
-      "size": 2841,
-      "sha256": "24749f57a8d9f65d7e1f0993ef70c86cfa505b7cfdf7765c45e78f99fe9c42fa"
+      "size": 3006,
+      "sha256": "062fbce5110ceca40402888b58ac26d10f61edc192cbda2a63144f5544c01679"
     },
     {
       "path": "after-the-rain/project.godot",
-      "size": 665,
-      "sha256": "0f1115cad80f6c1491dbde7fd82f0d83728b043430f007dccd2f59a5b338a5a4"
+      "size": 659,
+      "sha256": "f1e8770344d8ba795fc4ecf205b158761fe7e3eb2f5655563bb12e3d75ad02d7"
     },
     {
       "path": "after-the-rain/scenes/ambience.tscn",
@@ -1093,6 +1143,11 @@
       "sha256": "37c432409c3a841090f650c73e76ea8e4184d9930156bab4b109cafe89e82fd7"
     },
     {
+      "path": "after-the-rain/scenes/neighborhood_extension.tscn",
+      "size": 4792,
+      "sha256": "e228c83099411714474dcd22648dca3e2fc299bf4966d64b4d8a4dcbc3ead073"
+    },
+    {
       "path": "after-the-rain/scenes/neighborhood_walk.tscn",
       "size": 15854,
       "sha256": "9e3ef7023e21bfcdaeccefb224ab93d97d775e8ec58218fff1def07ea61e28ac"
@@ -1118,14 +1173,19 @@
       "sha256": "95b9f3b42a6b54e693a36916254e15e425d099f8d58657789245e6a2f89c1098"
     },
     {
+      "path": "after-the-rain/scenes/parked_car.tscn",
+      "size": 28274,
+      "sha256": "e75daa35785c2b9e4bfcbf5f7fc14824798b4fc2d0be3b5d462b5c24efb91ad5"
+    },
+    {
       "path": "after-the-rain/scenes/pause_overlay.tscn",
       "size": 4533,
       "sha256": "4f1194c72003a243410127b67bcbc5e47bcca473cc31734fab1dbcee1057e835"
     },
     {
       "path": "after-the-rain/scenes/player.tscn",
-      "size": 758,
-      "sha256": "d8d47bf8c33a02e466dc0b98ac28133a8a0c42d04638a79cf4446663e7e6fe7d"
+      "size": 824,
+      "sha256": "9112fbc087a75be10e1190aa8865c6124a2aac42a9a8f848aa81d2a329bb2e2c"
     },
     {
       "path": "after-the-rain/scenes/rain.tscn",
@@ -1323,6 +1383,16 @@
       "sha256": "0dc0a99319777dead6c6ffe5887d7a9b1d14a032eef2a304aad99bd97106d1bf"
     },
     {
+      "path": "after-the-rain/scripts/glass_refuge.gd",
+      "size": 1039,
+      "sha256": "afdfb2fabcb23de65282dcd336e478c192efa604bab4cac022ea3dea32e16abb"
+    },
+    {
+      "path": "after-the-rain/scripts/glass_refuge.gd.uid",
+      "size": 20,
+      "sha256": "bf885a623b33b71e62a6aff3818e475cd4df0e86265e0add1030a3db4a7b380e"
+    },
+    {
       "path": "after-the-rain/scripts/held_drink.gd",
       "size": 2512,
       "sha256": "644357b2680ce738a70253356467aa26868ff588f269704926b5d3d27ddc119a"
@@ -1341,6 +1411,16 @@
       "path": "after-the-rain/scripts/hud.gd.uid",
       "size": 19,
       "sha256": "1feb304ee7f063de8f967e8ad284e3f44fbe144c49a7d2c0d9d28f576ffa2c1c"
+    },
+    {
+      "path": "after-the-rain/scripts/neighborhood_extension.gd",
+      "size": 2791,
+      "sha256": "5964d1f87a2fecd85ff034e2477bb3fdeab35be797df9dde484f5dcfdba6a133"
+    },
+    {
+      "path": "after-the-rain/scripts/neighborhood_extension.gd.uid",
+      "size": 20,
+      "sha256": "bbe24f818cd5f44069330e0183833151189b4545551f781200f2d24b0dbf1111"
     },
     {
       "path": "after-the-rain/scripts/night_bus.gd",
@@ -1444,8 +1524,8 @@
     },
     {
       "path": "after-the-rain/scripts/session.gd",
-      "size": 11975,
-      "sha256": "f1f199826b522a14e1e51a6eb2a711343784a4c2f011c7f6763012f3e7999cec"
+      "size": 12482,
+      "sha256": "b1ad2041b572b8c4066c2a2e6093d5c54bb0c6cc3615b4059f0a65da93b93d7c"
     },
     {
       "path": "after-the-rain/scripts/session.gd.uid",
@@ -1504,8 +1584,8 @@
     },
     {
       "path": "after-the-rain/scripts/waiting_passenger.gd",
-      "size": 4582,
-      "sha256": "6bd24f882d9669557520c7a1c4c3356379a34f39480489ec93edf8240bd4441f"
+      "size": 4815,
+      "sha256": "0196364d4cd3cf7f8c82ac77356e4e85a34d3e8a18d88a882de42d99e346841c"
     },
     {
       "path": "after-the-rain/scripts/waiting_passenger.gd.uid",
@@ -2031,6 +2111,16 @@
       "path": "after-the-rain/tests/walk_review.tscn",
       "size": 168,
       "sha256": "4955006326177ecbb86e95f378a68e88e372ed1df86a3719912351fa4c8f2e8d"
+    },
+    {
+      "path": "after-the-rain/tests/world_expansion.gd",
+      "size": 3823,
+      "sha256": "b478bac713e1cc4f3e0637ae4477d38898209c95e7a8c1d4fd824e61f01dfb4d"
+    },
+    {
+      "path": "after-the-rain/tests/world_expansion.gd.uid",
+      "size": 20,
+      "sha256": "b7bb4edcd59030c429e9c395c4262eaf1851369c3aa1dab620a10b4bc70ba98c"
     },
     {
       "path": "after-the-rain/tools/.gdignore",
