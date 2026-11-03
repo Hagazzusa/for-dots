@@ -1,6 +1,9 @@
 extends Node3D
 ## Read-only wrapper around the imported derivative. Visibility is local instance state.
 signal glass_changed(visible_now: bool)
+const DEFAULT_GLASS: StandardMaterial3D = preload("res://config/refuge_glass.tres")
+## Inspector-editable template; each pane receives its own runtime copy.
+@export var glass_material: StandardMaterial3D = DEFAULT_GLASS
 var glass_visible := true
 var panes: Array[MeshInstance3D] = []
 var globe: MeshInstance3D
@@ -10,13 +13,9 @@ func _ready() -> void:
 		var mesh := node as MeshInstance3D
 		if str(mesh.name).begins_with("GlassPane"):
 			panes.append(mesh)
-			var glass := StandardMaterial3D.new()
+			var template := glass_material if glass_material != null else DEFAULT_GLASS
+			var glass := template.duplicate() as StandardMaterial3D
 			glass.resource_local_to_scene = true
-			glass.albedo_color = Color(0.55, 0.74, 0.82, 0.14)
-			glass.transparency = BaseMaterial3D.TRANSPARENCY_ALPHA
-			glass.roughness = 0.10
-			glass.metallic = 0.05
-			glass.cull_mode = BaseMaterial3D.CULL_DISABLED
 			mesh.material_override = glass
 			mesh.cast_shadow = GeometryInstance3D.SHADOW_CASTING_SETTING_OFF
 		elif str(mesh.name).begins_with("PendantGlobe"):

@@ -42,3 +42,5 @@ Godot 4.6.x Standard에서 `project.godot`을 열고 F5를 누르세요. Windows
 꽃집 쪽지를 읽는 동안에는 주인의 남은 창가 인사 시간만 보존합니다. 버스와 저녁 시간은 계속 흐릅니다. [동작과 검증](docs/FLOWER_READING.md)
 
 꽃집에 조금 더 머물면, 첫 인사 기회가 지난 뒤 예약 꽃을 받아 가는 짧은 장면을 볼 수 있습니다. 한 밤에 한 번이며 기다리거나 볼 의무는 없습니다. 읽던 글과 버스 시간은 그대로 유지됩니다. [수령 장면의 범위와 검증](docs/FLOWER_PICKUP.md)
+
+쉼터 유리의 기본 재질은 Inspector에서 저장 Resource로 설정할 수 있습니다. 기본 외형과 유리판별 상태 격리는 유지합니다. [설정·검증·미리보기 한계](docs/REFUGE_GLASS_MATERIAL.md)

@@ -12,6 +12,8 @@
 
 [ext_resource type="FontFile" path="res://assets/fonts/NotoSansCJK-Regular.ttc" id="6"]
 
+[ext_resource type="Material" path="res://config/refuge_glass.tres" id="GlassTemplate"]
+
 [sub_resource type="BoxShape3D" id="shapeGround"]
 
 size = Vector3(14,0.2,9.4)
@@ -129,6 +131,7 @@ shape = SubResource("shapeBench")
 position = Vector3(7,-0.32,-6.5)
 
 script = ExtResource("3")
+glass_material = ExtResource("GlassTemplate")
 
 [node name="Imported" parent="GlassRefuge" instance=ExtResource("2")]
 

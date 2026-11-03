@@ -289,8 +289,8 @@
     },
     {
       "path": "after-the-rain/README.md",
-      "size": 6262,
-      "sha256": "82d735f6b3ed02b6a70857bc525eef7031bdee583a6857f59800c7d223b291d3"
+      "size": 6493,
+      "sha256": "977da654e61e56264eabb45fc779cab38608eece88c193f07863e64afc619dc4"
     },
     {
       "path": "after-the-rain/RECOVERY.md",
@@ -1148,6 +1148,11 @@
       "sha256": "02b2533ba43920c9193f7bc70115918967be4aa15bc8fe0cf62bcb406551d2dc"
     },
     {
+      "path": "after-the-rain/config/refuge_glass.tres",
+      "size": 200,
+      "sha256": "1bc08ea48b2f92301b9ecb1f7a81d0575ee0e4fad7e9e376a07d53b5512bb8dc"
+    },
+    {
       "path": "after-the-rain/config/story_car.tres",
       "size": 508,
       "sha256": "67efb0ba1684696f507d24b3aeefe1d10120ed43518d86b20a2bbebdfdfaebc3"
@@ -1236,6 +1241,11 @@
       "path": "after-the-rain/docs/FLOWER_READING.md",
       "size": 2967,
       "sha256": "24cae9b20db0c290a0b4a7b13e306a7a93ed0f754b6cee1eaf57c616fce54752"
+    },
+    {
+      "path": "after-the-rain/docs/REFUGE_GLASS_MATERIAL.md",
+      "size": 3092,
+      "sha256": "274dbd911655e033f754f46b145f3208fa3ae4b175e2997589f3db1ed152737f"
     },
     {
       "path": "after-the-rain/liquid_cup.gd",
@@ -1374,8 +1384,8 @@
     },
     {
       "path": "after-the-rain/scenes/neighborhood_extension.tscn",
-      "size": 5149,
-      "sha256": "26d4225268fb1c94bdd78881b015499b6829743b3e37ada3c96b953940003821"
+      "size": 5284,
+      "sha256": "5d1485ca836712c28e0c9aa070192aa9c94c5eabaf446c59b9bbec4d11d2e72c"
     },
     {
       "path": "after-the-rain/scenes/neighborhood_walk.tscn",
@@ -1644,8 +1654,8 @@
     },
     {
       "path": "after-the-rain/scripts/glass_refuge.gd",
-      "size": 1039,
-      "sha256": "afdfb2fabcb23de65282dcd336e478c192efa604bab4cac022ea3dea32e16abb"
+      "size": 1143,
+      "sha256": "3c8c966058dae11017339a3389b037295d32e9886bdaa70ca934a8b16d1285de"
     },
     {
       "path": "after-the-rain/scripts/glass_refuge.gd.uid",
@@ -2331,6 +2341,16 @@
       "path": "after-the-rain/tests/recovery_window_life.gd.uid",
       "size": 20,
       "sha256": "0f835d4f7520eb4900e1ad2c34260bd12dbb8287854829918edcafc4916e126d"
+    },
+    {
+      "path": "after-the-rain/tests/refuge_glass_material.gd",
+      "size": 3159,
+      "sha256": "20ccb5048d55bbf733970abe68d51e9e3f1c0d758d60aa1dde04d3cbf993025f"
+    },
+    {
+      "path": "after-the-rain/tests/refuge_glass_material.gd.uid",
+      "size": 19,
+      "sha256": "5f8fc2d9e3b5576956304325b52650d2de93452e99514233c56301b0d05d4f4c"
     },
     {
       "path": "after-the-rain/tests/refuge_seating.gd",
