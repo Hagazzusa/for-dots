@@ -19,8 +19,8 @@
     },
     {
       "path": "README.md",
-      "size": 20375,
-      "sha256": "fdc8566cd6b6f422c897cb21abf2b29a7c6298ebd48e3fb13d991de54de6c6b3"
+      "size": 20582,
+      "sha256": "5befbe95ad97b302e23a57f9ed031d50c5452310260cade9f4e06e846e605784"
     },
     {
       "path": "WORLD_CONNECTIONS.md",
@@ -4678,6 +4678,16 @@
       "sha256": "ad8f77d647ffb9971acc08cc50a17d29adddfe91c28717e7f26e08dca0d03a54"
     },
     {
+      "path": "river-window-alternatives/COMBINED.md",
+      "size": 4254,
+      "sha256": "1a04a4d32ec543d56bd1a1b0bae910cc1582f0772bb8a7ed1b9a57387b3e5245"
+    },
+    {
+      "path": "river-window-alternatives/COMBINED_MANIFEST.json",
+      "size": 948,
+      "sha256": "948c0aa11661d8ccce7cb46a5f28f2588072d24454b74534b743bfc296899dc1"
+    },
+    {
       "path": "river-window-alternatives/README.md",
       "size": 6928,
       "sha256": "063525f507c6b247ce5deef87ae0f8257cf1dc0d9a5886b3d64f82692de537eb"
@@ -4696,6 +4706,11 @@
       "path": "river-window-alternatives/baseline.tscn",
       "size": 15076,
       "sha256": "9b1f84ac76c9c489c9f1a39bf93274ce7616c8645c6ceb7540b3b23255f9da51"
+    },
+    {
+      "path": "river-window-alternatives/combined.tscn",
+      "size": 13851,
+      "sha256": "a92705b406a5f4330c9fafea34e6fa462934682a3e9e7e6a85e8790371aaf017"
     },
     {
       "path": "river-window-alternatives/evidence/bank-0.jpg",
@@ -4736,6 +4751,26 @@
       "path": "river-window-alternatives/evidence/baseline-24.jpg",
       "size": 53238,
       "sha256": "90095012cec17062accc95698abd237171b5a1831f772df7f6c876892fb8fba1"
+    },
+    {
+      "path": "river-window-alternatives/evidence/combined-0.jpg",
+      "size": 48775,
+      "sha256": "ecec798ffedc822c0ec8e9879d4095e38145d4a8a07269764d11f9557181e70e"
+    },
+    {
+      "path": "river-window-alternatives/evidence/combined-12.jpg",
+      "size": 55512,
+      "sha256": "4cf985b81dc9e4763a18c7209c197c61f6adeddadbbf0bba164e608870b58fa4"
+    },
+    {
+      "path": "river-window-alternatives/evidence/combined-19.jpg",
+      "size": 54921,
+      "sha256": "cf312d8e119722f76f1f2a82d36a37bb8144702b33194095abfa3b754c12957e"
+    },
+    {
+      "path": "river-window-alternatives/evidence/combined-24.jpg",
+      "size": 54326,
+      "sha256": "cb3b634b4af1eaa45e3006141d41fe1d6c980288bca030c83df2e94805b9f9c7"
     },
     {
       "path": "river-window-alternatives/evidence/light-fragment-0.jpg",
