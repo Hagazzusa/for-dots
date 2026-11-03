@@ -9,8 +9,8 @@
     },
     {
       "path": "GALLERY.md",
-      "size": 6562,
-      "sha256": "0fe0c43e8afa2eede0d7be40a57adabd6444f4ede0b00fbf63e8057914a7f029"
+      "size": 7271,
+      "sha256": "bc10757850bb77e535600ab0dd898b3971857244afbba1a896146c68fc2abb17"
     },
     {
       "path": "GIT_ENVIRONMENT_CHECK.md",
@@ -19,8 +19,103 @@
     },
     {
       "path": "README.md",
-      "size": 13835,
-      "sha256": "66690103247502a86b2f5135eb6e32271f55a85a691e37061fb8e13930044d90"
+      "size": 14302,
+      "sha256": "40c0e4a3b574522116e8e44b1a9f57aa3b939913f76738c05f91f30e2e9cdfc9"
+    },
+    {
+      "path": "a-place-for-rain/.gitignore",
+      "size": 47,
+      "sha256": "e26816f5ccdcaf2aed3dbfbd5c1299ca90e394280ef5917507756f53d8ca47fa"
+    },
+    {
+      "path": "a-place-for-rain/ARTIFACT_MANIFEST.json",
+      "size": 4726,
+      "sha256": "94fce08ac7dbffea583955de86e524af899fde25d3fb9408f47bef57bd0c67e8"
+    },
+    {
+      "path": "a-place-for-rain/A_Place_for_Rain.blend",
+      "size": 2348232,
+      "sha256": "9a4948d8c4d75f78a8f0d20532ac834e9453faca0a0c45cffe66854ee7cdf3f4"
+    },
+    {
+      "path": "a-place-for-rain/README.md",
+      "size": 6396,
+      "sha256": "584582923415e2c249f02308e391e497a968f402614272545dbbb26fb4937906"
+    },
+    {
+      "path": "a-place-for-rain/build.py",
+      "size": 17752,
+      "sha256": "50438d55e83d5b2b2a498a936277c61b5a0a3aafe1a11159e2cacaa9618858b6"
+    },
+    {
+      "path": "a-place-for-rain/bundle_validation.json",
+      "size": 2769,
+      "sha256": "9d8451f1e3e4b38952160bdd8d4df16ac7fe52b81f4e8443e584dfef05c124f6"
+    },
+    {
+      "path": "a-place-for-rain/geometry_validation.json",
+      "size": 20820,
+      "sha256": "f9da40d2fb83fb38862f48390567fde23f1b99bc1f326040ce92f7f77e27b8d8"
+    },
+    {
+      "path": "a-place-for-rain/inspect_scene.py",
+      "size": 4109,
+      "sha256": "a6d53e233061e5f8fcf3520074e7385782c8ef26545cd30810251b54d9000cf0"
+    },
+    {
+      "path": "a-place-for-rain/parameters.json",
+      "size": 715,
+      "sha256": "fbc120af6a3d28260c3f94704556dc8b2e65a751fbfd9774906718002f231c0f"
+    },
+    {
+      "path": "a-place-for-rain/provenance.json",
+      "size": 2347,
+      "sha256": "5760f32ce447d29d8b8a9a31f18baa9f32986b779d96eaf48463d5200b740f7c"
+    },
+    {
+      "path": "a-place-for-rain/reference/concept_prompt.txt",
+      "size": 1817,
+      "sha256": "f7345940d57fe4e145c1bd978a125f17794919caa53adca9337a2406dd80c1e9"
+    },
+    {
+      "path": "a-place-for-rain/reference/gpt_image_concept.png",
+      "size": 2372504,
+      "sha256": "35c074b12d02240d8dd25437e12bf75be09c593456cafdde40c687da9c495b6a"
+    },
+    {
+      "path": "a-place-for-rain/renders/a_place_for_rain_final.png",
+      "size": 1560391,
+      "sha256": "07f821ea9c5cfb5c6123abe80d35de2e1c53003fbc57246c4f937a62557b0701"
+    },
+    {
+      "path": "a-place-for-rain/renders/draft_01.png",
+      "size": 516623,
+      "sha256": "8f10f0725f7da66ad6906df8287e5dd52f8c0f6256260436ce8b4fcea9f56f2e"
+    },
+    {
+      "path": "a-place-for-rain/renders/draft_02.png",
+      "size": 487422,
+      "sha256": "8e0b73366de12ae7cbe18de7dbd1f3f4359a0f5285b67a5cdab8d8ee826867d4"
+    },
+    {
+      "path": "a-place-for-rain/renders/draft_03.png",
+      "size": 486692,
+      "sha256": "955d40e1743c08422708f77ad25339f0eb3420dac2ae55cd7bdc45457dfd548b"
+    },
+    {
+      "path": "a-place-for-rain/renders/draft_04.png",
+      "size": 478749,
+      "sha256": "ba08c070f4edf71e024f39004a772dd2a225dc9f81c9d459d412932853906ae1"
+    },
+    {
+      "path": "a-place-for-rain/reopen_validation.json",
+      "size": 1204,
+      "sha256": "b18db07a6e971fb77fff6902b2bb1db47a9f7381c4e8befe090b42a6b3b8e014"
+    },
+    {
+      "path": "a-place-for-rain/verify_bundle.py",
+      "size": 2900,
+      "sha256": "2f66bb1fbe25e4965f1e77f7ae65ec750e5e6970f41630ca1f7c95db4d7b413b"
     },
     {
       "path": "a-place-to-pause/.gitignore",

@@ -1,0 +1,1104 @@
+{
+  "scope": "virtual art geometry and file checks; not a survey, architectural, electrical or safety design",
+  "story_moment": "Fictional destination, before the returning passenger arrives. Tray and hook remain empty.",
+  "empty_tray_by_authored_scene": true,
+  "empty_hook_by_authored_scene": true,
+  "cups": 2,
+  "people": 0,
+  "umbrellas": 0,
+  "bread_or_bags": 0,
+  "external_images": [],
+  "emissive_materials": [],
+  "compositor_enabled": false,
+  "mesh_checks": [
+    {
+      "name": "Entry grout bed",
+      "vertices": 8,
+      "finite": true
+    },
+    {
+      "name": "Slate tile 00 00",
+      "vertices": 96,
+      "finite": true
+    },
+    {
+      "name": "Slate tile 00 01",
+      "vertices": 96,
+      "finite": true
+    },
+    {
+      "name": "Slate tile 00 02",
+      "vertices": 96,
+      "finite": true
+    },
+    {
+      "name": "Slate tile 00 03",
+      "vertices": 96,
+      "finite": true
+    },
+    {
+      "name": "Slate tile 00 04",
+      "vertices": 96,
+      "finite": true
+    },
+    {
+      "name": "Slate tile 00 05",
+      "vertices": 96,
+      "finite": true
+    },
+    {
+      "name": "Slate tile 00 06",
+      "vertices": 96,
+      "finite": true
+    },
+    {
+      "name": "Slate tile 00 07",
+      "vertices": 96,
+      "finite": true
+    },
+    {
+      "name": "Slate tile 00 08",
+      "vertices": 96,
+      "finite": true
+    },
+    {
+      "name": "Slate tile 00 09",
+      "vertices": 96,
+      "finite": true
+    },
+    {
+      "name": "Slate tile 00 10",
+      "vertices": 96,
+      "finite": true
+    },
+    {
+      "name": "Slate tile 01 00",
+      "vertices": 96,
+      "finite": true
+    },
+    {
+      "name": "Slate tile 01 01",
+      "vertices": 96,
+      "finite": true
+    },
+    {
+      "name": "Slate tile 01 02",
+      "vertices": 96,
+      "finite": true
+    },
+    {
+      "name": "Slate tile 01 03",
+      "vertices": 96,
+      "finite": true
+    },
+    {
+      "name": "Slate tile 01 04",
+      "vertices": 96,
+      "finite": true
+    },
+    {
+      "name": "Slate tile 01 05",
+      "vertices": 96,
+      "finite": true
+    },
+    {
+      "name": "Slate tile 01 06",
+      "vertices": 96,
+      "finite": true
+    },
+    {
+      "name": "Slate tile 01 07",
+      "vertices": 96,
+      "finite": true
+    },
+    {
+      "name": "Slate tile 01 08",
+      "vertices": 96,
+      "finite": true
+    },
+    {
+      "name": "Slate tile 01 09",
+      "vertices": 96,
+      "finite": true
+    },
+    {
+      "name": "Slate tile 01 10",
+      "vertices": 96,
+      "finite": true
+    },
+    {
+      "name": "Slate tile 02 00",
+      "vertices": 96,
+      "finite": true
+    },
+    {
+      "name": "Slate tile 02 01",
+      "vertices": 96,
+      "finite": true
+    },
+    {
+      "name": "Slate tile 02 02",
+      "vertices": 96,
+      "finite": true
+    },
+    {
+      "name": "Slate tile 02 03",
+      "vertices": 96,
+      "finite": true
+    },
+    {
+      "name": "Slate tile 02 04",
+      "vertices": 96,
+      "finite": true
+    },
+    {
+      "name": "Slate tile 02 05",
+      "vertices": 96,
+      "finite": true
+    },
+    {
+      "name": "Slate tile 02 06",
+      "vertices": 96,
+      "finite": true
+    },
+    {
+      "name": "Slate tile 02 07",
+      "vertices": 96,
+      "finite": true
+    },
+    {
+      "name": "Slate tile 02 08",
+      "vertices": 96,
+      "finite": true
+    },
+    {
+      "name": "Slate tile 02 09",
+      "vertices": 96,
+      "finite": true
+    },
+    {
+      "name": "Slate tile 02 10",
+      "vertices": 96,
+      "finite": true
+    },
+    {
+      "name": "Slate tile 03 00",
+      "vertices": 96,
+      "finite": true
+    },
+    {
+      "name": "Slate tile 03 01",
+      "vertices": 96,
+      "finite": true
+    },
+    {
+      "name": "Slate tile 03 02",
+      "vertices": 96,
+      "finite": true
+    },
+    {
+      "name": "Slate tile 03 03",
+      "vertices": 96,
+      "finite": true
+    },
+    {
+      "name": "Slate tile 03 04",
+      "vertices": 96,
+      "finite": true
+    },
+    {
+      "name": "Slate tile 03 05",
+      "vertices": 96,
+      "finite": true
+    },
+    {
+      "name": "Slate tile 03 06",
+      "vertices": 96,
+      "finite": true
+    },
+    {
+      "name": "Slate tile 03 07",
+      "vertices": 96,
+      "finite": true
+    },
+    {
+      "name": "Slate tile 03 08",
+      "vertices": 96,
+      "finite": true
+    },
+    {
+      "name": "Slate tile 03 09",
+      "vertices": 96,
+      "finite": true
+    },
+    {
+      "name": "Slate tile 03 10",
+      "vertices": 96,
+      "finite": true
+    },
+    {
+      "name": "Slate tile 04 00",
+      "vertices": 96,
+      "finite": true
+    },
+    {
+      "name": "Slate tile 04 01",
+      "vertices": 96,
+      "finite": true
+    },
+    {
+      "name": "Slate tile 04 02",
+      "vertices": 96,
+      "finite": true
+    },
+    {
+      "name": "Slate tile 04 03",
+      "vertices": 96,
+      "finite": true
+    },
+    {
+      "name": "Slate tile 04 04",
+      "vertices": 96,
+      "finite": true
+    },
+    {
+      "name": "Slate tile 04 05",
+      "vertices": 96,
+      "finite": true
+    },
+    {
+      "name": "Slate tile 04 06",
+      "vertices": 96,
+      "finite": true
+    },
+    {
+      "name": "Slate tile 04 07",
+      "vertices": 96,
+      "finite": true
+    },
+    {
+      "name": "Slate tile 04 08",
+      "vertices": 96,
+      "finite": true
+    },
+    {
+      "name": "Slate tile 04 09",
+      "vertices": 96,
+      "finite": true
+    },
+    {
+      "name": "Slate tile 04 10",
+      "vertices": 96,
+      "finite": true
+    },
+    {
+      "name": "Slate tile 05 00",
+      "vertices": 96,
+      "finite": true
+    },
+    {
+      "name": "Slate tile 05 01",
+      "vertices": 96,
+      "finite": true
+    },
+    {
+      "name": "Slate tile 05 02",
+      "vertices": 96,
+      "finite": true
+    },
+    {
+      "name": "Slate tile 05 03",
+      "vertices": 96,
+      "finite": true
+    },
+    {
+      "name": "Slate tile 05 04",
+      "vertices": 96,
+      "finite": true
+    },
+    {
+      "name": "Slate tile 05 05",
+      "vertices": 96,
+      "finite": true
+    },
+    {
+      "name": "Slate tile 05 06",
+      "vertices": 96,
+      "finite": true
+    },
+    {
+      "name": "Slate tile 05 07",
+      "vertices": 96,
+      "finite": true
+    },
+    {
+      "name": "Slate tile 05 08",
+      "vertices": 96,
+      "finite": true
+    },
+    {
+      "name": "Slate tile 05 09",
+      "vertices": 96,
+      "finite": true
+    },
+    {
+      "name": "Slate tile 05 10",
+      "vertices": 96,
+      "finite": true
+    },
+    {
+      "name": "Slate tile 06 00",
+      "vertices": 96,
+      "finite": true
+    },
+    {
+      "name": "Slate tile 06 01",
+      "vertices": 96,
+      "finite": true
+    },
+    {
+      "name": "Slate tile 06 02",
+      "vertices": 96,
+      "finite": true
+    },
+    {
+      "name": "Slate tile 06 03",
+      "vertices": 96,
+      "finite": true
+    },
+    {
+      "name": "Slate tile 06 04",
+      "vertices": 96,
+      "finite": true
+    },
+    {
+      "name": "Slate tile 06 05",
+      "vertices": 96,
+      "finite": true
+    },
+    {
+      "name": "Slate tile 06 06",
+      "vertices": 96,
+      "finite": true
+    },
+    {
+      "name": "Slate tile 06 07",
+      "vertices": 96,
+      "finite": true
+    },
+    {
+      "name": "Slate tile 06 08",
+      "vertices": 96,
+      "finite": true
+    },
+    {
+      "name": "Slate tile 06 09",
+      "vertices": 96,
+      "finite": true
+    },
+    {
+      "name": "Slate tile 06 10",
+      "vertices": 96,
+      "finite": true
+    },
+    {
+      "name": "Slate tile 07 00",
+      "vertices": 96,
+      "finite": true
+    },
+    {
+      "name": "Slate tile 07 01",
+      "vertices": 96,
+      "finite": true
+    },
+    {
+      "name": "Slate tile 07 02",
+      "vertices": 96,
+      "finite": true
+    },
+    {
+      "name": "Slate tile 07 03",
+      "vertices": 96,
+      "finite": true
+    },
+    {
+      "name": "Slate tile 07 04",
+      "vertices": 96,
+      "finite": true
+    },
+    {
+      "name": "Slate tile 07 05",
+      "vertices": 96,
+      "finite": true
+    },
+    {
+      "name": "Slate tile 07 06",
+      "vertices": 96,
+      "finite": true
+    },
+    {
+      "name": "Slate tile 07 07",
+      "vertices": 96,
+      "finite": true
+    },
+    {
+      "name": "Slate tile 07 08",
+      "vertices": 96,
+      "finite": true
+    },
+    {
+      "name": "Slate tile 07 09",
+      "vertices": 96,
+      "finite": true
+    },
+    {
+      "name": "Slate tile 07 10",
+      "vertices": 96,
+      "finite": true
+    },
+    {
+      "name": "Slate tile 08 00",
+      "vertices": 96,
+      "finite": true
+    },
+    {
+      "name": "Slate tile 08 01",
+      "vertices": 96,
+      "finite": true
+    },
+    {
+      "name": "Slate tile 08 02",
+      "vertices": 96,
+      "finite": true
+    },
+    {
+      "name": "Slate tile 08 03",
+      "vertices": 96,
+      "finite": true
+    },
+    {
+      "name": "Slate tile 08 04",
+      "vertices": 96,
+      "finite": true
+    },
+    {
+      "name": "Slate tile 08 05",
+      "vertices": 96,
+      "finite": true
+    },
+    {
+      "name": "Slate tile 08 06",
+      "vertices": 96,
+      "finite": true
+    },
+    {
+      "name": "Slate tile 08 07",
+      "vertices": 96,
+      "finite": true
+    },
+    {
+      "name": "Slate tile 08 08",
+      "vertices": 96,
+      "finite": true
+    },
+    {
+      "name": "Slate tile 08 09",
+      "vertices": 96,
+      "finite": true
+    },
+    {
+      "name": "Slate tile 08 10",
+      "vertices": 96,
+      "finite": true
+    },
+    {
+      "name": "Slate tile 09 00",
+      "vertices": 96,
+      "finite": true
+    },
+    {
+      "name": "Slate tile 09 01",
+      "vertices": 96,
+      "finite": true
+    },
+    {
+      "name": "Slate tile 09 02",
+      "vertices": 96,
+      "finite": true
+    },
+    {
+      "name": "Slate tile 09 03",
+      "vertices": 96,
+      "finite": true
+    },
+    {
+      "name": "Slate tile 09 04",
+      "vertices": 96,
+      "finite": true
+    },
+    {
+      "name": "Slate tile 09 05",
+      "vertices": 96,
+      "finite": true
+    },
+    {
+      "name": "Slate tile 09 06",
+      "vertices": 96,
+      "finite": true
+    },
+    {
+      "name": "Slate tile 09 07",
+      "vertices": 96,
+      "finite": true
+    },
+    {
+      "name": "Slate tile 09 08",
+      "vertices": 96,
+      "finite": true
+    },
+    {
+      "name": "Slate tile 09 09",
+      "vertices": 96,
+      "finite": true
+    },
+    {
+      "name": "Slate tile 09 10",
+      "vertices": 96,
+      "finite": true
+    },
+    {
+      "name": "Slate tile 10 00",
+      "vertices": 96,
+      "finite": true
+    },
+    {
+      "name": "Slate tile 10 01",
+      "vertices": 96,
+      "finite": true
+    },
+    {
+      "name": "Slate tile 10 02",
+      "vertices": 96,
+      "finite": true
+    },
+    {
+      "name": "Slate tile 10 03",
+      "vertices": 96,
+      "finite": true
+    },
+    {
+      "name": "Slate tile 10 04",
+      "vertices": 96,
+      "finite": true
+    },
+    {
+      "name": "Slate tile 10 05",
+      "vertices": 96,
+      "finite": true
+    },
+    {
+      "name": "Slate tile 10 06",
+      "vertices": 96,
+      "finite": true
+    },
+    {
+      "name": "Slate tile 10 07",
+      "vertices": 96,
+      "finite": true
+    },
+    {
+      "name": "Slate tile 10 08",
+      "vertices": 96,
+      "finite": true
+    },
+    {
+      "name": "Slate tile 10 09",
+      "vertices": 96,
+      "finite": true
+    },
+    {
+      "name": "Slate tile 10 10",
+      "vertices": 96,
+      "finite": true
+    },
+    {
+      "name": "Slate tile 11 00",
+      "vertices": 96,
+      "finite": true
+    },
+    {
+      "name": "Slate tile 11 01",
+      "vertices": 96,
+      "finite": true
+    },
+    {
+      "name": "Slate tile 11 02",
+      "vertices": 96,
+      "finite": true
+    },
+    {
+      "name": "Slate tile 11 03",
+      "vertices": 96,
+      "finite": true
+    },
+    {
+      "name": "Slate tile 11 04",
+      "vertices": 96,
+      "finite": true
+    },
+    {
+      "name": "Slate tile 11 05",
+      "vertices": 96,
+      "finite": true
+    },
+    {
+      "name": "Slate tile 11 06",
+      "vertices": 96,
+      "finite": true
+    },
+    {
+      "name": "Slate tile 11 07",
+      "vertices": 96,
+      "finite": true
+    },
+    {
+      "name": "Slate tile 11 08",
+      "vertices": 96,
+      "finite": true
+    },
+    {
+      "name": "Slate tile 11 09",
+      "vertices": 96,
+      "finite": true
+    },
+    {
+      "name": "Slate tile 11 10",
+      "vertices": 96,
+      "finite": true
+    },
+    {
+      "name": "Interior floor backing",
+      "vertices": 8,
+      "finite": true
+    },
+    {
+      "name": "Interior plank 0 0",
+      "vertices": 96,
+      "finite": true
+    },
+    {
+      "name": "Interior plank 0 1",
+      "vertices": 96,
+      "finite": true
+    },
+    {
+      "name": "Interior plank 0 2",
+      "vertices": 96,
+      "finite": true
+    },
+    {
+      "name": "Interior plank 0 3",
+      "vertices": 96,
+      "finite": true
+    },
+    {
+      "name": "Interior plank 1 0",
+      "vertices": 96,
+      "finite": true
+    },
+    {
+      "name": "Interior plank 1 1",
+      "vertices": 96,
+      "finite": true
+    },
+    {
+      "name": "Interior plank 1 2",
+      "vertices": 96,
+      "finite": true
+    },
+    {
+      "name": "Interior plank 1 3",
+      "vertices": 96,
+      "finite": true
+    },
+    {
+      "name": "Interior plank 2 0",
+      "vertices": 96,
+      "finite": true
+    },
+    {
+      "name": "Interior plank 2 1",
+      "vertices": 96,
+      "finite": true
+    },
+    {
+      "name": "Interior plank 2 2",
+      "vertices": 96,
+      "finite": true
+    },
+    {
+      "name": "Interior plank 2 3",
+      "vertices": 96,
+      "finite": true
+    },
+    {
+      "name": "Interior plank 3 0",
+      "vertices": 96,
+      "finite": true
+    },
+    {
+      "name": "Interior plank 3 1",
+      "vertices": 96,
+      "finite": true
+    },
+    {
+      "name": "Interior plank 3 2",
+      "vertices": 96,
+      "finite": true
+    },
+    {
+      "name": "Interior plank 3 3",
+      "vertices": 96,
+      "finite": true
+    },
+    {
+      "name": "Interior plank 4 0",
+      "vertices": 96,
+      "finite": true
+    },
+    {
+      "name": "Interior plank 4 1",
+      "vertices": 96,
+      "finite": true
+    },
+    {
+      "name": "Interior plank 4 2",
+      "vertices": 96,
+      "finite": true
+    },
+    {
+      "name": "Interior plank 4 3",
+      "vertices": 96,
+      "finite": true
+    },
+    {
+      "name": "Interior plank 5 0",
+      "vertices": 96,
+      "finite": true
+    },
+    {
+      "name": "Interior plank 5 1",
+      "vertices": 96,
+      "finite": true
+    },
+    {
+      "name": "Interior plank 5 2",
+      "vertices": 96,
+      "finite": true
+    },
+    {
+      "name": "Interior plank 5 3",
+      "vertices": 96,
+      "finite": true
+    },
+    {
+      "name": "Interior plank 6 0",
+      "vertices": 96,
+      "finite": true
+    },
+    {
+      "name": "Interior plank 6 1",
+      "vertices": 96,
+      "finite": true
+    },
+    {
+      "name": "Interior plank 6 2",
+      "vertices": 96,
+      "finite": true
+    },
+    {
+      "name": "Interior plank 6 3",
+      "vertices": 96,
+      "finite": true
+    },
+    {
+      "name": "Interior plank 7 0",
+      "vertices": 96,
+      "finite": true
+    },
+    {
+      "name": "Interior plank 7 1",
+      "vertices": 96,
+      "finite": true
+    },
+    {
+      "name": "Interior plank 7 2",
+      "vertices": 96,
+      "finite": true
+    },
+    {
+      "name": "Interior plank 7 3",
+      "vertices": 96,
+      "finite": true
+    },
+    {
+      "name": "Left entry wall",
+      "vertices": 96,
+      "finite": true
+    },
+    {
+      "name": "Right entry wall",
+      "vertices": 96,
+      "finite": true
+    },
+    {
+      "name": "Wall above opening",
+      "vertices": 96,
+      "finite": true
+    },
+    {
+      "name": "Slate skirting left",
+      "vertices": 96,
+      "finite": true
+    },
+    {
+      "name": "Slate skirting right",
+      "vertices": 96,
+      "finite": true
+    },
+    {
+      "name": "Left door jamb",
+      "vertices": 96,
+      "finite": true
+    },
+    {
+      "name": "Right door jamb",
+      "vertices": 96,
+      "finite": true
+    },
+    {
+      "name": "Door header",
+      "vertices": 96,
+      "finite": true
+    },
+    {
+      "name": "Simple brass threshold",
+      "vertices": 96,
+      "finite": true
+    },
+    {
+      "name": "Interior back wall",
+      "vertices": 96,
+      "finite": true
+    },
+    {
+      "name": "Interior left return",
+      "vertices": 96,
+      "finite": true
+    },
+    {
+      "name": "Interior right return",
+      "vertices": 96,
+      "finite": true
+    },
+    {
+      "name": "Small interior ceiling",
+      "vertices": 96,
+      "finite": true
+    },
+    {
+      "name": "Plain pale-oak door leaf",
+      "vertices": 96,
+      "finite": true
+    },
+    {
+      "name": "Door lower rail",
+      "vertices": 96,
+      "finite": true
+    },
+    {
+      "name": "Door subtle inset panel",
+      "vertices": 96,
+      "finite": true
+    },
+    {
+      "name": "Simple hinge 0.28",
+      "vertices": 384,
+      "finite": true
+    },
+    {
+      "name": "Simple hinge 1.05",
+      "vertices": 384,
+      "finite": true
+    },
+    {
+      "name": "Simple hinge 1.79",
+      "vertices": 384,
+      "finite": true
+    },
+    {
+      "name": "Handle rose",
+      "vertices": 384,
+      "finite": true
+    },
+    {
+      "name": "Handle short stem",
+      "vertices": 384,
+      "finite": true
+    },
+    {
+      "name": "Plain round brass knob",
+      "vertices": 384,
+      "finite": true
+    },
+    {
+      "name": "Empty hook backplate",
+      "vertices": 384,
+      "finite": true
+    },
+    {
+      "name": "Hook rounded tip",
+      "vertices": 266,
+      "finite": true
+    },
+    {
+      "name": "Empty prepared umbrella drip tray",
+      "vertices": 640,
+      "finite": true
+    },
+    {
+      "name": "Empty tray raised rib 00",
+      "vertices": 96,
+      "finite": true
+    },
+    {
+      "name": "Empty tray raised rib 01",
+      "vertices": 96,
+      "finite": true
+    },
+    {
+      "name": "Empty tray raised rib 02",
+      "vertices": 96,
+      "finite": true
+    },
+    {
+      "name": "Empty tray raised rib 03",
+      "vertices": 96,
+      "finite": true
+    },
+    {
+      "name": "Empty tray raised rib 04",
+      "vertices": 96,
+      "finite": true
+    },
+    {
+      "name": "Empty tray raised rib 05",
+      "vertices": 96,
+      "finite": true
+    },
+    {
+      "name": "Empty tray raised rib 06",
+      "vertices": 96,
+      "finite": true
+    },
+    {
+      "name": "Empty tray raised rib 07",
+      "vertices": 96,
+      "finite": true
+    },
+    {
+      "name": "Empty tray raised rib 08",
+      "vertices": 96,
+      "finite": true
+    },
+    {
+      "name": "Empty tray raised rib 09",
+      "vertices": 96,
+      "finite": true
+    },
+    {
+      "name": "Empty tray raised rib 10",
+      "vertices": 96,
+      "finite": true
+    },
+    {
+      "name": "Empty tray raised rib 11",
+      "vertices": 96,
+      "finite": true
+    },
+    {
+      "name": "Modest interior console top",
+      "vertices": 96,
+      "finite": true
+    },
+    {
+      "name": "Modest console front apron",
+      "vertices": 96,
+      "finite": true
+    },
+    {
+      "name": "Console leg 0.34 1.40",
+      "vertices": 96,
+      "finite": true
+    },
+    {
+      "name": "Console leg 0.34 1.66",
+      "vertices": 96,
+      "finite": true
+    },
+    {
+      "name": "Console leg 1.18 1.40",
+      "vertices": 96,
+      "finite": true
+    },
+    {
+      "name": "Console leg 1.18 1.66",
+      "vertices": 96,
+      "finite": true
+    },
+    {
+      "name": "Far cup — waiting tea bowl",
+      "vertices": 770,
+      "finite": true
+    },
+    {
+      "name": "Far cup — waiting tea still tea surface",
+      "vertices": 384,
+      "finite": true
+    },
+    {
+      "name": "Far cup — empty bowl",
+      "vertices": 770,
+      "finite": true
+    }
+  ],
+  "tray_closed_solid": true,
+  "cup_bowls_closed_solid": true,
+  "door_hinge_consistent": true,
+  "hinge_axes_coincide_with_pivot": true,
+  "door_open_angle_degrees": -87.0,
+  "door_floor_clearance_m": 0.016,
+  "tray_floor_contact_gap_m": 0.0,
+  "cup_counter_contact_gaps_m": [
+    -1.1920928910669204e-08,
+    -1.1920928910669204e-08
+  ],
+  "tray_camera_bounds": {
+    "left": 0.13712608814239502,
+    "right": 0.4638310670852661,
+    "bottom": 0.049954742193222046,
+    "top": 0.24112874269485474
+  },
+  "render": {
+    "width": 1200,
+    "height": 800,
+    "max_samples": 192,
+    "threads": 2,
+    "device": "CPU",
+    "denoising": false,
+    "note": "Installed Blender lacks OpenImageDenoise; native sampling only"
+  },
+  "object_count": 221,
+  "source_parameters_sha256": "fbc120af6a3d28260c3f94704556dc8b2e65a751fbfd9774906718002f231c0f",
+  "build_source_sha256": "50438d55e83d5b2b2a498a936277c61b5a0a3aafe1a11159e2cacaa9618858b6"
+}

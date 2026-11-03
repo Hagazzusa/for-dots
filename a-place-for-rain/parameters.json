@@ -1,0 +1,9 @@
+{
+  "title": "비가 머물 자리 / A Place for Rain",
+  "units": "metres",
+  "story_moment": "Fictional destination, before the returning passenger arrives. Tray and hook remain empty.",
+  "door": {"hinge": [1.18, 0.06, 0.016], "width": 1.08, "height": 2.06, "thickness": 0.042, "open_angle_degrees": -87.0},
+  "tray": {"center": [-0.80, -0.35, 0], "width": 0.72, "depth": 0.30, "height": 0.048, "wall": 0.016, "floor_thickness": 0.015, "corner_radius": 0.045},
+  "camera": {"position": [-1.10, -2.20, 0.95], "target": [-0.10, 0.10, 0.43], "lens_mm": 30.0},
+  "render": {"draft_width": 600, "draft_height": 400, "draft_samples": 24, "final_width": 1200, "final_height": 800, "final_samples": 192, "threads": 2}
+}

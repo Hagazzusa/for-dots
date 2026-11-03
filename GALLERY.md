@@ -1,7 +1,7 @@
 # 잠깐 머무는 작은 세계
 
 비를 피하는 공간, 천천히 움직이는 빛, 길가의 빈 벤치.
-이미지와 짧은 영상으로 먼저 둘러볼 수 있는 여덟 작업을 골랐습니다.
+이미지와 짧은 영상으로 먼저 둘러볼 수 있는 아홉 작업을 골랐습니다.
 편집 가능한 장면과 제작 소스는 각 작품의 안내에 함께 있습니다.
 
 ## 1. Glass Refuge · 유리 쉼터
@@ -89,6 +89,16 @@
 [편집 가능한 CAD·Blender 장면과 검증](page-at-rest/README.md) · [키보드로 관찰하는 3D 뷰어](page-at-rest-viewer/README.md) · [별도로 보존한 생성 콘셉트](page-at-rest/reference/gpt_image_concept.png)
 
 위 이미지는 FreeCAD의 받침·지지부를 Blender로 옮긴 실제 CPU 렌더입니다. 생성 콘셉트 자체가 아니며 미세한 렌더 입자가 남습니다. 가상 조형물로, 실물 전기·제조·안전 검증을 뜻하지 않습니다.
+
+## 9. 비가 머물 자리 · A Place for Rain
+
+아직 돌아오는 길에 있는 사람을 위해, 빈 물받이와 훅 옆에 따뜻한 불을 남겼습니다. 문 너머 두 잔은 조금 뒤의 저녁을 기다립니다.
+
+![비가 머물 자리 — 실제 Blender Cycles 렌더](a-place-for-rain/renders/a_place_for_rain_final.png)
+
+[독립 장면·제작 소스와 검증](a-place-for-rain/README.md) · [별도로 보존한 생성 콘셉트](a-place-for-rain/reference/gpt_image_concept.png)
+
+위 이미지는 실제 Blender 렌더이며 생성 콘셉트나 게임 화면이 아닙니다. 미세한 렌더 입자가 남습니다. 실물 건축·배수·전기·안전 검증을 뜻하지 않습니다.
 
 ---
 

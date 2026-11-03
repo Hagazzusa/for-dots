@@ -1,0 +1,47 @@
+{
+  "title": "비가 머물 자리 / A Place for Rain",
+  "created_utc_date": "2026-11-03",
+  "kind": "original fictional virtual entryway vignette",
+  "story_moment": "Before the returning passenger arrives. Empty prepared tray and hook; no umbrella, shoes, coat, soboro bread or bag already at home.",
+  "connection": "A distant two-cup hint relates to the earlier Second Cup fiction. No game integration, real home, address, person or personal biography is depicted.",
+  "concept": {
+    "generator": "OpenAI built-in image generation",
+    "file": "reference/gpt_image_concept.png",
+    "exact_prompt": "reference/concept_prompt.txt",
+    "viewed_before_modeling": true,
+    "original_c2pa_preserved": true,
+    "role": "Composition and atmosphere reference; not a projected image, background plate, dimensional survey or exact geometry reconstruction.",
+    "sha256": "35c074b12d02240d8dd25437e12bf75be09c593456cafdde40c687da9c495b6a"
+  },
+  "modeling": {
+    "source": "build.py and parameters.json",
+    "application": "Blender 4.3.2",
+    "original_geometry": "Lathed solid ceramic bowls, closed tray with raised ribs, beveled tiles, independently hinged door leaf/hardware, simple hook and console.",
+    "no_existing_scene_imported_or_overwritten": true,
+    "external_assets": [],
+    "materials": "Original procedural slate, plaster, wood and charcoal, with plain PBR brass, cup glaze and tea approximation; no external textures."
+  },
+  "limits": [
+    "No real home or construction survey",
+    "No functional door mechanism or drainage validation",
+    "No electrical, thermal, structural or manufacturing certification",
+    "Damp sheen is a material treatment, not a water simulation or evidence of the passenger's arrival",
+    "Tea is a visual secondary prop, not a food-contact or thermal model"
+  ],
+  "render": {
+    "file": "renders/a_place_for_rain_final.png",
+    "kind": "Actual independently modeled Blender Cycles render; not the generated concept image",
+    "resolution": [
+      1200,
+      800
+    ],
+    "maximum_samples": 192,
+    "device": "CPU",
+    "threads": 2,
+    "denoising": false,
+    "reason": "Installed Blender lacks OpenImageDenoise; fine grain remains, especially inside the doorway and on the floor",
+    "compositor_bloom": false,
+    "emissive_materials": false,
+    "pixel_reviewed": true
+  }
+}

@@ -1,0 +1,97 @@
+{
+  "scope": "bounded PNG metadata/pixel and native file path checks, not a general security or physical safety certification",
+  "renders": [
+    {
+      "file": "renders/a_place_for_rain_final.png",
+      "size": [
+        1200,
+        800
+      ],
+      "private_text_chunks_removed": [
+        "tEXt"
+      ],
+      "idat_sha256": "287c9d3216827692f46703acbab1efbc8ae546312d0598b10ffc623361fee310",
+      "identical_idat": true,
+      "identical_decoded_pixels": true,
+      "c2pa_present": false,
+      "c2pa_unchanged": true,
+      "all_channels_255_fraction": 0.0,
+      "any_channel_255_fraction": 0.0
+    },
+    {
+      "file": "renders/draft_01.png",
+      "size": [
+        600,
+        400
+      ],
+      "private_text_chunks_removed": [
+        "tEXt"
+      ],
+      "idat_sha256": "e8a6398bd952e84fef44fe6690c6dc6843cbf1b1677c511f6865c0ffa259687c",
+      "identical_idat": true,
+      "identical_decoded_pixels": true,
+      "c2pa_present": false,
+      "c2pa_unchanged": true,
+      "all_channels_255_fraction": 0.0,
+      "any_channel_255_fraction": 0.0
+    },
+    {
+      "file": "renders/draft_02.png",
+      "size": [
+        600,
+        400
+      ],
+      "private_text_chunks_removed": [
+        "tEXt"
+      ],
+      "idat_sha256": "4f4e79feb2113c2d560eba29435ef90f5042e98a492bbac92f53b7e2d42a8fba",
+      "identical_idat": true,
+      "identical_decoded_pixels": true,
+      "c2pa_present": false,
+      "c2pa_unchanged": true,
+      "all_channels_255_fraction": 0.0,
+      "any_channel_255_fraction": 0.0
+    },
+    {
+      "file": "renders/draft_03.png",
+      "size": [
+        600,
+        400
+      ],
+      "private_text_chunks_removed": [
+        "tEXt"
+      ],
+      "idat_sha256": "4d43d8443d59ba0d2606bfe409cccc65a93d4933492b96f8d65347d2a8c580ef",
+      "identical_idat": true,
+      "identical_decoded_pixels": true,
+      "c2pa_present": false,
+      "c2pa_unchanged": true,
+      "all_channels_255_fraction": 0.0,
+      "any_channel_255_fraction": 0.0
+    },
+    {
+      "file": "renders/draft_04.png",
+      "size": [
+        600,
+        400
+      ],
+      "private_text_chunks_removed": [
+        "tEXt"
+      ],
+      "idat_sha256": "73eedd943a8a9589df9613792390b7ffee59086f3fc5eb93db667e09232eaf3f",
+      "identical_idat": true,
+      "identical_decoded_pixels": true,
+      "c2pa_present": false,
+      "c2pa_unchanged": true,
+      "all_channels_255_fraction": 0.0,
+      "any_channel_255_fraction": 0.0
+    }
+  ],
+  "concept": {
+    "file": "reference/gpt_image_concept.png",
+    "sha256": "35c074b12d02240d8dd25437e12bf75be09c593456cafdde40c687da9c495b6a",
+    "c2pa_sha256": "2ce4d8e99d2dd942434ffe8afefbbc198d4a11c655b42d9fb6bc7ece1e9fe7db",
+    "c2pa_preserved": true
+  },
+  "blend_has_no_private_path_bytes": true
+}

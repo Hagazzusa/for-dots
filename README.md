@@ -7,6 +7,7 @@
 
 | 프로젝트 | 시작 안내 | 실행 환경 |
 |---|---|---|
+| **비가 머물 자리 · A Place for Rain** — 돌아오기 전 비를 받아 둘 가상 현관 | [작품·재현](a-place-for-rain/README.md) · [실제 렌더](a-place-for-rain/renders/a_place_for_rain_final.png) · [생성 콘셉트](a-place-for-rain/reference/gpt_image_concept.png) | Blender **4.3.2**, PNG 검사에는 Pillow. 빈 물받이·훅과 멀리 놓인 두 잔의 독립 정물이며 게임 통합·실물 건축·안전 검증이 아닙니다. |
 | **머무는 페이지 · A Page at Rest** — 두 곡면과 따뜻한 빛의 가상 조형물 | [제작·검증](page-at-rest/README.md) · [직접 돌려보는 3D 뷰어](page-at-rest-viewer/README.md) · [실제 렌더](page-at-rest/renders/a_page_at_rest_final.png) · [생성 콘셉트](page-at-rest/reference/gpt_image_concept.png) | FreeCAD **1.0.0** → Blender **4.3.2**, 독립 뷰어는 Godot **4.6.x Standard**. CAD는 받침·황동 지지부만 포함하며 전체 장면은 Blender 원본입니다. 전기·제조·안전 검증이 아닙니다. |
 | **두 잔의 자리 · The Second Cup** — 빵을 기다리는 집 안의 작은 준비 | [제작·검증](second-cup/README.md) · [직접 돌려보는 3D 뷰어](second-cup-viewer/README.md) · [6초 무음 영상](second-cup-film/README.md) · [실제 렌더](second-cup/renders/the_second_cup_final.png) · [생성 콘셉트](second-cup/reference/gpt_image_concept.png) | Blender **4.3.2**, 뷰어는 Godot **4.6.x Standard**, 기본 검증은 Python 표준 라이브러리. 독립적인 도기·금속 정물의 실제 Cycles 렌더이며 유체·열·제품 안전 검증이 아닙니다. |
 | **Mended Corner · 수선이 남긴 자리** — 고친 벤치 끝의 조용한 정물 | [작품·제작 소스](mended-corner/README.md) · [실제 렌더](mended-corner/renders/mended_corner_final.png) · [생성 콘셉트](mended-corner/reference/gpt_image_concept.png) | Blender **4.3.2**, Python 표준 라이브러리. 절차적 재질과 모델로 만든 실제 Cycles 렌더이며 실물 수선·전기 안전 검증이 아닙니다. |

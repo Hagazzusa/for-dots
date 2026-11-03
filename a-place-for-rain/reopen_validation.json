@@ -1,0 +1,39 @@
+{
+  "reopened": true,
+  "input_blend_unchanged": true,
+  "external_dependencies": [],
+  "relative_render_path": "//renders/a_place_for_rain_final.png",
+  "objects": 221,
+  "tray_closed_manifold": true,
+  "tray_volume_m3": 0.004210376851300194,
+  "cups": 2,
+  "cup_contacts": [
+    {
+      "name": "Far cup \u2014 waiting tea bowl",
+      "counter_gap_m": 0.0,
+      "bowl_footprint_inside_counter": true,
+      "closed_manifold_positive_volume": true
+    },
+    {
+      "name": "Far cup \u2014 empty bowl",
+      "counter_gap_m": 0.0,
+      "bowl_footprint_inside_counter": true,
+      "closed_manifold_positive_volume": true
+    }
+  ],
+  "door_leaf_and_hardware_share_pivot": true,
+  "three_hinge_axes_coincide_with_pivot": true,
+  "door_open_angle_degrees": -87.0,
+  "parameters_hash_matches": true,
+  "build_hash_matches": true,
+  "cpu_threads": 2,
+  "native_gui_tested": false,
+  "final_render_settings": {
+    "width": 1200,
+    "height": 800,
+    "max_samples": 192,
+    "denoising": false
+  },
+  "camera_position_and_lens_match_parameters": true,
+  "limitations": "Background native reopen/geometry checks only. No real architectural, drainage, door-mechanism, electrical or safety validation."
+}
