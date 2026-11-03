@@ -1,4 +1,7 @@
-[gd_scene load_steps=21 format=3]
+[gd_scene load_steps=23 format=3]
+
+[ext_resource type="Script" path="res://scripts/radio_dial.gd" id="1_dial"]
+[ext_resource type="Material" path="res://assets/materials/radio_dial_lit.tres" id="2_lit"]
 
 [sub_resource type="StandardMaterial3D" id="R1"]
 albedo_color = Color(0.29, 0.17, 0.075, 1)
@@ -73,6 +76,8 @@ rings = 1
 size = Vector3(0.43, 0.84, 0.3)
 
 [node name="SmallRadio" type="Node3D"]
+script = ExtResource("1_dial")
+lit_material = ExtResource("2_lit")
 
 [node name="StandLeg" type="MeshInstance3D" parent="."]
 position = Vector3(0, -0.46, 0)

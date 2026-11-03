@@ -17,6 +17,8 @@ func _ready():
  for id in ["Memo", "Route", "Passenger"]:
   stories[id] = load("res://config/story_"+id.to_lower()+".tres")
  radio.global_position = objects.get_node("Radio/Interaction").global_position
+ radio.power_changed.connect(objects.get_node("Radio").set_powered)
+ objects.get_node("Radio").set_powered(radio.is_on)
 func threshold_for(id:String)->float:
  if id=="Radio":return radio_facing_threshold
  if id in ["Memo","Route"]:return paper_facing_threshold
@@ -38,6 +40,7 @@ func target(camera:Camera3D, viewer_position:Vector3)->String:
 func hint(camera:Camera3D, viewer_position:Vector3)->String:
  if panel.is_open: return "[Q] 이야기 닫기 · 버스가 오면 바로 타도 괜찮아요"
  var id := target(camera,viewer_position)
+ if id=="Radio":return "[E] 작은 라디오 끄기" if radio.is_on else "[E] 작은 라디오 켜기"
  if id=="Passenger" and passenger_prompt_provider.is_valid():
   return str(passenger_prompt_provider.call())
  return PROMPTS.get(id,"")

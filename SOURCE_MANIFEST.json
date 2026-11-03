@@ -289,8 +289,8 @@
     },
     {
       "path": "after-the-rain/README.md",
-      "size": 6646,
-      "sha256": "a89cbe0cbcb6c50a5160842e46eeddcbd94745885fe58824884513386de40e17"
+      "size": 6877,
+      "sha256": "caadd4768781ecca98fc347c38a0c2964fab476cade88c4a9de514ebc83c99bf"
     },
     {
       "path": "after-the-rain/RECOVERY.md",
@@ -1058,6 +1058,11 @@
       "sha256": "e71ce0e3e4b7f2e235885895524bdebf84ae9ac1fbbf8fb2702bf813b94092ad"
     },
     {
+      "path": "after-the-rain/assets/materials/radio_dial_lit.tres",
+      "size": 214,
+      "sha256": "783fa0fb85c1d4ba67bea06c0ec5c431b1f1330e5c3e93a3aee9d54276b3aa18"
+    },
+    {
       "path": "after-the-rain/assets/rain.wav",
       "size": 1411244,
       "sha256": "ca26ed79fa1df787db05ffeebf54a4a4b80e9a3ce351cb8da9a76306e446b09a"
@@ -1241,6 +1246,11 @@
       "path": "after-the-rain/docs/FLOWER_READING.md",
       "size": 2967,
       "sha256": "24cae9b20db0c290a0b4a7b13e306a7a93ed0f754b6cee1eaf57c616fce54752"
+    },
+    {
+      "path": "after-the-rain/docs/RADIO_DIAL.md",
+      "size": 3903,
+      "sha256": "a32958d2e2e062d896d71190e188efbc9a2b3c03e6687ed61a078f960d884b0f"
     },
     {
       "path": "after-the-rain/docs/READER_BOARDING_HINT.md",
@@ -1469,8 +1479,8 @@
     },
     {
       "path": "after-the-rain/scenes/stories/small_radio.tscn",
-      "size": 4747,
-      "sha256": "fac3efe12484486a997e558fe53d116dfb5e730ab8963f419e148c2495a4f62e"
+      "size": 4983,
+      "sha256": "0e11bb6a4eb3d93822387501b651c0edaeb647637af2003605cea364d14249bc"
     },
     {
       "path": "after-the-rain/scenes/stories/stories.tscn",
@@ -1758,6 +1768,16 @@
       "sha256": "33fb66737f781392254607d4aab7aae35c57bf6125fb232648510f6c5bf0e67a"
     },
     {
+      "path": "after-the-rain/scripts/radio_dial.gd",
+      "size": 649,
+      "sha256": "18c3f749670a0a44a1bd6ba9688c98be1905f8eb137e5411f04cd0916482731e"
+    },
+    {
+      "path": "after-the-rain/scripts/radio_dial.gd.uid",
+      "size": 19,
+      "sha256": "efa54f9a42136114801a0a752aa9e025e01a633bf26e024ee43eeb452a255c50"
+    },
+    {
       "path": "after-the-rain/scripts/rain.gd",
       "size": 3059,
       "sha256": "460702b56af75e3c8c914119455eacf80df20362d81fd637100d8a06cbdc29aa"
@@ -1809,8 +1829,8 @@
     },
     {
       "path": "after-the-rain/scripts/story_corner.gd",
-      "size": 3136,
-      "sha256": "a1d1042f5bf3d75d9a99846fefaac559a9277bef31276216b65ec4f5a4ce5d3b"
+      "size": 3359,
+      "sha256": "c55e6f3e03f02b9d0e15fd4301f4fe22111b29edd8aa32b9f508340a7407b263"
     },
     {
       "path": "after-the-rain/scripts/story_corner.gd.uid",
@@ -1829,8 +1849,8 @@
     },
     {
       "path": "after-the-rain/scripts/story_radio.gd",
-      "size": 2096,
-      "sha256": "2d4de1f7f839f3f9ab9ed8c8649e9f22cfd12de288a3fa3f5edd69ce71a032dd"
+      "size": 2213,
+      "sha256": "653de63244e36174f082bc5971fbec98ed397b116e3a802169d8ba1a2d11894d"
     },
     {
       "path": "after-the-rain/scripts/story_radio.gd.uid",
@@ -2111,6 +2131,16 @@
       "path": "after-the-rain/tests/player_cup_isolation.gd.uid",
       "size": 20,
       "sha256": "487ec08880b19e12854e0f530d05cb87eb8e79d8deb6b471a5d370e299658160"
+    },
+    {
+      "path": "after-the-rain/tests/radio_dial.gd",
+      "size": 5014,
+      "sha256": "53d2f777f5db541ded1df6f47daff4575a5203115362c68eabc820882854a856"
+    },
+    {
+      "path": "after-the-rain/tests/radio_dial.gd.uid",
+      "size": 19,
+      "sha256": "fcb37c5014ab3a15ef594d1a5f208566607c9692f0d6d6038a9df452cd6346f9"
     },
     {
       "path": "after-the-rain/tests/reader_boarding_hint.gd",
