@@ -197,6 +197,7 @@ modulate = Color(0.82,0.89,0.83,1)
 outline_size = 6
 
 [node name="RefugeSign" type="Label3D" parent="."]
+double_sided = false
 
 position = Vector3(7,1.4,-4.45)
 

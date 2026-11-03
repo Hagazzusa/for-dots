@@ -46,3 +46,5 @@ Godot 4.6.x Standard에서 `project.godot`을 열고 F5를 누르세요. Windows
 쉼터 유리의 기본 재질은 Inspector에서 저장 Resource로 설정할 수 있습니다. 기본 외형과 유리판별 상태 격리는 유지합니다. [설정·검증·미리보기 한계](docs/REFUGE_GLASS_MATERIAL.md)
 
 작은 라디오의 전원 표시창도 현재 재구축본에서 복구했습니다. E로 켜면 호박색 창이 밝아지고, 끄면 원래 재질로 돌아갑니다. [라디오 다이얼 범위와 검증](docs/RADIO_DIAL.md).
+
+쉼터 입구의 외부 안내는 안쪽에서 좌우 반전되어 보이지 않도록 뒷면만 숨겼습니다. [범위와 검증](docs/REFUGE_SIGN.md).

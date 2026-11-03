@@ -289,8 +289,8 @@
     },
     {
       "path": "after-the-rain/README.md",
-      "size": 6877,
-      "sha256": "caadd4768781ecca98fc347c38a0c2964fab476cade88c4a9de514ebc83c99bf"
+      "size": 7033,
+      "sha256": "094cdc610a18b709387d8a7f117a9d22f3ebbe44a4ecc34967d2f192bec3ccc1"
     },
     {
       "path": "after-the-rain/RECOVERY.md",
@@ -1263,6 +1263,11 @@
       "sha256": "274dbd911655e033f754f46b145f3208fa3ae4b175e2997589f3db1ed152737f"
     },
     {
+      "path": "after-the-rain/docs/REFUGE_SIGN.md",
+      "size": 2514,
+      "sha256": "a7a80d9efd2cd10bc2f175080f0512d3886664c638c3b0c737b872ea481474cb"
+    },
+    {
       "path": "after-the-rain/liquid_cup.gd",
       "size": 4559,
       "sha256": "1ad5f35d9e5c48a6f106acec79486ae7bcf7c33b5b71a246a9dfa23d84001337"
@@ -1399,8 +1404,8 @@
     },
     {
       "path": "after-the-rain/scenes/neighborhood_extension.tscn",
-      "size": 5284,
-      "sha256": "5d1485ca836712c28e0c9aa070192aa9c94c5eabaf446c59b9bbec4d11d2e72c"
+      "size": 5305,
+      "sha256": "5ee957f5a82e81f6758e715b303303a75ca28c5242697d23a1a79d7617bfe905"
     },
     {
       "path": "after-the-rain/scenes/neighborhood_walk.tscn",
@@ -2406,6 +2411,16 @@
       "path": "after-the-rain/tests/refuge_seating.gd.uid",
       "size": 19,
       "sha256": "59e8f966305f18fcafc3611835fa84d7c47a80ba937b9aad850af0324a848230"
+    },
+    {
+      "path": "after-the-rain/tests/refuge_sign.gd",
+      "size": 1462,
+      "sha256": "e556e4ccf272a42a57e3e5a5ab56331907c3c4fc87e01a2cad9b716272179e3b"
+    },
+    {
+      "path": "after-the-rain/tests/refuge_sign.gd.uid",
+      "size": 20,
+      "sha256": "d3cd36485f6a80c8e5781abca980e5a17fe80477bf2cf2f38f15c32ad0979cf6"
     },
     {
       "path": "after-the-rain/tests/refuge_texture.gd",
