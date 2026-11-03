@@ -1,0 +1,48 @@
+{
+  "svg_XML_reopened": true,
+  "elements": {
+    "svg": 1,
+    "title": 1,
+    "desc": 1,
+    "defs": 1,
+    "linearGradient": 2,
+    "stop": 4,
+    "rect": 3,
+    "path": 67,
+    "g": 2,
+    "ellipse": 4,
+    "circle": 1
+  },
+  "references": [
+    "#night",
+    "#cloth"
+  ],
+  "external_references": 0,
+  "embedded_images": 0,
+  "scripts": 0,
+  "rendered_text_or_fonts": 0,
+  "private_path_tokens_found": false,
+  "final_dimensions": [
+    1800,
+    1400
+  ],
+  "independent_repeat_identical_pixels": true,
+  "independent_repeat_identical_bytes": true,
+  "inkscape_version": "Inkscape 1.4 (e7c3feb100, 2024-10-09)",
+  "pngs": [
+    {
+      "file": "market_scale_final.png",
+      "removed_text_chunks": 1,
+      "identical_IDAT": true,
+      "identical_pixels": true,
+      "sha256": "51e2a1a4ce7856f10e806f1ca1548f6c403ece1250050d08a9cfa97b4f98aad5"
+    },
+    {
+      "file": "market_scale_draft.png",
+      "removed_text_chunks": 1,
+      "identical_IDAT": true,
+      "identical_pixels": true,
+      "sha256": "5e46e6dc869620d990bea0e5c19fcc7678151e5fb12ff40f3243980bdfe940a7"
+    }
+  ]
+}

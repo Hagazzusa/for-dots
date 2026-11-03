@@ -9,6 +9,7 @@
 
 | 프로젝트 | 시작 안내 | 실행 환경 |
 |---|---|---|
+| **저울을 덮어 둔 밤** — 시장길 셔터 앞 저울과 접어 둔 천 | [편집 가능한 SVG·재현](market-scale/README.md) · [PNG 이미지](market-scale/market_scale_final.png) | Python 표준 라이브러리와 Inkscape **1.4**. 직접 작성한 벡터 정물이며 새 과일가게는 동반 상상입니다. 생성형 이미지·게임 구현·측정 장치 설계가 아닙니다. |
 | **돌아온 수레 · Returned Cart** — 작업실 처마 아래 빈 적재면과 풀린 끈 | [편집 가능한 장면·제작 과정](returned-cart/README.md) · [실제 렌더](returned-cart/renders/returned_cart_final.png) | Blender **4.3.2**, Cycles CPU. 기존 동네에 연결한 새 동반 상상이며 게임 통합·운반 장치 설계·실물 안전 검증이 아닙니다. |
 | **다음 정거장 · Next Stop** — 08번 귀갓길을 잇는 가상 종이 승차권 | [편집 가능한 SVG·글꼴 안내](next-stop/README.md) · [PNG 이미지](next-stop/next_stop.png) | Inkscape **1.4**, Noto Sans CJK KR. 글꼴은 미포함이며 PNG는 설치 없이 볼 수 있습니다. 실제 교통권이나 게임의 발권 기능이 아닙니다. |
 | **돌아올 페이지 · Returning Page** — 책 사이에 남긴 황동 창의 가상 책갈피 | [편집 가능한 CAD·재현](returning-page/README.md) · [실제 렌더](returning-page/renders/returning_page_final.png) | FreeCAD **1.0** → STEP/메시 → Blender **4.3.2**. 직접 만든 형상이며 실물 제조·모서리 안전·책 호환성 검증이 아닙니다. |

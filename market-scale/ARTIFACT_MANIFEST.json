@@ -1,0 +1,51 @@
+{
+  "title": "저울을 덮어 둔 밤",
+  "scope": "Explicit public allowlist; work files, earlier drafts, caches, logs and receipts excluded.",
+  "files": [
+    {
+      "path": "README.md",
+      "bytes": 3505,
+      "sha256": "08335e73632dc15f6d9e700aa284ce846f9bdf43997e0cd948d4c8b24aa74bed"
+    },
+    {
+      "path": "build.py",
+      "bytes": 5847,
+      "sha256": "349530c3fc0d88cab9378f596f15713205f8913019ef6caa348589f49b0795b0"
+    },
+    {
+      "path": "market_scale.svg",
+      "bytes": 6425,
+      "sha256": "29c2261214be34d7a669afdbc7fbb13c1f2c2e17f724ac13bd723c9926ea7e8d"
+    },
+    {
+      "path": "market_scale_final.png",
+      "bytes": 102550,
+      "sha256": "51e2a1a4ce7856f10e806f1ca1548f6c403ece1250050d08a9cfa97b4f98aad5"
+    },
+    {
+      "path": "market_scale_draft.png",
+      "bytes": 47352,
+      "sha256": "5e46e6dc869620d990bea0e5c19fcc7678151e5fb12ff40f3243980bdfe940a7"
+    },
+    {
+      "path": "validation.json",
+      "bytes": 1096,
+      "sha256": "24b025b17d9235bc950ef91f7028803085af330814437fe4a9021c7293ac3a1a"
+    },
+    {
+      "path": "provenance.json",
+      "bytes": 1045,
+      "sha256": "1403261134c70eb5ff7f7112b4b264cdd7f3d0a5507fd7992b1d9e6a04e70d37"
+    },
+    {
+      "path": "verify_bundle.py",
+      "bytes": 784,
+      "sha256": "d7768346fcc2904400a9d20d5ac6005f40f68a21ac6c21e502137b7632ae5a72"
+    },
+    {
+      "path": "PUBLIC_ALLOWLIST.txt",
+      "bytes": 175,
+      "sha256": "07f63f0b1362ad83df713b86dba668c24ac7d96875b8e2b355819f261ceee2cc"
+    }
+  ]
+}

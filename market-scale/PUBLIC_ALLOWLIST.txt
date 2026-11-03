@@ -1,0 +1,10 @@
+README.md
+build.py
+market_scale.svg
+market_scale_final.png
+market_scale_draft.png
+validation.json
+provenance.json
+verify_bundle.py
+ARTIFACT_MANIFEST.json
+PUBLIC_ALLOWLIST.txt

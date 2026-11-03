@@ -9,8 +9,8 @@
     },
     {
       "path": "GALLERY.md",
-      "size": 10961,
-      "sha256": "34e0a971e91b5d5fcb944cde827c805fff9806d58d674f76072607af62a0194a"
+      "size": 11638,
+      "sha256": "7c6b153b8c6ed83a45ee3b5485b4a5c38f6c4637bc5e8fe30d3ab777a44bac62"
     },
     {
       "path": "GIT_ENVIRONMENT_CHECK.md",
@@ -19,8 +19,8 @@
     },
     {
       "path": "README.md",
-      "size": 16620,
-      "sha256": "0732fd165c4b2e27a2ce58aaa8683938ea285381299d840424f73e57fec09320"
+      "size": 17024,
+      "sha256": "f75f225889ccfa156ad63a40f193bd18e16a781254471d6fe22352ecd746d73e"
     },
     {
       "path": "a-place-for-rain/.gitignore",
@@ -3246,6 +3246,56 @@
       "path": "glass-refuge/renders/06_structural_inspection.mp4",
       "size": 333768,
       "sha256": "9dbf41557936526c0e4d02c94e38a5d0505bdaa35b98f48d10cf645f68e51eef"
+    },
+    {
+      "path": "market-scale/ARTIFACT_MANIFEST.json",
+      "size": 1523,
+      "sha256": "cc5bfac6dc3bca8408b3f851f329b05c0c1075265ab5680af4f4326ba4f973a1"
+    },
+    {
+      "path": "market-scale/PUBLIC_ALLOWLIST.txt",
+      "size": 175,
+      "sha256": "07f63f0b1362ad83df713b86dba668c24ac7d96875b8e2b355819f261ceee2cc"
+    },
+    {
+      "path": "market-scale/README.md",
+      "size": 3505,
+      "sha256": "08335e73632dc15f6d9e700aa284ce846f9bdf43997e0cd948d4c8b24aa74bed"
+    },
+    {
+      "path": "market-scale/build.py",
+      "size": 5847,
+      "sha256": "349530c3fc0d88cab9378f596f15713205f8913019ef6caa348589f49b0795b0"
+    },
+    {
+      "path": "market-scale/market_scale.svg",
+      "size": 6425,
+      "sha256": "29c2261214be34d7a669afdbc7fbb13c1f2c2e17f724ac13bd723c9926ea7e8d"
+    },
+    {
+      "path": "market-scale/market_scale_draft.png",
+      "size": 47352,
+      "sha256": "5e46e6dc869620d990bea0e5c19fcc7678151e5fb12ff40f3243980bdfe940a7"
+    },
+    {
+      "path": "market-scale/market_scale_final.png",
+      "size": 102550,
+      "sha256": "51e2a1a4ce7856f10e806f1ca1548f6c403ece1250050d08a9cfa97b4f98aad5"
+    },
+    {
+      "path": "market-scale/provenance.json",
+      "size": 1045,
+      "sha256": "1403261134c70eb5ff7f7112b4b264cdd7f3d0a5507fd7992b1d9e6a04e70d37"
+    },
+    {
+      "path": "market-scale/validation.json",
+      "size": 1096,
+      "sha256": "24b025b17d9235bc950ef91f7028803085af330814437fe4a9021c7293ac3a1a"
+    },
+    {
+      "path": "market-scale/verify_bundle.py",
+      "size": 784,
+      "sha256": "d7768346fcc2904400a9d20d5ac6005f40f68a21ac6c21e502137b7632ae5a72"
     },
     {
       "path": "mended-corner/.gitignore",
