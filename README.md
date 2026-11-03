@@ -93,3 +93,5 @@ python3 tools/test_check_public_assets.py
 [소품의 의미가 실제 화면에서 읽히는지 확인하기](docs/readable-props/README.md): 기하 검증과 시각적 의미 해석을 구분하는 관찰·체크리스트입니다.
 
 [차 안의 시선 판독 연구](car-gaze-study/README.md): 작은 고개 회전이 보이는 것과 누구를 보는지 읽히는 것을 구분한 비채택 시제품·문헌 검토입니다. 관찰자 검사는 아직 제안 단계입니다.
+
+[도시에서 강변으로 · 창밖 공간 연구](river-window-study/README.md): 건물 가림이 풀리는 24초 독립 씬과 비채택 물 표현의 실제 화면입니다. 게임의 경로·결말에 통합하지 않았습니다.

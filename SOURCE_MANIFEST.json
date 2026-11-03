@@ -19,8 +19,8 @@
     },
     {
       "path": "README.md",
-      "size": 19207,
-      "sha256": "e2d85afdf4a35b3c8e4e775cf3b9166a7f640b40c361a2edbdaa0d80ced280cd"
+      "size": 19444,
+      "sha256": "2c128e75a6d21bd9a019a7c24e81e6dd56423abc1550a5ca645f983bf50bf06d"
     },
     {
       "path": "WORLD_CONNECTIONS.md",
@@ -4666,6 +4666,81 @@
       "path": "river-between-stops/verification.json",
       "size": 627,
       "sha256": "4a2dd5fa84dd4a49715e1535a7517b7e3aa00e071ff6927849072e5721180c9a"
+    },
+    {
+      "path": "river-window-study/.gitignore",
+      "size": 27,
+      "sha256": "6cddad0edb8716f6d7f3a4539a75b80e18d474d8e1a5b7056ec51f68cbe87504"
+    },
+    {
+      "path": "river-window-study/ARTIFACT_MANIFEST.json",
+      "size": 2233,
+      "sha256": "ee8826566530c825f51136199c30d5aaef755bb37739a883306334b296984421"
+    },
+    {
+      "path": "river-window-study/README.md",
+      "size": 5210,
+      "sha256": "afe83109e0c08d8dff615dcbd5ec0dcd63e624c6bd37fd1262e62e272dc6b9ba"
+    },
+    {
+      "path": "river-window-study/build_scene.py",
+      "size": 3134,
+      "sha256": "79e935d40344e56869709be1522cd9d920b308f87f44ae90c94c8418c1c55fe2"
+    },
+    {
+      "path": "river-window-study/evidence/raised-marks.jpg",
+      "size": 53238,
+      "sha256": "90095012cec17062accc95698abd237171b5a1831f772df7f6c876892fb8fba1"
+    },
+    {
+      "path": "river-window-study/evidence/start.jpg",
+      "size": 47884,
+      "sha256": "cdb62f16a0101a11b88b4c224e6d83774f93e755d14810998ea12c98a44f1801"
+    },
+    {
+      "path": "river-window-study/evidence/submerged-marks.jpg",
+      "size": 52831,
+      "sha256": "6cdcd2db0b1eaf6875fe5a994f8e91501723cc8a9a4e3982ea82318a1bbbb998"
+    },
+    {
+      "path": "river-window-study/evidence/transition.jpg",
+      "size": 51765,
+      "sha256": "e577ca00c6a55030d6e27adf054efd4c38c7b51890f1d283861ffde8c3e63da5"
+    },
+    {
+      "path": "river-window-study/main.tscn",
+      "size": 15076,
+      "sha256": "9b1f84ac76c9c489c9f1a39bf93274ce7616c8645c6ceb7540b3b23255f9da51"
+    },
+    {
+      "path": "river-window-study/project.godot",
+      "size": 246,
+      "sha256": "6116e91fdbc98b77880af6ff18f64c3c3adc3cd00afc123f1d5870f150bb1002"
+    },
+    {
+      "path": "river-window-study/study.gd",
+      "size": 924,
+      "sha256": "d23f77013102decab356a1acb6d8364df06854482a6c5666596dd5caeda440bf"
+    },
+    {
+      "path": "river-window-study/study.gd.uid",
+      "size": 19,
+      "sha256": "8de51ef93bcc5d07bb6136daf0c977b4cee4edaab28adc0bc672db2306c8c1ca"
+    },
+    {
+      "path": "river-window-study/test_study.gd",
+      "size": 1248,
+      "sha256": "a35186cbb694da86ed90f6d0affd48af2e2df1f86c3337dd88ae97621d557359"
+    },
+    {
+      "path": "river-window-study/variants/contrast.tscn",
+      "size": 15076,
+      "sha256": "4b3aa7ad6398661f66eed1bc0d3d8ecd04d728a16f09b3c1fe895041d2c204d3"
+    },
+    {
+      "path": "river-window-study/variants/initial.tscn",
+      "size": 15043,
+      "sha256": "f490d0fafde8527bdc585ecf52c3511e42b905160e129952236c46bdf1ebd742"
     },
     {
       "path": "second-cup-film/.gitignore",
