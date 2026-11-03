@@ -1,0 +1,21 @@
+{
+  "only_scene_input_changed": "World Gaussian center Normal.z +0.43 -> -0.43",
+  "actual_belt_center_elevation_degrees": 25.46756014247237,
+  "sample_count": 512,
+  "new_weight_range": [
+    0.3693610326207754,
+    0.99999942271517
+  ],
+  "old_weight_range": [
+    7.790100821869827e-64,
+    5.2952388000586776e-46
+  ],
+  "pre_render_check": "Normal=-ray_D; peak is now above horizon at elevation asin(.43), no changes to colors, strength, material, camera, seed, exposure or sample settings",
+  "original_native_sha256": "e09f1fc154d956859ce804e035c3d6f77d39263a5052c10a4f2d9e04cfe344fc",
+  "render": [
+    600,
+    400,
+    32,
+    59
+  ]
+}

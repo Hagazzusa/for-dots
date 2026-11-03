@@ -1,0 +1,57 @@
+{
+  "source_sha256_before": "0fdff87d12562c3da3cfa8edd14bcdb706e2d7dd507cd3b63e8e1296c777b8ff",
+  "source_sha256_after": "0fdff87d12562c3da3cfa8edd14bcdb706e2d7dd507cd3b63e8e1296c777b8ff",
+  "source_unchanged": true,
+  "sampling": "512 surface positions, center-to-edge radii 0.1..0.8. Geometric ray targets, not pixel contributions. Hidden frame geometry may still be included in scene ray_cast; report excludes no hits manually.",
+  "reflection_targets": {
+    "World": 460,
+    "반사용 창틀의 짧은 세로 조각": 15,
+    "낮고 닳은 연석": 36,
+    "반사용 창틀의 짧은 가로 조각": 1
+  },
+  "world_hit_elevation_range_deg": [
+    21.357257309578,
+    30.505780017060392
+  ],
+  "world_hit_cloud_mix_range": [
+    0.36936096482694425,
+    0.9999994228548976
+  ],
+  "world": "Entire-direction sky radiance mix: RGB .18/.30/.48 to 1.5/1.55/1.6; Gaussian of world direction Z, center .43 sigma .055. Stylized cloud layer, not measured sky.",
+  "floor": "Procedural RGB .16/.17/.17 to .31/.29/.25, inner multiplier .6 changed to .9; roughness .43 unchanged. Actual shader input not rendered luminance.",
+  "changed": [
+    "World replaced by directional soft cloud-layer sky",
+    "Sun energy 1.6 -> 0",
+    "Two frame fragments hidden from render",
+    "Inner ground color multiplier .6 -> .9",
+    "Exposure 0 -> +1",
+    "DOF disabled",
+    "24 adaptive samples -> fixed32, same seed59"
+  ],
+  "unchanged": [
+    "water geometry/IOR1.333/roughness.035",
+    "ground basin8mm depth and shoreline geometry",
+    "camera transform/lens",
+    "curb/leaf geometry"
+  ],
+  "scope": "Exploratory combined composition, not isolated causal experiment or optical certification.",
+  "corrected_reflection_targets": {
+    "World": 476,
+    "낮고 닳은 연석": 36
+  },
+  "corrected_world_elevation_range_deg": [
+    21.357257309578,
+    30.505780017060392
+  ],
+  "corrected_cloud_mix_range": [
+    0.36936096482694425,
+    0.9999994228548976
+  ],
+  "ray_correction": "Read-only native reopen; render-hidden frame objects removed in memory before ray test. Native not saved. Initial scene.ray_cast included hidden frames; use corrected targets.",
+  "invalid_preflight_claim": "Positive-direction cloud weights were based on incorrect mapping; NOT actual World shader values. Normal=-ray_direction.",
+  "actual_shader_cloud_mix_bounds": [
+    7.79011809252657e-64,
+    5.2952487436218595e-46
+  ],
+  "implementation_error": "World Texture Coordinate Normal is -ray_D. Bright belt was below horizon. Source reviewed after single draft; no rerender."
+}

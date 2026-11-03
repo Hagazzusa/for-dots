@@ -19,8 +19,8 @@
     },
     {
       "path": "README.md",
-      "size": 17835,
-      "sha256": "c253da1492b388598a93d7569924dcfa529a83c8b5bb4b94b883324a8e0f298d"
+      "size": 18252,
+      "sha256": "9a3a37c77f41cbf1f8eb9769ed9fbe434df820868dca4ac905ecd20dac3b64f3"
     },
     {
       "path": "a-place-for-rain/.gitignore",
@@ -2561,6 +2561,81 @@
       "path": "beside-you/waveform.svg",
       "size": 95520,
       "sha256": "8753dadd70a8e5fca8e24e8cc492c0e75b2aad9e5e6586387af9165fe38295a2"
+    },
+    {
+      "path": "cloud-sign-study/ARTIFACT_MANIFEST.json",
+      "size": 2217,
+      "sha256": "6afdff9e39b7aca63d9aeffbd8287b3a7270690b4df28e465f5d8b36127f528e"
+    },
+    {
+      "path": "cloud-sign-study/Cloud_Study.blend",
+      "size": 1344984,
+      "sha256": "e09f1fc154d956859ce804e035c3d6f77d39263a5052c10a4f2d9e04cfe344fc"
+    },
+    {
+      "path": "cloud-sign-study/Cloud_Study_Corrected_Sign.blend",
+      "size": 1344984,
+      "sha256": "60f8c925c151e8eefc029a35b0ec3762297c831492e2cf405d602e81532f15c6"
+    },
+    {
+      "path": "cloud-sign-study/README.md",
+      "size": 8133,
+      "sha256": "91e9b3ed3913ebb5cb0c9de2b6f02fb7e27a59129ce573ca419a4cb2466dd8b2"
+    },
+    {
+      "path": "cloud-sign-study/correct_sign.py",
+      "size": 2177,
+      "sha256": "14ccfceefe4875fb28874c0cde5717646200cb68e8bd7879c53b328eaebcc88a"
+    },
+    {
+      "path": "cloud-sign-study/draft.png",
+      "size": 388432,
+      "sha256": "40187afb1517da01bc77b110ed8ae2494d51da5f5b4dca83de78e04582d6ff8b"
+    },
+    {
+      "path": "cloud-sign-study/draft_corrected_sign.png",
+      "size": 434797,
+      "sha256": "3278463fe36845867255a7e740fb3b56cd6bcd6f319d0fcae6674cf061cd2458"
+    },
+    {
+      "path": "cloud-sign-study/measure_pixels.py",
+      "size": 1073,
+      "sha256": "6e7134811d546b0300748b258841309f612be907ee006377b1a661c6200f124c"
+    },
+    {
+      "path": "cloud-sign-study/pair_validation.json",
+      "size": 987,
+      "sha256": "3a8d3b7128d42645ee9d216edc31159ff4931339eafc3fd0dbccb340b8a66a9b"
+    },
+    {
+      "path": "cloud-sign-study/pixel_comparison.json",
+      "size": 519,
+      "sha256": "d6f58d24f5925c9c569b6f10a5cf6335e9ddbe0599319ac86ffa729c626126a8"
+    },
+    {
+      "path": "cloud-sign-study/preflight.json",
+      "size": 2563,
+      "sha256": "5cf5b97fd1e397b9490bc65fcd96e76288823d56d500e3b35414d21d8e80ef46"
+    },
+    {
+      "path": "cloud-sign-study/provenance.json",
+      "size": 3841,
+      "sha256": "2763b7bde4d2c97366c7db567203d44e880a8fe2abd0ac37c52e7cbe1bab3682"
+    },
+    {
+      "path": "cloud-sign-study/sign_comparison.png",
+      "size": 757946,
+      "sha256": "f93bd43ab66fb2334e52ff90f50c8154cf358c367309f0a9d08cf6f2d554febd"
+    },
+    {
+      "path": "cloud-sign-study/sign_correction_preflight.json",
+      "size": 645,
+      "sha256": "c182f9c2f878bbab74cb3417ad54e0e0a3d20e6a8d0673f3dbf4ba1e3a5d8798"
+    },
+    {
+      "path": "cloud-sign-study/verify_pair.py",
+      "size": 1749,
+      "sha256": "c45f9da1eba1b9f1dd8afa4f75581e3f71c8eb3d3ef27df8395f06334f80d2d2"
     },
     {
       "path": "docs/readable-props/CHECKLIST.md",

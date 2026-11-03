@@ -1,0 +1,29 @@
+{
+  "scope": "Post-hoc display PNG values, 0..255. Not linear radiometry, reflection fraction or significance.",
+  "rois": {
+    "water_center": {
+      "box": [
+        250,
+        195,
+        350,
+        245
+      ],
+      "mean_display_Y_before_after": [
+        93.10245056,
+        158.88237432
+      ]
+    },
+    "dry_foreground": {
+      "box": [
+        250,
+        335,
+        350,
+        375
+      ],
+      "mean_display_Y_before_after": [
+        104.07030835,
+        132.95644795
+      ]
+    }
+  }
+}

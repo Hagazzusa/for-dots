@@ -1,0 +1,48 @@
+{
+  "compared": "Recorded object transforms/mesh coordinates and faces/render hidden states, shader node types/inputs, world node inputs and listed render controls. Not exhaustive .blend proof.",
+  "changed_sections": [
+    "world"
+  ],
+  "changed_world_nodes": {
+    "Math": {
+      "before": {
+        "type": "ShaderNodeMath",
+        "operation": "SUBTRACT",
+        "inputs": [
+          [
+            "Value",
+            0.5
+          ],
+          [
+            "Value",
+            0.4300000071525574
+          ],
+          [
+            "Value",
+            0.5
+          ]
+        ]
+      },
+      "after": {
+        "type": "ShaderNodeMath",
+        "operation": "SUBTRACT",
+        "inputs": [
+          [
+            "Value",
+            0.5
+          ],
+          [
+            "Value",
+            -0.4300000071525574
+          ],
+          [
+            "Value",
+            0.5
+          ]
+        ]
+      }
+    }
+  },
+  "reopened_both": true,
+  "native_saved": false
+}
