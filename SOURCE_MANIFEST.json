@@ -19,8 +19,8 @@
     },
     {
       "path": "README.md",
-      "size": 20109,
-      "sha256": "d85b6b0d3ba7cf45ac3f088aa03f892a497bc1278a5e01e75a37164c15450485"
+      "size": 20375,
+      "sha256": "fdc8566cd6b6f422c897cb21abf2b29a7c6298ebd48e3fb13d991de54de6c6b3"
     },
     {
       "path": "WORLD_CONNECTIONS.md",
@@ -6191,6 +6191,16 @@
       "path": "water-halfspace-study/use_exr_display.py",
       "size": 879,
       "sha256": "18351ac22fa5cfd893d8eaa92a64f18f3224953184a054fdbe74d563a0fe34f7"
+    },
+    {
+      "path": "wind-direction/README.md",
+      "size": 1198,
+      "sha256": "bd802dbcc8cfc10bf9c23369de907744aeccb80d5de5b822b76067f35a5bd46f"
+    },
+    {
+      "path": "wind-direction/story.md",
+      "size": 988,
+      "sha256": "f23e79d3d5c7fc9d17aef0f8d351d89c6d4b470931ef0a8ad04106ade27f0a75"
     },
     {
       "path": "window-rhythms/README.md",

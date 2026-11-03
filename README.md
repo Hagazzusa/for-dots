@@ -98,3 +98,7 @@ python3 tools/test_check_public_assets.py
 [도시에서 강변으로 · 창밖 공간 연구](river-window-study/README.md): 건물 가림이 풀리는 24초 독립 씬과 비채택 물 표현의 실제 화면입니다. 게임의 경로·결말에 통합하지 않았습니다.
 
 [창밖 강변 판독 · 세 독립 대안](river-window-alternatives/README.md): 먼 강둑 윤곽, 수면 명도, 빛 표식을 각각 비교했으나 게임 통합은 보류한 연구입니다.
+
+## 짧은 동반 이야기
+
+[바람의 방향](wind-direction/README.md): 비와 히터 사이에서 말없이 머무는 두 사람을 그린 짧은 소설입니다. 관계를 확정하지 않는 독립 상상이며 게임 설정·동작을 덧쓰지 않습니다.
