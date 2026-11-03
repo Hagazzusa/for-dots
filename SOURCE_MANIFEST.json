@@ -9,8 +9,8 @@
     },
     {
       "path": "GALLERY.md",
-      "size": 10260,
-      "sha256": "7d2d7c43ba126e8c09ea228328ec01ff409cc53f76f834124e7d28b4eb05692e"
+      "size": 10961,
+      "sha256": "34e0a971e91b5d5fcb944cde827c805fff9806d58d674f76072607af62a0194a"
     },
     {
       "path": "GIT_ENVIRONMENT_CHECK.md",
@@ -19,8 +19,8 @@
     },
     {
       "path": "README.md",
-      "size": 16229,
-      "sha256": "1ae7f7809eabea65b542092e5c0db98a3ee26baef63fa8ba3a9cde3acd94d00b"
+      "size": 16620,
+      "sha256": "0732fd165c4b2e27a2ce58aaa8683938ea285381299d840424f73e57fec09320"
     },
     {
       "path": "a-place-for-rain/.gitignore",
@@ -4301,6 +4301,76 @@
       "path": "rain-clock/verify.py",
       "size": 984,
       "sha256": "c97813b58abec48ad200577cd1ba720633c30675e5a953e22e0ba7d3caf476b2"
+    },
+    {
+      "path": "returned-cart/ARTIFACT_MANIFEST.json",
+      "size": 2166,
+      "sha256": "a6139b9815c670fc61b697d20cba5a952b8a0c617f5d3c408bcf0953d76023b0"
+    },
+    {
+      "path": "returned-cart/PUBLIC_ALLOWLIST.txt",
+      "size": 268,
+      "sha256": "8f8b69e89377ea364de6b5a8f3a6e84c7f90cddf6e0c7d004fd90bedbdb0f80b"
+    },
+    {
+      "path": "returned-cart/README.md",
+      "size": 4009,
+      "sha256": "034ffc9c34371fdd2f005ed7d76ebd71d1725364dd40e69ae9d6fee1053ee94c"
+    },
+    {
+      "path": "returned-cart/Returned_Cart.blend",
+      "size": 1196456,
+      "sha256": "97d2b21b58b77712820cc0dcb59b3a62e2cf24fe49d0c5998e568febae4c6eb9"
+    },
+    {
+      "path": "returned-cart/audit.py",
+      "size": 3161,
+      "sha256": "6d3857fe6ac64070da2fff825fc8d6e9e5b9b4a6935a4fc33ae9d31fb2c8be2e"
+    },
+    {
+      "path": "returned-cart/build.py",
+      "size": 7591,
+      "sha256": "0ddf30d96e2f75161285fdd61f5bfd59b5fe38f6c96ed1f6c06439fa55b33d3a"
+    },
+    {
+      "path": "returned-cart/metadata_validation.json",
+      "size": 806,
+      "sha256": "0a5b60e84b5b3ce968dc8877692201fd198dbcfbdc9ae0dcc0b557a9e962f8bb"
+    },
+    {
+      "path": "returned-cart/native_validation.json",
+      "size": 2214,
+      "sha256": "5840e1e791d8b18f5d06abc40b115699618d92b0de2b4f91f8cc7b0cd80e5fc4"
+    },
+    {
+      "path": "returned-cart/provenance.json",
+      "size": 991,
+      "sha256": "79ccc965b452314e469aec317fe012a3b28f0524a72db29d8ca891d5860e242f"
+    },
+    {
+      "path": "returned-cart/renders/draft.png",
+      "size": 1271371,
+      "sha256": "f4ef6220468a918580dc627d3e81af72fdf0a2d43f82f66cc8a579519b2bbcc6"
+    },
+    {
+      "path": "returned-cart/renders/returned_cart_final.png",
+      "size": 1910630,
+      "sha256": "78a56f2bb7eb69158e7d8f426c5a77863079941802a26c48c10f80b4a473f8c0"
+    },
+    {
+      "path": "returned-cart/strip_png_metadata.py",
+      "size": 1462,
+      "sha256": "4aa8d47ac32d23dba4f42ef16d249c9eca33d1ced88d3fe95cebe25d9a655ad2"
+    },
+    {
+      "path": "returned-cart/verify_bundle.py",
+      "size": 910,
+      "sha256": "89cef352d70c2aa48f170b8ba5cb5d8e041070683f3b8e0426f80c8e53e518ce"
+    },
+    {
+      "path": "returned-cart/visual_validation.json",
+      "size": 773,
+      "sha256": "a8e7c22f7eb2396386a98b08c7b4a9d622b5084fe5a595e1ea3fbaab28602ead"
     },
     {
       "path": "returning-page/ARTIFACT_MANIFEST.json",

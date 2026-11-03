@@ -1,0 +1,7 @@
+{
+  "inspected": ["returned_cart_draft.png", "renders/returned_cart_final.png"],
+  "final_resolution": [1200, 933],
+  "review": "Actual final pixels inspected and parent visually approved. Empty cart bed, open asymmetric ribbon ends, closed workshop door and space between rear wheel and step remain readable. Stylized geometry and restrained night lighting, not a real photograph.",
+  "known_limits": "One ribbon end is partly occluded by the handle. Fabric, tire deformation and rain are not simulated. Fine render noise remains. Contact checks are bounded, not exhaustive.",
+  "changes_after_approved_draft": "Resolution and sample count only; composition, props, materials and lights retained. PNG text metadata subsequently stripped with identical IDAT and pixels."
+}

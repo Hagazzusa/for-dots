@@ -1,0 +1,57 @@
+{
+  "native_reopened": true,
+  "finite_evaluated_vertices": true,
+  "zero_area_faces": 0,
+  "evaluated_meshes": 86,
+  "evaluated_vertices": 8580,
+  "external_file_references": [],
+  "private_absolute_path_token_counts": {
+    "/workspace/": 0,
+    "/home/": 0,
+    "/tmp/": 0
+  },
+  "relative_render_path": "//renders/returned_cart_final.png",
+  "wheel_bottom_ray_samples": [
+    {
+      "name": "Wheel",
+      "bottom_z_mm": 8.500008843839169,
+      "underlying_center_surface": "Individual paving slab.009",
+      "center_ray_gap_mm": -9.313225746154785e-07,
+      "interpretation": "Centerline-only sample; a center over a grout gap is not whole-tire separation. Adjacent footprint not exhaustively tested."
+    },
+    {
+      "name": "Wheel.001",
+      "bottom_z_mm": 8.500008843839169,
+      "underlying_center_surface": "Individual paving slab.010",
+      "center_ray_gap_mm": -9.313225746154785e-07,
+      "interpretation": "Centerline-only sample; a center over a grout gap is not whole-tire separation. Adjacent footprint not exhaustively tested."
+    },
+    {
+      "name": "Wheel.002",
+      "bottom_z_mm": 8.500008843839169,
+      "underlying_center_surface": "Paving foundation",
+      "center_ray_gap_mm": 8.500038646161556,
+      "interpretation": "Centerline-only sample; a center over a grout gap is not whole-tire separation. Adjacent footprint not exhaustively tested."
+    },
+    {
+      "name": "Wheel.003",
+      "bottom_z_mm": 8.500008843839169,
+      "underlying_center_surface": "Paving foundation",
+      "center_ray_gap_mm": 8.500038646161556,
+      "interpretation": "Centerline-only sample; a center over a grout gap is not whole-tire separation. Adjacent footprint not exhaustively tested."
+    }
+  ],
+  "nominal_rear_wheel_step_clearance_mm": 128.5,
+  "strap": "One manually modeled open ribbon mesh; no cloth simulation. Tiny contact offsets not globally certified.",
+  "render": {
+    "resolution": [
+      1200,
+      933
+    ],
+    "samples": 128,
+    "engine": "Cycles CPU",
+    "threads": 2,
+    "denoising": false
+  },
+  "limits": "Finite sampled geometry checks, not an exhaustive collision proof, mechanical design, tire deformation, transport load or safety validation."
+}
