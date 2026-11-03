@@ -1,0 +1,29 @@
+{
+  "files": [
+    {
+      "path": "README.md",
+      "size": 7970,
+      "sha256": "6dead011a6d91a82eb252f5a015d67e84e9c06fae9f95eb76db028579254c001"
+    },
+    {
+      "path": "evidence/rest.jpg",
+      "size": 90009,
+      "sha256": "03649df5f5f815531aba59f075175eb3c767c0056ecf3a76cb9f82a27ee979a5"
+    },
+    {
+      "path": "evidence/turned.jpg",
+      "size": 90962,
+      "sha256": "7bd16321db20f0e573b97db2b33c1503acdc87842cc4855813cf9d6e59bae0b2"
+    },
+    {
+      "path": "prototype.patch",
+      "size": 3380,
+      "sha256": "422516a879ffdb3e89302c98cec2699b622c2743865473c5cfd7f7feace261cc"
+    },
+    {
+      "path": "provenance.json",
+      "size": 765,
+      "sha256": "385375ce441d8b652e14aa355148487379abd49a52bfa9edff075821d1a6fa94"
+    }
+  ]
+}

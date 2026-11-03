@@ -19,8 +19,8 @@
     },
     {
       "path": "README.md",
-      "size": 18538,
-      "sha256": "d55c2d1ecc8bc7bf61dd8893394ac18cc587bbb4852d3b4c0d4399433ccd2a89"
+      "size": 18784,
+      "sha256": "4b5819fde5fe729a3b52a98cdb32c8fc65f4e7687d3168d06dd3611ad9b74340"
     },
     {
       "path": "WORLD_CONNECTIONS.md",
@@ -2566,6 +2566,36 @@
       "path": "beside-you/waveform.svg",
       "size": 95520,
       "sha256": "8753dadd70a8e5fca8e24e8cc492c0e75b2aad9e5e6586387af9165fe38295a2"
+    },
+    {
+      "path": "car-gaze-study/ARTIFACT_MANIFEST.json",
+      "size": 766,
+      "sha256": "fa3782c4f63051872b1a1e92b25e494616a4618272410f240314cb6295c11c3e"
+    },
+    {
+      "path": "car-gaze-study/README.md",
+      "size": 7970,
+      "sha256": "6dead011a6d91a82eb252f5a015d67e84e9c06fae9f95eb76db028579254c001"
+    },
+    {
+      "path": "car-gaze-study/evidence/rest.jpg",
+      "size": 90009,
+      "sha256": "03649df5f5f815531aba59f075175eb3c767c0056ecf3a76cb9f82a27ee979a5"
+    },
+    {
+      "path": "car-gaze-study/evidence/turned.jpg",
+      "size": 90962,
+      "sha256": "7bd16321db20f0e573b97db2b33c1503acdc87842cc4855813cf9d6e59bae0b2"
+    },
+    {
+      "path": "car-gaze-study/prototype.patch",
+      "size": 3380,
+      "sha256": "422516a879ffdb3e89302c98cec2699b622c2743865473c5cfd7f7feace261cc"
+    },
+    {
+      "path": "car-gaze-study/provenance.json",
+      "size": 765,
+      "sha256": "385375ce441d8b652e14aa355148487379abd49a52bfa9edff075821d1a6fa94"
     },
     {
       "path": "cloud-sign-study/ARTIFACT_MANIFEST.json",

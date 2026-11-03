@@ -1,0 +1,26 @@
+{
+  "base_commit": "18460b31e7a2215186c0def77c76488c62840800",
+  "engine": "Godot 4.6.3 Compatibility / llvmpipe",
+  "capture": "Native application window screenshots, no desktop capture",
+  "window_pixels": [
+    1180,
+    812
+  ],
+  "sequence_frame_count": 150,
+  "sequence_duration_ms": 28845,
+  "published_frames": [
+    {
+      "path": "evidence/rest.jpg",
+      "sequence_index": 0,
+      "relative_capture_ms": 0
+    },
+    {
+      "path": "evidence/turned.jpg",
+      "sequence_index": 20,
+      "relative_capture_ms": 3946
+    }
+  ],
+  "integration": "Not integrated; qualitative visibility trial only",
+  "observer_study": "Not performed; proposal only",
+  "image_processing": "No edits, crops, metadata stripping or rescaling in published screenshots"
+}

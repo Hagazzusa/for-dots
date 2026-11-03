@@ -1,0 +1,79 @@
+diff --git a/after-the-rain/scenes/parked_car.tscn b/after-the-rain/scenes/parked_car.tscn
+index 7509cdb..eb17ca3 100644
+--- a/after-the-rain/scenes/parked_car.tscn
++++ b/after-the-rain/scenes/parked_car.tscn
+@@ -753,33 +753,36 @@ position = Vector3(0, 1.255, -0.005)
+ mesh = SubResource("Mesh70")
+ material_override = SubResource("SkinA")
+ 
+-[node name="Head" type="MeshInstance3D" parent="Driver"]
+-position = Vector3(0, 1.41, -0.012)
++[node name="HeadPivot" type="Node3D" parent="Driver"]
++position = Vector3(0, 1.255, -0.005)
++
++[node name="Head" type="MeshInstance3D" parent="Driver/HeadPivot"]
++position = Vector3(0, 0.155, -0.007)
+ mesh = SubResource("Mesh71")
+ material_override = SubResource("SkinA")
+ 
+-[node name="Hair" type="MeshInstance3D" parent="Driver"]
+-position = Vector3(0, 1.505, 0.015)
++[node name="Hair" type="MeshInstance3D" parent="Driver/HeadPivot"]
++position = Vector3(0, 0.25, 0.02)
+ mesh = SubResource("Mesh72")
+ material_override = SubResource("Hair")
+ 
+-[node name="Nose" type="MeshInstance3D" parent="Driver"]
+-position = Vector3(0, 1.405, -0.143)
++[node name="Nose" type="MeshInstance3D" parent="Driver/HeadPivot"]
++position = Vector3(0, 0.15, -0.138)
+ mesh = SubResource("Mesh73")
+ material_override = SubResource("SkinA")
+ 
+-[node name="LeftEye" type="MeshInstance3D" parent="Driver"]
+-position = Vector3(-0.045, 1.442, -0.122)
++[node name="LeftEye" type="MeshInstance3D" parent="Driver/HeadPivot"]
++position = Vector3(-0.045, 0.187, -0.117)
+ mesh = SubResource("Mesh74")
+ material_override = SubResource("Hair")
+ 
+-[node name="RightEye" type="MeshInstance3D" parent="Driver"]
+-position = Vector3(0.045, 1.442, -0.122)
++[node name="RightEye" type="MeshInstance3D" parent="Driver/HeadPivot"]
++position = Vector3(0.045, 0.187, -0.117)
+ mesh = SubResource("Mesh75")
+ material_override = SubResource("Hair")
+ 
+-[node name="HairBun" type="MeshInstance3D" parent="Driver"]
+-position = Vector3(0, 1.47, 0.118)
++[node name="HairBun" type="MeshInstance3D" parent="Driver/HeadPivot"]
++position = Vector3(0, 0.215, 0.123)
+ mesh = SubResource("Mesh76")
+ material_override = SubResource("Hair")
+ 
+diff --git a/after-the-rain/scripts/neighborhood_extension.gd b/after-the-rain/scripts/neighborhood_extension.gd
+index d48b45f..c4b51a3 100644
+--- a/after-the-rain/scripts/neighborhood_extension.gd
++++ b/after-the-rain/scripts/neighborhood_extension.gd
+@@ -62,6 +62,13 @@ func advance(delta:float)->void:
+  if shutting_down or not enabled or not is_finite(delta):return
+  if heater.stream and not heater.playing:heater.play()
+  elapsed+=maxf(delta,0.0)
++ # Isolated visibility prototype: short head turn, driven by existing local elapsed.
++ var phase:=fmod(elapsed,24.0)
++ var turn:=0.0
++ if phase>=18.0 and phase<19.2:turn=smoothstep(18.0,19.2,phase)
++ elif phase>=19.2 and phase<20.2:turn=1.0
++ elif phase>=20.2 and phase<21.4:turn=1.0-smoothstep(20.2,21.4,phase)
++ $ParkedCar/Driver/HeadPivot.rotation.y=deg_to_rad(-25.0)*turn
+  # Tiny seated breathing, not conversation, driving or a new occupant.
+  $ParkedCar/Driver.position.y=sin(elapsed*1.05)*0.003
+  $ParkedCar/Passenger.position.y=sin(elapsed*0.92+0.8)*0.003
+@@ -71,6 +78,7 @@ func set_active(value:bool)->void:
+ func reset()->void:
+  if shutting_down:return
+  elapsed=0.0
++ $ParkedCar/Driver/HeadPivot.rotation.y=0.0
+  enabled=true
+  $ParkedCar/Driver.position.y=0
+  $ParkedCar/Passenger.position.y=0
