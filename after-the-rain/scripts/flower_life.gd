@@ -11,9 +11,15 @@ signal caption_requested(text: String)
 @onready var visual: Node3D = $Visual
 @onready var arm: Node3D = $Visual/WaveArm
 @onready var work_arm: Node3D = $Visual/WorkArm
+@onready var work_sleeve: MeshInstance3D = $Visual/WorkArm/Sleeve
+@onready var work_hand: MeshInstance3D = $Visual/WorkArm/Hand
+@onready var bouquet_wrap: MeshInstance3D = $PreparedBouquet/Wrapping
+var _sleeve_rest: Transform3D
+var _hand_rest: Transform3D
 @onready var paper_fold: Node3D = $PreparedBouquet/PaperFold
 @export_range(0.0, 1.4) var wrap_reach_radians := 0.9
 @export_range(0.0, 0.3) var paper_press_radians := 0.18
+@onready var pickup: Node3D = $FlowerPickup
 @onready var head: Node3D = $Visual/Head
 var state := "idle"
 var elapsed := 0.0
@@ -23,15 +29,23 @@ var _materials: Array[StandardMaterial3D] = []
 var _colors: Array[Color] = []
 
 func _ready() -> void:
+	_sleeve_rest = work_sleeve.transform
+	_hand_rest = work_hand.transform
 	for mesh in visual.find_children("*","MeshInstance3D",true,false):
 		var material: StandardMaterial3D = mesh.material_override.duplicate()
 		material.transparency = BaseMaterial3D.TRANSPARENCY_ALPHA
 		mesh.material_override = material
 		_materials.append(material)
 		_colors.append(material.albedo_color)
+	var pieces: Array[Node3D] = [$PreparedBouquet/Wrapping, $PreparedBouquet/PaperFold, $PreparedBouquet/Flowers]
+	pickup.initialize(pieces)
 	reset()
 
 func reset() -> void:
+	pickup.reset_night()
+	reset_visit()
+
+func reset_visit() -> void:
 	state = "idle"
 	elapsed = 0.0
 	visit_finished = false
@@ -53,15 +67,23 @@ func request_wave() -> bool:
 func advance(delta: float, viewer_local_position: Vector3, reading_flower_note := false) -> void:
 	if not is_finite(delta) or not viewer_local_position.is_finite(): return
 	var distance := Vector2(viewer_local_position.x,viewer_local_position.z).length()
+	if pickup.active:
+		pickup.advance(delta)
+		_present()
+		return
 	if state == "done":
-		if distance > rearm_radius: reset()
+		if not pickup.completed and not reading_flower_note and distance <= notice_radius:
+			pickup.begin()
+			_present()
+			return
+		if distance > rearm_radius: reset_visit()
 		return
 	if state == "idle":
 		if distance > notice_radius: return
 		state = "dwell"
 		elapsed = 0.0
 	if state == "dwell" and distance > notice_radius:
-		reset()
+		reset_visit()
 		return
 	var remaining := maxf(delta,0.0)
 	# At most six finite states per visit: large injected deltas cannot loop forever.
@@ -77,7 +99,7 @@ func advance(delta: float, viewer_local_position: Vector3, reading_flower_note :
 		if elapsed + 0.0000001 < duration: break
 		elapsed = 0.0
 		match state:
-			"dwell": state = "work"
+			"dwell": state = "window" if pickup.completed else "work"
 			"work": state = "window"
 			"window", "wave": state = "leave"
 			"leave":
@@ -101,9 +123,15 @@ func _present() -> void:
 	arm.rotation.z = 0.0
 	head.rotation.z = 0.0
 	work_arm.rotation.z = 0.0
+	work_sleeve.transform = _sleeve_rest
+	work_hand.transform = _hand_rest
 	work_arm.position = Vector3(-0.205,0.92,0)
 	paper_fold.rotation.z = 0.0
-	if state == "work":
+	if pickup.active:
+		visual.position.x = -0.35
+		_present_pickup_hand()
+		opacity = smoothstep(0.0,0.6,pickup.elapsed)*(1.0-smoothstep(pickup.duration()-1.2,pickup.duration(),pickup.elapsed))
+	elif state == "work":
 		opacity = smoothstep(0.0,0.6,elapsed)
 		visual.position.x = lerpf(-0.25,0.0,clampf(elapsed/maxf(work_seconds,0.01),0.0,1.0))
 		# One reach, small press, then release; no independent timer or looping tween.
@@ -129,3 +157,19 @@ func _present() -> void:
 		var color := _colors[i]
 		color.a *= opacity
 		_materials[i].albedo_color = color
+
+func _present_pickup_hand() -> void:
+	# A flat sleeve segment follows the wrapping, then releases only after receipt.
+	# This is authored silhouette staging, not anatomical IK or paper physics.
+	var release := smoothstep(pickup.approach_seconds+pickup.receive_seconds,
+		pickup.approach_seconds+pickup.receive_seconds+pickup.hold_seconds,pickup.elapsed)
+	var grip := visual.to_local(bouquet_wrap.to_global(Vector3(0.02,0.11,0.02)))
+	var rest_tip := work_arm.position + _hand_rest.origin
+	var target := grip.lerp(rest_tip,release)
+	var offset := Vector2(target.x-work_arm.position.x,target.y-work_arm.position.y)
+	var length := offset.length()
+	work_arm.position.z = target.z
+	work_arm.rotation.z = atan2(offset.x,-offset.y)
+	work_hand.position = Vector3(0,-length,0)
+	work_sleeve.position = Vector3(0,-length*.5,0)
+	work_sleeve.scale.y = length/0.34

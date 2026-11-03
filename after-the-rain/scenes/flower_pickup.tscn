@@ -1,0 +1,61 @@
+[gd_scene load_steps=8 format=3]
+[ext_resource type="Script" path="res://scripts/flower_pickup.gd" id="Script"]
+[sub_resource type="StandardMaterial3D" id="Coat"]
+albedo_color = Color(0.19, 0.22, 0.27, 1)
+roughness = 0.95
+[sub_resource type="StandardMaterial3D" id="Skin"]
+albedo_color = Color(0.48, 0.36, 0.27, 1)
+roughness = 0.9
+[sub_resource type="StandardMaterial3D" id="Hair"]
+albedo_color = Color(0.08, 0.07, 0.065, 1)
+roughness = 0.9
+[sub_resource type="BoxMesh" id="Body"]
+size = Vector3(0.34, 0.58, 0.04)
+[sub_resource type="SphereMesh" id="Head"]
+radius = 0.12
+height = 0.28
+radial_segments = 10
+rings = 5
+[sub_resource type="BoxMesh" id="Arm"]
+size = Vector3(0.30, 0.08, 0.045)
+[node name="FlowerPickup" type="Node3D"]
+script = ExtResource("Script")
+[node name="Arrival" type="Marker3D" parent="."]
+position = Vector3(0.44, 0, 0.025)
+[node name="Waiting" type="Marker3D" parent="."]
+position = Vector3(0.35, 0, 0.025)
+[node name="Exit" type="Marker3D" parent="."]
+position = Vector3(0.44, 0, 0.025)
+[node name="HeldOffset" type="Marker3D" parent="."]
+position = Vector3(0.43, 0.40, 0.025)
+[node name="Customer" type="Node3D" parent="."]
+visible = false
+[node name="Torso" type="MeshInstance3D" parent="Customer"]
+position = Vector3(0, 0.72, 0)
+mesh = SubResource("Body")
+material_override = SubResource("Coat")
+cast_shadow = 0
+[node name="Head" type="MeshInstance3D" parent="Customer"]
+position = Vector3(-0.02, 1.16, 0)
+scale = Vector3(1,1,0.2)
+mesh = SubResource("Head")
+material_override = SubResource("Skin")
+cast_shadow = 0
+[node name="Hair" type="MeshInstance3D" parent="Customer"]
+position = Vector3(0, 1.22, -0.015)
+scale = Vector3(1.05, 0.7, 0.23)
+mesh = SubResource("Head")
+material_override = SubResource("Hair")
+cast_shadow = 0
+[node name="ReceivingArm" type="MeshInstance3D" parent="Customer"]
+position = Vector3(-0.23, 0.95, 0.025)
+rotation = Vector3(0,0,-0.12)
+mesh = SubResource("Arm")
+material_override = SubResource("Coat")
+cast_shadow = 0
+[node name="Hand" type="MeshInstance3D" parent="Customer"]
+position = Vector3(-0.37, 0.97, 0.045)
+scale = Vector3( 0.28, 0.25, 0.14)
+mesh = SubResource("Head")
+material_override = SubResource("Skin")
+cast_shadow = 0

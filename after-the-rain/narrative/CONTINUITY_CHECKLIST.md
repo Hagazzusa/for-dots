@@ -8,6 +8,7 @@
 - [ ] 원래의 단서 여덟 개와 상태 기록을 모두 보존합니다. 초안의 동작을 배포된 애니메이션으로 바꾸어 표기하지 않습니다.
 - [ ] 이름을 정하지 않은 휴일, 23:40 시작, 반복 운행하는 평범한 08번 노선, 승객의 Market Street 목적지를 유지합니다.
 - [ ] 꽃집의 휴무와 늦은 수령 약속을 함께 보존합니다. 주인의 물러남/손인사가 영업 재개나 수령 완료를 뜻해서는 안 됩니다.
+- [ ] 꽃 수령은 첫 방문의 인사 기회 뒤 한 밤에 한 번만 보입니다. 관련 쪽지가 열려 있으면 시작을 미루되 버스/시계를 멈추지 않습니다. 재방문은 완료를 유지하고 새 밤만 꽃다발을 복원합니다.
 - [ ] 소보로, 바삭한 윗부분에 대한 기억, 집에서 준비하는 차, 빗물로 가려진 시야를 보존합니다. 배우자 설명을 의무화하거나 새 질문 목록을 더하지 않습니다.
 - [ ] 차 안의 성인은 정확히 두 명으로 유지합니다. 카드의 관계 단서는 선택 사항입니다. 플레이어의 탑승, 대화, 운전, 세 번째 탑승자는 없습니다.
 - [ ] 원본 콘셉트의 출처와 실제 파생 GLB의 정체성을 보존합니다. Blender/Cycles와의 동일성이나 원본 전체 풍경이 게임에 들어갔다고 주장하지 않습니다.
@@ -29,5 +30,5 @@
 
 아래 경로는 이 문서의 한 단계 위인 `after-the-rain/` 프로젝트 루트를 기준으로 합니다.
 
-`config/story_{passenger,flower,car,refuge}.tres`; `scenes/neighborhood_extension.tscn`; `scripts/neighborhood_extension.gd`, `glass_refuge.gd`, `flower_life.gd`, `waiting_passenger.gd`, `umbrella_exchange.gd`, `onboard_companion.gd`; `art/build_parked_car.py`; `assets/refuge/README.md`; `WORLD_EXPANSION.md`.
-관련 회귀 검증 범위: `tests/world_expansion.gd`, `tests/refuge_seating.gd`, 승객/우산 수명 주기 테스트 묶음. 문서 검토만으로 코드 변경 후의 재실행을 대신할 수는 없습니다.
+`config/story_{passenger,flower,flower_pickup,flower_collected,car,refuge}.tres`; `scenes/neighborhood_extension.tscn`; `scripts/neighborhood_extension.gd`, `glass_refuge.gd`, `flower_life.gd`, `waiting_passenger.gd`, `umbrella_exchange.gd`, `onboard_companion.gd`; `art/build_parked_car.py`; `assets/refuge/README.md`; `WORLD_EXPANSION.md`.
+관련 회귀 검증 범위: `tests/flower_pickup.gd`, `tests/flower_pickup_integration.gd`, `tests/world_expansion.gd`, `tests/refuge_seating.gd`, 승객/우산 수명 주기 테스트 묶음. 문서 검토만으로 코드 변경 후의 재실행을 대신할 수는 없습니다.

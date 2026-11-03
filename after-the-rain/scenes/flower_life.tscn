@@ -1,5 +1,6 @@
-[gd_scene load_steps=27 format=3]
+[gd_scene load_steps=28 format=3]
 [ext_resource type="Script" path="res://scripts/flower_life.gd" id="Script"]
+[ext_resource type="PackedScene" path="res://scenes/flower_pickup.tscn" id="Pickup"]
 [sub_resource type="StandardMaterial3D" id="Coat"]
 albedo_color = Color(0.16, 0.21, 0.19, 1)
 roughness = 0.9
@@ -248,3 +249,5 @@ scale = Vector3(1, 1, 0.12)
 mesh = SubResource("FlowersMesh")
 material_override = SubResource("Petals")
 cast_shadow = 0
+
+[node name="FlowerPickup" parent="." instance=ExtResource("Pickup")]

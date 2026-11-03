@@ -13,6 +13,8 @@ func basket_available()->bool:
 @onready var rain_cover = $Neighborhood/FlowerWindow/RainCover
 @onready var flower = $Neighborhood/FlowerWindow/Interaction
 var flower_text = preload("res://config/story_flower.tres")
+var pickup_flower_text = preload("res://config/story_flower_pickup.tres")
+var collected_flower_text = preload("res://config/story_flower_collected.tres")
 func initialize(held_item:Node3D, reading_panel:CanvasLayer):
  umbrella=held_item
  panel=reading_panel
@@ -21,7 +23,7 @@ func initialize(held_item:Node3D, reading_panel:CanvasLayer):
 func _on_caption(text:String):
  note_requested.emit(text,5.0)
 func advance(delta:float,viewer_position:Vector3,lull:float):
- var reading_flower_note:bool = panel != null and panel.is_open and not panel.suspended and panel.current_story == flower_text
+ var reading_flower_note:bool = panel != null and panel.is_open and not panel.suspended and panel.current_story in [flower_text,pickup_flower_text,collected_flower_text]
  flower_life.advance(delta,flower_life.to_local(viewer_position),reading_flower_note)
  cat.advance(delta,lull)
 func life_target(camera:Camera3D,viewer_position:Vector3)->String:
@@ -50,7 +52,7 @@ func try_interact(camera:Camera3D,viewer_position:Vector3)->bool:
   borrowed=umbrella.held
   return true
  if aimed(camera,viewer_position,flower.global_position):
-  panel.open_story(flower_text)
+  panel.open_story(collected_flower_text if flower_life.pickup.completed else (pickup_flower_text if flower_life.pickup.active else flower_text))
   return true
  return false
 func reset():

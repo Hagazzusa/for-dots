@@ -563,7 +563,7 @@ cast_shadow = 0
 
 [node name="HandwrittenNote" type="Label3D" parent="FlowerWindow"]
 position = Vector3(1.25, 1.76, 0.099)
-text = "Closed for rain.\nBack tomorrow.\nTake care."
+text = "Closed for the holiday.\nReserved pickup only.\nThe front light stays on."
 font_size = 28
 pixel_size = 0.00085
 outline_size = 0

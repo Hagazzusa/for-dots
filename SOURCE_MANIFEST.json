@@ -199,8 +199,8 @@
     },
     {
       "path": "after-the-rain/README.md",
-      "size": 5944,
-      "sha256": "2e036988f84b2379b60463bc9333289c1a0ab4aaa9751faf04907489c32d4927"
+      "size": 6262,
+      "sha256": "82d735f6b3ed02b6a70857bc525eef7031bdee583a6857f59800c7d223b291d3"
     },
     {
       "path": "after-the-rain/RECOVERY.md",
@@ -1068,6 +1068,16 @@
       "sha256": "8d43a741bb0917bc3a4fb186a82db2fa1c8aff7ffaef842c004e0a467fd080ab"
     },
     {
+      "path": "after-the-rain/config/story_flower_collected.tres",
+      "size": 421,
+      "sha256": "4a800a1cb159277a28052f788cc14fcecedecd6a319f18e3a698246c1724e068"
+    },
+    {
+      "path": "after-the-rain/config/story_flower_pickup.tres",
+      "size": 421,
+      "sha256": "29726a9d0ec6c08be414ac639666a49fe13ead4987ff85b06a5c7f176b37734f"
+    },
+    {
       "path": "after-the-rain/config/story_loan_offer.tres",
       "size": 698,
       "sha256": "20ac09f956da65fd5e1524f820cabe52640710ce5a5bd7ee8483a455f391be05"
@@ -1128,6 +1138,11 @@
       "sha256": "73423ac0890e8ad51b1644edebbbcc6bafb6d58ab0a6bb32b1d9a84f2252579a"
     },
     {
+      "path": "after-the-rain/docs/FLOWER_PICKUP.md",
+      "size": 4953,
+      "sha256": "6e71e6c5013c7f6c905c1c08384ae240a5786a2a8bca2359c4da573938356262"
+    },
+    {
       "path": "after-the-rain/docs/FLOWER_READING.md",
       "size": 2967,
       "sha256": "24cae9b20db0c290a0b4a7b13e306a7a93ed0f754b6cee1eaf57c616fce54752"
@@ -1154,13 +1169,13 @@
     },
     {
       "path": "after-the-rain/narrative/CONTINUITY_CHECKLIST.md",
-      "size": 4114,
-      "sha256": "6584d8d7754c11f5979c71ca97222bba9a6bd79225cefa3a43d697eddd5829d1"
+      "size": 4469,
+      "sha256": "dbe5f99b20b644a248e69c8fdcf2cdae0cdcc77f8465979aac04040b16ab8dcc"
     },
     {
       "path": "after-the-rain/narrative/WORLD_BIBLE.md",
-      "size": 9919,
-      "sha256": "b0cb58537b963949497517d2509085952df558334eabcaf62b07bbcb52ed823d"
+      "size": 10486,
+      "sha256": "bd8d7fed1d44ef6804f9bb357377149cdb41bf4c17ab39f5924a6bad87ced46f"
     },
     {
       "path": "after-the-rain/project.godot",
@@ -1244,8 +1259,13 @@
     },
     {
       "path": "after-the-rain/scenes/flower_life.tscn",
-      "size": 6995,
-      "sha256": "fde52647cb03648a3cbcb5e04f0e71378be84751ba4958783910e40840c3f4ab"
+      "size": 7150,
+      "sha256": "9b4a4b8691b13b882401a97588a005c8171e04fcfd25cfeb15508cfe1e812adc"
+    },
+    {
+      "path": "after-the-rain/scenes/flower_pickup.tscn",
+      "size": 2185,
+      "sha256": "335a973194f0405bef5ba9700a0d29557a5716469028dfe333ece03b65975ec7"
     },
     {
       "path": "after-the-rain/scenes/held_drink.tscn",
@@ -1269,8 +1289,8 @@
     },
     {
       "path": "after-the-rain/scenes/neighborhood_walk.tscn",
-      "size": 15854,
-      "sha256": "9e3ef7023e21bfcdaeccefb224ab93d97d775e8ec58218fff1def07ea61e28ac"
+      "size": 15883,
+      "sha256": "beb457ed23eb76270e77461882145531e73a364c9dc674246e859e31d46deec1"
     },
     {
       "path": "after-the-rain/scenes/night_bus.tscn",
@@ -1504,8 +1524,8 @@
     },
     {
       "path": "after-the-rain/scripts/exploration.gd",
-      "size": 3153,
-      "sha256": "16668d0bd1e0358db193f9964d54ab25e545201f848dc56186e391443c4d6361"
+      "size": 3464,
+      "sha256": "83bfbf42289fdf884fbf399182b7d3d4c6cb4e6878c4758b85c74aa958bc3a4b"
     },
     {
       "path": "after-the-rain/scripts/exploration.gd.uid",
@@ -1514,13 +1534,23 @@
     },
     {
       "path": "after-the-rain/scripts/flower_life.gd",
-      "size": 4515,
-      "sha256": "a1a2d76b6d3d6cd1a8eda912aa90c2df017ced6dd301f3afdbb09ae3e512f0c2"
+      "size": 6446,
+      "sha256": "7424ba79aab733cefd3161626f240bb1eaf21cd5a58ead5a3506b6a7fb648e8f"
     },
     {
       "path": "after-the-rain/scripts/flower_life.gd.uid",
       "size": 20,
       "sha256": "0dc0a99319777dead6c6ffe5887d7a9b1d14a032eef2a304aad99bd97106d1bf"
+    },
+    {
+      "path": "after-the-rain/scripts/flower_pickup.gd",
+      "size": 3347,
+      "sha256": "db02d8b1194bf55246986e93befa3af564276b64ac3208da84559e7a52a45142"
+    },
+    {
+      "path": "after-the-rain/scripts/flower_pickup.gd.uid",
+      "size": 19,
+      "sha256": "3460dae8546a7fb127e19cc3c750e30d8b4ea8593c63e1c6dea80670b0ff9947"
     },
     {
       "path": "after-the-rain/scripts/glass_refuge.gd",
@@ -1898,6 +1928,26 @@
       "sha256": "bf86de90fbe37ecf4b2437fb0784ccc8ba26c144ab1960ec62bc1a9411d014e0"
     },
     {
+      "path": "after-the-rain/tests/flower_pickup.gd",
+      "size": 4628,
+      "sha256": "582dc5c4e71bf8a3bf5cb8a6f8d6abcc3904c44689eac81fba82c18611dcc559"
+    },
+    {
+      "path": "after-the-rain/tests/flower_pickup.gd.uid",
+      "size": 20,
+      "sha256": "f314c021902587141a8477af0fd7bb3511253185474d7f8a22efeb87d1baf347"
+    },
+    {
+      "path": "after-the-rain/tests/flower_pickup_integration.gd",
+      "size": 5157,
+      "sha256": "693f146179a41a792095ec040227706877054552e7d1820277937a3214dd304c"
+    },
+    {
+      "path": "after-the-rain/tests/flower_pickup_integration.gd.uid",
+      "size": 20,
+      "sha256": "6bc562527a9d2878bb003c893a16b7c45b7df3575358a552644a238b3d242693"
+    },
+    {
       "path": "after-the-rain/tests/flower_reading.gd",
       "size": 4512,
       "sha256": "f45455864841c0c81cb6e684249bdbf58c25040c79a85546a95f776586969afc"
@@ -2019,8 +2069,8 @@
     },
     {
       "path": "after-the-rain/tests/recovery_flower_cat.gd",
-      "size": 5624,
-      "sha256": "2089dfb43463ca65bb5205a87a206f62d0d824624f95f7ab661520eadce22ad2"
+      "size": 5859,
+      "sha256": "11ed0cc49b9610bd2b388da75f411d200e637c1f0ec6878a96f85b84378c343f"
     },
     {
       "path": "after-the-rain/tests/recovery_flower_cat.gd.uid",
