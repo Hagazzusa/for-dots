@@ -251,3 +251,6 @@ material_override = SubResource("Petals")
 cast_shadow = 0
 
 [node name="FlowerPickup" parent="." instance=ExtResource("Pickup")]
+
+[node name="FrontPlane" type="Marker3D" parent="."]
+position = Vector3(0, 0, -0.065)

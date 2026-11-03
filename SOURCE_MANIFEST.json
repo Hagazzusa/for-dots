@@ -1139,8 +1139,8 @@
     },
     {
       "path": "after-the-rain/docs/FLOWER_PICKUP.md",
-      "size": 4953,
-      "sha256": "6e71e6c5013c7f6c905c1c08384ae240a5786a2a8bca2359c4da573938356262"
+      "size": 6944,
+      "sha256": "cb98889b9343ad76c17959d2dd20428fc7601c953cd134860caa04c6e5694969"
     },
     {
       "path": "after-the-rain/docs/FLOWER_READING.md",
@@ -1259,8 +1259,8 @@
     },
     {
       "path": "after-the-rain/scenes/flower_life.tscn",
-      "size": 7150,
-      "sha256": "9b4a4b8691b13b882401a97588a005c8171e04fcfd25cfeb15508cfe1e812adc"
+      "size": 7236,
+      "sha256": "7bdfabee60ea1e9043528af7bfdf6c7de369f749e714111ddeaae12dc6482467"
     },
     {
       "path": "after-the-rain/scenes/flower_pickup.tscn",
@@ -1524,8 +1524,8 @@
     },
     {
       "path": "after-the-rain/scripts/exploration.gd",
-      "size": 3464,
-      "sha256": "83bfbf42289fdf884fbf399182b7d3d4c6cb4e6878c4758b85c74aa958bc3a4b"
+      "size": 3821,
+      "sha256": "a8ab05a31ad4922f0436086d2221dff3e045daa67e2dc039c8aceaaca3fa3d61"
     },
     {
       "path": "after-the-rain/scripts/exploration.gd.uid",
@@ -1534,8 +1534,8 @@
     },
     {
       "path": "after-the-rain/scripts/flower_life.gd",
-      "size": 6446,
-      "sha256": "7424ba79aab733cefd3161626f240bb1eaf21cd5a58ead5a3506b6a7fb648e8f"
+      "size": 6845,
+      "sha256": "099796f25adbbb5b1f88e213d9427567c0cf3dba6e53e6fad0fb3d326a74b62d"
     },
     {
       "path": "after-the-rain/scripts/flower_life.gd.uid",
@@ -1926,6 +1926,16 @@
       "path": "after-the-rain/tests/fixtures/world_before.tscn",
       "size": 141616,
       "sha256": "bf86de90fbe37ecf4b2437fb0784ccc8ba26c144ab1960ec62bc1a9411d014e0"
+    },
+    {
+      "path": "after-the-rain/tests/flower_front.gd",
+      "size": 3488,
+      "sha256": "775c340625c6078e552bbddd871da6f665b9b1838efa11321dba4e554a3aa14e"
+    },
+    {
+      "path": "after-the-rain/tests/flower_front.gd.uid",
+      "size": 20,
+      "sha256": "2942d971675f167591a4dcf26ecbeea67bfdf2fa84fee8fa912971baaca83ac0"
     },
     {
       "path": "after-the-rain/tests/flower_pickup.gd",

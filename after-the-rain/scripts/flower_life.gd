@@ -8,6 +8,7 @@ signal caption_requested(text: String)
 @export var leave_seconds := 1.8
 @export var notice_radius := 3.2
 @export var rearm_radius := 4.2
+@onready var front_plane: Marker3D = $FrontPlane
 @onready var visual: Node3D = $Visual
 @onready var arm: Node3D = $Visual/WaveArm
 @onready var work_arm: Node3D = $Visual/WorkArm
@@ -52,6 +53,10 @@ func reset_visit() -> void:
 	waved = false
 	_present()
 
+func is_front_side(viewer_local_position: Vector3) -> bool:
+	# The saved plane matches the opaque facade front; +Z is the public approach.
+	return viewer_local_position.is_finite() and viewer_local_position.z >= front_plane.position.z
+
 func can_wave() -> bool:
 	return state == "window" and not waved
 
@@ -67,29 +72,30 @@ func request_wave() -> bool:
 func advance(delta: float, viewer_local_position: Vector3, reading_flower_note := false) -> void:
 	if not is_finite(delta) or not viewer_local_position.is_finite(): return
 	var distance := Vector2(viewer_local_position.x,viewer_local_position.z).length()
+	var in_front := is_front_side(viewer_local_position)
 	if pickup.active:
 		pickup.advance(delta)
 		_present()
 		return
 	if state == "done":
-		if not pickup.completed and not reading_flower_note and distance <= notice_radius:
+		if not pickup.completed and not reading_flower_note and in_front and distance <= notice_radius:
 			pickup.begin()
 			_present()
 			return
 		if distance > rearm_radius: reset_visit()
 		return
 	if state == "idle":
-		if distance > notice_radius: return
+		if not in_front or distance > notice_radius: return
 		state = "dwell"
 		elapsed = 0.0
-	if state == "dwell" and distance > notice_radius:
+	if state == "dwell" and (not in_front or distance > notice_radius):
 		reset_visit()
 		return
 	var remaining := maxf(delta,0.0)
 	# At most six finite states per visit: large injected deltas cannot loop forever.
 	for transition in range(6):
 		# Preserve only this visit's remaining greeting window, never the work/wave pose.
-		if state == "window" and not waved and reading_flower_note and distance <= notice_radius:
+		if state == "window" and not waved and reading_flower_note and in_front and distance <= notice_radius:
 			break
 		var duration := _duration()
 		if duration <= 0.0: break

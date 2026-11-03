@@ -28,8 +28,10 @@ func advance(delta:float,viewer_position:Vector3,lull:float):
  cat.advance(delta,lull)
 func life_target(camera:Camera3D,viewer_position:Vector3)->String:
  if cat.can_greet() and aimed(camera,viewer_position,cat.get_node("Interaction").global_position):return "cat"
- if flower_life.can_wave() and aimed(camera,viewer_position,flower_life.get_node("Interaction").global_position):return "flower"
+ if flower_front(camera,viewer_position) and flower_life.can_wave() and aimed(camera,viewer_position,flower_life.get_node("Interaction").global_position):return "flower"
  return ""
+func flower_front(camera:Camera3D,viewer_position:Vector3)->bool:
+ return camera != null and flower_life.is_front_side(flower_life.to_local(viewer_position)) and flower_life.is_front_side(flower_life.to_local(camera.global_position))
 func aimed(camera:Camera3D,viewer_position:Vector3,point:Vector3)->bool:
  return viewer_position.distance_to(point)<2.0 and (-camera.global_basis.z).dot((point-camera.global_position).normalized())>.88
 func hint(camera:Camera3D,viewer_position:Vector3)->String:
@@ -39,7 +41,7 @@ func hint(camera:Camera3D,viewer_position:Vector3)->String:
  if aimed(camera,viewer_position,basket.global_position):
   if not basket_available():return "우산은 승객에게 빌려주었다. 바구니는 비어 있다."
   return "[E] 우산 제자리에 두기" if borrowed else "[E] 함께 쓰는 우산 빌리기"
- if aimed(camera,viewer_position,flower.global_position):return "[E] 닫힌 꽃집의 작은 쪽지 읽기"
+ if flower_front(camera,viewer_position) and aimed(camera,viewer_position,flower.global_position):return "[E] 닫힌 꽃집의 작은 쪽지 읽기"
  return ""
 func try_interact(camera:Camera3D,viewer_position:Vector3)->bool:
  var target=life_target(camera,viewer_position)
@@ -51,7 +53,7 @@ func try_interact(camera:Camera3D,viewer_position:Vector3)->bool:
   else:umbrella.borrow()
   borrowed=umbrella.held
   return true
- if aimed(camera,viewer_position,flower.global_position):
+ if flower_front(camera,viewer_position) and aimed(camera,viewer_position,flower.global_position):
   panel.open_story(collected_flower_text if flower_life.pickup.completed else (pickup_flower_text if flower_life.pickup.active else flower_text))
   return true
  return false
