@@ -9,8 +9,8 @@
     },
     {
       "path": "GALLERY.md",
-      "size": 12369,
-      "sha256": "7b48e962bb9e79afa91456e38e8fe7842070844facc04af4c77cdd227de59ad3"
+      "size": 13128,
+      "sha256": "6dfd3d6f1118b101230df48e6064d6743e2e43dde82da82951cb4f142838bcc9"
     },
     {
       "path": "GIT_ENVIRONMENT_CHECK.md",
@@ -19,8 +19,8 @@
     },
     {
       "path": "README.md",
-      "size": 19642,
-      "sha256": "233c6737daf6a3bca57f508a33d248bd6ec035ac8ce0b0fc30655c4698208955"
+      "size": 20109,
+      "sha256": "d85b6b0d3ba7cf45ac3f088aa03f892a497bc1278a5e01e75a37164c15450485"
     },
     {
       "path": "WORLD_CONNECTIONS.md",
@@ -5656,6 +5656,36 @@
       "path": "soft-shadow-study/w0.9_gap1.5.png",
       "size": 128753,
       "sha256": "6af8c67b3be2f6ed3e4af561857f669bfa9c934791017bc1706f99b378f77970"
+    },
+    {
+      "path": "still-together/README.md",
+      "size": 3002,
+      "sha256": "af6e6e44eefffcd283faa48f542b063ddadb802c5f7fa7a8f358dfa42219b51a"
+    },
+    {
+      "path": "still-together/SHA256SUMS",
+      "size": 406,
+      "sha256": "0586eb25b3bc9f814541a270fe88c7ed32f9f0abc8edf935cb066e02108dc135"
+    },
+    {
+      "path": "still-together/render.sh",
+      "size": 242,
+      "sha256": "4c2f240a694ad783099fa53c85486a352dc3128138cfdac66225c10d3f405c07"
+    },
+    {
+      "path": "still-together/still_together.png",
+      "size": 174622,
+      "sha256": "75d8ed6f3fe634ff5a3cacfd1ce925428faab623d62292aaf7cf3fd0954b19bf"
+    },
+    {
+      "path": "still-together/still_together.svg",
+      "size": 4468,
+      "sha256": "40b55f5d59637b5749e686e90c9bb590acb1399f131453ebdbc23eecf1dc11d1"
+    },
+    {
+      "path": "still-together/verification.json",
+      "size": 796,
+      "sha256": "34a7771e410e87a84d332adf91f5dd2840fff83f69335b6329daeba161d5ce87"
     },
     {
       "path": "tea-material-study/.gitignore",

@@ -1,0 +1,27 @@
+{
+  "image_dimensions": [
+    3200,
+    2200
+  ],
+  "image_mode": "RGBA",
+  "png_chunk_types": [
+    "IDAT",
+    "IEND",
+    "IHDR",
+    "pHYs",
+    "tEXt"
+  ],
+  "png_text_metadata": {
+    "Software": "www.inkscape.org"
+  },
+  "png_exif_or_private_path_metadata": false,
+  "svg_external_resource_references": [],
+  "svg_internal_clip_references": [
+    "url(#glass)"
+  ],
+  "svg_font_text_nodes": [],
+  "private_path_or_secret_marker_scan": [],
+  "render_engine": "Inkscape 1.4",
+  "visual_review": "1200×825 수정 초안과 3200×2200 최종 PNG를 실제로 열어 검토했다. 외부 정면 관찰자 기준 오른쪽에 운전대가 있다.",
+  "scope": "직접 작성한 독립 벡터 상상. 사진, 게임 화면, 유리 굴절 또는 물리적 젖음 시뮬레이션이 아니다."
+}

@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1100" viewBox="0 0 1600 1100" role="img" aria-labelledby="title description">
+<title id="title">아직 출발하지 않은 밤</title>
+<desc id="description">비에 젖은 정차한 차의 앞유리 너머 두 사람의 단순한 실루엣과 약한 히터 표시등. 관계나 대사 없이 같은 공간에 머무는 독립적인 벡터 그림.</desc>
+<defs>
+<clipPath id="glass"><path d="M438 294Q455 268 491 267H1114Q1155 267 1171 296L1310 651H295Z"/></clipPath>
+</defs>
+<g id="night"><path fill="#293f4a" d="M0 0H1600V1100H0Z"/><path fill="#324c56" d="M0 773C423 752 1020 781 1600 754V1100H0Z"/></g>
+<g id="car-roof-and-pillars">
+<path fill="#6b8284" d="M407 283Q430 236 487 232H1126Q1180 236 1203 283L1373 697H225Z"/>
+<path fill="#314a53" d="M432 291Q448 259 488 258H1118Q1163 258 1180 291L1334 669H272Z"/>
+<path fill="#a1ada3" d="M453 251Q471 244 494 244H1111Q1136 245 1154 252H489Z"/>
+</g>
+<g id="interior" clip-path="url(#glass)">
+<path fill="#58727a" d="M280 264H1330V660H280Z"/>
+<path fill="#485e65" d="M300 318C581 301 988 302 1300 321V660H300Z"/>
+<!-- Seatbacks remain visually separate from heads and shoulders. -->
+<path fill="#667573" d="M454 504Q460 468 495 464H648Q675 466 685 498L709 640H432Z"/>
+<path fill="#667573" d="M913 493Q923 465 950 463H1096Q1132 464 1141 499L1161 640H892Z"/>
+<g id="left-person">
+<path fill="#293d45" d="M532 438L533 469Q493 480 475 508L451 603H715L685 515Q675 486 614 472L604 435Z"/>
+<path fill="#293d45" d="M521 380Q525 338 564 333Q600 328 620 356Q635 378 625 408L612 430Q599 449 576 450Q546 450 534 428Q521 410 521 380Z"/>
+<path fill="#536668" d="M537 469Q511 479 497 493L480 534L488 503Q511 481 537 478Z"/>
+<path fill="#354b52" d="M608 470Q649 480 667 499L689 561L679 562L655 506Q639 488 608 481Z"/>
+</g>
+<g id="right-person">
+<path fill="#2d4148" d="M995 440L991 472Q937 480 920 516L894 611H1175L1143 517Q1130 488 1069 472L1061 437Z"/>
+<path fill="#2d4148" d="M976 380Q976 341 1009 331Q1042 322 1065 342Q1084 357 1083 383L1077 421Q1064 449 1036 452Q1009 454 991 433L979 408Z"/>
+<path fill="#78817a" d="M1086 482Q1123 493 1131 514L1155 577L1147 578L1121 522Q1112 501 1086 494Z"/>
+<path fill="#3a5055" d="M990 475Q945 491 935 516L917 568L926 569L945 520Q960 493 990 486Z"/>
+</g>
+<g id="dashboard">
+<path fill="#374b50" d="M287 590C551 575 1072 576 1315 591V659H285Z"/>
+<path fill="#2b4047" d="M288 622C584 609 1055 609 1326 623V662H285Z"/>
+<ellipse cx="1034" cy="580" rx="81" ry="45" fill="none" stroke="#23363e" stroke-width="13"/>
+<path fill="#23363e" d="M1028 568H1042V616H1028Z"/>
+<path fill="#536565" d="M750 600H847V622H750Z"/>
+<path fill="#c9a975" d="M767 609H779V612H767ZM786 609H798V612H786ZM805 609H817V612H805Z"/>
+<path fill="#98866a" opacity=".45" d="M726 628Q793 615 865 629L880 640H713Z"/>
+</g>
+<g id="wet-glass" fill="none" stroke-linecap="round">
+<path stroke="#a3b8b8" opacity=".48" stroke-width="3" d="M477 298L465 337M686 291L673 346M843 281L834 314M1121 301L1114 337M397 432L383 482M1189 424L1181 455M807 381L793 425M739 460L731 490M1217 526L1206 569M348 564L339 594M865 518L858 543"/>
+<path stroke="#9cb1b3" opacity=".28" stroke-width="2" d="M581 296L573 318M483 379L474 414M649 424L641 455M924 309L917 336M1146 368L1138 394M1048 484L1040 507M692 533L687 554M438 529L433 550M971 569L967 587"/>
+<g fill="#b1c0be" stroke="none" opacity=".55"><ellipse cx="463" cy="344" rx="3" ry="5"/><ellipse cx="791" cy="432" rx="3" ry="5"/><ellipse cx="1180" cy="461" rx="3" ry="5"/><ellipse cx="732" cy="496" rx="2.5" ry="4"/><ellipse cx="857" cy="550" rx="3" ry="5"/></g>
+</g>
+</g>
+<g id="mirrors"><path fill="#577079" d="M248 581L192 570Q173 571 176 593L187 621L262 636Z"/><path fill="#577079" d="M1356 581L1412 570Q1431 571 1428 593L1417 621L1342 636Z"/></g>
+<g id="hood">
+<path fill="#6f8586" d="M291 650H1317L1405 872Q1410 897 1382 904H226Q198 897 203 872Z"/>
+<path fill="#617b7e" d="M284 672L234 866H1376L1324 672L1368 884H241Z"/>
+<path fill="#819594" d="M321 679H1287L1293 687H315Z"/>
+<path fill="#566f75" d="M226 904H1382L1364 941H244Z"/>
+<path fill="#29424d" d="M258 941H1348V956H258Z"/>
+</g>
+<g id="resting-wipers" fill="none" stroke="#253b45" stroke-width="8" stroke-linecap="round"><path d="M489 650L754 627"/><path d="M854 650L1115 626"/></g>
+<g id="hood-rain" stroke="#9badab" stroke-linecap="round" opacity=".38" stroke-width="3"><path d="M399 729L389 761M621 763L613 790M1048 714L1057 741M1207 798L1216 831M836 831L838 847"/></g>
+</svg>
