@@ -9,8 +9,8 @@
     },
     {
       "path": "GALLERY.md",
-      "size": 13128,
-      "sha256": "6dfd3d6f1118b101230df48e6064d6743e2e43dde82da82951cb4f142838bcc9"
+      "size": 13702,
+      "sha256": "a41503fa9ee324698a3844bd84e1f7d732bf95ce7d8cd1ca07618cc27b14fc67"
     },
     {
       "path": "GIT_ENVIRONMENT_CHECK.md",
@@ -19,8 +19,8 @@
     },
     {
       "path": "README.md",
-      "size": 20767,
-      "sha256": "3dff50c035ccf085b24fd000ca2f129bc8ddf777719289d8cc548affe9aae7a9"
+      "size": 21130,
+      "sha256": "cb5c2a76d43ab2b0882524b69e82ec0d546a4e6231f6b8b1e3e33e5caf328199"
     },
     {
       "path": "WORLD_CONNECTIONS.md",
@@ -4011,6 +4011,26 @@
       "path": "page-at-rest/visual_validation.json",
       "size": 761,
       "sha256": "a8bd216de020c27c5421f7c1e96aac171fbf7f4bc8c35648809ccf9ed57b3a49"
+    },
+    {
+      "path": "pixel-busstop/README.md",
+      "size": 1601,
+      "sha256": "03291eabca5d1de3b5885278015697a88bcab9006aa0eb6468aa4a203d6197ab"
+    },
+    {
+      "path": "pixel-busstop/busstop.png",
+      "size": 1604,
+      "sha256": "398c97d5c9636abd126e75dd3a423fc5b840112bb01273bca7eb84cefb82c69b"
+    },
+    {
+      "path": "pixel-busstop/busstop_6x.png",
+      "size": 5683,
+      "sha256": "90d7f9b8e7f4058ea3dbf384a42c5ef0987ebe80a29b61e94f686dfd53723157"
+    },
+    {
+      "path": "pixel-busstop/draw.py",
+      "size": 3955,
+      "sha256": "1f6953d040d22762a662ab3cd59c45c9e4cdfbdb8c44e5513662b603f8ebae5b"
     },
     {
       "path": "quiet-road-profile-study/.gitignore",
