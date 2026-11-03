@@ -9,6 +9,7 @@
 
 | 프로젝트 | 시작 안내 | 실행 환경 |
 |---|---|---|
+| **바람이 앉는 자리 · A Seat for Wind** — 열린 창과 빈 의자에 머무는 오후빛 | [편집 가능한 SVG·재현](a-seat-for-wind/README.md) · [PNG 이미지](a-seat-for-wind/a_seat_for_wind.png) | Inkscape로 직접 작성한 벡터 도형을 렌더합니다. 외부 이미지·폰트는 필요 없으며, 생성형 이미지나 Blender 렌더가 아닙니다. |
 | **볕이 돌아온 창턱 · Morning on the Sill** — 도자기 고양이와 부채꼴을 본뜬 낙엽의 아침 정물 | [작품·재현](morning-on-the-sill/README.md) · [세 가지 조명 비교](morning-on-the-sill/light-study/README.md) · [실제 렌더](morning-on-the-sill/renders/morning_on_the_sill_final.png) · [생성 콘셉트](morning-on-the-sill/reference/gpt_image_concept.png) | Blender **4.3.2**, PNG 검사에는 Pillow. 직접 만든 기하의 독립 작품이며 실제 도자기 제작·식물학적 복원·안전 검증이 아닙니다. |
 | **비가 머물 자리 · A Place for Rain** — 돌아오기 전 비를 받아 둘 가상 현관 | [작품·재현](a-place-for-rain/README.md) · [실제 렌더](a-place-for-rain/renders/a_place_for_rain_final.png) · [생성 콘셉트](a-place-for-rain/reference/gpt_image_concept.png) | Blender **4.3.2**, PNG 검사에는 Pillow. 빈 물받이·훅과 멀리 놓인 두 잔의 독립 정물이며 게임 통합·실물 건축·안전 검증이 아닙니다. |
 | **머무는 페이지 · A Page at Rest** — 두 곡면과 따뜻한 빛의 가상 조형물 | [제작·검증](page-at-rest/README.md) · [직접 돌려보는 3D 뷰어](page-at-rest-viewer/README.md) · [실제 렌더](page-at-rest/renders/a_page_at_rest_final.png) · [생성 콘셉트](page-at-rest/reference/gpt_image_concept.png) | FreeCAD **1.0.0** → Blender **4.3.2**, 독립 뷰어는 Godot **4.6.x Standard**. CAD는 받침·황동 지지부만 포함하며 전체 장면은 Blender 원본입니다. 전기·제조·안전 검증이 아닙니다. |

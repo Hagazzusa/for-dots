@@ -1,0 +1,71 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape" width="1600" height="1200" viewBox="0 0 1600 1200" role="img" aria-labelledby="title desc">
+  <title id="title">바람이 앉는 자리</title>
+  <desc id="desc">크림색 방의 열린 창, 옅은 파란 커튼 두 장, 빈 나무 의자와 바닥에 머무는 오후의 빛. 종이를 오려 겹친 듯한 조용한 벡터 그림.</desc>
+  <g id="room">
+    <path fill="#eee7d7" d="M0 0H1600V1200H0Z"/>
+    <path fill="#e3dac7" d="M0 888C484 884 1109 891 1600 886V1200H0Z"/>
+    <path fill="#cfc4ae" opacity=".33" d="M0 887H1600V892H0Z"/>
+  </g>
+  <g id="window-recess">
+    <path fill="#d6cebc" d="M469 243L1082 243V753L466 754Z"/>
+    <path fill="#f8f1df" d="M461 224H1064V736H461Z"/>
+    <path fill="#8cabb4" d="M484 246H1040V710H484Z"/>
+    <path fill="#b7c8c7" d="M484 246H1040V481C837 475 675 489 484 482Z"/>
+    <path fill="#a4b9bd" d="M484 477C645 461 822 505 1040 477V710H484Z"/>
+    <path fill="#8ea6a6" d="M484 651C634 629 687 660 800 641C905 623 964 634 1040 620V710H484Z"/>
+    <path fill="#d3c9b1" d="M484 246L504 267V710H484Z"/>
+    <path fill="#e9dfca" d="M484 246H1040L1021 265H504Z"/>
+    <path fill="#f4eddd" d="M749 246H765V710H749Z"/>
+    <!-- Open left casement: an intentionally simplified folded paper plane. -->
+    <path fill="#d9d5c3" d="M487 250L425 292V756L487 711Z"/>
+    <path fill="#a1b9bc" d="M477 269L438 300V730L477 702Z"/>
+    <path fill="#c2cfca" d="M477 269L438 300V458L477 447Z"/>
+    <path fill="#eeead9" d="M429 290L437 294V742L429 751Z"/>
+    <path fill="#8f9c96" d="M459 505L465 502V535L459 538Z"/>
+    <path fill="#c7baa0" d="M448 737L1078 737L1102 762H432Z"/>
+    <path fill="#f5eddb" d="M448 723L1067 723L1087 742H432Z"/>
+  </g>
+  <g id="sunlight">
+    <path fill="#e9d6a8" d="M489 763L1025 763L1264 888H688Z"/>
+    <path fill="#f4dfaa" d="M688 892L1264 892L1519 1133L831 1133Z"/>
+    <path fill="#e3dac7" d="M972 892L989 892L1190 1133H1165Z"/>
+    <path fill="#e3dac7" d="M779 1034L1414 1034L1422 1042H784Z"/>
+  </g>
+  <g id="curtain-rod">
+    <path fill="#b3aa96" d="M404 204Q405 199 412 199H1124Q1131 199 1131 204Q1131 209 1124 209H412Q405 209 404 204Z"/>
+  </g>
+  <g id="left-curtain-shadow" fill="#b8b4a4" opacity=".36">
+    <path d="M466 221L575 221C566 356 560 483 594 602C607 648 624 688 653 724C606 752 549 753 505 737C471 578 478 396 466 221Z"/>
+  </g>
+  <g id="left-curtain">
+    <path fill="#c8d7d5" d="M448 212L560 212C548 349 547 477 579 596C591 644 612 683 640 718C592 746 535 745 491 729C460 572 463 392 448 212Z"/>
+    <path fill="#e0e5dc" d="M448 212L481 212C484 384 478 565 514 732L491 729C460 572 463 392 448 212Z"/>
+    <path fill="#afc4c6" d="M522 212H537C525 402 536 582 603 733L583 737C525 580 512 401 522 212Z"/>
+    <path fill="#dbe2d8" d="M549 212H560C548 349 547 477 579 596C591 644 612 683 640 718L624 727C542 603 532 428 549 212Z"/>
+  </g>
+  <g id="right-curtain-shadow" fill="#b8b4a4" opacity=".31">
+    <path d="M1010 223H1113C1094 391 1096 550 1167 694C1150 711 1118 723 1084 719C1026 563 1010 387 1010 223Z"/>
+  </g>
+  <g id="right-curtain">
+    <path fill="#c8d7d5" d="M994 212H1100C1080 380 1081 539 1153 683C1136 700 1105 712 1070 708C1012 552 994 376 994 212Z"/>
+    <path fill="#e0e5dc" d="M994 212H1021C1019 407 1044 563 1091 709L1070 708C1012 552 994 376 994 212Z"/>
+    <path fill="#afc4c6" d="M1069 212H1085C1067 391 1090 576 1137 696L1123 702C1071 566 1053 399 1069 212Z"/>
+  </g>
+  <g id="chair-shadow">
+    <path fill="#9f947d" opacity=".30" d="M1031 1002L1155 980L1343 1092L1190 1103Z"/>
+    <path fill="#b9a884" opacity=".42" d="M1004 1008L1180 1017L1201 1038L1038 1032Z"/>
+  </g>
+  <g id="empty-chair">
+    <path fill="#947451" d="M1018 751L1034 749L1056 1018L1043 1021Z"/>
+    <path fill="#947451" d="M1145 747L1159 747L1172 990L1159 991Z"/>
+    <path fill="#af8959" d="M1013 755Q1011 745 1020 743L1148 735Q1157 734 1158 745L1160 801L1017 810Z"/>
+    <path fill="#c6a16c" d="M1026 753L1145 747L1147 788L1029 795Z"/>
+    <path fill="#d2b482" d="M1026 753L1145 747V754L1027 761Z"/>
+    <path fill="#8b6b49" d="M1035 889L1052 890L1044 1023L1030 1023Z"/>
+    <path fill="#9f7b50" d="M1165 883L1180 884L1191 1026L1176 1026Z"/>
+    <path fill="#b38c59" d="M1017 870L1156 858L1190 885L1040 900L1017 888Z"/>
+    <path fill="#d4b582" d="M1017 870L1156 858L1190 880L1039 893Z"/>
+    <path fill="#c5a16e" d="M1039 893L1190 880V890L1040 903Z"/>
+    <path fill="#a98456" d="M1047 960L1179 956L1180 964L1047 968Z"/>
+  </g>
+</svg>

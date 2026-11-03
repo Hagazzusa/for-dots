@@ -1,7 +1,7 @@
 # 잠깐 머무는 작은 세계
 
 비를 피하는 공간, 천천히 움직이는 빛, 길가의 빈 벤치.
-이미지와 짧은 영상으로 먼저 둘러볼 수 있는 열 작업을 골랐습니다.
+이미지와 짧은 영상으로 먼저 둘러볼 수 있는 열한 작업을 골랐습니다.
 편집 가능한 장면과 제작 소스는 각 작품의 안내에 함께 있습니다.
 
 세 정물을 이어 읽는 동반 그림책 [《비가 지나가는 동안》](quiet-storybook/README.md)도 있습니다. [3쪽 PDF로 읽기](quiet-storybook/While-the-Rain-Passes.pdf).
@@ -111,6 +111,16 @@
 [편집 가능한 장면·제작 소스와 검증](morning-on-the-sill/README.md) · [별도로 보존한 생성 콘셉트](morning-on-the-sill/reference/gpt_image_concept.png)
 
 위 이미지는 직접 만든 메시와 절차적 재질의 실제 Blender 렌더입니다. 생성 콘셉트 자체나 게임 화면이 아니며 미세한 렌더 입자가 남습니다. 실물 도자기 제작·식물학적 복원·제품 안전 검증을 뜻하지 않습니다.
+
+## 11. 바람이 앉는 자리 · A Seat for Wind
+
+열린 창과 푸른 커튼, 황토색 빈 의자 사이에 긴 오후빛을 놓았습니다. 종이를 오려 겹친 듯한 여백의 장면입니다.
+
+![바람이 앉는 자리 — 원본 SVG의 Inkscape 렌더](a-seat-for-wind/a_seat_for_wind.png)
+
+[편집 가능한 SVG·PNG와 재현 스크립트](a-seat-for-wind/README.md)
+
+위 이미지는 직접 작성한 벡터 도형을 Inkscape로 렌더한 그림입니다. 생성형 이미지나 Blender 3D 렌더가 아니며 외부 이미지·폰트·텍스처를 사용하지 않았습니다.
 
 ---
 
