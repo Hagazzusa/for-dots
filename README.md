@@ -13,6 +13,7 @@
 
 | 프로젝트 | 시작 안내 | 실행 환경 |
 |---|---|---|
+| **강이 지나가는 동안** — 창 가장자리 너머로 흐르는 밤의 강 | [벡터 원본·재현과 설정 범위](river-between-stops/README.md) · [PNG 이미지](river-between-stops/river_between_stops.png) | Inkscape **1.4**. 직접 작성한 SVG의 독립 동반 그림이며 외부 이미지·폰트는 없습니다. 게임 구현·특정 인물의 확정 동선·사실적 물 재현이 아닙니다. |
 | **환경 방향 부호 비교** — 물 풍경에 적용한 World 가우스 중심의 오류와 수정 | [관찰·재현·한계](cloud-sign-study/README.md) · [수정 전후](cloud-sign-study/sign_comparison.png) | Blender **4.3.2**, NumPy·Pillow. 주요 입력의 부호 한 값 비교이며 전체 상태 동일성·순수 반사 기여율·자연스러운 물 표현의 성공을 주장하지 않습니다. |
 | **평면 물 경계 · 2×2 기준 실험** — 환경 띠와 바닥 명도의 조건별 출력 | [연구·재현·한계](water-halfspace-study/README.md) · [2×2 비교](water-halfspace-study/matrix.png) | Blender **4.3.2**, NumPy·Pillow. 이상화 단일 경계이며 ROI·입사각·격자 위상이 섞인 선형 출력 비교입니다. Fresnel 반사율·통계적 유의성·물 인지 성공을 입증하지 않습니다. |
 | **얕은 물 · 두 가지 제한된 시험** — 경계 기하와 월드 강도 비교 | [관찰·재현·한계](shallow-water-study/README.md) | Blender **4.3.2**, Pillow·NumPy. 동결 기준 장면에서 저샘플 시험을 재현합니다. 인공 틈·표본 간격·표시 RGB 통계이며 물의 반사 기여율이나 완성 작품을 입증하지 않습니다. |

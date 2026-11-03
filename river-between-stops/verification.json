@@ -1,0 +1,24 @@
+{
+  "image_dimensions": [
+    3200,
+    1800
+  ],
+  "image_mode": "RGBA",
+  "png_chunk_types": [
+    "IDAT",
+    "IEND",
+    "IHDR",
+    "pHYs",
+    "tEXt"
+  ],
+  "png_text_metadata": {
+    "Software": "www.inkscape.org"
+  },
+  "png_exif_or_private_path_metadata": false,
+  "svg_external_resource_references": [],
+  "svg_font_text_nodes": [],
+  "private_path_or_secret_marker_scan": [],
+  "render_engine": "Inkscape 1.4",
+  "visual_review": "1280×720 초안과 3200×1800 최종 PNG를 실제로 열어 검토했다.",
+  "scope": "독립 벡터 동반 상상. 사실적인 물, 3D 렌더 또는 게임 구현이 아니다."
+}

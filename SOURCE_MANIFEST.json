@@ -9,8 +9,8 @@
     },
     {
       "path": "GALLERY.md",
-      "size": 11638,
-      "sha256": "7c6b153b8c6ed83a45ee3b5485b4a5c38f6c4637bc5e8fe30d3ab777a44bac62"
+      "size": 12363,
+      "sha256": "9acdd0d98a0870f23704c53ecf4b4e27d8b01b06224c0be8ef0bf4d9b47b8e72"
     },
     {
       "path": "GIT_ENVIRONMENT_CHECK.md",
@@ -19,8 +19,8 @@
     },
     {
       "path": "README.md",
-      "size": 18784,
-      "sha256": "4b5819fde5fe729a3b52a98cdb32c8fc65f4e7687d3168d06dd3611ad9b74340"
+      "size": 19207,
+      "sha256": "e2d85afdf4a35b3c8e4e775cf3b9166a7f640b40c361a2edbdaa0d80ced280cd"
     },
     {
       "path": "WORLD_CONNECTIONS.md",
@@ -4636,6 +4636,36 @@
       "path": "returning-page/visual_validation.json",
       "size": 715,
       "sha256": "6bc75340062461b8c8f2910fd2b84d3a3c7e050193f8bb5ad64d7f7a685e3aa4"
+    },
+    {
+      "path": "river-between-stops/README.md",
+      "size": 2535,
+      "sha256": "eed79f2bd88f39d6b03cd8d33ccdb169dd621b3e61aa0b50cfc0ebc1fdfca93f"
+    },
+    {
+      "path": "river-between-stops/SHA256SUMS",
+      "size": 416,
+      "sha256": "2fcd9f8926800a5baf3b612d99ab6a04397ad42bf06e05a469f8d58911f3bd93"
+    },
+    {
+      "path": "river-between-stops/render.sh",
+      "size": 252,
+      "sha256": "f37990d33cce758f1c584b5854089a1768d75c6fdd06e56a65fc9c476b5739b9"
+    },
+    {
+      "path": "river-between-stops/river_between_stops.png",
+      "size": 61428,
+      "sha256": "8547fe457f996af0e502473792e6964f4740f9ea700bf067df7dcca2aafc4e0d"
+    },
+    {
+      "path": "river-between-stops/river_between_stops.svg",
+      "size": 3431,
+      "sha256": "c05c0b0df4cd02f985379dbf8167e0164dbb8f4a84936d7137466e5adb8e5655"
+    },
+    {
+      "path": "river-between-stops/verification.json",
+      "size": 627,
+      "sha256": "4a2dd5fa84dd4a49715e1535a7517b7e3aa00e071ff6927849072e5721180c9a"
     },
     {
       "path": "second-cup-film/.gitignore",
