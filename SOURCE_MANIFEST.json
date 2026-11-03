@@ -19,8 +19,8 @@
     },
     {
       "path": "README.md",
-      "size": 18252,
-      "sha256": "9a3a37c77f41cbf1f8eb9769ed9fbe434df820868dca4ac905ecd20dac3b64f3"
+      "size": 18433,
+      "sha256": "99f1f5341b7887fa5a64f8a09def7881fc27ca828887d5dce01ed73a8abf67c8"
     },
     {
       "path": "a-place-for-rain/.gitignore",
@@ -3321,6 +3321,16 @@
       "path": "glass-refuge/renders/06_structural_inspection.mp4",
       "size": 333768,
       "sha256": "9dbf41557936526c0e4d02c94e38a5d0505bdaa35b98f48d10cf645f68e51eef"
+    },
+    {
+      "path": "half-covered-evening/README.md",
+      "size": 1591,
+      "sha256": "169863b07bbf667f8a4336c55103b1dc3dbac1d429490a114515fcbcd0056d75"
+    },
+    {
+      "path": "half-covered-evening/story.md",
+      "size": 983,
+      "sha256": "8d783d39b703dfa94e6656155d986ac0e7a1856e04574998ac91e534a7fc699f"
     },
     {
       "path": "market-scale/ARTIFACT_MANIFEST.json",

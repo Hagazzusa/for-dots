@@ -7,6 +7,8 @@
 
 [비가 지나가는 동안 · 세 정물을 엮은 작은 그림책](quiet-storybook/README.md) · [3쪽 PDF](quiet-storybook/While-the-Rain-Passes.pdf)
 
+[반쯤 덮어 둔 저녁 · 시장길 정물에서 이어 쓴 짧은 이야기](half-covered-evening/story.md) · [제작 설명과 설정 범위](half-covered-evening/README.md)
+
 | 프로젝트 | 시작 안내 | 실행 환경 |
 |---|---|---|
 | **환경 방향 부호 비교** — 물 풍경에 적용한 World 가우스 중심의 오류와 수정 | [관찰·재현·한계](cloud-sign-study/README.md) · [수정 전후](cloud-sign-study/sign_comparison.png) | Blender **4.3.2**, NumPy·Pillow. 주요 입력의 부호 한 값 비교이며 전체 상태 동일성·순수 반사 기여율·자연스러운 물 표현의 성공을 주장하지 않습니다. |
