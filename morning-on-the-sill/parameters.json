@@ -1,0 +1,55 @@
+{
+  "title": "볕이 돌아온 창턱 / Morning on the Sill",
+  "units": "metres",
+  "cat_center": [
+    0.075,
+    0.01,
+    0.0
+  ],
+  "cat_voxel_size": 0.0007,
+  "camera": {
+    "position": [
+      0.33,
+      -0.64,
+      0.3
+    ],
+    "target": [
+      0.005,
+      0.025,
+      0.065
+    ],
+    "lens_mm": 65,
+    "f_stop": 5.6
+  },
+  "sun": {
+    "energy": 3.0,
+    "color": [
+      1.0,
+      0.94,
+      0.85
+    ],
+    "angle_degrees": 4.0,
+    "from_direction": [
+      -3.0,
+      -4.0,
+      5.0
+    ]
+  },
+  "world": {
+    "color": [
+      0.62,
+      0.78,
+      1.0
+    ],
+    "strength": 0.45
+  },
+  "render": {
+    "draft_width": 600,
+    "draft_height": 400,
+    "draft_samples": 24,
+    "final_width": 1200,
+    "final_height": 800,
+    "final_samples": 128,
+    "threads": 2
+  }
+}

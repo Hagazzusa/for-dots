@@ -1,0 +1,47 @@
+{
+  "title": "볕이 돌아온 창턱 / Morning on the Sill",
+  "created_utc_date": "2026-11-03",
+  "kind": "Original fictional sculptural still life",
+  "concept": {
+    "generator": "OpenAI built-in image generation",
+    "file": "reference/gpt_image_concept.png",
+    "exact_prompt": "reference/concept_prompt.txt",
+    "sha256": "51b6fa2972684c906c789ef695a8994e797c31feeea6f400c7307d4c8f6f0578",
+    "viewed_before_modeling": true,
+    "original_c2pa_preserved": true,
+    "role": "Atmosphere and composition reference, not an image plate or exact dimension reconstruction"
+  },
+  "modeling": {
+    "source": "build.py and parameters.json",
+    "application": "Blender 4.3.2",
+    "original_geometry": "Continuous pear-to-neck profile, ellipsoidal head and paws, rounded wedge ears, tapered curled mesh tail, voxel-fused visible sculpture with hidden editable construction parts; thin curved fan-inspired fallen leaves and stems; simple ledge and partial open frame",
+    "materials": "Procedural blue-grey stoneware, small clay speckles, painted wood, leaf surfaces, and sage backdrop; no external image textures",
+    "external_assets": [],
+    "real_person_or_home_reference": false,
+    "game_integration": false
+  },
+  "lighting": "Direct morning Sun and cool world fill; no material emission, compositor bloom, fog or added rim light",
+  "limits": [
+    "Independent virtual artwork, not a commercial ceramic product or manufacturing model",
+    "Leaves and drying surface impression are artistic approximations, not botanical or fluid simulations",
+    "Only a partial open frame and procedural exterior backdrop are modeled, not a surveyed home or complete building",
+    "No ceramic, structural, electrical, thermal or physical safety certification",
+    "Native CPU path tracing without denoising may retain fine grain"
+  ],
+  "render": {
+    "file": "renders/morning_on_the_sill_final.png",
+    "kind": "Actual independently modeled Blender Cycles render, separate from the generated concept",
+    "resolution": [
+      1200,
+      800
+    ],
+    "maximum_samples": 128,
+    "device": "CPU",
+    "threads": 2,
+    "elapsed_seconds": 101.39,
+    "denoising": false,
+    "pixel_reviewed": true,
+    "fine_grain_remaining": true
+  },
+  "final_interpretation": "A quiet stylized ceramic cat and two fan-inspired fallen leaves; not botanical replicas or a commercial product"
+}

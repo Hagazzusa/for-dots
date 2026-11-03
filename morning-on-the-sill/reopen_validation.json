@@ -1,0 +1,38 @@
+{
+  "reopened": true,
+  "input_blend_sha256": "e3aa59075ec731e7b7e78dcbd02d6801053c22b7f98615d298f0e7004790d273",
+  "input_blend_unchanged": true,
+  "source_parameters_and_build_hashes_match": true,
+  "external_dependencies": [],
+  "relative_render_path": "//renders/morning_on_the_sill_final.png",
+  "cat_closed_manifold": true,
+  "cat_connected_components": 1,
+  "cat_volume_m3": 0.00039171382916091123,
+  "cat_floor_contact_gap_m": 0.0,
+  "hidden_editable_construction_sources": 8,
+  "leaf_checks": [
+    {
+      "name": "Ochre ginkgo fan",
+      "evaluated_closed_manifold": true,
+      "volume_m3": 7.112229027828815e-07,
+      "stem_floor_gap_m": 2.974283415824175e-05,
+      "solidify_thickness_m": 0.0002500000118743628
+    },
+    {
+      "name": "Olive ginkgo fan",
+      "evaluated_closed_manifold": true,
+      "volume_m3": 5.127632841420377e-07,
+      "stem_floor_gap_m": 2.9742950573563576e-05,
+      "solidify_thickness_m": 0.0002500000118743628
+    }
+  ],
+  "finite_evaluated_mesh_and_curve_objects": 46,
+  "cpu_threads": 2,
+  "final_resolution": [
+    1200,
+    800
+  ],
+  "max_samples": 128,
+  "native_gui_tested": false,
+  "limitations": "Background native/file/virtual geometry checks only. Not ceramic manufacturing, botanical, architectural or physical safety validation."
+}

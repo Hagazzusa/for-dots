@@ -1,7 +1,7 @@
 # 잠깐 머무는 작은 세계
 
 비를 피하는 공간, 천천히 움직이는 빛, 길가의 빈 벤치.
-이미지와 짧은 영상으로 먼저 둘러볼 수 있는 아홉 작업을 골랐습니다.
+이미지와 짧은 영상으로 먼저 둘러볼 수 있는 열 작업을 골랐습니다.
 편집 가능한 장면과 제작 소스는 각 작품의 안내에 함께 있습니다.
 
 ## 1. Glass Refuge · 유리 쉼터
@@ -99,6 +99,16 @@
 [독립 장면·제작 소스와 검증](a-place-for-rain/README.md) · [별도로 보존한 생성 콘셉트](a-place-for-rain/reference/gpt_image_concept.png)
 
 위 이미지는 실제 Blender 렌더이며 생성 콘셉트나 게임 화면이 아닙니다. 미세한 렌더 입자가 남습니다. 실물 건축·배수·전기·안전 검증을 뜻하지 않습니다.
+
+## 10. 볕이 돌아온 창턱 · Morning on the Sill
+
+작은 청회색 도자기 고양이와 부채꼴을 본뜬 낙엽 두 장에 아침볕이 닿습니다. 열린 창 곁의 여백을 남긴 독립 정물입니다.
+
+![볕이 돌아온 창턱 — 실제 Blender Cycles 렌더](morning-on-the-sill/renders/morning_on_the_sill_final.png)
+
+[편집 가능한 장면·제작 소스와 검증](morning-on-the-sill/README.md) · [별도로 보존한 생성 콘셉트](morning-on-the-sill/reference/gpt_image_concept.png)
+
+위 이미지는 직접 만든 메시와 절차적 재질의 실제 Blender 렌더입니다. 생성 콘셉트 자체나 게임 화면이 아니며 미세한 렌더 입자가 남습니다. 실물 도자기 제작·식물학적 복원·제품 안전 검증을 뜻하지 않습니다.
 
 ---
 

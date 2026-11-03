@@ -1,0 +1,68 @@
+{
+  "scope": "Original virtual art geometry, not ceramic production, botanical, architectural or safety validation",
+  "cat_closed_manifold": true,
+  "cat_connected_components": 1,
+  "cat_volume_m3": 0.00039171382916091123,
+  "cat_floor_contact_gap_m": 0.0,
+  "cat_construction_sources_preserved": 8,
+  "cat_camera_bounds": {
+    "left": 0.5438344478607178,
+    "right": 0.7552587389945984,
+    "bottom": 0.16548041999340057,
+    "top": 0.7499494552612305
+  },
+  "leaves": [
+    {
+      "name": "Ochre ginkgo",
+      "base": [
+        -0.095,
+        -0.07
+      ],
+      "radius_m": 0.045,
+      "stem_object": "Ochre ginkgo fine resting stem",
+      "lamina_thickness_m": 0.0002500000118743628,
+      "lamina_min_height_m": 0.0010000000474974513,
+      "fan_camera_bounds": {
+        "left": 0.07384612411260605,
+        "right": 0.2589740455150604,
+        "bottom": 0.2228931486606598,
+        "top": 0.32356223464012146
+      },
+      "fan_inside_frame": true,
+      "stem_floor_contact_gap_m": 2.974283415824175e-05
+    },
+    {
+      "name": "Olive ginkgo",
+      "base": [
+        -0.055,
+        -0.028
+      ],
+      "radius_m": 0.038,
+      "stem_object": "Olive ginkgo fine resting stem",
+      "lamina_thickness_m": 0.0002500000118743628,
+      "lamina_min_height_m": 0.0010000000474974513,
+      "fan_camera_bounds": {
+        "left": 0.2781251072883606,
+        "right": 0.4097900986671448,
+        "bottom": 0.2547728717327118,
+        "top": 0.3407953381538391
+      },
+      "fan_inside_frame": true,
+      "stem_floor_contact_gap_m": 2.9742950573563576e-05
+    }
+  ],
+  "evaluated_finite_geometry_objects": 46,
+  "external_images": [],
+  "emissive_materials": [],
+  "compositor_enabled": false,
+  "source_parameters_sha256": "dc6c53bf51410f9d2364e458538b1293b4c26f91b56c161763b00a9253aa82ef",
+  "build_source_sha256": "4596c3746465e6e6dc29e4267aa5518e1a4a873f0d575cdbb524b127c7f061c5",
+  "render": {
+    "width": 1200,
+    "height": 800,
+    "max_samples": 128,
+    "threads": 2,
+    "device": "CPU",
+    "denoising": false
+  }
+}
