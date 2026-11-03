@@ -1,5 +1,5 @@
 {
-  "scope": "독립 미완료 편집기 미리보기 연구; 제품 적용 보류",
+  "scope": "독립 미완료 편집기 미리보기 연구; 한 건의 참조 Undo/Redo 후속 관찰; 제품 적용 보류",
   "files": [
     {
       "path": ".gitignore",
@@ -8,8 +8,8 @@
     },
     {
       "path": "README.md",
-      "size": 3876,
-      "sha256": "9fafc5acdad1aee6e1fcec568dd40f88959634fe8c51fe35adaa225d42ed7c01"
+      "size": 4187,
+      "sha256": "ed7f70153015e2c2c9dbeb2ac2a89081d438db601478a253c2618b1c37b6fc55"
     },
     {
       "path": "assets/amber.tres",
@@ -65,6 +65,36 @@
       "path": "tests/preview_test.gd.uid",
       "size": 20,
       "sha256": "fd15091b3825365e701e7a40b24e2fedf23c892a7be15a552e1ee7bba59c1022"
+    },
+    {
+      "path": "undo-observation/01-amber-saved.tscn",
+      "size": 1066,
+      "sha256": "f34933bfb50e432c65cf767cb57410f23832f09cc7ccc5c1136f38f4d9517aa9"
+    },
+    {
+      "path": "undo-observation/02-undo-saved.tscn",
+      "size": 973,
+      "sha256": "02291faf50bbd0f0573c5a2a12940deadeab19d3ba0ff4832a2b4171b7786f62"
+    },
+    {
+      "path": "undo-observation/03-redo-saved.tscn",
+      "size": 1066,
+      "sha256": "f34933bfb50e432c65cf767cb57410f23832f09cc7ccc5c1136f38f4d9517aa9"
+    },
+    {
+      "path": "undo-observation/INITIAL_STUDY_MANIFEST.json",
+      "size": 2066,
+      "sha256": "89ed12a3a4fcbbddf983696e276b124f3899f8aaebee9b6e75d4055c93665ac6"
+    },
+    {
+      "path": "undo-observation/README.md",
+      "size": 2184,
+      "sha256": "182a45a139254ad1c70a02fc1a5c33ce29c35985ef40cb47baf3fd45a585d456"
+    },
+    {
+      "path": "undo-observation/result.json",
+      "size": 752,
+      "sha256": "a422a87ae6173b589a496b7d492498007981354abb4bc722c7f30cc000301030"
     }
   ]
 }

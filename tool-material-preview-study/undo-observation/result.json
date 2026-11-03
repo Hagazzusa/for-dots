@@ -1,0 +1,19 @@
+{
+  "scope": "실제 Inspector 재질 참조 null→amber의 1회 Undo/Redo와 각 UI 저장",
+  "amber_equals_redo_bytes": true,
+  "undo_equals_original_bytes": true,
+  "source_material_glb_script_pair_unchanged": true,
+  "transient_override_absent": true,
+  "saved_sha256": {
+    "03-redo-saved.tscn": "f34933bfb50e432c65cf767cb57410f23832f09cc7ccc5c1136f38f4d9517aa9",
+    "02-undo-saved.tscn": "02291faf50bbd0f0573c5a2a12940deadeab19d3ba0ff4832a2b4171b7786f62",
+    "01-amber-saved.tscn": "f34933bfb50e432c65cf767cb57410f23832f09cc7ccc5c1136f38f4d9517aa9"
+  },
+  "unverified": [
+    "Inspector 색상 값 편집",
+    "재import",
+    "실제 편집기 저장 후 재개방",
+    "일반적인 undo 안전성"
+  ],
+  "product_integration": false
+}
