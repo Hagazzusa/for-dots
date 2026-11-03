@@ -12,10 +12,6 @@ for x,y in [(8,33),(20,43),(36,48),(133,37),(145,45),(165,42),(178,53)]:
  rect((x,y,x+4,y+6),'haze'); rect((x+1,y+1,x+2,y+3),'dim')
 # Wet pavement and road
 rect((0,72,191,86),'wet'); rect((0,87,191,107),'road'); line([(0,86),(191,86)],'edge')
-# Distant bus approaching at right: compact distinct silhouette, twin lamps.
-rect((139,56,173,72),'roof'); rect((142,53,170,57),'roof'); rect((143,57,169,65),'haze')
-rect((145,58,154,63),'glass'); rect((158,58,167,63),'glass'); rect((141,66,171,71),'building')
-rect((144,67,147,69),'light'); rect((165,67,168,69),'light'); rect((146,72,150,73),'night'); rect((163,72,167,73),'night')
 # The shelter: a large warm window framed in dark steel.
 rect((26,34,101,74),'roof'); rect((30,38,96,70),'edge'); rect((33,40,93,69),'glass')
 rect((36,42,61,68),'glow'); rect((38,44,59,67),'amber'); rect((40,46,57,65),'light')
@@ -28,8 +24,21 @@ rect((64,38,66,70),'roof'); rect((31,70,96,72),'roof'); rect((31,73,34,79),'edge
 rect((68,61,89,63),'edge'); rect((70,64,87,65),'roof'); rect((71,66,72,70),'roof'); rect((85,66,86,70),'roof')
 # Stop pole and deliberately abstract unlettered sign.
 rect((111,37,113,80),'edge'); rect((105,33,119,43),'roof'); rect((107,35,117,41),'haze'); rect((110,37,114,39),'light')
+# Foreground bus, seen from the side. The left-facing front approaches the stop.
+# Drawn after the shelter and pole, so the road vehicle overlaps them in depth.
+rect((115,55,191,91),'roof'); rect((120,51,191,58),'roof')
+rect((110,64,119,91),'roof'); rect((108,77,113,91),'roof')
+rect((114,62,124,76),'haze'); rect((116,64,122,74),'glass')
+rect((127,59,191,77),'haze')
+for x in (129,145,161,177): rect((x,61,x+12,74),'glass')
+# Lower body and thin belt line.
+rect((111,79,191,88),'edge'); rect((110,86,191,92),'building')
+rect((109,83,111,86),'light'); rect((190,83,191,86),'dim')
+# Wheels contact the near road; their arches interrupt the lower body.
+for x in (128,177):
+ rect((x,88,x+11,97),'night'); rect((x+2,86,x+9,99),'night'); rect((x+3,90,x+8,95),'edge')
 # Ground reflections: restrained bands and broken lines.
-for box,c in [((37,78,62,78),'dim'),((43,80,57,80),'amber'),((40,83,60,83),'glow'),((47,88,56,88),'dim'),((39,92,53,92),'glow'),((45,97,61,97),'dim'),((143,77,149,77),'amber'),((164,77,170,77),'amber'),((145,82,153,82),'dim'),((160,84,168,84),'dim'),((17,89,30,89),'haze'),((111,93,129,93),'haze'),((3,101,21,101),'edge'),((77,102,91,102),'haze'),((156,99,178,99),'edge')]: rect(box,c)
+for box,c in [((37,78,62,78),'dim'),((43,80,57,80),'amber'),((40,83,60,83),'glow'),((47,88,56,88),'dim'),((39,92,53,92),'glow'),((45,97,61,97),'dim'),((108,96,116,96),'amber'),((110,102,122,102),'dim'),((153,103,166,103),'haze'),((17,89,30,89),'haze'),((111,93,129,93),'haze'),((3,101,21,101),'edge'),((77,102,91,102),'haze'),((156,99,178,99),'edge')]: rect(box,c)
 # Diagonal rain marks, manually placed to avoid obscuring focal shapes.
 for x,y in [(5,4),(17,14),(31,6),(45,18),(60,8),(73,16),(87,4),(104,13),(118,4),(132,13),(150,5),(166,16),(181,4),(8,50),(18,59),(106,51),(123,26),(180,29),(185,65),(122,63),(4,78),(126,79),(181,81),(72,83),(11,95),(99,98),(183,96)]: line([(x,y),(x-1,y+3)],'rain')
 # A couple of splashes make the still scene feel inhabited by weather.
