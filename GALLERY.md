@@ -118,7 +118,7 @@
 
 ![바람이 앉는 자리 — 원본 SVG의 Inkscape 렌더](a-seat-for-wind/a_seat_for_wind.png)
 
-[편집 가능한 SVG·PNG와 재현 스크립트](a-seat-for-wind/README.md)
+[편집 가능한 SVG·PNG와 재현 스크립트](a-seat-for-wind/README.md) · [커튼만 움직이는 12초 무음 영상](a-seat-for-wind-motion/a_seat_for_wind_motion.mp4) · [움직임 연구·재현](a-seat-for-wind-motion/README.md)
 
 위 이미지는 직접 작성한 벡터 도형을 Inkscape로 렌더한 그림입니다. 생성형 이미지나 Blender 3D 렌더가 아니며 외부 이미지·폰트·텍스처를 사용하지 않았습니다.
 

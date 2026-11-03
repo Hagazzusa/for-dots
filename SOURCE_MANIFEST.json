@@ -9,8 +9,8 @@
     },
     {
       "path": "GALLERY.md",
-      "size": 8858,
-      "sha256": "bb7f75f8d4cc66d324c9500928995e03cb28518856fd2b48cfc786650054e458"
+      "size": 9021,
+      "sha256": "4aad51bc6b8d929a653c2877a291364e9d32da1d699b67dd13f414097acc59a1"
     },
     {
       "path": "GIT_ENVIRONMENT_CHECK.md",
@@ -19,8 +19,8 @@
     },
     {
       "path": "README.md",
-      "size": 15411,
-      "sha256": "b1e7fcbecadacb9b77bfc61b73cc8fc7a9427671dd89e5152484824bee38c1c9"
+      "size": 15477,
+      "sha256": "1d3da1d6511f73172008e02ebb802c08fbcda8def4b298b7f8b0ee8409a0502f"
     },
     {
       "path": "a-place-for-rain/.gitignore",
@@ -191,6 +191,66 @@
       "path": "a-place-to-pause/verify_stop.py",
       "size": 3450,
       "sha256": "52e19dcd9c8424c81a8298f0bf68f1ec4faf85abc70858cfcaa3a561d6b02bc1"
+    },
+    {
+      "path": "a-seat-for-wind-motion/README.md",
+      "size": 3960,
+      "sha256": "bf12bf4e57c44b193093b41cbe234a3c17f34bea7d1a8a43d86ad69d965421d5"
+    },
+    {
+      "path": "a-seat-for-wind-motion/SHA256SUMS",
+      "size": 910,
+      "sha256": "1f0f7279d7f29d26b89465d5da148d65ad8344d2607b24b221791717da702192"
+    },
+    {
+      "path": "a-seat-for-wind-motion/a_seat_for_wind_motion.mp4",
+      "size": 51171,
+      "sha256": "472710757771255099db80b06f548fdfb0c3420cacb477a8ed478c58bbb14dfc"
+    },
+    {
+      "path": "a-seat-for-wind-motion/build_keyframes.py",
+      "size": 2331,
+      "sha256": "5618b42af42c005ef148e783df3b6ba7677e5c1459496901ad215962101b11da"
+    },
+    {
+      "path": "a-seat-for-wind-motion/build_loop.py",
+      "size": 3587,
+      "sha256": "951b17f8aca2881616c91a772d9b28653aceefc14e3447bb4ed3232300c53cba"
+    },
+    {
+      "path": "a-seat-for-wind-motion/keyframe_01.png",
+      "size": 68364,
+      "sha256": "9819998aec8d5c6b904de7439970df60379ec3d977fa08bbfbc4fde040b9beee"
+    },
+    {
+      "path": "a-seat-for-wind-motion/keyframe_01.svg",
+      "size": 5514,
+      "sha256": "13d00b34624b79ef8405d7c63b09465595e8b66aa155879f0cf04a08018f8c51"
+    },
+    {
+      "path": "a-seat-for-wind-motion/keyframe_02.png",
+      "size": 69157,
+      "sha256": "52aeced14ee9551bfbe486beea413c0c0c2bb4834a7bf757c255cb56a0d37824"
+    },
+    {
+      "path": "a-seat-for-wind-motion/keyframe_02.svg",
+      "size": 5514,
+      "sha256": "c8492fd59cc15fbfd4fb5f4d1127c727366a8cf92d718cf1f8b62f044870e7ad"
+    },
+    {
+      "path": "a-seat-for-wind-motion/keyframe_03.png",
+      "size": 67755,
+      "sha256": "9622d5ea9493e66eae42b817690416e7e26413c0acc59fbe7cd8963d42a7d2e5"
+    },
+    {
+      "path": "a-seat-for-wind-motion/keyframe_03.svg",
+      "size": 5514,
+      "sha256": "93bf9aa2bbcdb99ecaf96db2ecd67d23181a6c369184150c8c62b4bf2623ec19"
+    },
+    {
+      "path": "a-seat-for-wind-motion/verification.json",
+      "size": 675,
+      "sha256": "3c3eec1f54fddc33de31c589315ad3e953b1b7717e8bfd981ab456c622c6c5aa"
     },
     {
       "path": "a-seat-for-wind/README.md",

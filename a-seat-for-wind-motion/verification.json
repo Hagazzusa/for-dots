@@ -1,0 +1,24 @@
+{
+  "geometry_checks": "All 180 frames preserve every non-curtain group byte-for-byte after XML parsing.",
+  "periodic_position_and_velocity": "Both analytic sine offsets and cosine derivatives match at 0 and 12 seconds within 1e-12.",
+  "decode": "All frames decoded without ffmpeg errors.",
+  "probe": {
+    "programs": [],
+    "stream_groups": [],
+    "streams": [
+      {
+        "codec_name": "h264",
+        "codec_type": "video",
+        "width": 960,
+        "height": 720,
+        "r_frame_rate": "15/1",
+        "duration": "12.000000",
+        "nb_read_frames": "180"
+      }
+    ],
+    "format": {
+      "duration": "12.000000",
+      "size": "51171"
+    }
+  }
+}
