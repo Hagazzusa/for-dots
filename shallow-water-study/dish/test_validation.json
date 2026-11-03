@@ -1,0 +1,227 @@
+{
+  "case": "dish",
+  "original_sha256": "2c150ac5a184607e7bca36e029670f3035ccd909e0b34529b86d93809600ecfc",
+  "controls_before": {
+    "resolution": [
+      800,
+      800,
+      100
+    ],
+    "samples": 32,
+    "seed": 28,
+    "camera_matrix": [
+      [
+        0.8050558567047119,
+        -0.37668436765670776,
+        0.4582509696483612,
+        0.14000000059604645
+      ],
+      [
+        0.5931990146636963,
+        0.511214554309845,
+        -0.6219120621681213,
+        -0.1899999976158142
+      ],
+      [
+        1.73682366266803e-08,
+        0.7725079655647278,
+        0.6350050568580627,
+        0.20000000298023224
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "camera_type": "ORTHO",
+    "lens": 50.0,
+    "ortho_scale": 0.18000000715255737,
+    "view": [
+      "AgX",
+      "None",
+      0.0,
+      1.0
+    ],
+    "bounces": [
+      8,
+      4,
+      4,
+      6,
+      8
+    ],
+    "denoising": false,
+    "adaptive": [
+      true,
+      0.009999999776482582
+    ],
+    "lights": {
+      "Real window reflection": {
+        "matrix": [
+          [
+            0.7943578362464905,
+            -0.4760461449623108,
+            0.3773270547389984,
+            0.12999999523162842
+          ],
+          [
+            0.6074501276016235,
+            0.6225218772888184,
+            -0.4934276342391968,
+            -0.17000000178813934
+          ],
+          [
+            -3.7252597451242764e-08,
+            0.6211654543876648,
+            0.7836794257164001,
+            0.27000001072883606
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "energy": 4.0,
+        "color": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      }
+    }
+  },
+  "baseline_image": "baseline/dish.png",
+  "changed_category": "Water side boundary fitted radially inward at 33 fixed-height rings; top and bottom heights and flat top shading retained.",
+  "method": "At each ring/angle, first evaluated ceramic intersection from the cavity center gives maximum radius. New radius=min(original water boundary radius, ceramic radius minus 0.25 mm).",
+  "horizontal_artificial_air_gap_mm": {
+    "requested_min": 0.25,
+    "sample_min": 0.2500000000000002,
+    "sample_max": 0.5139823245010819
+  },
+  "boundary_radial_retreat_mm": {
+    "min": 0.0,
+    "max": 3.612242685253925
+  },
+  "vertex_to_ceramic_distance_mm": {
+    "min_all": 0.012732875802612398,
+    "max_all": 6.699994206428528,
+    "side_min": 0.012732875802612398,
+    "side_max": 0.22303602600004524
+  },
+  "confirmed_non_coplanar_surface_edge_crossings_after": 0,
+  "BVH_candidate_pairs_after": 0,
+  "intersection_scope": "All evaluated triangulated surface BVH candidate pairs checked in both edge directions; 1e-7 segment-parameter endpoint tolerance. Not exact CAD intersection proof.",
+  "air_gap_limit": "Artificial detached water boundary, not physical fluid-wall contact. Side/bottom boundary tessellation changes; top footprint and height independently verified exactly unchanged.",
+  "top_z_unchanged": true,
+  "bottom_z_unchanged": true,
+  "controls_after": {
+    "resolution": [
+      800,
+      800,
+      100
+    ],
+    "samples": 32,
+    "seed": 28,
+    "camera_matrix": [
+      [
+        0.8050558567047119,
+        -0.37668436765670776,
+        0.4582509696483612,
+        0.14000000059604645
+      ],
+      [
+        0.5931990146636963,
+        0.511214554309845,
+        -0.6219120621681213,
+        -0.1899999976158142
+      ],
+      [
+        1.73682366266803e-08,
+        0.7725079655647278,
+        0.6350050568580627,
+        0.20000000298023224
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "camera_type": "ORTHO",
+    "lens": 50.0,
+    "ortho_scale": 0.18000000715255737,
+    "view": [
+      "AgX",
+      "None",
+      0.0,
+      1.0
+    ],
+    "bounces": [
+      8,
+      4,
+      4,
+      6,
+      8
+    ],
+    "denoising": false,
+    "adaptive": [
+      true,
+      0.009999999776482582
+    ],
+    "lights": {
+      "Real window reflection": {
+        "matrix": [
+          [
+            0.7943578362464905,
+            -0.4760461449623108,
+            0.3773270547389984,
+            0.12999999523162842
+          ],
+          [
+            0.6074501276016235,
+            0.6225218772888184,
+            -0.4934276342391968,
+            -0.17000000178813934
+          ],
+          [
+            -3.7252597451242764e-08,
+            0.6211654543876648,
+            0.7836794257164001,
+            0.27000001072883606
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "energy": 4.0,
+        "color": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      }
+    }
+  },
+  "changed_meshes": [
+    "Shallow water volume"
+  ],
+  "source_unchanged_before_render": true,
+  "original_path": "baseline/dish.blend",
+  "top_boundary_reopen_validation": {
+    "max_top_boundary_coordinate_difference_m": 0.0,
+    "top_boundary_unchanged_within_1e_8m": true,
+    "top_z_equal": true,
+    "baseline_top_faces": 192,
+    "test_top_faces": 192,
+    "all_test_top_faces_flat": true
+  },
+  "original_unchanged_after_render": true,
+  "historical_original_sha256": "26f3b84e993327fbf5f72dcc9788a0d65358333a819f17e43b2dfb1d97978f19"
+}

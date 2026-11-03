@@ -1,0 +1,125 @@
+{
+  "title": "얕은 물 두 가지 제한된 시험",
+  "origin": "독자적인 절차형 Blender 장면·재질과 시험 코드. 외부 다운로드 자산 없음.",
+  "license_note": "새 라이선스를 부여하지 않음",
+  "historical_and_publication_files": [
+    {
+      "path": "README.md",
+      "historical_sha256": "0e8cfef21be064ab726839a2e8d8328453515c7632fa2c5b2f0a9ae4f6fbc527",
+      "publication_sha256": "2077102441bd06a21e935641cc1ec41709176c6f2c9c8e018ea40975e0d79aca"
+    },
+    {
+      "path": "run_test.py",
+      "historical_sha256": "a2d50c5a5f4eb7d31be23037bc41cc5f33b8a4fd2c14f76199628f1b848a3d49",
+      "publication_sha256": "e5499a6b8bb8ec9ccec3cf9a4290911c2370823ace8fb9b6359335d982ea5958"
+    },
+    {
+      "path": "compare.py",
+      "historical_sha256": "1c47164b4351e9fb3a602b93804a857375c3b22a18f5897acc42e3d0b7b387cd",
+      "publication_sha256": "f0e53a569000b600ac088c48eaa69069a9fdb07b7a744c0039a34b3e822fd7d6"
+    },
+    {
+      "path": "check_top.py",
+      "historical_sha256": "e7b5cb6a393df5441eab834993feee095c1aaecb9f102c8c0fcd6ed2ebd4833f",
+      "publication_sha256": "54fed9fde396a09638eaf6fc758749a9836da60581ad497fc74e3940e89edbe2"
+    },
+    {
+      "path": "comparison_metrics.json",
+      "historical_sha256": "7dff50719aee3be901ef13f7c8f1f4fb056414de5049875edf3e97a0d021c736",
+      "publication_sha256": "9c9c75bce292e5a3dd251b798510e6e7aa0bc05b9eeae26bc8f94c85149b9185"
+    },
+    {
+      "path": "dish/test_validation.json",
+      "historical_sha256": "35ae46ce7e7e7d512a50cf83218fce52a9f134725770516b526a93c516b65435",
+      "publication_sha256": "1c97116d0a19512ceb68632105fe491a3629e5916b6e8ea14e298ecf850bced6"
+    },
+    {
+      "path": "dish/top_boundary_validation.json",
+      "historical_sha256": "f2d8b87a9488a5819eb289c6eed89649221ed05d0fef50e0a5d53004e1be91aa",
+      "publication_sha256": "f2d8b87a9488a5819eb289c6eed89649221ed05d0fef50e0a5d53004e1be91aa"
+    },
+    {
+      "path": "puddle/test_validation.json",
+      "historical_sha256": "c7a2947579ed884ac0cf0c8a4b236b098eb20318a5dd1e8cd7e345105803f257",
+      "publication_sha256": "76546b2b099e26a1b815e795062f0750ee96848e85a9a786108818ff1d52f84e"
+    },
+    {
+      "path": "dish/comparison.png",
+      "historical_sha256": "d731b41a756b35c7406c192e3912b76599eca92fb8a69efaf84d04321e6295af",
+      "pixels_unchanged": true,
+      "idat_unchanged": true,
+      "publication_sha256": "b7ef2fbd3fa57894ad47b91dbd7dda6d21fea634afe621f53bbe9cc07fcf2695"
+    },
+    {
+      "path": "dish/same_crop_comparison.png",
+      "historical_sha256": "740d916a3f2b2d75ddc744bf781553231d0527e91555cc44cf26e55fc39fb1cd",
+      "pixels_unchanged": true,
+      "idat_unchanged": true,
+      "publication_sha256": "740d916a3f2b2d75ddc744bf781553231d0527e91555cc44cf26e55fc39fb1cd"
+    },
+    {
+      "path": "puddle/comparison.png",
+      "historical_sha256": "1236aaa0aaeba9134b464da3745482ab1ac0e1ab47ba2ee314e7c962e4734fe6",
+      "pixels_unchanged": true,
+      "idat_unchanged": true,
+      "publication_sha256": "0ca6562872d99fa31df747982855bd25ad1691676be1cadd6d593c3a6e1cd204"
+    },
+    {
+      "path": "puddle/same_crop_comparison.png",
+      "historical_sha256": "a5ca96ba70c2ec1b85bbec3a35d4077bfb3752ecd156413c47d5154a78aa7208",
+      "pixels_unchanged": true,
+      "idat_unchanged": true,
+      "publication_sha256": "a5ca96ba70c2ec1b85bbec3a35d4077bfb3752ecd156413c47d5154a78aa7208"
+    },
+    {
+      "path": "baseline/dish.blend",
+      "historical_sha256": "26f3b84e993327fbf5f72dcc9788a0d65358333a819f17e43b2dfb1d97978f19",
+      "publication_sha256": "2c150ac5a184607e7bca36e029670f3035ccd909e0b34529b86d93809600ecfc"
+    },
+    {
+      "path": "baseline/dish.png",
+      "historical_sha256": "ccf69b278fd5abdaab643a79067615b3b461e3edf8c7dfb0d52043b40e916c38",
+      "pixels_unchanged": true,
+      "idat_unchanged": true,
+      "publication_sha256": "2e16e75fc8c1d1235658a36d045743ec2c5da5717c43fd6f67416baceaf73737"
+    },
+    {
+      "path": "baseline/puddle.blend",
+      "historical_sha256": "0fdff87d12562c3da3cfa8edd14bcdb706e2d7dd507cd3b63e8e1296c777b8ff",
+      "publication_sha256": "1c25014ee1006cccf3464586a12cad8d402c0ddd33e71f889e06e83c7fc49434"
+    },
+    {
+      "path": "baseline/puddle.png",
+      "historical_sha256": "2ab1fb56e5d117d4a235969cd710a62fa26323fd021aff75a57e7c39d8619cf0",
+      "pixels_unchanged": true,
+      "idat_unchanged": true,
+      "publication_sha256": "56d56f1f43715b05a2394f85cd5a74b6d4e3279a7105148a6444ace5082eb067"
+    }
+  ],
+  "scene_normalization": [
+    {
+      "case": "dish",
+      "fingerprint": "4e0953aa0ef93379cd5b5b7d0680ec48faf40e8127a071d46f6562fdcd9c5368",
+      "scene_content_unchanged": true,
+      "scope": "objects, transforms, mesh coordinates/faces/material indices/smoothing, modifier scalar settings, camera/light settings, material and world nodes/links, Cycles and view settings; output/browser paths excluded"
+    },
+    {
+      "case": "puddle",
+      "fingerprint": "c09e2fbebdc2a71c456096f1672e506b31454ca78ab8577662fcdd10dff35bb2",
+      "scene_content_unchanged": true,
+      "scope": "objects, transforms, mesh coordinates/faces/material indices/smoothing, modifier scalar settings, camera/light settings, material and world nodes/links, Cycles and view settings; output/browser paths excluded"
+    }
+  ],
+  "reproduction_status": {
+    "blender": "4.3.2",
+    "cpu_threads": 2,
+    "additional_render_count": 2,
+    "dish_samples": 32,
+    "puddle_samples": 24,
+    "render_RGBA_pixels_equal_to_historical_tests": true,
+    "crop_pixels_equal": true,
+    "fixed_patch_statistics_equal": true,
+    "top_boundary_reopen_equal": true,
+    "scope": "같은 환경·같은 시드의 각1회 재현. 재시드 노이즈 추정 아님. 별도 작업 사본에서만 실행."
+  }
+}

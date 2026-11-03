@@ -1,0 +1,198 @@
+{
+  "case": "puddle",
+  "original_sha256": "1c25014ee1006cccf3464586a12cad8d402c0ddd33e71f889e06e83c7fc49434",
+  "controls_before": {
+    "resolution": [
+      600,
+      400,
+      100
+    ],
+    "samples": 24,
+    "seed": 59,
+    "camera_matrix": [
+      [
+        0.8792163729667664,
+        -0.20185980200767517,
+        0.43154507875442505,
+        0.550000011920929
+      ],
+      [
+        0.47642263770103455,
+        0.37252309918403625,
+        -0.7963969111442566,
+        -1.0
+      ],
+      [
+        7.652172229200005e-09,
+        0.9058030247688293,
+        0.4236989915370941,
+        0.5400000214576721
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "camera_type": "PERSP",
+    "lens": 50.0,
+    "ortho_scale": 6.0,
+    "view": [
+      "AgX",
+      "AgX - Medium High Contrast",
+      0.0,
+      1.0
+    ],
+    "bounces": [
+      10,
+      4,
+      5,
+      8,
+      8
+    ],
+    "denoising": false,
+    "adaptive": [
+      true,
+      0.02500000037252903
+    ],
+    "lights": {
+      "\ube44 \ub4a4\uc758 \ubd80\ub4dc\ub7ec\uc6b4 \uc624\uc804\ube5b": {
+        "matrix": [
+          [
+            0.800000011920929,
+            0.46093273162841797,
+            -0.384110689163208,
+            0.0
+          ],
+          [
+            -0.6000000238418579,
+            0.6145769953727722,
+            -0.5121475458145142,
+            0.0
+          ],
+          [
+            4.873782089021006e-08,
+            0.6401844620704651,
+            0.7682212591171265,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "energy": 1.600000023841858,
+        "color": [
+          1.0,
+          0.9399999976158142,
+          0.8500000238418579
+        ]
+      }
+    }
+  },
+  "baseline_image": "baseline/puddle.png",
+  "changed_category": "World Background strength only",
+  "world_strength_before": 0.1,
+  "world_strength_after": 0.4,
+  "limit": "Changes ground illumination as well as visible environment reflection; not a pure reflection-contribution decomposition.",
+  "controls_after": {
+    "resolution": [
+      600,
+      400,
+      100
+    ],
+    "samples": 24,
+    "seed": 59,
+    "camera_matrix": [
+      [
+        0.8792163729667664,
+        -0.20185980200767517,
+        0.43154507875442505,
+        0.550000011920929
+      ],
+      [
+        0.47642263770103455,
+        0.37252309918403625,
+        -0.7963969111442566,
+        -1.0
+      ],
+      [
+        7.652172229200005e-09,
+        0.9058030247688293,
+        0.4236989915370941,
+        0.5400000214576721
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "camera_type": "PERSP",
+    "lens": 50.0,
+    "ortho_scale": 6.0,
+    "view": [
+      "AgX",
+      "AgX - Medium High Contrast",
+      0.0,
+      1.0
+    ],
+    "bounces": [
+      10,
+      4,
+      5,
+      8,
+      8
+    ],
+    "denoising": false,
+    "adaptive": [
+      true,
+      0.02500000037252903
+    ],
+    "lights": {
+      "\ube44 \ub4a4\uc758 \ubd80\ub4dc\ub7ec\uc6b4 \uc624\uc804\ube5b": {
+        "matrix": [
+          [
+            0.800000011920929,
+            0.46093273162841797,
+            -0.384110689163208,
+            0.0
+          ],
+          [
+            -0.6000000238418579,
+            0.6145769953727722,
+            -0.5121475458145142,
+            0.0
+          ],
+          [
+            4.873782089021006e-08,
+            0.6401844620704651,
+            0.7682212591171265,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "energy": 1.600000023841858,
+        "color": [
+          1.0,
+          0.9399999976158142,
+          0.8500000238418579
+        ]
+      }
+    }
+  },
+  "changed_meshes": [],
+  "source_unchanged_before_render": true,
+  "original_path": "baseline/puddle.blend",
+  "original_unchanged_after_render": true,
+  "historical_original_sha256": "0fdff87d12562c3da3cfa8edd14bcdb706e2d7dd507cd3b63e8e1296c777b8ff"
+}

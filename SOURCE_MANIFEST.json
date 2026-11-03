@@ -19,8 +19,8 @@
     },
     {
       "path": "README.md",
-      "size": 17024,
-      "sha256": "f75f225889ccfa156ad63a40f193bd18e16a781254471d6fe22352ecd746d73e"
+      "size": 17399,
+      "sha256": "d4d6c398de02fa8661544b6e88479d53959ff66a2dc99d631ffdc19c5224dc37"
     },
     {
       "path": "a-place-for-rain/.gitignore",
@@ -4981,6 +4981,96 @@
       "path": "seeded-roadscapes/verify_saved_blend.py",
       "size": 1377,
       "sha256": "65fc7214ca084f36c3ad113df8f47d775f51eff370886f64f6a52f76a7ed391d"
+    },
+    {
+      "path": "shallow-water-study/ARTIFACT_MANIFEST.json",
+      "size": 2828,
+      "sha256": "c8aefd170ab1e1494d3ed2f202781b191ed2c6a1bef3c40d482941099ad7af84"
+    },
+    {
+      "path": "shallow-water-study/README.md",
+      "size": 8200,
+      "sha256": "2077102441bd06a21e935641cc1ec41709176c6f2c9c8e018ea40975e0d79aca"
+    },
+    {
+      "path": "shallow-water-study/baseline/dish.blend",
+      "size": 758624,
+      "sha256": "2c150ac5a184607e7bca36e029670f3035ccd909e0b34529b86d93809600ecfc"
+    },
+    {
+      "path": "shallow-water-study/baseline/dish.png",
+      "size": 797559,
+      "sha256": "2e16e75fc8c1d1235658a36d045743ec2c5da5717c43fd6f67416baceaf73737"
+    },
+    {
+      "path": "shallow-water-study/baseline/puddle.blend",
+      "size": 1323056,
+      "sha256": "1c25014ee1006cccf3464586a12cad8d402c0ddd33e71f889e06e83c7fc49434"
+    },
+    {
+      "path": "shallow-water-study/baseline/puddle.png",
+      "size": 448000,
+      "sha256": "56d56f1f43715b05a2394f85cd5a74b6d4e3279a7105148a6444ace5082eb067"
+    },
+    {
+      "path": "shallow-water-study/check_top.py",
+      "size": 1135,
+      "sha256": "54fed9fde396a09638eaf6fc758749a9836da60581ad497fc74e3940e89edbe2"
+    },
+    {
+      "path": "shallow-water-study/compare.py",
+      "size": 2824,
+      "sha256": "f0e53a569000b600ac088c48eaa69069a9fdb07b7a744c0039a34b3e822fd7d6"
+    },
+    {
+      "path": "shallow-water-study/comparison_metrics.json",
+      "size": 4052,
+      "sha256": "9c9c75bce292e5a3dd251b798510e6e7aa0bc05b9eeae26bc8f94c85149b9185"
+    },
+    {
+      "path": "shallow-water-study/dish/comparison.png",
+      "size": 798776,
+      "sha256": "b7ef2fbd3fa57894ad47b91dbd7dda6d21fea634afe621f53bbe9cc07fcf2695"
+    },
+    {
+      "path": "shallow-water-study/dish/same_crop_comparison.png",
+      "size": 463660,
+      "sha256": "740d916a3f2b2d75ddc744bf781553231d0527e91555cc44cf26e55fc39fb1cd"
+    },
+    {
+      "path": "shallow-water-study/dish/test_validation.json",
+      "size": 5340,
+      "sha256": "1c97116d0a19512ceb68632105fe491a3629e5916b6e8ea14e298ecf850bced6"
+    },
+    {
+      "path": "shallow-water-study/dish/top_boundary_validation.json",
+      "size": 213,
+      "sha256": "f2d8b87a9488a5819eb289c6eed89649221ed05d0fef50e0a5d53004e1be91aa"
+    },
+    {
+      "path": "shallow-water-study/provenance.json",
+      "size": 5788,
+      "sha256": "d00e531e7ec395493383e73ed56f7cca0b36e35077814b59f9c2e2fecc60860f"
+    },
+    {
+      "path": "shallow-water-study/puddle/comparison.png",
+      "size": 489492,
+      "sha256": "0ca6562872d99fa31df747982855bd25ad1691676be1cadd6d593c3a6e1cd204"
+    },
+    {
+      "path": "shallow-water-study/puddle/same_crop_comparison.png",
+      "size": 439046,
+      "sha256": "a5ca96ba70c2ec1b85bbec3a35d4077bfb3752ecd156413c47d5154a78aa7208"
+    },
+    {
+      "path": "shallow-water-study/puddle/test_validation.json",
+      "size": 4055,
+      "sha256": "76546b2b099e26a1b815e795062f0750ee96848e85a9a786108818ff1d52f84e"
+    },
+    {
+      "path": "shallow-water-study/run_test.py",
+      "size": 7320,
+      "sha256": "e5499a6b8bb8ec9ccec3cf9a4290911c2370823ace8fb9b6359335d982ea5958"
     },
     {
       "path": "soft-shadow-study/.gitignore",

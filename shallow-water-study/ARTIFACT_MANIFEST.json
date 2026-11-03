@@ -1,0 +1,91 @@
+{
+  "title": "얕은 물 · 두 가지 제한된 시험",
+  "scope": "공개 사본의 현재 바이트. 역사적 원본 해시는 provenance.json 참조.",
+  "files": [
+    {
+      "path": "README.md",
+      "bytes": 8200,
+      "sha256": "2077102441bd06a21e935641cc1ec41709176c6f2c9c8e018ea40975e0d79aca"
+    },
+    {
+      "path": "baseline/dish.blend",
+      "bytes": 758624,
+      "sha256": "2c150ac5a184607e7bca36e029670f3035ccd909e0b34529b86d93809600ecfc"
+    },
+    {
+      "path": "baseline/dish.png",
+      "bytes": 797559,
+      "sha256": "2e16e75fc8c1d1235658a36d045743ec2c5da5717c43fd6f67416baceaf73737"
+    },
+    {
+      "path": "baseline/puddle.blend",
+      "bytes": 1323056,
+      "sha256": "1c25014ee1006cccf3464586a12cad8d402c0ddd33e71f889e06e83c7fc49434"
+    },
+    {
+      "path": "baseline/puddle.png",
+      "bytes": 448000,
+      "sha256": "56d56f1f43715b05a2394f85cd5a74b6d4e3279a7105148a6444ace5082eb067"
+    },
+    {
+      "path": "check_top.py",
+      "bytes": 1135,
+      "sha256": "54fed9fde396a09638eaf6fc758749a9836da60581ad497fc74e3940e89edbe2"
+    },
+    {
+      "path": "compare.py",
+      "bytes": 2824,
+      "sha256": "f0e53a569000b600ac088c48eaa69069a9fdb07b7a744c0039a34b3e822fd7d6"
+    },
+    {
+      "path": "comparison_metrics.json",
+      "bytes": 4052,
+      "sha256": "9c9c75bce292e5a3dd251b798510e6e7aa0bc05b9eeae26bc8f94c85149b9185"
+    },
+    {
+      "path": "dish/comparison.png",
+      "bytes": 798776,
+      "sha256": "b7ef2fbd3fa57894ad47b91dbd7dda6d21fea634afe621f53bbe9cc07fcf2695"
+    },
+    {
+      "path": "dish/same_crop_comparison.png",
+      "bytes": 463660,
+      "sha256": "740d916a3f2b2d75ddc744bf781553231d0527e91555cc44cf26e55fc39fb1cd"
+    },
+    {
+      "path": "dish/test_validation.json",
+      "bytes": 5340,
+      "sha256": "1c97116d0a19512ceb68632105fe491a3629e5916b6e8ea14e298ecf850bced6"
+    },
+    {
+      "path": "dish/top_boundary_validation.json",
+      "bytes": 213,
+      "sha256": "f2d8b87a9488a5819eb289c6eed89649221ed05d0fef50e0a5d53004e1be91aa"
+    },
+    {
+      "path": "provenance.json",
+      "bytes": 5788,
+      "sha256": "d00e531e7ec395493383e73ed56f7cca0b36e35077814b59f9c2e2fecc60860f"
+    },
+    {
+      "path": "puddle/comparison.png",
+      "bytes": 489492,
+      "sha256": "0ca6562872d99fa31df747982855bd25ad1691676be1cadd6d593c3a6e1cd204"
+    },
+    {
+      "path": "puddle/same_crop_comparison.png",
+      "bytes": 439046,
+      "sha256": "a5ca96ba70c2ec1b85bbec3a35d4077bfb3752ecd156413c47d5154a78aa7208"
+    },
+    {
+      "path": "puddle/test_validation.json",
+      "bytes": 4055,
+      "sha256": "76546b2b099e26a1b815e795062f0750ee96848e85a9a786108818ff1d52f84e"
+    },
+    {
+      "path": "run_test.py",
+      "bytes": 7320,
+      "sha256": "e5499a6b8bb8ec9ccec3cf9a4290911c2370823ace8fb9b6359335d982ea5958"
+    }
+  ]
+}

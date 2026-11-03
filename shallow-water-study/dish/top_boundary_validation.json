@@ -1,0 +1,8 @@
+{
+  "max_top_boundary_coordinate_difference_m": 0.0,
+  "top_boundary_unchanged_within_1e_8m": true,
+  "top_z_equal": true,
+  "baseline_top_faces": 192,
+  "test_top_faces": 192,
+  "all_test_top_faces_flat": true
+}

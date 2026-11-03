@@ -1,0 +1,123 @@
+{
+  "dish": {
+    "baseline_image": "baseline/dish.png",
+    "comparison_image": "dish/comparison.png",
+    "crop_box_px": [
+      150,
+      190,
+      650,
+      540
+    ],
+    "original_blend_unchanged": true,
+    "baseline_image_sha256": "2e16e75fc8c1d1235658a36d045743ec2c5da5717c43fd6f67416baceaf73737",
+    "test_image_sha256": "b7ef2fbd3fa57894ad47b91dbd7dda6d21fea634afe621f53bbe9cc07fcf2695",
+    "patches": {
+      "water_center": {
+        "bounds_px": [
+          330,
+          350,
+          470,
+          420
+        ],
+        "baseline_mean_display_luma": 37.01108195918367,
+        "test_mean_display_luma": 37.44930275510204,
+        "baseline_median": 36.7284,
+        "test_median": 37.1536,
+        "mean_difference": 0.4382207959183673,
+        "mean_absolute_difference": 1.0061972448979593,
+        "pixel_difference_std": 3.979497014573598
+      },
+      "water_edge_left": {
+        "bounds_px": [
+          210,
+          350,
+          240,
+          420
+        ],
+        "baseline_mean_display_luma": 24.352446285714283,
+        "test_mean_display_luma": 27.749513999999998,
+        "baseline_median": 21.434399999999997,
+        "test_median": 22.584,
+        "mean_difference": 3.397067714285715,
+        "mean_absolute_difference": 15.357619333333332,
+        "pixel_difference_std": 26.6358376629026
+      },
+      "ceramic_rim": {
+        "bounds_px": [
+          330,
+          225,
+          470,
+          245
+        ],
+        "baseline_mean_display_luma": 213.4394094285714,
+        "test_mean_display_luma": 213.43976657142855,
+        "baseline_median": 211.22699999999998,
+        "test_median": 211.22699999999998,
+        "mean_difference": 0.00035714285714285714,
+        "mean_absolute_difference": 0.00035714285714285714,
+        "pixel_difference_std": 0.018894848666301856
+      }
+    }
+  },
+  "puddle": {
+    "baseline_image": "baseline/puddle.png",
+    "comparison_image": "puddle/comparison.png",
+    "crop_box_px": [
+      65,
+      120,
+      575,
+      325
+    ],
+    "original_blend_unchanged": true,
+    "baseline_image_sha256": "56d56f1f43715b05a2394f85cd5a74b6d4e3279a7105148a6444ace5082eb067",
+    "test_image_sha256": "0ca6562872d99fa31df747982855bd25ad1691676be1cadd6d593c3a6e1cd204",
+    "patches": {
+      "water_dark_left": {
+        "bounds_px": [
+          135,
+          190,
+          180,
+          230
+        ],
+        "baseline_mean_display_luma": 42.95135722222222,
+        "test_mean_display_luma": 111.40881,
+        "baseline_median": 43.038399999999996,
+        "test_median": 112.17049999999999,
+        "mean_difference": 68.45745277777777,
+        "mean_absolute_difference": 68.45745277777777,
+        "pixel_difference_std": 8.481136985425234
+      },
+      "water_center_reflection": {
+        "bounds_px": [
+          245,
+          190,
+          325,
+          225
+        ],
+        "baseline_mean_display_luma": 62.60765764285715,
+        "test_mean_display_luma": 122.20298421428572,
+        "baseline_median": 62.51059999999999,
+        "test_median": 122.69599999999998,
+        "mean_difference": 59.59532657142857,
+        "mean_absolute_difference": 59.59532657142857,
+        "pixel_difference_std": 7.571429131692167
+      },
+      "ground_front": {
+        "bounds_px": [
+          100,
+          330,
+          190,
+          365
+        ],
+        "baseline_mean_display_luma": 106.56182311111111,
+        "test_mean_display_luma": 159.01136139682538,
+        "baseline_median": 106.5828,
+        "test_median": 159.3874,
+        "mean_difference": 52.44953828571429,
+        "mean_absolute_difference": 52.44953828571429,
+        "pixel_difference_std": 2.203186350939464
+      }
+    }
+  },
+  "measurement_limits": "Display-encoded 8-bit luma statistics in fixed hand-selected patches; not linear radiometry, reflection contributions, a perceptual user study or Monte Carlo confidence intervals. Same seed does not eliminate sampling differences when scene geometry or illumination changes. No additional noise-estimation renders were made."
+}
