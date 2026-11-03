@@ -1,0 +1,85 @@
+{
+  "case": "LH",
+  "band_additive_radiance": 0.2,
+  "world_background_radiance": 0.05,
+  "band_inside_total_radiance": 0.25,
+  "band_elevation_degrees": [
+    22.38,
+    28.38
+  ],
+  "floor_multiplier": 2.0,
+  "floor_linear_grays": [
+    0.2,
+    0.4
+  ],
+  "floor_cell_m": 0.2,
+  "water_ior": 1.333,
+  "water_roughness": 0,
+  "surface_z_m": 0,
+  "floor_z_m": -0.01,
+  "surface_normal": [
+    0,
+    0,
+    1
+  ],
+  "camera_location": [
+    0.0,
+    -2.134999990463257,
+    1.0130000114440918
+  ],
+  "camera_matrix": [
+    [
+      1.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    [
+      0.0,
+      0.4286683201789856,
+      -0.9034619331359863,
+      -2.134999990463257
+    ],
+    [
+      0.0,
+      0.9034619331359863,
+      0.4286683201789856,
+      1.0130000114440918
+    ],
+    [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  ],
+  "lens_mm": 50,
+  "sensor_width_mm": 36,
+  "resolution": [
+    400,
+    300
+  ],
+  "samples": 32,
+  "seed": 137,
+  "adaptive_sampling": false,
+  "denoising": false,
+  "bounces": [
+    12,
+    4,
+    4,
+    8,
+    8
+  ],
+  "view": [
+    "AgX",
+    "AgX - Medium High Contrast",
+    2,
+    1
+  ],
+  "center_view_elevation_degrees": 25.383079934070267,
+  "center_ideal_fresnel": 0.0844752147125242,
+  "geometry_hash": "8cf56ab97cfad86630c8a1d475cc555eb0dcd1a1141a1c917ccc8d926bb1363c",
+  "model_limit": "Single water interface with ideal half-space below and opaque floor; not a closed shallow-water volume. World change affects floor illumination too.",
+  "environment_mask_sha256": "268e44f64fd63a10709a4dcd60d1dbbbcf1e04ccd85775edc5907a381c69c20a",
+  "roi_definition_sha256": "c533debd5085dc9193a5c64496d4f3a248e6450351b16972cacf8eec531366ce"
+}

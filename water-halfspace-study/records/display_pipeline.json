@@ -1,0 +1,7 @@
+{
+  "canonical_PNGs": "All six PNGs use identical EXR -> Blender AgX Medium High Contrast, exposure +2, gamma 1 -> 8-bit RGB save_render.",
+  "direct_exports_preserved": "work/*_direct_render.png",
+  "comparison": "Direct render PNG versus EXR re-display differed by at most 2/255 per channel (LL identical). See png_exr_display_consistency.json. No ROI measurement uses PNG.",
+  "linear_inputs_unchanged": true,
+  "additional_renders": 0
+}

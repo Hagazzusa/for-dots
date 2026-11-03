@@ -1,0 +1,26 @@
+{
+  "LL": {
+    "max_channel_difference": 0,
+    "identical_pixels": true
+  },
+  "HL": {
+    "max_channel_difference": 2,
+    "identical_pixels": false
+  },
+  "LH": {
+    "max_channel_difference": 2,
+    "identical_pixels": false
+  },
+  "HH": {
+    "max_channel_difference": 2,
+    "identical_pixels": false
+  },
+  "LL_repeat": {
+    "max_channel_difference": 2,
+    "identical_pixels": false
+  },
+  "HH_repeat": {
+    "max_channel_difference": 2,
+    "identical_pixels": false
+  }
+}

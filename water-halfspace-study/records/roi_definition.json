@@ -1,0 +1,80 @@
+{
+  "fixed_before_other_matrix_cases": true,
+  "basis": "LL actual preview only; all ROIs non-overlapping and frozen before HL/LH/HH renders.",
+  "model": "Snell transmitted ray intersects opaque checker floor 10 mm below single interface. Reflected elevation identifies environment band. Grid visibility supports passage through interface, not proof of a physically correct shallow volume.",
+  "display_choice": "Fixed exposure +2 for every PNG, selected after dark initial LL preview before other cases. EXRs remain scene-linear.",
+  "rois": {
+    "band_inside": {
+      "bounds_px": [
+        160,
+        140,
+        185,
+        160
+      ],
+      "predicted_reflection_elevation_degrees": [
+        24.337994335616727,
+        26.35169748979898
+      ],
+      "predicted_checker_phase_counts": {
+        "0": 275,
+        "1": 225
+      },
+      "baseline_linear_luma_mean": 0.02695244437083602,
+      "baseline_linear_luma_std_spatial": 0.004777019255598258
+    },
+    "band_outside": {
+      "bounds_px": [
+        165,
+        202,
+        185,
+        222
+      ],
+      "predicted_reflection_elevation_degrees": [
+        30.716480834494533,
+        32.7026478762638
+      ],
+      "predicted_checker_phase_counts": {
+        "0": 0,
+        "1": 400
+      },
+      "baseline_linear_luma_mean": 0.006443100995384156,
+      "baseline_linear_luma_std_spatial": 0.0014206910901491641
+    },
+    "grid_bright": {
+      "bounds_px": [
+        143,
+        238,
+        173,
+        258
+      ],
+      "predicted_reflection_elevation_degrees": [
+        34.2378506666771,
+        36.284810262859644
+      ],
+      "predicted_checker_phase_counts": {
+        "0": 600,
+        "1": 0
+      },
+      "baseline_linear_luma_mean": 0.009982358005363495,
+      "baseline_linear_luma_std_spatial": 0.002333162616963048
+    },
+    "grid_dark": {
+      "bounds_px": [
+        212,
+        238,
+        242,
+        258
+      ],
+      "predicted_reflection_elevation_degrees": [
+        34.32786267167372,
+        36.32419555676456
+      ],
+      "predicted_checker_phase_counts": {
+        "0": 0,
+        "1": 600
+      },
+      "baseline_linear_luma_mean": 0.005964222387410701,
+      "baseline_linear_luma_std_spatial": 0.0015575970351280925
+    }
+  }
+}

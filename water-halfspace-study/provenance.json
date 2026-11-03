@@ -1,0 +1,263 @@
+{
+  "title": "평면 물 경계 · 2×2 기준 실험",
+  "origin": "독자적인 절차형 형상·재질·생성 환경맵. 외부 다운로드 자산·개인 입력 없음.",
+  "license_note": "새로운 공개 라이선스를 부여하지 않음.",
+  "files": [
+    {
+      "path": "LL.blend",
+      "historical_sha256": "6f1c43dbc36f1520275f96e63b4ac165cd38b8c1ccd850f19de3e98bb045c6a4",
+      "publication_sha256": "6e184f899d0cc2d823abc9e341b9b8ba86b079ae0cd372262d676ad5964e8c90"
+    },
+    {
+      "path": "README.md",
+      "historical_sha256": "1c0244db5d2ce694772599b8817ecb79dcb0f7d2916860b0711f4db33706ea05",
+      "publication_sha256": "24f0d0b2d564f318ab51d7944b9825a8baa348f6e8b3ac5fb11f833ef8f3bad7"
+    },
+    {
+      "path": "analyze.py",
+      "historical_sha256": "b1add6c3fae6b43d81a4157021ec2beead82444d9523648dc8f0d531a193498f",
+      "publication_sha256": "b1add6c3fae6b43d81a4157021ec2beead82444d9523648dc8f0d531a193498f"
+    },
+    {
+      "path": "check_exports.py",
+      "historical_sha256": "9df0b5013eac70300429614740277b4ba405d256f64cc6e2cf1c4275a5bf124c",
+      "publication_sha256": "4d1e0af1c4cc75f77d8bfae2c7fcebc60984925c3f295b359ac79f6d2848fd72"
+    },
+    {
+      "path": "check_preview.py",
+      "historical_sha256": "1b0182bf0d4b4244481b39bcbe1bbde84340f273e535b2b3af1c01819a319b81",
+      "publication_sha256": "1b0182bf0d4b4244481b39bcbe1bbde84340f273e535b2b3af1c01819a319b81"
+    },
+    {
+      "path": "matrix.png",
+      "historical_sha256": "a07174bbf0a88a58f5980f498754fb0e7dfff202d4777ac891260c5e7b30235b",
+      "idat_unchanged": true,
+      "decoded_pixels_unchanged": true,
+      "publication_sha256": "a07174bbf0a88a58f5980f498754fb0e7dfff202d4777ac891260c5e7b30235b"
+    },
+    {
+      "path": "records/HH.json",
+      "historical_sha256": "369cdf0cbec7e5c27e4a1ff29a44b33bd0947937e63e45806ad3bb4d9060c788",
+      "publication_sha256": "369cdf0cbec7e5c27e4a1ff29a44b33bd0947937e63e45806ad3bb4d9060c788"
+    },
+    {
+      "path": "records/HH_repeat.json",
+      "historical_sha256": "6d2bb098abbc5daca6bdcd609d89b915c6209ac3143bc68beacf043a14ddc542",
+      "publication_sha256": "6d2bb098abbc5daca6bdcd609d89b915c6209ac3143bc68beacf043a14ddc542"
+    },
+    {
+      "path": "records/HL.json",
+      "historical_sha256": "0f3ac0e9b503385aab936454d1de4551712aa4b0c302ba0ec27daeceb1bdbfca",
+      "publication_sha256": "0f3ac0e9b503385aab936454d1de4551712aa4b0c302ba0ec27daeceb1bdbfca"
+    },
+    {
+      "path": "records/LH.json",
+      "historical_sha256": "c5ff98775c39120a8841765af093bef9c2fcd99b68a31fc2aad0c70b57fb9a3a",
+      "publication_sha256": "c5ff98775c39120a8841765af093bef9c2fcd99b68a31fc2aad0c70b57fb9a3a"
+    },
+    {
+      "path": "records/LL.json",
+      "historical_sha256": "8f2b848c50af035789d66910bea1c346c9c0ff38eb9cb191c3eab15002750ec3",
+      "publication_sha256": "8f2b848c50af035789d66910bea1c346c9c0ff38eb9cb191c3eab15002750ec3"
+    },
+    {
+      "path": "records/LL_repeat.json",
+      "historical_sha256": "326f4ccaae718608082650b4b08045da255cf74d1d9841289febddb481678052",
+      "publication_sha256": "326f4ccaae718608082650b4b08045da255cf74d1d9841289febddb481678052"
+    },
+    {
+      "path": "records/analysis.json",
+      "historical_sha256": "2d9e6180038e1e2dd7cc8f5628d2d021cc823b3ad110862efe4f2cf94363d655",
+      "publication_sha256": "67a6d560e7d213e0883e88ee31e252b22df2802c9bb1047f82d2c23e65c66427"
+    },
+    {
+      "path": "records/display_pipeline.json",
+      "historical_sha256": "d4de073e6e4ed0682a8fad2750692636b1200d9f7c037190e64b0786ab801e15",
+      "publication_sha256": "d4de073e6e4ed0682a8fad2750692636b1200d9f7c037190e64b0786ab801e15"
+    },
+    {
+      "path": "records/exr_color_spaces.json",
+      "historical_sha256": "55a3661c56415f3deb00cd2071fb4dfa41f9f8a1e826eeb7532ba5ebfa75490e",
+      "publication_sha256": "55a3661c56415f3deb00cd2071fb4dfa41f9f8a1e826eeb7532ba5ebfa75490e"
+    },
+    {
+      "path": "records/png_exr_display_consistency.json",
+      "historical_sha256": "549b2e7bf633b5c275c21d8aeee4e9df28421e51f3aff4306be32c765e796035",
+      "publication_sha256": "549b2e7bf633b5c275c21d8aeee4e9df28421e51f3aff4306be32c765e796035"
+    },
+    {
+      "path": "records/roi_definition.json",
+      "historical_sha256": "c533debd5085dc9193a5c64496d4f3a248e6450351b16972cacf8eec531366ce",
+      "publication_sha256": "c533debd5085dc9193a5c64496d4f3a248e6450351b16972cacf8eec531366ce"
+    },
+    {
+      "path": "renders/HH.exr",
+      "historical_sha256": "26fb1f5138e8a8ae5c86808e1a286251cd53ff735b3bb40bccf83686dcae3fd0",
+      "file_header_only_changed": true,
+      "unchanged_outside_file_value_sha256": "ed23656ed0df92a8b3f4de5a7dc426685b2d24a8ee8a44fe0e5651a0a0270149",
+      "publication_sha256": "96283168835a8bb8bb74c1c1b72311d7ce7271087e03f65022552eceff921fef"
+    },
+    {
+      "path": "renders/HH.png",
+      "historical_sha256": "7eb82f092b3cdb8999c2ecfb1a6914d95c50f331dcadceaa11e376ee6c94b4ab",
+      "idat_unchanged": true,
+      "decoded_pixels_unchanged": true,
+      "publication_sha256": "01eeff9073060baa7f002a1b7402424adc2fd5ee59324e58f696c63e2c04bbdc"
+    },
+    {
+      "path": "renders/HH_linear.npy",
+      "historical_sha256": "a3f375b9d849e7e61c7a04ebaedb100bc5ed8d82b81dadd15292fae2d996b0cc",
+      "publication_sha256": "a3f375b9d849e7e61c7a04ebaedb100bc5ed8d82b81dadd15292fae2d996b0cc"
+    },
+    {
+      "path": "renders/HH_repeat.exr",
+      "historical_sha256": "979315458987633848ca4fe9bc01078de4e140e9119781a52082ae3baf7e8c2a",
+      "file_header_only_changed": true,
+      "unchanged_outside_file_value_sha256": "91943392573667a98b4cf66e4a97f62629a1e8b46f98d8d83bed832780428fac",
+      "publication_sha256": "2ecdc7b941e0d844ef0815edb5299a142650f7b0337668686687da6779dbc379"
+    },
+    {
+      "path": "renders/HH_repeat.png",
+      "historical_sha256": "b2ae14c60df0541425b6667d4d85e858471b1a1626497f24303ae741443e31b4",
+      "idat_unchanged": true,
+      "decoded_pixels_unchanged": true,
+      "publication_sha256": "0acea459245bdcfeab5c6cdbf407f06e0ff1d8c2b03ba8f593bb1310a9f8f849"
+    },
+    {
+      "path": "renders/HH_repeat_linear.npy",
+      "historical_sha256": "ebf58ad9235f294477fea80c7ade383d4972fa37cb28e2e94aac4e16dde29389",
+      "publication_sha256": "ebf58ad9235f294477fea80c7ade383d4972fa37cb28e2e94aac4e16dde29389"
+    },
+    {
+      "path": "renders/HL.exr",
+      "historical_sha256": "6512a47cbb003cf0fe18acec4335da767f3221912f7144871ac5e57a22b986e1",
+      "file_header_only_changed": true,
+      "unchanged_outside_file_value_sha256": "3ed92f9985fd2e5260addadf5f61d5ba2040409eddb4c53eca1e4d1f61999afb",
+      "publication_sha256": "f81133533655ff46363e16883188cffb944f1b836b533ab7b2da511af0c54088"
+    },
+    {
+      "path": "renders/HL.png",
+      "historical_sha256": "41a7dba5275952a270b9cb4ee4e1ac5420e7b6a756f1e051328d1f0aba0f8abb",
+      "idat_unchanged": true,
+      "decoded_pixels_unchanged": true,
+      "publication_sha256": "21479a73eda1f7055a27a152d36c51e75b557f8a1bef04d0928fed18c1082819"
+    },
+    {
+      "path": "renders/HL_linear.npy",
+      "historical_sha256": "0d6bae75e8367847b7b0c02e4f4496016b1256cbec6ed4c9128f65900409a91a",
+      "publication_sha256": "0d6bae75e8367847b7b0c02e4f4496016b1256cbec6ed4c9128f65900409a91a"
+    },
+    {
+      "path": "renders/LH.exr",
+      "historical_sha256": "fb471cebcb1c2793f6a658bb854f3724ead3705d51b43547337515f5f432dfe8",
+      "file_header_only_changed": true,
+      "unchanged_outside_file_value_sha256": "ed6af9a11beca59c5d569aed22ad14d4a9721c1d755f9f923b580fcbb8588c21",
+      "publication_sha256": "272adcf211371cdaa3c8ab11465e69930c9475812e165467671edacdf98ba76c"
+    },
+    {
+      "path": "renders/LH.png",
+      "historical_sha256": "6db1f2cb7830ad56f196135fa3fc4ab399ccc30ecc2081a89bb5d0172c9818ad",
+      "idat_unchanged": true,
+      "decoded_pixels_unchanged": true,
+      "publication_sha256": "831ac2f3239c392ad0f7dfbac1f1d5f36a9419b837662d6be0506df0b2559164"
+    },
+    {
+      "path": "renders/LH_linear.npy",
+      "historical_sha256": "00c8483c69f1f60f1d6598c27d7bf47a00ac8c91286e57fe9c81689a063a2219",
+      "publication_sha256": "00c8483c69f1f60f1d6598c27d7bf47a00ac8c91286e57fe9c81689a063a2219"
+    },
+    {
+      "path": "renders/LL.exr",
+      "historical_sha256": "1af0c7f796f252368916c4c223ae29095f5b171305ac8b73b739159fd3ef221a",
+      "file_header_only_changed": true,
+      "unchanged_outside_file_value_sha256": "6a7eefe384a1e29771fced91c8fbbf953f113b2bdab00067bb3a92280d67d2c5",
+      "publication_sha256": "862b6d840cd99b6ece8ee46864c8219257eecb259e1f3669339bfcc3293424a7"
+    },
+    {
+      "path": "renders/LL.png",
+      "historical_sha256": "60b52eb7a0fcd177d3d80de576f4fd796c9677c909a82d625b8e499e45616ab2",
+      "idat_unchanged": true,
+      "decoded_pixels_unchanged": true,
+      "publication_sha256": "2ab2750102d1e9e4364cd2dee4fe418bbc63b040a44cd6bf67073be2964d5be9"
+    },
+    {
+      "path": "renders/LL_linear.npy",
+      "historical_sha256": "accb53d18720ff50fa80cf75f0d777e95eb13093f236893c063c739b20797114",
+      "publication_sha256": "accb53d18720ff50fa80cf75f0d777e95eb13093f236893c063c739b20797114"
+    },
+    {
+      "path": "renders/LL_repeat.exr",
+      "historical_sha256": "bc86df1d5c3bc41de61301bf36b21a93a3a95a83bb5cdac63f2782590f536b45",
+      "file_header_only_changed": true,
+      "unchanged_outside_file_value_sha256": "92147579be391d62f32c926cef5c210fdeffa09730e389948d4a5cae3a8a9e52",
+      "publication_sha256": "1d6924d4c2d5fd5e9bf6822631009a670ecab12dda31fae54fa2e5c71a8333f7"
+    },
+    {
+      "path": "renders/LL_repeat.png",
+      "historical_sha256": "a3e8e4b1768bb6fb41991ecf4de76247f56dd96adbbe5bdcb53b9f69732e4ac3",
+      "idat_unchanged": true,
+      "decoded_pixels_unchanged": true,
+      "publication_sha256": "2beebe1f2daf6dfac09f772119a4b7623eb198e7157b606f7ac956a2aad3b9f6"
+    },
+    {
+      "path": "renders/LL_repeat_linear.npy",
+      "historical_sha256": "d9dc9da939fee57bc3474b38f3b51977daa723f23f9c4bcd99e98a15cca1b918",
+      "publication_sha256": "d9dc9da939fee57bc3474b38f3b51977daa723f23f9c4bcd99e98a15cca1b918"
+    },
+    {
+      "path": "renders/preview_initial_exposure0.png",
+      "historical_sha256": "8750d42efafa53c18e7d7a7aca4d437d7c30d9f6df85e02e21abbe78f088abf8",
+      "idat_unchanged": true,
+      "decoded_pixels_unchanged": true,
+      "publication_sha256": "1d09499ce1bfae170a08a9dfaac153bfed8f1efcefcd0ddf02c2aea488c6bdd1"
+    },
+    {
+      "path": "roi_layout.png",
+      "historical_sha256": "f11b5ee0c5ec13f79182bf9ac25dccb2a13983b8b0fdd8f1b2763b3687f0ad03",
+      "idat_unchanged": true,
+      "decoded_pixels_unchanged": true,
+      "publication_sha256": "f11b5ee0c5ec13f79182bf9ac25dccb2a13983b8b0fdd8f1b2763b3687f0ad03"
+    },
+    {
+      "path": "run.py",
+      "historical_sha256": "d770d8caf480970aec384267c5cfc4cb7810e95668c5bebfa41deb49026d467c",
+      "publication_sha256": "d770d8caf480970aec384267c5cfc4cb7810e95668c5bebfa41deb49026d467c"
+    },
+    {
+      "path": "seed_comparison.png",
+      "historical_sha256": "b65d9104aab83a5aac97a733cb4805de80e63c3849a9251697a350ddcc2567b1",
+      "idat_unchanged": true,
+      "decoded_pixels_unchanged": true,
+      "publication_sha256": "b65d9104aab83a5aac97a733cb4805de80e63c3849a9251697a350ddcc2567b1"
+    },
+    {
+      "path": "set_display.py",
+      "historical_sha256": "9777c70ef0122e60ac1b4e73f42735168de7d2d52c7ea8fa28d5a1e09c51e998",
+      "publication_sha256": "9777c70ef0122e60ac1b4e73f42735168de7d2d52c7ea8fa28d5a1e09c51e998"
+    },
+    {
+      "path": "use_exr_display.py",
+      "historical_sha256": "18351ac22fa5cfd893d8eaa92a64f18f3224953184a054fdbe74d563a0fe34f7",
+      "publication_sha256": "18351ac22fa5cfd893d8eaa92a64f18f3224953184a054fdbe74d563a0fe34f7"
+    }
+  ],
+  "native_normalization": {
+    "scene_fingerprint_unchanged": true,
+    "scene_fingerprint": "ef5b60f6d6063013da6feb5f2f5b0e33a6ae615b30b9b44ac27d648f36c5f687",
+    "generated_images_pixels_unchanged": true,
+    "generated_images": [
+      [
+        "Generated latitude band mask",
+        [
+          1024,
+          512
+        ],
+        "Non-Color",
+        "268e44f64fd63a10709a4dcd60d1dbbbcf1e04ccd85775edc5907a381c69c20a"
+      ]
+    ],
+    "scope": "objects, transforms, meshes, modifier settings, camera/lights, material/world nodes and links, Cycles/view settings, generated image pixels; excludes output/browser paths and transient session_uid"
+  },
+  "numeric_validation": "EXR 6개의 원래 RGB float32 디코딩은 NPY와 비트 단위 동일. File값 밖 EXR바이트 불변. 공개사본 분석 재실행은 EXR해시 외 모든수치 동일.",
+  "scope": "원본 6렌더의 증거보존. 공개준비 과정에서 추가렌더 없음; LL관찰후ROI/+2선택은 사전등록 아님."
+}

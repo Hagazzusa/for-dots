@@ -1,0 +1,285 @@
+{
+  "fixed_ROI_sha256": "c533debd5085dc9193a5c64496d4f3a248e6450351b16972cacf8eec531366ce",
+  "fixed_settings_match_all_cases": true,
+  "linear_luma_weights": [
+    0.2126,
+    0.7152,
+    0.0722
+  ],
+  "values_from": "32-bit linear RGB OpenEXR read through Blender Linear Rec.709, top-left array stored in *_linear.npy",
+  "cases": {
+    "LL": {
+      "roi": {
+        "band_inside": {
+          "mean_linear_luma": 0.02695244437083602,
+          "spatial_std": 0.004777019255598258,
+          "pixels": 500
+        },
+        "band_outside": {
+          "mean_linear_luma": 0.006443100995384156,
+          "spatial_std": 0.0014206910901491641,
+          "pixels": 400
+        },
+        "grid_bright": {
+          "mean_linear_luma": 0.009982358005363495,
+          "spatial_std": 0.002333162616963048,
+          "pixels": 600
+        },
+        "grid_dark": {
+          "mean_linear_luma": 0.005964222387410701,
+          "spatial_std": 0.0015575970351280925,
+          "pixels": 600
+        }
+      },
+      "band_inside_minus_outside": 0.020509343375451863,
+      "grid_bright_minus_dark": 0.004018135617952794,
+      "grid_normalized_contrast": 0.251974750635159,
+      "linear_RGB_range": [
+        0.0022329555358737707,
+        0.04585845768451691
+      ],
+      "PNG_channel_max": 119,
+      "PNG_pixels_with_any_channel_254plus": 0,
+      "EXR_channels_pixel_type": {
+        "B": 2,
+        "G": 2,
+        "R": 2
+      },
+      "EXR_sha256": "862b6d840cd99b6ece8ee46864c8219257eecb259e1f3669339bfcc3293424a7"
+    },
+    "HL": {
+      "roi": {
+        "band_inside": {
+          "mean_linear_luma": 0.10051172553002834,
+          "spatial_std": 0.017917281169945766,
+          "pixels": 500
+        },
+        "band_outside": {
+          "mean_linear_luma": 0.010381847845274024,
+          "spatial_std": 0.004659204967442622,
+          "pixels": 400
+        },
+        "grid_bright": {
+          "mean_linear_luma": 0.018028098326952506,
+          "spatial_std": 0.008180231102582149,
+          "pixels": 600
+        },
+        "grid_dark": {
+          "mean_linear_luma": 0.010021327095649516,
+          "spatial_std": 0.0050389520668468885,
+          "pixels": 600
+        }
+      },
+      "band_inside_minus_outside": 0.0901298776847543,
+      "grid_bright_minus_dark": 0.00800677123130299,
+      "grid_normalized_contrast": 0.2854522369235839,
+      "linear_RGB_range": [
+        0.0026028109714388847,
+        0.17531326413154602
+      ],
+      "PNG_channel_max": 194,
+      "PNG_pixels_with_any_channel_254plus": 0,
+      "EXR_channels_pixel_type": {
+        "B": 2,
+        "G": 2,
+        "R": 2
+      },
+      "EXR_sha256": "f81133533655ff46363e16883188cffb944f1b836b533ab7b2da511af0c54088"
+    },
+    "LH": {
+      "roi": {
+        "band_inside": {
+          "mean_linear_luma": 0.033394049864262344,
+          "spatial_std": 0.006763808763874015,
+          "pixels": 500
+        },
+        "band_outside": {
+          "mean_linear_luma": 0.010478420604486019,
+          "spatial_std": 0.0021975212855789173,
+          "pixels": 400
+        },
+        "grid_bright": {
+          "mean_linear_luma": 0.018480743998661637,
+          "spatial_std": 0.003612562955523886,
+          "pixels": 600
+        },
+        "grid_dark": {
+          "mean_linear_luma": 0.009983709078902999,
+          "spatial_std": 0.002357495566798008,
+          "pixels": 600
+        }
+      },
+      "band_inside_minus_outside": 0.022915629259776325,
+      "grid_bright_minus_dark": 0.008497034919758638,
+      "grid_normalized_contrast": 0.29851390070993167,
+      "linear_RGB_range": [
+        0.003373989835381508,
+        0.05789104849100113
+      ],
+      "PNG_channel_max": 134,
+      "PNG_pixels_with_any_channel_254plus": 0,
+      "EXR_channels_pixel_type": {
+        "B": 2,
+        "G": 2,
+        "R": 2
+      },
+      "EXR_sha256": "272adcf211371cdaa3c8ab11465e69930c9475812e165467671edacdf98ba76c"
+    },
+    "HH": {
+      "roi": {
+        "band_inside": {
+          "mean_linear_luma": 0.11391115689277649,
+          "spatial_std": 0.022339389157003373,
+          "pixels": 500
+        },
+        "band_outside": {
+          "mean_linear_luma": 0.018430095375515522,
+          "spatial_std": 0.00788764636433955,
+          "pixels": 400
+        },
+        "grid_bright": {
+          "mean_linear_luma": 0.035135674827421706,
+          "spatial_std": 0.013611157477365467,
+          "pixels": 600
+        },
+        "grid_dark": {
+          "mean_linear_luma": 0.018299459201904636,
+          "spatial_std": 0.008410634838205326,
+          "pixels": 600
+        }
+      },
+      "band_inside_minus_outside": 0.09548106151726096,
+      "grid_bright_minus_dark": 0.01683621562551707,
+      "grid_normalized_contrast": 0.31507763443200115,
+      "linear_RGB_range": [
+        0.0040880790911614895,
+        0.20246708393096924
+      ],
+      "PNG_channel_max": 200,
+      "PNG_pixels_with_any_channel_254plus": 0,
+      "EXR_channels_pixel_type": {
+        "B": 2,
+        "G": 2,
+        "R": 2
+      },
+      "EXR_sha256": "96283168835a8bb8bb74c1c1b72311d7ce7271087e03f65022552eceff921fef"
+    },
+    "LL_repeat": {
+      "roi": {
+        "band_inside": {
+          "mean_linear_luma": 0.026953012119978668,
+          "spatial_std": 0.004700457948457505,
+          "pixels": 500
+        },
+        "band_outside": {
+          "mean_linear_luma": 0.006423083696863614,
+          "spatial_std": 0.0014703000851878658,
+          "pixels": 400
+        },
+        "grid_bright": {
+          "mean_linear_luma": 0.009958451050333678,
+          "spatial_std": 0.0022834021071148933,
+          "pixels": 600
+        },
+        "grid_dark": {
+          "mean_linear_luma": 0.005814454974994684,
+          "spatial_std": 0.0014608575710810313,
+          "pixels": 600
+        }
+      },
+      "band_inside_minus_outside": 0.020529928423115053,
+      "grid_bright_minus_dark": 0.004143996075338994,
+      "grid_normalized_contrast": 0.26272876213707896,
+      "linear_RGB_range": [
+        0.001996801234781742,
+        0.047038789838552475
+      ],
+      "PNG_channel_max": 121,
+      "PNG_pixels_with_any_channel_254plus": 0,
+      "EXR_channels_pixel_type": {
+        "B": 2,
+        "G": 2,
+        "R": 2
+      },
+      "EXR_sha256": "1d6924d4c2d5fd5e9bf6822631009a670ecab12dda31fae54fa2e5c71a8333f7"
+    },
+    "HH_repeat": {
+      "roi": {
+        "band_inside": {
+          "mean_linear_luma": 0.11397955939173698,
+          "spatial_std": 0.02179495875979897,
+          "pixels": 500
+        },
+        "band_outside": {
+          "mean_linear_luma": 0.018342992474790664,
+          "spatial_std": 0.008159429401434113,
+          "pixels": 400
+        },
+        "grid_bright": {
+          "mean_linear_luma": 0.03437690052203834,
+          "spatial_std": 0.012954245163411605,
+          "pixels": 600
+        },
+        "grid_dark": {
+          "mean_linear_luma": 0.0177953318778115,
+          "spatial_std": 0.008016389122987012,
+          "pixels": 600
+        }
+      },
+      "band_inside_minus_outside": 0.09563656691694632,
+      "grid_bright_minus_dark": 0.016581568644226836,
+      "grid_normalized_contrast": 0.317823636856194,
+      "linear_RGB_range": [
+        0.005139656364917755,
+        0.20454461872577667
+      ],
+      "PNG_channel_max": 200,
+      "PNG_pixels_with_any_channel_254plus": 0,
+      "EXR_channels_pixel_type": {
+        "B": 2,
+        "G": 2,
+        "R": 2
+      },
+      "EXR_sha256": "2ecdc7b941e0d844ef0815edb5299a142650f7b0337668686687da6779dbc379"
+    }
+  },
+  "effects": {
+    "band_inside": {
+      "band_change_floor_low": 0.07355928115919232,
+      "band_change_floor_high": 0.08051710702851414,
+      "floor_change_band_low": 0.006441605493426324,
+      "floor_change_band_high": 0.013399431362748154,
+      "two_factor_interaction": 0.006957825869321831,
+      "LL_other_seed_delta": 5.677491426471504e-07,
+      "HH_other_seed_delta": 6.840249896049311e-05
+    },
+    "band_outside": {
+      "band_change_floor_low": 0.003938746849889868,
+      "band_change_floor_high": 0.007951674771029503,
+      "floor_change_band_low": 0.004035319609101863,
+      "floor_change_band_high": 0.008048247530241498,
+      "two_factor_interaction": 0.004012927921139635,
+      "LL_other_seed_delta": -2.0017298520542265e-05,
+      "HH_other_seed_delta": -8.710290072485791e-05
+    },
+    "grid_bright": {
+      "band_change_floor_low": 0.008045740321589012,
+      "band_change_floor_high": 0.01665493082876007,
+      "floor_change_band_low": 0.008498385993298142,
+      "floor_change_band_high": 0.0171075765004692,
+      "two_factor_interaction": 0.008609190507171058,
+      "LL_other_seed_delta": -2.3906955029816268e-05,
+      "HH_other_seed_delta": -0.0007587743053833682
+    },
+    "grid_dark": {
+      "band_change_floor_low": 0.004057104708238815,
+      "band_change_floor_high": 0.008315750123001637,
+      "floor_change_band_low": 0.004019486691492298,
+      "floor_change_band_high": 0.00827813210625512,
+      "two_factor_interaction": 0.0042586454147628214,
+      "LL_other_seed_delta": -0.00014976741241601657,
+      "HH_other_seed_delta": -0.0005041273240931343
+    }
+  },
+  "limits": "ROI spatial std is not Monte Carlo standard error. Only two seeds at two extremes; no confidence intervals or significance claim. World amplitude changes floor illumination too; ROI effects are not isolated reflection/transmission contributions."
+}

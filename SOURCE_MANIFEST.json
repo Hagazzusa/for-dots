@@ -19,8 +19,8 @@
     },
     {
       "path": "README.md",
-      "size": 17399,
-      "sha256": "d4d6c398de02fa8661544b6e88479d53959ff66a2dc99d631ffdc19c5224dc37"
+      "size": 17835,
+      "sha256": "c253da1492b388598a93d7569924dcfa529a83c8b5bb4b94b883324a8e0f298d"
     },
     {
       "path": "a-place-for-rain/.gitignore",
@@ -5536,6 +5536,221 @@
       "path": "verify_sources.py",
       "size": 3104,
       "sha256": "fad3d261a8c0a9e499c67668eb5194ca6c58f7d39bc4519525f442306c743fd9"
+    },
+    {
+      "path": "water-halfspace-study/ARTIFACT_MANIFEST.json",
+      "size": 6571,
+      "sha256": "b520514ff920d2627e168913c2efcd22d540e53559e3fb4c0c91f6de77518fe1"
+    },
+    {
+      "path": "water-halfspace-study/LL.blend",
+      "size": 6797884,
+      "sha256": "6e184f899d0cc2d823abc9e341b9b8ba86b079ae0cd372262d676ad5964e8c90"
+    },
+    {
+      "path": "water-halfspace-study/README.md",
+      "size": 10854,
+      "sha256": "24f0d0b2d564f318ab51d7944b9825a8baa348f6e8b3ac5fb11f833ef8f3bad7"
+    },
+    {
+      "path": "water-halfspace-study/analyze.py",
+      "size": 4895,
+      "sha256": "b1add6c3fae6b43d81a4157021ec2beead82444d9523648dc8f0d531a193498f"
+    },
+    {
+      "path": "water-halfspace-study/check_exports.py",
+      "size": 771,
+      "sha256": "4d1e0af1c4cc75f77d8bfae2c7fcebc60984925c3f295b359ac79f6d2848fd72"
+    },
+    {
+      "path": "water-halfspace-study/check_preview.py",
+      "size": 2057,
+      "sha256": "1b0182bf0d4b4244481b39bcbe1bbde84340f273e535b2b3af1c01819a319b81"
+    },
+    {
+      "path": "water-halfspace-study/matrix.png",
+      "size": 676968,
+      "sha256": "a07174bbf0a88a58f5980f498754fb0e7dfff202d4777ac891260c5e7b30235b"
+    },
+    {
+      "path": "water-halfspace-study/provenance.json",
+      "size": 12717,
+      "sha256": "cfb3d5f18e32aa2adba7982794cd8d5bd9980898c8db1cc9998cc345bc15e67d"
+    },
+    {
+      "path": "water-halfspace-study/records/HH.json",
+      "size": 1685,
+      "sha256": "369cdf0cbec7e5c27e4a1ff29a44b33bd0947937e63e45806ad3bb4d9060c788"
+    },
+    {
+      "path": "water-halfspace-study/records/HH_repeat.json",
+      "size": 1692,
+      "sha256": "6d2bb098abbc5daca6bdcd609d89b915c6209ac3143bc68beacf043a14ddc542"
+    },
+    {
+      "path": "water-halfspace-study/records/HL.json",
+      "size": 1685,
+      "sha256": "0f3ac0e9b503385aab936454d1de4551712aa4b0c302ba0ec27daeceb1bdbfca"
+    },
+    {
+      "path": "water-halfspace-study/records/LH.json",
+      "size": 1685,
+      "sha256": "c5ff98775c39120a8841765af093bef9c2fcd99b68a31fc2aad0c70b57fb9a3a"
+    },
+    {
+      "path": "water-halfspace-study/records/LL.json",
+      "size": 1889,
+      "sha256": "8f2b848c50af035789d66910bea1c346c9c0ff38eb9cb191c3eab15002750ec3"
+    },
+    {
+      "path": "water-halfspace-study/records/LL_repeat.json",
+      "size": 1692,
+      "sha256": "326f4ccaae718608082650b4b08045da255cf74d1d9841289febddb481678052"
+    },
+    {
+      "path": "water-halfspace-study/records/analysis.json",
+      "size": 9388,
+      "sha256": "67a6d560e7d213e0883e88ee31e252b22df2802c9bb1047f82d2c23e65c66427"
+    },
+    {
+      "path": "water-halfspace-study/records/display_pipeline.json",
+      "size": 441,
+      "sha256": "d4de073e6e4ed0682a8fad2750692636b1200d9f7c037190e64b0786ab801e15"
+    },
+    {
+      "path": "water-halfspace-study/records/exr_color_spaces.json",
+      "size": 173,
+      "sha256": "55a3661c56415f3deb00cd2071fb4dfa41f9f8a1e826eeb7532ba5ebfa75490e"
+    },
+    {
+      "path": "water-halfspace-study/records/png_exr_display_consistency.json",
+      "size": 484,
+      "sha256": "549b2e7bf633b5c275c21d8aeee4e9df28421e51f3aff4306be32c765e796035"
+    },
+    {
+      "path": "water-halfspace-study/records/roi_definition.json",
+      "size": 2254,
+      "sha256": "c533debd5085dc9193a5c64496d4f3a248e6450351b16972cacf8eec531366ce"
+    },
+    {
+      "path": "water-halfspace-study/renders/HH.exr",
+      "size": 491438,
+      "sha256": "96283168835a8bb8bb74c1c1b72311d7ce7271087e03f65022552eceff921fef"
+    },
+    {
+      "path": "water-halfspace-study/renders/HH.png",
+      "size": 162672,
+      "sha256": "01eeff9073060baa7f002a1b7402424adc2fd5ee59324e58f696c63e2c04bbdc"
+    },
+    {
+      "path": "water-halfspace-study/renders/HH_linear.npy",
+      "size": 1440128,
+      "sha256": "a3f375b9d849e7e61c7a04ebaedb100bc5ed8d82b81dadd15292fae2d996b0cc"
+    },
+    {
+      "path": "water-halfspace-study/renders/HH_repeat.exr",
+      "size": 491516,
+      "sha256": "2ecdc7b941e0d844ef0815edb5299a142650f7b0337668686687da6779dbc379"
+    },
+    {
+      "path": "water-halfspace-study/renders/HH_repeat.png",
+      "size": 162553,
+      "sha256": "0acea459245bdcfeab5c6cdbf407f06e0ff1d8c2b03ba8f593bb1310a9f8f849"
+    },
+    {
+      "path": "water-halfspace-study/renders/HH_repeat_linear.npy",
+      "size": 1440128,
+      "sha256": "ebf58ad9235f294477fea80c7ade383d4972fa37cb28e2e94aac4e16dde29389"
+    },
+    {
+      "path": "water-halfspace-study/renders/HL.exr",
+      "size": 489903,
+      "sha256": "f81133533655ff46363e16883188cffb944f1b836b533ab7b2da511af0c54088"
+    },
+    {
+      "path": "water-halfspace-study/renders/HL.png",
+      "size": 156333,
+      "sha256": "21479a73eda1f7055a27a152d36c51e75b557f8a1bef04d0928fed18c1082819"
+    },
+    {
+      "path": "water-halfspace-study/renders/HL_linear.npy",
+      "size": 1440128,
+      "sha256": "0d6bae75e8367847b7b0c02e4f4496016b1256cbec6ed4c9128f65900409a91a"
+    },
+    {
+      "path": "water-halfspace-study/renders/LH.exr",
+      "size": 488597,
+      "sha256": "272adcf211371cdaa3c8ab11465e69930c9475812e165467671edacdf98ba76c"
+    },
+    {
+      "path": "water-halfspace-study/renders/LH.png",
+      "size": 141102,
+      "sha256": "831ac2f3239c392ad0f7dfbac1f1d5f36a9419b837662d6be0506df0b2559164"
+    },
+    {
+      "path": "water-halfspace-study/renders/LH_linear.npy",
+      "size": 1440128,
+      "sha256": "00c8483c69f1f60f1d6598c27d7bf47a00ac8c91286e57fe9c81689a063a2219"
+    },
+    {
+      "path": "water-halfspace-study/renders/LL.exr",
+      "size": 489162,
+      "sha256": "862b6d840cd99b6ece8ee46864c8219257eecb259e1f3669339bfcc3293424a7"
+    },
+    {
+      "path": "water-halfspace-study/renders/LL.png",
+      "size": 134128,
+      "sha256": "2ab2750102d1e9e4364cd2dee4fe418bbc63b040a44cd6bf67073be2964d5be9"
+    },
+    {
+      "path": "water-halfspace-study/renders/LL_linear.npy",
+      "size": 1440128,
+      "sha256": "accb53d18720ff50fa80cf75f0d777e95eb13093f236893c063c739b20797114"
+    },
+    {
+      "path": "water-halfspace-study/renders/LL_repeat.exr",
+      "size": 489002,
+      "sha256": "1d6924d4c2d5fd5e9bf6822631009a670ecab12dda31fae54fa2e5c71a8333f7"
+    },
+    {
+      "path": "water-halfspace-study/renders/LL_repeat.png",
+      "size": 133811,
+      "sha256": "2beebe1f2daf6dfac09f772119a4b7623eb198e7157b606f7ac956a2aad3b9f6"
+    },
+    {
+      "path": "water-halfspace-study/renders/LL_repeat_linear.npy",
+      "size": 1440128,
+      "sha256": "d9dc9da939fee57bc3474b38f3b51977daa723f23f9c4bcd99e98a15cca1b918"
+    },
+    {
+      "path": "water-halfspace-study/renders/preview_initial_exposure0.png",
+      "size": 108422,
+      "sha256": "1d09499ce1bfae170a08a9dfaac153bfed8f1efcefcd0ddf02c2aea488c6bdd1"
+    },
+    {
+      "path": "water-halfspace-study/roi_layout.png",
+      "size": 132860,
+      "sha256": "f11b5ee0c5ec13f79182bf9ac25dccb2a13983b8b0fdd8f1b2763b3687f0ad03"
+    },
+    {
+      "path": "water-halfspace-study/run.py",
+      "size": 6933,
+      "sha256": "d770d8caf480970aec384267c5cfc4cb7810e95668c5bebfa41deb49026d467c"
+    },
+    {
+      "path": "water-halfspace-study/seed_comparison.png",
+      "size": 649950,
+      "sha256": "b65d9104aab83a5aac97a733cb4805de80e63c3849a9251697a350ddcc2567b1"
+    },
+    {
+      "path": "water-halfspace-study/set_display.py",
+      "size": 878,
+      "sha256": "9777c70ef0122e60ac1b4e73f42735168de7d2d52c7ea8fa28d5a1e09c51e998"
+    },
+    {
+      "path": "water-halfspace-study/use_exr_display.py",
+      "size": 879,
+      "sha256": "18351ac22fa5cfd893d8eaa92a64f18f3224953184a054fdbe74d563a0fe34f7"
     },
     {
       "path": "window-rhythms/README.md",

@@ -9,6 +9,7 @@
 
 | 프로젝트 | 시작 안내 | 실행 환경 |
 |---|---|---|
+| **평면 물 경계 · 2×2 기준 실험** — 환경 띠와 바닥 명도의 조건별 출력 | [연구·재현·한계](water-halfspace-study/README.md) · [2×2 비교](water-halfspace-study/matrix.png) | Blender **4.3.2**, NumPy·Pillow. 이상화 단일 경계이며 ROI·입사각·격자 위상이 섞인 선형 출력 비교입니다. Fresnel 반사율·통계적 유의성·물 인지 성공을 입증하지 않습니다. |
 | **얕은 물 · 두 가지 제한된 시험** — 경계 기하와 월드 강도 비교 | [관찰·재현·한계](shallow-water-study/README.md) | Blender **4.3.2**, Pillow·NumPy. 동결 기준 장면에서 저샘플 시험을 재현합니다. 인공 틈·표본 간격·표시 RGB 통계이며 물의 반사 기여율이나 완성 작품을 입증하지 않습니다. |
 | **저울을 덮어 둔 밤** — 시장길 셔터 앞 저울과 접어 둔 천 | [편집 가능한 SVG·재현](market-scale/README.md) · [PNG 이미지](market-scale/market_scale_final.png) | Python 표준 라이브러리와 Inkscape **1.4**. 직접 작성한 벡터 정물이며 새 과일가게는 동반 상상입니다. 생성형 이미지·게임 구현·측정 장치 설계가 아닙니다. |
 | **돌아온 수레 · Returned Cart** — 작업실 처마 아래 빈 적재면과 풀린 끈 | [편집 가능한 장면·제작 과정](returned-cart/README.md) · [실제 렌더](returned-cart/renders/returned_cart_final.png) | Blender **4.3.2**, Cycles CPU. 기존 동네에 연결한 새 동반 상상이며 게임 통합·운반 장치 설계·실물 안전 검증이 아닙니다. |
