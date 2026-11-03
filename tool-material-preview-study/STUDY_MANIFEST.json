@@ -1,0 +1,70 @@
+{
+  "scope": "독립 미완료 편집기 미리보기 연구; 제품 적용 보류",
+  "files": [
+    {
+      "path": ".gitignore",
+      "size": 14,
+      "sha256": "222c6925c1e8c1074e0ba2608e6395592fcfe1370d4a662ee0af1a4b4d3a5100"
+    },
+    {
+      "path": "README.md",
+      "size": 3876,
+      "sha256": "9fafc5acdad1aee6e1fcec568dd40f88959634fe8c51fe35adaa225d42ed7c01"
+    },
+    {
+      "path": "assets/amber.tres",
+      "size": 132,
+      "sha256": "08c431e3656bde47474b61bd2531ff113615bade1a3c06831a49097fa9e7162b"
+    },
+    {
+      "path": "assets/blue.tres",
+      "size": 157,
+      "sha256": "6ead926ebe6e891abc08932a69d5794cf9f5b1cf7ce82a49e6704fe92d7d1a1d"
+    },
+    {
+      "path": "assets/two_panels.glb",
+      "size": 1044,
+      "sha256": "7ef72fbbc83bb44d090948af04cde356e934b3aea83af5e542d17ea900e070a3"
+    },
+    {
+      "path": "assets/two_panels.glb.import",
+      "size": 1043,
+      "sha256": "07782ddf408bf8e16c622892a976b51fcf42d5c84b41ef6aa9b1c874c943860c"
+    },
+    {
+      "path": "project.godot",
+      "size": 513,
+      "sha256": "ddd0dfe2774b6c5e039b3d5c578182d76657b3a91eb7a8a88c6ae43d64cff520"
+    },
+    {
+      "path": "scenes/main.tscn",
+      "size": 973,
+      "sha256": "02291faf50bbd0f0573c5a2a12940deadeab19d3ba0ff4832a2b4171b7786f62"
+    },
+    {
+      "path": "scenes/pair.tscn",
+      "size": 400,
+      "sha256": "197c27f6fcfff8bb175d5e481fab64f00755e49152566c94ce406b2edf655c5a"
+    },
+    {
+      "path": "scripts/preview.gd",
+      "size": 1314,
+      "sha256": "862991918e729c09d56d3aba76ac8e9cf48d2d59ba8b2d3619fcca87108c137f"
+    },
+    {
+      "path": "scripts/preview.gd.uid",
+      "size": 20,
+      "sha256": "0f90b04eb2852454fe356aef44c9a5adce8e6ab3d0e5ac5b4e72dde5b9773932"
+    },
+    {
+      "path": "tests/preview_test.gd",
+      "size": 3846,
+      "sha256": "5f555fff73695a92b065d5aa618dd7cb21c1a7a568f51ee06533a9758ffba7d7"
+    },
+    {
+      "path": "tests/preview_test.gd.uid",
+      "size": 20,
+      "sha256": "fd15091b3825365e701e7a40b24e2fedf23c892a7be15a552e1ee7bba59c1022"
+    }
+  ]
+}

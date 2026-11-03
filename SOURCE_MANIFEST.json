@@ -19,8 +19,8 @@
     },
     {
       "path": "README.md",
-      "size": 20582,
-      "sha256": "5befbe95ad97b302e23a57f9ed031d50c5452310260cade9f4e06e846e605784"
+      "size": 20767,
+      "sha256": "3dff50c035ccf085b24fd000ca2f129bc8ddf777719289d8cc548affe9aae7a9"
     },
     {
       "path": "WORLD_CONNECTIONS.md",
@@ -6001,6 +6001,76 @@
       "path": "tea-material-study/verify_lab.py",
       "size": 4755,
       "sha256": "bef1736284fbfbf2139c84d129b28bbe4fc20392352c152636d93baf80564e93"
+    },
+    {
+      "path": "tool-material-preview-study/.gitignore",
+      "size": 14,
+      "sha256": "222c6925c1e8c1074e0ba2608e6395592fcfe1370d4a662ee0af1a4b4d3a5100"
+    },
+    {
+      "path": "tool-material-preview-study/README.md",
+      "size": 3876,
+      "sha256": "9fafc5acdad1aee6e1fcec568dd40f88959634fe8c51fe35adaa225d42ed7c01"
+    },
+    {
+      "path": "tool-material-preview-study/STUDY_MANIFEST.json",
+      "size": 2066,
+      "sha256": "89ed12a3a4fcbbddf983696e276b124f3899f8aaebee9b6e75d4055c93665ac6"
+    },
+    {
+      "path": "tool-material-preview-study/assets/amber.tres",
+      "size": 132,
+      "sha256": "08c431e3656bde47474b61bd2531ff113615bade1a3c06831a49097fa9e7162b"
+    },
+    {
+      "path": "tool-material-preview-study/assets/blue.tres",
+      "size": 157,
+      "sha256": "6ead926ebe6e891abc08932a69d5794cf9f5b1cf7ce82a49e6704fe92d7d1a1d"
+    },
+    {
+      "path": "tool-material-preview-study/assets/two_panels.glb",
+      "size": 1044,
+      "sha256": "7ef72fbbc83bb44d090948af04cde356e934b3aea83af5e542d17ea900e070a3"
+    },
+    {
+      "path": "tool-material-preview-study/assets/two_panels.glb.import",
+      "size": 1043,
+      "sha256": "07782ddf408bf8e16c622892a976b51fcf42d5c84b41ef6aa9b1c874c943860c"
+    },
+    {
+      "path": "tool-material-preview-study/project.godot",
+      "size": 513,
+      "sha256": "ddd0dfe2774b6c5e039b3d5c578182d76657b3a91eb7a8a88c6ae43d64cff520"
+    },
+    {
+      "path": "tool-material-preview-study/scenes/main.tscn",
+      "size": 973,
+      "sha256": "02291faf50bbd0f0573c5a2a12940deadeab19d3ba0ff4832a2b4171b7786f62"
+    },
+    {
+      "path": "tool-material-preview-study/scenes/pair.tscn",
+      "size": 400,
+      "sha256": "197c27f6fcfff8bb175d5e481fab64f00755e49152566c94ce406b2edf655c5a"
+    },
+    {
+      "path": "tool-material-preview-study/scripts/preview.gd",
+      "size": 1314,
+      "sha256": "862991918e729c09d56d3aba76ac8e9cf48d2d59ba8b2d3619fcca87108c137f"
+    },
+    {
+      "path": "tool-material-preview-study/scripts/preview.gd.uid",
+      "size": 20,
+      "sha256": "0f90b04eb2852454fe356aef44c9a5adce8e6ab3d0e5ac5b4e72dde5b9773932"
+    },
+    {
+      "path": "tool-material-preview-study/tests/preview_test.gd",
+      "size": 3846,
+      "sha256": "5f555fff73695a92b065d5aa618dd7cb21c1a7a568f51ee06533a9758ffba7d7"
+    },
+    {
+      "path": "tool-material-preview-study/tests/preview_test.gd.uid",
+      "size": 20,
+      "sha256": "fd15091b3825365e701e7a40b24e2fedf23c892a7be15a552e1ee7bba59c1022"
     },
     {
       "path": "tools/README.md",

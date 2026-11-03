@@ -104,3 +104,5 @@ python3 tools/test_check_public_assets.py
 [바람의 방향](wind-direction/README.md): 비와 히터 사이에서 말없이 머무는 두 사람을 그린 짧은 소설입니다. 관계를 확정하지 않는 독립 상상이며 게임 설정·동작을 덧쓰지 않습니다.
 
 [수면 명도와 빛 조각의 조합 비교](river-window-alternatives/COMBINED.md): 두 단독안을 함께 놓아도 강 판독은 불확실해 게임 통합하지 않은 작은 후속 기록입니다.
+
+- [재질 미리보기 샌드박스](tool-material-preview-study/README.md): 신호 수명·복제 검증과 제한된 편집기 관찰. undo 등 미검증으로 제품 적용 보류.
