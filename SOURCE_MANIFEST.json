@@ -9,8 +9,8 @@
     },
     {
       "path": "GALLERY.md",
-      "size": 13699,
-      "sha256": "75a6c48b3dc0d1079f7ff75f01f6e451ab90f542a098762739e3488eb6b487bc"
+      "size": 14363,
+      "sha256": "735c38515e1ab7fc6f0786ce07c105147868222fb092a1c7be7814d21cea7455"
     },
     {
       "path": "GIT_ENVIRONMENT_CHECK.md",
@@ -19,8 +19,8 @@
     },
     {
       "path": "README.md",
-      "size": 21130,
-      "sha256": "cb5c2a76d43ab2b0882524b69e82ec0d546a4e6231f6b8b1e3e33e5caf328199"
+      "size": 21492,
+      "sha256": "de38cbc09384c4609ff28c577e24cde71e3983cc43ba424ae631e4bda7259bec"
     },
     {
       "path": "WORLD_CONNECTIONS.md",
@@ -2586,6 +2586,36 @@
       "path": "after-the-rain/tools/v3_baseline.gd",
       "size": 21504,
       "sha256": "54aded5b2d5f17eb9e06c4b0b1c84cfda0e5ec16e210c0fd00a7029045477fbd"
+    },
+    {
+      "path": "after-the-turn/README.md",
+      "size": 2446,
+      "sha256": "17fdc31b90c07cd170c47bcb345e53eb87e04d937d7b07b6924f3d60e2a011fd"
+    },
+    {
+      "path": "after-the-turn/SHA256SUMS",
+      "size": 406,
+      "sha256": "509eaf09cba4aa037de4f5971c57c86dbfbdc57b009aa294f30e3db6191b21d1"
+    },
+    {
+      "path": "after-the-turn/after_the_turn.png",
+      "size": 235480,
+      "sha256": "ab157c592d3ad51951738d97a0748f86c24ca419d9d8ffb3e908dbaf6afc0008"
+    },
+    {
+      "path": "after-the-turn/after_the_turn.svg",
+      "size": 4599,
+      "sha256": "6463b0c964ab700f5ffdbfad8f1484d3e05c32e659c131bee68ec569a60965ab"
+    },
+    {
+      "path": "after-the-turn/render.sh",
+      "size": 242,
+      "sha256": "e4e6f447d152de39260b2a4431d58ca6e1858911d62d4a0d619bd7a814bc8b27"
+    },
+    {
+      "path": "after-the-turn/verification.json",
+      "size": 1107,
+      "sha256": "f7cd52160cdde519f790d6fe3b9a6c68dcabdd1b72c6259fee80ebfcead184e2"
     },
     {
       "path": "beside-you/README.md",

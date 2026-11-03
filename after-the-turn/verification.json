@@ -1,0 +1,32 @@
+{
+  "dimensions": [
+    3200,
+    2400
+  ],
+  "mode": "RGBA",
+  "png_chunks": [
+    "IDAT",
+    "IEND",
+    "IHDR",
+    "pHYs",
+    "tEXt"
+  ],
+  "png_text_metadata": {
+    "Software": "www.inkscape.org"
+  },
+  "exif_or_private_path_metadata": false,
+  "external_assets": [],
+  "external_svg_references": [],
+  "internal_svg_references": [
+    "url(#basket-side)"
+  ],
+  "font_dependencies": [],
+  "renderer": "Inkscape 1.4",
+  "repeat_render_byte_identical": true,
+  "repeat_png_sha256": "ab157c592d3ad51951738d97a0748f86c24ca419d9d8ffb3e908dbaf6afc0008",
+  "public_asset_pattern_scan": "6 files checked; no suspicious target patterns. Extensionless SHA256SUMS required manual format review.",
+  "visual_review": "1200×900 초안과 3200×2400 최종 이미지를 직접 확인했다.",
+  "lighting": "오른쪽 창 밖에서 들어오는 빛.",
+  "scope": "양식화된 사선의 독립 벡터 정물. 정확한 3D 투영, 실제 제품, 게임 구현 또는 안전 검증이 아니다.",
+  "checksum_file_manual_review": "SHA256SUMS contains only five SHA-256 values and expected relative filenames."
+}

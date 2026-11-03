@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1200" viewBox="0 0 1600 1200" role="img" aria-labelledby="title desc">
+<title id="title">회전이 멎은 뒤</title>
+<desc id="desc">낮은 사선으로 본 작은 빨래방. 문이 조금 열린 세탁기와 바닥에 놓인 빈 빨래 바구니. 직접 그린 독립 벡터 그림.</desc>
+<defs><clipPath id="basket-side"><path d="M1023 800L1285 825L1256 978L1043 958Z"/></clipPath></defs>
+<g id="room"><path fill="#d8ddd6" d="M0 0H1600V1200H0Z"/><path fill="#b9c5c1" d="M0 746L1600 674V1200H0Z"/><path fill="#a6b6b3" opacity=".6" d="M0 746L1600 674V681L0 752Z"/>
+<path fill="#d8d6bd" d="M1436 681L1600 674V1118L812 1180L698 1113Z"/><path fill="#ece2bd" opacity=".58" d="M1460 682L1568 677L1102 1102L765 1128Z"/></g>
+<g id="window-fragment"><path fill="#819da2" d="M1437 0H1600V668L1437 676Z"/><path fill="#68878f" d="M1457 0H1600V667L1457 673Z"/><path fill="#9baead" d="M1457 370L1600 348V666L1457 673Z"/><path fill="#c1c9b9" d="M1431 0H1450V676H1431Z"/><path fill="#e8dfc7" d="M1431 676L1600 668V678L1423 687Z"/><path fill="#8da5a8" d="M1508 97H1511V166H1508ZM1551 228H1554V287H1551Z"/></g>
+<g id="machine-shadow"><path fill="#6e8584" opacity=".33" d="M440 846L894 793L1143 937L659 1018L390 928Z"/></g>
+<g id="washing-machine">
+<path fill="#b1c1bc" d="M445 269L845 236L936 292L536 332Z"/>
+<path fill="#91aaa8" d="M845 236L936 292V802L845 857Z"/>
+<path fill="#e1e4d8" d="M445 269L845 236V857L445 893Z"/>
+<path fill="#edf0e3" d="M445 269L845 236V248L445 281Z"/>
+<path fill="#c7d2c9" d="M445 824L845 790V857L445 893Z"/>
+<path fill="#637e7e" d="M458 862L829 830V852L458 883Z"/>
+<path fill="#b4c5be" d="M466 307L823 277V375L466 405Z"/>
+<path fill="#e1e4d8" d="M483 322L600 312V353L483 363Z"/>
+<path fill="#a3b6af" d="M492 345L591 337V343L492 351Z"/>
+<ellipse cx="760" cy="323" rx="27" ry="29" fill="#e5e9dc"/><path fill="#78918e" d="M759 300H763V312H759Z"/>
+<path fill="#657e7c" d="M636 311L705 305V337L636 343Z"/>
+<path fill="#b6bd9c" d="M647 322L676 319V324L647 327Z"/>
+<!-- Fixed drum opening: its low viewpoint is shown by offset inner rings. -->
+<ellipse cx="646" cy="596" rx="163" ry="178" fill="#9cb2ad"/>
+<ellipse cx="646" cy="596" rx="146" ry="160" fill="#d4dfd4"/>
+<ellipse cx="646" cy="596" rx="129" ry="144" fill="#526e73"/>
+<ellipse cx="658" cy="586" rx="110" ry="126" fill="#38555e"/>
+<path fill="#739091" d="M565 655C588 700 660 731 725 680C711 725 668 746 632 737C592 731 569 704 565 655Z"/>
+<path fill="none" stroke="#496871" stroke-width="3" d="M597 488L591 654M623 472L618 683M651 469L646 696M680 481L674 694M707 500L700 675"/>
+</g>
+<g id="partly-open-door">
+<!-- Left hinge near x497; open door projects left, leaving the dark drum visible. -->
+<path fill="#78918e" d="M494 474L504 472V521L494 523ZM494 673L504 671V721L494 723Z"/>
+<ellipse cx="450" cy="601" rx="92" ry="170" fill="#a9beb5"/>
+<ellipse cx="445" cy="601" rx="79" ry="155" fill="#dfe4d6"/>
+<ellipse cx="442" cy="601" rx="63" ry="137" fill="#779595"/>
+<path fill="#99b1a9" d="M438 468C406 476 382 530 382 595C382 650 399 699 422 724C402 670 404 525 438 468Z"/>
+<path fill="#617f83" d="M447 480C478 500 494 546 495 598C493 651 477 700 449 722C466 666 472 534 447 480Z"/>
+<path fill="#5e7d80" d="M370 559Q354 563 354 581V627Q354 642 369 644L376 629L374 574Z"/>
+</g>
+<g id="basket-contact-shadow"><ellipse cx="1165" cy="972" rx="163" ry="30" fill="#718b88" opacity=".29"/></g>
+<g id="empty-basket">
+<!-- Rim plane sits below the machine opening; base is visibly on the floor. -->
+<path fill="#6b8582" d="M1023 800L1110 761L1350 785L1285 825Z"/>
+<path fill="#516f69" d="M1037 800L1111 774L1329 793L1282 813Z"/>
+<path fill="#7b9687" d="M1111 774L1329 793L1313 802L1111 785Z"/>
+<path fill="#668378" d="M1037 800L1111 774V785L1066 803Z"/>
+<path fill="#b9c6ae" d="M1023 800L1285 825L1256 978L1043 958Z"/>
+<path fill="#8ea48f" d="M1285 825L1350 785L1319 936L1256 978Z"/>
+<path fill="#d0d5b9" d="M1019 793L1288 816L1287 831L1023 808Z"/>
+<path fill="#b5c4ab" d="M1288 816L1351 779L1352 794L1287 831Z"/>
+<g clip-path="url(#basket-side)" stroke="#8ca28e" stroke-width="8" fill="none">
+<path d="M1041 823L1061 960M1077 826L1091 966M1114 830L1123 972M1152 834L1157 977M1190 837L1189 979M1228 841L1222 982M1266 843L1255 985"/>
+<path d="M1028 854L1282 876M1035 895L1275 916M1040 934L1264 954"/>
+</g>
+<path fill="none" stroke="#6f8c7f" stroke-width="7" d="M1305 829L1282 957M1327 815L1303 946M1281 871L1340 836M1273 915L1330 880"/>
+<path fill="#b9c6ae" d="M1092 811L1188 819L1183 840L1098 833Z"/>
+<path fill="#738d80" d="M1105 818L1174 824L1171 829L1108 824Z"/>
+</g>
+</svg>

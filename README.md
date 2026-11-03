@@ -13,6 +13,7 @@
 
 | 프로젝트 | 시작 안내 | 실행 환경 |
 |---|---|---|
+| **회전이 멎은 뒤** — 열린 세탁기 문과 창 밖에서 들어오는 빛 | [벡터 원본·재현](after-the-turn/README.md) · [PNG 이미지](after-the-turn/after_the_turn.png) | Inkscape **1.4**. 외부 자원 없이 직접 그린 독립 벡터 정물. 양식화한 사선 구도이며 실제 제품 사진이나 게임 구현이 아닙니다. |
 | **비 오는 밤의 정류장 · 08 정류장** — 작은 창과 다가오는 버스 불빛 | [제작 코드·재현](pixel-busstop/README.md) · [6배 확대 PNG](pixel-busstop/busstop_6x.png) | Python·Pillow. 192×108 제한 팔레트의 직접 코드 생성 픽셀아트이며, 게임 화면·외부 스프라이트·생성형 이미지가 아닙니다. |
 | **아직 출발하지 않은 밤** — 비에 젖은 앞유리 너머 두 실루엣 | [벡터 원본·재현과 설정 범위](still-together/README.md) · [PNG 이미지](still-together/still_together.png) | Inkscape **1.4**. 직접 작성한 독립 벡터 정물이며 외부 이미지·폰트는 없습니다. 차 안 두 사람을 배경으로 한 동반 상상이지 실제 사람의 사진·새 게임 장면·유리 광학 시뮬레이션이 아닙니다. |
 | **강이 지나가는 동안** — 창 가장자리 너머로 흐르는 밤의 강 | [벡터 원본·재현과 설정 범위](river-between-stops/README.md) · [PNG 이미지](river-between-stops/river_between_stops.png) | Inkscape **1.4**. 직접 작성한 SVG의 독립 동반 그림이며 외부 이미지·폰트는 없습니다. 게임 구현·특정 인물의 확정 동선·사실적 물 재현이 아닙니다. |
