@@ -51,6 +51,7 @@ func _ready():
 		world.additional_shelters.assign([exploration.rain_cover.get_world_bounds(),neighborhood.cover.get_world_bounds()])
 		rain.additional_shelters.assign(world.additional_shelters)
 		exploration.shared_available=func():return not exchange.loaned
+	story.panel.boarding_available = can_board_here
 	neighborhood.initialize(story.panel)
 	exchange.initialize(umbrella,story.objects.get_node("Passenger"),story.panel)
 	conversation.initialize(story.panel,story.stories["Passenger"],story.objects.get_node("Passenger"))
@@ -114,6 +115,9 @@ func near_disposal()->bool:
 func near(id:String,distance:float)->bool:
 	return player.position.distance_to(world.anchor(id))<distance
 
+func can_board_here() -> bool:
+	return not boarded and not photo_mode and not player.seated and bus.phase=="stopped" and near("Boarding",boarding_radius)
+
 func interact():
 	if boarded:
 		if onboard.linger:onboard.stop_linger()
@@ -124,7 +128,7 @@ func interact():
 		return
 	photo_mode=false
 	player.set_motion_enabled(true)
-	if not player.seated and bus.phase=="stopped" and near("Boarding",boarding_radius):
+	if can_board_here():
 		board_bus()
 	elif story and story.panel.is_open:
 		story.panel.advance()
@@ -230,7 +234,7 @@ func hint_text()->String:
 		if onboard.linger:return "[E] 오늘 밤 마무리하기    [R] 다시 시작"
 		return "[E] 창가에 조금 더 앉아 있기    [R] 다시 시작" if ride_finished else "A window seat. The city slips quietly by."
 	if photo_mode:return "[P / E] 바라보던 자리로 돌아가기    Space 잠깐 쉬기"
-	if not player.seated and bus.phase=="stopped" and near("Boarding",boarding_radius):
+	if can_board_here():
 		return "[E] Board the 08 home     /     Or let this one pass."
 	if story and story.panel.is_open:
 		return story.hint(player.camera,player.global_position)

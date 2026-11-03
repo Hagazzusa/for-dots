@@ -4,6 +4,8 @@ const StoryText = preload("res://config/story_text.gd")
 signal closed
 signal story_closed(story: Resource)
 var current_story: Resource
+# The session supplies eligibility; this panel never queries world/player siblings.
+var boarding_available: Callable
 signal choice_selected(index: int)
 var suspended := false
 var is_open: bool = false
@@ -69,8 +71,19 @@ func close_story() -> void:
 func _present() -> void:
 	body_label.text = _pages[_page]
 	choice_label.text = "[1] " + _choice_labels[0] + "     [2] " + _choice_labels[1] if _awaiting_choice else ""
-	guide_label.text = "1 / 2 선택    Q 닫기 · 읽는 동안에도 걸을 수 있어요" if _awaiting_choice else ("E 다음" if _page < _pages.size()-1 else "E 닫기") + "    Q 닫기 · 읽는 동안에도 걸을 수 있어요"
+	_refresh_guide()
 	page_label.text = "%d / %d" % [_page+1,_pages.size()]
+
+func _process(_delta: float) -> void:
+	if is_open and not suspended:
+		_refresh_guide()
+
+func _refresh_guide() -> void:
+	var can_board := boarding_available.is_valid() and bool(boarding_available.call())
+	var action := "1 / 2 선택" if _awaiting_choice else ("E 다음" if _page < _pages.size()-1 else "E 닫기")
+	if can_board:
+		action = "E 버스 타기" + (" · 1 / 2 선택" if _awaiting_choice else "")
+	guide_label.text = action + "    Q 닫기 · 읽는 동안에도 시간은 흘러요"
 
 func _unhandled_key_input(event: InputEvent) -> void:
 	if suspended or not is_open or not event is InputEventKey or not event.pressed or event.echo:

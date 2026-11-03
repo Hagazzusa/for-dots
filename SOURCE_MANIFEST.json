@@ -289,8 +289,8 @@
     },
     {
       "path": "after-the-rain/README.md",
-      "size": 6493,
-      "sha256": "977da654e61e56264eabb45fc779cab38608eece88c193f07863e64afc619dc4"
+      "size": 6646,
+      "sha256": "a89cbe0cbcb6c50a5160842e46eeddcbd94745885fe58824884513386de40e17"
     },
     {
       "path": "after-the-rain/RECOVERY.md",
@@ -1243,6 +1243,11 @@
       "sha256": "24cae9b20db0c290a0b4a7b13e306a7a93ed0f754b6cee1eaf57c616fce54752"
     },
     {
+      "path": "after-the-rain/docs/READER_BOARDING_HINT.md",
+      "size": 2826,
+      "sha256": "c28e34ccc3962e51d991680d27653f09fb2bf2d099740d19212c88c94e8a9bcf"
+    },
+    {
       "path": "after-the-rain/docs/REFUGE_GLASS_MATERIAL.md",
       "size": 3092,
       "sha256": "274dbd911655e033f754f46b145f3208fa3ae4b175e2997589f3db1ed152737f"
@@ -1794,8 +1799,8 @@
     },
     {
       "path": "after-the-rain/scripts/session.gd",
-      "size": 13508,
-      "sha256": "36dc813384fc5dc15a20a271af841f6e9b80c27db8c144efa9cd1cc9f4919688"
+      "size": 13586,
+      "sha256": "af2dd7b73a10ea3adc9f1438c5e742e95a5d117d83aaee35072a5480c236484a"
     },
     {
       "path": "after-the-rain/scripts/session.gd.uid",
@@ -1814,8 +1819,8 @@
     },
     {
       "path": "after-the-rain/scripts/story_panel.gd",
-      "size": 2769,
-      "sha256": "61524f8a2c58de533b185a98df01c8f3c0cbbd20aa9fadd1b8b22d9791770a9d"
+      "size": 3169,
+      "sha256": "ebff3327401b182653c986769d9badc303e2861c5c5ce78437ea1f087a11a77e"
     },
     {
       "path": "after-the-rain/scripts/story_panel.gd.uid",
@@ -2106,6 +2111,16 @@
       "path": "after-the-rain/tests/player_cup_isolation.gd.uid",
       "size": 20,
       "sha256": "487ec08880b19e12854e0f530d05cb87eb8e79d8deb6b471a5d370e299658160"
+    },
+    {
+      "path": "after-the-rain/tests/reader_boarding_hint.gd",
+      "size": 3805,
+      "sha256": "db73297c747e635e9d0850adce08bc4a41b0176d22ce16e9a593d567e1ef5593"
+    },
+    {
+      "path": "after-the-rain/tests/reader_boarding_hint.gd.uid",
+      "size": 19,
+      "sha256": "199be15d92c3dec4e349a176d8668a9d9b091bf82ff07c27620838239189ecb8"
     },
     {
       "path": "after-the-rain/tests/recovery_atmosphere_integration.gd",
