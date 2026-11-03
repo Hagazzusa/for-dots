@@ -1,0 +1,88 @@
+{
+  "scope": "동일한 고양이와 세트에서 조명만 바꾼 세 가지 저해상도 비교. 승인된 최종 작품을 교체하지 않으며 보편적 조명 규칙이나 관측 기상을 주장하지 않음",
+  "source_reference": "../Morning_on_the_Sill.blend",
+  "source_native_sha256": "e3aa59075ec731e7b7e78dcbd02d6801053c22b7f98615d298f0e7004790d273",
+  "source_unchanged": true,
+  "static_geometry_material_camera_signature": "a2a526fa24ae5a3199c64375502bc0cf559a4e6bb899d85ed925ab77353aa50b",
+  "resolution": [
+    600,
+    400
+  ],
+  "max_samples": 24,
+  "threads": 2,
+  "denoising": false,
+  "check_only": true,
+  "frames_rendered": 0,
+  "no_geographic_or_measured_weather_claim": true,
+  "variants": [
+    {
+      "name": "low_side_morning",
+      "from_direction": [
+        -5,
+        -2,
+        2.5
+      ],
+      "sun_energy": 3.0,
+      "sun_color": [
+        1,
+        0.94,
+        0.85
+      ],
+      "world_color": [
+        0.62,
+        0.78,
+        1
+      ],
+      "world_strength": 0.45,
+      "purpose": "높은 측광 안과 방위·광량·광색을 고정하고 태양 고도만 낮춘 비교",
+      "sun_elevation_degrees": 24.90253602554341,
+      "static_geometry_material_camera_signature_matches": true
+    },
+    {
+      "name": "higher_side_morning",
+      "from_direction": [
+        -5,
+        -2,
+        9.0
+      ],
+      "sun_energy": 3.0,
+      "sun_color": [
+        1,
+        0.94,
+        0.85
+      ],
+      "world_color": [
+        0.62,
+        0.78,
+        1
+      ],
+      "world_strength": 0.45,
+      "purpose": "동일한 방위·광량·광색에서 태양 고도와 그림자 길이의 차이를 살펴보는 비교",
+      "sun_elevation_degrees": 59.10573792060619,
+      "static_geometry_material_camera_signature_matches": true
+    },
+    {
+      "name": "soft_overcast_comparison",
+      "from_direction": [
+        -5,
+        -2,
+        9.0
+      ],
+      "sun_energy": 0.0,
+      "sun_color": [
+        1,
+        0.94,
+        0.85
+      ],
+      "world_color": [
+        0.7,
+        0.82,
+        1
+      ],
+      "world_strength": 0.8,
+      "purpose": "직사광을 끄고 균일한 차가운 하늘빛을 사용한 흐린 날 분위기 비교. 관측 기상 재현이 아님",
+      "sun_elevation_degrees": null,
+      "static_geometry_material_camera_signature_matches": true
+    }
+  ]
+}

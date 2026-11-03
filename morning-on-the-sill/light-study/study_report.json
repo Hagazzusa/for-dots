@@ -1,0 +1,104 @@
+{
+  "scope": "저비용 조명 비교 이미지 세 장. 승인된 최종 작품을 교체하거나 애니메이션을 만드는 작업이 아님",
+  "source_native_sha256": "e3aa59075ec731e7b7e78dcbd02d6801053c22b7f98615d298f0e7004790d273",
+  "source_unchanged": true,
+  "static_geometry_material_camera_signature": "a2a526fa24ae5a3199c64375502bc0cf559a4e6bb899d85ed925ab77353aa50b",
+  "resolution": [
+    600,
+    400
+  ],
+  "max_samples": 24,
+  "threads": 2,
+  "denoising": false,
+  "exposure": 0.0,
+  "view_transform": "AgX",
+  "look": "AgX - Medium High Contrast",
+  "no_geographic_or_measured_weather_claim": true,
+  "variants": [
+    {
+      "name": "low_side_morning",
+      "from_direction": [
+        -5,
+        -2,
+        2.5
+      ],
+      "sun_energy": 3.0,
+      "sun_color": [
+        1,
+        0.94,
+        0.85
+      ],
+      "world_color": [
+        0.62,
+        0.78,
+        1
+      ],
+      "world_strength": 0.45,
+      "purpose": "높은 측광 안과 방위·광량·광색을 고정하고 태양 고도만 낮춘 비교",
+      "sun_elevation_degrees": 24.90253602554341,
+      "file": "renders/low_side_morning.png",
+      "elapsed_seconds": 11.36,
+      "static_geometry_material_camera_signature_matches": true
+    },
+    {
+      "name": "higher_side_morning",
+      "from_direction": [
+        -5,
+        -2,
+        9.0
+      ],
+      "sun_energy": 3.0,
+      "sun_color": [
+        1,
+        0.94,
+        0.85
+      ],
+      "world_color": [
+        0.62,
+        0.78,
+        1
+      ],
+      "world_strength": 0.45,
+      "purpose": "동일한 방위·광량·광색에서 태양 고도와 그림자 길이의 차이를 살펴보는 비교",
+      "sun_elevation_degrees": 59.10573792060619,
+      "file": "renders/higher_side_morning.png",
+      "elapsed_seconds": 11.75,
+      "static_geometry_material_camera_signature_matches": true
+    },
+    {
+      "name": "soft_overcast_comparison",
+      "from_direction": [
+        -5,
+        -2,
+        9.0
+      ],
+      "sun_energy": 0.0,
+      "sun_color": [
+        1,
+        0.94,
+        0.85
+      ],
+      "world_color": [
+        0.7,
+        0.82,
+        1
+      ],
+      "world_strength": 0.8,
+      "purpose": "직사광을 끄고 균일한 차가운 하늘빛을 사용한 흐린 날 분위기 비교. 관측 기상 재현이 아님",
+      "sun_elevation_degrees": null,
+      "file": "renders/soft_overcast_comparison.png",
+      "elapsed_seconds": 8.08,
+      "static_geometry_material_camera_signature_matches": true
+    }
+  ],
+  "visual_review": {
+    "low_side_morning": "고양이 볼과 가슴의 완만한 밝기 변화가 형태를 자연스럽게 이어 준다. 긴 그림자는 오른쪽 프레임 밖까지 이어진다.",
+    "higher_side_morning": "그림자가 짧아져 주인공 근처에 모이지만 턱 아래의 강한 그림자가 머리-목 경계를 더 드러낸다.",
+    "soft_overcast_comparison": "강한 투영 그림자는 사라지지만 청회색 표면과 배경의 명암 차이가 약해져 몸통 부피가 평평하게 느껴진다. 24 samples의 입자도 남는다."
+  },
+  "selected_lesson": "조용한 분위기는 그림자를 없애는 것과 다르다. 방향이 있는 측광에 부드러운 하늘빛을 보태면 형태가 읽히며, 빛을 낮출 때는 물체뿐 아니라 길어진 그림자까지 프레임에 들어오는지 확인해야 한다.",
+  "approved_final_replaced": false,
+  "report_language": "한국어",
+  "source_reference": "../Morning_on_the_Sill.blend",
+  "comparison_limit": "이 장면과 카메라에서 관찰한 차이이며 보편적인 조명 우열이나 실제 날씨 재현이 아니다."
+}

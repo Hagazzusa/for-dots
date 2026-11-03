@@ -19,8 +19,8 @@
     },
     {
       "path": "README.md",
-      "size": 14798,
-      "sha256": "84da44d092601d49305851f8c1c7d4567e06597bd83ee09d28d5fad08f31c842"
+      "size": 14871,
+      "sha256": "c72bbddcd2532ff3a22d9062fee17ceb4af6d5ee7580cb38ba03a6eb4ba5409d"
     },
     {
       "path": "a-place-for-rain/.gitignore",
@@ -3211,6 +3211,66 @@
       "path": "morning-on-the-sill/inspect_scene.py",
       "size": 3630,
       "sha256": "c30e55f551d0a42eb84ac044163af2df57e5bc4f787f30b8a1c3a30c98a5d80b"
+    },
+    {
+      "path": "morning-on-the-sill/light-study/.gitignore",
+      "size": 59,
+      "sha256": "c1a33ac2dbff5c3f3074a412cb79442c4ae22484be2269e055dfa5805bdcbc6c"
+    },
+    {
+      "path": "morning-on-the-sill/light-study/README.md",
+      "size": 4522,
+      "sha256": "bdef6743266efa2ebebe1162a5e006d4e090dd718a4dbfcda67ccc40d3ae1d9a"
+    },
+    {
+      "path": "morning-on-the-sill/light-study/STUDY_MANIFEST.json",
+      "size": 3417,
+      "sha256": "bea62eee01f06c4ab6e8d52ac461dbf0e5f1c216eb8f5007ff1e3b0d2c7a7d40"
+    },
+    {
+      "path": "morning-on-the-sill/light-study/parameters.json",
+      "size": 2238,
+      "sha256": "ee511aa1d1983b718b303ae0a11ec1bd9f1e2f0c71a5c2f35edb5aeecdb9bfb9"
+    },
+    {
+      "path": "morning-on-the-sill/light-study/png_validation.json",
+      "size": 2275,
+      "sha256": "4c32aa75322e7134c162c78e250a27c5db9759f2ba9ffd685825ee8eaf04da5c"
+    },
+    {
+      "path": "morning-on-the-sill/light-study/renders/higher_side_morning.png",
+      "size": 396859,
+      "sha256": "9220894163ca3221050b5fba074928de12b0407c839a2e86d7a42f7d9fd1284e"
+    },
+    {
+      "path": "morning-on-the-sill/light-study/renders/low_side_morning.png",
+      "size": 397458,
+      "sha256": "c204acb7581f98c14b0c8104597c18c1dbffdbe35d3bc71fe6bfbd726437b1de"
+    },
+    {
+      "path": "morning-on-the-sill/light-study/renders/soft_overcast_comparison.png",
+      "size": 395596,
+      "sha256": "b30234daa88926617346b28558296e4f919e2dd1da52ca2ec1dfe690dd698b5f"
+    },
+    {
+      "path": "morning-on-the-sill/light-study/reproduction_check.json",
+      "size": 2377,
+      "sha256": "50014945ba00fa55041e8048c7768170af414d38b802a6c467d118ce16427e88"
+    },
+    {
+      "path": "morning-on-the-sill/light-study/study.py",
+      "size": 5451,
+      "sha256": "e64ab0c6f90836245f219edff24d720d489486474077a608fb460c4cf65be584"
+    },
+    {
+      "path": "morning-on-the-sill/light-study/study_report.json",
+      "size": 3677,
+      "sha256": "63770718e33f75b4bf0d89066881279fb06099c96dbea3d78aada83b6e5740b6"
+    },
+    {
+      "path": "morning-on-the-sill/light-study/verify_pngs.py",
+      "size": 3921,
+      "sha256": "6cc7a4d3bd9cefe0355a18dc475ad2e2ef6c97186c84de460723deb4c9200a47"
     },
     {
       "path": "morning-on-the-sill/parameters.json",

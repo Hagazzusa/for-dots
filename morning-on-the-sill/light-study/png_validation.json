@@ -1,0 +1,60 @@
+{
+  "scope": "실제 PNG 세 장의 경로 텍스트 제거와 IDAT·디코딩 픽셀 보존을 확인한 기록. 일반 보안 인증이나 이미지 노이즈 처리 아님",
+  "default_check_read_only": true,
+  "files": [
+    {
+      "file": "renders/low_side_morning.png",
+      "input_sha256": "b2166b49af60516624b5c8d28174df8c337590d307017d9e27440b2d689e55da",
+      "public_sha256": "c204acb7581f98c14b0c8104597c18c1dbffdbe35d3bc71fe6bfbd726437b1de",
+      "removed_private_text_chunks": [
+        "tEXt"
+      ],
+      "idat_sha256": "f15f751e602e5597c30a54795fcfbb6bc28000bdabde7f3937b276077ab1f5e4",
+      "decoded_pixel_sha256": "f1a52e532244b9fa90cf3e2307ed1c7731615304c1b929d4c84a8b299e848043",
+      "mode": "RGBA",
+      "dimensions": [
+        600,
+        400
+      ],
+      "idat_unchanged": true,
+      "decoded_pixels_unchanged": true,
+      "c2pa_unchanged_if_present": true
+    },
+    {
+      "file": "renders/higher_side_morning.png",
+      "input_sha256": "fb98afbcb5f1a310d8eaa6509cd3397be698647e536ea88584270696fcedc6ed",
+      "public_sha256": "9220894163ca3221050b5fba074928de12b0407c839a2e86d7a42f7d9fd1284e",
+      "removed_private_text_chunks": [
+        "tEXt"
+      ],
+      "idat_sha256": "39be96518f21e81f90025f678879bd4c592091ff15c327d4ad34974c54036e7d",
+      "decoded_pixel_sha256": "20f8e58a1223442ff455e8eb2a2d972d26a433f99683e151abb03d14836b6f5f",
+      "mode": "RGBA",
+      "dimensions": [
+        600,
+        400
+      ],
+      "idat_unchanged": true,
+      "decoded_pixels_unchanged": true,
+      "c2pa_unchanged_if_present": true
+    },
+    {
+      "file": "renders/soft_overcast_comparison.png",
+      "input_sha256": "c9fd4188e07ba5a3ba09678af8e5c888a3b73f45452f214232431b3640ecac34",
+      "public_sha256": "b30234daa88926617346b28558296e4f919e2dd1da52ca2ec1dfe690dd698b5f",
+      "removed_private_text_chunks": [
+        "tEXt"
+      ],
+      "idat_sha256": "059941853b5e4a6d07ca3daf14a3055c4915af6a5f7be508ae250c74bb590735",
+      "decoded_pixel_sha256": "fd81503966f7582068de5ac315d59e64497ff468b695e5c992d693aaa2822602",
+      "mode": "RGBA",
+      "dimensions": [
+        600,
+        400
+      ],
+      "idat_unchanged": true,
+      "decoded_pixels_unchanged": true,
+      "c2pa_unchanged_if_present": true
+    }
+  ]
+}
