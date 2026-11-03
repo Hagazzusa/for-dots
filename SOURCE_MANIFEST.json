@@ -9,8 +9,8 @@
     },
     {
       "path": "GALLERY.md",
-      "size": 6490,
-      "sha256": "b74c292d93a7bb5f5fffaf1229b84a1c5aaa780456c7eeb70b4d499b679c1f94"
+      "size": 6562,
+      "sha256": "0fe0c43e8afa2eede0d7be40a57adabd6444f4ede0b00fbf63e8057914a7f029"
     },
     {
       "path": "GIT_ENVIRONMENT_CHECK.md",
@@ -19,8 +19,8 @@
     },
     {
       "path": "README.md",
-      "size": 13726,
-      "sha256": "d9d44b190ea51d009394bb5a20471a1d63e6ee87da6469f7e7dcc5b8e9ce2037"
+      "size": 13835,
+      "sha256": "66690103247502a86b2f5135eb6e32271f55a85a691e37061fb8e13930044d90"
     },
     {
       "path": "a-place-to-pause/.gitignore",
@@ -3076,6 +3076,191 @@
       "path": "mended-corner/verify_bundle.py",
       "size": 1551,
       "sha256": "3294a75a7325f2f605c7c35a4fc0f18fbd6f69698595b34309dc9f6cb3ce54e0"
+    },
+    {
+      "path": "page-at-rest-viewer/.gitignore",
+      "size": 20,
+      "sha256": "ed429bae282af89e11a23f60a4243df5e74812e8ac73fb7f621e2674ba07d07f"
+    },
+    {
+      "path": "page-at-rest-viewer/ASSET_README.md",
+      "size": 5876,
+      "sha256": "ac18a0d2161fc61ba82e0b2a90d080591f0db6a77cba3da7f1ce0d130eeb4cbb"
+    },
+    {
+      "path": "page-at-rest-viewer/README.md",
+      "size": 4396,
+      "sha256": "88a8a1a3e9bb8dd983c3e98f63644d1e915e3586f65e9b8f8c38420d9fb12305"
+    },
+    {
+      "path": "page-at-rest-viewer/asset_manifest.json",
+      "size": 1507,
+      "sha256": "cd55a2cf34af09a70d04f0e4222375ba2db2d88be67e8e3c61b07670afa58a58"
+    },
+    {
+      "path": "page-at-rest-viewer/asset_provenance.json",
+      "size": 2955,
+      "sha256": "cb30b5abca756073c9c003c169ed22eb5dbd0d82ffc755fa21226de0834523a6"
+    },
+    {
+      "path": "page-at-rest-viewer/assets/fonts/NotoSansCJK-LICENSE.txt",
+      "size": 14712,
+      "sha256": "849f4ea9c214fa4ac3593b770c699f387534b11ce671264c1b10d85bdcb5997b"
+    },
+    {
+      "path": "page-at-rest-viewer/assets/fonts/NotoSansCJK-Regular.ttc",
+      "size": 19484784,
+      "sha256": "b76b0433203017ca80401b2ee0dd69350349871c4b19d504c34dbdd80541690a"
+    },
+    {
+      "path": "page-at-rest-viewer/assets/fonts/NotoSansCJK-Regular.ttc.import",
+      "size": 795,
+      "sha256": "1438989eab8b0e3ef2653d1df1602a9d0a628ed684ae27bcec827c9eb53981c0"
+    },
+    {
+      "path": "page-at-rest-viewer/assets/materials/paper_backlight.gdshader",
+      "size": 1441,
+      "sha256": "fcf3ad3543cacadd76bcbedc436f5d30d3c552dce3c5fd9926f9f2f734a0bfc7"
+    },
+    {
+      "path": "page-at-rest-viewer/assets/materials/paper_backlight.gdshader.uid",
+      "size": 20,
+      "sha256": "dfa24ffe5590833296528bc49e5b91e2e773bcf7d6e924b969f09b840dfb8037"
+    },
+    {
+      "path": "page-at-rest-viewer/assets/materials/paper_backlight.tres",
+      "size": 449,
+      "sha256": "3956d63103eb88e060006b0e8c1be179cec330744a079d8f45dc4ef3842d6310"
+    },
+    {
+      "path": "page-at-rest-viewer/assets/page_at_rest.glb",
+      "size": 3632556,
+      "sha256": "58d00cd4f99100b727d7a0a9f6129019bda4a2c7984aa2ff55af4a5e6388df7b"
+    },
+    {
+      "path": "page-at-rest-viewer/assets/page_at_rest.glb.import",
+      "size": 1049,
+      "sha256": "6dd75542e9df6d9e9d2c1feb63833a9f7ad752c1fef4cfda5429ffc867fafbb8"
+    },
+    {
+      "path": "page-at-rest-viewer/export_audit.json",
+      "size": 11349,
+      "sha256": "13017d52626c47cd2ee2ce7df079a95ad39d78300762c1a8307d37bd5a19a6f0"
+    },
+    {
+      "path": "page-at-rest-viewer/export_from_blender.py",
+      "size": 12719,
+      "sha256": "6b2e6f64e882c07560537d7dcefca672ea37be99f97500082625027e0ec22f23"
+    },
+    {
+      "path": "page-at-rest-viewer/manifest.json",
+      "size": 5957,
+      "sha256": "19d2bf3be41c1639443c1480d8b5ae2cb4c77ea35d0d033497b5bce8aa2e9003"
+    },
+    {
+      "path": "page-at-rest-viewer/project.godot",
+      "size": 551,
+      "sha256": "d313eb17c2254f3281445e796c7d97322bfffbb4a4c96e1ad2115aad97c80479"
+    },
+    {
+      "path": "page-at-rest-viewer/qa/.gdignore",
+      "size": 1,
+      "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b"
+    },
+    {
+      "path": "page-at-rest-viewer/qa/clean_import_tests.json",
+      "size": 133,
+      "sha256": "91a04c4d9475b78f167d4107df4fd65a1d37404745dcbffc849af029d354ecea"
+    },
+    {
+      "path": "page-at-rest-viewer/qa/headless_tests.json",
+      "size": 133,
+      "sha256": "91a04c4d9475b78f167d4107df4fd65a1d37404745dcbffc849af029d354ecea"
+    },
+    {
+      "path": "page-at-rest-viewer/qa/native_preview.png",
+      "size": 169449,
+      "sha256": "21e8061ab1b3c6bf0ebccf9b235883f707d6a7a951a786f229f099fff7c634c0"
+    },
+    {
+      "path": "page-at-rest-viewer/qa/native_qa.json",
+      "size": 1064,
+      "sha256": "a373b4f438f11db5130fb2d7cdfc90854cb823bbd07abf5c2df2ef6339c53665"
+    },
+    {
+      "path": "page-at-rest-viewer/qa/native_small.png",
+      "size": 67885,
+      "sha256": "4505302d5510b9cf89de890e0dff5a21b96f4c7a4703845e750f13ca92cc6897"
+    },
+    {
+      "path": "page-at-rest-viewer/qa/pack_tests.json",
+      "size": 133,
+      "sha256": "91a04c4d9475b78f167d4107df4fd65a1d37404745dcbffc849af029d354ecea"
+    },
+    {
+      "path": "page-at-rest-viewer/scenes/page_study.tscn",
+      "size": 429,
+      "sha256": "de6b766d3f462b55bfb7471db3550d5dec4417592a20e2a8ea009dab326f4020"
+    },
+    {
+      "path": "page-at-rest-viewer/scenes/view_rig.tscn",
+      "size": 263,
+      "sha256": "589162368c4c063227fdd3cd56ab42092d5562623f6c20ce25d4f35d30201bb3"
+    },
+    {
+      "path": "page-at-rest-viewer/scenes/viewer.tscn",
+      "size": 3758,
+      "sha256": "6c65c334ee0c8c50aeb10282da513adc83949cf9269c373286f96cb5278b42fe"
+    },
+    {
+      "path": "page-at-rest-viewer/scripts/page_study.gd",
+      "size": 559,
+      "sha256": "65a871605282a6979e52ca9836e491259e4842911d1cbe00bbb63416fc0f5ca8"
+    },
+    {
+      "path": "page-at-rest-viewer/scripts/page_study.gd.uid",
+      "size": 19,
+      "sha256": "6c9d658c44753391fdbe5ad0babf93999f8b8e55a343b23e7b582cf7b403c645"
+    },
+    {
+      "path": "page-at-rest-viewer/scripts/view_rig.gd",
+      "size": 3137,
+      "sha256": "a3e010f53d79b51f8860c096da189109392cc67ba300e1d1c072e1891676fcf2"
+    },
+    {
+      "path": "page-at-rest-viewer/scripts/view_rig.gd.uid",
+      "size": 19,
+      "sha256": "6c4e704f54ac5770cfe9c922351d9a28f343919ba7602aa06ecd47ce8fed9546"
+    },
+    {
+      "path": "page-at-rest-viewer/scripts/viewer.gd",
+      "size": 1296,
+      "sha256": "c4bb84beb421ff59ab50a4b8e78661ba5bfa94ef93ba4c61528b5e5644471cad"
+    },
+    {
+      "path": "page-at-rest-viewer/scripts/viewer.gd.uid",
+      "size": 20,
+      "sha256": "f298d6a9849808ca3420af42afa7015c3de4e2ecc60241241ac2095317864efd"
+    },
+    {
+      "path": "page-at-rest-viewer/tools/build_pack.gd",
+      "size": 3682,
+      "sha256": "589a383915251fd2638b00a9349b6e061c2e7d9924a8bdb6ab7462122f5d4b0b"
+    },
+    {
+      "path": "page-at-rest-viewer/tools/build_pack.gd.uid",
+      "size": 19,
+      "sha256": "d87d0429b2d9965c67a016989e8aa3c3d53f4c0f7fb9cfd9b6bbf01040fe41fd"
+    },
+    {
+      "path": "page-at-rest-viewer/tools/test_viewer.gd",
+      "size": 5323,
+      "sha256": "961d4cf1e12932a5ba71260f2b7a3bde67093cd5710e1f8cb43edaf0a381de7d"
+    },
+    {
+      "path": "page-at-rest-viewer/verify_asset.py",
+      "size": 3596,
+      "sha256": "53ab339c9e0b98c5ec959a5ca0610519710a20b6916b00a9fe8669893c845347"
     },
     {
       "path": "page-at-rest/.gitignore",

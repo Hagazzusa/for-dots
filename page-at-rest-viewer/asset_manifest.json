@@ -1,0 +1,47 @@
+{
+  "schema_version": 1,
+  "scope": "Page at Rest runtime GLB derivative and its export tools only; excludes viewer code and native QA.",
+  "manifest_excludes_itself": true,
+  "files": [
+    {
+      "path": "assets/page_at_rest.glb",
+      "size_bytes": 3632556,
+      "sha256": "58d00cd4f99100b727d7a0a9f6129019bda4a2c7984aa2ff55af4a5e6388df7b"
+    },
+    {
+      "path": "export_from_blender.py",
+      "size_bytes": 12719,
+      "sha256": "6b2e6f64e882c07560537d7dcefca672ea37be99f97500082625027e0ec22f23"
+    },
+    {
+      "path": "export_audit.json",
+      "size_bytes": 11349,
+      "sha256": "13017d52626c47cd2ee2ce7df079a95ad39d78300762c1a8307d37bd5a19a6f0"
+    },
+    {
+      "path": "ASSET_README.md",
+      "size_bytes": 5876,
+      "sha256": "ac18a0d2161fc61ba82e0b2a90d080591f0db6a77cba3da7f1ce0d130eeb4cbb"
+    },
+    {
+      "path": "asset_provenance.json",
+      "size_bytes": 2955,
+      "sha256": "cb30b5abca756073c9c003c169ed22eb5dbd0d82ffc755fa21226de0834523a6"
+    },
+    {
+      "path": "verify_asset.py",
+      "size_bytes": 3596,
+      "sha256": "53ab339c9e0b98c5ec959a5ca0610519710a20b6916b00a9fe8669893c845347"
+    },
+    {
+      "path": "assets/materials/paper_backlight.gdshader",
+      "size_bytes": 1441,
+      "sha256": "fcf3ad3543cacadd76bcbedc436f5d30d3c552dce3c5fd9926f9f2f734a0bfc7"
+    },
+    {
+      "path": "assets/materials/paper_backlight.tres",
+      "size_bytes": 449,
+      "sha256": "3956d63103eb88e060006b0e8c1be179cec330744a079d8f45dc4ef3842d6310"
+    }
+  ]
+}

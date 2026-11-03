@@ -1,0 +1,8 @@
+[gd_scene load_steps=4 format=3]
+[ext_resource type="PackedScene" path="res://assets/page_at_rest.glb" id="1"]
+[ext_resource type="Script" path="res://scripts/page_study.gd" id="2"]
+[ext_resource type="Material" path="res://assets/materials/paper_backlight.tres" id="3"]
+[node name="PageStudy" type="Node3D"]
+script = ExtResource("2")
+paper_material = ExtResource("3")
+[node name="Geometry" parent="." instance=ExtResource("1")]

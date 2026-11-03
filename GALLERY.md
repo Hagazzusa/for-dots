@@ -86,7 +86,7 @@
 
 ![머무는 페이지 — 실제 Blender Cycles 렌더](page-at-rest/renders/a_page_at_rest_final.png)
 
-[편집 가능한 CAD·Blender 장면과 검증](page-at-rest/README.md) · [별도로 보존한 생성 콘셉트](page-at-rest/reference/gpt_image_concept.png)
+[편집 가능한 CAD·Blender 장면과 검증](page-at-rest/README.md) · [키보드로 관찰하는 3D 뷰어](page-at-rest-viewer/README.md) · [별도로 보존한 생성 콘셉트](page-at-rest/reference/gpt_image_concept.png)
 
 위 이미지는 FreeCAD의 받침·지지부를 Blender로 옮긴 실제 CPU 렌더입니다. 생성 콘셉트 자체가 아니며 미세한 렌더 입자가 남습니다. 가상 조형물로, 실물 전기·제조·안전 검증을 뜻하지 않습니다.
 

@@ -1,0 +1,372 @@
+{
+  "producer_blend_filename": "A_Page_at_Rest.blend",
+  "producer_blend_sha256": "4d0ee8b68c98381dfb89e68bd77b3b85ef6d29c716d97d6c2e78f7893937a72e",
+  "blender_version": "4.3.2",
+  "gltf_generator": "Khronos glTF Blender I/O v4.3.47",
+  "output": "assets/page_at_rest.glb",
+  "output_sha256": "58d00cd4f99100b727d7a0a9f6129019bda4a2c7984aa2ff55af4a5e6388df7b",
+  "output_bytes": 3632556,
+  "axis_transform": "Blender (x,y,z) -> glTF/Godot (x,z,-y)",
+  "units": "metres",
+  "recommended_root_scale": [
+    1,
+    1,
+    1
+  ],
+  "origin": "Centre of walnut base bottom; supporting tabletop plane Y=0.",
+  "bounds_y_up_m": {
+    "min": [
+      -0.22749999165534973,
+      -7.211993373405898e-18,
+      -0.1599999964237213
+    ],
+    "max": [
+      0.11401431262493134,
+      0.2070065140724182,
+      0.03898956999182701
+    ]
+  },
+  "hero_bounds_y_up_m": {
+    "min": [
+      -0.12100563198328018,
+      -7.211993373405898e-18,
+      -0.038986895233392715
+    ],
+    "max": [
+      0.11401431262493134,
+      0.2070065140724182,
+      0.03898956999182701
+    ]
+  },
+  "recommended_original_view": {
+    "camera_position": [
+      0.33,
+      0.315,
+      0.74
+    ],
+    "look_at": [
+      0.023,
+      0.113,
+      -0.025
+    ],
+    "vertical_fov_degrees": 20.015959602882678
+  },
+  "concealed_source_position_y_up_m": [
+    0,
+    0.073,
+    -0.042
+  ],
+  "mesh_components": 9,
+  "triangles": 199840,
+  "materials": {
+    "PR_Walnut": {
+      "base_color_linear": [
+        0.15,
+        0.068,
+        0.026,
+        1
+      ],
+      "metallic": 0,
+      "roughness": 0.48
+    },
+    "PR_Brass": {
+      "base_color_linear": [
+        0.42,
+        0.27,
+        0.105,
+        1
+      ],
+      "metallic": 0.76,
+      "roughness": 0.34
+    },
+    "PR_Paper_Opaque_Backlight_Target": {
+      "base_color_linear": [
+        0.74,
+        0.63,
+        0.45,
+        1
+      ],
+      "metallic": 0,
+      "roughness": 0.88
+    },
+    "PR_Linen": {
+      "base_color_linear": [
+        0.3,
+        0.28,
+        0.235,
+        1
+      ],
+      "metallic": 0,
+      "roughness": 0.85
+    },
+    "PR_Book_Paper": {
+      "base_color_linear": [
+        0.55,
+        0.48,
+        0.37,
+        1
+      ],
+      "metallic": 0,
+      "roughness": 0.88
+    }
+  },
+  "checks": {
+    "immutable_source_sha_before_and_after": true,
+    "nine_expected_mesh_components": true,
+    "sculpture_and_context_book_groups": true,
+    "all_source_positions_preserved_to_0_1_micrometre": true,
+    "all_source_oriented_triangle_geometry_preserved_to_0_1_micrometre": true,
+    "all_triangle_counts_preserved": true,
+    "outward_signed_volumes_preserved": true,
+    "all_normals_finite_and_unit": true,
+    "no_images_or_textures": true,
+    "no_cameras_lights_or_animations": true,
+    "no_external_buffer_uris": true,
+    "five_named_pbr_materials": true,
+    "opaque_materials_without_optical_extensions": true
+  },
+  "all_assertions_pass": true,
+  "components": [
+    {
+      "name": "BookLowerCover",
+      "source_component": "One small linen book — lower cover",
+      "source_evaluated_vertices": 152,
+      "exported_vertices_including_normal_seams": 444,
+      "source_triangles": 300,
+      "exported_triangles": 300,
+      "bounds_y_up_m": {
+        "min": [
+          -0.22749999165534973,
+          0.0,
+          -0.1599999964237213
+        ],
+        "max": [
+          -0.12250000238418579,
+          0.004000000189989805,
+          -0.09000000357627869
+        ]
+      },
+      "identical_unique_positions_at_0_1_micrometre": true,
+      "identical_oriented_triangle_position_multiset_at_0_1_micrometre": true,
+      "signed_source_volume_m3": 2.9233525067924848e-05,
+      "signed_exported_volume_m3": 2.9233525067924848e-05,
+      "absolute_volume_delta_m3": 0.0,
+      "unit_finite_normals": true
+    },
+    {
+      "name": "BookPages",
+      "source_component": "One small linen book — pages",
+      "source_evaluated_vertices": 152,
+      "exported_vertices_including_normal_seams": 419,
+      "source_triangles": 300,
+      "exported_triangles": 300,
+      "bounds_y_up_m": {
+        "min": [
+          -0.22450000047683716,
+          0.0034999996423721313,
+          -0.15649999678134918
+        ],
+        "max": [
+          -0.12349998950958252,
+          0.026499999687075615,
+          -0.09149999916553497
+        ]
+      },
+      "identical_unique_positions_at_0_1_micrometre": true,
+      "identical_oriented_triangle_position_multiset_at_0_1_micrometre": true,
+      "signed_source_volume_m3": 0.00015090864517018572,
+      "signed_exported_volume_m3": 0.00015090864517018572,
+      "absolute_volume_delta_m3": 0.0,
+      "unit_finite_normals": true
+    },
+    {
+      "name": "BookSpine",
+      "source_component": "One small linen book — spine",
+      "source_evaluated_vertices": 152,
+      "exported_vertices_including_normal_seams": 397,
+      "source_triangles": 300,
+      "exported_triangles": 300,
+      "bounds_y_up_m": {
+        "min": [
+          -0.22749999165534973,
+          0.0019999993965029716,
+          -0.1599999964237213
+        ],
+        "max": [
+          -0.2224999964237213,
+          0.02800000086426735,
+          -0.09000000357627869
+        ]
+      },
+      "identical_unique_positions_at_0_1_micrometre": true,
+      "identical_oriented_triangle_position_multiset_at_0_1_micrometre": true,
+      "signed_source_volume_m3": 9.00671063380764e-06,
+      "signed_exported_volume_m3": 9.00671063380764e-06,
+      "absolute_volume_delta_m3": 0.0,
+      "unit_finite_normals": true
+    },
+    {
+      "name": "BookUpperCover",
+      "source_component": "One small linen book — upper cover",
+      "source_evaluated_vertices": 152,
+      "exported_vertices_including_normal_seams": 445,
+      "source_triangles": 300,
+      "exported_triangles": 300,
+      "bounds_y_up_m": {
+        "min": [
+          -0.22749999165534973,
+          0.026000000536441803,
+          -0.1599999964237213
+        ],
+        "max": [
+          -0.12250000238418579,
+          0.030000001192092896,
+          -0.09000000357627869
+        ]
+      },
+      "identical_unique_positions_at_0_1_micrometre": true,
+      "identical_oriented_triangle_position_multiset_at_0_1_micrometre": true,
+      "signed_source_volume_m3": 2.9233547495621785e-05,
+      "signed_exported_volume_m3": 2.9233547495621785e-05,
+      "absolute_volume_delta_m3": 0.0,
+      "unit_finite_normals": true
+    },
+    {
+      "name": "LeftBrassCradle",
+      "source_component": "Left_Brass_Cradle",
+      "source_evaluated_vertices": 18665,
+      "exported_vertices_including_normal_seams": 18665,
+      "source_triangles": 37326,
+      "exported_triangles": 37326,
+      "bounds_y_up_m": {
+        "min": [
+          -0.05605823174118996,
+          0.013500000350177288,
+          -0.018970971927046776
+        ],
+        "max": [
+          -0.016586333513259888,
+          0.05391711741685867,
+          -0.0039165145717561245
+        ]
+      },
+      "identical_unique_positions_at_0_1_micrometre": true,
+      "identical_oriented_triangle_position_multiset_at_0_1_micrometre": true,
+      "signed_source_volume_m3": 6.519297579565198e-07,
+      "signed_exported_volume_m3": 6.519297579565198e-07,
+      "absolute_volume_delta_m3": 0.0,
+      "unit_finite_normals": true
+    },
+    {
+      "name": "LeftPage",
+      "source_component": "Left_Page",
+      "source_evaluated_vertices": 13286,
+      "exported_vertices_including_normal_seams": 13286,
+      "source_triangles": 26568,
+      "exported_triangles": 26568,
+      "bounds_y_up_m": {
+        "min": [
+          -0.12100563198328018,
+          0.028830716386437416,
+          -0.03828316181898117
+        ],
+        "max": [
+          -0.0006672421004623175,
+          0.2070065140724182,
+          0.007276076823472977
+        ]
+      },
+      "identical_unique_positions_at_0_1_micrometre": true,
+      "identical_oriented_triangle_position_multiset_at_0_1_micrometre": true,
+      "signed_source_volume_m3": 8.221356546420233e-06,
+      "signed_exported_volume_m3": 8.221356546420233e-06,
+      "absolute_volume_delta_m3": 0.0,
+      "unit_finite_normals": true
+    },
+    {
+      "name": "RightBrassCradle",
+      "source_component": "Right_Brass_Cradle",
+      "source_evaluated_vertices": 18461,
+      "exported_vertices_including_normal_seams": 18461,
+      "source_triangles": 36918,
+      "exported_triangles": 36918,
+      "bounds_y_up_m": {
+        "min": [
+          0.016329653561115265,
+          0.013500000350177288,
+          -0.018970875069499016
+        ],
+        "max": [
+          0.055234361439943314,
+          0.053914397954940796,
+          -0.003919834736734629
+        ]
+      },
+      "identical_unique_positions_at_0_1_micrometre": true,
+      "identical_oriented_triangle_position_multiset_at_0_1_micrometre": true,
+      "signed_source_volume_m3": 6.502121618858674e-07,
+      "signed_exported_volume_m3": 6.502121618858674e-07,
+      "absolute_volume_delta_m3": 0.0,
+      "unit_finite_normals": true
+    },
+    {
+      "name": "RightPage",
+      "source_component": "Right_Page",
+      "source_evaluated_vertices": 13286,
+      "exported_vertices_including_normal_seams": 13286,
+      "source_triangles": 26568,
+      "exported_triangles": 26568,
+      "bounds_y_up_m": {
+        "min": [
+          0.0006819901755079627,
+          0.02880808711051941,
+          -0.03827638551592827
+        ],
+        "max": [
+          0.11401431262493134,
+          0.18301372230052948,
+          0.0072678495198488235
+        ]
+      },
+      "identical_unique_positions_at_0_1_micrometre": true,
+      "identical_oriented_triangle_position_multiset_at_0_1_micrometre": true,
+      "signed_source_volume_m3": 6.80824989429529e-06,
+      "signed_exported_volume_m3": 6.80824989429529e-06,
+      "absolute_volume_delta_m3": 0.0,
+      "unit_finite_normals": true
+    },
+    {
+      "name": "WalnutBase",
+      "source_component": "Walnut_Base",
+      "source_evaluated_vertices": 35632,
+      "exported_vertices_including_normal_seams": 35632,
+      "source_triangles": 71260,
+      "exported_triangles": 71260,
+      "bounds_y_up_m": {
+        "min": [
+          -0.07249996811151505,
+          -7.211993373405898e-18,
+          -0.038986895233392715
+        ],
+        "max": [
+          0.07249999791383743,
+          0.014000000432133675,
+          0.03898956999182701
+        ]
+      },
+      "identical_unique_positions_at_0_1_micrometre": true,
+      "identical_oriented_triangle_position_multiset_at_0_1_micrometre": true,
+      "signed_source_volume_m3": 0.0001240204133613005,
+      "signed_exported_volume_m3": 0.0001240204133613005,
+      "absolute_volume_delta_m3": 0.0,
+      "unit_finite_normals": true
+    }
+  ],
+  "optical_limits": [
+    "Uniform core PBR defaults, not the procedural Cycles shaders.",
+    "The GLB paper is opaque. Godot may replace it with a documented BACKLIGHT shader approximation; this is not traced transmission, refraction or a physically equivalent Cycles material.",
+    "The complete finite-thickness paper surfaces, brass and walnut source geometry are preserved; no generated concept or rendered image is projected onto geometry.",
+    "Metal needs sky radiance/reflection lighting; ambient diffuse lighting alone is insufficient.",
+    "No source cyclorama, lamps, camera, animation or outside texture is included."
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "engine": "Godot 4.6.3 Compatibility",
+  "renderer": "Mesa llvmpipe",
+  "observed": [
+    "actual GLB geometry, two paper surfaces and brass contact",
+    "warm light 100/45/0 with fill retained",
+    "logical arrow hold/release and repeated reset",
+    "yaw -1.3/+1.3 and pitch 0.1/0.9 reached",
+    "zoom keys and framing floor",
+    "640x480 controls and object remain visible",
+    "temporary viewer closed normally"
+  ],
+  "capture_kind": "Actual native Godot viewport, not generated reference or offline render",
+  "limits": [
+    "No FPS benchmark or hardware equivalence claim",
+    "Opaque BACKLIGHT approximation; paper shadow casting disabled",
+    "Low pitch shows simple floor/background boundary",
+    "V-Sync mode unsupported driver warning"
+  ],
+  "input_release_evidence": {
+    "two_separate_captures": [
+      {
+        "yaw": 0.382,
+        "pitch": 0.24,
+        "distance": 0.72,
+        "light_index": 0
+      },
+      {
+        "yaw": 0.382,
+        "pitch": 0.24,
+        "distance": 0.72,
+        "light_index": 0
+      }
+    ]
+  }
+}
