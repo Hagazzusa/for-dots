@@ -1,0 +1,5 @@
+[gd_resource type="ShaderMaterial" load_steps=2 format=3]
+[ext_resource type="Shader" path="res://water_tone.gdshader" id="1"]
+[resource]
+shader = ExtResource("1")
+shader_parameter/base_color = Color(0.24, 0.39, 0.43, 1)

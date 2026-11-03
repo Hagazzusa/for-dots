@@ -95,3 +95,5 @@ python3 tools/test_check_public_assets.py
 [차 안의 시선 판독 연구](car-gaze-study/README.md): 작은 고개 회전이 보이는 것과 누구를 보는지 읽히는 것을 구분한 비채택 시제품·문헌 검토입니다. 관찰자 검사는 아직 제안 단계입니다.
 
 [도시에서 강변으로 · 창밖 공간 연구](river-window-study/README.md): 건물 가림이 풀리는 24초 독립 씬과 비채택 물 표현의 실제 화면입니다. 게임의 경로·결말에 통합하지 않았습니다.
+
+[창밖 강변 판독 · 세 독립 대안](river-window-alternatives/README.md): 먼 강둑 윤곽, 수면 명도, 빛 표식을 각각 비교했으나 게임 통합은 보류한 연구입니다.

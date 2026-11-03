@@ -1,0 +1,9 @@
+config_version=5
+[application]
+config/name="QA ONLY - River Alternatives Spatial Study"
+run/main_scene="res://baseline.tscn"
+[display]
+window/size/viewport_width=1100
+window/size/viewport_height=700
+[rendering]
+renderer/rendering_method="gl_compatibility"

@@ -9,8 +9,8 @@
     },
     {
       "path": "GALLERY.md",
-      "size": 12363,
-      "sha256": "9acdd0d98a0870f23704c53ecf4b4e27d8b01b06224c0be8ef0bf4d9b47b8e72"
+      "size": 12369,
+      "sha256": "7b48e962bb9e79afa91456e38e8fe7842070844facc04af4c77cdd227de59ad3"
     },
     {
       "path": "GIT_ENVIRONMENT_CHECK.md",
@@ -19,8 +19,8 @@
     },
     {
       "path": "README.md",
-      "size": 19444,
-      "sha256": "2c128e75a6d21bd9a019a7c24e81e6dd56423abc1550a5ca645f983bf50bf06d"
+      "size": 19642,
+      "sha256": "233c6737daf6a3bca57f508a33d248bd6ec035ac8ce0b0fc30655c4698208955"
     },
     {
       "path": "WORLD_CONNECTIONS.md",
@@ -4666,6 +4666,191 @@
       "path": "river-between-stops/verification.json",
       "size": 627,
       "sha256": "4a2dd5fa84dd4a49715e1535a7517b7e3aa00e071ff6927849072e5721180c9a"
+    },
+    {
+      "path": "river-window-alternatives/.gitignore",
+      "size": 27,
+      "sha256": "6cddad0edb8716f6d7f3a4539a75b80e18d474d8e1a5b7056ec51f68cbe87504"
+    },
+    {
+      "path": "river-window-alternatives/ARTIFACT_MANIFEST.json",
+      "size": 5613,
+      "sha256": "ad8f77d647ffb9971acc08cc50a17d29adddfe91c28717e7f26e08dca0d03a54"
+    },
+    {
+      "path": "river-window-alternatives/README.md",
+      "size": 6928,
+      "sha256": "063525f507c6b247ce5deef87ae0f8257cf1dc0d9a5886b3d64f82692de537eb"
+    },
+    {
+      "path": "river-window-alternatives/bank.tscn",
+      "size": 15083,
+      "sha256": "829b7c0d507f05b63ec843f8acceb22a8005ea4085b0c9b3989fdfed5a9ce7c3"
+    },
+    {
+      "path": "river-window-alternatives/bank_contour.obj",
+      "size": 29256,
+      "sha256": "29ccb6aa8577d2d54c6ef6991ec8c07b60b91b37e1386c144c32b183545086b6"
+    },
+    {
+      "path": "river-window-alternatives/baseline.tscn",
+      "size": 15076,
+      "sha256": "9b1f84ac76c9c489c9f1a39bf93274ce7616c8645c6ceb7540b3b23255f9da51"
+    },
+    {
+      "path": "river-window-alternatives/evidence/bank-0.jpg",
+      "size": 48775,
+      "sha256": "ecec798ffedc822c0ec8e9879d4095e38145d4a8a07269764d11f9557181e70e"
+    },
+    {
+      "path": "river-window-alternatives/evidence/bank-12.jpg",
+      "size": 53471,
+      "sha256": "a77ada1c8739820dec416b8a60990493b065acb80d302c0b6af40eb1da764c79"
+    },
+    {
+      "path": "river-window-alternatives/evidence/bank-19.jpg",
+      "size": 53163,
+      "sha256": "42fc7e6d02ebe1ba9b07e35d13dff72d53188e0596d3fe6c2360f31e5e899a81"
+    },
+    {
+      "path": "river-window-alternatives/evidence/bank-24.jpg",
+      "size": 53159,
+      "sha256": "293bbb53e28327efda219fc4181e002aaaf79ddb29133fc1694de478845a2f4d"
+    },
+    {
+      "path": "river-window-alternatives/evidence/baseline-0.jpg",
+      "size": 48775,
+      "sha256": "ecec798ffedc822c0ec8e9879d4095e38145d4a8a07269764d11f9557181e70e"
+    },
+    {
+      "path": "river-window-alternatives/evidence/baseline-12.jpg",
+      "size": 53528,
+      "sha256": "1f747718f1976e792f51c22b71da7b644bb1c71e0123f6c64a192944ab2886f6"
+    },
+    {
+      "path": "river-window-alternatives/evidence/baseline-19.jpg",
+      "size": 53249,
+      "sha256": "95ba65d770574093514be5308617ae57e2c5825fefa966b3d43fc6995226e1dc"
+    },
+    {
+      "path": "river-window-alternatives/evidence/baseline-24.jpg",
+      "size": 53238,
+      "sha256": "90095012cec17062accc95698abd237171b5a1831f772df7f6c876892fb8fba1"
+    },
+    {
+      "path": "river-window-alternatives/evidence/light-fragment-0.jpg",
+      "size": 48775,
+      "sha256": "ecec798ffedc822c0ec8e9879d4095e38145d4a8a07269764d11f9557181e70e"
+    },
+    {
+      "path": "river-window-alternatives/evidence/light-fragment-12.jpg",
+      "size": 53385,
+      "sha256": "dda84c7fea36959e783334703cb46c710151ee16c7d1406fb799fdaf45d6831b"
+    },
+    {
+      "path": "river-window-alternatives/evidence/light-fragment-19.jpg",
+      "size": 53348,
+      "sha256": "7651af556a6f827b67e4d0beb2f24136ccb80a8f0e3a895a17827589d74619e7"
+    },
+    {
+      "path": "river-window-alternatives/evidence/light-fragment-24.jpg",
+      "size": 53305,
+      "sha256": "1ffa215c1c9118bcb19cdf63f780951e01012a454f80d4d5cf9b026e68145664"
+    },
+    {
+      "path": "river-window-alternatives/evidence/water-tone-0.jpg",
+      "size": 48775,
+      "sha256": "ecec798ffedc822c0ec8e9879d4095e38145d4a8a07269764d11f9557181e70e"
+    },
+    {
+      "path": "river-window-alternatives/evidence/water-tone-12.jpg",
+      "size": 55515,
+      "sha256": "a14cbaef45757fc2aedbb92ddc0c3da1885068108033a14fee5ebdc6fb02de64"
+    },
+    {
+      "path": "river-window-alternatives/evidence/water-tone-19.jpg",
+      "size": 54900,
+      "sha256": "31d6af3171edae7eab6fb63f8342faacf0e4fdd6a023fbb7426670c93298debd"
+    },
+    {
+      "path": "river-window-alternatives/evidence/water-tone-24.jpg",
+      "size": 54294,
+      "sha256": "88d5b8d6b785d2bf9908f5aac326e1d104cddf335ac91db790dc5f4961238bf4"
+    },
+    {
+      "path": "river-window-alternatives/light-fragment.tscn",
+      "size": 13782,
+      "sha256": "d6bdcbdd90b9d2b0601a2966b28114d8c3d725d5838dea309a59f853a39204c6"
+    },
+    {
+      "path": "river-window-alternatives/mark_0.obj",
+      "size": 313,
+      "sha256": "ac2e133616711dbc50ce84bf856fd450dcfd05fdd1c45ad695a74b745922ccc0"
+    },
+    {
+      "path": "river-window-alternatives/mark_1.obj",
+      "size": 313,
+      "sha256": "108abdef446c4deeda8d4c66bb7648a2ba41fe037c9dac3154d21b79b90658a4"
+    },
+    {
+      "path": "river-window-alternatives/mark_2.obj",
+      "size": 313,
+      "sha256": "3e55fc2e3726b17e4259b6863d42f5828ea9df36a6d00b8ffed80708b5bb910b"
+    },
+    {
+      "path": "river-window-alternatives/mark_3.obj",
+      "size": 313,
+      "sha256": "0bf1063f520a1cdcdb85bdd36690c7efc34944396ecf341255f7dc2cb2a1d94a"
+    },
+    {
+      "path": "river-window-alternatives/mark_4.obj",
+      "size": 313,
+      "sha256": "495a9c4ea392b822f799f2380a1c6797768695fbbb5bbd2a486afd139789953c"
+    },
+    {
+      "path": "river-window-alternatives/mark_5.obj",
+      "size": 313,
+      "sha256": "ec60b13683e4304fc071efc35340b687542301ce977c5dddc146639fa809f3b6"
+    },
+    {
+      "path": "river-window-alternatives/project.godot",
+      "size": 256,
+      "sha256": "185c858beb3199d152f12139558b968a76df0a7f04292e040c96b3578706cbd9"
+    },
+    {
+      "path": "river-window-alternatives/study.gd",
+      "size": 961,
+      "sha256": "75c417ca83f6654eee8d2cd76227ac54c7609b1d59054b16f73587db799520ff"
+    },
+    {
+      "path": "river-window-alternatives/study.gd.uid",
+      "size": 19,
+      "sha256": "8de51ef93bcc5d07bb6136daf0c977b4cee4edaab28adc0bc672db2306c8c1ca"
+    },
+    {
+      "path": "river-window-alternatives/test_study.gd",
+      "size": 1312,
+      "sha256": "e6b9ebc4e868c72a05f29e60db804aa88e6b120a9e93d65e19f42fbefd2e01f3"
+    },
+    {
+      "path": "river-window-alternatives/verify_variants.py",
+      "size": 1716,
+      "sha256": "39ebe1f99ca4fd98f0b465cade3ae53dc205620428eeef4959778b21031b1596"
+    },
+    {
+      "path": "river-window-alternatives/water-tone.tscn",
+      "size": 15145,
+      "sha256": "ea02499a22b377c537fccd4ed59b3691a2f7c3db5a39f6e691a4b0b7dfac6c2b"
+    },
+    {
+      "path": "river-window-alternatives/water_tone.gdshader",
+      "size": 709,
+      "sha256": "5c9abfe155e08b32e07b3bd4f460faf13823f5214a59af76f27ba37aa21d59c8"
+    },
+    {
+      "path": "river-window-alternatives/water_tone.tres",
+      "size": 221,
+      "sha256": "73f34df2ac833579fcb53b81864e8ca151c79fa70deee69a9b892cb1cec53fa3"
     },
     {
       "path": "river-window-study/.gitignore",
