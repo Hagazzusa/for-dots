@@ -1,7 +1,7 @@
 # 잠깐 머무는 작은 세계
 
 비를 피하는 공간, 천천히 움직이는 빛, 길가의 빈 벤치.
-이미지와 짧은 영상으로 먼저 둘러볼 수 있는 열한 작업을 골랐습니다.
+이미지와 짧은 영상으로 먼저 둘러볼 수 있는 열두 작업을 골랐습니다.
 편집 가능한 장면과 제작 소스는 각 작품의 안내에 함께 있습니다.
 
 세 정물을 이어 읽는 동반 그림책 [《비가 지나가는 동안》](quiet-storybook/README.md)도 있습니다. [3쪽 PDF로 읽기](quiet-storybook/While-the-Rain-Passes.pdf).
@@ -121,6 +121,16 @@
 [편집 가능한 SVG·PNG와 재현 스크립트](a-seat-for-wind/README.md) · [커튼만 움직이는 12초 무음 영상](a-seat-for-wind-motion/a_seat_for_wind_motion.mp4) · [움직임 연구·재현](a-seat-for-wind-motion/README.md)
 
 위 이미지는 직접 작성한 벡터 도형을 Inkscape로 렌더한 그림입니다. 생성형 이미지나 Blender 3D 렌더가 아니며 외부 이미지·폰트·텍스처를 사용하지 않았습니다.
+
+## 12. 돌아올 페이지 · Returning Page
+
+읽던 책 사이에 작은 황동 창을 남겼습니다. 돌아와 다시 펼칠 문장을 기다리는 가상의 책갈피입니다.
+
+![돌아올 페이지 — 실제 CAD 메시의 Blender Cycles 렌더](returning-page/renders/returning_page_final.png)
+
+[편집 가능한 FreeCAD·STEP·Blender 장면과 재현](returning-page/README.md)
+
+직접 만든 FreeCAD 솔리드를 메시로 옮긴 실제 Blender 렌더입니다. 생성형 이미지나 제품 사진이 아니며, 실물 제조·강도·모서리 안전·책 호환성을 검증한 물건은 아닙니다.
 
 ---
 

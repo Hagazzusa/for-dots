@@ -1,0 +1,26 @@
+{
+  "cad_mesh_sha256": "22bbdb6c847a701e1c2454f450f347c86daf22929288eb484223634a65d9ae5d",
+  "max_transfer_error_m": 3.6954879711892374e-09,
+  "triangles_preserved": true,
+  "bookmark_bounds_m": [
+    [
+      0.012,
+      0.025,
+      0.0101
+    ],
+    [
+      0.037,
+      0.115,
+      0.0108
+    ]
+  ],
+  "book_top_m": 0.0101,
+  "bookmark_book_clearance_m": 0,
+  "upper_page_min_bottom_m": 0.0108,
+  "upper_page_contact_at_y_m": 0.045,
+  "book_end_y_m": 0.0885,
+  "bookmark_overhang_mm": 26.5,
+  "intersection_check": "Analytical: book occupies z <= .0101, bookmark z >= .0101; upper page bottom >= .0108, bookmark top <= .0108. Contact allowed; no positive volume overlap. No physical paper or bending simulation.",
+  "render_engine": "Cycles CPU, 2 threads, no denoising",
+  "draft": false
+}

@@ -1,0 +1,96 @@
+{
+  "title": "Returning Page",
+  "policy": "명시된 공개 산출물 목록. 생성 로그·임시 파일·백업은 제외하며 이 매니페스트 자신은 해시하지 않습니다.",
+  "files": [
+    {
+      "path": "README.md",
+      "bytes": 4215,
+      "sha256": "08d500512a1c4ce9bdc09db06a6dcddfa9ccd9f9817a0119aa8542f28cda32f1"
+    },
+    {
+      "path": "build_freecad.py",
+      "bytes": 2810,
+      "sha256": "01f8cd7b60af55cf2e39a0f736a68d51355bdc96a1f0d6bb3da28887e00d021c"
+    },
+    {
+      "path": "build_blender.py",
+      "bytes": 5602,
+      "sha256": "fd80a62cdfa0853a7caa87984752bf77a66a4dae67903dc1bf954e15101bb0f6"
+    },
+    {
+      "path": "inspect_blend.py",
+      "bytes": 1057,
+      "sha256": "3fbf12062c1bc93b91f6065967598144f9d661599c7011832c56f3d6fd1c078a"
+    },
+    {
+      "path": "verify_bundle.py",
+      "bytes": 1254,
+      "sha256": "8ca301db4a449bbd01c336a3768137b4d5ad532152ec135bbd2ffc44825fed76"
+    },
+    {
+      "path": "concept.svg",
+      "bytes": 749,
+      "sha256": "601ebd4ef800f789724bb81b2a56e9fe7430f274798e1c18c0300373e43bec71"
+    },
+    {
+      "path": "provenance.json",
+      "bytes": 1778,
+      "sha256": "63c202362ae8cd24ec17a91190ff8e568c06caf64ced17ce0fd0d1e852d72b07"
+    },
+    {
+      "path": "cad/Returning_Page.FCStd",
+      "bytes": 24200,
+      "sha256": "ddc7541faf617dfa0a1ab8a69aa8d6c66b0b4e32c228bcda7ced2a6b235386fa"
+    },
+    {
+      "path": "cad/Returning_Page.step",
+      "bytes": 59574,
+      "sha256": "039f92affef2b918dda63535b78def203e6136f5707aaf5c0e8d277a6f3866f6"
+    },
+    {
+      "path": "cad/bookmark_mesh.json",
+      "bytes": 3822913,
+      "sha256": "22bbdb6c847a701e1c2454f450f347c86daf22929288eb484223634a65d9ae5d"
+    },
+    {
+      "path": "cad/validation.json",
+      "bytes": 531,
+      "sha256": "60c67dc636aa1ebb4f19c61fe7bef022bb763862afad7cdfe2dd7ba4d67ecfad"
+    },
+    {
+      "path": "Returning_Page.blend",
+      "bytes": 4718756,
+      "sha256": "83f8ea9b299d59558193950d8d1ec02009486cc79692e423933a302093a54cb2"
+    },
+    {
+      "path": "blender_validation.json",
+      "bytes": 796,
+      "sha256": "9f9ab23439fec650503bfd8f88962512f3562ab6d8e4f9380ec534210b517fcd"
+    },
+    {
+      "path": "blend_reopen_validation.json",
+      "bytes": 293,
+      "sha256": "886bb8996263c7c2fc565de6b4164cf0d2c401288cffd1b087ebd2738ce6712c"
+    },
+    {
+      "path": "visual_validation.json",
+      "bytes": 715,
+      "sha256": "6bc75340062461b8c8f2910fd2b84d3a3c7e050193f8bb5ad64d7f7a685e3aa4"
+    },
+    {
+      "path": "renders/draft.png",
+      "bytes": 551443,
+      "sha256": "290d2995ce0fb574b1ed414ad639e7d752cb8d4ed145fbd014d7d91eebeac608"
+    },
+    {
+      "path": "renders/returning_page_final.png",
+      "bytes": 2421162,
+      "sha256": "a212ac637f820d8633c124279e126f904473c8ddaa207c5d61a72b665f1e64b3"
+    },
+    {
+      "path": "PUBLIC_ALLOWLIST.txt",
+      "bytes": 390,
+      "sha256": "b89e7f59ad06f686f699cbf8bc83376b0a08ffe8133fca86dac76db4dc39b324"
+    }
+  ]
+}

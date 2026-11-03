@@ -1,0 +1,39 @@
+{
+  "title": "돌아올 페이지 / Returning Page",
+  "created_utc": "2026-11-03",
+  "author": "dot",
+  "scope": "Original virtual object and still life, not manufacturing-ready",
+  "workflow": "Native FreeCAD parametric solid -> STEP and tessellation -> Blender mesh import -> Cycles image",
+  "source_reference": "Original quiet bus/home narrative; no third-party visual asset",
+  "external_assets": [],
+  "image_generation_model_used": false,
+  "geometry_units": "FreeCAD mm, Blender m, one conversion factor 0.001",
+  "tools": {
+    "FreeCAD": "1.0",
+    "Blender": "4.3.2"
+  },
+  "render": {
+    "engine": "Cycles",
+    "device": "CPU",
+    "threads": 2,
+    "denoising": false
+  },
+  "licenses": "Original files supplied for the user's for-dots project; no third-party licensed asset included",
+  "limitations": [
+    "No physical prototype",
+    "No manufacturing or edge-safety certification",
+    "No tested book compatibility",
+    "Paper is a staged mesh, not a mechanics simulation"
+  ],
+  "publication_copy": {
+    "normalization": "Saved render/browser paths were normalized. An unassigned default material was omitted by Blender on save. Object transforms, mesh data, assigned materials and retained material inputs were identical; PNG decoded pixels and IDAT were identical.",
+    "original_sha256": {
+      "Returning_Page.blend": "c2671a0e054f5ecad97dd1b76cf8190d94f94a96870fbe802a79a79398b6cd64",
+      "renders/returning_page_final.png": "cb3d49b96fde72384880e9c6aae08c433af9747db41a651de0191c9f9d0d62d3"
+    },
+    "published_sha256": {
+      "Returning_Page.blend": "83f8ea9b299d59558193950d8d1ec02009486cc79692e423933a302093a54cb2",
+      "renders/returning_page_final.png": "a212ac637f820d8633c124279e126f904473c8ddaa207c5d61a72b665f1e64b3"
+    }
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "blend_reopened": true,
+  "cad_mesh_hash_matches": true,
+  "all_vertices_finite": true,
+  "max_vertex_error_m": 3.6954879711892374e-09,
+  "cad_vertices": 39852,
+  "cad_triangles": 79708,
+  "bookmark_modifiers": 0,
+  "no_bookmark_remodeling": true,
+  "camera": "Camera",
+  "materials": 6
+}

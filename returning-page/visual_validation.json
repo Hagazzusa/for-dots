@@ -1,0 +1,8 @@
+{
+  "inspected_images": ["renders/draft.png", "renders/returning_page_final.png"],
+  "final_resolution": [1500, 1500],
+  "review": "Actual final pixels inspected. Brass silhouette, rounded rectangular window, thread hole and thin rim remain legible against the cream pages. Page edges are deliberately low contrast but discernible. No black coplanar surface artifact remains.",
+  "draft_issue_resolved": "Initial book-top/page coplanarity produced black shading; separate page thickness and matching bookmark/contact elevations corrected it before the retained draft and final.",
+  "scope": "Stylized virtual still-life study, not photographic realism or physical product validation.",
+  "external_assets": false
+}

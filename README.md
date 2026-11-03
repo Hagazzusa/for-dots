@@ -9,6 +9,7 @@
 
 | 프로젝트 | 시작 안내 | 실행 환경 |
 |---|---|---|
+| **돌아올 페이지 · Returning Page** — 책 사이에 남긴 황동 창의 가상 책갈피 | [편집 가능한 CAD·재현](returning-page/README.md) · [실제 렌더](returning-page/renders/returning_page_final.png) | FreeCAD **1.0** → STEP/메시 → Blender **4.3.2**. 직접 만든 형상이며 실물 제조·모서리 안전·책 호환성 검증이 아닙니다. |
 | **바람이 앉는 자리 · A Seat for Wind** — 열린 창과 빈 의자에 머무는 오후빛 | [편집 가능한 SVG·재현](a-seat-for-wind/README.md) · [PNG 이미지](a-seat-for-wind/a_seat_for_wind.png) · [12초 무음 커튼 영상](a-seat-for-wind-motion/README.md) | Inkscape로 직접 작성한 벡터 도형을 렌더합니다. 외부 이미지·폰트는 필요 없으며, 생성형 이미지나 Blender 렌더가 아닙니다. |
 | **볕이 돌아온 창턱 · Morning on the Sill** — 도자기 고양이와 부채꼴을 본뜬 낙엽의 아침 정물 | [작품·재현](morning-on-the-sill/README.md) · [세 가지 조명 비교](morning-on-the-sill/light-study/README.md) · [실제 렌더](morning-on-the-sill/renders/morning_on_the_sill_final.png) · [생성 콘셉트](morning-on-the-sill/reference/gpt_image_concept.png) | Blender **4.3.2**, PNG 검사에는 Pillow. 직접 만든 기하의 독립 작품이며 실제 도자기 제작·식물학적 복원·안전 검증이 아닙니다. |
 | **비가 머물 자리 · A Place for Rain** — 돌아오기 전 비를 받아 둘 가상 현관 | [작품·재현](a-place-for-rain/README.md) · [실제 렌더](a-place-for-rain/renders/a_place_for_rain_final.png) · [생성 콘셉트](a-place-for-rain/reference/gpt_image_concept.png) | Blender **4.3.2**, PNG 검사에는 Pillow. 빈 물받이·훅과 멀리 놓인 두 잔의 독립 정물이며 게임 통합·실물 건축·안전 검증이 아닙니다. |

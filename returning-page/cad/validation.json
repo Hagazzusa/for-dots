@@ -1,0 +1,23 @@
+{
+  "valid_solid": true,
+  "solid_count": 1,
+  "dimensions_mm": [
+    25,
+    90,
+    0.7
+  ],
+  "outer_corner_radius_mm": 3,
+  "edge_radius_mm": 0.14,
+  "window_mm": [
+    15,
+    13
+  ],
+  "window_radius_mm": 1.5,
+  "thread_hole_diameter_mm": 2.8,
+  "volume_mm3": 1427.7171552175505,
+  "step_volume_error_mm3": 4.547473508864641e-13,
+  "mesh_vertices": 39852,
+  "mesh_triangles": 79708,
+  "finite_vertices": true,
+  "reopened_native_parameter_edit_verified": "Blank.Width 90 to 92 mm increases volume; original saved at 90 mm"
+}
