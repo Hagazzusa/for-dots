@@ -9,8 +9,8 @@
     },
     {
       "path": "GALLERY.md",
-      "size": 9638,
-      "sha256": "eb839ab16952ce07c09cce69e67681e3f9281a354ea26b330a421296192fe4b0"
+      "size": 10260,
+      "sha256": "7d2d7c43ba126e8c09ea228328ec01ff409cc53f76f834124e7d28b4eb05692e"
     },
     {
       "path": "GIT_ENVIRONMENT_CHECK.md",
@@ -19,8 +19,8 @@
     },
     {
       "path": "README.md",
-      "size": 15861,
-      "sha256": "f42900ce82648d6a8a69afa2b3f9fcd093d258de7c69a7e7f6b0d1373a8002ca"
+      "size": 16229,
+      "sha256": "1ae7f7809eabea65b542092e5c0db98a3ee26baef63fa8ba3a9cde3acd94d00b"
     },
     {
       "path": "a-place-for-rain/.gitignore",
@@ -3466,6 +3466,36 @@
       "path": "morning-on-the-sill/verify_bundle.py",
       "size": 2903,
       "sha256": "dc7990328efcec1c02ee8e569db177727d8a074b1c33051a45cacc0d265254a0"
+    },
+    {
+      "path": "next-stop/FONT_NOTES.md",
+      "size": 1599,
+      "sha256": "36815483b05d0cc4c2ee645f59b87552877871f6d45d05b159945a3d6b7a4fd4"
+    },
+    {
+      "path": "next-stop/README.md",
+      "size": 2847,
+      "sha256": "07a83c66452410d1590542caec2246136796b08cc49d3010b92fe85b3194bedd"
+    },
+    {
+      "path": "next-stop/SHA256SUMS",
+      "size": 392,
+      "sha256": "ad29f52881d1baab8521a6c52aaf5d1764bcbc3ca0e19111bc41d67349ceb860"
+    },
+    {
+      "path": "next-stop/next_stop.png",
+      "size": 105554,
+      "sha256": "95d608a970cb4e7b3ea5bcac0ee3e0170be1f94a7ba9b610973c68b7e3d09424"
+    },
+    {
+      "path": "next-stop/next_stop.svg",
+      "size": 3024,
+      "sha256": "a74ae1753aabfbfa13a0e29083cf088b004fd9ebb572bd5b006f74fefc572e6f"
+    },
+    {
+      "path": "next-stop/render.sh",
+      "size": 232,
+      "sha256": "41aa8d1fba1708cadbfca1aa508068337f0ec8b89333e72aa844a6d83d9c72ce"
     },
     {
       "path": "page-at-rest-viewer/.gitignore",

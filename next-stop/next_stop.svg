@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1200" viewBox="0 0 1600 1200" role="img" aria-labelledby="title description">
+<title id="title">다음 정거장</title>
+<desc id="description">08번 버스를 타고 난 뒤 주머니에 남은 가상의 종이 승차권. 정류장의 창과 작은 빛, 시장길·강변·종점이 적혀 있다. 실제 교통권이 아닌 이야기 속 그래픽 작품.</desc>
+<g id="background"><path fill="#d9ded9" d="M0 0H1600V1200H0Z"/></g>
+<g id="paper-shadow" fill="#7f918c">
+<path opacity=".10" d="M298 373L1285 373L1311 850L321 851Z"/>
+<path opacity=".09" d="M313 388L1278 381L1293 836L327 841Z"/>
+</g>
+<g id="ticket-paper">
+<path fill="#f3ead6" d="M293 352L1285 352L1285 578C1267 578 1267 606 1285 606L1285 820L293 820L293 606C311 606 311 578 293 578Z"/>
+<path fill="#ece0c6" d="M293 789L1285 786V820H293Z"/>
+<path fill="#f7efde" d="M293 352H1285V362H293Z"/>
+<path fill="#d8ccb4" opacity=".42" d="M962 353L967 353L982 820L977 820Z"/>
+<path fill="#fff8e7" opacity=".58" d="M967 353H970L985 820H982Z"/>
+</g>
+<g id="window-emblem">
+<path fill="#526d70" d="M354 397H543V628H354Z"/>
+<path fill="#93aeaf" d="M365 408H532V616H365Z"/>
+<path fill="#739396" d="M365 526C407 511 476 539 532 516V616H365Z"/>
+<path fill="#c3d0c6" d="M365 408H532V473C468 478 418 461 365 470Z"/>
+<path fill="#526d70" d="M445 407H454V618H445Z"/>
+<path fill="#526d70" d="M365 510H532V519H365Z"/>
+<path fill="#dbb778" d="M463 530H520V602H463Z"/>
+<path fill="#ecd4a1" d="M470 537H514V594H470Z"/>
+<path fill="#526d70" d="M347 628H551V637H347Z"/>
+<!-- A small reflection, not a literal extra window. -->
+<path fill="#9eafaa" d="M378 649H521L546 672H398Z"/>
+</g>
+<g id="editable-type" fill="#526d70" font-family="Noto Sans CJK KR, sans-serif">
+<text x="589" y="434" font-size="23" letter-spacing="5">다음 정거장</text>
+<text x="583" y="586" font-size="144" font-weight="300" letter-spacing="-6">08</text>
+<text x="796" y="576" font-size="22" letter-spacing="4">HOME</text>
+<text x="1040" y="436" font-size="15" letter-spacing="2">비가 지난 뒤</text>
+<text x="1040" y="592" font-size="15" letter-spacing="1">한 번의</text>
+<text x="1040" y="620" font-size="15" letter-spacing="1">귀갓길</text>
+</g>
+<g id="route-mark" fill="#526d70" stroke="#526d70" stroke-width="2">
+<path fill="none" d="M611 692H885"/>
+<circle cx="611" cy="692" r="5" fill="#f3ead6"/>
+<circle cx="748" cy="692" r="5" fill="#f3ead6"/>
+<circle cx="885" cy="692" r="5"/>
+</g>
+<g id="route-type" fill="#526d70" font-family="Noto Sans CJK KR, sans-serif" font-size="18" text-anchor="middle">
+<text x="611" y="730">시장길</text><text x="748" y="730">강변</text><text x="885" y="730">종점</text>
+</g>
+<g id="ticket-note" fill="#7b8e86" font-family="Noto Sans CJK KR, sans-serif" font-size="12" letter-spacing="1">
+<text x="354" y="785">작은 이야기 속 승차권</text>
+<path fill="none" stroke="#aab4a6" stroke-width="1" d="M1040 734H1218"/>
+<text x="1040" y="760">서두르지 않아도 된다.</text>
+</g>
+</svg>
