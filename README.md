@@ -5,6 +5,8 @@
 
 **[작품 갤러리 · 이미지와 짧은 영상으로 둘러보기](GALLERY.md)**
 
+[비가 지나가는 동안 · 세 정물을 엮은 작은 그림책](quiet-storybook/README.md) · [3쪽 PDF](quiet-storybook/While-the-Rain-Passes.pdf)
+
 | 프로젝트 | 시작 안내 | 실행 환경 |
 |---|---|---|
 | **볕이 돌아온 창턱 · Morning on the Sill** — 도자기 고양이와 부채꼴을 본뜬 낙엽의 아침 정물 | [작품·재현](morning-on-the-sill/README.md) · [세 가지 조명 비교](morning-on-the-sill/light-study/README.md) · [실제 렌더](morning-on-the-sill/renders/morning_on_the_sill_final.png) · [생성 콘셉트](morning-on-the-sill/reference/gpt_image_concept.png) | Blender **4.3.2**, PNG 검사에는 Pillow. 직접 만든 기하의 독립 작품이며 실제 도자기 제작·식물학적 복원·안전 검증이 아닙니다. |

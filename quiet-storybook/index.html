@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="세 점의 정물과 짧은 문장으로 읽는 작은 그림책, 비가 지나가는 동안.">
+  <meta name="color-scheme" content="light">
+  <title>비가 지나가는 동안 · 작은 그림책</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="story.js" defer></script>
+</head>
+<body>
+  <a class="skip" href="#story">이야기로 건너뛰기</a>
+  <div class="book">
+    <header>
+      <p class="eyebrow">세 장면으로 읽는 작은 그림책</p>
+      <h1>비가 지나가는 동안</h1>
+      <p class="subtitle">빈 자리에 남겨 둔 마음에 관하여</p>
+    </header>
+    <main id="story" tabindex="-1">
+      <article class="scene" id="scene-1" aria-labelledby="title-1">
+        <figure><img src="../second-cup/renders/the_second_cup_final.png" width="1200" height="1200" alt="자두빛 식탁 위에 차가 든 잔 하나, 빈 잔 하나, 빈 접시 두 개와 작은 금속 주전자가 놓여 있다."><figcaption>두 잔의 자리</figcaption></figure>
+        <div class="words"><p class="chapter">첫째 장 · 기다리는 자리</p><h2 id="title-1">아직 따르지 않은 차</h2><p class="prose">한 잔에 차를 따르고,<br>다른 잔은 그대로 두었다.</p><p class="prose">돌아올 사람의 차가 식지 않도록,<br>따뜻함의 절반은 주전자에 남겨 두었다.</p></div>
+      </article>
+      <article class="scene" id="scene-2" aria-labelledby="title-2">
+        <figure><img src="../a-place-for-rain/renders/a_place_for_rain_final.png" width="1200" height="800" alt="빈 물받이와 황동 훅이 있는 현관. 조금 열린 문 너머 따뜻한 방 안에 두 잔이 보인다."><figcaption>비를 내려놓을 자리</figcaption></figure>
+        <div class="words"><p class="chapter">둘째 장 · 문 앞의 여백</p><h2 id="title-2">비는 여기까지</h2><p class="prose">문 앞에는 우산을 내려놓을 자리가 있다.</p><p class="prose">비어 있는 문틈으로,<br>집 안의 빛이 먼저 마중 나왔다.</p></div>
+      </article>
+      <article class="scene" id="scene-3" aria-labelledby="title-3">
+        <figure><img src="../morning-on-the-sill/renders/morning_on_the_sill_final.png" width="1200" height="800" alt="아침 볕이 드는 창턱에 청회색 도자기 고양이 조각과 낙엽 두 장이 놓여 있다."><figcaption>볕이 돌아온 창턱</figcaption></figure>
+        <div class="words"><p class="chapter">셋째 장 · 볕이 드는 자리</p><h2 id="title-3">아침은 조용히</h2><p class="prose">비가 지난 자리로 볕이 들었다.</p><p class="prose">도자기 고양이 곁의 잎 두 장이,<br>말없이 밝아졌다.</p><p class="end">끝.</p></div>
+      </article>
+      <nav class="turns" aria-label="그림책 넘기기" hidden>
+        <button id="previous" type="button" aria-label="이전 장면">← <span>이전</span></button>
+        <p id="position" role="status" aria-live="polite" aria-atomic="true">1 / 3</p>
+        <button id="next" type="button" aria-label="다음 장면"><span>다음</span> →</button>
+      </nav>
+      <p class="keyboard" hidden>← → 키로도 넘길 수 있어요.</p>
+    </main>
+    <footer>
+      <details><summary>이 작은 책에 관하여</summary><div class="colophon">
+        <p>기다리는 식탁, 문 앞의 여백, 비가 지난 아침을 나란히 놓은 독립적인 짧은 이야기입니다. 서로 다른 정물을 문학적으로 이어 읽으며, 게임의 선택이나 결말을 정하지 않습니다. 실제 인물이나 집, 개인사를 재현하지 않습니다.</p>
+        <p>글·구성: dot · 그림: 저장소의 독창적인 3D 정물 세 점. 모두 Blender Cycles로 계산한 실제 렌더이며, 사진이나 생성 콘셉트 이미지가 아닙니다. 공개된 원본 PNG를 수정하지 않고 그대로 표시합니다.</p>
+        <p>작품: 《두 잔의 자리》 · 《비를 내려놓을 자리》 · 《볕이 돌아온 창턱》. 각 작품의 소스와 자세한 출처는 저장소의 같은 이름 프로젝트에 있습니다.</p>
+        <p>서두르지 않고 넘겨 주세요. 소리도, 자동으로 넘어가는 페이지도 없습니다.</p>
+      </div></details>
+      <p class="imprint">작은 정물들로 엮은 이야기 · dot</p>
+    </footer>
+  </div>
+</body>
+</html>

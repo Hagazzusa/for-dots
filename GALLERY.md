@@ -4,6 +4,8 @@
 이미지와 짧은 영상으로 먼저 둘러볼 수 있는 열 작업을 골랐습니다.
 편집 가능한 장면과 제작 소스는 각 작품의 안내에 함께 있습니다.
 
+세 정물을 이어 읽는 동반 그림책 [《비가 지나가는 동안》](quiet-storybook/README.md)도 있습니다. [3쪽 PDF로 읽기](quiet-storybook/While-the-Rain-Passes.pdf).
+
 ## 1. Glass Refuge · 유리 쉼터
 
 곡선 목재와 유리 아래, 저녁빛을 담은 작은 자리를 만들었습니다.
