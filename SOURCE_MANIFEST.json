@@ -19,8 +19,13 @@
     },
     {
       "path": "README.md",
-      "size": 18433,
-      "sha256": "99f1f5341b7887fa5a64f8a09def7881fc27ca828887d5dce01ed73a8abf67c8"
+      "size": 18538,
+      "sha256": "d55c2d1ecc8bc7bf61dd8893394ac18cc587bbb4852d3b4c0d4399433ccd2a89"
+    },
+    {
+      "path": "WORLD_CONNECTIONS.md",
+      "size": 3696,
+      "sha256": "af8dc05ba6ac597bfe58ae22eb0e77514c0aad3b5f7c9fb5891a19961d3f9be5"
     },
     {
       "path": "a-place-for-rain/.gitignore",

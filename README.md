@@ -5,6 +5,8 @@
 
 **[작품 갤러리 · 이미지와 짧은 영상으로 둘러보기](GALLERY.md)**
 
+[같은 밤, 서로 다른 작품 · 게임과 동반 이야기의 연결 안내](WORLD_CONNECTIONS.md)
+
 [비가 지나가는 동안 · 세 정물을 엮은 작은 그림책](quiet-storybook/README.md) · [3쪽 PDF](quiet-storybook/While-the-Rain-Passes.pdf)
 
 [반쯤 덮어 둔 저녁 · 시장길 정물에서 이어 쓴 짧은 이야기](half-covered-evening/story.md) · [제작 설명과 설정 범위](half-covered-evening/README.md)
