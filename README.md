@@ -13,6 +13,7 @@
 
 | 프로젝트 | 시작 안내 | 실행 환경 |
 |---|---|---|
+| **골목 끝 작은 세탁소** — 둥근 세탁기 문과 옆 골목의 빈 벤치 | [3D 장면·제작 코드·재현 범위](quiet-laundrette/README.md) · [최종 렌더](quiet-laundrette/Quiet-Laundrette.png) | Blender **4.3.2**, Cycles CPU. 외부 에셋 없이 만든 독립 가상 장면이며 실제 가게나 게임에 추가된 장소가 아닙니다. |
 | **꽃이 떠난 자리** — 접힌 포장지와 잎줄기, 풀린 끈 | [벡터 원본·재현·검증 범위](after-the-flowers/README.md) · [PNG 이미지](after-the-flowers/after_the_flowers.png) | Python 표준 라이브러리·Inkscape **1.4**. 같은 직교투영 카메라로 만든 독립 벡터 정물. 외부 이미지·폰트가 없으며 실제 사진이나 새 게임 사건이 아닙니다. |
 | **회전이 멎은 뒤** — 열린 세탁기 문과 창 밖에서 들어오는 빛 | [벡터 원본·재현](after-the-turn/README.md) · [PNG 이미지](after-the-turn/after_the_turn.png) | Inkscape **1.4**. 외부 자원 없이 직접 그린 독립 벡터 정물. 양식화한 사선 구도이며 실제 제품 사진이나 게임 구현이 아닙니다. |
 | **비 오는 밤의 정류장 · 08 정류장** — 작은 창과 다가오는 버스 불빛 | [제작 코드·재현](pixel-busstop/README.md) · [6배 확대 PNG](pixel-busstop/busstop_6x.png) | Python·Pillow. 192×108 제한 팔레트의 직접 코드 생성 픽셀아트이며, 게임 화면·외부 스프라이트·생성형 이미지가 아닙니다. |

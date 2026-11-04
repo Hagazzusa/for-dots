@@ -9,8 +9,8 @@
     },
     {
       "path": "GALLERY.md",
-      "size": 15242,
-      "sha256": "72e8cc5d4fa5ffe397c9c3e543a7a9a2ee3e72790428cd215675296283345785"
+      "size": 16023,
+      "sha256": "6827d6c70e7deaac8f4fdae6d6b71154eca80971c85fa542901689fe364ec036"
     },
     {
       "path": "GIT_ENVIRONMENT_CHECK.md",
@@ -19,8 +19,8 @@
     },
     {
       "path": "README.md",
-      "size": 22176,
-      "sha256": "6c8898db84d0bfb715b4c325796d9d416645af1fba21f520ccdd1093c1bc3ea1"
+      "size": 22544,
+      "sha256": "11c21ebe128f9afe9a372ea5e31b206faf094b8483e1a0d9c5123bfc0944f9d8"
     },
     {
       "path": "WORLD_CONNECTIONS.md",
@@ -4171,6 +4171,51 @@
       "path": "pixel-busstop/draw.py",
       "size": 4312,
       "sha256": "5e558192fc0c29fb59292f58d50fe371b96346fbbdfc95b5e052edaba00ebff3"
+    },
+    {
+      "path": "quiet-laundrette/.gitignore",
+      "size": 40,
+      "sha256": "faf15467ce340de64d057e681b9fe3db739c929655f90cb4fa1f8b91c2a44412"
+    },
+    {
+      "path": "quiet-laundrette/Quiet-Laundrette.blend",
+      "size": 1673816,
+      "sha256": "14453aba9135cb78d14356eb709695783ecdde2a42d3f342c871cd1ed4447072"
+    },
+    {
+      "path": "quiet-laundrette/Quiet-Laundrette.png",
+      "size": 1486637,
+      "sha256": "5a85b48c8388e48666f845daf2d4b67ec93e09c6f4461993b72b543b32eeeb75"
+    },
+    {
+      "path": "quiet-laundrette/README.md",
+      "size": 4792,
+      "sha256": "d4ea57b08b7f05a54eba0d09cc00b7dd7b03e43c01503b53d4811b1a3c105152"
+    },
+    {
+      "path": "quiet-laundrette/REPRODUCTION.md",
+      "size": 2605,
+      "sha256": "b3300d1464be57a8a7837b24a1c1da11e68abc028820e8d20f0b4285a100c870"
+    },
+    {
+      "path": "quiet-laundrette/build.py",
+      "size": 10110,
+      "sha256": "d4b9677e74567578470460f663f6b9cae9afd6ed8e53b8aaa49049415f864f3d"
+    },
+    {
+      "path": "quiet-laundrette/pixel_qa.json",
+      "size": 187,
+      "sha256": "d59ec5d5af399ae8cb1417ecb56d18f735e3ee8a886b1f1ec845d38c65e96845"
+    },
+    {
+      "path": "quiet-laundrette/publication_qa.json",
+      "size": 373,
+      "sha256": "163ca69484eb3a221abcdfa0eee22da31c8b9732fcf0d4d90793ed9bc01f4032"
+    },
+    {
+      "path": "quiet-laundrette/validation.json",
+      "size": 150,
+      "sha256": "b63ffd1ddf469464571edb663c5cc9ce19a8bc6c240a5b601a829bd719bf96d9"
     },
     {
       "path": "quiet-road-profile-study/.gitignore",

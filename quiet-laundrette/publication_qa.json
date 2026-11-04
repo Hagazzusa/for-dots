@@ -1,0 +1,17 @@
+{
+  "original_and_sanitized_geometry_equal": true,
+  "final_blend": {
+    "geometry_sha256": "d50650e33b02141b9f8e2d3f8512bcafec8ccb21185f08599c00e3ac7a12f504",
+    "objects": 101,
+    "resolution": [
+      1100,
+      900
+    ],
+    "render_path": "//Quiet-Laundrette.png",
+    "external_images": [],
+    "linked_libraries": 0,
+    "fonts": [
+      "<builtin>"
+    ]
+  }
+}

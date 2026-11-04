@@ -1,0 +1,12 @@
+{
+  "dimensions": [
+    1100,
+    900
+  ],
+  "fully_opaque": true,
+  "bottom_25_rows_min_mean_rgb": 48.5039393939394,
+  "no_black_bottom_strip": true,
+  "metadata_keys": [
+    "dpi"
+  ]
+}
