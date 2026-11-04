@@ -289,8 +289,8 @@
     },
     {
       "path": "after-the-rain/README.md",
-      "size": 7033,
-      "sha256": "094cdc610a18b709387d8a7f117a9d22f3ebbe44a4ecc34967d2f192bec3ccc1"
+      "size": 7242,
+      "sha256": "05faeaaf58919430e8fb672a7f96bc1b8078a0d13dbe3878e00d04cf1283ee4a"
     },
     {
       "path": "after-the-rain/RECOVERY.md",
@@ -1238,6 +1238,11 @@
       "sha256": "73423ac0890e8ad51b1644edebbbcc6bafb6d58ab0a6bb32b1d9a84f2252579a"
     },
     {
+      "path": "after-the-rain/docs/CAPTURE_RESULT.md",
+      "size": 3315,
+      "sha256": "d167fdf0349c7621409f1428e05e1941837d907fa2def07e7fff8d200cbc26a0"
+    },
+    {
       "path": "after-the-rain/docs/FLOWER_PICKUP.md",
       "size": 6944,
       "sha256": "cb98889b9343ad76c17959d2dd20428fc7601c953cd134860caa04c6e5694969"
@@ -1824,8 +1829,8 @@
     },
     {
       "path": "after-the-rain/scripts/session.gd",
-      "size": 13586,
-      "sha256": "af2dd7b73a10ea3adc9f1438c5e742e95a5d117d83aaee35072a5480c236484a"
+      "size": 13687,
+      "sha256": "8ebb795be7e66d21fbd5045ddadff48194b3d97184ea6d4c107b570fcf51b1c4"
     },
     {
       "path": "after-the-rain/scripts/session.gd.uid",

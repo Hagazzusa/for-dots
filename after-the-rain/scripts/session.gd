@@ -306,8 +306,11 @@ func _process(delta):
 
 func capture_preview():
 	await RenderingServer.frame_post_draw
-	get_viewport().get_texture().get_image().save_png("res://preview.png")
-	print("Preview saved")
+	var result := get_viewport().get_texture().get_image().save_png("res://preview.png")
+	if result == OK:
+		print("Preview saved")
+	else:
+		push_warning("Preview not saved: " + error_string(result))
 func run_tests():
 	var runner=load("res://tests/regression.gd").new()
 	add_child(runner)
