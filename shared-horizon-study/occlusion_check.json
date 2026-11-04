@@ -1,0 +1,7 @@
+{
+  "screen_grid_step_px": 10,
+  "samples_covering_faces": 3523,
+  "overlapping_face_samples": 137,
+  "incorrect_painter_occlusion_samples": 0,
+  "scope": "유한 격자에서 SVG 면 순서와 카메라 광선-평면 교차 깊이를 비교. 모든 픽셀의 증명은 아님."
+}

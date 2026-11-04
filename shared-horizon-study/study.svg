@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1100" viewBox="0 0 1600 1100"><title>같은 눈높이 · 원근 연습</title><desc>수치 카메라로 투영한 열린 수납장과 회전한 상자. 원근 검토용 독립 시제품.</desc><path fill="#e4e7dd" d="M0 0H1600V1100H0Z"/>
+<path d="M0 370.0H1600" stroke="#a5b5ae" stroke-width="1" stroke-dasharray="8 10"/>
+<polygon points="-683.33333,742.67800 2650.00000,1488.03399 1650.00000,593.60680 507.14286,529.71914" fill="#d2dbcf" stroke="none" stroke-width="2" stroke-linejoin="round"/>
+<path d="M-585.29412 764.60023L576.82927 533.61473" fill="none" stroke="#a9b9b0" stroke-width="1"/>
+<path d="M-475.00000 789.26275L650.00000 537.70510" fill="none" stroke="#a9b9b0" stroke-width="1"/>
+<path d="M-350.00000 817.21360L726.92308 542.00523" fill="none" stroke="#a9b9b0" stroke-width="1"/>
+<path d="M-207.14286 849.15742L807.89474 546.53168" fill="none" stroke="#a9b9b0" stroke-width="1"/>
+<path d="M-42.30769 886.01569L893.24324 551.30281" fill="none" stroke="#a9b9b0" stroke-width="1"/>
+<path d="M150.00000 929.01699L983.33333 556.33900" fill="none" stroke="#a9b9b0" stroke-width="1"/>
+<path d="M377.27273 979.83672L1078.57143 561.66297" fill="none" stroke="#a9b9b0" stroke-width="1"/>
+<path d="M650.00000 1040.82039L1179.41176 567.30012" fill="none" stroke="#a9b9b0" stroke-width="1"/>
+<path d="M983.33333 1115.35599L1286.36364 573.27891" fill="none" stroke="#a9b9b0" stroke-width="1"/>
+<path d="M1400.00000 1208.52549L1400.00000 579.63137" fill="none" stroke="#a9b9b0" stroke-width="1"/>
+<path d="M1935.71429 1328.31485L1520.96774 586.39368" fill="none" stroke="#a9b9b0" stroke-width="1"/>
+<path d="M2650.00000 1488.03399L1650.00000 593.60680" fill="none" stroke="#a9b9b0" stroke-width="1"/>
+<path d="M-683.33333 742.67800L2650.00000 1488.03399" fill="none" stroke="#a9b9b0" stroke-width="1"/>
+<path d="M-475.00000 705.41020L2337.50000 1208.52549" fill="none" stroke="#a9b9b0" stroke-width="1"/>
+<path d="M-304.54545 674.91836L2150.00000 1040.82039" fill="none" stroke="#a9b9b0" stroke-width="1"/>
+<path d="M-162.50000 649.50850L2025.00000 929.01699" fill="none" stroke="#a9b9b0" stroke-width="1"/>
+<path d="M-42.30769 628.00784L1935.71429 849.15742" fill="none" stroke="#a9b9b0" stroke-width="1"/>
+<path d="M60.71429 609.57871L1868.75000 789.26275" fill="none" stroke="#a9b9b0" stroke-width="1"/>
+<path d="M150.00000 593.60680L1816.66667 742.67800" fill="none" stroke="#a9b9b0" stroke-width="1"/>
+<path d="M228.12500 579.63137L1775.00000 705.41020" fill="none" stroke="#a9b9b0" stroke-width="1"/>
+<path d="M297.05882 567.30012L1740.90909 674.91836" fill="none" stroke="#a9b9b0" stroke-width="1"/>
+<path d="M358.33333 556.33900L1712.50000 649.50850" fill="none" stroke="#a9b9b0" stroke-width="1"/>
+<path d="M413.15789 546.53168L1688.46154 628.00784" fill="none" stroke="#a9b9b0" stroke-width="1"/>
+<path d="M462.50000 537.70510L1667.85714 609.57871" fill="none" stroke="#a9b9b0" stroke-width="1"/>
+<path d="M507.14286 529.71914L1650.00000 593.60680" fill="none" stroke="#a9b9b0" stroke-width="1"/>
+<polygon points="735.71429,753.32594 838.40580,694.06782 838.40580,224.16948 735.71429,197.50333" fill="#8fa79e" stroke="#465b5c" stroke-width="2" stroke-linejoin="round"/>
+<polygon points="447.92746,717.57533 735.71429,753.32594 735.71429,197.50333 447.92746,213.59110" fill="#526e70" stroke="#465b5c" stroke-width="2" stroke-linejoin="round"/>
+<polygon points="447.92746,696.72081 261.90720,773.17848 261.90720,202.72382 447.92746,234.44562" fill="#c4cdb2" stroke="#465b5c" stroke-width="2" stroke-linejoin="round"/>
+<polygon points="731.90711,760.19339 737.74352,815.84120 737.74352,628.58789 731.90711,596.31217" fill="#b6a17a" stroke="#465b5c" stroke-width="2" stroke-linejoin="round"/>
+<polygon points="737.74352,628.58789 1024.92333,629.93838 983.05209,597.34590 731.90711,596.31217" fill="#e4cfa1" stroke="#465b5c" stroke-width="2" stroke-linejoin="round"/>
+<polygon points="737.74352,815.84120 1024.92333,818.16963 1024.92333,629.93838 737.74352,628.58789" fill="#cbb485" stroke="#465b5c" stroke-width="2" stroke-linejoin="round"/>
+<path d="M447.92746 696.72081L447.92746 234.44562" fill="none" stroke="#526c68" stroke-width="5"/>
+<path d="M292.93868 506.74228L292.93868 436.29929" fill="none" stroke="#718674" stroke-width="6"/>
+<circle cx="447.92746" cy="717.57533" r="4" fill="#a87547"/>
+<circle cx="737.74352" cy="815.84120" r="4" fill="#a87547"/>
+<circle cx="1024.92333" cy="818.16963" r="4" fill="#a87547"/>
+</svg>

@@ -1,0 +1,34 @@
+{
+  "dependencies": [
+    "Python 3 표준 라이브러리",
+    "Inkscape 1.4"
+  ],
+  "external_assets": [],
+  "external_svg_references": [],
+  "png_dimensions": [
+    1200,
+    825
+  ],
+  "png_metadata": {
+    "dpi": [
+      71.9836,
+      71.9836
+    ],
+    "Software": "www.inkscape.org"
+  },
+  "reviewed_text_files": [
+    "README.md",
+    "build.py",
+    "check_occlusion.py",
+    "occlusion_check.json",
+    "study.svg",
+    "verification.json"
+  ],
+  "private_path_or_secret_marker_matches": [],
+  "repeat_svg_png_byte_identical": true,
+  "publication_exclusions": [
+    "__pycache__",
+    "*.pyc"
+  ],
+  "scope": "제한된 형식·패턴 검사 및 원본 코드 검토. 모든 민감정보나 공급망 위험의 부재를 보증하지 않는다."
+}

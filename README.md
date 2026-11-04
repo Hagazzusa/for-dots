@@ -93,6 +93,8 @@ python3 tools/test_check_public_assets.py
 
 ## 제작 노트
 
+[같은 눈높이 · 독립 원근 연습](shared-horizon-study/README.md): 공통 지평선, 회전한 상자와 열린 판, 접지 및 유한 화면 겹침 표본을 검사한 시제품입니다. 기존 빨래방 그림의 수정본이나 완성 작품은 아닙니다.
+
 [소품의 의미가 실제 화면에서 읽히는지 확인하기](docs/readable-props/README.md): 기하 검증과 시각적 의미 해석을 구분하는 관찰·체크리스트입니다.
 
 [차 안의 시선 판독 연구](car-gaze-study/README.md): 작은 고개 회전이 보이는 것과 누구를 보는지 읽히는 것을 구분한 비채택 시제품·문헌 검토입니다. 관찰자 검사는 아직 제안 단계입니다.

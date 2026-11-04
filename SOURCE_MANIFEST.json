@@ -19,8 +19,8 @@
     },
     {
       "path": "README.md",
-      "size": 21492,
-      "sha256": "de38cbc09384c4609ff28c577e24cde71e3983cc43ba424ae631e4bda7259bec"
+      "size": 21765,
+      "sha256": "c214817d244d8f7b584ef4b42f9df4eb427971cfe1edae995e5b9606aeba081d"
     },
     {
       "path": "WORLD_CONNECTIONS.md",
@@ -5651,6 +5651,51 @@
       "path": "shallow-water-study/run_test.py",
       "size": 7320,
       "sha256": "e5499a6b8bb8ec9ccec3cf9a4290911c2370823ace8fb9b6359335d982ea5958"
+    },
+    {
+      "path": "shared-horizon-study/README.md",
+      "size": 4727,
+      "sha256": "ab0be6c0d9cb65c664ee837226fb409fe1d8b08f398feb7f66ec414d107a4b04"
+    },
+    {
+      "path": "shared-horizon-study/SHA256SUMS",
+      "size": 644,
+      "sha256": "510f6b567d89212d21f9f3d0b6ea4250bebb85a2848d44a4e70d740a9db416d1"
+    },
+    {
+      "path": "shared-horizon-study/build.py",
+      "size": 5549,
+      "sha256": "acd771fc258ada294f0d73e8e1cde371978e06c9993efc2f3860ed6ad0e9abfc"
+    },
+    {
+      "path": "shared-horizon-study/check_occlusion.py",
+      "size": 1549,
+      "sha256": "2fa1746f2736124614b2ad3207957b0928e33bb11fdd8c129f54acf51ad30749"
+    },
+    {
+      "path": "shared-horizon-study/occlusion_check.json",
+      "size": 281,
+      "sha256": "f71fb867373fb7e0911e00cceba0ccd6dd017c65cdf7da73b98e8426538c71e4"
+    },
+    {
+      "path": "shared-horizon-study/public_review.json",
+      "size": 761,
+      "sha256": "4f65ea38a7780ef64349cd88b20c27dcd849c9a5620f731fa3cdc7a1dee8c77c"
+    },
+    {
+      "path": "shared-horizon-study/study.png",
+      "size": 63875,
+      "sha256": "f79419de530cbe3506921ea9a1d2e3ca1102253176d632b2bbb128b1fcd082d0"
+    },
+    {
+      "path": "shared-horizon-study/study.svg",
+      "size": 4498,
+      "sha256": "b33641f1e55dba7209b867d6cabcc8770daf33be743517b102cd2664e516dc5c"
+    },
+    {
+      "path": "shared-horizon-study/verification.json",
+      "size": 1948,
+      "sha256": "68f7cc5851568a8e9387017ec356005b2449ad3b29b2c5a9f16205a5e8f92fc9"
     },
     {
       "path": "soft-shadow-study/.gitignore",
