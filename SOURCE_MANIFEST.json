@@ -9,8 +9,8 @@
     },
     {
       "path": "GALLERY.md",
-      "size": 14363,
-      "sha256": "735c38515e1ab7fc6f0786ce07c105147868222fb092a1c7be7814d21cea7455"
+      "size": 15242,
+      "sha256": "72e8cc5d4fa5ffe397c9c3e543a7a9a2ee3e72790428cd215675296283345785"
     },
     {
       "path": "GIT_ENVIRONMENT_CHECK.md",
@@ -19,8 +19,8 @@
     },
     {
       "path": "README.md",
-      "size": 21765,
-      "sha256": "c214817d244d8f7b584ef4b42f9df4eb427971cfe1edae995e5b9606aeba081d"
+      "size": 22176,
+      "sha256": "6c8898db84d0bfb715b4c325796d9d416645af1fba21f520ccdd1093c1bc3ea1"
     },
     {
       "path": "WORLD_CONNECTIONS.md",
@@ -281,6 +281,51 @@
       "path": "a-seat-for-wind/render.sh",
       "size": 312,
       "sha256": "dca746639494746b122515d143ddba5df7da5fdf883566c3cbb2667e44536ead"
+    },
+    {
+      "path": "after-the-flowers/README.md",
+      "size": 3822,
+      "sha256": "c7ac920c108a5d03b7db812bc7a52fb5fc05f0863dbfe334a6904ad8af503dae"
+    },
+    {
+      "path": "after-the-flowers/SHA256SUMS",
+      "size": 660,
+      "sha256": "27afe014f3da381cc518f6c7e17712a18254c00675345b2626e02ce883e0dec8"
+    },
+    {
+      "path": "after-the-flowers/after_the_flowers.png",
+      "size": 170015,
+      "sha256": "c8fd917296e075ae713a3c36801f1d29add67fbb28a6b72e163b4584f925f47b"
+    },
+    {
+      "path": "after-the-flowers/after_the_flowers.svg",
+      "size": 39014,
+      "sha256": "8cde9759f3b8e16b3fafe1d6b17d301ca5533cb9091a5a7232f3cb874b2cb2bc"
+    },
+    {
+      "path": "after-the-flowers/build.py",
+      "size": 5996,
+      "sha256": "88bd8e6d647aae4e0d75daf6101446ed18fe35edb80624a4f99ca72a899d4896"
+    },
+    {
+      "path": "after-the-flowers/check.py",
+      "size": 1693,
+      "sha256": "e639d55ad1427331f5b04757e8f344a93d892d79a41a15566109a906ac3c0f34"
+    },
+    {
+      "path": "after-the-flowers/geometry_check.json",
+      "size": 948,
+      "sha256": "96361c4cb969624bb8019c110f0c02c10c8b211a6aab35ffdf4228b55f7ceebe"
+    },
+    {
+      "path": "after-the-flowers/occlusion_check.json",
+      "size": 353,
+      "sha256": "c2fe9322aba3917bf110098c588983bc4d6b95b296e00ccd7db2e6986cfcd0e3"
+    },
+    {
+      "path": "after-the-flowers/public_review.json",
+      "size": 970,
+      "sha256": "5a5b2565edcd88d94a7df14c24072b7b0eb5a2a6c5d13611cb8e63e492a72398"
     },
     {
       "path": "after-the-rain/ARCHITECTURE.md",

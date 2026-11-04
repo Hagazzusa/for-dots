@@ -1,0 +1,41 @@
+{
+  "projection": "single orthographic camera",
+  "camera_right": [
+    0.8,
+    0.6,
+    0
+  ],
+  "camera_up": [
+    -0.4992301766027062,
+    0.6656402354702751,
+    0.5547001962252291
+  ],
+  "camera_forward": [
+    -0.3328201177351375,
+    0.44376015698018334,
+    -0.8320502943378437
+  ],
+  "screen_scale_px_per_unit": 1080,
+  "paper_size_units": [
+    0.53,
+    0.52
+  ],
+  "spool_diameter_height_units": [
+    0.152,
+    0.121
+  ],
+  "paper_spool_x_clearance_units": 0.06899999999999998,
+  "checks": {
+    "orthonormal_camera": true,
+    "no_geometry_below_table": true,
+    "spool_base_z_zero": true,
+    "paper_spool_disjoint": true,
+    "cord_does_not_cross_paper": true
+  },
+  "limits": [
+    "Artistic units, not production dimensions.",
+    "The fold is a rigid triangular approximation, not simulated paper.",
+    "Hole is a dark surface mark rather than a hollow model.",
+    "Contact tint is illustrative, not simulated light."
+  ]
+}

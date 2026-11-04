@@ -1,0 +1,8 @@
+{
+  "sample_spacing_px": 10,
+  "samples_on_object_faces": 3133,
+  "overlap_samples": 2608,
+  "wrong_painter_order_samples": 0,
+  "wrong_order_by_part": {},
+  "limits": "유한 격자 표본 검사. 선/접촉색면·픽셀 경계·모든 시점의 증명은 아니다. 같은 카메라를 공유하되 깊이는 광선-평면 교차로 비교한다."
+}

@@ -1,0 +1,36 @@
+{
+  "dependencies": [
+    "Python 3 표준 라이브러리",
+    "Inkscape 1.4"
+  ],
+  "external_assets": [],
+  "external_svg_references": [],
+  "png_dimensions": [
+    3200,
+    2400
+  ],
+  "png_metadata": {
+    "dpi": [
+      191.99859999999998,
+      191.99859999999998
+    ],
+    "Software": "www.inkscape.org"
+  },
+  "reviewed_text_files": [
+    "README.md",
+    "after_the_flowers.svg",
+    "build.py",
+    "check.py",
+    "geometry_check.json",
+    "occlusion_check.json"
+  ],
+  "private_path_or_secret_marker_matches": [],
+  "repeat_svg_png_byte_identical": true,
+  "svg_sha256": "8cde9759f3b8e16b3fafe1d6b17d301ca5533cb9091a5a7232f3cb874b2cb2bc",
+  "png_sha256": "c8fd917296e075ae713a3c36801f1d29add67fbb28a6b72e163b4584f925f47b",
+  "excluded_files": [
+    "__pycache__",
+    "*.pyc"
+  ],
+  "scope": "제한된 형식·패턴 검사와 작성한 원본 코드 검토. 개인정보나 공급망 위험의 완전한 부재를 보증하는 인증은 아니다."
+}
