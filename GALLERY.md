@@ -1,7 +1,7 @@
 # 잠깐 머무는 작은 세계
 
 비를 피하는 공간, 천천히 움직이는 빛, 길가의 빈 벤치.
-이미지와 짧은 영상으로 먼저 둘러볼 수 있는 38개 작업을 골랐습니다.
+이미지와 짧은 영상으로 먼저 둘러볼 수 있는 39개 작업을 골랐습니다.
 편집 가능한 장면과 제작 소스는 각 작품의 안내에 함께 있습니다.
 
 세 정물을 이어 읽는 동반 그림책 [《비가 지나가는 동안》](projects/quiet-storybook/README.md)도 있습니다. [3쪽 PDF로 읽기](projects/quiet-storybook/While-the-Rain-Passes.pdf).
@@ -392,6 +392,16 @@ A와 B를 반대 방향으로 함께 움직이는 1인용 종이 퍼즐 세 문�
 [원본 PNG](projects/submerged-edge/Submerged-Edge.png) · [생성 지시문·검토 범위](projects/submerged-edge/README.md)
 
 이미지 생성 도구로 제작한 판화풍 이미지입니다. 보존된 PNG를 원본으로 사용하며 프롬프트가 동일 픽셀을 재생성하는 코드는 아닙니다.
+
+## 39. 사과보다 긴 것
+
+작게 남은 사과와 넓게 풀린 붉은 껍질. 청록색 바탕의 큰 빈자리를 불규칙한 선이 두릅니다.
+
+![사과보다 긴 것 — 작은 사과와 청록색 빈자리를 두르는 붉은 껍질의 정물](projects/longer-than-the-fruit/Longer-Than-the-Fruit.png)
+
+[원본 PNG](projects/longer-than-the-fruit/Longer-Than-the-Fruit.png) · [생성 지시문·검토 범위](projects/longer-than-the-fruit/README.md)
+
+1454×1082의 회화풍 생성 이미지입니다. 지시문에서 제안한 작은 교차 없이 크게 휘어진 선이 된 결과를 선택했습니다. 편집 레이어와 동일 픽셀 재생성 코드는 없습니다.
 
 ## 읽기·듣기
 

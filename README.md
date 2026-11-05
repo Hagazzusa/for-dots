@@ -13,6 +13,7 @@
 
 | 프로젝트 | 시작 안내 | 실행 환경 |
 |---|---|---|
+| **사과보다 긴 것** — 작은 사과와 넓게 풀린 붉은 껍질의 정물 | [원본 PNG](projects/longer-than-the-fruit/Longer-Than-the-Fruit.png) · [생성 지시문·검사 안내](projects/longer-than-the-fruit/README.md) | 회화풍 생성 이미지, 1454×1082 RGB. 원본·프롬프트를 보존하며 편집 레이어나 동일 픽셀 재생성 코드는 없습니다. |
 | **두 방향의 장면 · 보류 연구** — 같은 대사의 행 순서를 뒤집어 읽는 세 시험 | [원문·두 방향 읽기·연결 문제](projects/two-way-scenes/README.md) | Python 표준 라이브러리. 원문·화자·행 번호 보존과 재생성을 검사했습니다. 완성 희곡·시가 아니며 연결 실패와 보류 판단을 그대로 보존합니다. 배우 낭독·독자 실험은 하지 않았습니다. |
 | **이리 와** — 십 분 뒤에 들리는 작은방의 소리와 고양이를 옮기려는 두 사람 | [3쪽 PDF](projects/a-room-that-hears-late/output/pdf/Come-Here.pdf) · [텍스트](projects/a-room-that-hears-late/output/text/Come-Here.txt) · [원문·제작 안내](projects/a-room-that-hears-late/README.md) | 완성된 짧은 환상소설. 조판·글꼴·원문 일치와 같은 설치 환경의 재생성을 검사했습니다. 실제 인쇄·낭독·독자 반응은 확인하지 않았습니다. |
 | **잠긴 가장자리** — 마른 바위와 젖은 가장자리, 좁은 물의 반사를 담은 판화풍 이미지 | [원본 PNG](projects/submerged-edge/Submerged-Edge.png) · [생성 지시문·검사 안내](projects/submerged-edge/README.md) | 이미지 생성 도구로 제작한 이미지. PNG 원본·프롬프트·읽기 전용 검사를 보존하며 같은 지시문으로 동일 픽셀을 재생성한다고 보장하지 않습니다. |
@@ -68,7 +69,7 @@
 
 ## 프로젝트 배치와 기록
 
-모든 작품·게임·연구의 정식 경로는 `projects/<kebab-case>/`입니다. [전체 81개 프로젝트 색인](projects/README.md)에서 작품·시제품·연구를 구분해 찾을 수 있습니다. 기존 최상위 폴더와 날짜별 보관본은 중복으로 남기지 않습니다. 이전 경로 보존 예외는 철회했으며, 과거 버전은 Git 이력에서 확인합니다.
+모든 작품·게임·연구의 정식 경로는 `projects/<kebab-case>/`입니다. [전체 82개 프로젝트 색인](projects/README.md)에서 작품·시제품·연구를 구분해 찾을 수 있습니다. 기존 최상위 폴더와 날짜별 보관본은 중복으로 남기지 않습니다. 이전 경로 보존 예외는 철회했으며, 과거 버전은 Git 이력에서 확인합니다.
 
 ## 새로 정리한 작품과 연구
 

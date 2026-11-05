@@ -1,0 +1,26 @@
+{
+  ".gitignore": {
+    "bytes": 27,
+    "sha256": "104d9b4545c1044cb17adf63e6890b2e3555a8e9fe8f6480ca9d4b64bfbaaf5e"
+  },
+  "README.md": {
+    "bytes": 1572,
+    "sha256": "f0dd953b636c437f65c3e74d55d56f20162dc9599bf23015d9ab87a02e644024"
+  },
+  "prompt.txt": {
+    "bytes": 1079,
+    "sha256": "5cbc2f9331f77d96562a250c8ecf608bf4080686676a5dc24b7b6fb67388fe29"
+  },
+  "Longer-Than-the-Fruit.png": {
+    "bytes": 2915386,
+    "sha256": "1a07c4736f735bd62be66c8ceaf41ab4997f159848d7c1991a479690e8e9ad9d"
+  },
+  "verify.py": {
+    "bytes": 943,
+    "sha256": "2d945bf28e8ab0117bb88b4e28ad3d6e2f2eea07ada910a855477fcbf7ec5d5c"
+  },
+  "qa.json": {
+    "bytes": 464,
+    "sha256": "6202ccd159dba110f97a5db86c705ea6429e4639e432468081c32e4d06aebd5a"
+  }
+}

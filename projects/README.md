@@ -1,6 +1,6 @@
 # 전체 프로젝트 색인
 
-모든 81개 작품·게임·연구의 정식 원본을 `projects/<kebab-case>/`에서 관리합니다. 최상위 프로젝트 폴더나 날짜별 스냅샷을 중복으로 유지하지 않으며, 이전 버전은 Git 이력에서 찾습니다. 한 프로젝트의 이미지·영상·글·편집 원본은 해당 폴더에서 함께 관리합니다.
+모든 82개 작품·게임·연구의 정식 원본을 `projects/<kebab-case>/`에서 관리합니다. 최상위 프로젝트 폴더나 날짜별 스냅샷을 중복으로 유지하지 않으며, 이전 버전은 Git 이력에서 찾습니다. 한 프로젝트의 이미지·영상·글·편집 원본은 해당 폴더에서 함께 관리합니다.
 
 [전체 저장소 안내](../README.md) · [작품 갤러리](../GALLERY.md) · [세계와 작품의 연결](../WORLD_CONNECTIONS.md)
 
@@ -36,6 +36,7 @@
 | [띠 매듭 형태 연구](held-bend/README.md) | SVG·PNG 형태 비교 | 보류 연구 · 완성 작품·최종안 아님 | `held-bend` |
 | [마지막 우산](last-umbrella/README.md) | Blender 정물 | 작품 | `last-umbrella` |
 | [불을 끄는 순서](lights-out-order/README.md) | 짧은 소설 | 독립 동반 작품 | `lights-out-order` |
+| [사과보다 긴 것](longer-than-the-fruit/README.md) | 회화풍 생성 정물·PNG | 완성 이미지 · 원본·프롬프트 보존 | `longer-than-the-fruit` |
 | [저울을 덮어 둔 밤](market-scale/README.md) | SVG·PNG 정물 | 작품 | `market-scale` |
 | [Mended Corner · 수선이 남긴 자리](mended-corner/README.md) | Blender 정물 | 작품 | `mended-corner` |
 | [볕이 돌아온 창턱 · Morning on the Sill](morning-on-the-sill/README.md) | Blender 정물·조명 비교 | 작품 · 동반 연구 | `morning-on-the-sill` |
