@@ -32,7 +32,7 @@
 | [Glass Refuge — 상호작용형 건축 연구](glass-refuge-viewer/README.md) | Godot 3D 뷰어 | 독립 뷰어 | `glass-refuge-viewer` |
 | [Glass Refuge — 목재 알베도 전사 비교 (512 / 1024)](glass-refuge-wood-transfer/README.md) | Blender·Godot 재질 비교 | 기술 연구 | `glass-refuge-wood-transfer` |
 | [반쯤 덮어 둔 저녁](half-covered-evening/README.md) | 짧은 소설·Markdown | 독립 동반 작품 | `half-covered-evening` |
-| [매달린 선](hanging-lines/README.md) | 선 드로잉·SVG·PNG·수치 표본 | 보류 연구 · 완성작 아님·독립 역학 미검증 | `hanging-lines` |
+| [매달린 선](hanging-lines/README.md) | 선·연결 망 드로잉·수치 표본 | 보류 연구 · 망 정적 검사·실물 미검증 | `hanging-lines` |
 | [띠 매듭 형태 연구](held-bend/README.md) | SVG·PNG 형태 비교 | 보류 연구 · 완성 작품·최종안 아님 | `held-bend` |
 | [마지막 우산](last-umbrella/README.md) | Blender 정물 | 작품 | `last-umbrella` |
 | [불을 끄는 순서](lights-out-order/README.md) | 짧은 소설 | 독립 동반 작품 | `lights-out-order` |

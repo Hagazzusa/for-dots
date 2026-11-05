@@ -24,8 +24,8 @@
     },
     {
       "path": "README.md",
-      "size": 38265,
-      "sha256": "c877482c81bf9dafe9932ef03ebc0762dab8af52adfeac23e01f630ed84d3464"
+      "size": 38301,
+      "sha256": "cd3f0f356bbd96dcdcc4b69f5095bea37fa88b15fdb6080a98a96de7b93e183e"
     },
     {
       "path": "WORLD_CONNECTIONS.md",
@@ -49,8 +49,8 @@
     },
     {
       "path": "projects/README.md",
-      "size": 12254,
-      "sha256": "81e0829eb5d77a8514dbdf2e08ceafe715cf3ebbd66512da5d87c27ebbb668f0"
+      "size": 12250,
+      "sha256": "f426465590275c0baea921cd42c15a2e21bdbcb131ac0de49817f7f1d463ae71"
     },
     {
       "path": "projects/VERIFICATION.md",
@@ -3864,8 +3864,8 @@
     },
     {
       "path": "projects/hanging-lines/README.md",
-      "size": 5689,
-      "sha256": "4337f1f895de1d8e836ca545cbe8e0027b6a5fb623711137e5ce86343ff2d896"
+      "size": 9341,
+      "sha256": "58ed9db552eb9e8b2256770e80bbf8146ed2e1a0a0fca0b92b6f1a17c345e8b6"
     },
     {
       "path": "projects/hanging-lines/build.py",
@@ -3883,14 +3883,24 @@
       "sha256": "d6a696f4812073e4857a09ddc44a41919c972d6fd94e6571de877f4c55f8504b"
     },
     {
+      "path": "projects/hanging-lines/build_net.py",
+      "size": 3839,
+      "sha256": "5e17c727c0654f4ee84512cb9405e4e78bada678657df75e6ec20af8afe18479"
+    },
+    {
       "path": "projects/hanging-lines/build_unequal.py",
       "size": 2320,
       "sha256": "271bc2b1d50cf97d2a8ea5e22cc6703daf0a81720ee0a997d333c21e4f2d99c5"
     },
     {
       "path": "projects/hanging-lines/manifest.json",
-      "size": 5687,
-      "sha256": "30f5442f69c2dbdfa275ca305c33d05158411365618edf1f31647e18d99f7a6f"
+      "size": 7004,
+      "sha256": "a83b05def73257abb5bbf24324c0c1fd89b10313e8085a030add0380de3e30fc"
+    },
+    {
+      "path": "projects/hanging-lines/net_qa.json",
+      "size": 1470,
+      "sha256": "eb2101cda7e87ef7caf9e0fd55bcd195808e33660c35b5cf3dbab232736ceeca"
     },
     {
       "path": "projects/hanging-lines/output/comparison.png",
@@ -3936,6 +3946,41 @@
       "path": "projects/hanging-lines/output/cut_motion.npz",
       "size": 3660,
       "sha256": "815d909af8333f97db589a809629f0b3181a8b8c0b139aca6e990bd165692c20"
+    },
+    {
+      "path": "projects/hanging-lines/output/net/before.png",
+      "size": 5427,
+      "sha256": "a20047b5d6f1f158f2c83aa22df7a957008678a1faba1a44c9d27175d4f2342e"
+    },
+    {
+      "path": "projects/hanging-lines/output/net/before.svg",
+      "size": 9082,
+      "sha256": "819f132560a1577a4799c30dedb67d07266cc355452b154ef1c9431d17a87c51"
+    },
+    {
+      "path": "projects/hanging-lines/output/net/erased.png",
+      "size": 5467,
+      "sha256": "c532dec59540e13375a9d8d9e3368c71e965c1370fb1679e5139d1112bbefa01"
+    },
+    {
+      "path": "projects/hanging-lines/output/net/erased.svg",
+      "size": 9024,
+      "sha256": "63a0306ec4b3bf137b0f8aaddcb5c42903de31b192265d9d0038338bff5c9e68"
+    },
+    {
+      "path": "projects/hanging-lines/output/net/model.json",
+      "size": 19787,
+      "sha256": "287e5e850e05365b2ff9e7cde68ab55c7482006bb886ee8449576afbfa787d3b"
+    },
+    {
+      "path": "projects/hanging-lines/output/net/relaxed.png",
+      "size": 51508,
+      "sha256": "6c1e34c5f7a99da8b6701f8cde45f60dc8a1931dd73708015872fe0ce3fc4365"
+    },
+    {
+      "path": "projects/hanging-lines/output/net/relaxed.svg",
+      "size": 9044,
+      "sha256": "382f34b6c440b480964eaad86b260463834d7e8ba4141aca3df28bfb5086e997"
     },
     {
       "path": "projects/hanging-lines/output/study-1.png",
@@ -4076,6 +4121,11 @@
       "path": "projects/hanging-lines/verify.py",
       "size": 3033,
       "sha256": "7a38a01ed4c9094d300b36ea9a2fb9d1d9f24922ff94b230c79dfca8da58cdec"
+    },
+    {
+      "path": "projects/hanging-lines/verify_net.py",
+      "size": 6019,
+      "sha256": "e6598392e97c17b86c3a0b096a7cb58eaf6965dc1718a87f5c52e302bbbbe6cc"
     },
     {
       "path": "projects/held-bend/.gitignore",
