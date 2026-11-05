@@ -24,8 +24,8 @@
     },
     {
       "path": "README.md",
-      "size": 37824,
-      "sha256": "33b2be2adf4a44eb92b92051e80d99a79f518984e7db207f0bf7155dbb19221b"
+      "size": 38265,
+      "sha256": "c877482c81bf9dafe9932ef03ebc0762dab8af52adfeac23e01f630ed84d3464"
     },
     {
       "path": "WORLD_CONNECTIONS.md",
@@ -49,8 +49,8 @@
     },
     {
       "path": "projects/README.md",
-      "size": 12099,
-      "sha256": "43597e8a4ef3158bc4516221e53239876d6c274133e50735a2651f094c522215"
+      "size": 12254,
+      "sha256": "81e0829eb5d77a8514dbdf2e08ceafe715cf3ebbd66512da5d87c27ebbb668f0"
     },
     {
       "path": "projects/VERIFICATION.md",
@@ -8016,6 +8016,51 @@
       "path": "projects/two-chairs/verify.py",
       "size": 9095,
       "sha256": "89f2c4e24a2344a61e6772cb3d90981d42704db325ce91bbb8c3d5ad88836685"
+    },
+    {
+      "path": "projects/two-way-scenes/.gitignore",
+      "size": 18,
+      "sha256": "c42d83738012deb1f99f79959489ab67c80f1bafc29d4f692826939f35f77cb6"
+    },
+    {
+      "path": "projects/two-way-scenes/README.md",
+      "size": 2106,
+      "sha256": "83a63d66c2f2aa2b246efcc1a46f380041e5db2dd8040575788ca10bea80372e"
+    },
+    {
+      "path": "projects/two-way-scenes/REVIEW.md",
+      "size": 4720,
+      "sha256": "b26e80e2d42e4ce6bc5340b789564eab6a19099519b624a204399112ae2c47dc"
+    },
+    {
+      "path": "projects/two-way-scenes/build.py",
+      "size": 865,
+      "sha256": "0b6f37ee32b89a888b365311457210a13af96d4ad333d845e33369cc703a3337"
+    },
+    {
+      "path": "projects/two-way-scenes/manifest.json",
+      "size": 985,
+      "sha256": "73287dcf9981aeefdb9b68041ce69f6d1f95ceac7cb17059832ec2e5c4959443"
+    },
+    {
+      "path": "projects/two-way-scenes/output/readings.txt",
+      "size": 3580,
+      "sha256": "de668ad2cca41ae3ce590df979e685704e40b9e4b8eb33f7ed5e55c876f36819"
+    },
+    {
+      "path": "projects/two-way-scenes/qa.json",
+      "size": 529,
+      "sha256": "6d5aab65ad44c1eed35780afc2b722104396509ea95d73f8f8bbec283be93c2d"
+    },
+    {
+      "path": "projects/two-way-scenes/scenes.json",
+      "size": 2678,
+      "sha256": "4f1e7ef9112aa955da6ddf95b5bae4f9850d1afcb445f60bda8c8475f310db1f"
+    },
+    {
+      "path": "projects/two-way-scenes/verify.py",
+      "size": 1772,
+      "sha256": "6fe8f0bd1a6efabea81eeef448dcbf22735490e5be7dc22514f64ed1db4a960f"
     },
     {
       "path": "projects/unchanged-line/.gitignore",

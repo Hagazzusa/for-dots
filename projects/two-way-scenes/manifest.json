@@ -1,0 +1,34 @@
+{
+  ".gitignore": {
+    "bytes": 18,
+    "sha256": "c42d83738012deb1f99f79959489ab67c80f1bafc29d4f692826939f35f77cb6"
+  },
+  "README.md": {
+    "bytes": 2106,
+    "sha256": "83a63d66c2f2aa2b246efcc1a46f380041e5db2dd8040575788ca10bea80372e"
+  },
+  "REVIEW.md": {
+    "bytes": 4720,
+    "sha256": "b26e80e2d42e4ce6bc5340b789564eab6a19099519b624a204399112ae2c47dc"
+  },
+  "scenes.json": {
+    "bytes": 2678,
+    "sha256": "4f1e7ef9112aa955da6ddf95b5bae4f9850d1afcb445f60bda8c8475f310db1f"
+  },
+  "build.py": {
+    "bytes": 865,
+    "sha256": "0b6f37ee32b89a888b365311457210a13af96d4ad333d845e33369cc703a3337"
+  },
+  "verify.py": {
+    "bytes": 1772,
+    "sha256": "6fe8f0bd1a6efabea81eeef448dcbf22735490e5be7dc22514f64ed1db4a960f"
+  },
+  "qa.json": {
+    "bytes": 529,
+    "sha256": "6d5aab65ad44c1eed35780afc2b722104396509ea95d73f8f8bbec283be93c2d"
+  },
+  "output/readings.txt": {
+    "bytes": 3580,
+    "sha256": "de668ad2cca41ae3ce590df979e685704e40b9e4b8eb33f7ed5e55c876f36819"
+  }
+}
