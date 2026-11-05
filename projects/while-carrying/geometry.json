@@ -1,0 +1,70 @@
+[
+  {
+    "panel": 1,
+    "source_scene": 1,
+    "origin": [
+      22.0,
+      278.0
+    ],
+    "panel_size": [
+      350.0,
+      240.0
+    ],
+    "bench_length": 130,
+    "bench_left": 74,
+    "seat_base_y": 118,
+    "bench_front_feet_y": 81,
+    "ground_y": 48
+  },
+  {
+    "panel": 2,
+    "source_scene": 4,
+    "origin": [
+      388.0,
+      278.0
+    ],
+    "panel_size": [
+      350.0,
+      240.0
+    ],
+    "bench_length": 130,
+    "bench_left": 108,
+    "seat_base_y": 85,
+    "bench_front_feet_y": 48,
+    "ground_y": 48
+  },
+  {
+    "panel": 3,
+    "source_scene": 5,
+    "origin": [
+      22.0,
+      22.0
+    ],
+    "panel_size": [
+      350.0,
+      240.0
+    ],
+    "bench_length": 130,
+    "bench_left": 108,
+    "seat_base_y": 85,
+    "bench_front_feet_y": 48,
+    "ground_y": 48
+  },
+  {
+    "panel": 4,
+    "source_scene": 6,
+    "origin": [
+      388.0,
+      22.0
+    ],
+    "panel_size": [
+      350.0,
+      240.0
+    ],
+    "bench_length": 130,
+    "bench_left": 108,
+    "seat_base_y": 85,
+    "bench_front_feet_y": 48,
+    "ground_y": 48
+  }
+]

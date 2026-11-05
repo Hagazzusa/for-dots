@@ -1,0 +1,37 @@
+{
+  "title": "확인 중",
+  "files": {
+    ".gitignore": {
+      "bytes": 18,
+      "sha256": "1410caa22a9048b554bc9347fbf5a8cfb66f74823f0ebc24c5caf6065b3fecb9"
+    },
+    "README.md": {
+      "bytes": 2900,
+      "sha256": "11a98a3446be0543a212358c366203f75976c439b6ee528992e89379d541dc1c"
+    },
+    "build_pdf.py": {
+      "bytes": 3701,
+      "sha256": "ce2031389452b16c3e52bed4858fdb6e9cd47c9be804e23c341715bd8cf3a1e7"
+    },
+    "output/Under-Observation.txt": {
+      "bytes": 6317,
+      "sha256": "acd0489264cea25c3b72f823ca8737436ff9ea786415ec04220a7eb83077445a"
+    },
+    "output/pdf/Under-Observation.pdf": {
+      "bytes": 79499,
+      "sha256": "c2d4d252572a33c4e7a887381a7a9d3e9abcdd269ddf84b740200ed12c131180"
+    },
+    "play.txt": {
+      "bytes": 6317,
+      "sha256": "acd0489264cea25c3b72f823ca8737436ff9ea786415ec04220a7eb83077445a"
+    },
+    "qa.json": {
+      "bytes": 970,
+      "sha256": "129c95fca6bdeb5d87cd5ee316cdbb98cceedcda504f63f5c3d0a4a56fd531af"
+    },
+    "verify.py": {
+      "bytes": 1625,
+      "sha256": "75e59b7f0c753748534cdc39c67b9ef64044a45cb37c955f7f1fe0a6599ce7d5"
+    }
+  }
+}

@@ -50,6 +50,32 @@
 | **Glass Refuge 뷰어** — 직접 돌려보는 건축 모델 | [열기·조작](glass-refuge-viewer/README.md) · [Godot 프로젝트](glass-refuge-viewer/project.godot) | Godot **4.6.x Standard**. 화살표로 회전, +/−로 확대·축소, L로 조명, G로 유리, R로 초기화합니다. 독립적으로 사용할 수 있는 파생 GLB입니다. 실시간 재질은 근사치이며 식물 풍경이나 Cycles와의 동등한 표현은 제공하지 않습니다. |
 | **Glass Refuge 목재 전이** — 범위를 한정한 512/1024 알베도 비교 | [방법·한계](glass-refuge-wood-transfer/README.md) · [네이티브 512](glass-refuge-wood-transfer/qa/native_close_512.jpg) · [Godot 실험](glass-refuge-wood-transfer/project.godot) | Blender **4.3.2**, Godot **4.6.3**, 검증에는 Python/Pillow. 독창적인 참나무 색상만 전이합니다. 기하는 바꾸지 않았고 PBR은 근사치이며 FPS나 자동 게임 통합을 주장하지 않습니다. |
 
+## 프로젝트 배치와 기록
+
+새 프로젝트는 `projects/<kebab-case>/`에 둡니다. 기존 최상위 프로젝트 경로는 링크와 실행 경로의 호환성을 위해 유지합니다. `creative-work-2026-11-05/`는 당시 상태를 보존하는 동결된 역사적 백업이며, 이후 수정과 버전 기록은 Git으로 관리합니다.
+
+## 새로 정리한 작품과 연구
+
+| 프로젝트 | 완성본·시작 안내 | 제작·확인 범위 |
+|---|---|---|
+| **마지막 우산** — 닫힌 문 앞, 펼쳐 말리는 우산과 처마의 불빛. | [완성본](projects/last-umbrella/Last-Umbrella.png) · [소스·재현 안내](projects/last-umbrella/README.md) | Blender 4.3.2의 실제 Cycles 렌더. 독립 가상 정물이며 게임 장면이나 건축·제품 안전 검증이 아닙니다. |
+| **불을 끄는 순서** — 《마지막 우산》에서 이어 쓴 수선집의 짧은 이야기. | [완성본](projects/lights-out-order/story.md) · [소스·재현 안내](projects/lights-out-order/README.md) | 독립 창작 소설. 그림의 용도나 기존 게임 설정을 확정하지 않습니다. |
+| **문턱에 남은 빛** — 등을 껐다 다시 켜고, 문턱 쪽으로 천천히 가까이 갑니다. | [완성본](projects/threshold-film/Light-on-the-Threshold.mp4) · [소스·재현 안내](projects/threshold-film/README.md) | Blender 4.3.2·FFmpeg. 12초, 640×640, 12fps 무음 영상이며 실제 조도·안전 검증이 아닙니다. |
+| **접힌 파도** — 일곱 면으로 접힌 파란 띠와 주황색 구의 대비. | [완성본](projects/folded-wave/Folded-Wave.png) · [소스·재현 안내](projects/folded-wave/README.md) | Blender 4.3.2의 실제 Cycles 렌더. 접힘·중력 시뮬레이션이나 제작 가능한 구조물의 설계가 아닙니다. |
+| **한 자리에서만 원** — 정면의 원이 옆으로 이동하는 시선에서 여덟 조각으로 풀립니다. | [완성본](projects/one-view-circle/One-View-Circle.mp4) · [소스·재현 안내](projects/one-view-circle/README.md) | Blender 4.3.2·FFmpeg. 8초, 640×640, 12fps 무음 영상. 시점과 화각을 함께 바꾼 가상 조각입니다. |
+| **다시 만나는 박자** — 다섯 번과 세 번의 소리가 3초마다 다시 만나는 작은 기악곡. | [완성본](projects/returning-beats/Returning-Beats.mp3) · [소스·재현 안내](projects/returning-beats/README.md) | Python·NumPy·SciPy·FFmpeg. 직접 합성한 33초 음원으로, 기술 검사는 했지만 실제 청취 평가는 하지 않았습니다. |
+| **한 줄의 바깥** — 같은 선 주위에 집, 길, 눈금을 놓았다가 지우는 다섯 장의 그림책. | [완성본](projects/unchanged-line/output/pdf/Outside-One-Line.pdf) · [소스·재현 안내](projects/unchanged-line/README.md) | Python·ReportLab과 Noto CJK 글꼴을 사용한 벡터 PDF. 지각 실험의 결과나 실제 경로·측정 기록이 아닙니다. |
+| **여덟 칸의 여유** — 규칙적으로 엮은 종이띠 사이, 황토색 한 줄이 반복을 쉽니다. | [완성본](projects/eight-spaces/Eight-Spaces.png) · [소스·재현 안내](projects/eight-spaces/README.md) | Blender 4.3.2의 실제 Cycles 렌더. 메시 교차를 검사했으며 실제 종이의 장력·접촉 안정성이나 제작 가능성은 검증하지 않았습니다. |
+| **확인 중** — 잘 돌아가는 선풍기 앞에서 수리점 주인과 손님이 다음 행동을 정합니다. | [완성본](projects/under-observation/output/pdf/Under-Observation.pdf) · [소스·재현 안내](projects/under-observation/README.md) | 독립 창작 희곡의 5쪽 PDF와 텍스트 원문. 실제 수리 안내가 아니며 배우와의 낭독·공연 검사는 하지 않았습니다. |
+| **길을 남기는 일** — 네 조각을 놓고, 남은 아홉 칸으로 길을 만드는 종이 퍼즐. | [완성본](projects/a-path-left-open/output/pdf/A-Path-Left-Open.pdf) · [소스·재현 안내](projects/a-path-left-open/README.md) | Python·ReportLab. 해답 수와 PDF 치수를 검사했습니다. 단면 100%로 인쇄하고 기준선을 확인하세요. 실물 재단·플레이 테스트는 하지 않았습니다. |
+| **맨 앞** — 홍보 촬영에서 줄의 맨 앞을 맡은 사람들 사이로 실제 손님이 들어옵니다. | [완성본](projects/front-of-the-line/output/pdf/Front-of-the-Line.pdf) · [소스·재현 안내](projects/front-of-the-line/README.md) | 독립 창작 소설의 6쪽 PDF와 UTF-8 텍스트. 실제 업체나 촬영 사례를 재현하지 않았습니다. |
+| **옮기는 동안** — 벤치를 내려놓은 두 사람이 잠깐 함께 앉는 대사 없는 네 칸 만화. | [완성본](projects/while-carrying/While-Carrying.png) · [소스·재현 안내](projects/while-carrying/README.md) | 직접 작성한 벡터 도형의 최종 PNG·PDF. 실제 독자 집단 반응 조사나 신체 동작의 물리적 검증은 아닙니다. |
+| **각자의 수평** — 서로를 향해 기울어진 두 그릇 안에 같은 높이의 수면이 남습니다. | [완성본](projects/separate-horizons/Separate-Horizons.png) · [소스·재현 안내](projects/separate-horizons/README.md) | Blender 4.3.2의 실제 Cycles 렌더. 정적 형상 검사이며 유체·모세관 현상·받침 내구성 시뮬레이션은 아닙니다. |
+| **그림자가 모르는 것** — 비어 있는 몸 하나가 서로 직각인 두 방향으로 집과 나무의 그림자를 만듭니다. | [완성본](projects/one-body-two-shadows/One-Body-Two-Shadows.png) · [소스·재현 안내](projects/one-body-two-shadows/README.md) | Blender 4.3.2의 실제 렌더. 원본 장면과 형상·투영 검사, 영역별 렌더 조립 소스를 함께 보존합니다. |
+| **고객 역할** — 항의하는 고객을 연기하던 배우가 상담 실습의 대본 밖 손님들을 만들어 냅니다. | [완성본](projects/the-customer-role/output/pdf/The-Customer-Role.pdf) · [소스·재현 안내](projects/the-customer-role/README.md) | 수정·검토를 마친 독립 한국어 소설의 5쪽 PDF와 동일한 텍스트. 실제 회사·교육 사례나 검증된 응대 지침이 아닙니다. |
+| **문턱에 남은 빛 · 구성안** | [세 장면·조명 시험](projects/one-step-lit/README.md) · [완성 영상](projects/threshold-film/Light-on-the-Threshold.mp4) | 영상 제작 전 구성안과 정지 시험이며 완성 영상과 구분합니다. |
+| **원을 지나서 돌아오기 · 연구** | [검토·한계](projects/one-view-circle-development/README.md) · [32초 시험 영상](projects/one-view-circle-development/Passing-the-Circle-study.mp4) | 320×320, 4표본의 저해상도 무음 미리보기. 고해상도 제작은 보류했으며 완성작으로 제시하지 않습니다. |
+
 ## 문서 언어
 
 설명은 한국어로 통일합니다. 파일명, API 식별자, 실행 명령, 라이선스·인용·정확한 생성 프롬프트의 원문은 그대로 보존합니다. 과거 생성·공개 시점의 출처 기록에 담긴 해시는 당시 체크포인트를 가리키므로 번역된 문서의 현재 해시와 다를 수 있습니다. 현재 파일 바이트는 루트 SOURCE_MANIFEST.json을 기준으로 검사합니다.

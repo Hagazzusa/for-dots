@@ -1,0 +1,74 @@
+{
+  ".gitignore": {
+    "bytes": 42,
+    "sha256": "7efac50537e0b4a9d667e43ea21ce6746d0183b4aebac11c5a3256960a18f1e0"
+  },
+  "One-Body-Two-Shadows.blend": {
+    "bytes": 677400,
+    "sha256": "182235b4bd28d426d0591eeb459673e6a101bf3b8826ffdc6429d662bbf7774a"
+  },
+  "One-Body-Two-Shadows.png": {
+    "bytes": 2070229,
+    "sha256": "311363ad3a64a25b72cc6f1a6d1a60b976200c390125c1b304d7069245903ab8"
+  },
+  "README.md": {
+    "bytes": 4972,
+    "sha256": "a420c9f4a1598c2d1893085f5d148ac73856fc938dfe6cffd28d0d392def00c6"
+  },
+  "assemble_regions.py": {
+    "bytes": 920,
+    "sha256": "75787ba7c4c142bcf32daf80dc5b0ddad777dca6fc0eb3965562731049be2a74"
+  },
+  "build.py": {
+    "bytes": 7515,
+    "sha256": "77fbd2113e140878aaba988350c692bbb6223ecfda44b140e7f74ea8ad5d5482"
+  },
+  "check_mesh_and_masks.py": {
+    "bytes": 2952,
+    "sha256": "6421dcc1146bf6b9ec2f75b89aba6f1c04994f11a3bcdd705c946af283c852ad"
+  },
+  "check_region_overlap.py": {
+    "bytes": 1290,
+    "sha256": "05a91c1e973d1c3c95b429da4e01dd8ac5f7087dab66464aba44219d81f8eb27"
+  },
+  "compare_profiles.py": {
+    "bytes": 1931,
+    "sha256": "d40b1d8e55c8bdcda3b1f26df526e919973ccfedb8b3581bce054f9e22e9a3e5"
+  },
+  "description.txt": {
+    "bytes": 119,
+    "sha256": "8350824c14230c2e9d72edfd0444c774b6280f0b02ded1dea0ebf3f329ee116d"
+  },
+  "geometry-qa.json": {
+    "bytes": 1132,
+    "sha256": "8a59c55cfa72ea30b03f640ff4b1631f50a39ddb3cb1276719d4bea20dfd4a24"
+  },
+  "projection-qa.json": {
+    "bytes": 430,
+    "sha256": "d4094dcd680187cd4483c9d8d9ac58fe4d54d253d765c360a8491aa43eaf32ca"
+  },
+  "qa.json": {
+    "bytes": 595,
+    "sha256": "25f4687c0146478a6efd1a1e04626f6885a1b8aada40a3e01688cadb6379101f"
+  },
+  "readback-qa.json": {
+    "bytes": 863,
+    "sha256": "859cb913149a526a3076b2a6af56084a90777f5dac4d1256556f18f591466792"
+  },
+  "region-qa.json": {
+    "bytes": 3144,
+    "sha256": "d722a89ba851422e1e21e4e21cc783e1dcf7a65bfc6783da38c1f3f1723f6346"
+  },
+  "render.py": {
+    "bytes": 560,
+    "sha256": "bd12b142d11fd2db66568211adcd3a864772bb5dd9cc87fb23deee33e3682642"
+  },
+  "render_region.py": {
+    "bytes": 843,
+    "sha256": "df98590ff98b835705a0ab1a762ab607835ed4c9abaeef127cece23e871041ae"
+  },
+  "verify_delivery.py": {
+    "bytes": 2329,
+    "sha256": "224193396778dd27a6165af465abd42745d94ea1f2c486a23962dade1fb8b7c3"
+  }
+}

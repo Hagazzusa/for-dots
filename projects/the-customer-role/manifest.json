@@ -1,0 +1,34 @@
+{
+  ".gitignore": {
+    "bytes": 16,
+    "sha256": "96bf875f561bf393d9d98b2d343d48b68715a96c21a28d92ea9072f6cf2d54e0"
+  },
+  "README.md": {
+    "bytes": 2998,
+    "sha256": "27d30823bc1a973574d6d8609d91f32eff1ac834457ad1777e0803f4efb8c1ea"
+  },
+  "build_pdf.py": {
+    "bytes": 3140,
+    "sha256": "b6d45985feb2da962b5aabdcde53b6f68a0c5590aa44fff416ec42fda6a46129"
+  },
+  "output/pdf/The-Customer-Role.pdf": {
+    "bytes": 87158,
+    "sha256": "ec49a8d7e9116ceba3b7da478ead1d2058c2d4b4ac0ea16b328447c16bf648a2"
+  },
+  "output/text/The-Customer-Role.txt": {
+    "bytes": 9039,
+    "sha256": "7feb3aac4fb3bbc3efed922b875d064c0304d6a237219824e3c40849158e1db0"
+  },
+  "qa.json": {
+    "bytes": 1619,
+    "sha256": "0f55a3ddd289a9d5f6953e3cb332248f4361843f4eeb0ee6e57e18e4c2fdc56a"
+  },
+  "story.txt": {
+    "bytes": 9039,
+    "sha256": "7feb3aac4fb3bbc3efed922b875d064c0304d6a237219824e3c40849158e1db0"
+  },
+  "verify.py": {
+    "bytes": 1883,
+    "sha256": "10c588664cb94b57b78c695e2e6a0b80c5edaf55d1e3499465084c3e0257d43e"
+  }
+}

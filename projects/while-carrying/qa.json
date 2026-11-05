@@ -1,0 +1,29 @@
+{
+  "title": "옮기는 동안",
+  "pages": 1,
+  "panels": 4,
+  "pdf_size_points": [
+    760,
+    540
+  ],
+  "png_size": [
+    1800,
+    1279
+  ],
+  "wordless_pdf": true,
+  "all_drawing_paths_within_panels": true,
+  "both_character_colors_present_in_each_panel": true,
+  "bench_seat_width_constant_points": 130,
+  "actual_pdf_front_leg_ground_contacts_verified": true,
+  "first_panel_bench_lift_points": 33,
+  "visual_review": "Passed: final four-panel image inspected. Seated anatomy, hand contact, gaze, panel sequence and absence of clipped shapes confirmed.",
+  "limits": [
+    "Static graphic continuity and clarity reviewed; no motion animation or physical load simulation.",
+    "Interpretive readings are qualitative reviews, not a human audience study."
+  ],
+  "hashes": {
+    "output/pdf/While-Carrying.pdf": "073888ff258b7b46d8f7f8a42093951f7b35ee807f6822f3aec9c126244a3339",
+    "While-Carrying.png": "14f53fe83657932a5efc7000749a5cd3e1a4c54030b12a0f8a523a5ca59059c1"
+  },
+  "independent_reading": "A fresh reading without source notes identified carrying, blue sitting first, an invitation to the empty seat and red joining. No definite emotion or relationship was inferred."
+}

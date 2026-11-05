@@ -1,0 +1,10 @@
+{
+  ".gitignore": "104d9b4545c1044cb17adf63e6890b2e3555a8e9fe8f6480ca9d4b64bfbaaf5e",
+  "README.md": "49efe9306b1903dffe8c5e704f9adca305d4dc094c41ddd9e3aa8bbbb512aef7",
+  "build_pdf.py": "fa498538726ed10b863832b2ae77e5ed4274adb2da9d6bd83dc3ae7fdf831b23",
+  "output/pdf/Front-of-the-Line.pdf": "234342312080bfce7499103e917eda8467fac543f1d3859f1a05bc696a6cc2c0",
+  "output/text/Front-of-the-Line.txt": "f8664948b9cc1aea61a9df7d28ebebba0cf15a6c1b8d196430484483a8e0b127",
+  "qa.json": "9eb3237e0bceda39500f17fb36f45a35194839a87c2b76c29d75300a226e5e56",
+  "story.txt": "f8664948b9cc1aea61a9df7d28ebebba0cf15a6c1b8d196430484483a8e0b127",
+  "verify.py": "a1e15b09b16e0f47887d5338c94d3039a984f358a287d42148c7f6ada09e1720"
+}

@@ -1,0 +1,30 @@
+{
+  "title": "각자의 수평",
+  "dimensions": [
+    1600,
+    1200
+  ],
+  "mode": "RGBA",
+  "sha256": "b5e92ba50c311169b1bc1e1f8d3db8a46bd053d72aea0b4461c881376f6bb2b9",
+  "nonblank_rgb_std": [
+    26.648493690492568,
+    21.563784969764058,
+    22.918692879174646
+  ],
+  "png_decodes": true,
+  "fully_opaque": true,
+  "text_metadata_removed": true,
+  "water_surface_height_difference": 0.0,
+  "no_water_vessel_triangle_intersections": true,
+  "no_vessel_pair_triangle_intersections": true,
+  "closed_positive_volume_meshes": 6,
+  "frame_margin_fraction": 0.1577998846769333,
+  "render_samples_max": 1024,
+  "denoising": false,
+  "visual_review": "Passed: final 1600×1200 image inspected. Both water surfaces read as transparent liquid; no clipped objects, distracting white reflection region or repeated refraction stripes. Fine residual grain is visible at full enlargement.",
+  "limits": [
+    "Static geometry and render validated; no fluid dynamics or mechanical load simulation.",
+    "Small boundary clearance keeps water meshes clear of beveled ceramic interiors."
+  ],
+  "independent_visual_review": "Passed: final image reviewed independently; transparent liquid and opposing inclinations read clearly. Fine grain does not interfere. No further changes recommended."
+}

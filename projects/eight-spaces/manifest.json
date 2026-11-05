@@ -1,0 +1,49 @@
+{
+  "title": "여덟 칸의 여유",
+  "files": {
+    ".gitignore": {
+      "bytes": 48,
+      "sha256": "7c9b05a8fba680e3dce31d18dae87fedc8a0b60cd13f74f4a3b932d4af717ca0"
+    },
+    "Eight-Spaces.blend": {
+      "bytes": 203947,
+      "sha256": "f050d28432b263d7ae8bfc42c87f4145fba818de0178ade0256260234aa29712"
+    },
+    "Eight-Spaces.png": {
+      "bytes": 1803343,
+      "sha256": "917f8996453f6f6457c4ce3d1696c121e8222ab0815bd98a4630b6ee8cf27431"
+    },
+    "README.md": {
+      "bytes": 3787,
+      "sha256": "ca41bfc0c0d4eb3302d1ae9d85413ccf69a46a29e61e965a63b5eb398ac21854"
+    },
+    "build-config.json": {
+      "bytes": 149,
+      "sha256": "f88ee539e91ed9bb30f02909144e830f8e4fe8b6e1d89a00b4ca983384921ca5"
+    },
+    "build.py": {
+      "bytes": 7320,
+      "sha256": "f5c34ee9b86e29aee4e7d83e2b40f7e6dad5a3bb50e1c53e30f879752481cc8a"
+    },
+    "geometry-check.json": {
+      "bytes": 25859,
+      "sha256": "8beeb0e4f5cd8578beefd5e1de1420ddc43c23ba86fe4f71cfe52f0ecf3610c0"
+    },
+    "qa.json": {
+      "bytes": 2086,
+      "sha256": "802f088bc6d9f27bc331081ba80dfd3ec6045af2c07bdb764a1e9952163c3948"
+    },
+    "readback.json": {
+      "bytes": 337,
+      "sha256": "3972507c85d24792ff1160defebcd39cf124cbf3aa1b9b307d60095813b374d4"
+    },
+    "readback.py": {
+      "bytes": 1402,
+      "sha256": "40d88997900834c485db23fc92ef4de4d888e6ea401ddb0adb78d9e28a893f7e"
+    },
+    "render.py": {
+      "bytes": 706,
+      "sha256": "90ec328930019db9f55c61f84623cc2ff3177bb82f10adbb3d636bf22bdc939b"
+    }
+  }
+}

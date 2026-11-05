@@ -1,0 +1,17 @@
+{
+  "objects": 39,
+  "warp_strips": 17,
+  "weft_strips": 17,
+  "gold_strips": 1,
+  "resolution": [
+    1200,
+    1200
+  ],
+  "samples": 128,
+  "denoising": false,
+  "camera_type": "ORTHO",
+  "external_images": 0,
+  "saved_render_path": "//Eight-Spaces.png",
+  "source_hash_matches_build": true,
+  "geometry_check_matches_counts": true
+}

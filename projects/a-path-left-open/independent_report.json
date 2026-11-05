@@ -1,0 +1,100 @@
+{
+  "method": "Enumerate piece placements independently, then BFS the empty cells",
+  "orientation_counts": {
+    "A": 2,
+    "B": 4,
+    "C": 8,
+    "D": 4
+  },
+  "placement_counts": {
+    "A": 30,
+    "B": 64,
+    "C": 96,
+    "D": 48
+  },
+  "corner_free_placement_counts": {
+    "A": 26,
+    "B": 58,
+    "C": 84,
+    "D": 40
+  },
+  "nonoverlapping_corner_free_arrangements_checked": 29724,
+  "valid_arrangements": 24,
+  "distinct_empty_paths": 10,
+  "claimed_solutions_equal_independent_solutions": true,
+  "claimed_small_clue_sets_checked": 345,
+  "puzzles": {
+    "puzzle1": {
+      "clues_xy_zero_based": [
+        [
+          2,
+          2
+        ]
+      ],
+      "solution_count": 4,
+      "distinct_path_count": 4,
+      "diagrams": [
+        [
+          ".AAAB",
+          "...BB",
+          "DD...",
+          "DCCC.",
+          "DDCC."
+        ],
+        [
+          "..DDD",
+          "A.DCD",
+          "A..CC",
+          "AB.CC",
+          "BB..."
+        ],
+        [
+          "...BB",
+          "CC.BA",
+          "CC..A",
+          "DCD.A",
+          "DDD.."
+        ],
+        [
+          ".CCDD",
+          ".CCCD",
+          "...DD",
+          "BB...",
+          "BAAA."
+        ]
+      ],
+      "individual_clue_solution_counts": [
+        4
+      ],
+      "solutions_without_turning_any_piece_over": 2
+    },
+    "puzzle2": {
+      "clues_xy_zero_based": [
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          2
+        ]
+      ],
+      "solution_count": 1,
+      "distinct_path_count": 1,
+      "diagrams": [
+        [
+          "..DDD",
+          "A.DCD",
+          "A..CC",
+          "AB.CC",
+          "BB..."
+        ]
+      ],
+      "individual_clue_solution_counts": [
+        12,
+        3
+      ],
+      "solutions_without_turning_any_piece_over": 0
+    }
+  }
+}

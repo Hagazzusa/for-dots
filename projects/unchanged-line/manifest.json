@@ -1,0 +1,41 @@
+{
+  "title": "한 줄의 바깥",
+  "files": {
+    ".gitignore": {
+      "bytes": 18,
+      "sha256": "1410caa22a9048b554bc9347fbf5a8cfb66f74823f0ebc24c5caf6065b3fecb9"
+    },
+    "README.md": {
+      "bytes": 2517,
+      "sha256": "9c27833ceed13aaefd307f9860f7751cc2d47cd655e309423750892dff616957"
+    },
+    "build.py": {
+      "bytes": 5079,
+      "sha256": "e739a1ced6e4e5ed74d6fa7a490a38a571467c8e821d5e08db43dbdc3af483ec"
+    },
+    "concept.txt": {
+      "bytes": 639,
+      "sha256": "ef7c6d79317ff20564dfb43d2ff69827d75b376b8340c28cec0685efaa282852"
+    },
+    "description.txt": {
+      "bytes": 1374,
+      "sha256": "e40df370cca3bda7464e92cf8d97eb6426e8727c39b41b20ee5bc0b7ed009f37"
+    },
+    "design.json": {
+      "bytes": 625,
+      "sha256": "b86a673f668cd919a7f29a5f8c8c94bb04fa7509acaa495e53e95c6b6ba5dfbb"
+    },
+    "output/pdf/Outside-One-Line.pdf": {
+      "bytes": 12271,
+      "sha256": "1242222d9c8c90e8ec4d78b8cda4b85a863b51399b22f610289fed5e50c39c39"
+    },
+    "qa.json": {
+      "bytes": 841,
+      "sha256": "69424c708cad596607084957687199cca4bdc3633ac99b92b930ca22dca4a2df"
+    },
+    "verify.py": {
+      "bytes": 1891,
+      "sha256": "8f6b1c9f879becc409ed099bf5d3518fc10083d4ecb360e8049d46bfde87c5bb"
+    }
+  }
+}

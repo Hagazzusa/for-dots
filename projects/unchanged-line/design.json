@@ -1,0 +1,54 @@
+{
+  "title": "한 줄의 바깥",
+  "pages": 5,
+  "page_points": [
+    480,
+    600
+  ],
+  "target_line": [
+    [
+      90,
+      300
+    ],
+    [
+      170,
+      300
+    ],
+    [
+      210,
+      345
+    ],
+    [
+      270,
+      345
+    ],
+    [
+      310,
+      300
+    ],
+    [
+      390,
+      300
+    ]
+  ],
+  "target_width": 2.2,
+  "target_color": "#a54e39",
+  "captions": [
+    [
+      "먼저 한 줄."
+    ],
+    [],
+    [],
+    [],
+    [
+      "나머지를 지웠다."
+    ]
+  ],
+  "contexts": [
+    "bare",
+    "house elevation",
+    "fictional transit diagram",
+    "unitless invented graph",
+    "bare"
+  ]
+}

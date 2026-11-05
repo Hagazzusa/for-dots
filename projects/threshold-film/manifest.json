@@ -1,0 +1,49 @@
+{
+  "files": [
+    {
+      "path": ".gitignore",
+      "size": 52,
+      "sha256": "e68143f54a5e2dcef83f5f503c137c8f284c26421bdd99837ef5245f89f9dc3b"
+    },
+    {
+      "path": "Light-on-the-Threshold.blend",
+      "size": 134960,
+      "sha256": "dd550db25d14ad4bf852f62c3c40e911fc7ecd2c7e830342dd606d4cce0729df"
+    },
+    {
+      "path": "Light-on-the-Threshold.mp4",
+      "size": 1607173,
+      "sha256": "7435013c82dc625cc81e4a3bbc3a359b5c9a0c62850092e5d86041765c7100d2"
+    },
+    {
+      "path": "README.md",
+      "size": 3805,
+      "sha256": "ccf3655517ffd32b3b00883608289588e3cdb7e39ecc7bc7015dcc7d63c24a92"
+    },
+    {
+      "path": "build_film.py",
+      "size": 3658,
+      "sha256": "464c292226ff62f02e4935abc568af05b4f9ac60ddd8fdd5a19bc988c3bc0457"
+    },
+    {
+      "path": "encode_film.py",
+      "size": 612,
+      "sha256": "26cd519df1fd02b0ef814673223946ce9e128597fa9b1d6b877eaaa2c7fc7761"
+    },
+    {
+      "path": "qa.json",
+      "size": 885,
+      "sha256": "936cd89451df39976586e3424c27bfe718598c5cab699af5c2c0c9442d2f6828"
+    },
+    {
+      "path": "render_conditions.json",
+      "size": 409,
+      "sha256": "aa5764b50e309286505df4c253fcfa45d74e2561a597c7503102b20038fbd50b"
+    },
+    {
+      "path": "verify_film.py",
+      "size": 1793,
+      "sha256": "ac81ee12f9848d4d55994255659404e7ca5cbaedf15d4aaaad1f3d5f7a647079"
+    }
+  ]
+}

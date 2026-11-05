@@ -1,0 +1,29 @@
+{
+  "files": [
+    {
+      "path": "01-light-off.png",
+      "size": 564078,
+      "sha256": "b3c32b559ad5ee5c244ae326e76eafe684083f51f2a65747351cb4bc19ebde56"
+    },
+    {
+      "path": "02-light-on.png",
+      "size": 729476,
+      "sha256": "22c9727a7bfc43e421b1381c143d12d3369cb426453437283d687c0c6bbe5a8d"
+    },
+    {
+      "path": "README.md",
+      "size": 3393,
+      "sha256": "ab3918ed7fe0f707f1bbb84396360d408cb700895507498456075b5fa69bdfeb"
+    },
+    {
+      "path": "conditions.json",
+      "size": 390,
+      "sha256": "398efb1c58a2f77afc3cc4646ea8dc14b435943afd5baaccce8e34469875fb40"
+    },
+    {
+      "path": "render_study.py",
+      "size": 1950,
+      "sha256": "27ccfd125f46ec778373633029a5aaabece533421d15be004f40aebf4bf9131b"
+    }
+  ]
+}

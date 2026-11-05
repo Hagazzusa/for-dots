@@ -1,7 +1,7 @@
 # 잠깐 머무는 작은 세계
 
 비를 피하는 공간, 천천히 움직이는 빛, 길가의 빈 벤치.
-이미지와 짧은 영상으로 먼저 둘러볼 수 있는 스물한 작업을 골랐습니다.
+이미지와 짧은 영상으로 먼저 둘러볼 수 있는 31개 작업을 골랐습니다.
 편집 가능한 장면과 제작 소스는 각 작품의 안내에 함께 있습니다.
 
 세 정물을 이어 읽는 동반 그림책 [《비가 지나가는 동안》](quiet-storybook/README.md)도 있습니다. [3쪽 PDF로 읽기](quiet-storybook/While-the-Rain-Passes.pdf).
@@ -221,6 +221,117 @@
 [편집 가능한 3D 장면·제작 코드·재현 범위](quiet-laundrette/README.md)
 
 직접 만든 독립 3D 작품입니다. 실제 가게·제품 사진이나 기존 게임에 추가된 장소가 아니며 인물의 방문을 확정하지 않습니다. 창은 내부가 보이는 단순화된 열린 형태로, 유리 굴절 시뮬레이션이 아닙니다. 외부 이미지·모델·다운로드한 글꼴을 사용하지 않았습니다.
+
+## 22. 마지막 우산
+
+닫힌 문 앞, 펼쳐 말리는 우산과 처마의 불빛.
+
+![마지막 우산 — 실제 Blender 장면의 최종 렌더](projects/last-umbrella/Last-Umbrella.png)
+
+[완성 이미지](projects/last-umbrella/Last-Umbrella.png) · [작품·소스와 재현 안내](projects/last-umbrella/README.md)
+
+Blender 4.3.2의 실제 Cycles 렌더. 독립 가상 정물이며 게임 장면이나 건축·제품 안전 검증이 아닙니다.
+
+## 23. 문턱에 남은 빛
+
+등을 껐다 다시 켜고, 문턱 쪽으로 천천히 가까이 갑니다.
+
+[무음 영상 보기](projects/threshold-film/Light-on-the-Threshold.mp4) · [작품·소스와 재현 안내](projects/threshold-film/README.md)
+
+Blender 4.3.2·FFmpeg. 12초, 640×640, 12fps 무음 영상이며 실제 조도·안전 검증이 아닙니다.
+
+[제작 전 구성안과 조명 시험](projects/one-step-lit/README.md)은 완성 영상과 별도로 보존합니다.
+
+## 24. 접힌 파도
+
+일곱 면으로 접힌 파란 띠와 주황색 구의 대비.
+
+![접힌 파도 — 실제 Blender 장면의 최종 렌더](projects/folded-wave/Folded-Wave.png)
+
+[완성 이미지](projects/folded-wave/Folded-Wave.png) · [작품·소스와 재현 안내](projects/folded-wave/README.md)
+
+Blender 4.3.2의 실제 Cycles 렌더. 접힘·중력 시뮬레이션이나 제작 가능한 구조물의 설계가 아닙니다.
+
+## 25. 한 자리에서만 원
+
+정면의 원이 옆으로 이동하는 시선에서 여덟 조각으로 풀립니다.
+
+[무음 영상 보기](projects/one-view-circle/One-View-Circle.mp4) · [작품·소스와 재현 안내](projects/one-view-circle/README.md)
+
+Blender 4.3.2·FFmpeg. 8초, 640×640, 12fps 무음 영상. 시점과 화각을 함께 바꾼 가상 조각입니다.
+
+[후속 32초 연구 미리보기](projects/one-view-circle-development/README.md)는 저해상도 시험이며, 고해상도 제작을 보류했습니다.
+
+## 26. 한 줄의 바깥
+
+같은 선 주위에 집, 길, 눈금을 놓았다가 지우는 다섯 장의 그림책.
+
+[PDF 읽기](projects/unchanged-line/output/pdf/Outside-One-Line.pdf) · [작품·소스와 재현 안내](projects/unchanged-line/README.md)
+
+Python·ReportLab과 Noto CJK 글꼴을 사용한 벡터 PDF. 지각 실험의 결과나 실제 경로·측정 기록이 아닙니다.
+
+## 27. 여덟 칸의 여유
+
+규칙적으로 엮은 종이띠 사이, 황토색 한 줄이 반복을 쉽니다.
+
+![여덟 칸의 여유 — 실제 Blender 장면의 최종 렌더](projects/eight-spaces/Eight-Spaces.png)
+
+[완성 이미지](projects/eight-spaces/Eight-Spaces.png) · [작품·소스와 재현 안내](projects/eight-spaces/README.md)
+
+Blender 4.3.2의 실제 Cycles 렌더. 메시 교차를 검사했으며 실제 종이의 장력·접촉 안정성이나 제작 가능성은 검증하지 않았습니다.
+
+## 28. 길을 남기는 일
+
+네 조각을 놓고, 남은 아홉 칸으로 길을 만드는 종이 퍼즐.
+
+[PDF 읽기](projects/a-path-left-open/output/pdf/A-Path-Left-Open.pdf) · [작품·소스와 재현 안내](projects/a-path-left-open/README.md)
+
+Python·ReportLab. 해답 수와 PDF 치수를 검사했습니다. 단면 100%로 인쇄하고 기준선을 확인하세요. 실물 재단·플레이 테스트는 하지 않았습니다.
+
+[별도 해답 PDF](projects/a-path-left-open/output/pdf/A-Path-Left-Open-Answers.pdf)
+
+## 29. 옮기는 동안
+
+벤치를 내려놓은 두 사람이 잠깐 함께 앉는 대사 없는 네 칸 만화.
+
+![옮기는 동안 — 직접 작성한 벡터 그림의 최종 이미지](projects/while-carrying/While-Carrying.png)
+
+[완성 이미지](projects/while-carrying/While-Carrying.png) · [작품·소스와 재현 안내](projects/while-carrying/README.md)
+
+직접 작성한 벡터 도형의 최종 PNG·PDF. 실제 독자 집단 반응 조사나 신체 동작의 물리적 검증은 아닙니다.
+
+[벡터 PDF](projects/while-carrying/output/pdf/While-Carrying.pdf) · [그림의 텍스트 설명](projects/while-carrying/description.txt)
+
+## 30. 각자의 수평
+
+서로를 향해 기울어진 두 그릇 안에 같은 높이의 수면이 남습니다.
+
+![각자의 수평 — 실제 Blender 장면의 최종 렌더](projects/separate-horizons/Separate-Horizons.png)
+
+[완성 이미지](projects/separate-horizons/Separate-Horizons.png) · [작품·소스와 재현 안내](projects/separate-horizons/README.md)
+
+Blender 4.3.2의 실제 Cycles 렌더. 정적 형상 검사이며 유체·모세관 현상·받침 내구성 시뮬레이션은 아닙니다.
+
+## 31. 그림자가 모르는 것
+
+비어 있는 몸 하나가 서로 직각인 두 방향으로 집과 나무의 그림자를 만듭니다.
+
+![그림자가 모르는 것 — 실제 Blender 장면의 최종 렌더](projects/one-body-two-shadows/One-Body-Two-Shadows.png)
+
+[완성 이미지](projects/one-body-two-shadows/One-Body-Two-Shadows.png) · [작품·소스와 재현 안내](projects/one-body-two-shadows/README.md)
+
+Blender 4.3.2의 실제 렌더. 원본 장면과 형상·투영 검사, 영역별 렌더 조립 소스를 함께 보존합니다.
+
+
+## 읽기·듣기
+
+시각 작품과 별도로 읽고 들을 수 있는 완성 작업입니다.
+
+- [불을 끄는 순서](projects/lights-out-order/story.md): 《마지막 우산》에서 이어 쓴 독립 단편.
+- [맨 앞 · 6쪽 PDF](projects/front-of-the-line/output/pdf/Front-of-the-Line.pdf): 홍보 촬영의 줄과 실제 손님을 다룬 소설.
+- [고객 역할 · 5쪽 PDF](projects/the-customer-role/output/pdf/The-Customer-Role.pdf): 상담 실습의 대본 밖으로 나아가는 소설의 완성본.
+- [확인 중 · 5쪽 PDF](projects/under-observation/output/pdf/Under-Observation.pdf): 수리점 주인과 손님이 등장하는 짧은 희곡. 실제 공연 검사는 하지 않았습니다.
+- [다시 만나는 박자 · 33초 MP3](projects/returning-beats/Returning-Beats.mp3): 직접 합성한 5:3 박자의 기악곡. 기술 검사는 했지만 실제 청취 평가는 하지 않았습니다.
 
 ---
 

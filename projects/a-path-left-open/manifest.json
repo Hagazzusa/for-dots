@@ -1,0 +1,15 @@
+{
+  ".gitignore": "104d9b4545c1044cb17adf63e6890b2e3555a8e9fe8f6480ca9d4b64bfbaaf5e",
+  "README.md": "77bdbd84c84c83ac0822f09466a44d568948d964f0c7c435b461ad5429c895b7",
+  "build_pdf.py": "194a5d14df27a9f032d15d8569b012c8e9641b238672a515be61ca5d0f49de36",
+  "independent_report.json": "0adf72c961d855899ed16d70c48cad25a719fb5f0deaf93d432b3de31ed5e75b",
+  "independent_verify.py": "826662ab5e3aa676f5e2155384401bdf703fda39827c258ed706fb75b9beeff7",
+  "output/pdf/A-Path-Left-Open-Answers.pdf": "deb4daa2e0e1caf15935a5f100ca6ba2d0b955302de1dd0ece436cc735f766c6",
+  "output/pdf/A-Path-Left-Open.pdf": "dadf0871e4a7834e78c221e789ebad39634db1e7dd5e35398dce61a5f7574757",
+  "print-geometry.json": "6039102d129e55cb4b2b8b1e9749e8ad40b5079d82335b2c16aaeed54d00a99d",
+  "puzzles.json": "22d18f4b140b5d1a1b455ebc2403af37424f380487ba96158a5c01f9ecb697a3",
+  "qa.json": "2f9f70997e45278861ff24a9fab97fe0d0c626509dfb4287d6ee68d9fc908b67",
+  "search.json": "b5515d3e0cb3180bda4c2b01dcfc188e965d684510c3fda450ad5fc6f6f54cb4",
+  "solve.py": "a50f0239c094b10e2f6dd00b12434eab2e9472fbf3383ba70273e66a6cfe68e8",
+  "verify_pdf.py": "57f90fa06b41e503dd583a43e6f6dd6023b6ccef42ffdb4a685c5c6719454f45"
+}

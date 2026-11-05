@@ -1,0 +1,36 @@
+{
+  "vessels": [
+    {
+      "name": "I",
+      "inclination_degrees": 18,
+      "water_global_height": 0.73,
+      "water_height_error": 1.907348634588857e-08,
+      "local_water_height_range": [
+        0.2514690035798497,
+        0.7545314827082921
+      ],
+      "inner_floor_local_z": 0.14,
+      "rim_local_z": 0.85,
+      "rim_clearance_local": 0.09546851729170791,
+      "support_min_z": 0.056294513286437114
+    },
+    {
+      "name": "II",
+      "inclination_degrees": -21,
+      "water_global_height": 0.73,
+      "water_height_error": 1.907348634588857e-08,
+      "local_water_height_range": [
+        0.1851108988263087,
+        0.7759090660735853
+      ],
+      "inner_floor_local_z": 0.14,
+      "rim_local_z": 0.85,
+      "rim_clearance_local": 0.07409093392641464,
+      "support_min_z": 0.05351324597729018
+    }
+  ],
+  "frame_min_margin": 0.1577998846769333,
+  "water_model": "Analytic horizontal top; inner boundary inset 0.0005 at top and 0.01 at floor to clear beveled ceramic; no dynamics simulation.",
+  "objects": 10,
+  "mode": "final"
+}
