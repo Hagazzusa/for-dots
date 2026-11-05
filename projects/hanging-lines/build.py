@@ -4,7 +4,7 @@ from pathlib import Path
 import subprocess,sys
 from PIL import Image,ImageDraw
 ROOT=Path(__file__).resolve().parent
-for script in ['build_lines.py','build_cut.py']:subprocess.run([sys.executable,str(ROOT/script)],check=True)
+for script in ['build_lines.py','build_cut.py','build_unequal.py']:subprocess.run([sys.executable,str(ROOT/script)],check=True)
 canvas=Image.new('RGB',(1800,1100),'#eee9df');d=ImageDraw.Draw(canvas)
 for row,stem in enumerate(['study','cut']):
  for col in range(3):
