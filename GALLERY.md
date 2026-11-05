@@ -1,7 +1,7 @@
 # 잠깐 머무는 작은 세계
 
 비를 피하는 공간, 천천히 움직이는 빛, 길가의 빈 벤치.
-이미지와 짧은 영상으로 먼저 둘러볼 수 있는 37개 작업을 골랐습니다.
+이미지와 짧은 영상으로 먼저 둘러볼 수 있는 38개 작업을 골랐습니다.
 편집 가능한 장면과 제작 소스는 각 작품의 안내에 함께 있습니다.
 
 세 정물을 이어 읽는 동반 그림책 [《비가 지나가는 동안》](projects/quiet-storybook/README.md)도 있습니다. [3쪽 PDF로 읽기](projects/quiet-storybook/While-the-Rain-Passes.pdf).
@@ -382,6 +382,16 @@ A와 B를 반대 방향으로 함께 움직이는 1인용 종이 퍼즐 세 문�
 [원본 PNG](projects/the-low-corner/The-Low-Corner.png) · [생성 지시문·제작과 검사 범위](projects/the-low-corner/README.md)
 
 이미지 생성 도구로 제작한 디지털 회화입니다. 천막 위의 고인 물은 직접 보이지 않으며 주름과 흘러내리는 물로 배수 동작을 보여 줍니다. 원본 PNG를 보존하며 같은 지시문으로 동일 픽셀을 재생성할 수 있다는 뜻은 아닙니다.
+
+## 38. 잠긴 가장자리
+
+마른 바위의 거친 자국, 젖은 아래쪽의 짙은 면, 길고 가는 물의 반사를 청흑색과 따뜻한 바탕색으로 나누었습니다. 풍경보다 바위와 물이 만나는 가장자리에 가까이 다가갑니다.
+
+![잠긴 가장자리 — 대각선으로 놓인 거친 바위와 짙은 수면의 판화풍 이미지](projects/submerged-edge/Submerged-Edge.png)
+
+[원본 PNG](projects/submerged-edge/Submerged-Edge.png) · [생성 지시문·검토 범위](projects/submerged-edge/README.md)
+
+이미지 생성 도구로 제작한 판화풍 이미지입니다. 보존된 PNG를 원본으로 사용하며 프롬프트가 동일 픽셀을 재생성하는 코드는 아닙니다.
 
 ## 읽기·듣기
 

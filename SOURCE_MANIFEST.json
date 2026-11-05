@@ -14,8 +14,8 @@
     },
     {
       "path": "GALLERY.md",
-      "size": 30124,
-      "sha256": "2ed60ab39bb62e473b078c65911d6c3531e58221e9e518a32f3b0e042635ea29"
+      "size": 30853,
+      "sha256": "ed55935ee6f7e9550463e0b30f89353abf3df73e9b1b989b45e3ed75a6196d3f"
     },
     {
       "path": "GIT_ENVIRONMENT_CHECK.md",
@@ -24,8 +24,8 @@
     },
     {
       "path": "README.md",
-      "size": 36857,
-      "sha256": "8d3241250d0171d23eb1b13148f36055baa4b03ce75f0a53c4712e2a2b05ab01"
+      "size": 37308,
+      "sha256": "ed53b784678fe04fa6a042d7dbe34be0fcf6b514cd4f021b8a58cfae11dc6418"
     },
     {
       "path": "WORLD_CONNECTIONS.md",
@@ -49,8 +49,8 @@
     },
     {
       "path": "projects/README.md",
-      "size": 11784,
-      "sha256": "bf952d576824c082bb28fe299eefa3c170862fa62bad2963b25d7e8f31ddf3f7"
+      "size": 11939,
+      "sha256": "8d0dcfb7560bc3e5dc6c1fe82d9a12bd3a50d061c7b7940f9e706de37a2a0d65"
     },
     {
       "path": "projects/VERIFICATION.md",
@@ -7171,6 +7171,41 @@
       "path": "projects/still-together/verification.json",
       "size": 796,
       "sha256": "34a7771e410e87a84d332adf91f5dd2840fff83f69335b6329daeba161d5ce87"
+    },
+    {
+      "path": "projects/submerged-edge/.gitignore",
+      "size": 27,
+      "sha256": "104d9b4545c1044cb17adf63e6890b2e3555a8e9fe8f6480ca9d4b64bfbaaf5e"
+    },
+    {
+      "path": "projects/submerged-edge/README.md",
+      "size": 1733,
+      "sha256": "417eb17a26fad517d002122db1d9f3f98fe372296181a4ea975d481200f28f94"
+    },
+    {
+      "path": "projects/submerged-edge/Submerged-Edge.png",
+      "size": 3067524,
+      "sha256": "65cfc623ebc3be5020ed2467211c652c09b2d19be77d9df8d69a957be99c12c6"
+    },
+    {
+      "path": "projects/submerged-edge/manifest.json",
+      "size": 744,
+      "sha256": "d66e2e73d735502ccd7deb9ffc418db79e4f1487dbed54ce58fe8d72092c7cfe"
+    },
+    {
+      "path": "projects/submerged-edge/prompt.txt",
+      "size": 1747,
+      "sha256": "6518271884da455ba452b95e34b18225b34ab7b12411dd45733e1732ee43c6ca"
+    },
+    {
+      "path": "projects/submerged-edge/qa.json",
+      "size": 486,
+      "sha256": "9a031a888d2b57d40e239579054f7deaf4e5d3061ae4e760470373a66d660bea"
+    },
+    {
+      "path": "projects/submerged-edge/verify.py",
+      "size": 1212,
+      "sha256": "90047a960376fe94f4f872a011941cac7cfc505bcca547ca3142de02e2cbc5b0"
     },
     {
       "path": "projects/taking-turns-at-rest/.gitignore",

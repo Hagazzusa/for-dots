@@ -1,0 +1,26 @@
+{
+  ".gitignore": {
+    "bytes": 27,
+    "sha256": "104d9b4545c1044cb17adf63e6890b2e3555a8e9fe8f6480ca9d4b64bfbaaf5e"
+  },
+  "README.md": {
+    "bytes": 1733,
+    "sha256": "417eb17a26fad517d002122db1d9f3f98fe372296181a4ea975d481200f28f94"
+  },
+  "prompt.txt": {
+    "bytes": 1747,
+    "sha256": "6518271884da455ba452b95e34b18225b34ab7b12411dd45733e1732ee43c6ca"
+  },
+  "Submerged-Edge.png": {
+    "bytes": 3067524,
+    "sha256": "65cfc623ebc3be5020ed2467211c652c09b2d19be77d9df8d69a957be99c12c6"
+  },
+  "verify.py": {
+    "bytes": 1212,
+    "sha256": "90047a960376fe94f4f872a011941cac7cfc505bcca547ca3142de02e2cbc5b0"
+  },
+  "qa.json": {
+    "bytes": 486,
+    "sha256": "9a031a888d2b57d40e239579054f7deaf4e5d3061ae4e760470373a66d660bea"
+  }
+}

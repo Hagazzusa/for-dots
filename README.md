@@ -13,6 +13,7 @@
 
 | 프로젝트 | 시작 안내 | 실행 환경 |
 |---|---|---|
+| **잠긴 가장자리** — 마른 바위와 젖은 가장자리, 좁은 물의 반사를 담은 판화풍 이미지 | [원본 PNG](projects/submerged-edge/Submerged-Edge.png) · [생성 지시문·검사 안내](projects/submerged-edge/README.md) | 이미지 생성 도구로 제작한 이미지. PNG 원본·프롬프트·읽기 전용 검사를 보존하며 같은 지시문으로 동일 픽셀을 재생성한다고 보장하지 않습니다. |
 | **한 뼘 안쪽** — 엘리베이터의 버튼과 손, 안쪽으로 옮기는 뒤꿈치를 담은 시조 | [한 쪽 PDF](projects/one-handspan-inward/output/pdf/One-Handspan-Inward.pdf) · [텍스트](projects/one-handspan-inward/output/text/One-Handspan-Inward.txt) · [원문·형식·제작 안내](projects/one-handspan-inward/README.md) | 3장 12음보·표기 45음절의 시조 한 수. 음보 일치·조판·재생성을 검사했으며 실제 인쇄·낭독은 확인하지 않았습니다. 음절 수는 문학적 완성도 평가가 아닙니다. |
 | **매달린 선 · 보류 연구** — 평행선의 밀도·삭제, 절단 시점과 높이가 다른 두 끝의 초기 변화 비교 | [연구·비교·재현 범위](projects/hanging-lines/README.md) | Python·NumPy·SciPy·Pillow·Inkscape. 완성 작품으로 선정하지 않았습니다. A는 투영 도형, B는 길이 제약을 적용한 수치 드로잉이며 독립 역학 검증·실제 끈의 물성 검증을 마치지 않았습니다. |
 | **낮은 모서리** — 비 그친 시장에서 천막의 물을 빼는 두 사람 | [이미지](projects/the-low-corner/The-Low-Corner.png) · [생성 지시문·검사 안내](projects/the-low-corner/README.md) | 이미지 생성 도구로 만든 디지털 회화. PNG 원본·프롬프트·읽기 전용 검사를 보존합니다. 프롬프트는 동일 픽셀 재생성을 보장하는 코드가 아닙니다. |
@@ -65,7 +66,7 @@
 
 ## 프로젝트 배치와 기록
 
-모든 작품·게임·연구의 정식 경로는 `projects/<kebab-case>/`입니다. [전체 78개 프로젝트 색인](projects/README.md)에서 작품·시제품·연구를 구분해 찾을 수 있습니다. 기존 최상위 폴더와 날짜별 보관본은 중복으로 남기지 않습니다. 이전 경로 보존 예외는 철회했으며, 과거 버전은 Git 이력에서 확인합니다.
+모든 작품·게임·연구의 정식 경로는 `projects/<kebab-case>/`입니다. [전체 79개 프로젝트 색인](projects/README.md)에서 작품·시제품·연구를 구분해 찾을 수 있습니다. 기존 최상위 폴더와 날짜별 보관본은 중복으로 남기지 않습니다. 이전 경로 보존 예외는 철회했으며, 과거 버전은 Git 이력에서 확인합니다.
 
 ## 새로 정리한 작품과 연구
 
