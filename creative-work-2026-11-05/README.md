@@ -1,6 +1,6 @@
 # Creative work · 2026-11-05
 
-Original artwork, editable scenes, production scripts, finished exports and verification records. Folder names preserve local source dependencies. Private planning notes, temporary renders, caches and redundant Blender backups are omitted. `the_customer_role` is an unfinished fiction draft; `one_view_circle_development` is a development study. Other folders retain their own documented status.
+Original artwork, editable scenes, production scripts, finished exports and verification records. Folder names preserve local source dependencies. Private planning notes, temporary renders, caches and redundant Blender backups are omitted. `the_customer_role` contains the completed short story and reading editions; `one_view_circle_development` is a development study. Other folders retain their own documented status.
 
 - [last_umbrella](last_umbrella/README.md)
 - [lights_out_order](lights_out_order/README.md)

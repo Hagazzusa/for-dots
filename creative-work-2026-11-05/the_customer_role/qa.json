@@ -1,0 +1,47 @@
+{
+  "title": "고객 역할",
+  "pages": 5,
+  "page_size_points": [
+    480,
+    680
+  ],
+  "source_characters": 3827,
+  "source_nonempty_lines": 104,
+  "pdf_text_matches_source_ignoring_whitespace": true,
+  "plain_text_matches_source_bytes": true,
+  "all_body_text_within_margins": true,
+  "page_lines": [
+    {
+      "page": 1,
+      "body_lines": 28,
+      "last_line": "보인다는 이유로, 의자를 반대로 돌려 앉았다."
+    },
+    {
+      "page": 2,
+      "body_lines": 31,
+      "last_line": "씨에게도 좋은 질문이었다고 했다. 그러고는 휴대전화로 시간을 확인했다."
+    },
+    {
+      "page": 3,
+      "body_lines": 31,
+      "last_line": "확인한 점이 좋았다고 했다."
+    },
+    {
+      "page": 4,
+      "body_lines": 31,
+      "last_line": "“냉장고가 고장 났는데 손님이 오는 경우.”"
+    },
+    {
+      "page": 5,
+      "body_lines": 25,
+      "last_line": "나는 네, 하고 대답했다. 손님에게 뭐라고 해야 할지는 정하지 않았다."
+    }
+  ],
+  "visual_review": "All five final rendered pages visually inspected; no clipping, overlap or missing glyphs.",
+  "editorial_review": "Two independent editorial reads; seat orientation and participant rotation clarified, redundant explanations and peripheral irony reduced, narrator flaws and unresolved ending retained.",
+  "fiction": true,
+  "hashes": {
+    "output/pdf/The-Customer-Role.pdf": "ec49a8d7e9116ceba3b7da478ead1d2058c2d4b4ac0ea16b328447c16bf648a2",
+    "output/text/The-Customer-Role.txt": "7feb3aac4fb3bbc3efed922b875d064c0304d6a237219824e3c40849158e1db0"
+  }
+}

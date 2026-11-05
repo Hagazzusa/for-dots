@@ -508,12 +508,12 @@
     "sha256": "96bf875f561bf393d9d98b2d343d48b68715a96c21a28d92ea9072f6cf2d54e0"
   },
   "the_customer_role/README.md": {
-    "bytes": 126,
-    "sha256": "ae632dfcd4eaef906f692cc257d81b3d68a46367bcb0799685da9aa4513b25d3"
+    "bytes": 2513,
+    "sha256": "ed9725862a3b6be520d06f88b463cd3caf392317bbe29859bd7ebd5cf16862b0"
   },
   "the_customer_role/story.txt": {
-    "bytes": 9438,
-    "sha256": "97081e97a259c7ceda5a1e24a0960f7466f1312eeb8ed870d2bf9dc59af9073b"
+    "bytes": 9039,
+    "sha256": "7feb3aac4fb3bbc3efed922b875d064c0304d6a237219824e3c40849158e1db0"
   },
   "threshold_film/.gitignore": {
     "bytes": 52,
@@ -670,5 +670,29 @@
   "while_carrying/verify.py": {
     "bytes": 2364,
     "sha256": "241cd25a7b30f4aab7a28792cf8f935415c06bd273d07b1c968a10c6fb524be9"
+  },
+  "the_customer_role/build_pdf.py": {
+    "bytes": 3140,
+    "sha256": "b6d45985feb2da962b5aabdcde53b6f68a0c5590aa44fff416ec42fda6a46129"
+  },
+  "the_customer_role/verify.py": {
+    "bytes": 1883,
+    "sha256": "10c588664cb94b57b78c695e2e6a0b80c5edaf55d1e3499465084c3e0257d43e"
+  },
+  "the_customer_role/qa.json": {
+    "bytes": 1619,
+    "sha256": "0f55a3ddd289a9d5f6953e3cb332248f4361843f4eeb0ee6e57e18e4c2fdc56a"
+  },
+  "the_customer_role/manifest.json": {
+    "bytes": 1027,
+    "sha256": "13045a9f46a2611207d6d2054e32e236bbf87c396bdcf2a61552a19f74da6b3b"
+  },
+  "the_customer_role/output/pdf/The-Customer-Role.pdf": {
+    "bytes": 87158,
+    "sha256": "ec49a8d7e9116ceba3b7da478ead1d2058c2d4b4ac0ea16b328447c16bf648a2"
+  },
+  "the_customer_role/output/text/The-Customer-Role.txt": {
+    "bytes": 9039,
+    "sha256": "7feb3aac4fb3bbc3efed922b875d064c0304d6a237219824e3c40849158e1db0"
   }
 }
