@@ -1,0 +1,39 @@
+{
+  "files": [
+    {
+      "path": ".gitignore",
+      "size": 40,
+      "sha256": "faf15467ce340de64d057e681b9fe3db739c929655f90cb4fa1f8b91c2a44412"
+    },
+    {
+      "path": "README.md",
+      "size": 2392,
+      "sha256": "ed7d5ff1b25268034f4321939fcebc03e7b3050d931edc9e500de0b40528f04f"
+    },
+    {
+      "path": "build.py",
+      "size": 4552,
+      "sha256": "5b980ae89a5b5c1a921fa2f73d21cc3e069848d1c09c772777ac11b6bf1832ca"
+    },
+    {
+      "path": "render_conditions.json",
+      "size": 235,
+      "sha256": "7a085468e767683c9a55824e48b5b0780237ab92312b4c7ce27278f70c8017cd"
+    },
+    {
+      "path": "qa.json",
+      "size": 733,
+      "sha256": "1db8c6eb47beff5e2c24d3ef2e43247d1dd0a5ce8e6853812a05443935bbfe49"
+    },
+    {
+      "path": "Folded-Wave.blend",
+      "size": 164170,
+      "sha256": "128eb9c46a94c441cfeb3b5acda63f0199d145db50dd1f3204c91867938ffd89"
+    },
+    {
+      "path": "Folded-Wave.png",
+      "size": 1730837,
+      "sha256": "55ea2c35f67b866396855fe77a09432291d460fbb7ff7d151d3e435a994dc937"
+    }
+  ]
+}

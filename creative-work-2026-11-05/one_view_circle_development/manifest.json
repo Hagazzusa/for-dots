@@ -1,0 +1,61 @@
+{
+  "status": "Low-resolution study retained; final production deferred after editorial review.",
+  "files": {
+    ".gitignore": {
+      "bytes": 65,
+      "sha256": "75d974a04f7a13b80ade36f00b306b701cb493c38613a593be27e8e01e8c83d6"
+    },
+    "PLAN.txt": {
+      "bytes": 5401,
+      "sha256": "f789ea3e91312e9cf1c73dd6a2d6328578f3c320d643534091041daf6c3e832d"
+    },
+    "REVIEW.txt": {
+      "bytes": 2877,
+      "sha256": "38d521996149a2d6e358f9b9f1a836ee928dc0847e28aaa703666bf1c2105d00"
+    },
+    "README.md": {
+      "bytes": 2139,
+      "sha256": "65bf89be6120134b4a2a6e77bd9f898efd3ae69aede689a231dc22565e19d29b"
+    },
+    "study.py": {
+      "bytes": 3668,
+      "sha256": "e5587db3a6f0787d7ce53536ea83db9c9352e70d80c8c0d00415858c398b59ff"
+    },
+    "encode_preview.py": {
+      "bytes": 1127,
+      "sha256": "c5c2650c95cefc1d29d7daa2cb01c28910aad059e018cde95004920346ef0ab1"
+    },
+    "verify_scene.py": {
+      "bytes": 2054,
+      "sha256": "50e356fb57e48e987e35f54bec8a23beec4c0ae0cb1c1ff72fc568b0717ac219"
+    },
+    "analyze_crossing.py": {
+      "bytes": 1322,
+      "sha256": "fbeb50a7bcc9e8eb671ac9dd85c31f013726b2dbafcc05c534c8823e899076c7"
+    },
+    "framing-study.json": {
+      "bytes": 639,
+      "sha256": "7d767baee0d7ead05899c9ab09d31856120ac1db304e8469acc9bf07036e3abd"
+    },
+    "crossing-analysis.json": {
+      "bytes": 6017,
+      "sha256": "5949b228f9923d77dae8502c7b5cbb6416a6605baec4a4490b4902bc9109096b"
+    },
+    "preview-qa.json": {
+      "bytes": 1366,
+      "sha256": "7cc7e0c804e9cb8b1ac9148b9b87d5c54b235f0e52df31d04d446b4a02c8f58b"
+    },
+    "preview-revision.json": {
+      "bytes": 234,
+      "sha256": "61325d5d4549e88d738f11ec2e1b9812617ace6004f5a6e19d743383fb56e979"
+    },
+    "Passing-the-Circle-preview.blend": {
+      "bytes": 286915,
+      "sha256": "843397941fd85e937936d17d58666a8c9a836dec0d1791d534f2044e6888ba04"
+    },
+    "Passing-the-Circle-study.mp4": {
+      "bytes": 1111636,
+      "sha256": "1e4c6e28777bd303971656622ace6cbd5cd679a9c692d9cb3515b52f23ff8052"
+    }
+  }
+}

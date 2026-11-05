@@ -1,0 +1,166 @@
+{
+  "duration_seconds": 8,
+  "frames": 96,
+  "resolution": [
+    640,
+    640
+  ],
+  "fps": 12,
+  "audio_streams": 0,
+  "full_decode_passed": true,
+  "held_source_frames_verified": true,
+  "moving_source_frames_distinct": 48,
+  "frame_revision_matches_source": true,
+  "sha256": "70e342d628c2507c445c78d7839f1c48849edf06cc070b475f88b7f749d61cfe",
+  "projection_check": {
+    "camera_origin": [
+      0.0,
+      -10.0,
+      2.0
+    ],
+    "reference_distance": 10.0,
+    "maximum_normalized_xy_error": 1.1920928955078125e-07,
+    "checked_base_vertices": 400,
+    "excludes": "Bevel and solidify silhouette, shading, and other viewpoints",
+    "segments": [
+      {
+        "arc": 1,
+        "camera_forward_distance": 8.0,
+        "scale": 0.8,
+        "angle_degrees": [
+          3,
+          42
+        ]
+      },
+      {
+        "arc": 2,
+        "camera_forward_distance": 11.6,
+        "scale": 1.16,
+        "angle_degrees": [
+          48,
+          87
+        ]
+      },
+      {
+        "arc": 3,
+        "camera_forward_distance": 9.4,
+        "scale": 0.9400000000000001,
+        "angle_degrees": [
+          93,
+          132
+        ]
+      },
+      {
+        "arc": 4,
+        "camera_forward_distance": 13.0,
+        "scale": 1.3,
+        "angle_degrees": [
+          138,
+          177
+        ]
+      },
+      {
+        "arc": 5,
+        "camera_forward_distance": 7.2,
+        "scale": 0.72,
+        "angle_degrees": [
+          183,
+          222
+        ]
+      },
+      {
+        "arc": 6,
+        "camera_forward_distance": 10.8,
+        "scale": 1.08,
+        "angle_degrees": [
+          228,
+          267
+        ]
+      },
+      {
+        "arc": 7,
+        "camera_forward_distance": 12.4,
+        "scale": 1.24,
+        "angle_degrees": [
+          273,
+          312
+        ]
+      },
+      {
+        "arc": 8,
+        "camera_forward_distance": 8.8,
+        "scale": 0.8800000000000001,
+        "angle_degrees": [
+          318,
+          357
+        ]
+      }
+    ]
+  },
+  "visual_review": {
+    "passed": true,
+    "method": "Inspected six representative frames extracted from the final encoded MP4, at zero-based frame indices 0, 24, 47, 59, 71, 95. This is representative visual inspection, not manual full-motion playback.",
+    "findings": "Front view reads as a segmented circle; intermediate and final views reveal depth. Pieces remain inside frame. Curved backdrop has no exposed boundary or dark seam. Fine render grain remains visible.",
+    "full_stream_decode": "Passed separately."
+  },
+  "saved_scene_readback": {
+    "objects": 12,
+    "arc_count": 8,
+    "arc_transforms_static": true,
+    "camera_type": "PERSP",
+    "camera_states": [
+      {
+        "frame": 1,
+        "location": [
+          0.0,
+          -10.0,
+          2.0
+        ],
+        "lens": 80.0
+      },
+      {
+        "frame": 24,
+        "location": [
+          0.0,
+          -10.0,
+          2.0
+        ],
+        "lens": 80.0
+      },
+      {
+        "frame": 48,
+        "location": [
+          5.735764503479004,
+          -8.191520690917969,
+          2.75
+        ],
+        "lens": 54.580726623535156
+      },
+      {
+        "frame": 72,
+        "location": [
+          9.396925926208496,
+          -3.420201539993286,
+          3.5
+        ],
+        "lens": 48.0
+      },
+      {
+        "frame": 96,
+        "location": [
+          9.396925926208496,
+          -3.420201539993286,
+          3.5
+        ],
+        "lens": 48.0
+      }
+    ],
+    "resolution": [
+      640,
+      640
+    ],
+    "samples": 24,
+    "external_images": 0,
+    "render_path": "//frames/frame_"
+  }
+}

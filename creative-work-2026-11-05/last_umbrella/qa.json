@@ -1,0 +1,11 @@
+{
+  "resolution": [
+    1300,
+    1300
+  ],
+  "mode": "RGBA",
+  "image_sha256": "87af4d6dd91055d3363f332a571bef72142e5f16df55e7c6fb778f217a002f74",
+  "visual_review": "Final actual pixels inspected: umbrella panels, handle, bench, cloth, lamp and door legible; scene framed; slight path-tracing grain remains.",
+  "source_review": "Independent review verified corrected shaft joins canopy; bench feet meet paving; walls and roof brackets meet roof underside.",
+  "external_images": 0
+}

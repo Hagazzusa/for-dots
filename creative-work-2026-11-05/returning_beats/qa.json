@@ -1,0 +1,24 @@
+{
+  "duration_seconds": 33.0,
+  "sample_rate": 48000,
+  "channels": 2,
+  "pcm_bits": 16,
+  "note_count": 66,
+  "sample_peak_dbfs": -2.0001827379579966,
+  "integrated_loudness_lufs_mp3": -13.9,
+  "estimated_true_peak_dbfs_mp3": -2.3,
+  "mp3_full_decode_passed": true,
+  "clipped_samples": 0,
+  "first_last_samples": [
+    [
+      0.0,
+      0.0
+    ],
+    [
+      0.0,
+      0.0
+    ]
+  ],
+  "polyrhythm": "Seven complete simultaneous 5:3 cycles from 3.6 to 24.6 seconds. First cycle is glass only; closing figure is free.",
+  "audition": "Technical signal and score review only; no real-time perceptual listening claimed."
+}

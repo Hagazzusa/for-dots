@@ -1,0 +1,60 @@
+{
+  "objects": 12,
+  "arc_count": 8,
+  "arc_transforms_static": true,
+  "camera_type": "PERSP",
+  "camera_states": [
+    {
+      "frame": 1,
+      "location": [
+        0.0,
+        -10.0,
+        2.0
+      ],
+      "lens": 80.0
+    },
+    {
+      "frame": 24,
+      "location": [
+        0.0,
+        -10.0,
+        2.0
+      ],
+      "lens": 80.0
+    },
+    {
+      "frame": 48,
+      "location": [
+        5.735764503479004,
+        -8.191520690917969,
+        2.75
+      ],
+      "lens": 54.580726623535156
+    },
+    {
+      "frame": 72,
+      "location": [
+        9.396925926208496,
+        -3.420201539993286,
+        3.5
+      ],
+      "lens": 48.0
+    },
+    {
+      "frame": 96,
+      "location": [
+        9.396925926208496,
+        -3.420201539993286,
+        3.5
+      ],
+      "lens": 48.0
+    }
+  ],
+  "resolution": [
+    640,
+    640
+  ],
+  "samples": 24,
+  "external_images": 0,
+  "render_path": "//frames/frame_"
+}

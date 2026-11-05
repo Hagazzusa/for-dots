@@ -1,0 +1,19 @@
+{
+  "title": "확인 중",
+  "pages": 5,
+  "page_points": [
+    480,
+    680
+  ],
+  "nonempty_source_lines_verified": 107,
+  "all_source_lines_present": true,
+  "text_bounds_passed": true,
+  "editorial_review": "Two independent readings; revised fees, afternoon test timing, loan deadline, receipt handling, dialogue repetition and executable stage actions. Final continuity check passed.",
+  "visual_review": "All five final PDF pages rendered and visually inspected. Korean text, line breaks, speaker labels, stage directions, margins and ending placement are readable with no clipping or missing glyphs.",
+  "limits": [
+    "Not rehearsed, staged or timed with performers. No verified runtime is claimed.",
+    "Fictional people and transaction; not an appliance diagnosis or repair guide.",
+    "Not tagged PDF/UA; plain UTF-8 script retained as an editable reading alternative."
+  ],
+  "sha256": "c2d4d252572a33c4e7a887381a7a9d3e9abcdd269ddf84b740200ed12c131180"
+}

@@ -1,0 +1,52 @@
+{
+  "title": "맨 앞",
+  "pages": 6,
+  "page_size_points": [
+    480,
+    680
+  ],
+  "source_characters": 4568,
+  "source_nonempty_lines": 115,
+  "pdf_text_matches_source_ignoring_whitespace": true,
+  "plain_text_matches_source_bytes": true,
+  "all_body_text_within_margins": true,
+  "page_lines": [
+    {
+      "page": 1,
+      "body_lines": 26,
+      "last_line": "“앞사람하고 너무 붙지 마시고요. 그렇다고 너무 떨어지진 말아 주세요.”"
+    },
+    {
+      "page": 2,
+      "body_lines": 29,
+      "last_line": "“몇 시에 열어요?”"
+    },
+    {
+      "page": 3,
+      "body_lines": 29,
+      "last_line": "들어오시고요.”"
+    },
+    {
+      "page": 4,
+      "body_lines": 29,
+      "last_line": "“뭐가 맛있어요?”"
+    },
+    {
+      "page": 5,
+      "body_lines": 28,
+      "last_line": "남자는 멈췄다."
+    },
+    {
+      "page": 6,
+      "body_lines": 23,
+      "last_line": "그는 봉투를 접어 주머니에 넣고, 이름을 썼다."
+    }
+  ],
+  "visual_review": "Passed: all six final rendered pages inspected. Korean glyphs, paragraph indentation, page transitions, margins and ending layout are legible; no clipping or overlap observed.",
+  "editorial_review": "Timeline, cast counts, door movements, props, queue order and ending reviewed; continuity corrections incorporated.",
+  "fiction": true,
+  "hashes": {
+    "output/pdf/Front-of-the-Line.pdf": "234342312080bfce7499103e917eda8467fac543f1d3859f1a05bc696a6cc2c0",
+    "output/text/Front-of-the-Line.txt": "f8664948b9cc1aea61a9df7d28ebebba0cf15a6c1b8d196430484483a8e0b127"
+  }
+}

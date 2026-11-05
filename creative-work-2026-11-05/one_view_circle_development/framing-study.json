@@ -1,0 +1,26 @@
+{
+  "source_sha256": "ba13a780cc12b8189bf37468c539fad853e916643b1ed73bd5d3d7f23aaf52a5",
+  "evaluated_vertices": 2656,
+  "camera_height": 2,
+  "duration": 32,
+  "reports": [
+    {
+      "lens_mm": 48,
+      "minimum_normalized_margin": 0.0900551825761795,
+      "worst_time_seconds": 11.0,
+      "behind_camera": false
+    },
+    {
+      "lens_mm": 55,
+      "minimum_normalized_margin": 0.030271580442786217,
+      "worst_time_seconds": 11.0,
+      "behind_camera": false
+    },
+    {
+      "lens_mm": 64,
+      "minimum_normalized_margin": -0.04659302160143852,
+      "worst_time_seconds": 11.0,
+      "behind_camera": false
+    }
+  ]
+}
