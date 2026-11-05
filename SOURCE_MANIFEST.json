@@ -14,8 +14,8 @@
     },
     {
       "path": "GALLERY.md",
-      "size": 23779,
-      "sha256": "3548ba93a2db859bb6fbd55bdaa28656b5fa7decc5405d74a30f2ac7ee6fc79b"
+      "size": 24547,
+      "sha256": "35b1fb0cbdcf1bf65a5f9f62a298b068a67bd1e5ff44f9beb838bdc12abd103c"
     },
     {
       "path": "GIT_ENVIRONMENT_CHECK.md",
@@ -24,8 +24,8 @@
     },
     {
       "path": "README.md",
-      "size": 31391,
-      "sha256": "d3e752b0835b3a9d33abf6033ff70e4422cf2f5eaa87e4eab078892dbd7e95ae"
+      "size": 31880,
+      "sha256": "4977e6eeb8a55b50bf99d689a7850f06d9ea7e4728a0fc7018270545a625f911"
     },
     {
       "path": "WORLD_CONNECTIONS.md",
@@ -49,8 +49,8 @@
     },
     {
       "path": "projects/README.md",
-      "size": 10013,
-      "sha256": "af0fda8eb52a3bcbd9b22a509710ccef5aa3e497d526f268e77160811aa6c1cb"
+      "size": 10177,
+      "sha256": "50b20f95b1183add6a0700fe28f4a508612a732af160e0ed0ad7740b3461bcee"
     },
     {
       "path": "projects/VERIFICATION.md",
@@ -7661,6 +7661,61 @@
       "path": "projects/window-rhythms/window_rhythms_preview.mp3",
       "size": 609068,
       "sha256": "48071b6276c4ce4014c7d77c1ccdecc258410d2e2373b286e48740738b7fa05b"
+    },
+    {
+      "path": "projects/word-ring/.gitignore",
+      "size": 30,
+      "sha256": "efeefed596c3fe34f9e9af82048512e56d6dedf392104148b938344611c6887e"
+    },
+    {
+      "path": "projects/word-ring/README.md",
+      "size": 2996,
+      "sha256": "b9ebaeecd30c56dacfd3878fb203727a6a94ec9f99b20c239c380a2d8fc2e76c"
+    },
+    {
+      "path": "projects/word-ring/Word-Ring.pdf",
+      "size": 13338,
+      "sha256": "0db59f6a7e695cb1c8efdd137300f2c11f7624ea902ad0f166f95b8ed90cbe7e"
+    },
+    {
+      "path": "projects/word-ring/Word-Ring.png",
+      "size": 52121,
+      "sha256": "4efc7c9cadf2e17b28a067a61e666f48dfd9245f9436cb054e436dc41c870f5c"
+    },
+    {
+      "path": "projects/word-ring/Word-Ring.svg",
+      "size": 110977,
+      "sha256": "9b1740eaa6c740e69597c1f8aa5dc78d28d79c852b3295dc553067c2a80b4e27"
+    },
+    {
+      "path": "projects/word-ring/build.py",
+      "size": 4033,
+      "sha256": "73f98ea41b63fccd3e5c1536d1040f87c21611d33ee83df00b9fbd957baf2a0d"
+    },
+    {
+      "path": "projects/word-ring/layout.json",
+      "size": 8172,
+      "sha256": "41676c4b8e2bd0db31adfda2785bf63c434199e079fb9eb99b59875bc07798f1"
+    },
+    {
+      "path": "projects/word-ring/manifest.json",
+      "size": 1236,
+      "sha256": "5c4685d1003074fae9001be9dd434b681af7b6671daf47e8683f175ad934ebee"
+    },
+    {
+      "path": "projects/word-ring/qa.json",
+      "size": 791,
+      "sha256": "0d0fd41bce2eb517b2822d30445027ef4508b652dd7b7d0601a1222db7368c31"
+    },
+    {
+      "path": "projects/word-ring/verify.py",
+      "size": 3215,
+      "sha256": "b03e43fb0918f43c7564653e02a253542245e15baba13c02927adcda36eaa764"
+    },
+    {
+      "path": "projects/word-ring/words.json",
+      "size": 416,
+      "sha256": "9577ec76d5046a60512d25d41826a997870614b9dfd30cccef9e9668c6af3d8f"
     },
     {
       "path": "tools/README.md",

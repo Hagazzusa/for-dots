@@ -13,6 +13,7 @@
 
 | 프로젝트 | 시작 안내 | 실행 환경 |
 |---|---|---|
+| **한 칸의 둘레** — 한글 음절 한 칸씩 바뀌며 이어지는 26개 낱말 | [글자 그림](projects/word-ring/Word-Ring.png) · [벡터 PDF](projects/word-ring/Word-Ring.pdf) · [원본·재현 안내](projects/word-ring/README.md) | Python·fontTools·ReportLab·PyMuPDF·Pillow·Poppler. PDF는 글꼴을, SVG는 윤곽선을 포함합니다. 선택한 낱말 고리의 규칙·배치를 검사한 작품이며 전체 낱말 탐색이나 독자 실험은 아닙니다. |
 | **통째로** — 수박 하나를 냉장고에 넣으라는 명령과 두 손의 어긋남 | [한 쪽 PDF](projects/whole-watermelon/Whole-Watermelon.pdf) · [텍스트](projects/whole-watermelon/Whole-Watermelon.txt) · [작품·제작 안내](projects/whole-watermelon/README.md) | 완성된 짧은 낭독문. Python·ReportLab·Noto Serif CJK로 읽기용 PDF를 제작했습니다. 실용적인 가전 안내가 아니며 실제 낭독·동작 공연은 평가하지 않았습니다. |
 | **가벼운 쪽의 거리** — 네 조각이 돌며 모였다가 벌어지는 모빌 | [16초 영상](projects/the-lighter-side/The-Lighter-Side.mp4) · [정지 이미지](projects/the-lighter-side/The-Lighter-Side.png) · [원본·재현 안내](projects/the-lighter-side/README.md) | Python·NumPy·SciPy·Pillow·FFmpeg. 직접 만든 깊이 버퍼 렌더러의 800×800, 24fps 무음 영상. 정적 균형·표본 간섭 검사이며 실제 동역학이나 제작 안전 검증은 아닙니다. |
 | **골목 끝 작은 세탁소** — 둥근 세탁기 문과 옆 골목의 빈 벤치 | [3D 장면·제작 코드·재현 범위](projects/quiet-laundrette/README.md) · [최종 렌더](projects/quiet-laundrette/Quiet-Laundrette.png) | Blender **4.3.2**, Cycles CPU. 외부 에셋 없이 만든 독립 가상 장면이며 실제 가게나 게임에 추가된 장소가 아닙니다. |

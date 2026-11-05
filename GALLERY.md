@@ -1,7 +1,7 @@
 # 잠깐 머무는 작은 세계
 
 비를 피하는 공간, 천천히 움직이는 빛, 길가의 빈 벤치.
-이미지와 짧은 영상으로 먼저 둘러볼 수 있는 32개 작업을 골랐습니다.
+이미지와 짧은 영상으로 먼저 둘러볼 수 있는 33개 작업을 골랐습니다.
 편집 가능한 장면과 제작 소스는 각 작품의 안내에 함께 있습니다.
 
 세 정물을 이어 읽는 동반 그림책 [《비가 지나가는 동안》](projects/quiet-storybook/README.md)도 있습니다. [3쪽 PDF로 읽기](projects/quiet-storybook/While-the-Rain-Passes.pdf).
@@ -332,6 +332,16 @@ Blender 4.3.2의 실제 렌더. 원본 장면과 형상·투영 검사, 영역�
 [16초 무성 영상](projects/the-lighter-side/The-Lighter-Side.mp4) · [정지 이미지](projects/the-lighter-side/The-Lighter-Side.png) · [3D 형상·제작 소스와 검사 범위](projects/the-lighter-side/README.md)
 
 직접 만든 3D 형상과 주기 함수를 사용했습니다. 각 가지의 정적 균형과 표본 자세의 간섭을 검사했지만, 바람·관성의 동역학이나 실물 제작 안전을 검증한 모빌은 아닙니다. OBJ와 MTL은 정지 이미지와 같은 8초 지점을 담습니다.
+
+## 33. 한 칸의 둘레
+
+스물여섯 낱말이 한글 음절 한 칸씩 달라지며 원을 이룹니다. 새로 바뀐 글자는 검정, 남은 글자는 회색입니다. 어디에서 읽기 시작해도 다시 돌아옵니다.
+
+![한 칸의 둘레 — 26개 낱말의 검정·회색 글자가 둥글게 이어지는 그림](projects/word-ring/Word-Ring.png)
+
+[벡터 PDF](projects/word-ring/Word-Ring.pdf) · [윤곽선 SVG](projects/word-ring/Word-Ring.svg) · [낱말·제작 소스와 검증](projects/word-ring/README.md)
+
+직접 선택한 낱말과 닫힌 배치를 완성한 글자 작품입니다. 이웃한 낱말의 변화 규칙과 여백을 검사했으며, 가능한 모든 고리를 탐색하거나 독자 지각을 실험한 결과는 아닙니다.
 
 ## 읽기·듣기
 

@@ -1,0 +1,42 @@
+{
+  ".gitignore": {
+    "bytes": 30,
+    "sha256": "efeefed596c3fe34f9e9af82048512e56d6dedf392104148b938344611c6887e"
+  },
+  "README.md": {
+    "bytes": 2996,
+    "sha256": "b9ebaeecd30c56dacfd3878fb203727a6a94ec9f99b20c239c380a2d8fc2e76c"
+  },
+  "words.json": {
+    "bytes": 416,
+    "sha256": "9577ec76d5046a60512d25d41826a997870614b9dfd30cccef9e9668c6af3d8f"
+  },
+  "build.py": {
+    "bytes": 4033,
+    "sha256": "73f98ea41b63fccd3e5c1536d1040f87c21611d33ee83df00b9fbd957baf2a0d"
+  },
+  "Word-Ring.pdf": {
+    "bytes": 13338,
+    "sha256": "0db59f6a7e695cb1c8efdd137300f2c11f7624ea902ad0f166f95b8ed90cbe7e"
+  },
+  "Word-Ring.svg": {
+    "bytes": 110977,
+    "sha256": "9b1740eaa6c740e69597c1f8aa5dc78d28d79c852b3295dc553067c2a80b4e27"
+  },
+  "Word-Ring.png": {
+    "bytes": 52121,
+    "sha256": "4efc7c9cadf2e17b28a067a61e666f48dfd9245f9436cb054e436dc41c870f5c"
+  },
+  "layout.json": {
+    "bytes": 8172,
+    "sha256": "41676c4b8e2bd0db31adfda2785bf63c434199e079fb9eb99b59875bc07798f1"
+  },
+  "verify.py": {
+    "bytes": 3215,
+    "sha256": "b03e43fb0918f43c7564653e02a253542245e15baba13c02927adcda36eaa764"
+  },
+  "qa.json": {
+    "bytes": 791,
+    "sha256": "0d0fd41bce2eb517b2822d30445027ef4508b652dd7b7d0601a1222db7368c31"
+  }
+}
