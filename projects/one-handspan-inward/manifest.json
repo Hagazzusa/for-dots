@@ -1,0 +1,42 @@
+{
+  ".gitignore": {
+    "bytes": 27,
+    "sha256": "104d9b4545c1044cb17adf63e6890b2e3555a8e9fe8f6480ca9d4b64bfbaaf5e"
+  },
+  "README.md": {
+    "bytes": 2351,
+    "sha256": "745deb46e8aa755c11f4f1b8c749b415f5abfa0f6393edc4371355b56609afa9"
+  },
+  "poem.txt": {
+    "bytes": 180,
+    "sha256": "da401ee4ca6efc2a84ab83e7454fc05a1426da8078d83a2193f967f0ce1dba30"
+  },
+  "meter.json": {
+    "bytes": 664,
+    "sha256": "84666c30424da7182edd232e5e8454bf02dbdf66b2de6944d4ca432856e56084"
+  },
+  "verify_meter.py": {
+    "bytes": 1044,
+    "sha256": "74717bc117a97c01a61c0a143ee00f1b6b396ce6007976e74fc028d1edec96e4"
+  },
+  "build_pdf.py": {
+    "bytes": 7086,
+    "sha256": "6dc8eadce44e04fb196a179a6ce0165021d9a2a5a834ae547b99632de78e9cab"
+  },
+  "verify.py": {
+    "bytes": 7595,
+    "sha256": "0fa6101eac6f0ad0cee09ce3384d5535688d928e58ae27537d0d4ba8c90ce491"
+  },
+  "qa.json": {
+    "bytes": 3834,
+    "sha256": "ddcc9a34f03168eb1aa93fcc7acc656bace2336a0ad37e826925827627718092"
+  },
+  "output/pdf/One-Handspan-Inward.pdf": {
+    "bytes": 13026,
+    "sha256": "5e12fbb4fc6819a984fea00d4d74acc610be648aff5f57ce95a5d5778c746c0e"
+  },
+  "output/text/One-Handspan-Inward.txt": {
+    "bytes": 180,
+    "sha256": "da401ee4ca6efc2a84ab83e7454fc05a1426da8078d83a2193f967f0ce1dba30"
+  }
+}

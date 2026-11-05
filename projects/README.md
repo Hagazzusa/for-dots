@@ -1,6 +1,6 @@
 # 전체 프로젝트 색인
 
-모든 77개 작품·게임·연구의 정식 원본을 `projects/<kebab-case>/`에서 관리합니다. 최상위 프로젝트 폴더나 날짜별 스냅샷을 중복으로 유지하지 않으며, 이전 버전은 Git 이력에서 찾습니다. 한 프로젝트의 이미지·영상·글·편집 원본은 해당 폴더에서 함께 관리합니다.
+모든 78개 작품·게임·연구의 정식 원본을 `projects/<kebab-case>/`에서 관리합니다. 최상위 프로젝트 폴더나 날짜별 스냅샷을 중복으로 유지하지 않으며, 이전 버전은 Git 이력에서 찾습니다. 한 프로젝트의 이미지·영상·글·편집 원본은 해당 폴더에서 함께 관리합니다.
 
 [전체 저장소 안내](../README.md) · [작품 갤러리](../GALLERY.md) · [세계와 작품의 연결](../WORLD_CONNECTIONS.md)
 
@@ -40,6 +40,7 @@
 | [볕이 돌아온 창턱 · Morning on the Sill](morning-on-the-sill/README.md) | Blender 정물·조명 비교 | 작품 · 동반 연구 | `morning-on-the-sill` |
 | [다음 정거장](next-stop/README.md) | SVG·PNG 가상 승차권 | 작품 | `next-stop` |
 | [그림자가 모르는 것](one-body-two-shadows/README.md) | Blender 가상 조각·투영 | 작품 | `one-body-two-shadows` |
+| [한 뼘 안쪽](one-handspan-inward/README.md) | 시조·PDF·텍스트 | 완성 작품 · 실제 인쇄·낭독 미확인 | `one-handspan-inward` |
 | [문턱에 남은 빛](one-step-lit/README.md) | 영상 구성안·조명 시험 | 구성안 · 완성 영상은 별도 | `one-step-lit` |
 | [한 자리에서만 원](one-view-circle/README.md) | Blender 무음 영상 | 작품 | `one-view-circle` |
 | [원을 지나서 돌아오기](one-view-circle-development/README.md) | Blender 저해상도 영상 | 연구 · 고해상도 제작 보류 | `one-view-circle-development` |

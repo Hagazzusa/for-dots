@@ -14,8 +14,8 @@
     },
     {
       "path": "GALLERY.md",
-      "size": 29128,
-      "sha256": "54cac12886943fa1dadf271568accdbec3269b710de851edbff86f83d991bfe2"
+      "size": 29556,
+      "sha256": "4f0e50b3733b1ac11d16f2c60174a83d197f0b1d37fc52a291ae82b6809c0353"
     },
     {
       "path": "GIT_ENVIRONMENT_CHECK.md",
@@ -24,8 +24,8 @@
     },
     {
       "path": "README.md",
-      "size": 36162,
-      "sha256": "c2e42be6ea0652b30df14a51b49c98f15d47a9303ce67b0e5146c172cc985251"
+      "size": 36727,
+      "sha256": "76ecb2b4cae2bb6ec6de9b0e7cd73c6370273a953ccc71ceb8460671fcfe64e8"
     },
     {
       "path": "WORLD_CONNECTIONS.md",
@@ -49,8 +49,8 @@
     },
     {
       "path": "projects/README.md",
-      "size": 11611,
-      "sha256": "fb530a96479492a1ad5af629c5fed5b3c9252a31073c468e590966164419ed39"
+      "size": 11763,
+      "sha256": "8d28290bac381d3d9082ccced38554adfeabfc3c4b86b1c5ed71c932599f83b9"
     },
     {
       "path": "projects/VERIFICATION.md",
@@ -4431,6 +4431,61 @@
       "path": "projects/one-body-two-shadows/verify_delivery.py",
       "size": 2329,
       "sha256": "224193396778dd27a6165af465abd42745d94ea1f2c486a23962dade1fb8b7c3"
+    },
+    {
+      "path": "projects/one-handspan-inward/.gitignore",
+      "size": 27,
+      "sha256": "104d9b4545c1044cb17adf63e6890b2e3555a8e9fe8f6480ca9d4b64bfbaaf5e"
+    },
+    {
+      "path": "projects/one-handspan-inward/README.md",
+      "size": 2351,
+      "sha256": "745deb46e8aa755c11f4f1b8c749b415f5abfa0f6393edc4371355b56609afa9"
+    },
+    {
+      "path": "projects/one-handspan-inward/build_pdf.py",
+      "size": 7086,
+      "sha256": "6dc8eadce44e04fb196a179a6ce0165021d9a2a5a834ae547b99632de78e9cab"
+    },
+    {
+      "path": "projects/one-handspan-inward/manifest.json",
+      "size": 1278,
+      "sha256": "18fd9e6aab2497c6189773154353fd167e2b9173d0fdfbc98483234c81a3f2ca"
+    },
+    {
+      "path": "projects/one-handspan-inward/meter.json",
+      "size": 664,
+      "sha256": "84666c30424da7182edd232e5e8454bf02dbdf66b2de6944d4ca432856e56084"
+    },
+    {
+      "path": "projects/one-handspan-inward/output/pdf/One-Handspan-Inward.pdf",
+      "size": 13026,
+      "sha256": "5e12fbb4fc6819a984fea00d4d74acc610be648aff5f57ce95a5d5778c746c0e"
+    },
+    {
+      "path": "projects/one-handspan-inward/output/text/One-Handspan-Inward.txt",
+      "size": 180,
+      "sha256": "da401ee4ca6efc2a84ab83e7454fc05a1426da8078d83a2193f967f0ce1dba30"
+    },
+    {
+      "path": "projects/one-handspan-inward/poem.txt",
+      "size": 180,
+      "sha256": "da401ee4ca6efc2a84ab83e7454fc05a1426da8078d83a2193f967f0ce1dba30"
+    },
+    {
+      "path": "projects/one-handspan-inward/qa.json",
+      "size": 3834,
+      "sha256": "ddcc9a34f03168eb1aa93fcc7acc656bace2336a0ad37e826925827627718092"
+    },
+    {
+      "path": "projects/one-handspan-inward/verify.py",
+      "size": 7595,
+      "sha256": "0fa6101eac6f0ad0cee09ce3384d5535688d928e58ae27537d0d4ba8c90ce491"
+    },
+    {
+      "path": "projects/one-handspan-inward/verify_meter.py",
+      "size": 1044,
+      "sha256": "74717bc117a97c01a61c0a143ee00f1b6b396ce6007976e74fc028d1edec96e4"
     },
     {
       "path": "projects/one-step-lit/01-light-off.png",

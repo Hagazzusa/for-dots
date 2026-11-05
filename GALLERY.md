@@ -385,6 +385,8 @@ A와 B를 반대 방향으로 함께 움직이는 1인용 종이 퍼즐 세 문�
 
 시각 작품과 별도로 읽고 들을 수 있는 작업입니다. 악보의 실연·녹음 여부는 각 항목에 표시합니다.
 
+- [한 뼘 안쪽 · 한 쪽 PDF](projects/one-handspan-inward/output/pdf/One-Handspan-Inward.pdf): 엘리베이터의 닫힘 버튼과 바깥에서 들어오는 손, 안쪽으로 옮기는 뒤꿈치를 담은 시조 한 수. [텍스트](projects/one-handspan-inward/output/text/One-Handspan-Inward.txt)와 [원문·형식·제작 안내](projects/one-handspan-inward/README.md). 실제 낭독은 확인하지 않았습니다.
+
 - [의자 두 개 · 4쪽 PDF](projects/two-chairs/output/pdf/Two-Chairs.pdf): 이삿날 중고 식탁을 가져가러 온 사람 앞에서 의자의 주인을 다르게 기억하는 두 룸메이트의 짧은 소설. [텍스트](projects/two-chairs/output/text/Two-Chairs.txt)와 [원문·제작 안내](projects/two-chairs/README.md)를 함께 보존합니다.
 
 - [여섯 번의 한 줄 · 한 쪽 악보 PDF](projects/six-pass-line/output/pdf/Six-Passes-One-Line.pdf): 연필을 떼지 않고 같은 선을 여섯 번 되짚는 **실연 전 악보**입니다. 여섯 구절·48박의 배치와 인쇄 간격을 검사했으며 실제 실연·청취·손의 편안함은 확인하지 않았고 녹음 결과물도 없습니다. [원본·제작과 검증 범위](projects/six-pass-line/README.md).
