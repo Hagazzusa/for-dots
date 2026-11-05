@@ -347,6 +347,8 @@ Blender 4.3.2의 실제 렌더. 원본 장면과 형상·투영 검사, 영역�
 
 시각 작품과 별도로 읽고 들을 수 있는 완성 작업입니다.
 
+- [대답 앞에서 · 3쪽 PDF](projects/before-the-answer/output/pdf/Before-the-Answer.pdf): 같은 녹음을 듣고도 남기고 싶은 부분이 다른 자녀와 어머니의 짧은 소설. [텍스트](projects/before-the-answer/output/text/Before-the-Answer.txt)와 [원고·제작 안내](projects/before-the-answer/README.md)를 함께 보존합니다.
+
 - [통째로 · 한 쪽 PDF](projects/whole-watermelon/Whole-Watermelon.pdf): 수박을 냉장고에 넣으라는 명령형으로 이루어진 짧은 낭독문. [텍스트](projects/whole-watermelon/Whole-Watermelon.txt)와 [제작 안내](projects/whole-watermelon/README.md)도 있습니다.
 
 - [불을 끄는 순서](projects/lights-out-order/story.md): 《마지막 우산》에서 이어 쓴 독립 단편.

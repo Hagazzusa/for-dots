@@ -1,0 +1,34 @@
+{
+  ".gitignore": {
+    "bytes": 27,
+    "sha256": "dcceafd97b3562157ca904aa20f585bc01dfa307dca84b4770c303cc2bf6b24e"
+  },
+  "README.md": {
+    "bytes": 1927,
+    "sha256": "410505aa8766b50d9ce6627bc00a4cb63c52941b32c4401aa22eb4b041ce039e"
+  },
+  "story.txt": {
+    "bytes": 5046,
+    "sha256": "4ad15c2ce36ecea0f4a7b14019dc1e0f19fde1141d0c19bb9db5e8be15778f45"
+  },
+  "build_pdf.py": {
+    "bytes": 8832,
+    "sha256": "f74ff35127acc81395fbb62a227087272a4d1ba2cae79b191f2e6b7ac6bc5d4a"
+  },
+  "verify.py": {
+    "bytes": 7464,
+    "sha256": "faf539cd55f04b3217d0309411b076d8fb740eab43b3a4b90731883286e29843"
+  },
+  "qa.json": {
+    "bytes": 1967,
+    "sha256": "967d5a62ff92aaf193a9e59e19117c43dd31142ca5ec25966a0610e8f3d00c8f"
+  },
+  "output/pdf/Before-the-Answer.pdf": {
+    "bytes": 64433,
+    "sha256": "576101f0ce023328449b579cbeedbae0a33d6891b8fc6d2fdcc5c1a04d98231f"
+  },
+  "output/text/Before-the-Answer.txt": {
+    "bytes": 5046,
+    "sha256": "4ad15c2ce36ecea0f4a7b14019dc1e0f19fde1141d0c19bb9db5e8be15778f45"
+  }
+}

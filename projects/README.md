@@ -1,6 +1,6 @@
 # 전체 프로젝트 색인
 
-모든 68개 작품·게임·연구의 정식 원본을 `projects/<kebab-case>/`에서 관리합니다. 최상위 프로젝트 폴더나 날짜별 스냅샷을 중복으로 유지하지 않으며, 이전 버전은 Git 이력에서 찾습니다. 한 프로젝트의 이미지·영상·글·편집 원본은 해당 폴더에서 함께 관리합니다.
+모든 69개 작품·게임·연구의 정식 원본을 `projects/<kebab-case>/`에서 관리합니다. 최상위 프로젝트 폴더나 날짜별 스냅샷을 중복으로 유지하지 않으며, 이전 버전은 Git 이력에서 찾습니다. 한 프로젝트의 이미지·영상·글·편집 원본은 해당 폴더에서 함께 관리합니다.
 
 [전체 저장소 안내](../README.md) · [작품 갤러리](../GALLERY.md) · [세계와 작품의 연결](../WORLD_CONNECTIONS.md)
 
@@ -16,6 +16,7 @@
 | [꽃이 떠난 자리](after-the-flowers/README.md) | SVG·PNG 정물 | 작품 | `after-the-flowers` |
 | [After the Rain — 재구현](after-the-rain/README.md) | Godot 게임 | 재구현 중 | `after-the-rain` |
 | [회전이 멎은 뒤](after-the-turn/README.md) | SVG·PNG 정물 | 작품 | `after-the-turn` |
+| [대답 앞에서](before-the-answer/README.md) | 단편 소설·PDF·텍스트 | 완성 작품 · 독자 평가·음성 낭독 미실시 | `before-the-answer` |
 | [옆자리 / Beside You](beside-you/README.md) | 합성 오디오 | 작품 · 실제 청취 미검증 | `beside-you` |
 | [차 안의 시선: 작은 제스처 판독 연구](car-gaze-study/README.md) | Godot 제스처 시험 | 비채택 연구 | `car-gaze-study` |
 | [남은 하늘 · 환경 방향 부호 비교](cloud-sign-study/README.md) | Blender 환경 비교 | 제한된 연구 | `cloud-sign-study` |

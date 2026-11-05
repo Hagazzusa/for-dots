@@ -13,6 +13,7 @@
 
 | 프로젝트 | 시작 안내 | 실행 환경 |
 |---|---|---|
+| **대답 앞에서** — 같은 녹음에서 남기고 싶은 부분이 다른 자녀와 어머니 | [3쪽 PDF](projects/before-the-answer/output/pdf/Before-the-Answer.pdf) · [텍스트](projects/before-the-answer/output/text/Before-the-Answer.txt) · [원고·제작 안내](projects/before-the-answer/README.md) | 완성된 짧은 소설. Python·ReportLab·Noto Serif CJK로 읽기용 PDF를 만들었습니다. 텍스트·페이지 경계·재현을 검사했으며 독자 대상 평가와 음성 낭독은 수행하지 않았습니다. |
 | **한 칸의 둘레** — 한글 음절 한 칸씩 바뀌며 이어지는 26개 낱말 | [글자 그림](projects/word-ring/Word-Ring.png) · [벡터 PDF](projects/word-ring/Word-Ring.pdf) · [원본·재현 안내](projects/word-ring/README.md) | Python·fontTools·ReportLab·PyMuPDF·Pillow·Poppler. PDF는 글꼴을, SVG는 윤곽선을 포함합니다. 선택한 낱말 고리의 규칙·배치를 검사한 작품이며 전체 낱말 탐색이나 독자 실험은 아닙니다. |
 | **통째로** — 수박 하나를 냉장고에 넣으라는 명령과 두 손의 어긋남 | [한 쪽 PDF](projects/whole-watermelon/Whole-Watermelon.pdf) · [텍스트](projects/whole-watermelon/Whole-Watermelon.txt) · [작품·제작 안내](projects/whole-watermelon/README.md) | 완성된 짧은 낭독문. Python·ReportLab·Noto Serif CJK로 읽기용 PDF를 제작했습니다. 실용적인 가전 안내가 아니며 실제 낭독·동작 공연은 평가하지 않았습니다. |
 | **가벼운 쪽의 거리** — 네 조각이 돌며 모였다가 벌어지는 모빌 | [16초 영상](projects/the-lighter-side/The-Lighter-Side.mp4) · [정지 이미지](projects/the-lighter-side/The-Lighter-Side.png) · [원본·재현 안내](projects/the-lighter-side/README.md) | Python·NumPy·SciPy·Pillow·FFmpeg. 직접 만든 깊이 버퍼 렌더러의 800×800, 24fps 무음 영상. 정적 균형·표본 간섭 검사이며 실제 동역학이나 제작 안전 검증은 아닙니다. |
@@ -55,7 +56,7 @@
 
 ## 프로젝트 배치와 기록
 
-모든 작품·게임·연구의 정식 경로는 `projects/<kebab-case>/`입니다. [전체 65개 프로젝트 색인](projects/README.md)에서 작품·시제품·연구를 구분해 찾을 수 있습니다. 기존 최상위 폴더와 날짜별 보관본은 중복으로 남기지 않습니다. 이전 경로 보존 예외는 철회했으며, 과거 버전은 Git 이력에서 확인합니다.
+모든 작품·게임·연구의 정식 경로는 `projects/<kebab-case>/`입니다. [전체 69개 프로젝트 색인](projects/README.md)에서 작품·시제품·연구를 구분해 찾을 수 있습니다. 기존 최상위 폴더와 날짜별 보관본은 중복으로 남기지 않습니다. 이전 경로 보존 예외는 철회했으며, 과거 버전은 Git 이력에서 확인합니다.
 
 ## 새로 정리한 작품과 연구
 

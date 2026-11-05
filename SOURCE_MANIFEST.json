@@ -14,8 +14,8 @@
     },
     {
       "path": "GALLERY.md",
-      "size": 24547,
-      "sha256": "35b1fb0cbdcf1bf65a5f9f62a298b068a67bd1e5ff44f9beb838bdc12abd103c"
+      "size": 24908,
+      "sha256": "cb57ab469bbec36805dd0e271f4322ee4abebbf72973dc76c0d35f6be7e4b8f1"
     },
     {
       "path": "GIT_ENVIRONMENT_CHECK.md",
@@ -24,8 +24,8 @@
     },
     {
       "path": "README.md",
-      "size": 31880,
-      "sha256": "4977e6eeb8a55b50bf99d689a7850f06d9ea7e4728a0fc7018270545a625f911"
+      "size": 32426,
+      "sha256": "20f0426a3eb57765932f486ad02382cccdc0121060726121cb9e9c4f03a5b536"
     },
     {
       "path": "WORLD_CONNECTIONS.md",
@@ -49,8 +49,8 @@
     },
     {
       "path": "projects/README.md",
-      "size": 10177,
-      "sha256": "50b20f95b1183add6a0700fe28f4a508612a732af160e0ed0ad7740b3461bcee"
+      "size": 10341,
+      "sha256": "5b4589f224f48adf1fe9ec309afa347d0c43bb70431ba8e26bd892fc5a5691de"
     },
     {
       "path": "projects/VERIFICATION.md",
@@ -2781,6 +2781,51 @@
       "path": "projects/after-the-turn/verification.json",
       "size": 1107,
       "sha256": "f7cd52160cdde519f790d6fe3b9a6c68dcabdd1b72c6259fee80ebfcead184e2"
+    },
+    {
+      "path": "projects/before-the-answer/.gitignore",
+      "size": 27,
+      "sha256": "dcceafd97b3562157ca904aa20f585bc01dfa307dca84b4770c303cc2bf6b24e"
+    },
+    {
+      "path": "projects/before-the-answer/README.md",
+      "size": 1927,
+      "sha256": "410505aa8766b50d9ce6627bc00a4cb63c52941b32c4401aa22eb4b041ce039e"
+    },
+    {
+      "path": "projects/before-the-answer/build_pdf.py",
+      "size": 8832,
+      "sha256": "f74ff35127acc81395fbb62a227087272a4d1ba2cae79b191f2e6b7ac6bc5d4a"
+    },
+    {
+      "path": "projects/before-the-answer/manifest.json",
+      "size": 1027,
+      "sha256": "ad220a14d9f38fedf3aee26f7d9d7a669198e1b62a00b45118dd10797ad88822"
+    },
+    {
+      "path": "projects/before-the-answer/output/pdf/Before-the-Answer.pdf",
+      "size": 64433,
+      "sha256": "576101f0ce023328449b579cbeedbae0a33d6891b8fc6d2fdcc5c1a04d98231f"
+    },
+    {
+      "path": "projects/before-the-answer/output/text/Before-the-Answer.txt",
+      "size": 5046,
+      "sha256": "4ad15c2ce36ecea0f4a7b14019dc1e0f19fde1141d0c19bb9db5e8be15778f45"
+    },
+    {
+      "path": "projects/before-the-answer/qa.json",
+      "size": 1967,
+      "sha256": "967d5a62ff92aaf193a9e59e19117c43dd31142ca5ec25966a0610e8f3d00c8f"
+    },
+    {
+      "path": "projects/before-the-answer/story.txt",
+      "size": 5046,
+      "sha256": "4ad15c2ce36ecea0f4a7b14019dc1e0f19fde1141d0c19bb9db5e8be15778f45"
+    },
+    {
+      "path": "projects/before-the-answer/verify.py",
+      "size": 7464,
+      "sha256": "faf539cd55f04b3217d0309411b076d8fb740eab43b3a4b90731883286e29843"
     },
     {
       "path": "projects/beside-you/README.md",
