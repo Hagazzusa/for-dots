@@ -1,6 +1,6 @@
 # 전체 프로젝트 색인
 
-모든 69개 작품·게임·연구의 정식 원본을 `projects/<kebab-case>/`에서 관리합니다. 최상위 프로젝트 폴더나 날짜별 스냅샷을 중복으로 유지하지 않으며, 이전 버전은 Git 이력에서 찾습니다. 한 프로젝트의 이미지·영상·글·편집 원본은 해당 폴더에서 함께 관리합니다.
+모든 70개 작품·게임·연구의 정식 원본을 `projects/<kebab-case>/`에서 관리합니다. 최상위 프로젝트 폴더나 날짜별 스냅샷을 중복으로 유지하지 않으며, 이전 버전은 Git 이력에서 찾습니다. 한 프로젝트의 이미지·영상·글·편집 원본은 해당 폴더에서 함께 관리합니다.
 
 [전체 저장소 안내](../README.md) · [작품 갤러리](../GALLERY.md) · [세계와 작품의 연결](../WORLD_CONNECTIONS.md)
 
@@ -31,6 +31,7 @@
 | [Glass Refuge — 상호작용형 건축 연구](glass-refuge-viewer/README.md) | Godot 3D 뷰어 | 독립 뷰어 | `glass-refuge-viewer` |
 | [Glass Refuge — 목재 알베도 전사 비교 (512 / 1024)](glass-refuge-wood-transfer/README.md) | Blender·Godot 재질 비교 | 기술 연구 | `glass-refuge-wood-transfer` |
 | [반쯤 덮어 둔 저녁](half-covered-evening/README.md) | 짧은 소설·Markdown | 독립 동반 작품 | `half-covered-evening` |
+| [띠 매듭 형태 연구](held-bend/README.md) | SVG·PNG 형태 비교 | 보류 연구 · 완성 작품·최종안 아님 | `held-bend` |
 | [마지막 우산](last-umbrella/README.md) | Blender 정물 | 작품 | `last-umbrella` |
 | [불을 끄는 순서](lights-out-order/README.md) | 짧은 소설 | 독립 동반 작품 | `lights-out-order` |
 | [저울을 덮어 둔 밤](market-scale/README.md) | SVG·PNG 정물 | 작품 | `market-scale` |

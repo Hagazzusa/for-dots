@@ -24,8 +24,8 @@
     },
     {
       "path": "README.md",
-      "size": 32426,
-      "sha256": "20f0426a3eb57765932f486ad02382cccdc0121060726121cb9e9c4f03a5b536"
+      "size": 32817,
+      "sha256": "ecd582da2f16233f2a0c23e2ce974edfdad440ba1f70656fa5b3da9da083364c"
     },
     {
       "path": "WORLD_CONNECTIONS.md",
@@ -49,8 +49,8 @@
     },
     {
       "path": "projects/README.md",
-      "size": 10341,
-      "sha256": "5b4589f224f48adf1fe9ec309afa347d0c43bb70431ba8e26bd892fc5a5691de"
+      "size": 10483,
+      "sha256": "261efb8fd9fde746dc9e70f4f397f924f0f7e556c6ffe26ec83dc958a465381d"
     },
     {
       "path": "projects/VERIFICATION.md",
@@ -3806,6 +3806,61 @@
       "path": "projects/half-covered-evening/story.md",
       "size": 983,
       "sha256": "8d783d39b703dfa94e6656155d986ac0e7a1856e04574998ac91e534a7fc699f"
+    },
+    {
+      "path": "projects/held-bend/.gitignore",
+      "size": 27,
+      "sha256": "8ee3c936793b4e40893093665c9ea38d356f5c670164853730f7e33ad1d232bf"
+    },
+    {
+      "path": "projects/held-bend/README.md",
+      "size": 2827,
+      "sha256": "9719b65d84ffc4553160dd5a9a2e12a56250ddbda1c74828747fb82cfb3319fb"
+    },
+    {
+      "path": "projects/held-bend/build.py",
+      "size": 3812,
+      "sha256": "5c3659f7e8e92a675ffebeff1aa7ef38fadf18ee89008b35e811d34f7a20ecc8"
+    },
+    {
+      "path": "projects/held-bend/manifest.json",
+      "size": 1286,
+      "sha256": "42e27ac6d704d9ba1fffc644414e74b4bcff6678430afe607c1bf1472f2d4966"
+    },
+    {
+      "path": "projects/held-bend/output/comparison.png",
+      "size": 178247,
+      "sha256": "cab2260d68f302bbd96d6a07f47c7a8f9b975f2d0048a96b08d8ab69ef2861cb"
+    },
+    {
+      "path": "projects/held-bend/output/comparison.svg",
+      "size": 1821428,
+      "sha256": "6b05ceae5681cdcea605e288717d777718cf1e53698f7bef91234af0a25acc91"
+    },
+    {
+      "path": "projects/held-bend/output/variant-1.svg",
+      "size": 607102,
+      "sha256": "99bef0773721b2f05fa4ddcf3fe5acbc062d21d87811b87bf04223ca3503e229"
+    },
+    {
+      "path": "projects/held-bend/output/variant-2.svg",
+      "size": 607102,
+      "sha256": "291f91ed266779dfb0d232d52c09096be7f0a6d03ff48d8f109084ca45706873"
+    },
+    {
+      "path": "projects/held-bend/output/variant-3.svg",
+      "size": 607102,
+      "sha256": "2c3e5eceeeeaad187269596aa59a897a037c665a7aa76a9bde927f8f129c2ed7"
+    },
+    {
+      "path": "projects/held-bend/qa.json",
+      "size": 827,
+      "sha256": "e18e90de18da2b3620b89058a2800e6c5e09ff716bdec531e954b4d187118b13"
+    },
+    {
+      "path": "projects/held-bend/verify.py",
+      "size": 1245,
+      "sha256": "b2f1143715b28006a9fd9e73a0a5c6c4e9e981f9a504fab04bd7fb788653d92d"
     },
     {
       "path": "projects/last-umbrella/.gitignore",
