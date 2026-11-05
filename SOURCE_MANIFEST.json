@@ -24,8 +24,8 @@
     },
     {
       "path": "README.md",
-      "size": 35732,
-      "sha256": "bb634ae75f0fb565ec3538ff5677eadeaa0c95af8f986ee843b2d6adf8496474"
+      "size": 36162,
+      "sha256": "c2e42be6ea0652b30df14a51b49c98f15d47a9303ce67b0e5146c172cc985251"
     },
     {
       "path": "WORLD_CONNECTIONS.md",
@@ -49,8 +49,8 @@
     },
     {
       "path": "projects/README.md",
-      "size": 11446,
-      "sha256": "b046b5646e3ee658efbb3f022f6b9cd610685a6cce0e7ec06ad0c0faeab69f29"
+      "size": 11611,
+      "sha256": "fb530a96479492a1ad5af629c5fed5b3c9252a31073c468e590966164419ed39"
     },
     {
       "path": "projects/VERIFICATION.md",
@@ -3806,6 +3806,121 @@
       "path": "projects/half-covered-evening/story.md",
       "size": 983,
       "sha256": "8d783d39b703dfa94e6656155d986ac0e7a1856e04574998ac91e534a7fc699f"
+    },
+    {
+      "path": "projects/hanging-lines/.gitignore",
+      "size": 27,
+      "sha256": "8ee3c936793b4e40893093665c9ea38d356f5c670164853730f7e33ad1d232bf"
+    },
+    {
+      "path": "projects/hanging-lines/README.md",
+      "size": 3725,
+      "sha256": "2a5627985f96e09a8f863df44b5a65215bc3b4ec38edc1a10adccb3fde612b1f"
+    },
+    {
+      "path": "projects/hanging-lines/build.py",
+      "size": 835,
+      "sha256": "1171df08bdca619302d31f9fd0a2be4f09deacc0051b60900af456f05da199e0"
+    },
+    {
+      "path": "projects/hanging-lines/build_cut.py",
+      "size": 2261,
+      "sha256": "ce00a655a7f7ab14dd7f694c0fa3e1c86441bc6bc66d2f6c859825dcb9b463c6"
+    },
+    {
+      "path": "projects/hanging-lines/build_lines.py",
+      "size": 1404,
+      "sha256": "d6a696f4812073e4857a09ddc44a41919c972d6fd94e6571de877f4c55f8504b"
+    },
+    {
+      "path": "projects/hanging-lines/manifest.json",
+      "size": 2836,
+      "sha256": "17bd5c2e7e8e529abe8b6a85c8568f4e05b3ee9fb6facc64a3816372f7ca5da9"
+    },
+    {
+      "path": "projects/hanging-lines/output/comparison.png",
+      "size": 615155,
+      "sha256": "e871b19e586a562159ed8ed1d7e0d8afdd8397e5f3593358344616ec2acc3d84"
+    },
+    {
+      "path": "projects/hanging-lines/output/cut-1.png",
+      "size": 67274,
+      "sha256": "c0f4f1f07d07b2b8e0661c3cd167dd3e5fdf17749a32c3416f751de81bd958c3"
+    },
+    {
+      "path": "projects/hanging-lines/output/cut-1.svg",
+      "size": 6840,
+      "sha256": "ab63b4bef36de29b2558bc3e1644b6d31ad494eca13a19a0c8aac00dad534a5b"
+    },
+    {
+      "path": "projects/hanging-lines/output/cut-2.png",
+      "size": 41040,
+      "sha256": "40025e42d92a4fb3b9c9edf1993d22fd98ad551bb6259cbe875e2e20239e1445"
+    },
+    {
+      "path": "projects/hanging-lines/output/cut-2.svg",
+      "size": 6840,
+      "sha256": "5ba14e146e6a50512e99c2570718732853c95e7ec9a35dde7b0cfa1744982e06"
+    },
+    {
+      "path": "projects/hanging-lines/output/cut-3.png",
+      "size": 24636,
+      "sha256": "f7e147fb87d38ef908e04c1b64eb1a54ba72ccfc23da6d42907f7d512f4f8519"
+    },
+    {
+      "path": "projects/hanging-lines/output/cut-3.svg",
+      "size": 6840,
+      "sha256": "c62b2ab6b7cf8be1a084e2dd99021e47574ece751467b2298fbf1b49a9667323"
+    },
+    {
+      "path": "projects/hanging-lines/output/cut_check.json",
+      "size": 92,
+      "sha256": "eddcfd60deaa1732c15f6e427cacbd7e29c3feb6d3a4362472a6f863c10f3cac"
+    },
+    {
+      "path": "projects/hanging-lines/output/cut_motion.npz",
+      "size": 3660,
+      "sha256": "815d909af8333f97db589a809629f0b3181a8b8c0b139aca6e990bd165692c20"
+    },
+    {
+      "path": "projects/hanging-lines/output/study-1.png",
+      "size": 270021,
+      "sha256": "ef789cf6591cdf207a55a927e8cfaf425bbb86c770c59174a115b6678291fbdc"
+    },
+    {
+      "path": "projects/hanging-lines/output/study-1.svg",
+      "size": 314174,
+      "sha256": "65d0bcac4a460800ec78a9de7119037f5f0340934a29d308d471b5dee9fb6520"
+    },
+    {
+      "path": "projects/hanging-lines/output/study-2.png",
+      "size": 173750,
+      "sha256": "f419555c7752ef91db2e77e2ed2ccbc2fd138a7d7211c08516c43c34a0fe94a6"
+    },
+    {
+      "path": "projects/hanging-lines/output/study-2.svg",
+      "size": 182372,
+      "sha256": "59d3a6347906091af5bc8ab8b89bf713b46b979bf2851729a156ae93a9b8bb56"
+    },
+    {
+      "path": "projects/hanging-lines/output/study-3.png",
+      "size": 416061,
+      "sha256": "8934e7d196198e25c42e3328c84b5fd4d07357f0cc9363614effbb57d69fe4e8"
+    },
+    {
+      "path": "projects/hanging-lines/output/study-3.svg",
+      "size": 457507,
+      "sha256": "3b8324979445aa537b3bfbf1091b681d8a52b0880377af1f71b3b620eb5f6571"
+    },
+    {
+      "path": "projects/hanging-lines/qa.json",
+      "size": 402,
+      "sha256": "6a9aba60f3f9387e8a9328b4225ed39c1dd872326432d2c8274a3e235009cfcc"
+    },
+    {
+      "path": "projects/hanging-lines/verify.py",
+      "size": 2004,
+      "sha256": "7b47cf931aed8228f644c367cecc2bf29782db6ba0da3c9f389ef61ac783928d"
     },
     {
       "path": "projects/held-bend/.gitignore",

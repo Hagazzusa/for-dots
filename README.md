@@ -13,6 +13,7 @@
 
 | 프로젝트 | 시작 안내 | 실행 환경 |
 |---|---|---|
+| **매달린 선 · 보류 연구** — 평행선의 밀도·삭제와 가운데를 나눈 줄의 시점 비교 | [연구·비교·재현 범위](projects/hanging-lines/README.md) | Python·NumPy·SciPy·Pillow·Inkscape. 완성 작품으로 선정하지 않았습니다. A는 투영 도형, B는 길이 제약을 적용한 수치 드로잉이며 독립 역학 검증·실제 끈의 물성 검증을 마치지 않았습니다. |
 | **낮은 모서리** — 비 그친 시장에서 천막의 물을 빼는 두 사람 | [이미지](projects/the-low-corner/The-Low-Corner.png) · [생성 지시문·검사 안내](projects/the-low-corner/README.md) | 이미지 생성 도구로 만든 디지털 회화. PNG 원본·프롬프트·읽기 전용 검사를 보존합니다. 프롬프트는 동일 픽셀 재생성을 보장하는 코드가 아닙니다. |
 | **의자 두 개** — 이삿날 의자의 주인을 다르게 기억하는 두 룸메이트 | [4쪽 PDF](projects/two-chairs/output/pdf/Two-Chairs.pdf) · [텍스트](projects/two-chairs/output/text/Two-Chairs.txt) · [원문·제작 안내](projects/two-chairs/README.md) | 완성된 짧은 소설. 원문·글꼴·페이지 경계 및 재생성 PDF·TXT를 검사했습니다. 실제 인쇄물과 모든 뷰어의 표시는 별도 확인 범위입니다. |
 | **번갈아 쉬는 동안** — 두 진자의 흔들림이 옮겨갔다 돌아오는 20초 무성 장면 | [영상](projects/taking-turns-at-rest/Taking-Turns-at-Rest.mp4) · [정지 이미지](projects/taking-turns-at-rest/Taking-Turns-at-Rest.png) · [모델·제작·검증](projects/taking-turns-at-rest/README.md) | Python·NumPy·SciPy·Pillow·FFmpeg. 비선형 평면 진자 모델의 480개 표본을 그렸습니다. 실물 설계·안전 검증이 아니며 정상 속도 육안 재생과 실제 장치 실험은 하지 않았습니다. |
@@ -63,7 +64,7 @@
 
 ## 프로젝트 배치와 기록
 
-모든 작품·게임·연구의 정식 경로는 `projects/<kebab-case>/`입니다. [전체 76개 프로젝트 색인](projects/README.md)에서 작품·시제품·연구를 구분해 찾을 수 있습니다. 기존 최상위 폴더와 날짜별 보관본은 중복으로 남기지 않습니다. 이전 경로 보존 예외는 철회했으며, 과거 버전은 Git 이력에서 확인합니다.
+모든 작품·게임·연구의 정식 경로는 `projects/<kebab-case>/`입니다. [전체 77개 프로젝트 색인](projects/README.md)에서 작품·시제품·연구를 구분해 찾을 수 있습니다. 기존 최상위 폴더와 날짜별 보관본은 중복으로 남기지 않습니다. 이전 경로 보존 예외는 철회했으며, 과거 버전은 Git 이력에서 확인합니다.
 
 ## 새로 정리한 작품과 연구
 
