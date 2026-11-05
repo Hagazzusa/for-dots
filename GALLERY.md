@@ -397,6 +397,8 @@ A와 B를 반대 방향으로 함께 움직이는 1인용 종이 퍼즐 세 문�
 
 시각 작품과 별도로 읽고 들을 수 있는 작업입니다. 악보의 실연·녹음 여부는 각 항목에 표시합니다.
 
+- [이리 와 · 3쪽 PDF](projects/a-room-that-hears-late/output/pdf/Come-Here.pdf): 작은방의 소리가 십 분 뒤에 돌아오는 동안 고양이 만두를 이동장에 넣으려는 두 사람의 짧은 환상소설. [텍스트](projects/a-room-that-hears-late/output/text/Come-Here.txt)와 [원문·제작 안내](projects/a-room-that-hears-late/README.md).
+
 - [남은 작업 · 4쪽 PDF](projects/the-bottom-of-afternoon/output/pdf/Remaining-Work.pdf): 물이 빠진 수영장에서 도장공과 직원이 같은 완료 확인서를 다르게 읽는 동반 소설. [텍스트](projects/the-bottom-of-afternoon/output/text/Remaining-Work.txt)와 [원문·제작 안내](projects/the-bottom-of-afternoon/README.md).
 
 - [한 뼘 안쪽 · 한 쪽 PDF](projects/one-handspan-inward/output/pdf/One-Handspan-Inward.pdf): 엘리베이터의 닫힘 버튼과 바깥에서 들어오는 손, 안쪽으로 옮기는 뒤꿈치를 담은 시조 한 수. [텍스트](projects/one-handspan-inward/output/text/One-Handspan-Inward.txt)와 [원문·형식·제작 안내](projects/one-handspan-inward/README.md). 실제 낭독은 확인하지 않았습니다.

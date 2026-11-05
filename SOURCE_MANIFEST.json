@@ -14,8 +14,8 @@
     },
     {
       "path": "GALLERY.md",
-      "size": 30853,
-      "sha256": "ed55935ee6f7e9550463e0b30f89353abf3df73e9b1b989b45e3ed75a6196d3f"
+      "size": 31221,
+      "sha256": "5249c1f44361242e1f285fb6f64c07f326e2840ae36c81238ae1ce4ae7e2c037"
     },
     {
       "path": "GIT_ENVIRONMENT_CHECK.md",
@@ -24,8 +24,8 @@
     },
     {
       "path": "README.md",
-      "size": 37308,
-      "sha256": "ed53b784678fe04fa6a042d7dbe34be0fcf6b514cd4f021b8a58cfae11dc6418"
+      "size": 37824,
+      "sha256": "33b2be2adf4a44eb92b92051e80d99a79f518984e7db207f0bf7155dbb19221b"
     },
     {
       "path": "WORLD_CONNECTIONS.md",
@@ -49,8 +49,8 @@
     },
     {
       "path": "projects/README.md",
-      "size": 11939,
-      "sha256": "8d0dcfb7560bc3e5dc6c1fe82d9a12bd3a50d061c7b7940f9e706de37a2a0d65"
+      "size": 12099,
+      "sha256": "43597e8a4ef3158bc4516221e53239876d6c274133e50735a2651f094c522215"
     },
     {
       "path": "projects/VERIFICATION.md",
@@ -296,6 +296,51 @@
       "path": "projects/a-place-to-pause/verify_stop.py",
       "size": 3450,
       "sha256": "52e19dcd9c8424c81a8298f0bf68f1ec4faf85abc70858cfcaa3a561d6b02bc1"
+    },
+    {
+      "path": "projects/a-room-that-hears-late/.gitignore",
+      "size": 27,
+      "sha256": "104d9b4545c1044cb17adf63e6890b2e3555a8e9fe8f6480ca9d4b64bfbaaf5e"
+    },
+    {
+      "path": "projects/a-room-that-hears-late/README.md",
+      "size": 2225,
+      "sha256": "64d09c30035e3377526a0506222a025eecd9998e59e388fb8b3c20c2ac4a0580"
+    },
+    {
+      "path": "projects/a-room-that-hears-late/build_pdf.py",
+      "size": 9692,
+      "sha256": "1307df672dc22b5cc51aa36a7a7356451605ec8d8a384b402d2fbc577da71544"
+    },
+    {
+      "path": "projects/a-room-that-hears-late/manifest.json",
+      "size": 1012,
+      "sha256": "995d8a4234259d156170ad41f69aae8b70d13b6275428a92f7c08246ab247985"
+    },
+    {
+      "path": "projects/a-room-that-hears-late/output/pdf/Come-Here.pdf",
+      "size": 73941,
+      "sha256": "18b0e5b5e7226f6fed445ae38aa016250f3bd8297aa45d0fa0aa0b92d04ef6b0"
+    },
+    {
+      "path": "projects/a-room-that-hears-late/output/text/Come-Here.txt",
+      "size": 5807,
+      "sha256": "debe99da8672b082e8d07368166b4710fb70a1f8b0be6d4d74bc0b0a78d0f714"
+    },
+    {
+      "path": "projects/a-room-that-hears-late/qa.json",
+      "size": 4185,
+      "sha256": "c09b4c6e1417c87def8d151faebb1fe095e2993cf9431bdcddbe542ee1b19ba4"
+    },
+    {
+      "path": "projects/a-room-that-hears-late/story.txt",
+      "size": 5807,
+      "sha256": "debe99da8672b082e8d07368166b4710fb70a1f8b0be6d4d74bc0b0a78d0f714"
+    },
+    {
+      "path": "projects/a-room-that-hears-late/verify.py",
+      "size": 10650,
+      "sha256": "ed1ead9a3d8058f9be0748a1a3d2a5caf4d6d61f0b7501d952482aa939b7a38a"
     },
     {
       "path": "projects/a-seat-for-wind-motion/README.md",

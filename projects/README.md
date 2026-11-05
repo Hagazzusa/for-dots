@@ -1,6 +1,6 @@
 # 전체 프로젝트 색인
 
-모든 79개 작품·게임·연구의 정식 원본을 `projects/<kebab-case>/`에서 관리합니다. 최상위 프로젝트 폴더나 날짜별 스냅샷을 중복으로 유지하지 않으며, 이전 버전은 Git 이력에서 찾습니다. 한 프로젝트의 이미지·영상·글·편집 원본은 해당 폴더에서 함께 관리합니다.
+모든 80개 작품·게임·연구의 정식 원본을 `projects/<kebab-case>/`에서 관리합니다. 최상위 프로젝트 폴더나 날짜별 스냅샷을 중복으로 유지하지 않으며, 이전 버전은 Git 이력에서 찾습니다. 한 프로젝트의 이미지·영상·글·편집 원본은 해당 폴더에서 함께 관리합니다.
 
 [전체 저장소 안내](../README.md) · [작품 갤러리](../GALLERY.md) · [세계와 작품의 연결](../WORLD_CONNECTIONS.md)
 
@@ -11,6 +11,7 @@
 | [길을 남기는 일](a-path-left-open/README.md) | 인쇄용 퍼즐·PDF | 작품 · 실물 플레이 미검증 | `a-path-left-open` |
 | [비가 머물 자리 · A Place for Rain](a-place-for-rain/README.md) | Blender 정물 | 작품 | `a-place-for-rain` |
 | [잠깐 멈춘 길 / A Place to Pause](a-place-to-pause/README.md) | Blender 풍경 | 작품 · 가상 기하 | `a-place-to-pause` |
+| [이리 와](a-room-that-hears-late/README.md) | 환상소설·PDF·텍스트 | 완성 작품 · 실제 인쇄·낭독 미확인 | `a-room-that-hears-late` |
 | [바람이 앉는 자리](a-seat-for-wind/README.md) | SVG·PNG 정물 | 작품 | `a-seat-for-wind` |
 | [바람이 앉는 자리 · 움직임 연구](a-seat-for-wind-motion/README.md) | 벡터 기반 무음 영상 | 움직임 연구 | `a-seat-for-wind-motion` |
 | [꽃이 떠난 자리](after-the-flowers/README.md) | SVG·PNG 정물 | 작품 | `after-the-flowers` |
