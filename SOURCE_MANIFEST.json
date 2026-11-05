@@ -434,8 +434,8 @@
     },
     {
       "path": "projects/after-the-rain/README.md",
-      "size": 7242,
-      "sha256": "05faeaaf58919430e8fb672a7f96bc1b8078a0d13dbe3878e00d04cf1283ee4a"
+      "size": 7584,
+      "sha256": "8bf2756d392cd3f65a9081a48bfe7fb60087efa77ce935ee41ddaa4dc0403e6c"
     },
     {
       "path": "projects/after-the-rain/RECOVERY.md",
@@ -1396,6 +1396,11 @@
       "path": "projects/after-the-rain/docs/FLOWER_READING.md",
       "size": 2967,
       "sha256": "24cae9b20db0c290a0b4a7b13e306a7a93ed0f754b6cee1eaf57c616fce54752"
+    },
+    {
+      "path": "projects/after-the-rain/docs/HEADLESS_RECHECK_2026-11-05.md",
+      "size": 3275,
+      "sha256": "93514a9fa4c1d9e4fe8465f44bc4bdeb38d40a33a842644a6d2668a94ee4f0ae"
     },
     {
       "path": "projects/after-the-rain/docs/RADIO_DIAL.md",
@@ -2554,8 +2559,8 @@
     },
     {
       "path": "projects/after-the-rain/tests/refuge_seating.gd",
-      "size": 5788,
-      "sha256": "fab5a3ddabcd1f8dd75b632075db404d1aa06863fba7034a4243f354cfac7e01"
+      "size": 6158,
+      "sha256": "8a6a4f71840d343e8aa45aaf737a3464d32a363645b55ad9b74354cac1e3cbbb"
     },
     {
       "path": "projects/after-the-rain/tests/refuge_seating.gd.uid",

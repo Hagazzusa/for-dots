@@ -4,6 +4,21 @@ func check(value:bool,label:String):
  print("SEAT ","PASS " if value else "FAIL ",label)
  if not value:failures+=1
 func _initialize():call_deferred("run")
+func release_session(game:Node):
+ # Wait for actual mixer release instead of assuming a fixed delay is enough.
+ var pending:Array[WeakRef]=game._prepare_app_shutdown()
+ game.queue_free()
+ await process_frame
+ var deadline:=Time.get_ticks_usec()+2000000
+ while Time.get_ticks_usec()<deadline:
+  var alive:=false
+  for reference in pending:
+   if reference.get_ref()!=null:alive=true
+  if not alive:
+   check(true,"session audio playback released before exit")
+   return
+  await process_frame
+ check(false,"session audio playback released before exit")
 func run():
  var g=load("res://main.tscn").instantiate()
  root.add_child(g)
@@ -97,20 +112,12 @@ func run():
  g.player.camera.look_at(stand+Vector3(0,0,2))
  check(not n.can_sit(g.player.camera,g.player.position),"must face actual bench")
  check(g.seated_exit_position!=stand,"no retained marker reference after reset")
- g.ambience.stop_all()
- n.shutdown()
- g.queue_free()
- await process_frame
- await create_timer(.2).timeout
+ await release_session(g)
  var fresh=load("res://main.tscn").instantiate()
  root.add_child(fresh)
  fresh.set_process(false)
  fresh.player.input_enabled=false
  check(not fresh.player.seated and fresh.seated_exit_position.is_equal_approx(fresh.world.anchor("Stand")),"new instance has original fresh seat state")
- fresh.ambience.stop_all()
- fresh.neighborhood.shutdown()
- fresh.queue_free()
- await process_frame
- await create_timer(.2).timeout
+ await release_session(fresh)
  print("REFUGE SEAT FAILURES=",failures)
  quit(failures)
