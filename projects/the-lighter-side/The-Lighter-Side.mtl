@@ -1,0 +1,98 @@
+newmtl part_00
+Kd 0.230000 0.255000 0.250000
+Ka 0.2 0.2 0.2
+Ks 0 0 0
+d 1
+illum 1
+
+newmtl part_01
+Kd 0.230000 0.255000 0.250000
+Ka 0.2 0.2 0.2
+Ks 0 0 0
+d 1
+illum 1
+
+newmtl part_02
+Kd 0.230000 0.255000 0.250000
+Ka 0.2 0.2 0.2
+Ks 0 0 0
+d 1
+illum 1
+
+newmtl part_03
+Kd 0.230000 0.255000 0.250000
+Ka 0.2 0.2 0.2
+Ks 0 0 0
+d 1
+illum 1
+
+newmtl part_04
+Kd 0.230000 0.255000 0.250000
+Ka 0.2 0.2 0.2
+Ks 0 0 0
+d 1
+illum 1
+
+newmtl part_05
+Kd 0.230000 0.255000 0.250000
+Ka 0.2 0.2 0.2
+Ks 0 0 0
+d 1
+illum 1
+
+newmtl part_06
+Kd 0.230000 0.255000 0.250000
+Ka 0.2 0.2 0.2
+Ks 0 0 0
+d 1
+illum 1
+
+newmtl part_07
+Kd 0.235000 0.390000 0.405000
+Ka 0.2 0.2 0.2
+Ks 0 0 0
+d 1
+illum 1
+
+newmtl part_08
+Kd 0.230000 0.255000 0.250000
+Ka 0.2 0.2 0.2
+Ks 0 0 0
+d 1
+illum 1
+
+newmtl part_09
+Kd 0.350000 0.480000 0.470000
+Ka 0.2 0.2 0.2
+Ks 0 0 0
+d 1
+illum 1
+
+newmtl part_10
+Kd 0.230000 0.255000 0.250000
+Ka 0.2 0.2 0.2
+Ks 0 0 0
+d 1
+illum 1
+
+newmtl part_11
+Kd 0.790000 0.335000 0.200000
+Ka 0.2 0.2 0.2
+Ks 0 0 0
+d 1
+illum 1
+
+newmtl part_12
+Kd 0.230000 0.255000 0.250000
+Ka 0.2 0.2 0.2
+Ks 0 0 0
+d 1
+illum 1
+
+newmtl part_13
+Kd 0.350000 0.480000 0.470000
+Ka 0.2 0.2 0.2
+Ks 0 0 0
+d 1
+illum 1
+

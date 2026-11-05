@@ -1,0 +1,25 @@
+{
+  "title": "가벼운 쪽의 거리",
+  "duration_seconds": 16.0,
+  "frames": 384,
+  "fps": 24,
+  "dimensions": [
+    800,
+    800
+  ],
+  "audio_streams": 0,
+  "full_decode_passed": true,
+  "all_source_frames_verified": true,
+  "all_consecutive_frames_change": true,
+  "adjacent_frame_mean_absolute_difference_8bit": {
+    "min": 0.16157083333333333,
+    "max": 0.8253572916666667,
+    "median": 0.4555619791666667,
+    "loop_boundary": 0.19513229166666668
+  },
+  "virtual_endpoint_pixel_identical_to_first": true,
+  "minimum_normalized_frame_margin_except_ceiling_thread": 0.1787821284622984,
+  "geometry_report": "geometry-qa.json",
+  "visual_review": "Encoded sample frames and source motion sequence inspected; normal-speed playback was not available.",
+  "limits": "Prescribed animation with sampled static geometry checks; not wind dynamics or a fabrication test."
+}

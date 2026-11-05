@@ -14,8 +14,8 @@
     },
     {
       "path": "GALLERY.md",
-      "size": 22599,
-      "sha256": "2da167b5ad9e40868eaf0000807bb80beb2196a1ca45f31f894a85f03e88ff9f"
+      "size": 23484,
+      "sha256": "5e9bbc1edd0c838af59d8fa478846e44f3e8e8b9bbf4536cc07c6b2b388dc015"
     },
     {
       "path": "GIT_ENVIRONMENT_CHECK.md",
@@ -24,8 +24,8 @@
     },
     {
       "path": "README.md",
-      "size": 30394,
-      "sha256": "84b31277a82fd3b8c6c59439effa296cee9e807e4a4ca65ceb43e6e2d6c1deee"
+      "size": 30898,
+      "sha256": "2805da7464cf836f5240a48de3160eeec841713ffd681a7d33ad8aeafeeda049"
     },
     {
       "path": "WORLD_CONNECTIONS.md",
@@ -49,8 +49,8 @@
     },
     {
       "path": "projects/README.md",
-      "size": 9675,
-      "sha256": "9768c777cb05f228032fc3fe59db68dc285d5c0b2f6fde123aff1921b68f4ef8"
+      "size": 9869,
+      "sha256": "1943e88d5382b5db35c2f9217c877ddff58565a3afacfcc41a0ed238260c088a"
     },
     {
       "path": "projects/VERIFICATION.md",
@@ -6946,6 +6946,101 @@
       "path": "projects/the-customer-role/verify.py",
       "size": 1883,
       "sha256": "10c588664cb94b57b78c695e2e6a0b80c5edaf55d1e3499465084c3e0257d43e"
+    },
+    {
+      "path": "projects/the-lighter-side/.gitignore",
+      "size": 45,
+      "sha256": "7d370d3c0816f863d950b7bf7c9fe184372cd4d84e5c2294139f35bd48e8f865"
+    },
+    {
+      "path": "projects/the-lighter-side/README.md",
+      "size": 3868,
+      "sha256": "b3ce6360409abb4c6f156a244e9b281b344ad84464aacc5416cd84489a10337d"
+    },
+    {
+      "path": "projects/the-lighter-side/The-Lighter-Side.mp4",
+      "size": 497908,
+      "sha256": "9bf777b17c4180073a754c22f6f8f8e164cc6f489eec8472cddbdd8b45cbfe7e"
+    },
+    {
+      "path": "projects/the-lighter-side/The-Lighter-Side.mtl",
+      "size": 1148,
+      "sha256": "d6dcb9915e9aaf6e63e9897e43fb964c13a55257f3ba4508656eea6adf5f94b6"
+    },
+    {
+      "path": "projects/the-lighter-side/The-Lighter-Side.obj",
+      "size": 32946,
+      "sha256": "7c3d8fc8119073fb170f39ee44a9a3f04f09e60c42e5dd28d2c2cf24f1fa85d6"
+    },
+    {
+      "path": "projects/the-lighter-side/The-Lighter-Side.png",
+      "size": 23404,
+      "sha256": "66d1731b21b7db55cef143f02c4e9194c604de919ab24e8b0dace1a44eabd803"
+    },
+    {
+      "path": "projects/the-lighter-side/balance.json",
+      "size": 1280,
+      "sha256": "4ceb091e7bd07f0e39362f329b525d8dcbc7f0a06e7106c47176ba37e69f4bec"
+    },
+    {
+      "path": "projects/the-lighter-side/build_video.py",
+      "size": 1116,
+      "sha256": "0f852b2f4c6965cf1be33071edb1d09050590b9a78f2a60b1a572998143f0b02"
+    },
+    {
+      "path": "projects/the-lighter-side/check_geometry.py",
+      "size": 8643,
+      "sha256": "168501ae9f3f5bf299bc6193e33f2f15a2dcec0c768d564f89db2dd3e88fed2b"
+    },
+    {
+      "path": "projects/the-lighter-side/description.txt",
+      "size": 90,
+      "sha256": "df7f2c0ffe47a6e59d6a25a83d231d523ea46db6e0a2370a104e1132d1a8ecec"
+    },
+    {
+      "path": "projects/the-lighter-side/export_pose.py",
+      "size": 871,
+      "sha256": "95e4ad4d4566718f7d0408c2f6297c77b5d423a2547ef0fcd853f91165eb3575"
+    },
+    {
+      "path": "projects/the-lighter-side/geometry-qa.json",
+      "size": 6820,
+      "sha256": "3edfcc22643855aad728f656e4a04a2282c96e6594afdc6bfddb2d7340a61e67"
+    },
+    {
+      "path": "projects/the-lighter-side/manifest.json",
+      "size": 2302,
+      "sha256": "3ab7871fc87ce468db625bbacecffdda3e9242951838d686ec6325404f7898bd"
+    },
+    {
+      "path": "projects/the-lighter-side/mobile.py",
+      "size": 4753,
+      "sha256": "b8eb72e70cb6539aa11301c14c011ba13f0aac888f15c190d2105bb6476a4ee0"
+    },
+    {
+      "path": "projects/the-lighter-side/qa.json",
+      "size": 875,
+      "sha256": "aec58b50a1852e6bb166390fae4fdc6a705afb89953a2b86ee107f7ff8047943"
+    },
+    {
+      "path": "projects/the-lighter-side/render_film.py",
+      "size": 1457,
+      "sha256": "6bd4ed4139536006f50c0086b1fd458a049043a699ebfd8f65f246a9743346e8"
+    },
+    {
+      "path": "projects/the-lighter-side/soft_renderer.py",
+      "size": 6427,
+      "sha256": "5b39bd967c8240a2ed063bfeefd8233e703c49724decd63b63159c19b0d0e4c3"
+    },
+    {
+      "path": "projects/the-lighter-side/test_renderer.py",
+      "size": 2868,
+      "sha256": "794fbc127e0658b255ed31cb275975ab0e585c3a2dde94eea0ce19c8b3038fad"
+    },
+    {
+      "path": "projects/the-lighter-side/verify_delivery.py",
+      "size": 3970,
+      "sha256": "4c445619e2b60d92bbf987096e2088d035e4657061adf2ba4acc17747e174ff0"
     },
     {
       "path": "projects/threshold-film/.gitignore",

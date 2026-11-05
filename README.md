@@ -13,6 +13,7 @@
 
 | 프로젝트 | 시작 안내 | 실행 환경 |
 |---|---|---|
+| **가벼운 쪽의 거리** — 네 조각이 돌며 모였다가 벌어지는 모빌 | [16초 영상](projects/the-lighter-side/The-Lighter-Side.mp4) · [정지 이미지](projects/the-lighter-side/The-Lighter-Side.png) · [원본·재현 안내](projects/the-lighter-side/README.md) | Python·NumPy·SciPy·Pillow·FFmpeg. 직접 만든 깊이 버퍼 렌더러의 800×800, 24fps 무음 영상. 정적 균형·표본 간섭 검사이며 실제 동역학이나 제작 안전 검증은 아닙니다. |
 | **골목 끝 작은 세탁소** — 둥근 세탁기 문과 옆 골목의 빈 벤치 | [3D 장면·제작 코드·재현 범위](projects/quiet-laundrette/README.md) · [최종 렌더](projects/quiet-laundrette/Quiet-Laundrette.png) | Blender **4.3.2**, Cycles CPU. 외부 에셋 없이 만든 독립 가상 장면이며 실제 가게나 게임에 추가된 장소가 아닙니다. |
 | **꽃이 떠난 자리** — 접힌 포장지와 잎줄기, 풀린 끈 | [벡터 원본·재현·검증 범위](projects/after-the-flowers/README.md) · [PNG 이미지](projects/after-the-flowers/after_the_flowers.png) | Python 표준 라이브러리·Inkscape **1.4**. 같은 직교투영 카메라로 만든 독립 벡터 정물. 외부 이미지·폰트가 없으며 실제 사진이나 새 게임 사건이 아닙니다. |
 | **회전이 멎은 뒤** — 열린 세탁기 문과 창 밖에서 들어오는 빛 | [벡터 원본·재현](projects/after-the-turn/README.md) · [PNG 이미지](projects/after-the-turn/after_the_turn.png) | Inkscape **1.4**. 외부 자원 없이 직접 그린 독립 벡터 정물. 양식화한 사선 구도이며 실제 제품 사진이나 게임 구현이 아닙니다. |

@@ -1,7 +1,7 @@
 # 잠깐 머무는 작은 세계
 
 비를 피하는 공간, 천천히 움직이는 빛, 길가의 빈 벤치.
-이미지와 짧은 영상으로 먼저 둘러볼 수 있는 31개 작업을 골랐습니다.
+이미지와 짧은 영상으로 먼저 둘러볼 수 있는 32개 작업을 골랐습니다.
 편집 가능한 장면과 제작 소스는 각 작품의 안내에 함께 있습니다.
 
 세 정물을 이어 읽는 동반 그림책 [《비가 지나가는 동안》](projects/quiet-storybook/README.md)도 있습니다. [3쪽 PDF로 읽기](projects/quiet-storybook/While-the-Rain-Passes.pdf).
@@ -322,6 +322,16 @@ Blender 4.3.2의 실제 Cycles 렌더. 정적 형상 검사이며 유체·모세
 
 Blender 4.3.2의 실제 렌더. 원본 장면과 형상·투영 검사, 영역별 렌더 조립 소스를 함께 보존합니다.
 
+
+## 32. 가벼운 쪽의 거리
+
+크기가 다른 청록색 조각 세 개와 붉은 삼각형 하나가 얇은 막대 아래에서 모였다가 다시 벌어집니다. 카메라는 움직이지 않습니다.
+
+![가벼운 쪽의 거리 — 깊이 버퍼를 사용하는 직접 만든 렌더러의 8초 지점](projects/the-lighter-side/The-Lighter-Side.png)
+
+[16초 무성 영상](projects/the-lighter-side/The-Lighter-Side.mp4) · [정지 이미지](projects/the-lighter-side/The-Lighter-Side.png) · [3D 형상·제작 소스와 검사 범위](projects/the-lighter-side/README.md)
+
+직접 만든 3D 형상과 주기 함수를 사용했습니다. 각 가지의 정적 균형과 표본 자세의 간섭을 검사했지만, 바람·관성의 동역학이나 실물 제작 안전을 검증한 모빌은 아닙니다. OBJ와 MTL은 정지 이미지와 같은 8초 지점을 담습니다.
 
 ## 읽기·듣기
 

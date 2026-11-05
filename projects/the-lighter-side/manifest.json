@@ -1,0 +1,74 @@
+{
+  ".gitignore": {
+    "bytes": 45,
+    "sha256": "7d370d3c0816f863d950b7bf7c9fe184372cd4d84e5c2294139f35bd48e8f865"
+  },
+  "README.md": {
+    "bytes": 3868,
+    "sha256": "b3ce6360409abb4c6f156a244e9b281b344ad84464aacc5416cd84489a10337d"
+  },
+  "description.txt": {
+    "bytes": 90,
+    "sha256": "df7f2c0ffe47a6e59d6a25a83d231d523ea46db6e0a2370a104e1132d1a8ecec"
+  },
+  "mobile.py": {
+    "bytes": 4753,
+    "sha256": "b8eb72e70cb6539aa11301c14c011ba13f0aac888f15c190d2105bb6476a4ee0"
+  },
+  "soft_renderer.py": {
+    "bytes": 6427,
+    "sha256": "5b39bd967c8240a2ed063bfeefd8233e703c49724decd63b63159c19b0d0e4c3"
+  },
+  "render_film.py": {
+    "bytes": 1457,
+    "sha256": "6bd4ed4139536006f50c0086b1fd458a049043a699ebfd8f65f246a9743346e8"
+  },
+  "build_video.py": {
+    "bytes": 1116,
+    "sha256": "0f852b2f4c6965cf1be33071edb1d09050590b9a78f2a60b1a572998143f0b02"
+  },
+  "export_pose.py": {
+    "bytes": 871,
+    "sha256": "95e4ad4d4566718f7d0408c2f6297c77b5d423a2547ef0fcd853f91165eb3575"
+  },
+  "check_geometry.py": {
+    "bytes": 8643,
+    "sha256": "168501ae9f3f5bf299bc6193e33f2f15a2dcec0c768d564f89db2dd3e88fed2b"
+  },
+  "test_renderer.py": {
+    "bytes": 2868,
+    "sha256": "794fbc127e0658b255ed31cb275975ab0e585c3a2dde94eea0ce19c8b3038fad"
+  },
+  "verify_delivery.py": {
+    "bytes": 3970,
+    "sha256": "4c445619e2b60d92bbf987096e2088d035e4657061adf2ba4acc17747e174ff0"
+  },
+  "balance.json": {
+    "bytes": 1280,
+    "sha256": "4ceb091e7bd07f0e39362f329b525d8dcbc7f0a06e7106c47176ba37e69f4bec"
+  },
+  "geometry-qa.json": {
+    "bytes": 6820,
+    "sha256": "3edfcc22643855aad728f656e4a04a2282c96e6594afdc6bfddb2d7340a61e67"
+  },
+  "qa.json": {
+    "bytes": 875,
+    "sha256": "aec58b50a1852e6bb166390fae4fdc6a705afb89953a2b86ee107f7ff8047943"
+  },
+  "The-Lighter-Side.mp4": {
+    "bytes": 497908,
+    "sha256": "9bf777b17c4180073a754c22f6f8f8e164cc6f489eec8472cddbdd8b45cbfe7e"
+  },
+  "The-Lighter-Side.png": {
+    "bytes": 23404,
+    "sha256": "66d1731b21b7db55cef143f02c4e9194c604de919ab24e8b0dace1a44eabd803"
+  },
+  "The-Lighter-Side.obj": {
+    "bytes": 32946,
+    "sha256": "7c3d8fc8119073fb170f39ee44a9a3f04f09e60c42e5dd28d2c2cf24f1fa85d6"
+  },
+  "The-Lighter-Side.mtl": {
+    "bytes": 1148,
+    "sha256": "d6dcb9915e9aaf6e63e9897e43fb964c13a55257f3ba4508656eea6adf5f94b6"
+  }
+}

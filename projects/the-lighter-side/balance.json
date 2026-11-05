@@ -1,0 +1,44 @@
+{
+  "branches": [
+    {
+      "name": "upper",
+      "length": 2.6,
+      "left_arm": 1.1432915535255412,
+      "right_arm": 1.4567084464744589,
+      "rod_mass": 0.0033695999999999995,
+      "left_mass": 0.04981036126547834,
+      "right_mass": 0.03873096271816398,
+      "total_mass": 0.09191092398364231,
+      "moment": 1.6263032587282567e-18
+    },
+    {
+      "name": "middle",
+      "length": 2.15,
+      "left_arm": 1.2327451903756053,
+      "right_arm": 0.9172548096243947,
+      "rod_mass": 0.0027863999999999996,
+      "left_mass": 0.015130596202148383,
+      "right_mass": 0.020813966516015595,
+      "total_mass": 0.03873096271816398,
+      "moment": 1.6805133673525319e-18
+    },
+    {
+      "name": "lower",
+      "length": 1.42,
+      "left_arm": 0.6552045350053125,
+      "right_arm": 0.7647954649946874,
+      "rod_mass": 0.0018403199999999995,
+      "left_mass": 0.01029,
+      "right_mass": 0.008683646516015593,
+      "total_mass": 0.020813966516015595,
+      "moment": -2.0328790734103208e-19
+    }
+  ],
+  "plate_masses": {
+    "A": 0.04981036126547834,
+    "B": 0.015130596202148383,
+    "C": 0.01029,
+    "D": 0.008683646516015593
+  },
+  "limits": "Uniform mass geometry, massless threads, prescribed rotations; not a dynamic or fabrication simulation."
+}

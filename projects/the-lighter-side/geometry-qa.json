@@ -1,0 +1,254 @@
+{
+  "source_sha256": "b8eb72e70cb6539aa11301c14c011ba13f0aac888f15c190d2105bb6476a4ee0",
+  "model": "Uniform-mass static geometry with prescribed periodic poses, not a dynamic simulation.",
+  "sampling": {
+    "samples": 1601,
+    "period_seconds": 16.0,
+    "step_seconds": 0.01,
+    "continuous_time_collision_proof": false
+  },
+  "assumptions": [
+    "Vertical massless suspension threads; no wind, inertia, flexibility or friction.",
+    "Collision checks exclude each leaf\u2019s own attachment thread, but include all rods and all unrelated threads.",
+    "Segment checks conservatively use circumscribed circular rod/thread radius; numerical minimization tolerance 1e-10.",
+    "Plate-pair overlap uses convex separating-axis test; touch tolerance 1e-9."
+  ],
+  "plates": {
+    "A": {
+      "independent_mass": 0.04981036126547834,
+      "declared_mass_error": 0.0,
+      "profile_centroid": [
+        -1.6252394111495227e-18,
+        -7.923042129353924e-18
+      ]
+    },
+    "B": {
+      "independent_mass": 0.015130596202148383,
+      "declared_mass_error": 0.0,
+      "profile_centroid": [
+        2.675167624946479e-18,
+        -1.053347252322676e-17
+      ]
+    },
+    "C": {
+      "independent_mass": 0.01029,
+      "declared_mass_error": 0.0,
+      "profile_centroid": [
+        0.0,
+        -3.146890659368358e-17
+      ]
+    },
+    "D": {
+      "independent_mass": 0.008683646516015593,
+      "declared_mass_error": 0.0,
+      "profile_centroid": [
+        -7.574574998664746e-18,
+        -8.339315743722245e-18
+      ]
+    }
+  },
+  "static_balance": {
+    "units": "Arbitrary geometry/density model units; gravity scale 9.81. Not a physical material prediction.",
+    "branch_max_torque_model_units": {
+      "upper": 3.7473640914070847e-16,
+      "middle": 1.1662709904749775e-16,
+      "lower": 5.272347636287264e-17
+    },
+    "branch_max_horizontal_COM_offset": {
+      "upper": 5.164913908275963e-16,
+      "middle": 4.965068306494546e-16,
+      "lower": 7.021666937153402e-16
+    },
+    "global_max_horizontal_COM_offset": 5.164913908275963e-16,
+    "global_COM_z_range": [
+      1.9512404000999621,
+      1.9512404000999621
+    ],
+    "root_z": 4.8
+  },
+  "loop": {
+    "max_vertex_position_error": 5.551115123125783e-16,
+    "max_vertex_velocity_error": 2.482534153247273e-12,
+    "velocity_difference_step": 0.0001,
+    "analytic_periodicity": "All pose angles are constants plus sines or cosines of 2*pi*t/PERIOD; position and all derivatives are periodic."
+  },
+  "collision_checks": {
+    "plate_segment_minima": {
+      "A/rod_0": {
+        "clearance": 2.648,
+        "time": 0.0
+      },
+      "A/rod_1": {
+        "clearance": 2.5386824440171862,
+        "time": 5.48
+      },
+      "A/rod_2": {
+        "clearance": 1.8919842586187274,
+        "time": 15.94
+      },
+      "A/thread_0": {
+        "clearance": 2.8816830207055424,
+        "time": 14.71
+      },
+      "A/thread_1": {
+        "clearance": 2.2839733097470427,
+        "time": 15.38
+      },
+      "A/thread_3": {
+        "clearance": 1.9117784064658536,
+        "time": 5.23
+      },
+      "A/thread_4": {
+        "clearance": 1.5173713740896804,
+        "time": 0.01
+      },
+      "A/thread_5": {
+        "clearance": 2.3803981306401876,
+        "time": 15.01
+      },
+      "A/root_thread": {
+        "clearance": 2.830753594548358,
+        "time": 2.91
+      },
+      "B/rod_0": {
+        "clearance": 1.8649536328557383,
+        "time": 6.92
+      },
+      "B/rod_1": {
+        "clearance": 0.8780000000000001,
+        "time": 0.0
+      },
+      "B/rod_2": {
+        "clearance": 1.4963218073400697,
+        "time": 5.93
+      },
+      "B/thread_0": {
+        "clearance": 1.4352106284058397,
+        "time": 9.15
+      },
+      "B/thread_1": {
+        "clearance": 1.9048724440940252,
+        "time": 4.24
+      },
+      "B/thread_2": {
+        "clearance": 1.7034905840050159,
+        "time": 6.8500000000000005
+      },
+      "B/thread_4": {
+        "clearance": 1.4387427606236098,
+        "time": 5.9
+      },
+      "B/thread_5": {
+        "clearance": 1.7439783260017845,
+        "time": 14.33
+      },
+      "B/root_thread": {
+        "clearance": 1.9547110098505582,
+        "time": 6.91
+      },
+      "C/rod_0": {
+        "clearance": 2.300376995881059,
+        "time": 6.16
+      },
+      "C/rod_1": {
+        "clearance": 1.4849184668668625,
+        "time": 6.12
+      },
+      "C/rod_2": {
+        "clearance": 0.6280000000000002,
+        "time": 0.0
+      },
+      "C/thread_0": {
+        "clearance": 1.5461894629624828,
+        "time": 6.16
+      },
+      "C/thread_1": {
+        "clearance": 0.9040988019040898,
+        "time": 10.36
+      },
+      "C/thread_2": {
+        "clearance": 1.7344532149800957,
+        "time": 0.14
+      },
+      "C/thread_3": {
+        "clearance": 1.7693359115562275,
+        "time": 6.2
+      },
+      "C/thread_5": {
+        "clearance": 1.06556279511172,
+        "time": 5.94
+      },
+      "C/root_thread": {
+        "clearance": 2.5104744958785328,
+        "time": 15.97
+      },
+      "D/rod_0": {
+        "clearance": 3.5941743726967745,
+        "time": 14.16
+      },
+      "D/rod_1": {
+        "clearance": 2.7760794714301236,
+        "time": 14.25
+      },
+      "D/rod_2": {
+        "clearance": 1.908,
+        "time": 0.0
+      },
+      "D/thread_0": {
+        "clearance": 2.8266348415673432,
+        "time": 14.16
+      },
+      "D/thread_1": {
+        "clearance": 2.0502810234617144,
+        "time": 1.96
+      },
+      "D/thread_2": {
+        "clearance": 3.118583701826628,
+        "time": 14.88
+      },
+      "D/thread_3": {
+        "clearance": 2.562866600953605,
+        "time": 13.81
+      },
+      "D/thread_4": {
+        "clearance": 1.850125132845653,
+        "time": 0.72
+      },
+      "D/root_thread": {
+        "clearance": 4.042345957344067,
+        "time": 14.61
+      }
+    },
+    "plate_pair_aabb_clearance_lower_bounds": {
+      "A/B": {
+        "clearance_lower_bound": 1.0461195379434627,
+        "time": 5.08
+      },
+      "A/C": {
+        "clearance_lower_bound": 0.9218473970221469,
+        "time": 0.58
+      },
+      "A/D": {
+        "clearance_lower_bound": 2.1416572751194076,
+        "time": 15.24
+      },
+      "B/C": {
+        "clearance_lower_bound": 1.2178179473298782,
+        "time": 5.1000000000000005
+      },
+      "B/D": {
+        "clearance_lower_bound": 1.675419469648943,
+        "time": 13.17
+      },
+      "C/D": {
+        "clearance_lower_bound": 0.9306800449208237,
+        "time": 13.49
+      }
+    },
+    "plate_pair_narrowphase_tests": 0,
+    "collisions": {},
+    "note": "Collision-free samples do not prove collision freedom between samples. Only plates versus rods/threads and plates versus plates are tested; intended attachment contacts are excluded."
+  },
+  "failures": [],
+  "passed": true
+}
