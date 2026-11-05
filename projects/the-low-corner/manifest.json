@@ -1,0 +1,26 @@
+{
+  ".gitignore": {
+    "bytes": 27,
+    "sha256": "104d9b4545c1044cb17adf63e6890b2e3555a8e9fe8f6480ca9d4b64bfbaaf5e"
+  },
+  "README.md": {
+    "bytes": 1751,
+    "sha256": "cdd2f956151fdb6b6c03a6a3b00148c30d2152fede75a03d3950b9a6692a4167"
+  },
+  "prompt.txt": {
+    "bytes": 1994,
+    "sha256": "660299349549a1ce02264d6142c37469c976e5ecd8f7baf14664437963a746ea"
+  },
+  "The-Low-Corner.png": {
+    "bytes": 3209146,
+    "sha256": "46629d164af5e04b76fc2e3ec281825c2d04610f1add93447b0c3c0b98ce866f"
+  },
+  "verify.py": {
+    "bytes": 1212,
+    "sha256": "9969e78ac1611e34f29d168f72b8f2620c266e171d86de74021f6f2cddaaf044"
+  },
+  "qa.json": {
+    "bytes": 488,
+    "sha256": "b803e61ef53d1f67414bcf1035e64e8a8cedc18e06e2ae3e8ae5faf3a989b0fa"
+  }
+}

@@ -14,8 +14,8 @@
     },
     {
       "path": "GALLERY.md",
-      "size": 28289,
-      "sha256": "6640ce85c8d93fa76b3b8e84be8e5bef1787fd7555eb5f281028d5e652050c2d"
+      "size": 29128,
+      "sha256": "54cac12886943fa1dadf271568accdbec3269b710de851edbff86f83d991bfe2"
     },
     {
       "path": "GIT_ENVIRONMENT_CHECK.md",
@@ -24,8 +24,8 @@
     },
     {
       "path": "README.md",
-      "size": 35313,
-      "sha256": "9077221bca17554f2344f23b4b10899edfa0f9f021f0187cb64c04dcdba6f0bd"
+      "size": 35732,
+      "sha256": "bb634ae75f0fb565ec3538ff5677eadeaa0c95af8f986ee843b2d6adf8496474"
     },
     {
       "path": "WORLD_CONNECTIONS.md",
@@ -49,8 +49,8 @@
     },
     {
       "path": "projects/README.md",
-      "size": 11297,
-      "sha256": "e8729368d53bcc53391b3a20359c8aed35d7ca93509dcdff6e018df7d47554d8"
+      "size": 11446,
+      "sha256": "b046b5646e3ee658efbb3f022f6b9cd610685a6cce0e7ec06ad0c0faeab69f29"
     },
     {
       "path": "projects/VERIFICATION.md",
@@ -7391,6 +7391,41 @@
       "path": "projects/the-lighter-side/verify_delivery.py",
       "size": 3970,
       "sha256": "4c445619e2b60d92bbf987096e2088d035e4657061adf2ba4acc17747e174ff0"
+    },
+    {
+      "path": "projects/the-low-corner/.gitignore",
+      "size": 27,
+      "sha256": "104d9b4545c1044cb17adf63e6890b2e3555a8e9fe8f6480ca9d4b64bfbaaf5e"
+    },
+    {
+      "path": "projects/the-low-corner/README.md",
+      "size": 1751,
+      "sha256": "cdd2f956151fdb6b6c03a6a3b00148c30d2152fede75a03d3950b9a6692a4167"
+    },
+    {
+      "path": "projects/the-low-corner/The-Low-Corner.png",
+      "size": 3209146,
+      "sha256": "46629d164af5e04b76fc2e3ec281825c2d04610f1add93447b0c3c0b98ce866f"
+    },
+    {
+      "path": "projects/the-low-corner/manifest.json",
+      "size": 744,
+      "sha256": "046971027f5d3b253329bd3e76bcd79fda3ea0ea4f45588405f56dcae337123d"
+    },
+    {
+      "path": "projects/the-low-corner/prompt.txt",
+      "size": 1994,
+      "sha256": "660299349549a1ce02264d6142c37469c976e5ecd8f7baf14664437963a746ea"
+    },
+    {
+      "path": "projects/the-low-corner/qa.json",
+      "size": 488,
+      "sha256": "b803e61ef53d1f67414bcf1035e64e8a8cedc18e06e2ae3e8ae5faf3a989b0fa"
+    },
+    {
+      "path": "projects/the-low-corner/verify.py",
+      "size": 1212,
+      "sha256": "9969e78ac1611e34f29d168f72b8f2620c266e171d86de74021f6f2cddaaf044"
     },
     {
       "path": "projects/threshold-film/.gitignore",
