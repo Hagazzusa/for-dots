@@ -14,8 +14,8 @@
     },
     {
       "path": "GALLERY.md",
-      "size": 26479,
-      "sha256": "a3085bffcf1ceddaa5a4b802f01cc19a7d16850df774c64d10e4435cf5fdffd5"
+      "size": 26974,
+      "sha256": "8c69d7c85e7e4c3fb78e867b893fa7af7015cca3e867bd141f8ad43b88dd581b"
     },
     {
       "path": "GIT_ENVIRONMENT_CHECK.md",
@@ -24,8 +24,8 @@
     },
     {
       "path": "README.md",
-      "size": 33822,
-      "sha256": "31a64587cb71daa4a035dd125d36366d4c1aaffc3fa0f40562c14125e8337486"
+      "size": 34299,
+      "sha256": "8f026b6b040b81eebf5fb9587195928085b410c729a7e28e5d77cbb1f3f169aa"
     },
     {
       "path": "WORLD_CONNECTIONS.md",
@@ -49,8 +49,8 @@
     },
     {
       "path": "projects/README.md",
-      "size": 10817,
-      "sha256": "d862e288c58a22cce9aa6d233669be72f6a66de9ebd3b37c24ba1dbb4dc44a15"
+      "size": 10986,
+      "sha256": "6a9e598f2d18023bc389587bf31fe15b7e9e0b77b3347cea63742b9b09bd3fed"
     },
     {
       "path": "projects/VERIFICATION.md",
@@ -4494,8 +4494,8 @@
     },
     {
       "path": "projects/opposite-steps/README.md",
-      "size": 3485,
-      "sha256": "7a79b65c602d78807b89d6f0acc747530334a3c6c213e39d8f3ba17abd6cedf6"
+      "size": 3697,
+      "sha256": "2b560428817f086e3f54d73ce53d7db990edf58665aa751b91f0ea842a89d4be"
     },
     {
       "path": "projects/opposite-steps/build_pdf.py",
@@ -4519,8 +4519,13 @@
     },
     {
       "path": "projects/opposite-steps/manifest.json",
-      "size": 2067,
-      "sha256": "f49598a4d4f4a82023cbaadc5ce5cbbd33b2004737108836767064d275dbe39f"
+      "size": 2208,
+      "sha256": "1df9b7ee9cb2d80797b0fb6f4f9c2949ea1484df304fe70ced4311ff25355f10"
+    },
+    {
+      "path": "projects/opposite-steps/output/layout_manifest.json",
+      "size": 64550,
+      "sha256": "268746edb6f02c8bc0456370e4ddc5e953680a4db5cfe5b63b592a0f57e03b8c"
     },
     {
       "path": "projects/opposite-steps/output/pdf/Opposite-Steps-Solutions.pdf",
@@ -4544,8 +4549,8 @@
     },
     {
       "path": "projects/opposite-steps/qa_layout.json",
-      "size": 9331,
-      "sha256": "ee25794d9d68c9840eb21ca2e4fb9d911d3648a2fb0e6abe4e946d7a8a8b4f81"
+      "size": 9514,
+      "sha256": "60fe53ec03fa5945585f636980db027aea5676e10cc8c0e869aab8e9f366e078"
     },
     {
       "path": "projects/opposite-steps/solutions.json",
@@ -4564,8 +4569,8 @@
     },
     {
       "path": "projects/opposite-steps/verify_pdf.py",
-      "size": 10231,
-      "sha256": "ba2819bf97957fd030943d9994b63445283b5832f823051d834c5a6298277b77"
+      "size": 10338,
+      "sha256": "35c99113002157f426057a418f539f6bba4be920ca256385c9f5b4e3be0988d5"
     },
     {
       "path": "projects/page-at-rest-viewer/.gitignore",
@@ -6621,6 +6626,66 @@
       "path": "projects/shared-horizon-study/verification.json",
       "size": 1948,
       "sha256": "68f7cc5851568a8e9387017ec356005b2449ad3b29b2c5a9f16205a5e8f92fc9"
+    },
+    {
+      "path": "projects/six-pass-line/.gitignore",
+      "size": 27,
+      "sha256": "dcceafd97b3562157ca904aa20f585bc01dfa307dca84b4770c303cc2bf6b24e"
+    },
+    {
+      "path": "projects/six-pass-line/README.md",
+      "size": 3014,
+      "sha256": "edcd4a825c75f27b59c555550afa54ac961c3b963e53f48486bbd7879fb3abb8"
+    },
+    {
+      "path": "projects/six-pass-line/build_pdf.py",
+      "size": 10959,
+      "sha256": "074b665b2990e132f796871032dfa0f686ce598a00db741165b9edfe8af904a5"
+    },
+    {
+      "path": "projects/six-pass-line/layout.json",
+      "size": 714,
+      "sha256": "a1d9748a700dd0925ea61311300f932b0edfdbc2cdd09d6a2edcc02bc789536a"
+    },
+    {
+      "path": "projects/six-pass-line/manifest.json",
+      "size": 1412,
+      "sha256": "8612f22b7d1b1ffb325dc7903d14ff0aa99da5f1ceafe0947fd0c2fb68203582"
+    },
+    {
+      "path": "projects/six-pass-line/output/layout_manifest.json",
+      "size": 19773,
+      "sha256": "cfa47cbff0f6d4b235c45396d802d676700944f9a72bf014bbfb55718c447d07"
+    },
+    {
+      "path": "projects/six-pass-line/output/pdf/Six-Passes-One-Line.pdf",
+      "size": 38230,
+      "sha256": "603044d5070b5cffc94dbf866d52619caa71fe432542b4106903b0c1ce436cef"
+    },
+    {
+      "path": "projects/six-pass-line/qa_layout.json",
+      "size": 2887,
+      "sha256": "89aab41cba8a88a9a1ee3cf0c75fb6474c70c14f90e1bd4a5663cb1ee01e9334"
+    },
+    {
+      "path": "projects/six-pass-line/score.json",
+      "size": 1883,
+      "sha256": "6c64caccf2dd726a21043d2f329aa8d2b13b1be73966e33862fb9dc68de76319"
+    },
+    {
+      "path": "projects/six-pass-line/timing.json",
+      "size": 3009,
+      "sha256": "92815baf01b7cb61658ddd949e4653c8106f712cd70c3fbd904d3441298d71d3"
+    },
+    {
+      "path": "projects/six-pass-line/verify_pdf.py",
+      "size": 8936,
+      "sha256": "2ef574e24ed27698236f712139066c262bde2193f463dde4667f657439088970"
+    },
+    {
+      "path": "projects/six-pass-line/verify_score.py",
+      "size": 1657,
+      "sha256": "d729f71500e80433000771b177004588a127a707c6508a6089264f95e892249b"
     },
     {
       "path": "projects/soft-shadow-study/.gitignore",

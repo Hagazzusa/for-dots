@@ -13,6 +13,7 @@
 
 | 프로젝트 | 시작 안내 | 실행 환경 |
 |---|---|---|
+| **여섯 번의 한 줄 · 실연 전 악보** — 연필과 종이로 같은 선을 여섯 번 되짚는 소리 악보 | [한 쪽 PDF](projects/six-pass-line/output/pdf/Six-Passes-One-Line.pdf) · [편집 원본·검증 범위](projects/six-pass-line/README.md) | 여섯 구절·48박, 한 박 약 1초일 때 약 48초. 시간·방향·60mm 인쇄 간격과 조판을 검사했습니다. 실제 실연·청취·손의 편안함은 미확인이며 녹음은 없습니다. |
 | **반대편으로 한 칸** — A와 B를 반대 방향으로 함께 움직이는 종이 퍼즐 세 문제 | [문제지 PDF](projects/opposite-steps/output/pdf/Opposite-Steps.pdf) · [해설 PDF](projects/opposite-steps/output/pdf/Opposite-Steps-Solutions.pdf) · [규칙·제작·검증](projects/opposite-steps/README.md) | Python 기반 풀이·PDF 제작. 두 구현으로 최단 3·7·11회와 이동 2,408개를 대조했습니다. 실물 인쇄·플레이테스트나 재미·난이도 평가는 하지 않았습니다. |
 | **오후의 바닥** — 물이 빠진 실내 수영장에 남은 빛과 작은 물웅덩이 | [이미지](projects/the-bottom-of-afternoon/The-Bottom-of-Afternoon.png) · [생성 지시문·검사 범위](projects/the-bottom-of-afternoon/README.md) | 회화풍 생성 이미지, 1536×1024 RGB PNG. 생성 원본과 지시문을 보존합니다. 실물 회화·사진이 아니며 편집 레이어·3D 장면이나 동일 픽셀 재생성은 제공하지 않습니다. |
 | **띠 매듭 형태 연구 · 보류** — 뒤집힘과 아래 고리 압축의 세 변형 비교 | [연구·비교·한계](projects/held-bend/README.md) | Python·NumPy·Pillow·Inkscape. 완성 작품이 아니며 최종안을 채택하지 않았습니다. 깊이순 면 배치는 시각화 근사이며 연속 자기 교차·재료·제작 가능성은 검증하지 않았습니다. |
@@ -59,7 +60,7 @@
 
 ## 프로젝트 배치와 기록
 
-모든 작품·게임·연구의 정식 경로는 `projects/<kebab-case>/`입니다. [전체 72개 프로젝트 색인](projects/README.md)에서 작품·시제품·연구를 구분해 찾을 수 있습니다. 기존 최상위 폴더와 날짜별 보관본은 중복으로 남기지 않습니다. 이전 경로 보존 예외는 철회했으며, 과거 버전은 Git 이력에서 확인합니다.
+모든 작품·게임·연구의 정식 경로는 `projects/<kebab-case>/`입니다. [전체 73개 프로젝트 색인](projects/README.md)에서 작품·시제품·연구를 구분해 찾을 수 있습니다. 기존 최상위 폴더와 날짜별 보관본은 중복으로 남기지 않습니다. 이전 경로 보존 예외는 철회했으며, 과거 버전은 Git 이력에서 확인합니다.
 
 ## 새로 정리한 작품과 연구
 

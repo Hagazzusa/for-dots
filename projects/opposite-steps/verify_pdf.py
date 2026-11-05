@@ -4,7 +4,10 @@
 python verify_pdf.py
 python verify_pdf.py --output-root /tmp/opposite-steps-check/output
 python verify_pdf.py --compare-root /tmp/opposite-steps-check/output
+python verify_pdf.py --report /tmp/opposite-steps-qa.json
 
+기본 실행은 stdout에 결과만 출력하며 파일을 만들거나 바꾸지 않는다.
+--report를 명시한 경우에만 JSON 보고서를 쓴다.
 시각 검사를 대체하지 않는다. tmp/pdfs/의 모든 쪽 PNG를 별도로 확인한다.
 """
 from __future__ import annotations
@@ -81,7 +84,7 @@ def main():
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--output-root", type=Path, default=ROOT/"output")
     parser.add_argument("--compare-root", type=Path)
-    parser.add_argument("--report", type=Path, default=ROOT/"qa_layout.json")
+    parser.add_argument("--report", type=Path, help="명시한 경로에만 JSON 검사 보고서 저장")
     args = parser.parse_args()
     layout = json.loads((ROOT/"layout.json").read_text())
     puzzles = {v["id"]: v for v in json.loads((ROOT/"puzzles.json").read_text())["puzzles"]}
@@ -110,8 +113,6 @@ def main():
             for number, page in enumerate(document.pages, 1):
                 assert abs(page.width-210*MM) < .01 and abs(page.height-297*MM) < .01
                 body = page.extract_text()
-                (ROOT/"tmp"/"pdfs").mkdir(parents=True, exist_ok=True)
-                (ROOT/"tmp"/"pdfs"/f"{path.stem}-{number}.txt").write_text(body+"\n", encoding="utf-8")
                 assert "\ufffd" not in body and "\x00" not in body
                 text = normalize(body)
                 page_records = [v for v in records if v["page"] == number]
@@ -169,7 +170,7 @@ def main():
         assert (args.output_root/"layout_manifest.json").read_bytes() == (args.compare_root/"layout_manifest.json").read_bytes()
         report["checks"].append("separate rebuild is byte identical for both PDFs and layout manifest")
     # A rerun may retain a manual review only for the exact same PDF and PNG bytes.
-    if args.report.exists():
+    if args.report and args.report.exists():
         prior = json.loads(args.report.read_text())
         visual = prior.get("visual_review")
         if visual and all(
@@ -179,7 +180,8 @@ def main():
             for entry in visual["reviewed_pages"]
         ):
             report["visual_review"] = visual
-    args.report.write_text(json.dumps(report, ensure_ascii=False, indent=2)+"\n", encoding="utf-8")
+    if args.report:
+        args.report.write_text(json.dumps(report, ensure_ascii=False, indent=2)+"\n", encoding="utf-8")
     print("PASS: 4 pages, 3 problem boards, 24 solution states, embedded Korean font, text, bounds, vector geometry" + (", byte-identical rebuild" if args.compare_root else ""))
 
 

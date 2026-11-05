@@ -1,0 +1,104 @@
+{
+  "status": "passed",
+  "pdf": "output/pdf/Six-Passes-One-Line.pdf",
+  "sha256": "603044d5070b5cffc94dbf866d52619caa71fe432542b4106903b0c1ce436cef",
+  "source_sha256": "6c64caccf2dd726a21043d2f329aa8d2b13b1be73966e33862fb9dc68de76319",
+  "pages": 1,
+  "page_size_mm": [
+    210,
+    297
+  ],
+  "font_embedded": [
+    "/AAAAAA+SixPassesNotoSerifKR"
+  ],
+  "text_characters": 705,
+  "all_source_text_preserved": true,
+  "all_authored_text_recoverable": true,
+  "bounds_and_text_overlap_passed": true,
+  "actual_vector_grid": {
+    "rows": 6,
+    "beats_per_row": 8,
+    "total_beats": 48,
+    "move_beats": 24,
+    "hold_beats": 24,
+    "phrases": [
+      {
+        "phrase": 1,
+        "direction": "오른쪽",
+        "bar_width_mm": 83.99999,
+        "move_beats": 6,
+        "hold_circles": 2,
+        "total_beats": 8
+      },
+      {
+        "phrase": 2,
+        "direction": "왼쪽",
+        "bar_width_mm": 56.00001,
+        "move_beats": 4,
+        "hold_circles": 4,
+        "total_beats": 8
+      },
+      {
+        "phrase": 3,
+        "direction": "오른쪽",
+        "bar_width_mm": 28.0,
+        "move_beats": 2,
+        "hold_circles": 6,
+        "total_beats": 8
+      },
+      {
+        "phrase": 4,
+        "direction": "왼쪽",
+        "bar_width_mm": 28.0,
+        "move_beats": 2,
+        "hold_circles": 6,
+        "total_beats": 8
+      },
+      {
+        "phrase": 5,
+        "direction": "오른쪽",
+        "bar_width_mm": 56.00001,
+        "move_beats": 4,
+        "hold_circles": 4,
+        "total_beats": 8
+      },
+      {
+        "phrase": 6,
+        "direction": "왼쪽",
+        "bar_width_mm": 83.99999,
+        "move_beats": 6,
+        "hold_circles": 2,
+        "total_beats": 8
+      }
+    ]
+  },
+  "play_points": {
+    "count": 2,
+    "distance_mm": 60.0,
+    "pre_drawn_line": false
+  },
+  "separate_rebuild_byte_identical": true,
+  "performance_or_audio_claimed": false,
+  "visual_review": {
+    "status": "passed",
+    "pages_reviewed": [
+      1
+    ],
+    "render": "tmp/pdfs/score-1.png",
+    "pdf_sha256": "603044d5070b5cffc94dbf866d52619caa71fe432542b4106903b0c1ce436cef",
+    "render_sha256": "cefde886f1594bbbeda6d19e37a91d0a7f7f148a6de372e887ec2e056e8a6c35",
+    "render_dpi": 150,
+    "observations": [
+      "전체 한 쪽을 PNG로 열어 한글·화살표·등호 표시를 확인했다.",
+      "지시문과 범례가 잘리지 않으며 시간표의 6행과 8열이 명확하다.",
+      "실제 연주 자리에 미리 그은 선이 없으며 두 회색 점 주위가 비어 있다.",
+      "제목·본문·마지막 문장과 인쇄 안내에 겹침이나 누락이 없다."
+    ]
+  },
+  "배포 사본 검사": {
+    "임시 렌더 없이 기본 검사 통과": true,
+    "검사 전후 공개 파일 바이트 불변": true,
+    "재생성 PDF 바이트 일치": true,
+    "150dpi 페이지 픽셀 일치": true
+  }
+}

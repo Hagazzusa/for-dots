@@ -27,7 +27,7 @@ A와 B를 반대 방향으로 함께 움직이는 1인용 종이 퍼즐 세 문�
 - `solve.py`, `solutions.json`: 너비 우선 탐색과 최단 상태열.
 - `independent_check.py`, `independent_check_results.json`, `INDEPENDENT_CHECK.md`: 별도 좌표 구현의 검증과 설명.
 - `verify.py`, `qa.json`: 모든 유효 상태의 이동 대조와 해법 검사.
-- `build_pdf.py`, `layout.json`, `verify_pdf.py`, `qa_layout.json`: 문제지·해설 제작과 조판 검사.
+- `build_pdf.py`, `layout.json`, `output/layout_manifest.json`, `verify_pdf.py`, `qa_layout.json`: 문제지·해설 제작, 출력 구성 기록과 조판 검사.
 - `manifest.json`: 보존 대상의 파일 크기와 SHA-256.
 
 원본을 보존하려면 별도 사본에서 실행합니다.
@@ -39,6 +39,8 @@ python3 independent_check.py
 python3 build_pdf.py
 python3 verify_pdf.py
 ```
+
+기본 검사 명령은 보존 파일을 바꾸지 않습니다. PDF 검사 보고서를 따로 저장하려면 `--report 파일명.json`을 지정합니다.
 
 풀이 검사는 Python 표준 라이브러리만 사용합니다. PDF 제작·검사 의존성은 제작 코드의 설명을 참고하세요. 글꼴은 Noto Serif CJK KR이며 SIL Open Font License 1.1에 따라 PDF에 부분집합을 포함합니다.
 

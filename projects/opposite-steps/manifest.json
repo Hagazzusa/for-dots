@@ -4,8 +4,8 @@
     "sha256": "8ee3c936793b4e40893093665c9ea38d356f5c670164853730f7e33ad1d232bf"
   },
   "README.md": {
-    "bytes": 3485,
-    "sha256": "7a79b65c602d78807b89d6f0acc747530334a3c6c213e39d8f3ba17abd6cedf6"
+    "bytes": 3697,
+    "sha256": "2b560428817f086e3f54d73ce53d7db990edf58665aa751b91f0ea842a89d4be"
   },
   "puzzles.json": {
     "bytes": 497,
@@ -48,12 +48,12 @@
     "sha256": "9e95bfe8f2bf1941f3879b0f725b5f71a26511ef99e5f284584c6440c1d55631"
   },
   "verify_pdf.py": {
-    "bytes": 10231,
-    "sha256": "ba2819bf97957fd030943d9994b63445283b5832f823051d834c5a6298277b77"
+    "bytes": 10338,
+    "sha256": "35c99113002157f426057a418f539f6bba4be920ca256385c9f5b4e3be0988d5"
   },
   "qa_layout.json": {
-    "bytes": 9331,
-    "sha256": "ee25794d9d68c9840eb21ca2e4fb9d911d3648a2fb0e6abe4e946d7a8a8b4f81"
+    "bytes": 9514,
+    "sha256": "60fe53ec03fa5945585f636980db027aea5676e10cc8c0e869aab8e9f366e078"
   },
   "output/pdf/Opposite-Steps.pdf": {
     "bytes": 42090,
@@ -62,5 +62,9 @@
   "output/pdf/Opposite-Steps-Solutions.pdf": {
     "bytes": 43585,
     "sha256": "a5216d8b54fb4a148e2836eed14d1c40c0d78b6ba2a1584db293dfee69466fd5"
+  },
+  "output/layout_manifest.json": {
+    "bytes": 64550,
+    "sha256": "268746edb6f02c8bc0456370e4ddc5e953680a4db5cfe5b63b592a0f57e03b8c"
   }
 }

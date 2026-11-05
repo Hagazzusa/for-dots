@@ -1,0 +1,55 @@
+{
+  "title": "여섯 번의 한 줄",
+  "subtitle": "연필과 종이를 위한 소리 악보 · 한 사람",
+  "line_length_mm": 60,
+  "beats_per_phrase": 8,
+  "approx_seconds_per_beat": 1,
+  "phrases": [
+    {
+      "number": 1,
+      "direction": "오른쪽",
+      "move_beats": 6,
+      "hold_beats": 2
+    },
+    {
+      "number": 2,
+      "direction": "왼쪽",
+      "move_beats": 4,
+      "hold_beats": 4
+    },
+    {
+      "number": 3,
+      "direction": "오른쪽",
+      "move_beats": 2,
+      "hold_beats": 6
+    },
+    {
+      "number": 4,
+      "direction": "왼쪽",
+      "move_beats": 2,
+      "hold_beats": 6
+    },
+    {
+      "number": 5,
+      "direction": "오른쪽",
+      "move_beats": 4,
+      "hold_beats": 4
+    },
+    {
+      "number": 6,
+      "direction": "왼쪽",
+      "move_beats": 6,
+      "hold_beats": 2
+    }
+  ],
+  "instructions": [
+    "연필 한 자루와 종이를 준비합니다. 아래 두 점 사이가 연주 자리입니다.",
+    "왼쪽 점에 연필을 가볍게 대고 시작합니다. 누르는 힘은 편안하고 일정하게 둡니다.",
+    "한 박을 약 1초로 잡고 속으로 고르게 셉니다. 한 구절이 8박이며, 전체는 약 48초입니다.",
+    "각 구절이 시작되면 출발해 검은 막대의 시간이 끝날 때 반대 점에 닿습니다. 그동안 속도를 고르게 유지합니다.",
+    "빈 원 동안은 도착한 점에 연필을 댄 채 가만히 머뭅니다. 문지르거나 힘을 더 주지 않습니다.",
+    "구절 사이에 별도 쉼을 넣지 않고 다음 방향으로 돌아옵니다. 여섯째 구절의 마지막 머묾이 끝난 뒤 연필을 뗍니다."
+  ],
+  "closing": "남은 선을 지우지 않습니다.",
+  "print_note": "A4 실제 크기 100%에서 두 점 사이는 6cm입니다. 빈 종이에 같은 간격의 두 점을 옮겨 연주해도 됩니다."
+}

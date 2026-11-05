@@ -1,0 +1,46 @@
+{
+  ".gitignore": {
+    "bytes": 27,
+    "sha256": "dcceafd97b3562157ca904aa20f585bc01dfa307dca84b4770c303cc2bf6b24e"
+  },
+  "README.md": {
+    "bytes": 3014,
+    "sha256": "edcd4a825c75f27b59c555550afa54ac961c3b963e53f48486bbd7879fb3abb8"
+  },
+  "score.json": {
+    "bytes": 1883,
+    "sha256": "6c64caccf2dd726a21043d2f329aa8d2b13b1be73966e33862fb9dc68de76319"
+  },
+  "verify_score.py": {
+    "bytes": 1657,
+    "sha256": "d729f71500e80433000771b177004588a127a707c6508a6089264f95e892249b"
+  },
+  "timing.json": {
+    "bytes": 3009,
+    "sha256": "92815baf01b7cb61658ddd949e4653c8106f712cd70c3fbd904d3441298d71d3"
+  },
+  "build_pdf.py": {
+    "bytes": 10959,
+    "sha256": "074b665b2990e132f796871032dfa0f686ce598a00db741165b9edfe8af904a5"
+  },
+  "layout.json": {
+    "bytes": 714,
+    "sha256": "a1d9748a700dd0925ea61311300f932b0edfdbc2cdd09d6a2edcc02bc789536a"
+  },
+  "verify_pdf.py": {
+    "bytes": 8936,
+    "sha256": "2ef574e24ed27698236f712139066c262bde2193f463dde4667f657439088970"
+  },
+  "qa_layout.json": {
+    "bytes": 2887,
+    "sha256": "89aab41cba8a88a9a1ee3cf0c75fb6474c70c14f90e1bd4a5663cb1ee01e9334"
+  },
+  "output/pdf/Six-Passes-One-Line.pdf": {
+    "bytes": 38230,
+    "sha256": "603044d5070b5cffc94dbf866d52619caa71fe432542b4106903b0c1ce436cef"
+  },
+  "output/layout_manifest.json": {
+    "bytes": 19773,
+    "sha256": "cfa47cbff0f6d4b235c45396d802d676700944f9a72bf014bbfb55718c447d07"
+  }
+}
