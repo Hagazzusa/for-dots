@@ -353,6 +353,8 @@ Blender 4.3.2의 실제 렌더. 원본 장면과 형상·투영 검사, 영역�
 
 내장 이미지 생성 도구로 만든 1536×1024 이미지입니다. 실물 회화나 사진이 아니며 후처리 없이 원본을 보존했습니다. 별도의 편집 레이어·3D 장면은 없고 동일한 픽셀 재생성을 보장하지 않습니다.
 
+동반 소설 [《남은 작업》 PDF](projects/the-bottom-of-afternoon/output/pdf/Remaining-Work.pdf)는 같은 공간을 작업비와 완료 확인서 앞에 선 두 사람의 이야기로 이어 갑니다.
+
 ## 35. 반대편으로 한 칸
 
 A와 B를 반대 방향으로 함께 움직이는 1인용 종이 퍼즐 세 문제입니다. 벽에 한 말이 멈추는 동안 다른 말은 계속 움직일 수 있습니다.
@@ -384,6 +386,8 @@ A와 B를 반대 방향으로 함께 움직이는 1인용 종이 퍼즐 세 문�
 ## 읽기·듣기
 
 시각 작품과 별도로 읽고 들을 수 있는 작업입니다. 악보의 실연·녹음 여부는 각 항목에 표시합니다.
+
+- [남은 작업 · 4쪽 PDF](projects/the-bottom-of-afternoon/output/pdf/Remaining-Work.pdf): 물이 빠진 수영장에서 도장공과 직원이 같은 완료 확인서를 다르게 읽는 동반 소설. [텍스트](projects/the-bottom-of-afternoon/output/text/Remaining-Work.txt)와 [원문·제작 안내](projects/the-bottom-of-afternoon/README.md).
 
 - [한 뼘 안쪽 · 한 쪽 PDF](projects/one-handspan-inward/output/pdf/One-Handspan-Inward.pdf): 엘리베이터의 닫힘 버튼과 바깥에서 들어오는 손, 안쪽으로 옮기는 뒤꿈치를 담은 시조 한 수. [텍스트](projects/one-handspan-inward/output/text/One-Handspan-Inward.txt)와 [원문·형식·제작 안내](projects/one-handspan-inward/README.md). 실제 낭독은 확인하지 않았습니다.
 

@@ -1,15 +1,19 @@
 {
-  "README.md": {
-    "bytes": 1813,
-    "sha256": "4b049fe9cf8f0561c19086125735ca9daa31608085f0e357e3cbc046e057e4e1"
+  ".gitignore": {
+    "bytes": 27,
+    "sha256": "104d9b4545c1044cb17adf63e6890b2e3555a8e9fe8f6480ca9d4b64bfbaaf5e"
   },
-  "prompt.txt": {
-    "bytes": 1996,
-    "sha256": "c8487942a6c5ca5c29dafd2e70d48f4c494ac2a69505dd1e33d1a3ce2db343bf"
+  "README.md": {
+    "bytes": 3494,
+    "sha256": "38df616b6e50f7f3bdb3c07e882521e2c9b6b5b8eb8d4b5d3f2560715df0f31f"
   },
   "The-Bottom-of-Afternoon.png": {
     "bytes": 2645864,
     "sha256": "bda6ad161f7f7ddd2bc6add93d2c10e4ca2537141d1d6387fcb1a15d38b2aea7"
+  },
+  "prompt.txt": {
+    "bytes": 1996,
+    "sha256": "c8487942a6c5ca5c29dafd2e70d48f4c494ac2a69505dd1e33d1a3ce2db343bf"
   },
   "verify.py": {
     "bytes": 691,
@@ -18,5 +22,29 @@
   "qa.json": {
     "bytes": 905,
     "sha256": "de2623ad36436bd18bcd30a1911c8aa55930366b211140e71ce2fee647c04e07"
+  },
+  "story.txt": {
+    "bytes": 5979,
+    "sha256": "f21d8a34f4963405178c3c3947cbf4d8321d6408e1a3235f95126e2f82e23dc3"
+  },
+  "build_reading.py": {
+    "bytes": 9435,
+    "sha256": "02c145a7c8b02d42a1df7201f575cd7436a57df1b6f29f9d2bc10a7f7ab1bb11"
+  },
+  "verify_reading.py": {
+    "bytes": 10703,
+    "sha256": "586347a11dcc2a62a5f2ef9b8772993867bef8443bd1917a5aa8da6cc4f27f2f"
+  },
+  "reading_qa.json": {
+    "bytes": 4728,
+    "sha256": "f9dd32fb0e1304132a3966c2ddce54ffaa67c14f1747b5dc5415dd3c16a9e435"
+  },
+  "output/pdf/Remaining-Work.pdf": {
+    "bytes": 80234,
+    "sha256": "c63890ab1557b75947a2c6a557127393b56e0b09b1d6af62c6569d5ade45991f"
+  },
+  "output/text/Remaining-Work.txt": {
+    "bytes": 5979,
+    "sha256": "f21d8a34f4963405178c3c3947cbf4d8321d6408e1a3235f95126e2f82e23dc3"
   }
 }

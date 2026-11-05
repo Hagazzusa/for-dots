@@ -71,7 +71,7 @@
 | [아직 출발하지 않은 밤](still-together/README.md) | SVG·PNG 정물 | 독립 동반 작품 | `still-together` |
 | [번갈아 쉬는 동안](taking-turns-at-rest/README.md) | 진자 모델·20초 무성 영상 | 완성 영상 · 이상화 모델·실물 미검증 | `taking-turns-at-rest` |
 | [두 잔의 자리 · 차 재질 연구실](tea-material-study/README.md) | Godot 차 재질 비교 | 연구 · 통합 보류 | `tea-material-study` |
-| [오후의 바닥](the-bottom-of-afternoon/README.md) | 회화풍 생성 이미지·PNG | 완성 이미지 · 원본·생성 지시문 보존 | `the-bottom-of-afternoon` |
+| [오후의 바닥](the-bottom-of-afternoon/README.md) | 생성 이미지·동반 소설·PDF | 완성 이미지·소설 · 원본·지시문·제작 코드 보존 | `the-bottom-of-afternoon` |
 | [고객 역할](the-customer-role/README.md) | 소설·PDF·텍스트 | 완성 작품 | `the-customer-role` |
 | [가벼운 쪽의 거리](the-lighter-side/README.md) | 모빌 영상·정지 이미지·OBJ | 작품 · 정적 균형 검사, 실제 동역학·제작 안전 미검증 | `the-lighter-side` |
 | [낮은 모서리](the-low-corner/README.md) | 생성 디지털 회화·PNG | 완성 이미지 · 원본·프롬프트 보존 | `the-low-corner` |

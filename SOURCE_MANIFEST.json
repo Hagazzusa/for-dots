@@ -14,8 +14,8 @@
     },
     {
       "path": "GALLERY.md",
-      "size": 29556,
-      "sha256": "4f0e50b3733b1ac11d16f2c60174a83d197f0b1d37fc52a291ae82b6809c0353"
+      "size": 30124,
+      "sha256": "2ed60ab39bb62e473b078c65911d6c3531e58221e9e518a32f3b0e042635ea29"
     },
     {
       "path": "GIT_ENVIRONMENT_CHECK.md",
@@ -24,8 +24,8 @@
     },
     {
       "path": "README.md",
-      "size": 36750,
-      "sha256": "a9552bad35ab93ff21eb1a661f8a978d321ee16fc0f335c7b84b52da6381a84f"
+      "size": 36857,
+      "sha256": "8d3241250d0171d23eb1b13148f36055baa4b03ce75f0a53c4712e2a2b05ab01"
     },
     {
       "path": "WORLD_CONNECTIONS.md",
@@ -49,8 +49,8 @@
     },
     {
       "path": "projects/README.md",
-      "size": 11763,
-      "sha256": "8d28290bac381d3d9082ccced38554adfeabfc3c4b86b1c5ed71c932599f83b9"
+      "size": 11784,
+      "sha256": "bf952d576824c082bb28fe299eefa3c170862fa62bad2963b25d7e8f31ddf3f7"
     },
     {
       "path": "projects/VERIFICATION.md",
@@ -7503,9 +7503,14 @@
       "sha256": "bef1736284fbfbf2139c84d129b28bbe4fc20392352c152636d93baf80564e93"
     },
     {
+      "path": "projects/the-bottom-of-afternoon/.gitignore",
+      "size": 27,
+      "sha256": "104d9b4545c1044cb17adf63e6890b2e3555a8e9fe8f6480ca9d4b64bfbaaf5e"
+    },
+    {
       "path": "projects/the-bottom-of-afternoon/README.md",
-      "size": 1813,
-      "sha256": "4b049fe9cf8f0561c19086125735ca9daa31608085f0e357e3cbc046e057e4e1"
+      "size": 3494,
+      "sha256": "38df616b6e50f7f3bdb3c07e882521e2c9b6b5b8eb8d4b5d3f2560715df0f31f"
     },
     {
       "path": "projects/the-bottom-of-afternoon/The-Bottom-of-Afternoon.png",
@@ -7513,9 +7518,24 @@
       "sha256": "bda6ad161f7f7ddd2bc6add93d2c10e4ca2537141d1d6387fcb1a15d38b2aea7"
     },
     {
+      "path": "projects/the-bottom-of-afternoon/build_reading.py",
+      "size": 9435,
+      "sha256": "02c145a7c8b02d42a1df7201f575cd7436a57df1b6f29f9d2bc10a7f7ab1bb11"
+    },
+    {
       "path": "projects/the-bottom-of-afternoon/manifest.json",
-      "size": 631,
-      "sha256": "c4eacb8058103ec1973f319af7ae7dc2dfcc3c0dc2b929196c433a3a440c20f1"
+      "size": 1548,
+      "sha256": "3b08ad4269c522ced0fe02878da6c6d1260e0c6c0228846710417ea94da77ea0"
+    },
+    {
+      "path": "projects/the-bottom-of-afternoon/output/pdf/Remaining-Work.pdf",
+      "size": 80234,
+      "sha256": "c63890ab1557b75947a2c6a557127393b56e0b09b1d6af62c6569d5ade45991f"
+    },
+    {
+      "path": "projects/the-bottom-of-afternoon/output/text/Remaining-Work.txt",
+      "size": 5979,
+      "sha256": "f21d8a34f4963405178c3c3947cbf4d8321d6408e1a3235f95126e2f82e23dc3"
     },
     {
       "path": "projects/the-bottom-of-afternoon/prompt.txt",
@@ -7528,9 +7548,24 @@
       "sha256": "de2623ad36436bd18bcd30a1911c8aa55930366b211140e71ce2fee647c04e07"
     },
     {
+      "path": "projects/the-bottom-of-afternoon/reading_qa.json",
+      "size": 4728,
+      "sha256": "f9dd32fb0e1304132a3966c2ddce54ffaa67c14f1747b5dc5415dd3c16a9e435"
+    },
+    {
+      "path": "projects/the-bottom-of-afternoon/story.txt",
+      "size": 5979,
+      "sha256": "f21d8a34f4963405178c3c3947cbf4d8321d6408e1a3235f95126e2f82e23dc3"
+    },
+    {
       "path": "projects/the-bottom-of-afternoon/verify.py",
       "size": 691,
       "sha256": "f5c8abfc9b3ca3d242e53564730a604bb02d889ef3ec29fa21b5b67390cb5800"
+    },
+    {
+      "path": "projects/the-bottom-of-afternoon/verify_reading.py",
+      "size": 10703,
+      "sha256": "586347a11dcc2a62a5f2ef9b8772993867bef8443bd1917a5aa8da6cc4f27f2f"
     },
     {
       "path": "projects/the-customer-role/.gitignore",

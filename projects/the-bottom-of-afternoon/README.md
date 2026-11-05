@@ -4,6 +4,25 @@
 
 ![오후의 바닥: 물이 빠진 수영장 바닥 위에 비스듬한 오후 빛과 창을 비추는 작은 물웅덩이가 남아 있는 회화풍 이미지](The-Bottom-of-Afternoon.png)
 
+## 이어진 소설: 남은 작업
+
+물이 빠진 수영장을 작업 공간으로 바라본 짧은 소설입니다. 반복해서 젖는 한 자리 앞에서, 오늘 작업비를 받아야 하는 도장공과 재개장 안내를 맡은 직원이 같은 완료 확인서를 다르게 읽습니다. 그림을 설명하는 글이 아니라 그 공간에서 새로 쓴 이야기입니다.
+
+- [남은 작업 PDF](output/pdf/Remaining-Work.pdf)
+- [남은 작업 TXT](output/text/Remaining-Work.txt)
+- [편집 원문](story.txt)
+
+`build_reading.py`는 원문을 읽기용 PDF와 바이트가 같은 TXT로 만듭니다. `verify_reading.py`의 기본 실행은 읽기 전용이며, `--report 경로.json`을 명시할 때만 기록을 저장합니다. `reading_qa.json`은 소설의 조판 검사 기록입니다. 기존 이미지·생성 프롬프트·이미지 검사 파일은 그대로 보존했습니다.
+
+재현은 기존 결과를 덮어쓰지 않도록 별도 사본에서 실행합니다. Python, ReportLab, fontTools, pdfplumber, pypdf와 Noto Serif CJK KR 글꼴이 필요하며, 쪽을 이미지로 볼 때는 Poppler를 사용합니다. 글꼴은 SIL Open Font License 1.1에 따라 사용 글자만 변환·내장합니다.
+
+```sh
+python3 build_reading.py
+python3 verify_reading.py
+```
+
+소설은 인물의 동기와 전달된 정보, 작업·서류 처리의 인과를 독립 검토했습니다. 4쪽 PDF의 글자열·글꼴·경계·겹침과 모든 쪽의 렌더 이미지를 확인했고, 공개 제작 소스만 옮긴 사본에서 PDF·TXT의 바이트와 144dpi 렌더 픽셀이 원본과 일치했습니다. 실제 인쇄와 낭독은 확인하지 않았습니다.
+
 ## 원본과 제작
 
 - [The-Bottom-of-Afternoon.png](The-Bottom-of-Afternoon.png): 최종 이미지. 1536×1024, RGB PNG.
