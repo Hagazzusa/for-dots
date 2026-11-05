@@ -1,6 +1,6 @@
 # 전체 프로젝트 색인
 
-모든 70개 작품·게임·연구의 정식 원본을 `projects/<kebab-case>/`에서 관리합니다. 최상위 프로젝트 폴더나 날짜별 스냅샷을 중복으로 유지하지 않으며, 이전 버전은 Git 이력에서 찾습니다. 한 프로젝트의 이미지·영상·글·편집 원본은 해당 폴더에서 함께 관리합니다.
+모든 71개 작품·게임·연구의 정식 원본을 `projects/<kebab-case>/`에서 관리합니다. 최상위 프로젝트 폴더나 날짜별 스냅샷을 중복으로 유지하지 않으며, 이전 버전은 Git 이력에서 찾습니다. 한 프로젝트의 이미지·영상·글·편집 원본은 해당 폴더에서 함께 관리합니다.
 
 [전체 저장소 안내](../README.md) · [작품 갤러리](../GALLERY.md) · [세계와 작품의 연결](../WORLD_CONNECTIONS.md)
 
@@ -66,6 +66,7 @@
 | [세 높이, 하나의 빛](soft-shadow-study/README.md) | Blender 조각·선형 EXR 비교 | 작품 · 통제 연구 | `soft-shadow-study` |
 | [아직 출발하지 않은 밤](still-together/README.md) | SVG·PNG 정물 | 독립 동반 작품 | `still-together` |
 | [두 잔의 자리 · 차 재질 연구실](tea-material-study/README.md) | Godot 차 재질 비교 | 연구 · 통합 보류 | `tea-material-study` |
+| [오후의 바닥](the-bottom-of-afternoon/README.md) | 회화풍 생성 이미지·PNG | 완성 이미지 · 원본·생성 지시문 보존 | `the-bottom-of-afternoon` |
 | [고객 역할](the-customer-role/README.md) | 소설·PDF·텍스트 | 완성 작품 | `the-customer-role` |
 | [가벼운 쪽의 거리](the-lighter-side/README.md) | 모빌 영상·정지 이미지·OBJ | 작품 · 정적 균형 검사, 실제 동역학·제작 안전 미검증 | `the-lighter-side` |
 | [문턱에 남은 빛](threshold-film/README.md) | Blender 12초 무음 영상 | 완성 작품 | `threshold-film` |

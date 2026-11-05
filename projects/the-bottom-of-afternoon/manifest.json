@@ -1,0 +1,22 @@
+{
+  "README.md": {
+    "bytes": 1813,
+    "sha256": "4b049fe9cf8f0561c19086125735ca9daa31608085f0e357e3cbc046e057e4e1"
+  },
+  "prompt.txt": {
+    "bytes": 1996,
+    "sha256": "c8487942a6c5ca5c29dafd2e70d48f4c494ac2a69505dd1e33d1a3ce2db343bf"
+  },
+  "The-Bottom-of-Afternoon.png": {
+    "bytes": 2645864,
+    "sha256": "bda6ad161f7f7ddd2bc6add93d2c10e4ca2537141d1d6387fcb1a15d38b2aea7"
+  },
+  "verify.py": {
+    "bytes": 691,
+    "sha256": "f5c8abfc9b3ca3d242e53564730a604bb02d889ef3ec29fa21b5b67390cb5800"
+  },
+  "qa.json": {
+    "bytes": 905,
+    "sha256": "de2623ad36436bd18bcd30a1911c8aa55930366b211140e71ce2fee647c04e07"
+  }
+}

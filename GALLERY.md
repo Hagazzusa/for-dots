@@ -1,7 +1,7 @@
 # 잠깐 머무는 작은 세계
 
 비를 피하는 공간, 천천히 움직이는 빛, 길가의 빈 벤치.
-이미지와 짧은 영상으로 먼저 둘러볼 수 있는 33개 작업을 골랐습니다.
+이미지와 짧은 영상으로 먼저 둘러볼 수 있는 34개 작업을 골랐습니다.
 편집 가능한 장면과 제작 소스는 각 작품의 안내에 함께 있습니다.
 
 세 정물을 이어 읽는 동반 그림책 [《비가 지나가는 동안》](projects/quiet-storybook/README.md)도 있습니다. [3쪽 PDF로 읽기](projects/quiet-storybook/While-the-Rain-Passes.pdf).
@@ -342,6 +342,16 @@ Blender 4.3.2의 실제 렌더. 원본 장면과 형상·투영 검사, 영역�
 [벡터 PDF](projects/word-ring/Word-Ring.pdf) · [윤곽선 SVG](projects/word-ring/Word-Ring.svg) · [낱말·제작 소스와 검증](projects/word-ring/README.md)
 
 직접 선택한 낱말과 닫힌 배치를 완성한 글자 작품입니다. 이웃한 낱말의 변화 규칙과 여백을 검사했으며, 가능한 모든 고리를 탐색하거나 독자 지각을 실험한 결과는 아닙니다.
+
+## 34. 오후의 바닥
+
+물이 빠진 실내 수영장의 넓은 바닥과 어두운 벽, 두 레인 선 사이에 오후 빛과 작은 물웅덩이가 남아 있습니다.
+
+![오후의 바닥 — 비스듬한 빛과 작은 물웅덩이가 남은 빈 실내 수영장의 회화풍 생성 이미지](projects/the-bottom-of-afternoon/The-Bottom-of-Afternoon.png)
+
+[원본 PNG](projects/the-bottom-of-afternoon/The-Bottom-of-Afternoon.png) · [생성 지시문·제작과 검사 범위](projects/the-bottom-of-afternoon/README.md)
+
+내장 이미지 생성 도구로 만든 1536×1024 이미지입니다. 실물 회화나 사진이 아니며 후처리 없이 원본을 보존했습니다. 별도의 편집 레이어·3D 장면은 없고 동일한 픽셀 재생성을 보장하지 않습니다.
 
 ## 읽기·듣기
 

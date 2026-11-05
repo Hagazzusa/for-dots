@@ -14,8 +14,8 @@
     },
     {
       "path": "GALLERY.md",
-      "size": 24908,
-      "sha256": "cb57ab469bbec36805dd0e271f4322ee4abebbf72973dc76c0d35f6be7e4b8f1"
+      "size": 25700,
+      "sha256": "44bf878cb792d7ce5f9379b7ebbc608898dc3ecc4b8d0def08bf85670a688aa6"
     },
     {
       "path": "GIT_ENVIRONMENT_CHECK.md",
@@ -24,8 +24,8 @@
     },
     {
       "path": "README.md",
-      "size": 32817,
-      "sha256": "ecd582da2f16233f2a0c23e2ce974edfdad440ba1f70656fa5b3da9da083364c"
+      "size": 33291,
+      "sha256": "442091163bde6194c48aece0afc6edc852fa9fa5a7e3717e0748fdb58c07909f"
     },
     {
       "path": "WORLD_CONNECTIONS.md",
@@ -49,8 +49,8 @@
     },
     {
       "path": "projects/README.md",
-      "size": 10483,
-      "sha256": "261efb8fd9fde746dc9e70f4f397f924f0f7e556c6ffe26ec83dc958a465381d"
+      "size": 10657,
+      "sha256": "18be13f6185b0479e0382f6416710da116f9887b87736d6dd6675789dcfd9887"
     },
     {
       "path": "projects/VERIFICATION.md",
@@ -7001,6 +7001,36 @@
       "path": "projects/tea-material-study/verify_lab.py",
       "size": 4755,
       "sha256": "bef1736284fbfbf2139c84d129b28bbe4fc20392352c152636d93baf80564e93"
+    },
+    {
+      "path": "projects/the-bottom-of-afternoon/README.md",
+      "size": 1813,
+      "sha256": "4b049fe9cf8f0561c19086125735ca9daa31608085f0e357e3cbc046e057e4e1"
+    },
+    {
+      "path": "projects/the-bottom-of-afternoon/The-Bottom-of-Afternoon.png",
+      "size": 2645864,
+      "sha256": "bda6ad161f7f7ddd2bc6add93d2c10e4ca2537141d1d6387fcb1a15d38b2aea7"
+    },
+    {
+      "path": "projects/the-bottom-of-afternoon/manifest.json",
+      "size": 631,
+      "sha256": "c4eacb8058103ec1973f319af7ae7dc2dfcc3c0dc2b929196c433a3a440c20f1"
+    },
+    {
+      "path": "projects/the-bottom-of-afternoon/prompt.txt",
+      "size": 1996,
+      "sha256": "c8487942a6c5ca5c29dafd2e70d48f4c494ac2a69505dd1e33d1a3ce2db343bf"
+    },
+    {
+      "path": "projects/the-bottom-of-afternoon/qa.json",
+      "size": 905,
+      "sha256": "de2623ad36436bd18bcd30a1911c8aa55930366b211140e71ce2fee647c04e07"
+    },
+    {
+      "path": "projects/the-bottom-of-afternoon/verify.py",
+      "size": 691,
+      "sha256": "f5c8abfc9b3ca3d242e53564730a604bb02d889ef3ec29fa21b5b67390cb5800"
     },
     {
       "path": "projects/the-customer-role/.gitignore",
