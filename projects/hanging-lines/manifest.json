@@ -4,8 +4,8 @@
     "sha256": "8ee3c936793b4e40893093665c9ea38d356f5c670164853730f7e33ad1d232bf"
   },
   "README.md": {
-    "bytes": 9341,
-    "sha256": "58ed9db552eb9e8b2256770e80bbf8146ed2e1a0a0fca0b92b6f1a17c345e8b6"
+    "bytes": 11076,
+    "sha256": "5d792c527ec5007517cb1970265eb93730ef62c66fbe7a92bf5dd0b155585b10"
   },
   "build.py": {
     "bytes": 854,
@@ -14,6 +14,10 @@
   "build_cut.py": {
     "bytes": 2261,
     "sha256": "ce00a655a7f7ab14dd7f694c0fa3e1c86441bc6bc66d2f6c859825dcb9b463c6"
+  },
+  "build_ink_study.py": {
+    "bytes": 1480,
+    "sha256": "218ef6828cc56fc585efe0f90e32b76a43816d226d2657957ebc5af645b4f324"
   },
   "build_lines.py": {
     "bytes": 1404,
@@ -26,6 +30,10 @@
   "build_unequal.py": {
     "bytes": 2320,
     "sha256": "271bc2b1d50cf97d2a8ea5e22cc6703daf0a81720ee0a997d333c21e4f2d99c5"
+  },
+  "ink_qa.json": {
+    "bytes": 597,
+    "sha256": "8f9cac2bc6aacbf206a1add38d2cc18ca6e37f0b619523bb903e1413a9a70109"
   },
   "net_qa.json": {
     "bytes": 1470,
@@ -66,6 +74,22 @@
   "output/cut_motion.npz": {
     "bytes": 3660,
     "sha256": "815d909af8333f97db589a809629f0b3181a8b8c0b139aca6e990bd165692c20"
+  },
+  "output/ink-study/fragment.png": {
+    "bytes": 60220,
+    "sha256": "702ca0d4542a0def8c234002423f5ed9eb01cb6ae34fe81ea07d28ad97c84f2f"
+  },
+  "output/ink-study/fragment.svg": {
+    "bytes": 17533,
+    "sha256": "ffbffdb8ca80d3a597571bbf190d9a8562738372547ce767f56885730d9dd6ee"
+  },
+  "output/ink-study/near.png": {
+    "bytes": 74638,
+    "sha256": "0ea0af3c154b2efd5825881d2e3fa2a262bfa88f7001b556f8d5ef33472e0c8b"
+  },
+  "output/ink-study/near.svg": {
+    "bytes": 17535,
+    "sha256": "83a594d6c00ae7b11f37f059cf77822664d5a57cf9b995f43c487a5804abbd76"
   },
   "output/net/before.png": {
     "bytes": 5427,
@@ -206,6 +230,10 @@
   "verify.py": {
     "bytes": 3033,
     "sha256": "7a38a01ed4c9094d300b36ea9a2fb9d1d9f24922ff94b230c79dfca8da58cdec"
+  },
+  "verify_ink_study.py": {
+    "bytes": 1996,
+    "sha256": "44dff3f4dd12d424dab5e0afdf55fc9dce9a213be1b98b6a0f2f24ca81289e9f"
   },
   "verify_net.py": {
     "bytes": 6019,

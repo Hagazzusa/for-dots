@@ -3864,8 +3864,8 @@
     },
     {
       "path": "projects/hanging-lines/README.md",
-      "size": 9341,
-      "sha256": "58ed9db552eb9e8b2256770e80bbf8146ed2e1a0a0fca0b92b6f1a17c345e8b6"
+      "size": 11076,
+      "sha256": "5d792c527ec5007517cb1970265eb93730ef62c66fbe7a92bf5dd0b155585b10"
     },
     {
       "path": "projects/hanging-lines/build.py",
@@ -3876,6 +3876,11 @@
       "path": "projects/hanging-lines/build_cut.py",
       "size": 2261,
       "sha256": "ce00a655a7f7ab14dd7f694c0fa3e1c86441bc6bc66d2f6c859825dcb9b463c6"
+    },
+    {
+      "path": "projects/hanging-lines/build_ink_study.py",
+      "size": 1480,
+      "sha256": "218ef6828cc56fc585efe0f90e32b76a43816d226d2657957ebc5af645b4f324"
     },
     {
       "path": "projects/hanging-lines/build_lines.py",
@@ -3893,9 +3898,14 @@
       "sha256": "271bc2b1d50cf97d2a8ea5e22cc6703daf0a81720ee0a997d333c21e4f2d99c5"
     },
     {
+      "path": "projects/hanging-lines/ink_qa.json",
+      "size": 597,
+      "sha256": "8f9cac2bc6aacbf206a1add38d2cc18ca6e37f0b619523bb903e1413a9a70109"
+    },
+    {
       "path": "projects/hanging-lines/manifest.json",
-      "size": 7004,
-      "sha256": "a83b05def73257abb5bbf24324c0c1fd89b10313e8085a030add0380de3e30fc"
+      "size": 7955,
+      "sha256": "ea2137906317730f3711da3d0ebe4536a37e2f25a872c846fbd90bf6a43cfdc9"
     },
     {
       "path": "projects/hanging-lines/net_qa.json",
@@ -3946,6 +3956,26 @@
       "path": "projects/hanging-lines/output/cut_motion.npz",
       "size": 3660,
       "sha256": "815d909af8333f97db589a809629f0b3181a8b8c0b139aca6e990bd165692c20"
+    },
+    {
+      "path": "projects/hanging-lines/output/ink-study/fragment.png",
+      "size": 60220,
+      "sha256": "702ca0d4542a0def8c234002423f5ed9eb01cb6ae34fe81ea07d28ad97c84f2f"
+    },
+    {
+      "path": "projects/hanging-lines/output/ink-study/fragment.svg",
+      "size": 17533,
+      "sha256": "ffbffdb8ca80d3a597571bbf190d9a8562738372547ce767f56885730d9dd6ee"
+    },
+    {
+      "path": "projects/hanging-lines/output/ink-study/near.png",
+      "size": 74638,
+      "sha256": "0ea0af3c154b2efd5825881d2e3fa2a262bfa88f7001b556f8d5ef33472e0c8b"
+    },
+    {
+      "path": "projects/hanging-lines/output/ink-study/near.svg",
+      "size": 17535,
+      "sha256": "83a594d6c00ae7b11f37f059cf77822664d5a57cf9b995f43c487a5804abbd76"
     },
     {
       "path": "projects/hanging-lines/output/net/before.png",
@@ -4121,6 +4151,11 @@
       "path": "projects/hanging-lines/verify.py",
       "size": 3033,
       "sha256": "7a38a01ed4c9094d300b36ea9a2fb9d1d9f24922ff94b230c79dfca8da58cdec"
+    },
+    {
+      "path": "projects/hanging-lines/verify_ink_study.py",
+      "size": 1996,
+      "sha256": "44dff3f4dd12d424dab5e0afdf55fc9dce9a213be1b98b6a0f2f24ca81289e9f"
     },
     {
       "path": "projects/hanging-lines/verify_net.py",
