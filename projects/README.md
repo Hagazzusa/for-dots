@@ -1,6 +1,6 @@
 # 전체 프로젝트 색인
 
-모든 71개 작품·게임·연구의 정식 원본을 `projects/<kebab-case>/`에서 관리합니다. 최상위 프로젝트 폴더나 날짜별 스냅샷을 중복으로 유지하지 않으며, 이전 버전은 Git 이력에서 찾습니다. 한 프로젝트의 이미지·영상·글·편집 원본은 해당 폴더에서 함께 관리합니다.
+모든 72개 작품·게임·연구의 정식 원본을 `projects/<kebab-case>/`에서 관리합니다. 최상위 프로젝트 폴더나 날짜별 스냅샷을 중복으로 유지하지 않으며, 이전 버전은 Git 이력에서 찾습니다. 한 프로젝트의 이미지·영상·글·편집 원본은 해당 폴더에서 함께 관리합니다.
 
 [전체 저장소 안내](../README.md) · [작품 갤러리](../GALLERY.md) · [세계와 작품의 연결](../WORLD_CONNECTIONS.md)
 
@@ -42,6 +42,7 @@
 | [문턱에 남은 빛](one-step-lit/README.md) | 영상 구성안·조명 시험 | 구성안 · 완성 영상은 별도 | `one-step-lit` |
 | [한 자리에서만 원](one-view-circle/README.md) | Blender 무음 영상 | 작품 | `one-view-circle` |
 | [원을 지나서 돌아오기](one-view-circle-development/README.md) | Blender 저해상도 영상 | 연구 · 고해상도 제작 보류 | `one-view-circle-development` |
+| [반대편으로 한 칸](opposite-steps/README.md) | 종이 퍼즐·문제지·해설 PDF | 완성 퍼즐 · 실물 플레이 미검증 | `opposite-steps` |
 | [머무는 페이지 · A Page at Rest](page-at-rest/README.md) | Blender 조형·부분 CAD | 작품 · 가상 디자인 | `page-at-rest` |
 | [머무는 페이지 — 독립 3D 뷰어](page-at-rest-viewer/README.md) | Godot 3D 뷰어 | 독립 뷰어 | `page-at-rest-viewer` |
 | [비 오는 밤의 정류장](pixel-busstop/README.md) | 코드 생성 픽셀아트 | 작품 | `pixel-busstop` |

@@ -1,0 +1,239 @@
+{
+  "rule_tests": "passed",
+  "puzzles": [
+    {
+      "id": 1,
+      "shortest_moves": 3,
+      "shortest_command_sequences": 1,
+      "reachable_states": 86,
+      "commands": [
+        "위",
+        "오른쪽",
+        "아래"
+      ],
+      "trace": [
+        {
+          "step": 0,
+          "A": 12,
+          "B": 3
+        },
+        {
+          "step": 1,
+          "command": "위",
+          "A": 8,
+          "B": 7,
+          "A_action": "move",
+          "B_action": "move"
+        },
+        {
+          "step": 2,
+          "command": "오른쪽",
+          "A": 9,
+          "B": 6,
+          "A_action": "move",
+          "B_action": "move"
+        },
+        {
+          "step": 3,
+          "command": "아래",
+          "A": 13,
+          "B": 6,
+          "A_action": "move",
+          "B_action": "wall"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "shortest_moves": 7,
+      "shortest_command_sequences": 1,
+      "reachable_states": 86,
+      "commands": [
+        "위",
+        "오른쪽",
+        "오른쪽",
+        "아래",
+        "왼쪽",
+        "위",
+        "왼쪽"
+      ],
+      "trace": [
+        {
+          "step": 0,
+          "A": 12,
+          "B": 3
+        },
+        {
+          "step": 1,
+          "command": "위",
+          "A": 8,
+          "B": 7,
+          "A_action": "move",
+          "B_action": "move"
+        },
+        {
+          "step": 2,
+          "command": "오른쪽",
+          "A": 9,
+          "B": 6,
+          "A_action": "move",
+          "B_action": "move"
+        },
+        {
+          "step": 3,
+          "command": "오른쪽",
+          "A": 10,
+          "B": 5,
+          "A_action": "move",
+          "B_action": "move"
+        },
+        {
+          "step": 4,
+          "command": "아래",
+          "A": 14,
+          "B": 1,
+          "A_action": "move",
+          "B_action": "move"
+        },
+        {
+          "step": 5,
+          "command": "왼쪽",
+          "A": 13,
+          "B": 1,
+          "A_action": "move",
+          "B_action": "wall"
+        },
+        {
+          "step": 6,
+          "command": "위",
+          "A": 9,
+          "B": 5,
+          "A_action": "move",
+          "B_action": "move"
+        },
+        {
+          "step": 7,
+          "command": "왼쪽",
+          "A": 8,
+          "B": 6,
+          "A_action": "move",
+          "B_action": "move"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "shortest_moves": 11,
+      "shortest_command_sequences": 1,
+      "reachable_states": 144,
+      "commands": [
+        "위",
+        "위",
+        "위",
+        "오른쪽",
+        "아래",
+        "왼쪽",
+        "아래",
+        "아래",
+        "오른쪽",
+        "오른쪽",
+        "위"
+      ],
+      "trace": [
+        {
+          "step": 0,
+          "A": 12,
+          "B": 3
+        },
+        {
+          "step": 1,
+          "command": "위",
+          "A": 8,
+          "B": 7,
+          "A_action": "move",
+          "B_action": "move"
+        },
+        {
+          "step": 2,
+          "command": "위",
+          "A": 4,
+          "B": 11,
+          "A_action": "move",
+          "B_action": "move"
+        },
+        {
+          "step": 3,
+          "command": "위",
+          "A": 0,
+          "B": 15,
+          "A_action": "move",
+          "B_action": "move"
+        },
+        {
+          "step": 4,
+          "command": "오른쪽",
+          "A": 1,
+          "B": 14,
+          "A_action": "move",
+          "B_action": "move"
+        },
+        {
+          "step": 5,
+          "command": "아래",
+          "A": 1,
+          "B": 10,
+          "A_action": "wall",
+          "B_action": "move"
+        },
+        {
+          "step": 6,
+          "command": "왼쪽",
+          "A": 0,
+          "B": 11,
+          "A_action": "move",
+          "B_action": "move"
+        },
+        {
+          "step": 7,
+          "command": "아래",
+          "A": 4,
+          "B": 7,
+          "A_action": "move",
+          "B_action": "move"
+        },
+        {
+          "step": 8,
+          "command": "아래",
+          "A": 8,
+          "B": 3,
+          "A_action": "move",
+          "B_action": "move"
+        },
+        {
+          "step": 9,
+          "command": "오른쪽",
+          "A": 9,
+          "B": 3,
+          "A_action": "move",
+          "B_action": "wall"
+        },
+        {
+          "step": 10,
+          "command": "오른쪽",
+          "A": 10,
+          "B": 3,
+          "A_action": "move",
+          "B_action": "wall"
+        },
+        {
+          "step": 11,
+          "command": "위",
+          "A": 6,
+          "B": 7,
+          "A_action": "move",
+          "B_action": "move"
+        }
+      ]
+    }
+  ]
+}

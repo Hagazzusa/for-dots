@@ -1,0 +1,19 @@
+{
+  "page_mm": [210, 297],
+  "margin_mm": 18,
+  "footer_baseline_mm": 285,
+  "font": "NotoSerifCJK-Regular.ttc Korean face",
+  "problem_cell_mm": 20,
+  "solution_board_mm": 42,
+  "solution_columns_x_mm": [15, 61, 107, 153],
+  "problem_pages": [
+    {"page": 1, "puzzles": [{"id": 1, "title_y_mm": 168, "board_x_mm": 18, "board_y_mm": 177}]},
+    {"page": 2, "puzzles": [{"id": 2, "title_y_mm": 48, "board_x_mm": 18, "board_y_mm": 57}, {"id": 3, "title_y_mm": 159, "board_x_mm": 18, "board_y_mm": 168}]}
+  ],
+  "solution_pages": [
+    {"page": 1, "groups": [{"id": 1, "title_y_mm": 57, "rows_y_mm": [75]}, {"id": 2, "title_y_mm": 146, "rows_y_mm": [165, 227]}]},
+    {"page": 2, "groups": [{"id": 3, "title_y_mm": 18, "rows_y_mm": [63, 125, 187]}]}
+  ],
+  "gray": {"wall": 0.83, "goal_in_solution": 0.52, "grid": 0.24},
+  "expected_pdf_pages": {"Opposite-Steps.pdf": 2, "Opposite-Steps-Solutions.pdf": 2}
+}

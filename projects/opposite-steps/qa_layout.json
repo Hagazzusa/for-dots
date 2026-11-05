@@ -1,0 +1,363 @@
+{
+  "status": "passed",
+  "checks": [
+    "A4 page size",
+    "two pages per file",
+    "embedded Korean TrueType font and Unicode map",
+    "all authored text recoverable",
+    "all text and shapes inside 8mm safe boundary",
+    "no unintended text overlap",
+    "3 playable 80mm boards",
+    "24 solution 42mm boards",
+    "actual vector piece positions match source states",
+    "actual walls and goals match source JSON",
+    "every command label matches solution JSON"
+  ],
+  "files": {
+    "Opposite-Steps.pdf": {
+      "pages": [
+        {
+          "page": 1,
+          "characters": 545,
+          "boards": [
+            {
+              "puzzle": 1,
+              "state": [
+                12,
+                3
+              ],
+              "current_shapes": "circle A / square B",
+              "walls": 1
+            }
+          ],
+          "font_embedded": true,
+          "bounds_ok": true
+        },
+        {
+          "page": 2,
+          "characters": 210,
+          "boards": [
+            {
+              "puzzle": 2,
+              "state": [
+                12,
+                3
+              ],
+              "current_shapes": "circle A / square B",
+              "walls": 1
+            },
+            {
+              "puzzle": 3,
+              "state": [
+                12,
+                3
+              ],
+              "current_shapes": "circle A / square B",
+              "walls": 2
+            }
+          ],
+          "font_embedded": true,
+          "bounds_ok": true
+        }
+      ],
+      "bytes": 42090,
+      "sha256": "bc2bc5630abd74744fa7689f595a3abf61f4c2283338e1afe961edd11f686dbc",
+      "regeneration_byte_identical": null
+    },
+    "Opposite-Steps-Solutions.pdf": {
+      "pages": [
+        {
+          "page": 1,
+          "characters": 363,
+          "boards": [
+            {
+              "puzzle": 1,
+              "state": [
+                12,
+                3
+              ],
+              "current_shapes": "circle A / square B",
+              "walls": 1
+            },
+            {
+              "puzzle": 1,
+              "state": [
+                8,
+                7
+              ],
+              "current_shapes": "circle A / square B",
+              "walls": 1
+            },
+            {
+              "puzzle": 1,
+              "state": [
+                9,
+                6
+              ],
+              "current_shapes": "circle A / square B",
+              "walls": 1
+            },
+            {
+              "puzzle": 1,
+              "state": [
+                13,
+                6
+              ],
+              "current_shapes": "circle A / square B",
+              "walls": 1
+            },
+            {
+              "puzzle": 2,
+              "state": [
+                12,
+                3
+              ],
+              "current_shapes": "circle A / square B",
+              "walls": 1
+            },
+            {
+              "puzzle": 2,
+              "state": [
+                8,
+                7
+              ],
+              "current_shapes": "circle A / square B",
+              "walls": 1
+            },
+            {
+              "puzzle": 2,
+              "state": [
+                9,
+                6
+              ],
+              "current_shapes": "circle A / square B",
+              "walls": 1
+            },
+            {
+              "puzzle": 2,
+              "state": [
+                10,
+                5
+              ],
+              "current_shapes": "circle A / square B",
+              "walls": 1
+            },
+            {
+              "puzzle": 2,
+              "state": [
+                14,
+                1
+              ],
+              "current_shapes": "circle A / square B",
+              "walls": 1
+            },
+            {
+              "puzzle": 2,
+              "state": [
+                13,
+                1
+              ],
+              "current_shapes": "circle A / square B",
+              "walls": 1
+            },
+            {
+              "puzzle": 2,
+              "state": [
+                9,
+                5
+              ],
+              "current_shapes": "circle A / square B",
+              "walls": 1
+            },
+            {
+              "puzzle": 2,
+              "state": [
+                8,
+                6
+              ],
+              "current_shapes": "circle A / square B",
+              "walls": 1
+            }
+          ],
+          "font_embedded": true,
+          "bounds_ok": true
+        },
+        {
+          "page": 2,
+          "characters": 389,
+          "boards": [
+            {
+              "puzzle": 3,
+              "state": [
+                12,
+                3
+              ],
+              "current_shapes": "circle A / square B",
+              "walls": 2
+            },
+            {
+              "puzzle": 3,
+              "state": [
+                8,
+                7
+              ],
+              "current_shapes": "circle A / square B",
+              "walls": 2
+            },
+            {
+              "puzzle": 3,
+              "state": [
+                4,
+                11
+              ],
+              "current_shapes": "circle A / square B",
+              "walls": 2
+            },
+            {
+              "puzzle": 3,
+              "state": [
+                0,
+                15
+              ],
+              "current_shapes": "circle A / square B",
+              "walls": 2
+            },
+            {
+              "puzzle": 3,
+              "state": [
+                1,
+                14
+              ],
+              "current_shapes": "circle A / square B",
+              "walls": 2
+            },
+            {
+              "puzzle": 3,
+              "state": [
+                1,
+                10
+              ],
+              "current_shapes": "circle A / square B",
+              "walls": 2
+            },
+            {
+              "puzzle": 3,
+              "state": [
+                0,
+                11
+              ],
+              "current_shapes": "circle A / square B",
+              "walls": 2
+            },
+            {
+              "puzzle": 3,
+              "state": [
+                4,
+                7
+              ],
+              "current_shapes": "circle A / square B",
+              "walls": 2
+            },
+            {
+              "puzzle": 3,
+              "state": [
+                8,
+                3
+              ],
+              "current_shapes": "circle A / square B",
+              "walls": 2
+            },
+            {
+              "puzzle": 3,
+              "state": [
+                9,
+                3
+              ],
+              "current_shapes": "circle A / square B",
+              "walls": 2
+            },
+            {
+              "puzzle": 3,
+              "state": [
+                10,
+                3
+              ],
+              "current_shapes": "circle A / square B",
+              "walls": 2
+            },
+            {
+              "puzzle": 3,
+              "state": [
+                6,
+                7
+              ],
+              "current_shapes": "circle A / square B",
+              "walls": 2
+            }
+          ],
+          "font_embedded": true,
+          "bounds_ok": true
+        }
+      ],
+      "bytes": 43585,
+      "sha256": "a5216d8b54fb4a148e2836eed14d1c40c0d78b6ba2a1584db293dfee69466fd5",
+      "regeneration_byte_identical": null
+    }
+  },
+  "visual_review": {
+    "status": "passed",
+    "render_dpi": 150,
+    "reviewed_pages": [
+      {
+        "pdf": "Opposite-Steps.pdf",
+        "page": 1,
+        "render": "tmp/pdfs/problems-1.png",
+        "pixels": [
+          1241,
+          1754
+        ],
+        "render_sha256": "d74857745fd6f55c526d7c52b0d304395a2891782cb499b6ee4e7c05981db9c7",
+        "pdf_sha256": "bc2bc5630abd74744fa7689f595a3abf61f4c2283338e1afe961edd11f686dbc"
+      },
+      {
+        "pdf": "Opposite-Steps.pdf",
+        "page": 2,
+        "render": "tmp/pdfs/problems-2.png",
+        "pixels": [
+          1241,
+          1754
+        ],
+        "render_sha256": "4ec1fcdaafae3e7669238ebcc4e1f531d6e8f2f843b051a670174b6d9ca57d47",
+        "pdf_sha256": "bc2bc5630abd74744fa7689f595a3abf61f4c2283338e1afe961edd11f686dbc"
+      },
+      {
+        "pdf": "Opposite-Steps-Solutions.pdf",
+        "page": 1,
+        "render": "tmp/pdfs/solutions-1.png",
+        "pixels": [
+          1241,
+          1754
+        ],
+        "render_sha256": "c517d030e83b991718406660f709043270492c89768a283e5bab846724dbe517",
+        "pdf_sha256": "a5216d8b54fb4a148e2836eed14d1c40c0d78b6ba2a1584db293dfee69466fd5"
+      },
+      {
+        "pdf": "Opposite-Steps-Solutions.pdf",
+        "page": 2,
+        "render": "tmp/pdfs/solutions-2.png",
+        "pixels": [
+          1241,
+          1754
+        ],
+        "render_sha256": "4b842566bf7547a0c907e31ba0ddbf8e3e0f1c3abf3c2b859fdacc8abac4a813",
+        "pdf_sha256": "a5216d8b54fb4a148e2836eed14d1c40c0d78b6ba2a1584db293dfee69466fd5"
+      }
+    ],
+    "findings": "네 쪽을 각각 열어 확인했다. 잘린 글자, 겹치는 본문, 누락된 기호, 보드 경계 오류가 없다. 원형 A와 사각형 B, 진한 현재 말과 옅은 목표, 회색 벽을 흑백으로 구분할 수 있다."
+  },
+  "렌더 재현 검사": {
+    "DPI": 150,
+    "쪽 수": 4,
+    "모든 픽셀 일치": true
+  }
+}

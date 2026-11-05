@@ -14,8 +14,8 @@
     },
     {
       "path": "GALLERY.md",
-      "size": 25700,
-      "sha256": "44bf878cb792d7ce5f9379b7ebbc608898dc3ecc4b8d0def08bf85670a688aa6"
+      "size": 26479,
+      "sha256": "a3085bffcf1ceddaa5a4b802f01cc19a7d16850df774c64d10e4435cf5fdffd5"
     },
     {
       "path": "GIT_ENVIRONMENT_CHECK.md",
@@ -24,8 +24,8 @@
     },
     {
       "path": "README.md",
-      "size": 33291,
-      "sha256": "442091163bde6194c48aece0afc6edc852fa9fa5a7e3717e0748fdb58c07909f"
+      "size": 33822,
+      "sha256": "31a64587cb71daa4a035dd125d36366d4c1aaffc3fa0f40562c14125e8337486"
     },
     {
       "path": "WORLD_CONNECTIONS.md",
@@ -49,8 +49,8 @@
     },
     {
       "path": "projects/README.md",
-      "size": 10657,
-      "sha256": "18be13f6185b0479e0382f6416710da116f9887b87736d6dd6675789dcfd9887"
+      "size": 10817,
+      "sha256": "d862e288c58a22cce9aa6d233669be72f6a66de9ebd3b37c24ba1dbb4dc44a15"
     },
     {
       "path": "projects/VERIFICATION.md",
@@ -4481,6 +4481,91 @@
       "path": "projects/one-view-circle/verify.py",
       "size": 1687,
       "sha256": "ca598a776a37501e438e23d68969ce7dccd50bac3a55eb6417d41c83c24f85d1"
+    },
+    {
+      "path": "projects/opposite-steps/.gitignore",
+      "size": 27,
+      "sha256": "8ee3c936793b4e40893093665c9ea38d356f5c670164853730f7e33ad1d232bf"
+    },
+    {
+      "path": "projects/opposite-steps/INDEPENDENT_CHECK.md",
+      "size": 2811,
+      "sha256": "2cd0eafab564cf2095704e0369b23f6f46ba9942292f554ad6b9f6207fa5105c"
+    },
+    {
+      "path": "projects/opposite-steps/README.md",
+      "size": 3485,
+      "sha256": "7a79b65c602d78807b89d6f0acc747530334a3c6c213e39d8f3ba17abd6cedf6"
+    },
+    {
+      "path": "projects/opposite-steps/build_pdf.py",
+      "size": 17226,
+      "sha256": "eba6267d5a4004fe6aba68919ecbbf07791b42d5207bde997d3bfe34c8f3e463"
+    },
+    {
+      "path": "projects/opposite-steps/independent_check.py",
+      "size": 3946,
+      "sha256": "c30798c33c141dec96b0118efe3ef07c1fb6c7b30b331776e42a355ec5679061"
+    },
+    {
+      "path": "projects/opposite-steps/independent_check_results.json",
+      "size": 4724,
+      "sha256": "5be7ad17b6781699cf8706691743f9855b70867584812117d636528e259697b1"
+    },
+    {
+      "path": "projects/opposite-steps/layout.json",
+      "size": 906,
+      "sha256": "9e95bfe8f2bf1941f3879b0f725b5f71a26511ef99e5f284584c6440c1d55631"
+    },
+    {
+      "path": "projects/opposite-steps/manifest.json",
+      "size": 2067,
+      "sha256": "f49598a4d4f4a82023cbaadc5ce5cbbd33b2004737108836767064d275dbe39f"
+    },
+    {
+      "path": "projects/opposite-steps/output/pdf/Opposite-Steps-Solutions.pdf",
+      "size": 43585,
+      "sha256": "a5216d8b54fb4a148e2836eed14d1c40c0d78b6ba2a1584db293dfee69466fd5"
+    },
+    {
+      "path": "projects/opposite-steps/output/pdf/Opposite-Steps.pdf",
+      "size": 42090,
+      "sha256": "bc2bc5630abd74744fa7689f595a3abf61f4c2283338e1afe961edd11f686dbc"
+    },
+    {
+      "path": "projects/opposite-steps/puzzles.json",
+      "size": 497,
+      "sha256": "a318b28d457b9fe61924ce7d06e3b469f37f8c0478165b79b447855bca30759a"
+    },
+    {
+      "path": "projects/opposite-steps/qa.json",
+      "size": 622,
+      "sha256": "6c33cd339dab05fe0d8bf17a8eedd82eacaf6d142e03a193b4f74c9e7935a2fc"
+    },
+    {
+      "path": "projects/opposite-steps/qa_layout.json",
+      "size": 9331,
+      "sha256": "ee25794d9d68c9840eb21ca2e4fb9d911d3648a2fb0e6abe4e946d7a8a8b4f81"
+    },
+    {
+      "path": "projects/opposite-steps/solutions.json",
+      "size": 1936,
+      "sha256": "1783138217dabeaa8c2d9ace0d60a15ed2d6b8ed184c532c03fe0bbd607ca114"
+    },
+    {
+      "path": "projects/opposite-steps/solve.py",
+      "size": 1917,
+      "sha256": "95533de0d309ed4734eed0373470fc0f89e04d20fdeb87249d802bf9ea33a665"
+    },
+    {
+      "path": "projects/opposite-steps/verify.py",
+      "size": 2060,
+      "sha256": "be85fe2b2171edea8fddb8a70020367c22c678301acb4c70af2c708f4bf20aa9"
+    },
+    {
+      "path": "projects/opposite-steps/verify_pdf.py",
+      "size": 10231,
+      "sha256": "ba2819bf97957fd030943d9994b63445283b5832f823051d834c5a6298277b77"
     },
     {
       "path": "projects/page-at-rest-viewer/.gitignore",

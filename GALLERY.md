@@ -1,7 +1,7 @@
 # 잠깐 머무는 작은 세계
 
 비를 피하는 공간, 천천히 움직이는 빛, 길가의 빈 벤치.
-이미지와 짧은 영상으로 먼저 둘러볼 수 있는 34개 작업을 골랐습니다.
+이미지와 짧은 영상으로 먼저 둘러볼 수 있는 35개 작업을 골랐습니다.
 편집 가능한 장면과 제작 소스는 각 작품의 안내에 함께 있습니다.
 
 세 정물을 이어 읽는 동반 그림책 [《비가 지나가는 동안》](projects/quiet-storybook/README.md)도 있습니다. [3쪽 PDF로 읽기](projects/quiet-storybook/While-the-Rain-Passes.pdf).
@@ -352,6 +352,14 @@ Blender 4.3.2의 실제 렌더. 원본 장면과 형상·투영 검사, 영역�
 [원본 PNG](projects/the-bottom-of-afternoon/The-Bottom-of-Afternoon.png) · [생성 지시문·제작과 검사 범위](projects/the-bottom-of-afternoon/README.md)
 
 내장 이미지 생성 도구로 만든 1536×1024 이미지입니다. 실물 회화나 사진이 아니며 후처리 없이 원본을 보존했습니다. 별도의 편집 레이어·3D 장면은 없고 동일한 픽셀 재생성을 보장하지 않습니다.
+
+## 35. 반대편으로 한 칸
+
+A와 B를 반대 방향으로 함께 움직이는 1인용 종이 퍼즐 세 문제입니다. 벽에 한 말이 멈추는 동안 다른 말은 계속 움직일 수 있습니다.
+
+[문제지 PDF](projects/opposite-steps/output/pdf/Opposite-Steps.pdf) · [별도 해설 PDF](projects/opposite-steps/output/pdf/Opposite-Steps-Solutions.pdf) · [규칙·제작 소스와 검증](projects/opposite-steps/README.md)
+
+서로 구별할 수 있는 작은 말 두 개로 풉니다. 최단 횟수 3·7·11회와 각 최단 명령열 한 개를 두 구현으로 확인했습니다. 더 긴 해법도 정답입니다. A4 실제 크기 100% 인쇄를 권하며, 실제 인쇄·플레이테스트나 사람의 재미·난이도 평가는 하지 않았습니다.
 
 ## 읽기·듣기
 
