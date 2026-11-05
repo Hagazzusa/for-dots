@@ -1,0 +1,19 @@
+{
+  "title": "통째로",
+  "form": "두 손을 위한 짧은 낭독문",
+  "pages": 1,
+  "page_size_points": [
+    420,
+    720
+  ],
+  "source_characters": 347,
+  "body_lines": 26,
+  "sentence_count": 22,
+  "all_sentences_imperative": true,
+  "pdf_lines_match_source": true,
+  "plain_text_matches_source_bytes": true,
+  "text_within_margins": true,
+  "visual_review": "최종 한 쪽을 이미지로 확인했으며 잘림·겹침·누락된 글자가 없습니다.",
+  "editorial_review": "명령과 손동작의 순서, 마지막의 뒤늦은 선행 지시를 독립적으로 검토했습니다.",
+  "limits": "낭독 녹음과 실제 동작 공연은 제작하거나 평가하지 않았습니다."
+}

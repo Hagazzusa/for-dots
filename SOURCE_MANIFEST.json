@@ -14,8 +14,8 @@
     },
     {
       "path": "GALLERY.md",
-      "size": 23484,
-      "sha256": "5e9bbc1edd0c838af59d8fa478846e44f3e8e8b9bbf4536cc07c6b2b388dc015"
+      "size": 23779,
+      "sha256": "3548ba93a2db859bb6fbd55bdaa28656b5fa7decc5405d74a30f2ac7ee6fc79b"
     },
     {
       "path": "GIT_ENVIRONMENT_CHECK.md",
@@ -24,8 +24,8 @@
     },
     {
       "path": "README.md",
-      "size": 30898,
-      "sha256": "2805da7464cf836f5240a48de3160eeec841713ffd681a7d33ad8aeafeeda049"
+      "size": 31391,
+      "sha256": "d3e752b0835b3a9d33abf6033ff70e4422cf2f5eaa87e4eab078892dbd7e95ae"
     },
     {
       "path": "WORLD_CONNECTIONS.md",
@@ -49,8 +49,8 @@
     },
     {
       "path": "projects/README.md",
-      "size": 9869,
-      "sha256": "1943e88d5382b5db35c2f9217c877ddff58565a3afacfcc41a0ed238260c088a"
+      "size": 10013,
+      "sha256": "af0fda8eb52a3bcbd9b22a509710ccef5aa3e497d526f268e77160811aa6c1cb"
     },
     {
       "path": "projects/VERIFICATION.md",
@@ -7551,6 +7551,51 @@
       "path": "projects/while-carrying/verify.py",
       "size": 2364,
       "sha256": "241cd25a7b30f4aab7a28792cf8f935415c06bd273d07b1c968a10c6fb524be9"
+    },
+    {
+      "path": "projects/whole-watermelon/.gitignore",
+      "size": 30,
+      "sha256": "efeefed596c3fe34f9e9af82048512e56d6dedf392104148b938344611c6887e"
+    },
+    {
+      "path": "projects/whole-watermelon/README.md",
+      "size": 2094,
+      "sha256": "d859e91e8f45cba26dde8453863708039d72960e14ab116ae33ace6881d0d1d2"
+    },
+    {
+      "path": "projects/whole-watermelon/Whole-Watermelon.pdf",
+      "size": 23081,
+      "sha256": "e8377a766683bdbf12a53e265b03770b36524dff0feaecded2795faec8a46a21"
+    },
+    {
+      "path": "projects/whole-watermelon/Whole-Watermelon.txt",
+      "size": 813,
+      "sha256": "7905617295cefaddbdde84a8dd7b2934482e7b17a4cd0139ff8fb3d085742cc3"
+    },
+    {
+      "path": "projects/whole-watermelon/build_pdf.py",
+      "size": 2670,
+      "sha256": "78cb48610a7278913b793ad53776b2881cfd24d9564037ddd550bf202f407c90"
+    },
+    {
+      "path": "projects/whole-watermelon/manifest.json",
+      "size": 1000,
+      "sha256": "d6ef53369466c8542da064b8e1d926e7d974b56ce70fb271381aea1d55dd357c"
+    },
+    {
+      "path": "projects/whole-watermelon/qa.json",
+      "size": 704,
+      "sha256": "136bb7ad3a0f92154dd267a60f44dd374dbffc2ef120cbf88fa56ba8f4fea061"
+    },
+    {
+      "path": "projects/whole-watermelon/script.txt",
+      "size": 813,
+      "sha256": "7905617295cefaddbdde84a8dd7b2934482e7b17a4cd0139ff8fb3d085742cc3"
+    },
+    {
+      "path": "projects/whole-watermelon/verify.py",
+      "size": 1659,
+      "sha256": "cd5ad660cce255bb9a2e96adba5ad2a9f3d3e6a9bd47d5f65a37972940bfb9f5"
     },
     {
       "path": "projects/wind-direction/README.md",

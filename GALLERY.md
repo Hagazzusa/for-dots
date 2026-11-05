@@ -337,6 +337,8 @@ Blender 4.3.2의 실제 렌더. 원본 장면과 형상·투영 검사, 영역�
 
 시각 작품과 별도로 읽고 들을 수 있는 완성 작업입니다.
 
+- [통째로 · 한 쪽 PDF](projects/whole-watermelon/Whole-Watermelon.pdf): 수박을 냉장고에 넣으라는 명령형으로 이루어진 짧은 낭독문. [텍스트](projects/whole-watermelon/Whole-Watermelon.txt)와 [제작 안내](projects/whole-watermelon/README.md)도 있습니다.
+
 - [불을 끄는 순서](projects/lights-out-order/story.md): 《마지막 우산》에서 이어 쓴 독립 단편.
 - [맨 앞 · 6쪽 PDF](projects/front-of-the-line/output/pdf/Front-of-the-Line.pdf): 홍보 촬영의 줄과 실제 손님을 다룬 소설.
 - [고객 역할 · 5쪽 PDF](projects/the-customer-role/output/pdf/The-Customer-Role.pdf): 상담 실습의 대본 밖으로 나아가는 소설의 완성본.

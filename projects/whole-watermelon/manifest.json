@@ -1,0 +1,34 @@
+{
+  ".gitignore": {
+    "bytes": 30,
+    "sha256": "efeefed596c3fe34f9e9af82048512e56d6dedf392104148b938344611c6887e"
+  },
+  "README.md": {
+    "bytes": 2094,
+    "sha256": "d859e91e8f45cba26dde8453863708039d72960e14ab116ae33ace6881d0d1d2"
+  },
+  "script.txt": {
+    "bytes": 813,
+    "sha256": "7905617295cefaddbdde84a8dd7b2934482e7b17a4cd0139ff8fb3d085742cc3"
+  },
+  "Whole-Watermelon.pdf": {
+    "bytes": 23081,
+    "sha256": "e8377a766683bdbf12a53e265b03770b36524dff0feaecded2795faec8a46a21"
+  },
+  "Whole-Watermelon.txt": {
+    "bytes": 813,
+    "sha256": "7905617295cefaddbdde84a8dd7b2934482e7b17a4cd0139ff8fb3d085742cc3"
+  },
+  "build_pdf.py": {
+    "bytes": 2670,
+    "sha256": "78cb48610a7278913b793ad53776b2881cfd24d9564037ddd550bf202f407c90"
+  },
+  "verify.py": {
+    "bytes": 1659,
+    "sha256": "cd5ad660cce255bb9a2e96adba5ad2a9f3d3e6a9bd47d5f65a37972940bfb9f5"
+  },
+  "qa.json": {
+    "bytes": 704,
+    "sha256": "136bb7ad3a0f92154dd267a60f44dd374dbffc2ef120cbf88fa56ba8f4fea061"
+  }
+}
