@@ -153,5 +153,13 @@
     "Both rods rotate freely about fixed independent pivots; no rigid link joins the bobs. The spring attaches at 45% of rod length.",
     "Damping, rod/spring mass, finite bob size, out-of-plane motion, compliance, collisions and spring limits are absent.",
     "Energy exchange is not literal transfer of amplitude as a conserved scalar. Energy includes a coupling term, and nonlinear motion is not an exactly sinusoidal beat."
-  ]
+  ],
+  "independent_experiment_duration_s": 24,
+  "video_duration_s": 20,
+  "separate_implementation_comparison": {
+    "duration_s": 20,
+    "sample_rhs_max_abs_error": 0.0,
+    "trajectory_angle_max_abs_error_rad": 6.231126725708691e-15,
+    "trajectory_speed_max_abs_error_rad_s": 1.940114735532461e-14
+  }
 }

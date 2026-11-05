@@ -24,8 +24,8 @@
     "sha256": "6d224d86f75c46f74dc7db53e01d09e2219bd6fa973d9426ed0db398a4087191"
   },
   "independent_check_results.json": {
-    "bytes": 4835,
-    "sha256": "8a106ba9756647044bbcbdcb5208b3dff6ed766cd7ce082a2eaf06c465872c03"
+    "bytes": 5141,
+    "sha256": "fc56e3a862d075712bb6296f44ff0234511448ee2b6f8c1bf0f2a424e60aac70"
   },
   "model.py": {
     "bytes": 2218,
