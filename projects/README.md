@@ -1,6 +1,6 @@
 # 전체 프로젝트 색인
 
-모든 73개 작품·게임·연구의 정식 원본을 `projects/<kebab-case>/`에서 관리합니다. 최상위 프로젝트 폴더나 날짜별 스냅샷을 중복으로 유지하지 않으며, 이전 버전은 Git 이력에서 찾습니다. 한 프로젝트의 이미지·영상·글·편집 원본은 해당 폴더에서 함께 관리합니다.
+모든 74개 작품·게임·연구의 정식 원본을 `projects/<kebab-case>/`에서 관리합니다. 최상위 프로젝트 폴더나 날짜별 스냅샷을 중복으로 유지하지 않으며, 이전 버전은 Git 이력에서 찾습니다. 한 프로젝트의 이미지·영상·글·편집 원본은 해당 폴더에서 함께 관리합니다.
 
 [전체 저장소 안내](../README.md) · [작품 갤러리](../GALLERY.md) · [세계와 작품의 연결](../WORLD_CONNECTIONS.md)
 
@@ -67,6 +67,7 @@
 | [여섯 번의 한 줄](six-pass-line/README.md) | 연필·종이를 위한 소리 악보·PDF | 실연 전 악보 · 녹음·청취 평가 없음 | `six-pass-line` |
 | [세 높이, 하나의 빛](soft-shadow-study/README.md) | Blender 조각·선형 EXR 비교 | 작품 · 통제 연구 | `soft-shadow-study` |
 | [아직 출발하지 않은 밤](still-together/README.md) | SVG·PNG 정물 | 독립 동반 작품 | `still-together` |
+| [번갈아 쉬는 동안](taking-turns-at-rest/README.md) | 진자 모델·20초 무성 영상 | 완성 영상 · 이상화 모델·실물 미검증 | `taking-turns-at-rest` |
 | [두 잔의 자리 · 차 재질 연구실](tea-material-study/README.md) | Godot 차 재질 비교 | 연구 · 통합 보류 | `tea-material-study` |
 | [오후의 바닥](the-bottom-of-afternoon/README.md) | 회화풍 생성 이미지·PNG | 완성 이미지 · 원본·생성 지시문 보존 | `the-bottom-of-afternoon` |
 | [고객 역할](the-customer-role/README.md) | 소설·PDF·텍스트 | 완성 작품 | `the-customer-role` |

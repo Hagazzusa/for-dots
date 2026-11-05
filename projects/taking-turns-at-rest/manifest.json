@@ -1,0 +1,54 @@
+{
+  ".gitignore": {
+    "bytes": 27,
+    "sha256": "104d9b4545c1044cb17adf63e6890b2e3555a8e9fe8f6480ca9d4b64bfbaaf5e"
+  },
+  "README.md": {
+    "bytes": 3189,
+    "sha256": "d4b968fd5b6d24542fe271050f18a5de7dd820325568e80d96c8002cb9996e28"
+  },
+  "Taking-Turns-at-Rest.mp4": {
+    "bytes": 582981,
+    "sha256": "4a38b1abc35c16d6ec4778f8c64e3cc3c618660f500b69d6e835b0073c63b978"
+  },
+  "Taking-Turns-at-Rest.png": {
+    "bytes": 16692,
+    "sha256": "650449d9fe457865edae31e7260bcee5cdf4eb716c0cc7f808a281ad2a850696"
+  },
+  "build_video.py": {
+    "bytes": 1053,
+    "sha256": "5b5f18b7a17003138e34c53d3f2769aed63a4c0981629febb735795d78bf67d2"
+  },
+  "independent_check.py": {
+    "bytes": 8509,
+    "sha256": "6d224d86f75c46f74dc7db53e01d09e2219bd6fa973d9426ed0db398a4087191"
+  },
+  "independent_check_results.json": {
+    "bytes": 4835,
+    "sha256": "8a106ba9756647044bbcbdcb5208b3dff6ed766cd7ce082a2eaf06c465872c03"
+  },
+  "model.py": {
+    "bytes": 2218,
+    "sha256": "9eca3b6f525ff6deb55b121d1c961df7de5eda94f6ec0e81d23db744a3b22555"
+  },
+  "motion.csv": {
+    "bytes": 35752,
+    "sha256": "b52cf15fab9c88d286bc01712d8ad3d41c832c4bdf4b453ecab61be1fba33044"
+  },
+  "parameters.json": {
+    "bytes": 398,
+    "sha256": "a0db5b13697770a989ff95f15b10cfaf2ca63ba93de7d3b9cc1051c4370b6656"
+  },
+  "qa.json": {
+    "bytes": 850,
+    "sha256": "e6eb999824a449d8d7464fa16b92c411acb932ec135a18053f8bc038d8c2cc8a"
+  },
+  "render.py": {
+    "bytes": 2572,
+    "sha256": "cf99cb8e6310e021f40ac5d221b710a12dee449ac8fd3d895d8d20761892f422"
+  },
+  "verify.py": {
+    "bytes": 3496,
+    "sha256": "e95240c6a19292db5ef9ccfcb7a9fa1ab88eb988742980246fbfea08142a1281"
+  }
+}

@@ -1,0 +1,157 @@
+{
+  "scope": "Ideal planar point-mass, massless rigid rods and massless bidirectional Hooke spring; no construction, physical accuracy, stability, or safety certification.",
+  "equation_check": "Correct sign: r=E2-E1; F1=k*(ell-d)*r/ell and Q_i=F_i dot aL(cos(theta_i),sin(theta_i)). Q_spring=-gradient(V_spring).",
+  "energy_expression": "E = 0.5*m*L^2*(theta_dot_1^2+theta_dot_2^2) + m*g*L*(2-cos(theta_1)-cos(theta_2)) + 0.5*k*(|E2-E1|-d)^2",
+  "linearization": "theta_ddot_1=-(g/L)*theta_1+(k*a^2/m)*(theta_2-theta_1); second equation exchanges indices.",
+  "linear_frequencies_rad_s": [
+    3.5017852589786256,
+    3.855654474738553
+  ],
+  "linear_first_transfer_s": 8.877835408325316,
+  "linear_first_return_s": 17.755670816650632,
+  "numerical_first_low_left_smoothed_energy_s": 8.954,
+  "numerical_first_high_right_smoothed_energy_s": 8.67,
+  "numerical_first_return_smoothed_left_energy_s": 17.642,
+  "near_transfer_left_fraction_of_total_energy": 0.008155185597338304,
+  "near_transfer_right_fraction_of_total_energy": 0.94053376421362,
+  "initial_total_energy_J": 0.03478173641965044,
+  "max_relative_energy_drift": 8.578422717833059e-15,
+  "finite_difference_spring_torque_max_error_Nm": 3.4485539424089495e-12,
+  "spring_length_range_m": [
+    0.8144924155531288,
+    0.9856156389984398
+  ],
+  "angle_abs_max_rad": [
+    0.24,
+    0.23994079968518975
+  ],
+  "angle_extrema": [
+    [
+      {
+        "t_s": 0.856,
+        "abs_angle_rad": 0.23723223041318242
+      },
+      {
+        "t_s": 2.567,
+        "abs_angle_rad": 0.21573437185818842
+      },
+      {
+        "t_s": 4.276,
+        "abs_angle_rad": 0.17476066470532806
+      },
+      {
+        "t_s": 5.979,
+        "abs_angle_rad": 0.11815467280215747
+      },
+      {
+        "t_s": 7.657,
+        "abs_angle_rad": 0.05149646207704249
+      },
+      {
+        "t_s": 9.538,
+        "abs_angle_rad": 0.02419497319240493
+      },
+      {
+        "t_s": 11.169,
+        "abs_angle_rad": 0.09229171254733658
+      },
+      {
+        "t_s": 12.867,
+        "abs_angle_rad": 0.15370691671912212
+      },
+      {
+        "t_s": 14.574,
+        "abs_angle_rad": 0.20150123758693836
+      },
+      {
+        "t_s": 16.284,
+        "abs_angle_rad": 0.23116176920825618
+      },
+      {
+        "t_s": 17.996,
+        "abs_angle_rad": 0.23989105788871143
+      },
+      {
+        "t_s": 19.708000000000002,
+        "abs_angle_rad": 0.22685885713062925
+      },
+      {
+        "t_s": 21.418,
+        "abs_angle_rad": 0.19330293387579153
+      },
+      {
+        "t_s": 23.124,
+        "abs_angle_rad": 0.14238341780714533
+      }
+    ],
+    [
+      {
+        "t_s": 0.553,
+        "abs_angle_rad": 0.0209292262855466
+      },
+      {
+        "t_s": 2.173,
+        "abs_angle_rad": 0.08897129814781177
+      },
+      {
+        "t_s": 3.869,
+        "abs_angle_rad": 0.15092220552143995
+      },
+      {
+        "t_s": 5.5760000000000005,
+        "abs_angle_rad": 0.19950826114104958
+      },
+      {
+        "t_s": 7.2860000000000005,
+        "abs_angle_rad": 0.23013907881000067
+      },
+      {
+        "t_s": 8.998,
+        "abs_angle_rad": 0.23994079968518975
+      },
+      {
+        "t_s": 10.71,
+        "abs_angle_rad": 0.22798874470165528
+      },
+      {
+        "t_s": 12.42,
+        "abs_angle_rad": 0.19540987036174487
+      },
+      {
+        "t_s": 14.126,
+        "abs_angle_rad": 0.1452599411176907
+      },
+      {
+        "t_s": 15.821,
+        "abs_angle_rad": 0.08229362266727865
+      },
+      {
+        "t_s": 17.41,
+        "abs_angle_rad": 0.014682677981994097
+      },
+      {
+        "t_s": 18.525000000000002,
+        "abs_angle_rad": 0.027494601210350758
+      },
+      {
+        "t_s": 20.166,
+        "abs_angle_rad": 0.09557848377732654
+      },
+      {
+        "t_s": 21.865000000000002,
+        "abs_angle_rad": 0.15645042183412067
+      },
+      {
+        "t_s": 23.572,
+        "abs_angle_rad": 0.20342691422520526
+      }
+    ]
+  ],
+  "interpretation": "24 s shows first transfer and first return, then the start of a second transfer. Timing from one-carrier-period averaged uncoupled pendulum energies is a descriptive visualization metric, not an exact full-energy partition. Complete instantaneous rest at transfer is not guaranteed.",
+  "limitations": [
+    "The Hooke spring supports both extension and compression. A tension-only cord or real spring that buckles does not implement this model.",
+    "Both rods rotate freely about fixed independent pivots; no rigid link joins the bobs. The spring attaches at 45% of rod length.",
+    "Damping, rod/spring mass, finite bob size, out-of-plane motion, compliance, collisions and spring limits are absent.",
+    "Energy exchange is not literal transfer of amplitude as a conserved scalar. Energy includes a coupling term, and nonlinear motion is not an exactly sinusoidal beat."
+  ]
+}

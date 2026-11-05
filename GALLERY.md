@@ -1,7 +1,7 @@
 # 잠깐 머무는 작은 세계
 
 비를 피하는 공간, 천천히 움직이는 빛, 길가의 빈 벤치.
-이미지와 짧은 영상으로 먼저 둘러볼 수 있는 35개 작업을 골랐습니다.
+이미지와 짧은 영상으로 먼저 둘러볼 수 있는 36개 작업을 골랐습니다.
 편집 가능한 장면과 제작 소스는 각 작품의 안내에 함께 있습니다.
 
 세 정물을 이어 읽는 동반 그림책 [《비가 지나가는 동안》](projects/quiet-storybook/README.md)도 있습니다. [3쪽 PDF로 읽기](projects/quiet-storybook/While-the-Rain-Passes.pdf).
@@ -360,6 +360,16 @@ A와 B를 반대 방향으로 함께 움직이는 1인용 종이 퍼즐 세 문�
 [문제지 PDF](projects/opposite-steps/output/pdf/Opposite-Steps.pdf) · [별도 해설 PDF](projects/opposite-steps/output/pdf/Opposite-Steps-Solutions.pdf) · [규칙·제작 소스와 검증](projects/opposite-steps/README.md)
 
 서로 구별할 수 있는 작은 말 두 개로 풉니다. 최단 횟수 3·7·11회와 각 최단 명령열 한 개를 두 구현으로 확인했습니다. 더 긴 해법도 정답입니다. A4 실제 크기 100% 인쇄를 권하며, 실제 인쇄·플레이테스트나 사람의 재미·난이도 평가는 하지 않았습니다.
+
+## 36. 번갈아 쉬는 동안
+
+가는 스프링으로 연결된 자주색과 짙은 청색 진자. 한쪽의 흔들림이 작아지는 동안 다른 쪽이 크게 움직이고, 다시 돌아옵니다.
+
+![번갈아 쉬는 동안 — 스프링으로 연결된 두 진자의 고정 시점](projects/taking-turns-at-rest/Taking-Turns-at-Rest.png)
+
+[20초 무성 영상](projects/taking-turns-at-rest/Taking-Turns-at-Rest.mp4) · [정지 이미지](projects/taking-turns-at-rest/Taking-Turns-at-Rest.png) · [모델·제작 소스와 한계](projects/taking-turns-at-rest/README.md)
+
+비선형 평면 진자 방정식을 적분한 표본을 그렸습니다. 진폭이 약해진 쪽에도 작은 움직임은 남습니다. 마찰 없는 이상화 모델이며 실제 스프링·장치의 제작 안전 검증은 아닙니다. 전체 프레임 디코드와 대표 프레임 검사는 했지만 정상 속도 육안 재생 검토는 하지 않았습니다.
 
 ## 읽기·듣기
 
