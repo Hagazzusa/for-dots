@@ -1,0 +1,56 @@
+{
+  "title": "A Page at Rest / 머무는 페이지 · runtime derivative",
+  "source": {
+    "repository_relative_path": "projects/page-at-rest/A_Page_at_Rest.blend",
+    "sha256": "4d0ee8b68c98381dfb89e68bd77b3b85ef6d29c716d97d6c2e78f7893937a72e",
+    "published_source_commit": "23dd8a89f0ba03a2c13a77ffbed9c5826db7e5d5",
+    "unchanged_before_and_after_export": true
+  },
+  "derivative": {
+    "file": "assets/page_at_rest.glb",
+    "sha256": "58d00cd4f99100b727d7a0a9f6129019bda4a2c7984aa2ff55af4a5e6388df7b",
+    "size_bytes": 3632556,
+    "format": "glTF 2.0 binary",
+    "blender_version": "4.3.2",
+    "gltf_exporter": "Khronos glTF Blender I/O v4.3.47",
+    "mesh_components": 9,
+    "triangles": 199840,
+    "geometry_policy": "All evaluated source triangles for sculpture and one context book; no simplification or lossy geometry compression. Source cyclorama, lights, camera excluded.",
+    "axis_transform": "Blender (x,y,z) -> glTF/Godot (x,z,-y)",
+    "units": "metres",
+    "materials": "Five opaque core metallic/roughness PBR defaults; procedural source shaders not baked or reproduced."
+  },
+  "paper_runtime_shader": {
+    "shader": "assets/materials/paper_backlight.gdshader",
+    "material": "assets/materials/paper_backlight.tres",
+    "method": "Godot opaque BACKLIGHT approximation plus restrained procedural colour grain",
+    "not_used": [
+      "alpha transparency",
+      "emission",
+      "ray-traced transmission",
+      "refraction",
+      "volume absorption",
+      "generated concept projection"
+    ],
+    "backlight_strength": 0.35,
+    "shadow_policy": "Viewer disables shadow casting on the two paper meshes to avoid observed self-shadow banding; this is a documented transmission-shadow approximation, not physical light transport."
+  },
+  "generated_reference_policy": "Original concept and C2PA unchanged in original artwork. No generated-reference pixels included in the GLB.",
+  "external_assets": [],
+  "validation": {
+    "export_audit": "export_audit.json",
+    "all_assertions_pass": true,
+    "oriented_triangle_comparison_resolution_m": 1e-07,
+    "runtime_boundary": "Proof ends at actual GLB bytes. Godot import, shader look and native keyboard QA are separate."
+  },
+  "tooling_lineage": {
+    "exporter": "Adapted from the existing original projects/second-cup-viewer/export_from_blender.py geometry-audit workflow; retargeted to Page at Rest objects and material contract.",
+    "shader": "Original procedural colour-grain shader using Godot BACKLIGHT; not a copy of the generated concept or Cycles surface pixels.",
+    "official_reference_access_date_utc": "2026-11-02",
+    "references": [
+      "https://docs.godotengine.org/en/4.6/tutorials/shaders/shader_reference/spatial_shader.html",
+      "https://docs.godotengine.org/en/4.6/classes/class_basematerial3d.html#class-basematerial3d-property-backlight-enabled",
+      "https://docs.godotengine.org/en/4.6/tutorials/3d/3d_rendering_limitations.html"
+    ]
+  }
+}

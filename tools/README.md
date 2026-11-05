@@ -5,7 +5,7 @@
 다음 명령 블록의 주석은 원문 그대로 보존했습니다.
 
 ```sh
-python3 tools/check_public_assets.py --directory garden-of-light
+python3 tools/check_public_assets.py --directory projects/garden-of-light
 # Or select only tracked files of an explicit Git worktree:
 python3 tools/check_public_assets.py --tracked .
 python3 tools/test_check_public_assets.py

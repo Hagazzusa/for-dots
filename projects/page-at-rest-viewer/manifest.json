@@ -1,0 +1,185 @@
+{
+  "scope": "독립 Godot 뷰어 공개 파일. manifest 자체와 생성 캐시는 제외.",
+  "files": [
+    {
+      "path": ".gitignore",
+      "size_bytes": 20,
+      "sha256": "ed429bae282af89e11a23f60a4243df5e74812e8ac73fb7f621e2674ba07d07f"
+    },
+    {
+      "path": "ASSET_README.md",
+      "size_bytes": 5876,
+      "sha256": "ac18a0d2161fc61ba82e0b2a90d080591f0db6a77cba3da7f1ce0d130eeb4cbb"
+    },
+    {
+      "path": "README.md",
+      "size_bytes": 4396,
+      "sha256": "88a8a1a3e9bb8dd983c3e98f63644d1e915e3586f65e9b8f8c38420d9fb12305"
+    },
+    {
+      "path": "asset_manifest.json",
+      "size_bytes": 1507,
+      "sha256": "c4784bcc6c7646b505ac14bd94d80000e09b08ad94e93140584132ff48e9e1c7"
+    },
+    {
+      "path": "asset_provenance.json",
+      "size_bytes": 2973,
+      "sha256": "a628aea2e17ae3cae28941e410ec48b6712a1ac388c9c192599cb4c0604cc435"
+    },
+    {
+      "path": "assets/fonts/NotoSansCJK-LICENSE.txt",
+      "size_bytes": 14712,
+      "sha256": "849f4ea9c214fa4ac3593b770c699f387534b11ce671264c1b10d85bdcb5997b"
+    },
+    {
+      "path": "assets/fonts/NotoSansCJK-Regular.ttc",
+      "size_bytes": 19484784,
+      "sha256": "b76b0433203017ca80401b2ee0dd69350349871c4b19d504c34dbdd80541690a"
+    },
+    {
+      "path": "assets/fonts/NotoSansCJK-Regular.ttc.import",
+      "size_bytes": 795,
+      "sha256": "1438989eab8b0e3ef2653d1df1602a9d0a628ed684ae27bcec827c9eb53981c0"
+    },
+    {
+      "path": "assets/materials/paper_backlight.gdshader",
+      "size_bytes": 1441,
+      "sha256": "fcf3ad3543cacadd76bcbedc436f5d30d3c552dce3c5fd9926f9f2f734a0bfc7"
+    },
+    {
+      "path": "assets/materials/paper_backlight.gdshader.uid",
+      "size_bytes": 20,
+      "sha256": "dfa24ffe5590833296528bc49e5b91e2e773bcf7d6e924b969f09b840dfb8037"
+    },
+    {
+      "path": "assets/materials/paper_backlight.tres",
+      "size_bytes": 449,
+      "sha256": "3956d63103eb88e060006b0e8c1be179cec330744a079d8f45dc4ef3842d6310"
+    },
+    {
+      "path": "assets/page_at_rest.glb",
+      "size_bytes": 3632556,
+      "sha256": "58d00cd4f99100b727d7a0a9f6129019bda4a2c7984aa2ff55af4a5e6388df7b"
+    },
+    {
+      "path": "assets/page_at_rest.glb.import",
+      "size_bytes": 1049,
+      "sha256": "6dd75542e9df6d9e9d2c1feb63833a9f7ad752c1fef4cfda5429ffc867fafbb8"
+    },
+    {
+      "path": "export_audit.json",
+      "size_bytes": 11349,
+      "sha256": "13017d52626c47cd2ee2ce7df079a95ad39d78300762c1a8307d37bd5a19a6f0"
+    },
+    {
+      "path": "export_from_blender.py",
+      "size_bytes": 12719,
+      "sha256": "6b2e6f64e882c07560537d7dcefca672ea37be99f97500082625027e0ec22f23"
+    },
+    {
+      "path": "project.godot",
+      "size_bytes": 551,
+      "sha256": "d313eb17c2254f3281445e796c7d97322bfffbb4a4c96e1ad2115aad97c80479"
+    },
+    {
+      "path": "qa/.gdignore",
+      "size_bytes": 1,
+      "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b"
+    },
+    {
+      "path": "qa/clean_import_tests.json",
+      "size_bytes": 133,
+      "sha256": "91a04c4d9475b78f167d4107df4fd65a1d37404745dcbffc849af029d354ecea"
+    },
+    {
+      "path": "qa/headless_tests.json",
+      "size_bytes": 133,
+      "sha256": "91a04c4d9475b78f167d4107df4fd65a1d37404745dcbffc849af029d354ecea"
+    },
+    {
+      "path": "qa/native_preview.png",
+      "size_bytes": 169449,
+      "sha256": "21e8061ab1b3c6bf0ebccf9b235883f707d6a7a951a786f229f099fff7c634c0"
+    },
+    {
+      "path": "qa/native_qa.json",
+      "size_bytes": 1064,
+      "sha256": "a373b4f438f11db5130fb2d7cdfc90854cb823bbd07abf5c2df2ef6339c53665"
+    },
+    {
+      "path": "qa/native_small.png",
+      "size_bytes": 67885,
+      "sha256": "4505302d5510b9cf89de890e0dff5a21b96f4c7a4703845e750f13ca92cc6897"
+    },
+    {
+      "path": "qa/pack_tests.json",
+      "size_bytes": 133,
+      "sha256": "91a04c4d9475b78f167d4107df4fd65a1d37404745dcbffc849af029d354ecea"
+    },
+    {
+      "path": "scenes/page_study.tscn",
+      "size_bytes": 429,
+      "sha256": "de6b766d3f462b55bfb7471db3550d5dec4417592a20e2a8ea009dab326f4020"
+    },
+    {
+      "path": "scenes/view_rig.tscn",
+      "size_bytes": 263,
+      "sha256": "589162368c4c063227fdd3cd56ab42092d5562623f6c20ce25d4f35d30201bb3"
+    },
+    {
+      "path": "scenes/viewer.tscn",
+      "size_bytes": 3758,
+      "sha256": "6c65c334ee0c8c50aeb10282da513adc83949cf9269c373286f96cb5278b42fe"
+    },
+    {
+      "path": "scripts/page_study.gd",
+      "size_bytes": 559,
+      "sha256": "65a871605282a6979e52ca9836e491259e4842911d1cbe00bbb63416fc0f5ca8"
+    },
+    {
+      "path": "scripts/page_study.gd.uid",
+      "size_bytes": 19,
+      "sha256": "6c9d658c44753391fdbe5ad0babf93999f8b8e55a343b23e7b582cf7b403c645"
+    },
+    {
+      "path": "scripts/view_rig.gd",
+      "size_bytes": 3137,
+      "sha256": "a3e010f53d79b51f8860c096da189109392cc67ba300e1d1c072e1891676fcf2"
+    },
+    {
+      "path": "scripts/view_rig.gd.uid",
+      "size_bytes": 19,
+      "sha256": "6c4e704f54ac5770cfe9c922351d9a28f343919ba7602aa06ecd47ce8fed9546"
+    },
+    {
+      "path": "scripts/viewer.gd",
+      "size_bytes": 1296,
+      "sha256": "c4bb84beb421ff59ab50a4b8e78661ba5bfa94ef93ba4c61528b5e5644471cad"
+    },
+    {
+      "path": "scripts/viewer.gd.uid",
+      "size_bytes": 20,
+      "sha256": "f298d6a9849808ca3420af42afa7015c3de4e2ecc60241241ac2095317864efd"
+    },
+    {
+      "path": "tools/build_pack.gd",
+      "size_bytes": 3682,
+      "sha256": "589a383915251fd2638b00a9349b6e061c2e7d9924a8bdb6ab7462122f5d4b0b"
+    },
+    {
+      "path": "tools/build_pack.gd.uid",
+      "size_bytes": 19,
+      "sha256": "d87d0429b2d9965c67a016989e8aa3c3d53f4c0f7fb9cfd9b6bbf01040fe41fd"
+    },
+    {
+      "path": "tools/test_viewer.gd",
+      "size_bytes": 5323,
+      "sha256": "961d4cf1e12932a5ba71260f2b7a3bde67093cd5710e1f8cb43edaf0a381de7d"
+    },
+    {
+      "path": "verify_asset.py",
+      "size_bytes": 3596,
+      "sha256": "53ab339c9e0b98c5ec959a5ca0610519710a20b6916b00a9fe8669893c845347"
+    }
+  ]
+}

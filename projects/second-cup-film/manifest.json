@@ -1,0 +1,129 @@
+{
+  "title": "두 잔의 자리 · 눈길이 머무는 곳",
+  "status": "final completed and verified; silent 6-second film",
+  "created_date_utc": "2026-11-02",
+  "files_excluding_manifest": 24,
+  "total_bytes_excluding_manifest": 12386629,
+  "files": [
+    {
+      "path": ".gitignore",
+      "size_bytes": 28,
+      "sha256": "bffe549d693d724fabad5e0625fbae1a220be39e7bb2c9eee664521f9b4a50d8"
+    },
+    {
+      "path": "README.md",
+      "size_bytes": 8513,
+      "sha256": "48bf549bd6c1384e68037903e6f7931cf9346d7baa6aa3ed8313303989e1ddb5"
+    },
+    {
+      "path": "The_Second_Cup_Film.blend",
+      "size_bytes": 5377512,
+      "sha256": "b234abc7a0e6f70c6e326293bab1c1b355e4eab605b5491f986d1a56493e55d6"
+    },
+    {
+      "path": "audit_film.py",
+      "size_bytes": 12545,
+      "sha256": "a7481d33a60ef9578c3c13cc5794bfcc819590162aa70abb3d53868d5abbe03a"
+    },
+    {
+      "path": "camera_plan.json",
+      "size_bytes": 378548,
+      "sha256": "ea7d0ea2e43b929dec900533afc409ab4999e5881721a975c4968baafaa7d38d"
+    },
+    {
+      "path": "finish_film.py",
+      "size_bytes": 6668,
+      "sha256": "009a32146d90714b4b349e2f4bcab4b928ebbafb87cf3963714a24927d158f76"
+    },
+    {
+      "path": "provenance.json",
+      "size_bytes": 2479,
+      "sha256": "41f7d6c72c1d23dd212b42d66d2ef9f86e32516eb30256e7882f4d5ec875d13c"
+    },
+    {
+      "path": "qa/animation_audit.json",
+      "size_bytes": 4380,
+      "sha256": "a3a5d801120969c5b279746c569018fd66153d40585bc9626eabbd5b21f29577"
+    },
+    {
+      "path": "qa/draft_001.png",
+      "size_bytes": 393151,
+      "sha256": "87edeccff09d5fe48e1df42e7b47e42518335cd6141eddecb7633c1641310be8"
+    },
+    {
+      "path": "qa/draft_036.png",
+      "size_bytes": 394638,
+      "sha256": "000502884dd90b84ae1089349347491a1d5810c57e6fb2354fa3efb0bd8b6cb9"
+    },
+    {
+      "path": "qa/draft_072.png",
+      "size_bytes": 396816,
+      "sha256": "d776c722a61390a241a71e452e62957df71bc0643a5bb1eeee874768653df609"
+    },
+    {
+      "path": "qa/film_checks.json",
+      "size_bytes": 23129,
+      "sha256": "6039ec388fa0c674f273ccc152378343491bf4c233a168c78b86b26cbb083a57"
+    },
+    {
+      "path": "qa/native_playback.json",
+      "size_bytes": 1907,
+      "sha256": "e3db12541191ef370daa1188f6e31ed3f1912dd272cd3b7035a6f298ceeb5541"
+    },
+    {
+      "path": "qa/preservation.json",
+      "size_bytes": 667,
+      "sha256": "571741cfb97ecea7a44fcf20c9528d9a7903efb7e1f8b55c5fbffab64287215c"
+    },
+    {
+      "path": "rebuild_film.py",
+      "size_bytes": 7066,
+      "sha256": "69bd6f93ad5809290e56cac8609e0d278450e2e3a989c812220daa1d21f4ce06"
+    },
+    {
+      "path": "reference/gpt_image_concept.png",
+      "size_bytes": 1983682,
+      "sha256": "cf05a332a3728fe363acccb16f6bab1da377ff48f3c9a3a65983ac9b038e5c4f"
+    },
+    {
+      "path": "render_frames.py",
+      "size_bytes": 3731,
+      "sha256": "89bc3e2a4733208e8e9d628850802d73d409d0bd18e416ec7826309cc05303db"
+    },
+    {
+      "path": "renders/The_Second_Cup_Silent_Film.mp4",
+      "size_bytes": 872305,
+      "sha256": "3d9b3c61c7ab10b799aed3cd21fd3bb34539162791392658a76722db493b83f2"
+    },
+    {
+      "path": "renders/frame_0001.png",
+      "size_bytes": 831203,
+      "sha256": "b9ca47729da958a104b2247b9befa3f952d5f5d9da971edee5aa0ac9d5ab33b4"
+    },
+    {
+      "path": "renders/frame_0036.png",
+      "size_bytes": 835635,
+      "sha256": "aeb76941d60d97d5af3ead3893ec7e9118c4f21411728058197091c2ce29ce57"
+    },
+    {
+      "path": "renders/frame_0072.png",
+      "size_bytes": 843495,
+      "sha256": "84e6012508779e10944b872373ec3b8b41c1657e1e0bf2e844452b666167954c"
+    },
+    {
+      "path": "scene_fingerprint.py",
+      "size_bytes": 3742,
+      "sha256": "c6d0f6ee55bd7cee805da8e53df88125d705633adc67747d7437776e6ee4e26c"
+    },
+    {
+      "path": "source_manifest.json",
+      "size_bytes": 1359,
+      "sha256": "abbf6931778f22173a9bbd3eaec316a67a8b47caf3bcead307aef2bf86dfd078"
+    },
+    {
+      "path": "verify_film.py",
+      "size_bytes": 3430,
+      "sha256": "0a0ea17e40cae81b89712dec486a83e76c00cf3df2ac595acc0a77c73c381bd2"
+    }
+  ]
+}

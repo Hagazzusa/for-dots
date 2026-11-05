@@ -1,0 +1,88 @@
+{
+  "title": "같은 고양이, 세 가지 아침빛",
+  "destination": "projects/morning-on-the-sill/light-study",
+  "status": "완료된 저해상도 조명 비교. 승인된 최종 작품을 대체하지 않음",
+  "dependency": {
+    "relative_path": "../Morning_on_the_Sill.blend",
+    "sha256": "e3aa59075ec731e7b7e78dcbd02d6801053c22b7f98615d298f0e7004790d273",
+    "native_duplicated": false
+  },
+  "validation": "공개 PNG 세 장의 경로 메타데이터 제거·IDAT·픽셀 보존과 읽기 전용 재검사 통과. 상위 native 상대 경로를 사용하는 렌더 없는 재개봉 검사 통과. 원래 작품의 공개 파일 17개 바이트 불변.",
+  "scope_limit": "이 장면에서의 한정된 비교이며 보편적인 조명 규칙, 관측 기상 또는 물리 안전 검증이 아님",
+  "manifest_self_excluded": true,
+  "excluded": [
+    "private_originals/",
+    "reproduced/",
+    "*.log",
+    "__pycache__/",
+    "전달 기록과 확장 속성"
+  ],
+  "files": [
+    {
+      "path": ".gitignore",
+      "size": 59,
+      "sha256": "c1a33ac2dbff5c3f3074a412cb79442c4ae22484be2269e055dfa5805bdcbc6c",
+      "git_blob_sha1": "f5289936d1c7de491b629af8acc05a3fabb256f5"
+    },
+    {
+      "path": "README.md",
+      "size": 4522,
+      "sha256": "bdef6743266efa2ebebe1162a5e006d4e090dd718a4dbfcda67ccc40d3ae1d9a",
+      "git_blob_sha1": "3f4764bfa52fe67571c9d9c47df8018d1d6999c2"
+    },
+    {
+      "path": "study.py",
+      "size": 5451,
+      "sha256": "e64ab0c6f90836245f219edff24d720d489486474077a608fb460c4cf65be584",
+      "git_blob_sha1": "4635983dd113657eb72ebedef68c6a356da1f5c5"
+    },
+    {
+      "path": "parameters.json",
+      "size": 2238,
+      "sha256": "ee511aa1d1983b718b303ae0a11ec1bd9f1e2f0c71a5c2f35edb5aeecdb9bfb9",
+      "git_blob_sha1": "d044a52c8148bcc3703fba49d550791e27ca1ee7"
+    },
+    {
+      "path": "study_report.json",
+      "size": 3677,
+      "sha256": "63770718e33f75b4bf0d89066881279fb06099c96dbea3d78aada83b6e5740b6",
+      "git_blob_sha1": "228a4ea258e7118967f045c776cb2097966eaa84"
+    },
+    {
+      "path": "reproduction_check.json",
+      "size": 2377,
+      "sha256": "50014945ba00fa55041e8048c7768170af414d38b802a6c467d118ce16427e88",
+      "git_blob_sha1": "aa495ae87660b1d882c98d69a2d6c8bb46c94645"
+    },
+    {
+      "path": "verify_pngs.py",
+      "size": 3921,
+      "sha256": "6cc7a4d3bd9cefe0355a18dc475ad2e2ef6c97186c84de460723deb4c9200a47",
+      "git_blob_sha1": "6b639fb164e01c6c088b2602701b15f542290bb5"
+    },
+    {
+      "path": "png_validation.json",
+      "size": 2275,
+      "sha256": "4c32aa75322e7134c162c78e250a27c5db9759f2ba9ffd685825ee8eaf04da5c",
+      "git_blob_sha1": "6f0e3ff4190be492f05173f84fbe89cd6fc73b59"
+    },
+    {
+      "path": "renders/low_side_morning.png",
+      "size": 397458,
+      "sha256": "c204acb7581f98c14b0c8104597c18c1dbffdbe35d3bc71fe6bfbd726437b1de",
+      "git_blob_sha1": "7c25758a2cac512081edbd5800f2e8d4736e84ff"
+    },
+    {
+      "path": "renders/higher_side_morning.png",
+      "size": 396859,
+      "sha256": "9220894163ca3221050b5fba074928de12b0407c839a2e86d7a42f7d9fd1284e",
+      "git_blob_sha1": "1562c68a0732b016f28fb59385101bbc7cc8edc3"
+    },
+    {
+      "path": "renders/soft_overcast_comparison.png",
+      "size": 395596,
+      "sha256": "b30234daa88926617346b28558296e4f919e2dd1da52ca2ec1dfe690dd698b5f",
+      "git_blob_sha1": "fadad2623422f10d4b5d66b53dd406a51af237b6"
+    }
+  ]
+}

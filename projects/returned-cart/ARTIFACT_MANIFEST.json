@@ -1,0 +1,71 @@
+{
+  "title": "돌아온 수레",
+  "scope": "Explicit public allowlist; original projects, draft experiments, logs, private backups and receipts excluded.",
+  "files": [
+    {
+      "path": "README.md",
+      "bytes": 4009,
+      "sha256": "034ffc9c34371fdd2f005ed7d76ebd71d1725364dd40e69ae9d6fee1053ee94c"
+    },
+    {
+      "path": "build.py",
+      "bytes": 7591,
+      "sha256": "0ddf30d96e2f75161285fdd61f5bfd59b5fe38f6c96ed1f6c06439fa55b33d3a"
+    },
+    {
+      "path": "audit.py",
+      "bytes": 3161,
+      "sha256": "6d3857fe6ac64070da2fff825fc8d6e9e5b9b4a6935a4fc33ae9d31fb2c8be2e"
+    },
+    {
+      "path": "strip_png_metadata.py",
+      "bytes": 1462,
+      "sha256": "4aa8d47ac32d23dba4f42ef16d249c9eca33d1ced88d3fe95cebe25d9a655ad2"
+    },
+    {
+      "path": "verify_bundle.py",
+      "bytes": 910,
+      "sha256": "89cef352d70c2aa48f170b8ba5cb5d8e041070683f3b8e0426f80c8e53e518ce"
+    },
+    {
+      "path": "Returned_Cart.blend",
+      "bytes": 1196456,
+      "sha256": "97d2b21b58b77712820cc0dcb59b3a62e2cf24fe49d0c5998e568febae4c6eb9"
+    },
+    {
+      "path": "native_validation.json",
+      "bytes": 2214,
+      "sha256": "5840e1e791d8b18f5d06abc40b115699618d92b0de2b4f91f8cc7b0cd80e5fc4"
+    },
+    {
+      "path": "provenance.json",
+      "bytes": 1045,
+      "sha256": "d1f97317b74f2d9bb7a764e2c98a6fd4dd577d637a1090e85a035a064c1d19e0"
+    },
+    {
+      "path": "visual_validation.json",
+      "bytes": 773,
+      "sha256": "a8e7c22f7eb2396386a98b08c7b4a9d622b5084fe5a595e1ea3fbaab28602ead"
+    },
+    {
+      "path": "metadata_validation.json",
+      "bytes": 806,
+      "sha256": "0a5b60e84b5b3ce968dc8877692201fd198dbcfbdc9ae0dcc0b557a9e962f8bb"
+    },
+    {
+      "path": "renders/draft.png",
+      "bytes": 1271371,
+      "sha256": "f4ef6220468a918580dc627d3e81af72fdf0a2d43f82f66cc8a579519b2bbcc6"
+    },
+    {
+      "path": "renders/returned_cart_final.png",
+      "bytes": 1910630,
+      "sha256": "78a56f2bb7eb69158e7d8f426c5a77863079941802a26c48c10f80b4a473f8c0"
+    },
+    {
+      "path": "PUBLIC_ALLOWLIST.txt",
+      "bytes": 268,
+      "sha256": "8f8b69e89377ea364de6b5a8f3a6e84c7f90cddf6e0c7d004fd90bedbdb0f80b"
+    }
+  ]
+}

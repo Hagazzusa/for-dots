@@ -1,0 +1,126 @@
+{
+  "title": "비가 머물 자리 / A Place for Rain",
+  "created_utc_date": "2026-11-03",
+  "destination": "projects/a-place-for-rain",
+  "status": "complete original artwork; exact public-file allowlist; manifest itself excluded from its own hashes",
+  "validation": "Actual final pixels reviewed; separate background native reopen; bounded geometry/path/PNG checks. Not GUI or real architectural, electrical or physical safety certification.",
+  "source_checkpoint_manifest_sha256": "d295345c45d4f016f2c742a9be2a002824d682d99c1f33e2dbf71abf4746959c",
+  "excluded": [
+    "private_originals/",
+    "*.log",
+    "*.blend1",
+    "__pycache__/",
+    "Delivery records and filesystem xattrs",
+    "SOURCE_FREEZE_MANIFEST.json"
+  ],
+  "files": [
+    {
+      "path": ".gitignore",
+      "size": 47,
+      "sha256": "e26816f5ccdcaf2aed3dbfbd5c1299ca90e394280ef5917507756f53d8ca47fa",
+      "git_blob_sha1": "b5ae8f86b5d505f697ffef4a15d6fb3f43982d15"
+    },
+    {
+      "path": "README.md",
+      "size": 6396,
+      "sha256": "584582923415e2c249f02308e391e497a968f402614272545dbbb26fb4937906",
+      "git_blob_sha1": "d35d764226e66e922ad13cd549be1dd5bb8a2e43"
+    },
+    {
+      "path": "parameters.json",
+      "size": 715,
+      "sha256": "fbc120af6a3d28260c3f94704556dc8b2e65a751fbfd9774906718002f231c0f",
+      "git_blob_sha1": "62726d1b6928db713bdca845dab80d4e18033b21"
+    },
+    {
+      "path": "build.py",
+      "size": 17752,
+      "sha256": "50438d55e83d5b2b2a498a936277c61b5a0a3aafe1a11159e2cacaa9618858b6",
+      "git_blob_sha1": "1dd51ead9bcf1e04e0e0f8ec9426586560a95cbe"
+    },
+    {
+      "path": "inspect_scene.py",
+      "size": 4109,
+      "sha256": "a6d53e233061e5f8fcf3520074e7385782c8ef26545cd30810251b54d9000cf0",
+      "git_blob_sha1": "9a79f9b12e14c76a72bc9708e11278b5ab82f6df"
+    },
+    {
+      "path": "verify_bundle.py",
+      "size": 2900,
+      "sha256": "2f66bb1fbe25e4965f1e77f7ae65ec750e5e6970f41630ca1f7c95db4d7b413b",
+      "git_blob_sha1": "c8342a30ed48f7cd68766955600a1c999229f2e8"
+    },
+    {
+      "path": "provenance.json",
+      "size": 2347,
+      "sha256": "5760f32ce447d29d8b8a9a31f18baa9f32986b779d96eaf48463d5200b740f7c",
+      "git_blob_sha1": "0c1054d7e9b6013c10750eb06dbf752d624c4677"
+    },
+    {
+      "path": "reference/concept_prompt.txt",
+      "size": 1817,
+      "sha256": "f7345940d57fe4e145c1bd978a125f17794919caa53adca9337a2406dd80c1e9",
+      "git_blob_sha1": "839fe323385dba254c864b382340d5184e45c26c"
+    },
+    {
+      "path": "reference/gpt_image_concept.png",
+      "size": 2372504,
+      "sha256": "35c074b12d02240d8dd25437e12bf75be09c593456cafdde40c687da9c495b6a",
+      "git_blob_sha1": "83671b466359c713d8c014fae31bdd3b552ccc09"
+    },
+    {
+      "path": "A_Place_for_Rain.blend",
+      "size": 2348232,
+      "sha256": "9a4948d8c4d75f78a8f0d20532ac834e9453faca0a0c45cffe66854ee7cdf3f4",
+      "git_blob_sha1": "e6fb498b182cc3326512fdd617fbfe3fae6dd8da"
+    },
+    {
+      "path": "geometry_validation.json",
+      "size": 20820,
+      "sha256": "f9da40d2fb83fb38862f48390567fde23f1b99bc1f326040ce92f7f77e27b8d8",
+      "git_blob_sha1": "6bb81f6df683eb422098f6d9ef0fda25f606fedf"
+    },
+    {
+      "path": "reopen_validation.json",
+      "size": 1204,
+      "sha256": "b18db07a6e971fb77fff6902b2bb1db47a9f7381c4e8befe090b42a6b3b8e014",
+      "git_blob_sha1": "e95dd60d2005ce2a1260a9ea5f8fc315b3dfd155"
+    },
+    {
+      "path": "bundle_validation.json",
+      "size": 2769,
+      "sha256": "9d8451f1e3e4b38952160bdd8d4df16ac7fe52b81f4e8443e584dfef05c124f6",
+      "git_blob_sha1": "42ca6212f0d32a4bd70842ceb13e9130f1972726"
+    },
+    {
+      "path": "renders/a_place_for_rain_final.png",
+      "size": 1560391,
+      "sha256": "07f821ea9c5cfb5c6123abe80d35de2e1c53003fbc57246c4f937a62557b0701",
+      "git_blob_sha1": "e5b190cd13611faafc0f279741f1f6547ed32c92"
+    },
+    {
+      "path": "renders/draft_01.png",
+      "size": 516623,
+      "sha256": "8f10f0725f7da66ad6906df8287e5dd52f8c0f6256260436ce8b4fcea9f56f2e",
+      "git_blob_sha1": "a060cb57074e3857f1e9ca7ae97d025e7459009a"
+    },
+    {
+      "path": "renders/draft_02.png",
+      "size": 487422,
+      "sha256": "8e0b73366de12ae7cbe18de7dbd1f3f4359a0f5285b67a5cdab8d8ee826867d4",
+      "git_blob_sha1": "8b59a32112acaa62431c68de5b4a16bee432450a"
+    },
+    {
+      "path": "renders/draft_03.png",
+      "size": 486692,
+      "sha256": "955d40e1743c08422708f77ad25339f0eb3420dac2ae55cd7bdc45457dfd548b",
+      "git_blob_sha1": "35fb3e5704cb897015fcfe7822d767fc9907b68b"
+    },
+    {
+      "path": "renders/draft_04.png",
+      "size": 478749,
+      "sha256": "ba08c070f4edf71e024f39004a772dd2a225dc9f81c9d459d412932853906ae1",
+      "git_blob_sha1": "776479a38b4bf0be84859d6f1b40304b51ca2d63"
+    }
+  ]
+}

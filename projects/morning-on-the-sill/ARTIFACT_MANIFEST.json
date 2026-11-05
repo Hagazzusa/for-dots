@@ -1,0 +1,120 @@
+{
+  "title": "볕이 돌아온 창턱 / Morning on the Sill",
+  "created_utc_date": "2026-11-03",
+  "destination": "projects/morning-on-the-sill",
+  "status": "complete original artwork; exact public-file allowlist; manifest itself excluded from its own hashes",
+  "validation": "Final render visually reviewed; separate background native reopen; bounded geometry/path/PNG checks, not manufacturing, botanical or safety certification",
+  "source_checkpoint_manifest_sha256": "dcb67ebe24a9a0ca85e586c3e90a2538dfa5b23608cfb1be3b2e19d9047f7c98",
+  "excluded": [
+    "private_originals/",
+    "*.log",
+    "*.blend1",
+    "__pycache__/",
+    "delivery records and extended attributes",
+    "SOURCE_FREEZE_MANIFEST.json"
+  ],
+  "files": [
+    {
+      "path": ".gitignore",
+      "size": 47,
+      "sha256": "f7a717463397c976c5c6c2a69ae8a68b1819da95f669898d1acdcd77b24f13b7",
+      "git_blob_sha1": "545be7017c5f0b6bfa55fa5e62401343bbec21c2"
+    },
+    {
+      "path": "README.md",
+      "size": 5266,
+      "sha256": "e6ce78d1ff623a15fb40a3d26062bdcf3cca9fa2bd1f2663aad35d059f710a2c",
+      "git_blob_sha1": "3560b75d7a6236224baf913ca48d10782f255ea5"
+    },
+    {
+      "path": "parameters.json",
+      "size": 803,
+      "sha256": "dc6c53bf51410f9d2364e458538b1293b4c26f91b56c161763b00a9253aa82ef",
+      "git_blob_sha1": "fa97beb85f8ad135554cccfd9dc00e60f68e12f3"
+    },
+    {
+      "path": "build.py",
+      "size": 18597,
+      "sha256": "4596c3746465e6e6dc29e4267aa5518e1a4a873f0d575cdbb524b127c7f061c5",
+      "git_blob_sha1": "378e131cf4d8e61d568f9b03634e41451f2d0f70"
+    },
+    {
+      "path": "inspect_scene.py",
+      "size": 3630,
+      "sha256": "c30e55f551d0a42eb84ac044163af2df57e5bc4f787f30b8a1c3a30c98a5d80b",
+      "git_blob_sha1": "f4a6827ed340d1736f99820e72259ebbdc4ac9c8"
+    },
+    {
+      "path": "verify_bundle.py",
+      "size": 2903,
+      "sha256": "dc7990328efcec1c02ee8e569db177727d8a074b1c33051a45cacc0d265254a0",
+      "git_blob_sha1": "d4c41f11f049a09ae4b9d31b5ff60e7abff48b0a"
+    },
+    {
+      "path": "provenance.json",
+      "size": 2389,
+      "sha256": "cc95c603c35b40d4679902c6300388736a0e814bc4be02bc92d40ed343d6659a",
+      "git_blob_sha1": "0ff624da1ed515cc1541a8d54ce1f95e2c62dbea"
+    },
+    {
+      "path": "reference/concept_prompt.txt",
+      "size": 2316,
+      "sha256": "8a58c92fe8df58a8c6982e4dbfa50b2352f2127ec5feaa5445853fca4d6d524c",
+      "git_blob_sha1": "3d552f1b7f3c7b3693e62c519ffee7f1a91db290"
+    },
+    {
+      "path": "reference/gpt_image_concept.png",
+      "size": 2213864,
+      "sha256": "51b6fa2972684c906c789ef695a8994e797c31feeea6f400c7307d4c8f6f0578",
+      "git_blob_sha1": "6a5a72059b93488707ce06aa1eab0bb906a7e16f"
+    },
+    {
+      "path": "Morning_on_the_Sill.blend",
+      "size": 8450556,
+      "sha256": "e3aa59075ec731e7b7e78dcbd02d6801053c22b7f98615d298f0e7004790d273",
+      "git_blob_sha1": "5a99f99efa0d35a39211cd6e725f4dbb9b1636cf"
+    },
+    {
+      "path": "geometry_validation.json",
+      "size": 2049,
+      "sha256": "b5c1b27025519704c599ecc93682d374e849387d6aee30334dfe5f5fb29f3ea1",
+      "git_blob_sha1": "2be18502fc9fc27a4b5a82eadee5eeaa06b9fd73"
+    },
+    {
+      "path": "reopen_validation.json",
+      "size": 1296,
+      "sha256": "1cbed1a1df76dfd5d590cfc972c6f426e3e1445066de16fb7c42597b4a255a33",
+      "git_blob_sha1": "14e253f49bb8093364ff2a42fa89d161f3fe040c"
+    },
+    {
+      "path": "bundle_validation.json",
+      "size": 2312,
+      "sha256": "d653791cca8baab3f254ac617802cd1cce4448b800ce300319590f19e692fbb7",
+      "git_blob_sha1": "695ad561b6dadc743ba38dd58829f6a5c64d44a4"
+    },
+    {
+      "path": "renders/morning_on_the_sill_final.png",
+      "size": 1291925,
+      "sha256": "d9bd1546306ee04a42d46d033ea3706b4fcbcbd87fe5656146fc3970b187aeb1",
+      "git_blob_sha1": "5e9ef0fbfec709356f3f5a3f218867bc99612d4c"
+    },
+    {
+      "path": "renders/draft_01.png",
+      "size": 374731,
+      "sha256": "12211153928a5292e05e26179b606695ba23e1568d7c06a6bd9fb78e0de99e11",
+      "git_blob_sha1": "4b01415c5d902acdeb4270b08614c762c3964cd9"
+    },
+    {
+      "path": "renders/draft_02.png",
+      "size": 376242,
+      "sha256": "bae8bdac7c793ef6b6537228fc8bec96bb032846c1a8b22e26ec6b7efa1cbd93",
+      "git_blob_sha1": "74d7fa529dff56e09bce3400d13581fc90ffa9e6"
+    },
+    {
+      "path": "renders/draft_03.png",
+      "size": 378767,
+      "sha256": "eff79e82f0da414018301d2830fe514c85d3d5cd0240e969ab4dfcbc50d45f78",
+      "git_blob_sha1": "812052e918c4446266c551c60e99ecc33a6fc5bf"
+    }
+  ]
+}

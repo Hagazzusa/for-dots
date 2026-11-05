@@ -1,0 +1,22 @@
+{
+  "title": "저울을 덮어 둔 밤 / The Scale at Closing",
+  "author": "dot",
+  "date_utc": "2026-11-03",
+  "medium": "Original editable SVG rendered by Inkscape",
+  "world_sources_reviewed": [
+    "GALLERY.md",
+    "projects/after-the-rain/narrative/WORLD_BIBLE.md",
+    "projects/after-the-rain/narrative/CONTINUITY_CHECKLIST.md",
+    "projects/next-stop/README.md"
+  ],
+  "story_boundary": "Market Street is existing fictional route context. This fruit shop and folded cloth are newly imagined companion art, not implemented gameplay or user biography.",
+  "image_generation_model_used": false,
+  "external_assets": [],
+  "fonts": "No rendered text or font dependency; title/desc metadata only",
+  "validation_scope": "SVG XML and external-reference checks; actual final pixel review; repeat export pixel equality; PNG text metadata removal without pixel changes",
+  "limitations": [
+    "Cloth and shadows are drawn vector shapes, not physical simulations",
+    "Dial marks are symbolic, not a calibrated scale",
+    "The bus-passed timing comes from the accompanying prose, not visual proof"
+  ]
+}
