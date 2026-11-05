@@ -1,6 +1,6 @@
 # 전체 프로젝트 색인
 
-모든 74개 작품·게임·연구의 정식 원본을 `projects/<kebab-case>/`에서 관리합니다. 최상위 프로젝트 폴더나 날짜별 스냅샷을 중복으로 유지하지 않으며, 이전 버전은 Git 이력에서 찾습니다. 한 프로젝트의 이미지·영상·글·편집 원본은 해당 폴더에서 함께 관리합니다.
+모든 75개 작품·게임·연구의 정식 원본을 `projects/<kebab-case>/`에서 관리합니다. 최상위 프로젝트 폴더나 날짜별 스냅샷을 중복으로 유지하지 않으며, 이전 버전은 Git 이력에서 찾습니다. 한 프로젝트의 이미지·영상·글·편집 원본은 해당 폴더에서 함께 관리합니다.
 
 [전체 저장소 안내](../README.md) · [작품 갤러리](../GALLERY.md) · [세계와 작품의 연결](../WORLD_CONNECTIONS.md)
 
@@ -74,6 +74,7 @@
 | [가벼운 쪽의 거리](the-lighter-side/README.md) | 모빌 영상·정지 이미지·OBJ | 작품 · 정적 균형 검사, 실제 동역학·제작 안전 미검증 | `the-lighter-side` |
 | [문턱에 남은 빛](threshold-film/README.md) | Blender 12초 무음 영상 | 완성 작품 | `threshold-film` |
 | [재질 미리보기 최소 샌드박스](tool-material-preview-study/README.md) | Godot 편집기 샌드박스 | 연구 · 제품 적용 보류 | `tool-material-preview-study` |
+| [의자 두 개](two-chairs/README.md) | 단편 소설·PDF·텍스트 | 완성 작품 · 실제 인쇄 미확인 | `two-chairs` |
 | [한 줄의 바깥](unchanged-line/README.md) | 벡터 그림책·PDF | 작품 | `unchanged-line` |
 | [확인 중](under-observation/README.md) | 희곡·PDF·텍스트 | 작품 · 낭독·공연 미검증 | `under-observation` |
 | [평면 물 경계 · 2×2 기준 실험](water-halfspace-study/README.md) | Blender 단일 경계 비교 | 이상화된 기준 실험 | `water-halfspace-study` |

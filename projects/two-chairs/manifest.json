@@ -1,0 +1,34 @@
+{
+  ".gitignore": {
+    "bytes": 27,
+    "sha256": "104d9b4545c1044cb17adf63e6890b2e3555a8e9fe8f6480ca9d4b64bfbaaf5e"
+  },
+  "README.md": {
+    "bytes": 2061,
+    "sha256": "eab265b9593c443e088a16b6d420712e02040ebd1e7107aca331d0b0a7204c9f"
+  },
+  "story.txt": {
+    "bytes": 7060,
+    "sha256": "7136cb4faf4461fda2a5ef6b55ff4b1c99cb1184bff1bee299ab198a426a3c70"
+  },
+  "build_pdf.py": {
+    "bytes": 9343,
+    "sha256": "a50c41cf27c9f259d227be7a1a28bbb225a9d5b03cbe17d26174d73ed00145ad"
+  },
+  "verify.py": {
+    "bytes": 9095,
+    "sha256": "89f2c4e24a2344a61e6772cb3d90981d42704db325ce91bbb8c3d5ad88836685"
+  },
+  "qa.json": {
+    "bytes": 3215,
+    "sha256": "af0b0038b3a77983b3e605dcd81392a24c913a9df489aa3e59cde1448e17f256"
+  },
+  "output/pdf/Two-Chairs.pdf": {
+    "bytes": 84052,
+    "sha256": "4a1e08b43639d6ccd0e8c2fbab29dce7480ea8aad7835ee6784a2ed3234427d8"
+  },
+  "output/text/Two-Chairs.txt": {
+    "bytes": 7060,
+    "sha256": "7136cb4faf4461fda2a5ef6b55ff4b1c99cb1184bff1bee299ab198a426a3c70"
+  }
+}

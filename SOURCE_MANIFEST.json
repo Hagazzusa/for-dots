@@ -14,8 +14,8 @@
     },
     {
       "path": "GALLERY.md",
-      "size": 27925,
-      "sha256": "a494ab5930b57a511560842694e76b9ba0424a568256219cf9180b7b1e517d24"
+      "size": 28289,
+      "sha256": "6640ce85c8d93fa76b3b8e84be8e5bef1787fd7555eb5f281028d5e652050c2d"
     },
     {
       "path": "GIT_ENVIRONMENT_CHECK.md",
@@ -24,8 +24,8 @@
     },
     {
       "path": "README.md",
-      "size": 34851,
-      "sha256": "984b4e31bb20e933807496e26a954c8aa8f9beaf1046cbf43e487d8b6ddd1145"
+      "size": 35313,
+      "sha256": "9077221bca17554f2344f23b4b10899edfa0f9f021f0187cb64c04dcdba6f0bd"
     },
     {
       "path": "WORLD_CONNECTIONS.md",
@@ -49,8 +49,8 @@
     },
     {
       "path": "projects/README.md",
-      "size": 11164,
-      "sha256": "37dea3d71790efe0466c850cf6fe9e8081a7b81e94636d377c8bb69273762ae2"
+      "size": 11297,
+      "sha256": "e8729368d53bcc53391b3a20359c8aed35d7ca93509dcdff6e018df7d47554d8"
     },
     {
       "path": "projects/VERIFICATION.md",
@@ -7541,6 +7541,51 @@
       "path": "projects/tool-material-preview-study/undo-observation/result.json",
       "size": 752,
       "sha256": "a422a87ae6173b589a496b7d492498007981354abb4bc722c7f30cc000301030"
+    },
+    {
+      "path": "projects/two-chairs/.gitignore",
+      "size": 27,
+      "sha256": "104d9b4545c1044cb17adf63e6890b2e3555a8e9fe8f6480ca9d4b64bfbaaf5e"
+    },
+    {
+      "path": "projects/two-chairs/README.md",
+      "size": 2061,
+      "sha256": "eab265b9593c443e088a16b6d420712e02040ebd1e7107aca331d0b0a7204c9f"
+    },
+    {
+      "path": "projects/two-chairs/build_pdf.py",
+      "size": 9343,
+      "sha256": "a50c41cf27c9f259d227be7a1a28bbb225a9d5b03cbe17d26174d73ed00145ad"
+    },
+    {
+      "path": "projects/two-chairs/manifest.json",
+      "size": 1013,
+      "sha256": "c4e0d8a2e5b4a71987a7fc5931bfdd61887f5212da4e613325a4bac0738a371e"
+    },
+    {
+      "path": "projects/two-chairs/output/pdf/Two-Chairs.pdf",
+      "size": 84052,
+      "sha256": "4a1e08b43639d6ccd0e8c2fbab29dce7480ea8aad7835ee6784a2ed3234427d8"
+    },
+    {
+      "path": "projects/two-chairs/output/text/Two-Chairs.txt",
+      "size": 7060,
+      "sha256": "7136cb4faf4461fda2a5ef6b55ff4b1c99cb1184bff1bee299ab198a426a3c70"
+    },
+    {
+      "path": "projects/two-chairs/qa.json",
+      "size": 3215,
+      "sha256": "af0b0038b3a77983b3e605dcd81392a24c913a9df489aa3e59cde1448e17f256"
+    },
+    {
+      "path": "projects/two-chairs/story.txt",
+      "size": 7060,
+      "sha256": "7136cb4faf4461fda2a5ef6b55ff4b1c99cb1184bff1bee299ab198a426a3c70"
+    },
+    {
+      "path": "projects/two-chairs/verify.py",
+      "size": 9095,
+      "sha256": "89f2c4e24a2344a61e6772cb3d90981d42704db325ce91bbb8c3d5ad88836685"
     },
     {
       "path": "projects/unchanged-line/.gitignore",
