@@ -14,8 +14,8 @@
     },
     {
       "path": "GALLERY.md",
-      "size": 38764,
-      "sha256": "47b22450af18340601c8d37d8e77d977578e5723b19b738b424ad81d2d997e11"
+      "size": 39434,
+      "sha256": "0eec20b55b76f8375d11826a28691a2d56050b75662feed499b85066f1482a29"
     },
     {
       "path": "GIT_ENVIRONMENT_CHECK.md",
@@ -24,8 +24,8 @@
     },
     {
       "path": "README.md",
-      "size": 44352,
-      "sha256": "c37849f05704748ad70f57814e0c910a0fc6296a41e8b9e2cea9323a8a7ea18d"
+      "size": 44818,
+      "sha256": "b86403f38ac108b9bb3d0dd7a3b473c9ec585b81c78df7fc5a9e0619de9271be"
     },
     {
       "path": "WORLD_CONNECTIONS.md",
@@ -8191,6 +8191,36 @@
       "path": "projects/the-customer-role/verify.py",
       "size": 1883,
       "sha256": "10c588664cb94b57b78c695e2e6a0b80c5edaf55d1e3499465084c3e0257d43e"
+    },
+    {
+      "path": "projects/the-held-corners/README.md",
+      "size": 2607,
+      "sha256": "499aad7ec0ffe0f36e7582398cae2fff7741c1cc5e351e39e604a759b77d27d0"
+    },
+    {
+      "path": "projects/the-held-corners/manifest.json",
+      "size": 758,
+      "sha256": "6e64d4a107501af0ae7dff739929a5f986b95362b17bdd8e42d996ee0fa4878b"
+    },
+    {
+      "path": "projects/the-held-corners/output/The-Held-Corners.png",
+      "size": 2803090,
+      "sha256": "6a14205e8ad4b3ddb234c07a511cccda4fb225f666a014107f72c3301787afd0"
+    },
+    {
+      "path": "projects/the-held-corners/prompt.txt",
+      "size": 2142,
+      "sha256": "1504fd0ac84aee351761140699d1f6806fc6408498d13cc88d217e03fcb7a4fa"
+    },
+    {
+      "path": "projects/the-held-corners/qa.json",
+      "size": 971,
+      "sha256": "b0e55dc008cf9dd092099a4db96b2996995342aebd20a04857b3e0e6044ca1ed"
+    },
+    {
+      "path": "projects/the-held-corners/verify.py",
+      "size": 590,
+      "sha256": "e52220b25ee90893ec16e8eeb410daefeda8600eb5874cb3852939f562b32635"
     },
     {
       "path": "projects/the-lighter-side/.gitignore",

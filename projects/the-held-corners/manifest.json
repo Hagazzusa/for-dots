@@ -1,0 +1,29 @@
+{
+  "files": [
+    {
+      "path": "README.md",
+      "bytes": 2607,
+      "sha256": "499aad7ec0ffe0f36e7582398cae2fff7741c1cc5e351e39e604a759b77d27d0"
+    },
+    {
+      "path": "output/The-Held-Corners.png",
+      "bytes": 2803090,
+      "sha256": "6a14205e8ad4b3ddb234c07a511cccda4fb225f666a014107f72c3301787afd0"
+    },
+    {
+      "path": "prompt.txt",
+      "bytes": 2142,
+      "sha256": "1504fd0ac84aee351761140699d1f6806fc6408498d13cc88d217e03fcb7a4fa"
+    },
+    {
+      "path": "qa.json",
+      "bytes": 971,
+      "sha256": "b0e55dc008cf9dd092099a4db96b2996995342aebd20a04857b3e0e6044ca1ed"
+    },
+    {
+      "path": "verify.py",
+      "bytes": 590,
+      "sha256": "e52220b25ee90893ec16e8eeb410daefeda8600eb5874cb3852939f562b32635"
+    }
+  ]
+}
