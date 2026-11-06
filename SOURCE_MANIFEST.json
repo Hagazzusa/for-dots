@@ -14,8 +14,8 @@
     },
     {
       "path": "GALLERY.md",
-      "size": 35255,
-      "sha256": "0003c0697e8f0c979043e64d12ea27c1859df2768574418efcbf42d0e23be21f"
+      "size": 35734,
+      "sha256": "73711b6c070568adaab1e4c6404498c5a383d9aaa242af5c0b63d169eface0fa"
     },
     {
       "path": "GIT_ENVIRONMENT_CHECK.md",
@@ -8154,8 +8154,8 @@
     },
     {
       "path": "projects/third-prize/README.md",
-      "size": 3366,
-      "sha256": "2d9f74c715d346794150502fcae58e5cde7459f22d41dd89a832347936acf3bc"
+      "size": 5019,
+      "sha256": "0cb58d30b4689b819fa64c40f49c1d4e4b440d271dd2aa1586c3ce8c6f6ed21e"
     },
     {
       "path": "projects/third-prize/build_pdf.py",
@@ -8163,9 +8163,29 @@
       "sha256": "bf0a1d96d5fd6e135468bc867871ddf2d5002bc0594b9d93205a3e2eb5c91710"
     },
     {
+      "path": "projects/third-prize/illustration/Third-Prize.png",
+      "size": 3270350,
+      "sha256": "3edb492919a862e1012b09c55b9bc3fa7d1408878b168d05d71133c6de71e7c6"
+    },
+    {
+      "path": "projects/third-prize/illustration/prompt.txt",
+      "size": 2518,
+      "sha256": "6aaed4d0ae6b61d4b95ad066d89e47dd01c7e4deafa991c9f8586b2d2a28270d"
+    },
+    {
+      "path": "projects/third-prize/illustration/qa.json",
+      "size": 1264,
+      "sha256": "fc9e702ccd2f95b230b8a56ef1139441770d09020210989a058fef4b6d69f0be"
+    },
+    {
+      "path": "projects/third-prize/illustration/verify.py",
+      "size": 568,
+      "sha256": "4a0eb0c01d1822c35b3dd83db53970e375daa67c7a3d38c7857d829450ae560f"
+    },
+    {
       "path": "projects/third-prize/manifest.json",
-      "size": 1360,
-      "sha256": "617693b857dba4008ab48b8587ba7832d4a0b4f484355b292a0c97f0e1fe3ab9"
+      "size": 1995,
+      "sha256": "71ee9ee27bfd69513f2b17084d90f0a169703eef74c4049c2d6de250d75857e1"
     },
     {
       "path": "projects/third-prize/output/pdf/Third-Prize.pdf",

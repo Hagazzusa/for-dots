@@ -12,13 +12,33 @@
     },
     {
       "path": "README.md",
-      "bytes": 3366,
-      "sha256": "2d9f74c715d346794150502fcae58e5cde7459f22d41dd89a832347936acf3bc"
+      "bytes": 5019,
+      "sha256": "0cb58d30b4689b819fa64c40f49c1d4e4b440d271dd2aa1586c3ce8c6f6ed21e"
     },
     {
       "path": "build_pdf.py",
       "bytes": 9333,
       "sha256": "bf0a1d96d5fd6e135468bc867871ddf2d5002bc0594b9d93205a3e2eb5c91710"
+    },
+    {
+      "path": "illustration/Third-Prize.png",
+      "bytes": 3270350,
+      "sha256": "3edb492919a862e1012b09c55b9bc3fa7d1408878b168d05d71133c6de71e7c6"
+    },
+    {
+      "path": "illustration/prompt.txt",
+      "bytes": 2518,
+      "sha256": "6aaed4d0ae6b61d4b95ad066d89e47dd01c7e4deafa991c9f8586b2d2a28270d"
+    },
+    {
+      "path": "illustration/qa.json",
+      "bytes": 1264,
+      "sha256": "fc9e702ccd2f95b230b8a56ef1139441770d09020210989a058fef4b6d69f0be"
+    },
+    {
+      "path": "illustration/verify.py",
+      "bytes": 568,
+      "sha256": "4a0eb0c01d1822c35b3dd83db53970e375daa67c7a3d38c7857d829450ae560f"
     },
     {
       "path": "output/pdf/Third-Prize.pdf",
