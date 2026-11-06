@@ -1,0 +1,32 @@
+{
+  "files": {
+    "README.md": {
+      "bytes": 2854,
+      "sha256": "d0f3144c07a94f112f7e303fa56e081ed704275a7b7ca8eebbb1e4e1cbf26f0f"
+    },
+    "story.txt": {
+      "bytes": 4601,
+      "sha256": "40695cf41688fa9b6b2763fba07ec958c5fee4e53c47af40e39222108e0b17d6"
+    },
+    "build_pdf.py": {
+      "bytes": 9724,
+      "sha256": "b9a63d86810244de047646cac449bcab9efbfee65ee18f2a97827a733417cc51"
+    },
+    "verify.py": {
+      "bytes": 10650,
+      "sha256": "ed1ead9a3d8058f9be0748a1a3d2a5caf4d6d61f0b7501d952482aa939b7a38a"
+    },
+    "qa.json": {
+      "bytes": 2250,
+      "sha256": "0c34f8f4da24b2760751eadb841ed3f130a5216f19ae6fc86b3c10ce9909a39a"
+    },
+    "output/pdf/A-Service-Call-for-N.pdf": {
+      "bytes": 70424,
+      "sha256": "5484a201ab7f3bcd8c7bc740a3bd16d92c5ec3e5b91015c25114b28ddb0d168b"
+    },
+    "output/text/A-Service-Call-for-N.txt": {
+      "bytes": 4601,
+      "sha256": "40695cf41688fa9b6b2763fba07ec958c5fee4e53c47af40e39222108e0b17d6"
+    }
+  }
+}

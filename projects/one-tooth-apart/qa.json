@@ -1,0 +1,12 @@
+{
+  "status": "3D 조형 연구 · 완성작 채택 보류",
+  "visual_review": "최종 1600×1400 PNG 전체와 접합부 확인. 초기 검은 접합 오류 수정 확인.",
+  "independent_rebuild": "제작 소스 하나만 별도 폴더에 복사하여 Blender 4.3.2로 재생성",
+  "png_pixels_identical": true,
+  "png_byte_identical": false,
+  "png_byte_difference_reason": "Blender가 파일 경로·렌더 날짜·렌더 시간을 PNG 메타데이터에 기록합니다.",
+  "png_sha256": "177344adee0fc332c687dae7437b9d82a93d61187bcef2f9fc651e7f84ce86b4",
+  "blend_byte_identity_claimed": false,
+  "source_compile": "Python 소스 세 파일 컴파일 통과",
+  "notes": "물리 시뮬레이션과 실물 제작은 검사하지 않았습니다."
+}

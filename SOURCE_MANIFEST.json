@@ -14,8 +14,8 @@
     },
     {
       "path": "GALLERY.md",
-      "size": 31912,
-      "sha256": "e34d0c1c0608e4313590becadea8fe9cd92c4329537b313fe2b80e6d22ba3569"
+      "size": 33945,
+      "sha256": "e30e14f02617d09f8d9121cd0e2f9ee297445e7230035e3da5fcf0b08fa3e351"
     },
     {
       "path": "GIT_ENVIRONMENT_CHECK.md",
@@ -24,8 +24,8 @@
     },
     {
       "path": "README.md",
-      "size": 38692,
-      "sha256": "737e70c26eefabba8b75c494934dfb005cdbdfbb55613a595728a8e7620fc04b"
+      "size": 40352,
+      "sha256": "52cd720d9ef23c6ed06d204bb6cea80a5fcac3cc2c7a824c51af3f69a2508e80"
     },
     {
       "path": "WORLD_CONNECTIONS.md",
@@ -426,6 +426,46 @@
       "path": "projects/a-seat-for-wind/render.sh",
       "size": 312,
       "sha256": "dca746639494746b122515d143ddba5df7da5fdf883566c3cbb2667e44536ead"
+    },
+    {
+      "path": "projects/a-service-call-for-n/README.md",
+      "size": 2854,
+      "sha256": "d0f3144c07a94f112f7e303fa56e081ed704275a7b7ca8eebbb1e4e1cbf26f0f"
+    },
+    {
+      "path": "projects/a-service-call-for-n/build_pdf.py",
+      "size": 9724,
+      "sha256": "b9a63d86810244de047646cac449bcab9efbfee65ee18f2a97827a733417cc51"
+    },
+    {
+      "path": "projects/a-service-call-for-n/manifest.json",
+      "size": 986,
+      "sha256": "fffe8ff95f5bd12cd649f75d7f3ae207fd420ea3362c0aed57825472833fa1c2"
+    },
+    {
+      "path": "projects/a-service-call-for-n/output/pdf/A-Service-Call-for-N.pdf",
+      "size": 70424,
+      "sha256": "5484a201ab7f3bcd8c7bc740a3bd16d92c5ec3e5b91015c25114b28ddb0d168b"
+    },
+    {
+      "path": "projects/a-service-call-for-n/output/text/A-Service-Call-for-N.txt",
+      "size": 4601,
+      "sha256": "40695cf41688fa9b6b2763fba07ec958c5fee4e53c47af40e39222108e0b17d6"
+    },
+    {
+      "path": "projects/a-service-call-for-n/qa.json",
+      "size": 2250,
+      "sha256": "0c34f8f4da24b2760751eadb841ed3f130a5216f19ae6fc86b3c10ce9909a39a"
+    },
+    {
+      "path": "projects/a-service-call-for-n/story.txt",
+      "size": 4601,
+      "sha256": "40695cf41688fa9b6b2763fba07ec958c5fee4e53c47af40e39222108e0b17d6"
+    },
+    {
+      "path": "projects/a-service-call-for-n/verify.py",
+      "size": 10650,
+      "sha256": "ed1ead9a3d8058f9be0748a1a3d2a5caf4d6d61f0b7501d952482aa939b7a38a"
     },
     {
       "path": "projects/after-the-flowers/README.md",
@@ -3213,6 +3253,51 @@
       "sha256": "3680a5d1fe4faf8076d703a6527f273df369eb1e91075091fcf4b101333439c3"
     },
     {
+      "path": "projects/five-and-seven/README.md",
+      "size": 3998,
+      "sha256": "eef8b8de558387ed83a82d1a55fd9b3d297f5aa963f44301196e63def7ec4685"
+    },
+    {
+      "path": "projects/five-and-seven/build.py",
+      "size": 4270,
+      "sha256": "f24c9c48b83ae47ae6e1a194fdd633686ad754350b5305f7b41359e5459ce670"
+    },
+    {
+      "path": "projects/five-and-seven/manifest.json",
+      "size": 1112,
+      "sha256": "6d7f8ccd4ca9318e53f17632b501d2f9fecef0c09406675b3a1d265ba812a2eb"
+    },
+    {
+      "path": "projects/five-and-seven/output/Five-and-Seven.mid",
+      "size": 404,
+      "sha256": "f04599cc47aeaaccf491f640b83e5274e8ecb189c5b54e30851b27e804c14103"
+    },
+    {
+      "path": "projects/five-and-seven/output/Five-and-Seven.wav",
+      "size": 6412844,
+      "sha256": "05907e5bc13bdc1d1745ee881902bdd276f40ff00a0094d979976d99bd1613ab"
+    },
+    {
+      "path": "projects/five-and-seven/output/events.json",
+      "size": 6101,
+      "sha256": "7aadd24d2499df7e868ca092c5678c2638181db73911fcdd48e7279374180e73"
+    },
+    {
+      "path": "projects/five-and-seven/output/rhythm-map.svg",
+      "size": 10978,
+      "sha256": "aa56731be3bc9d8f23ff050c60282e1a781732a23a2d036fe0ac6ea5dacf66b9"
+    },
+    {
+      "path": "projects/five-and-seven/qa.json",
+      "size": 591,
+      "sha256": "6a416f788991c0885b7028a3b8aee9827a28abe234f788a126ed0b2f7744ea0d"
+    },
+    {
+      "path": "projects/five-and-seven/verify.py",
+      "size": 2869,
+      "sha256": "20bba870eb10c6764a82a73663cb91537b56c9196db41ace8bb63fb33f331a0b"
+    },
+    {
       "path": "projects/folded-path/.gitignore",
       "size": 36,
       "sha256": "81981078073516337026faad14ce2b2903e9d1827bfaa0d0e3fe93acf34f3cc9"
@@ -4786,6 +4871,51 @@
       "path": "projects/one-step-lit/render_study.py",
       "size": 1950,
       "sha256": "27ccfd125f46ec778373633029a5aaabece533421d15be004f40aebf4bf9131b"
+    },
+    {
+      "path": "projects/one-tooth-apart/README.md",
+      "size": 3674,
+      "sha256": "c617570e6cd297ec33307b1efd449fd1ca9dcc4365dac977d3f5b5abb6d0c9e6"
+    },
+    {
+      "path": "projects/one-tooth-apart/build.py",
+      "size": 3989,
+      "sha256": "8862c48b13960a41dda71bee0b841333ab6898ef37e8b65b3a9c913cc73e3fcb"
+    },
+    {
+      "path": "projects/one-tooth-apart/manifest.json",
+      "size": 1105,
+      "sha256": "13d25f2ae6c241168a7353f308a52c9050fabd8ae06c321f8cec9dba5e19dcde"
+    },
+    {
+      "path": "projects/one-tooth-apart/output/One-Tooth-Apart.blend",
+      "size": 530536,
+      "sha256": "f440870ca3349d5cc59ea36d696d3521aa56cdbd2be6868a1556255708aec0a9"
+    },
+    {
+      "path": "projects/one-tooth-apart/output/One-Tooth-Apart.png",
+      "size": 2678826,
+      "sha256": "177344adee0fc332c687dae7437b9d82a93d61187bcef2f9fc651e7f84ce86b4"
+    },
+    {
+      "path": "projects/one-tooth-apart/qa.json",
+      "size": 758,
+      "sha256": "f9c6cba7c7fdc3de673d67e6f1b85649b56fec0f272ed99336b204cd0b1e6575"
+    },
+    {
+      "path": "projects/one-tooth-apart/scene_qa.json",
+      "size": 746,
+      "sha256": "d642fbe1d8699dfdbcec57f39bd1b64957b2c48585955d536475444751e5af3d"
+    },
+    {
+      "path": "projects/one-tooth-apart/verify.py",
+      "size": 640,
+      "sha256": "6b6d24f41bbb04d8fd8d6c102870ddc383d5e1c3ead623c8c999c61a8a099818"
+    },
+    {
+      "path": "projects/one-tooth-apart/verify_scene.py",
+      "size": 1724,
+      "sha256": "eaa44d307a6c4f2da5d5282410cc0b7177936a7e41779f70b37ba1ca00387bf1"
     },
     {
       "path": "projects/one-view-circle-development/.gitignore",
@@ -7941,6 +8071,36 @@
       "path": "projects/the-low-corner/verify.py",
       "size": 1212,
       "sha256": "9969e78ac1611e34f29d168f72b8f2620c266e171d86de74021f6f2cddaaf044"
+    },
+    {
+      "path": "projects/the-staircase-arrives/README.md",
+      "size": 2692,
+      "sha256": "5a32bd8d0c1d8867b504216abc241f270bbfe71577c0ea0dd1f7b943d08234d7"
+    },
+    {
+      "path": "projects/the-staircase-arrives/manifest.json",
+      "size": 693,
+      "sha256": "8cec41a9d20eff5e9d8d222a6e4d1f9fdc41fa6abbc28e248f8ec400d7c7016c"
+    },
+    {
+      "path": "projects/the-staircase-arrives/output/The-Staircase-Arrives.png",
+      "size": 2557906,
+      "sha256": "84ad8aa0583a2f7ae2fa525df654841100726ae391607a4b1460321ff5dd203d"
+    },
+    {
+      "path": "projects/the-staircase-arrives/prompt.txt",
+      "size": 2566,
+      "sha256": "197fbfdf98a64c8acee53734b9ddc6688267cbe1c5dc24797cd0bf4047d28251"
+    },
+    {
+      "path": "projects/the-staircase-arrives/qa.json",
+      "size": 746,
+      "sha256": "4dc289944a60012cb36a7612deb2114fadba884f0678d71e5d80706dae0518fb"
+    },
+    {
+      "path": "projects/the-staircase-arrives/verify.py",
+      "size": 702,
+      "sha256": "85c4f2d43c3904b5cbbb3eb0096f7d3a3b5d7bd9649acf3cc4ee98ed40f2f684"
     },
     {
       "path": "projects/threshold-film/.gitignore",

@@ -1,0 +1,36 @@
+{
+  "files": {
+    "README.md": {
+      "bytes": 3998,
+      "sha256": "eef8b8de558387ed83a82d1a55fd9b3d297f5aa963f44301196e63def7ec4685"
+    },
+    "build.py": {
+      "bytes": 4270,
+      "sha256": "f24c9c48b83ae47ae6e1a194fdd633686ad754350b5305f7b41359e5459ce670"
+    },
+    "verify.py": {
+      "bytes": 2869,
+      "sha256": "20bba870eb10c6764a82a73663cb91537b56c9196db41ace8bb63fb33f331a0b"
+    },
+    "qa.json": {
+      "bytes": 591,
+      "sha256": "6a416f788991c0885b7028a3b8aee9827a28abe234f788a126ed0b2f7744ea0d"
+    },
+    "output/Five-and-Seven.wav": {
+      "bytes": 6412844,
+      "sha256": "05907e5bc13bdc1d1745ee881902bdd276f40ff00a0094d979976d99bd1613ab"
+    },
+    "output/Five-and-Seven.mid": {
+      "bytes": 404,
+      "sha256": "f04599cc47aeaaccf491f640b83e5274e8ecb189c5b54e30851b27e804c14103"
+    },
+    "output/rhythm-map.svg": {
+      "bytes": 10978,
+      "sha256": "aa56731be3bc9d8f23ff050c60282e1a781732a23a2d036fe0ac6ea5dacf66b9"
+    },
+    "output/events.json": {
+      "bytes": 6101,
+      "sha256": "7aadd24d2499df7e868ca092c5678c2638181db73911fcdd48e7279374180e73"
+    }
+  }
+}

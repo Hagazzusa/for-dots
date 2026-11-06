@@ -1,0 +1,350 @@
+{
+  "step_seconds": 0.28,
+  "cycle_steps": 35,
+  "sample_rate": 48000,
+  "duration_seconds": 33.400000000000006,
+  "events": [
+    {
+      "voice": "A",
+      "cycle": 1,
+      "step": 0,
+      "start": 0.0,
+      "midi": 62,
+      "velocity": 0.88,
+      "duration": 1.8
+    },
+    {
+      "voice": "B",
+      "cycle": 1,
+      "step": 0,
+      "start": 0.0,
+      "midi": 50,
+      "velocity": 0.88,
+      "duration": 2.8
+    },
+    {
+      "voice": "A",
+      "cycle": 1,
+      "step": 5,
+      "start": 1.4,
+      "midi": 65,
+      "velocity": 0.744539,
+      "duration": 1.8
+    },
+    {
+      "voice": "B",
+      "cycle": 1,
+      "step": 7,
+      "start": 1.96,
+      "midi": 57,
+      "velocity": 0.744539,
+      "duration": 2.8
+    },
+    {
+      "voice": "A",
+      "cycle": 1,
+      "step": 10,
+      "start": 2.8,
+      "midi": 69,
+      "velocity": 0.643984,
+      "duration": 1.8
+    },
+    {
+      "voice": "B",
+      "cycle": 1,
+      "step": 14,
+      "start": 3.92,
+      "midi": 60,
+      "velocity": 0.643984,
+      "duration": 2.8
+    },
+    {
+      "voice": "A",
+      "cycle": 1,
+      "step": 15,
+      "start": 4.2,
+      "midi": 72,
+      "velocity": 0.805357,
+      "duration": 1.8
+    },
+    {
+      "voice": "A",
+      "cycle": 1,
+      "step": 20,
+      "start": 5.6,
+      "midi": 69,
+      "velocity": 0.864328,
+      "duration": 1.8
+    },
+    {
+      "voice": "B",
+      "cycle": 1,
+      "step": 21,
+      "start": 5.88,
+      "midi": 55,
+      "velocity": 0.805357,
+      "duration": 2.8
+    },
+    {
+      "voice": "A",
+      "cycle": 1,
+      "step": 25,
+      "start": 7.0,
+      "midi": 67,
+      "velocity": 0.687759,
+      "duration": 1.8
+    },
+    {
+      "voice": "B",
+      "cycle": 1,
+      "step": 28,
+      "start": 7.84,
+      "midi": 53,
+      "velocity": 0.864328,
+      "duration": 2.8
+    },
+    {
+      "voice": "A",
+      "cycle": 1,
+      "step": 30,
+      "start": 8.4,
+      "midi": 64,
+      "velocity": 0.674288,
+      "duration": 1.8
+    },
+    {
+      "voice": "A",
+      "cycle": 2,
+      "step": 35,
+      "start": 9.8,
+      "midi": 62,
+      "velocity": 0.88,
+      "duration": 1.8
+    },
+    {
+      "voice": "B",
+      "cycle": 2,
+      "step": 35,
+      "start": 9.8,
+      "midi": 50,
+      "velocity": 0.88,
+      "duration": 2.8
+    },
+    {
+      "voice": "A",
+      "cycle": 2,
+      "step": 40,
+      "start": 11.2,
+      "midi": 65,
+      "velocity": 0.744539,
+      "duration": 1.8
+    },
+    {
+      "voice": "B",
+      "cycle": 2,
+      "step": 42,
+      "start": 11.76,
+      "midi": 58,
+      "velocity": 0.744539,
+      "duration": 2.8
+    },
+    {
+      "voice": "A",
+      "cycle": 2,
+      "step": 45,
+      "start": 12.6,
+      "midi": 70,
+      "velocity": 0.643984,
+      "duration": 1.8
+    },
+    {
+      "voice": "B",
+      "cycle": 2,
+      "step": 49,
+      "start": 13.72,
+      "midi": 62,
+      "velocity": 0.643984,
+      "duration": 2.8
+    },
+    {
+      "voice": "A",
+      "cycle": 2,
+      "step": 50,
+      "start": 14.0,
+      "midi": 74,
+      "velocity": 0.805357,
+      "duration": 1.8
+    },
+    {
+      "voice": "A",
+      "cycle": 2,
+      "step": 55,
+      "start": 15.4,
+      "midi": 72,
+      "velocity": 0.864328,
+      "duration": 1.8
+    },
+    {
+      "voice": "B",
+      "cycle": 2,
+      "step": 56,
+      "start": 15.68,
+      "midi": 57,
+      "velocity": 0.805357,
+      "duration": 2.8
+    },
+    {
+      "voice": "A",
+      "cycle": 2,
+      "step": 60,
+      "start": 16.8,
+      "midi": 69,
+      "velocity": 0.687759,
+      "duration": 1.8
+    },
+    {
+      "voice": "B",
+      "cycle": 2,
+      "step": 63,
+      "start": 17.64,
+      "midi": 55,
+      "velocity": 0.864328,
+      "duration": 2.8
+    },
+    {
+      "voice": "A",
+      "cycle": 2,
+      "step": 65,
+      "start": 18.2,
+      "midi": 67,
+      "velocity": 0.674288,
+      "duration": 1.8
+    },
+    {
+      "voice": "A",
+      "cycle": 3,
+      "step": 70,
+      "start": 19.6,
+      "midi": 62,
+      "velocity": 0.88,
+      "duration": 1.8
+    },
+    {
+      "voice": "B",
+      "cycle": 3,
+      "step": 70,
+      "start": 19.6,
+      "midi": 50,
+      "velocity": 0.88,
+      "duration": 2.8
+    },
+    {
+      "voice": "A",
+      "cycle": 3,
+      "step": 75,
+      "start": 21.0,
+      "midi": 64,
+      "velocity": 0.744539,
+      "duration": 1.8
+    },
+    {
+      "voice": "B",
+      "cycle": 3,
+      "step": 77,
+      "start": 21.56,
+      "midi": 57,
+      "velocity": 0.744539,
+      "duration": 2.8
+    },
+    {
+      "voice": "A",
+      "cycle": 3,
+      "step": 80,
+      "start": 22.4,
+      "midi": 65,
+      "velocity": 0.643984,
+      "duration": 1.8
+    },
+    {
+      "voice": "B",
+      "cycle": 3,
+      "step": 84,
+      "start": 23.52,
+      "midi": 55,
+      "velocity": 0.643984,
+      "duration": 2.8
+    },
+    {
+      "voice": "A",
+      "cycle": 3,
+      "step": 85,
+      "start": 23.8,
+      "midi": 69,
+      "velocity": 0.805357,
+      "duration": 1.8
+    },
+    {
+      "voice": "A",
+      "cycle": 3,
+      "step": 90,
+      "start": 25.2,
+      "midi": 67,
+      "velocity": 0.864328,
+      "duration": 1.8
+    },
+    {
+      "voice": "B",
+      "cycle": 3,
+      "step": 91,
+      "start": 25.48,
+      "midi": 53,
+      "velocity": 0.805357,
+      "duration": 2.8
+    },
+    {
+      "voice": "A",
+      "cycle": 3,
+      "step": 95,
+      "start": 26.6,
+      "midi": 64,
+      "velocity": 0.687759,
+      "duration": 1.8
+    },
+    {
+      "voice": "B",
+      "cycle": 3,
+      "step": 98,
+      "start": 27.44,
+      "midi": 50,
+      "velocity": 0.864328,
+      "duration": 2.8
+    },
+    {
+      "voice": "A",
+      "cycle": 3,
+      "step": 100,
+      "start": 28.0,
+      "midi": 62,
+      "velocity": 0.674288,
+      "duration": 1.8
+    },
+    {
+      "voice": "A",
+      "cycle": 4,
+      "step": 105,
+      "start": 29.4,
+      "midi": 62,
+      "velocity": 0.68,
+      "duration": 3.5
+    },
+    {
+      "voice": "B",
+      "cycle": 4,
+      "step": 105,
+      "start": 29.4,
+      "midi": 50,
+      "velocity": 0.68,
+      "duration": 3.5
+    }
+  ]
+}

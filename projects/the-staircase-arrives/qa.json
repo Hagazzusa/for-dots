@@ -1,0 +1,17 @@
+{
+  "status": "독립 서사 일러스트 채택",
+  "generator": "내장 image_gen 도구",
+  "generation_calls": 1,
+  "reference_images": 0,
+  "post_generation_pixel_edits": false,
+  "copied_source_byte_identical": true,
+  "size": [
+    1122,
+    1402
+  ],
+  "mode": "RGB",
+  "visual_review": "인물 두 명, 계단 한 개와 여덟 디딤면, 높은 문 하나, 물건과 목적지 사이 빈 벽을 원본에서 직접 확인했습니다.",
+  "prompt_variance": "그림자가 프롬프트의 왼쪽 대신 오른쪽으로 뻗습니다. 화면 내 광원 관계를 해치지 않아 그대로 채택했습니다.",
+  "exact_regeneration_guaranteed": false,
+  "png_sha256": "84ad8aa0583a2f7ae2fa525df654841100726ae391607a4b1460321ff5dd203d"
+}

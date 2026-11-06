@@ -13,6 +13,10 @@
 
 | 프로젝트 | 시작 안내 | 실행 환경 |
 |---|---|---|
+| **계단이 오는 날** — 높은 문 아래에서 계단을 든 두 이삿짐꾼 | [원본 PNG](projects/the-staircase-arrives/output/The-Staircase-Arrives.png) · [프롬프트·검토 안내](projects/the-staircase-arrives/README.md) | 독립 서사 생성 일러스트, 1122×1402 RGB. 원본과 프롬프트를 보존하며 동일 픽셀 재생성을 보장하지 않습니다. |
+| **받침 출장** — 문에서 떨어진 ㄴ을 찻잔에서 빌리는 밤 | [3쪽 PDF](projects/a-service-call-for-n/output/pdf/A-Service-Call-for-N.pdf) · [텍스트](projects/a-service-call-for-n/output/text/A-Service-Call-for-N.txt) · [원문·제작 안내](projects/a-service-call-for-n/README.md) | 완성된 짧은 환상소설. 원문·조판·재생성을 검사했으며 실제 인쇄·낭독·독자 반응은 확인하지 않았습니다. |
+| **다섯 걸음, 일곱 걸음 · 청취 전 연구** — 서로 다른 간격으로 만나는 두 성부 | [33.4초 WAV](projects/five-and-seven/output/Five-and-Seven.wav) · [MIDI·제작·검사 안내](projects/five-and-seven/README.md) | Python·NumPy. 구조·수치와 재생성만 검사했으며 실제 청취는 하지 않았습니다. 완성 음악으로 채택하지 않은 연구입니다. |
+| **한 칸 비워서 · 보류 연구** — 교대하는 빗살 사이 빈칸과 바깥 조각 | [렌더 PNG](projects/one-tooth-apart/output/One-Tooth-Apart.png) · [Blender 원본·소스·검사 안내](projects/one-tooth-apart/README.md) | Blender 4.3.2, Cycles CPU. 조형 연구로 보존하며 완성 작품 채택은 보류했습니다. 실물 제조·공차·내구성 검증이 아닙니다. |
 | **사과보다 긴 것** — 작은 사과와 넓게 풀린 붉은 껍질의 정물 | [원본 PNG](projects/longer-than-the-fruit/Longer-Than-the-Fruit.png) · [생성 지시문·검사 안내](projects/longer-than-the-fruit/README.md) | 회화풍 생성 이미지, 1454×1082 RGB. 원본·프롬프트를 보존하며 편집 레이어나 동일 픽셀 재생성 코드는 없습니다. |
 | **두 방향의 장면 · 보류 연구** — 같은 대사의 행 순서를 뒤집어 읽는 세 시험 | [원문·두 방향 읽기·연결 문제](projects/two-way-scenes/README.md) | Python 표준 라이브러리. 원문·화자·행 번호 보존과 재생성을 검사했습니다. 완성 희곡·시가 아니며 연결 실패와 보류 판단을 그대로 보존합니다. 배우 낭독·독자 실험은 하지 않았습니다. |
 | **이리 와** — 십 분 뒤에 들리는 작은방의 소리와 고양이를 옮기려는 두 사람 | [3쪽 PDF](projects/a-room-that-hears-late/output/pdf/Come-Here.pdf) · [텍스트](projects/a-room-that-hears-late/output/text/Come-Here.txt) · [원문·제작 안내](projects/a-room-that-hears-late/README.md) | 완성된 짧은 환상소설. 조판·글꼴·원문 일치와 같은 설치 환경의 재생성을 검사했습니다. 실제 인쇄·낭독·독자 반응은 확인하지 않았습니다. |

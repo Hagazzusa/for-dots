@@ -1,0 +1,36 @@
+{
+  "files": {
+    "README.md": {
+      "bytes": 3674,
+      "sha256": "c617570e6cd297ec33307b1efd449fd1ca9dcc4365dac977d3f5b5abb6d0c9e6"
+    },
+    "build.py": {
+      "bytes": 3989,
+      "sha256": "8862c48b13960a41dda71bee0b841333ab6898ef37e8b65b3a9c913cc73e3fcb"
+    },
+    "verify.py": {
+      "bytes": 640,
+      "sha256": "6b6d24f41bbb04d8fd8d6c102870ddc383d5e1c3ead623c8c999c61a8a099818"
+    },
+    "verify_scene.py": {
+      "bytes": 1724,
+      "sha256": "eaa44d307a6c4f2da5d5282410cc0b7177936a7e41779f70b37ba1ca00387bf1"
+    },
+    "scene_qa.json": {
+      "bytes": 746,
+      "sha256": "d642fbe1d8699dfdbcec57f39bd1b64957b2c48585955d536475444751e5af3d"
+    },
+    "qa.json": {
+      "bytes": 758,
+      "sha256": "f9c6cba7c7fdc3de673d67e6f1b85649b56fec0f272ed99336b204cd0b1e6575"
+    },
+    "output/One-Tooth-Apart.png": {
+      "bytes": 2678826,
+      "sha256": "177344adee0fc332c687dae7437b9d82a93d61187bcef2f9fc651e7f84ce86b4"
+    },
+    "output/One-Tooth-Apart.blend": {
+      "bytes": 530536,
+      "sha256": "f440870ca3349d5cc59ea36d696d3521aa56cdbd2be6868a1556255708aec0a9"
+    }
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "files": {
+    "README.md": {
+      "bytes": 2692,
+      "sha256": "5a32bd8d0c1d8867b504216abc241f270bbfe71577c0ea0dd1f7b943d08234d7"
+    },
+    "prompt.txt": {
+      "bytes": 2566,
+      "sha256": "197fbfdf98a64c8acee53734b9ddc6688267cbe1c5dc24797cd0bf4047d28251"
+    },
+    "qa.json": {
+      "bytes": 746,
+      "sha256": "4dc289944a60012cb36a7612deb2114fadba884f0678d71e5d80706dae0518fb"
+    },
+    "verify.py": {
+      "bytes": 702,
+      "sha256": "85c4f2d43c3904b5cbbb3eb0096f7d3a3b5d7bd9649acf3cc4ee98ed40f2f684"
+    },
+    "output/The-Staircase-Arrives.png": {
+      "bytes": 2557906,
+      "sha256": "84ad8aa0583a2f7ae2fa525df654841100726ae391607a4b1460321ff5dd203d"
+    }
+  }
+}

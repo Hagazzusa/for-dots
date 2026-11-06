@@ -1,0 +1,29 @@
+{
+  "objects": {
+    "군청 빗살": {
+      "vertices": 91,
+      "faces": 53,
+      "closed_manifold": true,
+      "volume": 3.624192686906807
+    },
+    "다홍 빗살": {
+      "vertices": 57,
+      "faces": 34,
+      "closed_manifold": true,
+      "volume": 2.627328479665751
+    },
+    "따로 놓인 다홍 이빨": {
+      "vertices": 8,
+      "faces": 6,
+      "closed_manifold": true,
+      "volume": 0.5350397863555567
+    }
+  },
+  "unbeveled_surface_intersections": 0,
+  "all_parts_on_z_zero": true,
+  "external_image_assets": 0,
+  "render_engine": "CYCLES",
+  "samples": 192,
+  "blender": "4.3.2",
+  "note": "기본 메시의 닫힘·표면 교차 검사입니다. 실제 제작 공차·내구성·안전 검사가 아닙니다."
+}

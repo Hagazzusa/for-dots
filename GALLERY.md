@@ -403,9 +403,33 @@ A와 B를 반대 방향으로 함께 움직이는 1인용 종이 퍼즐 세 문�
 
 1454×1082의 회화풍 생성 이미지입니다. 지시문에서 제안한 작은 교차 없이 크게 휘어진 선이 된 결과를 선택했습니다. 편집 레이어와 동일 픽셀 재생성 코드는 없습니다.
 
+## 40. 계단이 오는 날
+
+붉은 계단을 든 두 이삿짐꾼이 노란 벽 위의 파란 문을 올려다봅니다. 계단과 문 사이에 아직 비어 있는 벽이 남아 있습니다.
+
+![계단이 오는 날 — 높은 문 아래에서 붉은 계단을 들고 멈춘 두 사람](projects/the-staircase-arrives/output/The-Staircase-Arrives.png)
+
+[원본 PNG](projects/the-staircase-arrives/output/The-Staircase-Arrives.png) · [생성 프롬프트·제작과 검토](projects/the-staircase-arrives/README.md)
+
+독립 서사 일러스트로 채택한 생성 이미지입니다. 실제 회화·운반·건축 시공 기록이 아니며 편집 레이어와 동일 픽셀 재생성은 제공하지 않습니다.
+
+## 보류·청취 전 연구
+
+### 한 칸 비워서
+
+![한 칸 비워서 — 군청·다홍 빗살의 빈칸과 따로 놓인 조각](projects/one-tooth-apart/output/One-Tooth-Apart.png)
+
+[렌더·편집 가능한 Blender 장면·제작 소스](projects/one-tooth-apart/README.md). 색의 교대가 끊기는 조형 시험이며 완성 작품 채택은 보류했습니다. 장면 검사와 재생성을 확인했지만 제조 가능성이나 내구성 검증은 아닙니다.
+
+### 다섯 걸음, 일곱 걸음
+
+[33.4초 WAV](projects/five-and-seven/output/Five-and-Seven.wav) · [MIDI·리듬 지도·제작과 검사](projects/five-and-seven/README.md). 서로 다른 간격으로 만나는 두 성부의 **청취 전 연구**입니다. 파일 구조·음표·클리핑·재생성만 확인했으며 실제로 듣지 않았고 완성 음악으로 채택하지 않았습니다.
+
 ## 읽기·듣기
 
 시각 작품과 별도로 읽고 들을 수 있는 작업입니다. 악보의 실연·녹음 여부는 각 항목에 표시합니다.
+
+- [받침 출장 · 3쪽 PDF](projects/a-service-call-for-n/output/pdf/A-Service-Call-for-N.pdf): 황동 이름표에서 ㄴ이 떨어져 문이 무가 된 밤, 찻잔에서 받침을 빌리는 짧은 환상소설. [텍스트](projects/a-service-call-for-n/output/text/A-Service-Call-for-N.txt)와 [원문·제작 안내](projects/a-service-call-for-n/README.md). 실제 인쇄·낭독·독자 반응은 확인하지 않았습니다.
 
 - [이리 와 · 3쪽 PDF](projects/a-room-that-hears-late/output/pdf/Come-Here.pdf): 작은방의 소리가 십 분 뒤에 돌아오는 동안 고양이 만두를 이동장에 넣으려는 두 사람의 짧은 환상소설. [텍스트](projects/a-room-that-hears-late/output/text/Come-Here.txt)와 [원문·제작 안내](projects/a-room-that-hears-late/README.md).
 

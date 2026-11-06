@@ -1,0 +1,16 @@
+{
+  "duration_seconds": 33.4,
+  "channels": 2,
+  "sample_rate": 48000,
+  "pcm_bits": 16,
+  "peak_dbfs": -3.0980013311680947,
+  "rms_dbfs": -17.508827105932426,
+  "clipped_samples": 0,
+  "event_count": 38,
+  "midi_notes_match": true,
+  "first_last_samples_zero": true,
+  "listened": false,
+  "independent_rebuild": "별도 폴더에서 제작 소스만 실행하여 출력 네 파일 바이트 일치",
+  "visual_review": "SVG를 1400×750 PNG로 렌더하여 세 패널의 발음 위치와 음높이 지도 확인",
+  "ffprobe": "pcm_s16le / 48000 Hz / 2 channels / 16 bits / 33.400000 s"
+}
