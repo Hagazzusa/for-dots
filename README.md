@@ -13,6 +13,7 @@
 
 | 프로젝트 | 시작 안내 | 실행 환경 |
 |---|---|---|
+| **귀에 든 물** — 기울인 몸과 멀었다 가까워지는 소리를 담은 자유시 | [한 쪽 PDF](projects/water-in-one-ear/output/pdf/Water-in-One-Ear.pdf) · [텍스트](projects/water-in-one-ear/output/text/Water-in-One-Ear.txt) · [원문·조판·검사](projects/water-in-one-ear/README.md) | 14행·4연의 독립 자유시. 원문·행과 연·글꼴·경계 및 같은 환경의 재생성을 검사했습니다. 실제 낭독·인쇄·외부 독자 반응은 미확인입니다. |
 | **접지 못한 지도** — 지도를 읽던 노인과 개가 비를 피하기까지의 무언 3컷 | [원본 PNG](projects/the-unfolded-map/output/The-Unfolded-Map.png) · [장면 설계·생성 지시문·검토](projects/the-unfolded-map/README.md) | 완성된 생성 만화 이미지, 1122×1402 RGB. 한 번 생성한 전체 페이지를 보존하며 편집 레이어·동일 픽셀 재생성은 제공하지 않습니다. 실물 인쇄·독자 반응은 미검증입니다. |
 | **자른 뒤의 무늬** — 큰 붉은 양배추 반쪽과 작은 쐐기의 불규칙한 잎맥 | [원본 PNG](projects/after-the-cut/output/After-the-Cut.png) · [생성 지시문·검토 안내](projects/after-the-cut/README.md) | 다색 목판화풍 생성 정물, 1536×1024 RGB. 원본·지시문을 보존하며 실제 목판화·사진·식물 도감은 아닙니다. 동일 픽셀 재생성과 편집 레이어는 제공하지 않습니다. |
 | **햇빛의 주름 · 보류 연구** — 황금빛 방사형 패널의 평면성·투영과 바닥 그림자 | [SVG·PNG·기하·검사 안내](projects/folds-of-daylight/README.md) | Python·NumPy·Inkscape의 두께 없는 면 투영 결과입니다. Blender 제작은 종료 코드 137로 완료하지 못해 .blend·Blender 렌더가 없으며, 대체 벡터 결과도 완성 작품으로 채택하지 않았습니다. 재료·접힘·제조 검증은 아닙니다. |

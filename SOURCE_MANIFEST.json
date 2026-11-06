@@ -14,8 +14,8 @@
     },
     {
       "path": "GALLERY.md",
-      "size": 38285,
-      "sha256": "0d762bac6f102430a947a2a627f206d83773db35fc4e91d49fa807f671007ccf"
+      "size": 38764,
+      "sha256": "47b22450af18340601c8d37d8e77d977578e5723b19b738b424ad81d2d997e11"
     },
     {
       "path": "GIT_ENVIRONMENT_CHECK.md",
@@ -24,8 +24,8 @@
     },
     {
       "path": "README.md",
-      "size": 43285,
-      "sha256": "2d17d3121e81e4c544309cfd922be560dd992b22d542a62fccaf96c1faf42ea6"
+      "size": 43788,
+      "sha256": "435792398fc2e0404859f498b23160005e7fc482cbb726818df67fd1cf83d390"
     },
     {
       "path": "WORLD_CONNECTIONS.md",
@@ -9011,6 +9011,56 @@
       "path": "projects/water-halfspace-study/use_exr_display.py",
       "size": 879,
       "sha256": "18351ac22fa5cfd893d8eaa92a64f18f3224953184a054fdbe74d563a0fe34f7"
+    },
+    {
+      "path": "projects/water-in-one-ear/.gitignore",
+      "size": 18,
+      "sha256": "c42d83738012deb1f99f79959489ab67c80f1bafc29d4f692826939f35f77cb6"
+    },
+    {
+      "path": "projects/water-in-one-ear/FONT_LICENSE.txt",
+      "size": 14712,
+      "sha256": "849f4ea9c214fa4ac3593b770c699f387534b11ce671264c1b10d85bdcb5997b"
+    },
+    {
+      "path": "projects/water-in-one-ear/README.md",
+      "size": 2806,
+      "sha256": "3562451b0e81d7cbff4dba85a734afc900368bc188edeee46304593ce520bbaf"
+    },
+    {
+      "path": "projects/water-in-one-ear/build_pdf.py",
+      "size": 4329,
+      "sha256": "19619013a6ce53e4ccf26b42ea34b41573ab660123749e6ddab30451e58d733b"
+    },
+    {
+      "path": "projects/water-in-one-ear/manifest.json",
+      "size": 1366,
+      "sha256": "99ed02f970523d5202075179e284a6946ffe4fc9fa2798303ba8daee59a7fb74"
+    },
+    {
+      "path": "projects/water-in-one-ear/output/pdf/Water-in-One-Ear.pdf",
+      "size": 17611,
+      "sha256": "7e6594e8ac346dd0814c3fb85523c016bdf07c383cb70395657c40e27ab3807f"
+    },
+    {
+      "path": "projects/water-in-one-ear/output/text/Water-in-One-Ear.txt",
+      "size": 372,
+      "sha256": "ce6620ee604ffe47e444665a8e6f8e23eb49dadfc171cf004742c1ccab2019ef"
+    },
+    {
+      "path": "projects/water-in-one-ear/poem.txt",
+      "size": 372,
+      "sha256": "ce6620ee604ffe47e444665a8e6f8e23eb49dadfc171cf004742c1ccab2019ef"
+    },
+    {
+      "path": "projects/water-in-one-ear/qa.json",
+      "size": 583,
+      "sha256": "231e4ddbdb4ecb92884f318c0a43dd04066547170d9cdfd2cd278e0f8f90f39f"
+    },
+    {
+      "path": "projects/water-in-one-ear/verify.py",
+      "size": 2183,
+      "sha256": "cfd3f851d072a834ca384af2fe66228adf4046b399db1b7ae3622e3a0ca52c22"
     },
     {
       "path": "projects/while-carrying/.gitignore",

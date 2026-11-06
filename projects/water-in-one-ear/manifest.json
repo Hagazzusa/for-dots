@@ -1,0 +1,49 @@
+{
+  "files": [
+    {
+      "path": ".gitignore",
+      "bytes": 18,
+      "sha256": "c42d83738012deb1f99f79959489ab67c80f1bafc29d4f692826939f35f77cb6"
+    },
+    {
+      "path": "FONT_LICENSE.txt",
+      "bytes": 14712,
+      "sha256": "849f4ea9c214fa4ac3593b770c699f387534b11ce671264c1b10d85bdcb5997b"
+    },
+    {
+      "path": "README.md",
+      "bytes": 2806,
+      "sha256": "3562451b0e81d7cbff4dba85a734afc900368bc188edeee46304593ce520bbaf"
+    },
+    {
+      "path": "build_pdf.py",
+      "bytes": 4329,
+      "sha256": "19619013a6ce53e4ccf26b42ea34b41573ab660123749e6ddab30451e58d733b"
+    },
+    {
+      "path": "output/pdf/Water-in-One-Ear.pdf",
+      "bytes": 17611,
+      "sha256": "7e6594e8ac346dd0814c3fb85523c016bdf07c383cb70395657c40e27ab3807f"
+    },
+    {
+      "path": "output/text/Water-in-One-Ear.txt",
+      "bytes": 372,
+      "sha256": "ce6620ee604ffe47e444665a8e6f8e23eb49dadfc171cf004742c1ccab2019ef"
+    },
+    {
+      "path": "poem.txt",
+      "bytes": 372,
+      "sha256": "ce6620ee604ffe47e444665a8e6f8e23eb49dadfc171cf004742c1ccab2019ef"
+    },
+    {
+      "path": "qa.json",
+      "bytes": 583,
+      "sha256": "231e4ddbdb4ecb92884f318c0a43dd04066547170d9cdfd2cd278e0f8f90f39f"
+    },
+    {
+      "path": "verify.py",
+      "bytes": 2183,
+      "sha256": "cfd3f851d072a834ca384af2fe66228adf4046b399db1b7ae3622e3a0ca52c22"
+    }
+  ]
+}
