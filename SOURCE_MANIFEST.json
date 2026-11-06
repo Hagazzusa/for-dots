@@ -14,8 +14,8 @@
     },
     {
       "path": "GALLERY.md",
-      "size": 36629,
-      "sha256": "7faa727cb9ba4a30fd2c9dd09b97e5809c11a92e35027ca3ae511210f5996d47"
+      "size": 37467,
+      "sha256": "0d88ec4bf2a3ff474d4572a634db6590faa56b47d91d4139c8a88eb03ae28834"
     },
     {
       "path": "GIT_ENVIRONMENT_CHECK.md",
@@ -24,8 +24,8 @@
     },
     {
       "path": "README.md",
-      "size": 42346,
-      "sha256": "aec41e6ee9ad51c01989c8f9854863c9b07139303f6718fb5f5cc0567343fdb5"
+      "size": 42800,
+      "sha256": "b4718d65e43d7eaafe877f7fa5f5bd4afbd642a65efd7f55686f685eb67b6a10"
     },
     {
       "path": "WORLD_CONNECTIONS.md",
@@ -506,6 +506,36 @@
       "path": "projects/across-the-current/verify.py",
       "size": 835,
       "sha256": "4e770b3e11994b112a8b5ad967859e3bdc06b1f5b20ce8aff4863c6788fe946c"
+    },
+    {
+      "path": "projects/after-the-cut/README.md",
+      "size": 2894,
+      "sha256": "88673e7f8c53764789b701a47fa0c7943ecfe0c56d6546e45af93eeedd7e10b1"
+    },
+    {
+      "path": "projects/after-the-cut/manifest.json",
+      "size": 755,
+      "sha256": "dba08664489ff94f1339837494d6eaa19a7bc49daff8123688dab9c85039c331"
+    },
+    {
+      "path": "projects/after-the-cut/output/After-the-Cut.png",
+      "size": 3477734,
+      "sha256": "953bc751c77897525a4af3e46c7839a39846105a9eaef932f2c2a175c7dae2e0"
+    },
+    {
+      "path": "projects/after-the-cut/prompt.txt",
+      "size": 2433,
+      "sha256": "4fe3671a8f699bf077e6e9087d2e42523bd569eb68a0e76ca4f3ac631d433d24"
+    },
+    {
+      "path": "projects/after-the-cut/qa.json",
+      "size": 911,
+      "sha256": "3a08e1dc87558eb21ad36639c87575946e6014ebb02e57de0690e4770a3b411a"
+    },
+    {
+      "path": "projects/after-the-cut/verify.py",
+      "size": 566,
+      "sha256": "a84811c4f0762440cf87af14f60f3cce04094f2a2738b28e555917a184ceb70f"
     },
     {
       "path": "projects/after-the-flowers/README.md",

@@ -1,0 +1,29 @@
+{
+  "files": [
+    {
+      "path": "README.md",
+      "bytes": 2894,
+      "sha256": "88673e7f8c53764789b701a47fa0c7943ecfe0c56d6546e45af93eeedd7e10b1"
+    },
+    {
+      "path": "output/After-the-Cut.png",
+      "bytes": 3477734,
+      "sha256": "953bc751c77897525a4af3e46c7839a39846105a9eaef932f2c2a175c7dae2e0"
+    },
+    {
+      "path": "prompt.txt",
+      "bytes": 2433,
+      "sha256": "4fe3671a8f699bf077e6e9087d2e42523bd569eb68a0e76ca4f3ac631d433d24"
+    },
+    {
+      "path": "qa.json",
+      "bytes": 911,
+      "sha256": "3a08e1dc87558eb21ad36639c87575946e6014ebb02e57de0690e4770a3b411a"
+    },
+    {
+      "path": "verify.py",
+      "bytes": 566,
+      "sha256": "a84811c4f0762440cf87af14f60f3cce04094f2a2738b28e555917a184ceb70f"
+    }
+  ]
+}
