@@ -14,8 +14,8 @@
     },
     {
       "path": "GALLERY.md",
-      "size": 35734,
-      "sha256": "73711b6c070568adaab1e4c6404498c5a383d9aaa242af5c0b63d169eface0fa"
+      "size": 36629,
+      "sha256": "7faa727cb9ba4a30fd2c9dd09b97e5809c11a92e35027ca3ae511210f5996d47"
     },
     {
       "path": "GIT_ENVIRONMENT_CHECK.md",
@@ -24,8 +24,8 @@
     },
     {
       "path": "README.md",
-      "size": 41267,
-      "sha256": "caf64b0fde2663dcb3d7374d17ffbbcdbfa05550bfaaf297a600c8f694d2d966"
+      "size": 41870,
+      "sha256": "9f3237472441005b5bbee4241215123e128ff84556fb58774dcbf743fcb500fc"
     },
     {
       "path": "WORLD_CONNECTIONS.md",
@@ -8361,6 +8361,91 @@
       "path": "projects/tool-material-preview-study/undo-observation/result.json",
       "size": 752,
       "sha256": "a422a87ae6173b589a496b7d492498007981354abb4bc722c7f30cc000301030"
+    },
+    {
+      "path": "projects/turn-before-leaving/.gitignore",
+      "size": 18,
+      "sha256": "c42d83738012deb1f99f79959489ab67c80f1bafc29d4f692826939f35f77cb6"
+    },
+    {
+      "path": "projects/turn-before-leaving/FONT_LICENSE.txt",
+      "size": 14712,
+      "sha256": "849f4ea9c214fa4ac3593b770c699f387534b11ce671264c1b10d85bdcb5997b"
+    },
+    {
+      "path": "projects/turn-before-leaving/INDEPENDENT_VERIFICATION.md",
+      "size": 2672,
+      "sha256": "71ed44ab8769a5829b3bfa8bcd2de2698a914da6c6214e9fa4828bbd646a46e5"
+    },
+    {
+      "path": "projects/turn-before-leaving/README.md",
+      "size": 5167,
+      "sha256": "8edcd06c7a6c9da522c197526970d1a679f43898225ade3e15275979f431b15c"
+    },
+    {
+      "path": "projects/turn-before-leaving/build_pdf.py",
+      "size": 5974,
+      "sha256": "2afd6ff705f3c1604c089ac8bf1d8824d7d9f07b33c10645aa0a07d8a9c87946"
+    },
+    {
+      "path": "projects/turn-before-leaving/font_support.py",
+      "size": 2882,
+      "sha256": "1ceabf469ccfb0549e14de5e7734860a6d5692eeff716d2681a1b8c6cedf631f"
+    },
+    {
+      "path": "projects/turn-before-leaving/independent_check.py",
+      "size": 9921,
+      "sha256": "68569c3344e0115b8c53efc185a0c0be53bbc32607ea3a2a7bf13b7a3cf2007b"
+    },
+    {
+      "path": "projects/turn-before-leaving/independent_check_results.json",
+      "size": 49905,
+      "sha256": "85c716ade11d4833440e358f858a4bee57068b3831d00ee1b3b6d8d5bb74fdfb"
+    },
+    {
+      "path": "projects/turn-before-leaving/manifest.json",
+      "size": 2459,
+      "sha256": "98337f3040620ec141913080332b2b779b79ab1a7bdf8b4b69793407d3202a2f"
+    },
+    {
+      "path": "projects/turn-before-leaving/output/pdf/Before-You-Leave-Solutions.pdf",
+      "size": 39380,
+      "sha256": "40cd76fe45ced43db4b43b98e9aa4c3dd158ab6ef0ff071ad6ff0718edbee01b"
+    },
+    {
+      "path": "projects/turn-before-leaving/output/pdf/Before-You-Leave.pdf",
+      "size": 42149,
+      "sha256": "f65ea6dd0fe89e772d584620f6f6985cad05e2ae25b03618ef4704cbdb353bb4"
+    },
+    {
+      "path": "projects/turn-before-leaving/puzzles.json",
+      "size": 639,
+      "sha256": "929f16f0e44b76efb650fb351430c2ea6996040696350629a0cdf0eed6356ee1"
+    },
+    {
+      "path": "projects/turn-before-leaving/qa.json",
+      "size": 1247,
+      "sha256": "dc7acfb392d7d44b8ec88d0b6e9ba41a0954b510d4df86c419135fee07d6f2e5"
+    },
+    {
+      "path": "projects/turn-before-leaving/select_puzzles.py",
+      "size": 1001,
+      "sha256": "1e386fed5b605c43c1d261dc25fe728f508b760f41cc50906541e285b4067571"
+    },
+    {
+      "path": "projects/turn-before-leaving/solutions.json",
+      "size": 2503,
+      "sha256": "d1ca5312c91d6c6455a887c5a0b10164e51333ac60e22a11c9bacdcd93fc0f0c"
+    },
+    {
+      "path": "projects/turn-before-leaving/solve.py",
+      "size": 1420,
+      "sha256": "cb62c28ad27f023e93d0f277c4e848c7728b31b7e94092d9423e229694b3d4f0"
+    },
+    {
+      "path": "projects/turn-before-leaving/verify.py",
+      "size": 2714,
+      "sha256": "3ab47fa6bb0b6c5ee6b67743a9e7317dd67fb38918de69b206a7da98b764f4b7"
     },
     {
       "path": "projects/two-chairs/.gitignore",

@@ -1,0 +1,84 @@
+{
+  "files": [
+    {
+      "path": ".gitignore",
+      "bytes": 18,
+      "sha256": "c42d83738012deb1f99f79959489ab67c80f1bafc29d4f692826939f35f77cb6"
+    },
+    {
+      "path": "FONT_LICENSE.txt",
+      "bytes": 14712,
+      "sha256": "849f4ea9c214fa4ac3593b770c699f387534b11ce671264c1b10d85bdcb5997b"
+    },
+    {
+      "path": "INDEPENDENT_VERIFICATION.md",
+      "bytes": 2672,
+      "sha256": "71ed44ab8769a5829b3bfa8bcd2de2698a914da6c6214e9fa4828bbd646a46e5"
+    },
+    {
+      "path": "README.md",
+      "bytes": 5167,
+      "sha256": "8edcd06c7a6c9da522c197526970d1a679f43898225ade3e15275979f431b15c"
+    },
+    {
+      "path": "build_pdf.py",
+      "bytes": 5974,
+      "sha256": "2afd6ff705f3c1604c089ac8bf1d8824d7d9f07b33c10645aa0a07d8a9c87946"
+    },
+    {
+      "path": "font_support.py",
+      "bytes": 2882,
+      "sha256": "1ceabf469ccfb0549e14de5e7734860a6d5692eeff716d2681a1b8c6cedf631f"
+    },
+    {
+      "path": "independent_check.py",
+      "bytes": 9921,
+      "sha256": "68569c3344e0115b8c53efc185a0c0be53bbc32607ea3a2a7bf13b7a3cf2007b"
+    },
+    {
+      "path": "independent_check_results.json",
+      "bytes": 49905,
+      "sha256": "85c716ade11d4833440e358f858a4bee57068b3831d00ee1b3b6d8d5bb74fdfb"
+    },
+    {
+      "path": "output/pdf/Before-You-Leave-Solutions.pdf",
+      "bytes": 39380,
+      "sha256": "40cd76fe45ced43db4b43b98e9aa4c3dd158ab6ef0ff071ad6ff0718edbee01b"
+    },
+    {
+      "path": "output/pdf/Before-You-Leave.pdf",
+      "bytes": 42149,
+      "sha256": "f65ea6dd0fe89e772d584620f6f6985cad05e2ae25b03618ef4704cbdb353bb4"
+    },
+    {
+      "path": "puzzles.json",
+      "bytes": 639,
+      "sha256": "929f16f0e44b76efb650fb351430c2ea6996040696350629a0cdf0eed6356ee1"
+    },
+    {
+      "path": "qa.json",
+      "bytes": 1247,
+      "sha256": "dc7acfb392d7d44b8ec88d0b6e9ba41a0954b510d4df86c419135fee07d6f2e5"
+    },
+    {
+      "path": "select_puzzles.py",
+      "bytes": 1001,
+      "sha256": "1e386fed5b605c43c1d261dc25fe728f508b760f41cc50906541e285b4067571"
+    },
+    {
+      "path": "solutions.json",
+      "bytes": 2503,
+      "sha256": "d1ca5312c91d6c6455a887c5a0b10164e51333ac60e22a11c9bacdcd93fc0f0c"
+    },
+    {
+      "path": "solve.py",
+      "bytes": 1420,
+      "sha256": "cb62c28ad27f023e93d0f277c4e848c7728b31b7e94092d9423e229694b3d4f0"
+    },
+    {
+      "path": "verify.py",
+      "bytes": 2714,
+      "sha256": "3ab47fa6bb0b6c5ee6b67743a9e7317dd67fb38918de69b206a7da98b764f4b7"
+    }
+  ]
+}

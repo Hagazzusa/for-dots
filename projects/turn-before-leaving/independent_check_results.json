@@ -1,0 +1,2260 @@
+{
+  "method": "별도로 구현한 너비 우선 전체 상태 탐색과 모든 이진 선택열 직접 재생",
+  "source_sha256": "929f16f0e44b76efb650fb351430c2ea6996040696350629a0cdf0eed6356ee1",
+  "direction_encoding": {
+    "0": "위",
+    "1": "오른쪽",
+    "2": "아래",
+    "3": "왼쪽"
+  },
+  "cell_encoding": "y * 3 + x, 맨 위 행 y=0, 맨 왼쪽 열 x=0",
+  "action_encoding": {
+    "0": "그대로",
+    "1": "시계방향 90도 회전"
+  },
+  "state_identity": [
+    "position",
+    "all_nine_arrow_directions",
+    "rotations_used"
+  ],
+  "goal_rule": "목표 칸에 도착하는 즉시 종료",
+  "self_tests": "통과",
+  "puzzles": [
+    {
+      "id": "1",
+      "name": "돌려서 출발",
+      "input": {
+        "id": "1",
+        "start": 6,
+        "goal": 2,
+        "arrows": [
+          1,
+          0,
+          0,
+          1,
+          1,
+          3,
+          3,
+          1,
+          3
+        ],
+        "budget": 5,
+        "name": "돌려서 출발"
+      },
+      "shortest_moves": 4,
+      "shortest_choice_sequence_count": 1,
+      "all_shortest_solutions": [
+        {
+          "choices": [
+            1,
+            0,
+            0,
+            1
+          ],
+          "cells": [
+            6,
+            3,
+            4,
+            5,
+            2
+          ],
+          "rotations_used": 2,
+          "steps": [
+            {
+              "move": 1,
+              "from": 6,
+              "to": 3,
+              "rotate": true,
+              "arrow_before": 3,
+              "arrow_after": 0,
+              "rotations_used": 1
+            },
+            {
+              "move": 2,
+              "from": 3,
+              "to": 4,
+              "rotate": false,
+              "arrow_before": 1,
+              "arrow_after": 1,
+              "rotations_used": 1
+            },
+            {
+              "move": 3,
+              "from": 4,
+              "to": 5,
+              "rotate": false,
+              "arrow_before": 1,
+              "arrow_after": 1,
+              "rotations_used": 1
+            },
+            {
+              "move": 4,
+              "from": 5,
+              "to": 2,
+              "rotate": true,
+              "arrow_before": 3,
+              "arrow_after": 0,
+              "rotations_used": 2
+            }
+          ],
+          "final_arrows": [
+            1,
+            0,
+            0,
+            1,
+            1,
+            0,
+            0,
+            1,
+            3
+          ]
+        }
+      ],
+      "brute_force_solution_counts_by_exact_move_length": [
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      "reachable_state_count": 28,
+      "legal_transition_count": 36,
+      "reachable_goal_state_count": 3,
+      "maximum_minimum_moves_to_state": 10,
+      "reachable_graph": {
+        "initial_state": 0,
+        "states": [
+          {
+            "state_id": 0,
+            "position": 6,
+            "arrows": [
+              1,
+              0,
+              0,
+              1,
+              1,
+              3,
+              3,
+              1,
+              3
+            ],
+            "rotations_used": 0,
+            "minimum_moves_to_state": 0,
+            "minimum_length_choice_prefix_count": 1,
+            "terminal": false
+          },
+          {
+            "state_id": 1,
+            "position": 3,
+            "arrows": [
+              1,
+              0,
+              0,
+              1,
+              1,
+              3,
+              0,
+              1,
+              3
+            ],
+            "rotations_used": 1,
+            "minimum_moves_to_state": 1,
+            "minimum_length_choice_prefix_count": 1,
+            "terminal": false
+          },
+          {
+            "state_id": 2,
+            "position": 4,
+            "arrows": [
+              1,
+              0,
+              0,
+              1,
+              1,
+              3,
+              0,
+              1,
+              3
+            ],
+            "rotations_used": 1,
+            "minimum_moves_to_state": 2,
+            "minimum_length_choice_prefix_count": 1,
+            "terminal": false
+          },
+          {
+            "state_id": 3,
+            "position": 6,
+            "arrows": [
+              1,
+              0,
+              0,
+              2,
+              1,
+              3,
+              0,
+              1,
+              3
+            ],
+            "rotations_used": 2,
+            "minimum_moves_to_state": 2,
+            "minimum_length_choice_prefix_count": 1,
+            "terminal": false
+          },
+          {
+            "state_id": 4,
+            "position": 5,
+            "arrows": [
+              1,
+              0,
+              0,
+              1,
+              1,
+              3,
+              0,
+              1,
+              3
+            ],
+            "rotations_used": 1,
+            "minimum_moves_to_state": 3,
+            "minimum_length_choice_prefix_count": 1,
+            "terminal": false
+          },
+          {
+            "state_id": 5,
+            "position": 7,
+            "arrows": [
+              1,
+              0,
+              0,
+              1,
+              2,
+              3,
+              0,
+              1,
+              3
+            ],
+            "rotations_used": 2,
+            "minimum_moves_to_state": 3,
+            "minimum_length_choice_prefix_count": 1,
+            "terminal": false
+          },
+          {
+            "state_id": 6,
+            "position": 3,
+            "arrows": [
+              1,
+              0,
+              0,
+              2,
+              1,
+              3,
+              0,
+              1,
+              3
+            ],
+            "rotations_used": 2,
+            "minimum_moves_to_state": 3,
+            "minimum_length_choice_prefix_count": 1,
+            "terminal": false
+          },
+          {
+            "state_id": 7,
+            "position": 7,
+            "arrows": [
+              1,
+              0,
+              0,
+              2,
+              1,
+              3,
+              1,
+              1,
+              3
+            ],
+            "rotations_used": 3,
+            "minimum_moves_to_state": 3,
+            "minimum_length_choice_prefix_count": 1,
+            "terminal": false
+          },
+          {
+            "state_id": 8,
+            "position": 2,
+            "arrows": [
+              1,
+              0,
+              0,
+              1,
+              1,
+              0,
+              0,
+              1,
+              3
+            ],
+            "rotations_used": 2,
+            "minimum_moves_to_state": 4,
+            "minimum_length_choice_prefix_count": 1,
+            "terminal": true
+          },
+          {
+            "state_id": 9,
+            "position": 8,
+            "arrows": [
+              1,
+              0,
+              0,
+              1,
+              2,
+              3,
+              0,
+              1,
+              3
+            ],
+            "rotations_used": 2,
+            "minimum_moves_to_state": 4,
+            "minimum_length_choice_prefix_count": 1,
+            "terminal": false
+          },
+          {
+            "state_id": 10,
+            "position": 8,
+            "arrows": [
+              1,
+              0,
+              0,
+              2,
+              1,
+              3,
+              1,
+              1,
+              3
+            ],
+            "rotations_used": 3,
+            "minimum_moves_to_state": 4,
+            "minimum_length_choice_prefix_count": 1,
+            "terminal": false
+          },
+          {
+            "state_id": 11,
+            "position": 5,
+            "arrows": [
+              1,
+              0,
+              0,
+              1,
+              2,
+              3,
+              0,
+              1,
+              0
+            ],
+            "rotations_used": 3,
+            "minimum_moves_to_state": 5,
+            "minimum_length_choice_prefix_count": 1,
+            "terminal": false
+          },
+          {
+            "state_id": 12,
+            "position": 5,
+            "arrows": [
+              1,
+              0,
+              0,
+              2,
+              1,
+              3,
+              1,
+              1,
+              0
+            ],
+            "rotations_used": 4,
+            "minimum_moves_to_state": 5,
+            "minimum_length_choice_prefix_count": 1,
+            "terminal": false
+          },
+          {
+            "state_id": 13,
+            "position": 4,
+            "arrows": [
+              1,
+              0,
+              0,
+              1,
+              2,
+              3,
+              0,
+              1,
+              0
+            ],
+            "rotations_used": 3,
+            "minimum_moves_to_state": 6,
+            "minimum_length_choice_prefix_count": 1,
+            "terminal": false
+          },
+          {
+            "state_id": 14,
+            "position": 2,
+            "arrows": [
+              1,
+              0,
+              0,
+              1,
+              2,
+              0,
+              0,
+              1,
+              0
+            ],
+            "rotations_used": 4,
+            "minimum_moves_to_state": 6,
+            "minimum_length_choice_prefix_count": 1,
+            "terminal": true
+          },
+          {
+            "state_id": 15,
+            "position": 4,
+            "arrows": [
+              1,
+              0,
+              0,
+              2,
+              1,
+              3,
+              1,
+              1,
+              0
+            ],
+            "rotations_used": 4,
+            "minimum_moves_to_state": 6,
+            "minimum_length_choice_prefix_count": 1,
+            "terminal": false
+          },
+          {
+            "state_id": 16,
+            "position": 2,
+            "arrows": [
+              1,
+              0,
+              0,
+              2,
+              1,
+              0,
+              1,
+              1,
+              0
+            ],
+            "rotations_used": 5,
+            "minimum_moves_to_state": 6,
+            "minimum_length_choice_prefix_count": 1,
+            "terminal": true
+          },
+          {
+            "state_id": 17,
+            "position": 7,
+            "arrows": [
+              1,
+              0,
+              0,
+              1,
+              2,
+              3,
+              0,
+              1,
+              0
+            ],
+            "rotations_used": 3,
+            "minimum_moves_to_state": 7,
+            "minimum_length_choice_prefix_count": 1,
+            "terminal": false
+          },
+          {
+            "state_id": 18,
+            "position": 3,
+            "arrows": [
+              1,
+              0,
+              0,
+              1,
+              3,
+              3,
+              0,
+              1,
+              0
+            ],
+            "rotations_used": 4,
+            "minimum_moves_to_state": 7,
+            "minimum_length_choice_prefix_count": 1,
+            "terminal": false
+          },
+          {
+            "state_id": 19,
+            "position": 7,
+            "arrows": [
+              1,
+              0,
+              0,
+              2,
+              2,
+              3,
+              1,
+              1,
+              0
+            ],
+            "rotations_used": 5,
+            "minimum_moves_to_state": 7,
+            "minimum_length_choice_prefix_count": 1,
+            "terminal": false
+          },
+          {
+            "state_id": 20,
+            "position": 8,
+            "arrows": [
+              1,
+              0,
+              0,
+              1,
+              2,
+              3,
+              0,
+              1,
+              0
+            ],
+            "rotations_used": 3,
+            "minimum_moves_to_state": 8,
+            "minimum_length_choice_prefix_count": 1,
+            "terminal": false
+          },
+          {
+            "state_id": 21,
+            "position": 4,
+            "arrows": [
+              1,
+              0,
+              0,
+              1,
+              3,
+              3,
+              0,
+              1,
+              0
+            ],
+            "rotations_used": 4,
+            "minimum_moves_to_state": 8,
+            "minimum_length_choice_prefix_count": 1,
+            "terminal": false
+          },
+          {
+            "state_id": 22,
+            "position": 6,
+            "arrows": [
+              1,
+              0,
+              0,
+              2,
+              3,
+              3,
+              0,
+              1,
+              0
+            ],
+            "rotations_used": 5,
+            "minimum_moves_to_state": 8,
+            "minimum_length_choice_prefix_count": 1,
+            "terminal": false
+          },
+          {
+            "state_id": 23,
+            "position": 8,
+            "arrows": [
+              1,
+              0,
+              0,
+              2,
+              2,
+              3,
+              1,
+              1,
+              0
+            ],
+            "rotations_used": 5,
+            "minimum_moves_to_state": 8,
+            "minimum_length_choice_prefix_count": 1,
+            "terminal": false
+          },
+          {
+            "state_id": 24,
+            "position": 1,
+            "arrows": [
+              1,
+              0,
+              0,
+              1,
+              0,
+              3,
+              0,
+              1,
+              0
+            ],
+            "rotations_used": 5,
+            "minimum_moves_to_state": 9,
+            "minimum_length_choice_prefix_count": 1,
+            "terminal": false
+          },
+          {
+            "state_id": 25,
+            "position": 3,
+            "arrows": [
+              1,
+              0,
+              0,
+              2,
+              3,
+              3,
+              0,
+              1,
+              0
+            ],
+            "rotations_used": 5,
+            "minimum_moves_to_state": 9,
+            "minimum_length_choice_prefix_count": 1,
+            "terminal": false
+          },
+          {
+            "state_id": 26,
+            "position": 5,
+            "arrows": [
+              1,
+              0,
+              0,
+              2,
+              2,
+              3,
+              1,
+              1,
+              0
+            ],
+            "rotations_used": 5,
+            "minimum_moves_to_state": 9,
+            "minimum_length_choice_prefix_count": 1,
+            "terminal": false
+          },
+          {
+            "state_id": 27,
+            "position": 4,
+            "arrows": [
+              1,
+              0,
+              0,
+              2,
+              2,
+              3,
+              1,
+              1,
+              0
+            ],
+            "rotations_used": 5,
+            "minimum_moves_to_state": 10,
+            "minimum_length_choice_prefix_count": 1,
+            "terminal": false
+          }
+        ],
+        "transitions": [
+          {
+            "from_state": 0,
+            "action": 1,
+            "to_state": 1
+          },
+          {
+            "from_state": 1,
+            "action": 0,
+            "to_state": 2
+          },
+          {
+            "from_state": 1,
+            "action": 1,
+            "to_state": 3
+          },
+          {
+            "from_state": 2,
+            "action": 0,
+            "to_state": 4
+          },
+          {
+            "from_state": 2,
+            "action": 1,
+            "to_state": 5
+          },
+          {
+            "from_state": 3,
+            "action": 0,
+            "to_state": 6
+          },
+          {
+            "from_state": 3,
+            "action": 1,
+            "to_state": 7
+          },
+          {
+            "from_state": 4,
+            "action": 0,
+            "to_state": 2
+          },
+          {
+            "from_state": 4,
+            "action": 1,
+            "to_state": 8
+          },
+          {
+            "from_state": 5,
+            "action": 0,
+            "to_state": 9
+          },
+          {
+            "from_state": 6,
+            "action": 0,
+            "to_state": 3
+          },
+          {
+            "from_state": 7,
+            "action": 0,
+            "to_state": 10
+          },
+          {
+            "from_state": 9,
+            "action": 0,
+            "to_state": 5
+          },
+          {
+            "from_state": 9,
+            "action": 1,
+            "to_state": 11
+          },
+          {
+            "from_state": 10,
+            "action": 0,
+            "to_state": 7
+          },
+          {
+            "from_state": 10,
+            "action": 1,
+            "to_state": 12
+          },
+          {
+            "from_state": 11,
+            "action": 0,
+            "to_state": 13
+          },
+          {
+            "from_state": 11,
+            "action": 1,
+            "to_state": 14
+          },
+          {
+            "from_state": 12,
+            "action": 0,
+            "to_state": 15
+          },
+          {
+            "from_state": 12,
+            "action": 1,
+            "to_state": 16
+          },
+          {
+            "from_state": 13,
+            "action": 0,
+            "to_state": 17
+          },
+          {
+            "from_state": 13,
+            "action": 1,
+            "to_state": 18
+          },
+          {
+            "from_state": 15,
+            "action": 0,
+            "to_state": 12
+          },
+          {
+            "from_state": 15,
+            "action": 1,
+            "to_state": 19
+          },
+          {
+            "from_state": 17,
+            "action": 0,
+            "to_state": 20
+          },
+          {
+            "from_state": 18,
+            "action": 0,
+            "to_state": 21
+          },
+          {
+            "from_state": 18,
+            "action": 1,
+            "to_state": 22
+          },
+          {
+            "from_state": 19,
+            "action": 0,
+            "to_state": 23
+          },
+          {
+            "from_state": 20,
+            "action": 0,
+            "to_state": 11
+          },
+          {
+            "from_state": 21,
+            "action": 0,
+            "to_state": 18
+          },
+          {
+            "from_state": 21,
+            "action": 1,
+            "to_state": 24
+          },
+          {
+            "from_state": 22,
+            "action": 0,
+            "to_state": 25
+          },
+          {
+            "from_state": 23,
+            "action": 0,
+            "to_state": 26
+          },
+          {
+            "from_state": 25,
+            "action": 0,
+            "to_state": 22
+          },
+          {
+            "from_state": 26,
+            "action": 0,
+            "to_state": 27
+          },
+          {
+            "from_state": 27,
+            "action": 0,
+            "to_state": 19
+          }
+        ]
+      }
+    },
+    {
+      "id": "2",
+      "name": "돌아오면 다른 방향",
+      "input": {
+        "id": "2",
+        "start": 6,
+        "goal": 2,
+        "arrows": [
+          2,
+          0,
+          0,
+          3,
+          2,
+          3,
+          1,
+          3,
+          2
+        ],
+        "budget": 5,
+        "name": "돌아오면 다른 방향"
+      },
+      "shortest_moves": 8,
+      "shortest_choice_sequence_count": 1,
+      "all_shortest_solutions": [
+        {
+          "choices": [
+            0,
+            1,
+            0,
+            1,
+            1,
+            0,
+            1,
+            1
+          ],
+          "cells": [
+            6,
+            7,
+            4,
+            7,
+            8,
+            7,
+            8,
+            5,
+            2
+          ],
+          "rotations_used": 5,
+          "steps": [
+            {
+              "move": 1,
+              "from": 6,
+              "to": 7,
+              "rotate": false,
+              "arrow_before": 1,
+              "arrow_after": 1,
+              "rotations_used": 0
+            },
+            {
+              "move": 2,
+              "from": 7,
+              "to": 4,
+              "rotate": true,
+              "arrow_before": 3,
+              "arrow_after": 0,
+              "rotations_used": 1
+            },
+            {
+              "move": 3,
+              "from": 4,
+              "to": 7,
+              "rotate": false,
+              "arrow_before": 2,
+              "arrow_after": 2,
+              "rotations_used": 1
+            },
+            {
+              "move": 4,
+              "from": 7,
+              "to": 8,
+              "rotate": true,
+              "arrow_before": 0,
+              "arrow_after": 1,
+              "rotations_used": 2
+            },
+            {
+              "move": 5,
+              "from": 8,
+              "to": 7,
+              "rotate": true,
+              "arrow_before": 2,
+              "arrow_after": 3,
+              "rotations_used": 3
+            },
+            {
+              "move": 6,
+              "from": 7,
+              "to": 8,
+              "rotate": false,
+              "arrow_before": 1,
+              "arrow_after": 1,
+              "rotations_used": 3
+            },
+            {
+              "move": 7,
+              "from": 8,
+              "to": 5,
+              "rotate": true,
+              "arrow_before": 3,
+              "arrow_after": 0,
+              "rotations_used": 4
+            },
+            {
+              "move": 8,
+              "from": 5,
+              "to": 2,
+              "rotate": true,
+              "arrow_before": 3,
+              "arrow_after": 0,
+              "rotations_used": 5
+            }
+          ],
+          "final_arrows": [
+            2,
+            0,
+            0,
+            3,
+            2,
+            0,
+            1,
+            1,
+            0
+          ]
+        }
+      ],
+      "brute_force_solution_counts_by_exact_move_length": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      "reachable_state_count": 23,
+      "legal_transition_count": 29,
+      "reachable_goal_state_count": 1,
+      "maximum_minimum_moves_to_state": 11,
+      "reachable_graph": {
+        "initial_state": 0,
+        "states": [
+          {
+            "state_id": 0,
+            "position": 6,
+            "arrows": [
+              2,
+              0,
+              0,
+              3,
+              2,
+              3,
+              1,
+              3,
+              2
+            ],
+            "rotations_used": 0,
+            "minimum_moves_to_state": 0,
+            "minimum_length_choice_prefix_count": 1,
+            "terminal": false
+          },
+          {
+            "state_id": 1,
+            "position": 7,
+            "arrows": [
+              2,
+              0,
+              0,
+              3,
+              2,
+              3,
+              1,
+              3,
+              2
+            ],
+            "rotations_used": 0,
+            "minimum_moves_to_state": 1,
+            "minimum_length_choice_prefix_count": 1,
+            "terminal": false
+          },
+          {
+            "state_id": 2,
+            "position": 4,
+            "arrows": [
+              2,
+              0,
+              0,
+              3,
+              2,
+              3,
+              1,
+              0,
+              2
+            ],
+            "rotations_used": 1,
+            "minimum_moves_to_state": 2,
+            "minimum_length_choice_prefix_count": 1,
+            "terminal": false
+          },
+          {
+            "state_id": 3,
+            "position": 7,
+            "arrows": [
+              2,
+              0,
+              0,
+              3,
+              2,
+              3,
+              1,
+              0,
+              2
+            ],
+            "rotations_used": 1,
+            "minimum_moves_to_state": 3,
+            "minimum_length_choice_prefix_count": 1,
+            "terminal": false
+          },
+          {
+            "state_id": 4,
+            "position": 3,
+            "arrows": [
+              2,
+              0,
+              0,
+              3,
+              3,
+              3,
+              1,
+              0,
+              2
+            ],
+            "rotations_used": 2,
+            "minimum_moves_to_state": 3,
+            "minimum_length_choice_prefix_count": 1,
+            "terminal": false
+          },
+          {
+            "state_id": 5,
+            "position": 8,
+            "arrows": [
+              2,
+              0,
+              0,
+              3,
+              2,
+              3,
+              1,
+              1,
+              2
+            ],
+            "rotations_used": 2,
+            "minimum_moves_to_state": 4,
+            "minimum_length_choice_prefix_count": 1,
+            "terminal": false
+          },
+          {
+            "state_id": 6,
+            "position": 0,
+            "arrows": [
+              2,
+              0,
+              0,
+              0,
+              3,
+              3,
+              1,
+              0,
+              2
+            ],
+            "rotations_used": 3,
+            "minimum_moves_to_state": 4,
+            "minimum_length_choice_prefix_count": 1,
+            "terminal": false
+          },
+          {
+            "state_id": 7,
+            "position": 7,
+            "arrows": [
+              2,
+              0,
+              0,
+              3,
+              2,
+              3,
+              1,
+              1,
+              3
+            ],
+            "rotations_used": 3,
+            "minimum_moves_to_state": 5,
+            "minimum_length_choice_prefix_count": 1,
+            "terminal": false
+          },
+          {
+            "state_id": 8,
+            "position": 3,
+            "arrows": [
+              2,
+              0,
+              0,
+              0,
+              3,
+              3,
+              1,
+              0,
+              2
+            ],
+            "rotations_used": 3,
+            "minimum_moves_to_state": 5,
+            "minimum_length_choice_prefix_count": 1,
+            "terminal": false
+          },
+          {
+            "state_id": 9,
+            "position": 8,
+            "arrows": [
+              2,
+              0,
+              0,
+              3,
+              2,
+              3,
+              1,
+              1,
+              3
+            ],
+            "rotations_used": 3,
+            "minimum_moves_to_state": 6,
+            "minimum_length_choice_prefix_count": 1,
+            "terminal": false
+          },
+          {
+            "state_id": 10,
+            "position": 4,
+            "arrows": [
+              2,
+              0,
+              0,
+              1,
+              3,
+              3,
+              1,
+              0,
+              2
+            ],
+            "rotations_used": 4,
+            "minimum_moves_to_state": 6,
+            "minimum_length_choice_prefix_count": 1,
+            "terminal": false
+          },
+          {
+            "state_id": 11,
+            "position": 5,
+            "arrows": [
+              2,
+              0,
+              0,
+              3,
+              2,
+              3,
+              1,
+              1,
+              0
+            ],
+            "rotations_used": 4,
+            "minimum_moves_to_state": 7,
+            "minimum_length_choice_prefix_count": 1,
+            "terminal": false
+          },
+          {
+            "state_id": 12,
+            "position": 3,
+            "arrows": [
+              2,
+              0,
+              0,
+              1,
+              3,
+              3,
+              1,
+              0,
+              2
+            ],
+            "rotations_used": 4,
+            "minimum_moves_to_state": 7,
+            "minimum_length_choice_prefix_count": 1,
+            "terminal": false
+          },
+          {
+            "state_id": 13,
+            "position": 1,
+            "arrows": [
+              2,
+              0,
+              0,
+              1,
+              0,
+              3,
+              1,
+              0,
+              2
+            ],
+            "rotations_used": 5,
+            "minimum_moves_to_state": 7,
+            "minimum_length_choice_prefix_count": 1,
+            "terminal": false
+          },
+          {
+            "state_id": 14,
+            "position": 4,
+            "arrows": [
+              2,
+              0,
+              0,
+              3,
+              2,
+              3,
+              1,
+              1,
+              0
+            ],
+            "rotations_used": 4,
+            "minimum_moves_to_state": 8,
+            "minimum_length_choice_prefix_count": 1,
+            "terminal": false
+          },
+          {
+            "state_id": 15,
+            "position": 2,
+            "arrows": [
+              2,
+              0,
+              0,
+              3,
+              2,
+              0,
+              1,
+              1,
+              0
+            ],
+            "rotations_used": 5,
+            "minimum_moves_to_state": 8,
+            "minimum_length_choice_prefix_count": 1,
+            "terminal": true
+          },
+          {
+            "state_id": 16,
+            "position": 6,
+            "arrows": [
+              2,
+              0,
+              0,
+              2,
+              3,
+              3,
+              1,
+              0,
+              2
+            ],
+            "rotations_used": 5,
+            "minimum_moves_to_state": 8,
+            "minimum_length_choice_prefix_count": 1,
+            "terminal": false
+          },
+          {
+            "state_id": 17,
+            "position": 7,
+            "arrows": [
+              2,
+              0,
+              0,
+              3,
+              2,
+              3,
+              1,
+              1,
+              0
+            ],
+            "rotations_used": 4,
+            "minimum_moves_to_state": 9,
+            "minimum_length_choice_prefix_count": 1,
+            "terminal": false
+          },
+          {
+            "state_id": 18,
+            "position": 3,
+            "arrows": [
+              2,
+              0,
+              0,
+              3,
+              3,
+              3,
+              1,
+              1,
+              0
+            ],
+            "rotations_used": 5,
+            "minimum_moves_to_state": 9,
+            "minimum_length_choice_prefix_count": 1,
+            "terminal": false
+          },
+          {
+            "state_id": 19,
+            "position": 7,
+            "arrows": [
+              2,
+              0,
+              0,
+              2,
+              3,
+              3,
+              1,
+              0,
+              2
+            ],
+            "rotations_used": 5,
+            "minimum_moves_to_state": 9,
+            "minimum_length_choice_prefix_count": 1,
+            "terminal": false
+          },
+          {
+            "state_id": 20,
+            "position": 8,
+            "arrows": [
+              2,
+              0,
+              0,
+              3,
+              2,
+              3,
+              1,
+              1,
+              0
+            ],
+            "rotations_used": 4,
+            "minimum_moves_to_state": 10,
+            "minimum_length_choice_prefix_count": 1,
+            "terminal": false
+          },
+          {
+            "state_id": 21,
+            "position": 4,
+            "arrows": [
+              2,
+              0,
+              0,
+              2,
+              3,
+              3,
+              1,
+              0,
+              2
+            ],
+            "rotations_used": 5,
+            "minimum_moves_to_state": 10,
+            "minimum_length_choice_prefix_count": 1,
+            "terminal": false
+          },
+          {
+            "state_id": 22,
+            "position": 3,
+            "arrows": [
+              2,
+              0,
+              0,
+              2,
+              3,
+              3,
+              1,
+              0,
+              2
+            ],
+            "rotations_used": 5,
+            "minimum_moves_to_state": 11,
+            "minimum_length_choice_prefix_count": 1,
+            "terminal": false
+          }
+        ],
+        "transitions": [
+          {
+            "from_state": 0,
+            "action": 0,
+            "to_state": 1
+          },
+          {
+            "from_state": 1,
+            "action": 0,
+            "to_state": 0
+          },
+          {
+            "from_state": 1,
+            "action": 1,
+            "to_state": 2
+          },
+          {
+            "from_state": 2,
+            "action": 0,
+            "to_state": 3
+          },
+          {
+            "from_state": 2,
+            "action": 1,
+            "to_state": 4
+          },
+          {
+            "from_state": 3,
+            "action": 0,
+            "to_state": 2
+          },
+          {
+            "from_state": 3,
+            "action": 1,
+            "to_state": 5
+          },
+          {
+            "from_state": 4,
+            "action": 1,
+            "to_state": 6
+          },
+          {
+            "from_state": 5,
+            "action": 1,
+            "to_state": 7
+          },
+          {
+            "from_state": 6,
+            "action": 0,
+            "to_state": 8
+          },
+          {
+            "from_state": 7,
+            "action": 0,
+            "to_state": 9
+          },
+          {
+            "from_state": 8,
+            "action": 0,
+            "to_state": 6
+          },
+          {
+            "from_state": 8,
+            "action": 1,
+            "to_state": 10
+          },
+          {
+            "from_state": 9,
+            "action": 0,
+            "to_state": 7
+          },
+          {
+            "from_state": 9,
+            "action": 1,
+            "to_state": 11
+          },
+          {
+            "from_state": 10,
+            "action": 0,
+            "to_state": 12
+          },
+          {
+            "from_state": 10,
+            "action": 1,
+            "to_state": 13
+          },
+          {
+            "from_state": 11,
+            "action": 0,
+            "to_state": 14
+          },
+          {
+            "from_state": 11,
+            "action": 1,
+            "to_state": 15
+          },
+          {
+            "from_state": 12,
+            "action": 0,
+            "to_state": 10
+          },
+          {
+            "from_state": 12,
+            "action": 1,
+            "to_state": 16
+          },
+          {
+            "from_state": 14,
+            "action": 0,
+            "to_state": 17
+          },
+          {
+            "from_state": 14,
+            "action": 1,
+            "to_state": 18
+          },
+          {
+            "from_state": 16,
+            "action": 0,
+            "to_state": 19
+          },
+          {
+            "from_state": 17,
+            "action": 0,
+            "to_state": 20
+          },
+          {
+            "from_state": 19,
+            "action": 0,
+            "to_state": 21
+          },
+          {
+            "from_state": 20,
+            "action": 0,
+            "to_state": 11
+          },
+          {
+            "from_state": 21,
+            "action": 0,
+            "to_state": 22
+          },
+          {
+            "from_state": 22,
+            "action": 0,
+            "to_state": 16
+          }
+        ]
+      }
+    },
+    {
+      "id": "3",
+      "name": "바뀐 길 다시 쓰기",
+      "input": {
+        "id": "3",
+        "start": 6,
+        "goal": 2,
+        "arrows": [
+          2,
+          2,
+          1,
+          2,
+          2,
+          1,
+          1,
+          1,
+          2
+        ],
+        "budget": 5,
+        "name": "바뀐 길 다시 쓰기"
+      },
+      "shortest_moves": 12,
+      "shortest_choice_sequence_count": 1,
+      "all_shortest_solutions": [
+        {
+          "choices": [
+            0,
+            0,
+            1,
+            0,
+            1,
+            1,
+            0,
+            1,
+            0,
+            0,
+            0,
+            1
+          ],
+          "cells": [
+            6,
+            7,
+            8,
+            7,
+            8,
+            5,
+            8,
+            5,
+            4,
+            7,
+            8,
+            5,
+            2
+          ],
+          "rotations_used": 5,
+          "steps": [
+            {
+              "move": 1,
+              "from": 6,
+              "to": 7,
+              "rotate": false,
+              "arrow_before": 1,
+              "arrow_after": 1,
+              "rotations_used": 0
+            },
+            {
+              "move": 2,
+              "from": 7,
+              "to": 8,
+              "rotate": false,
+              "arrow_before": 1,
+              "arrow_after": 1,
+              "rotations_used": 0
+            },
+            {
+              "move": 3,
+              "from": 8,
+              "to": 7,
+              "rotate": true,
+              "arrow_before": 2,
+              "arrow_after": 3,
+              "rotations_used": 1
+            },
+            {
+              "move": 4,
+              "from": 7,
+              "to": 8,
+              "rotate": false,
+              "arrow_before": 1,
+              "arrow_after": 1,
+              "rotations_used": 1
+            },
+            {
+              "move": 5,
+              "from": 8,
+              "to": 5,
+              "rotate": true,
+              "arrow_before": 3,
+              "arrow_after": 0,
+              "rotations_used": 2
+            },
+            {
+              "move": 6,
+              "from": 5,
+              "to": 8,
+              "rotate": true,
+              "arrow_before": 1,
+              "arrow_after": 2,
+              "rotations_used": 3
+            },
+            {
+              "move": 7,
+              "from": 8,
+              "to": 5,
+              "rotate": false,
+              "arrow_before": 0,
+              "arrow_after": 0,
+              "rotations_used": 3
+            },
+            {
+              "move": 8,
+              "from": 5,
+              "to": 4,
+              "rotate": true,
+              "arrow_before": 2,
+              "arrow_after": 3,
+              "rotations_used": 4
+            },
+            {
+              "move": 9,
+              "from": 4,
+              "to": 7,
+              "rotate": false,
+              "arrow_before": 2,
+              "arrow_after": 2,
+              "rotations_used": 4
+            },
+            {
+              "move": 10,
+              "from": 7,
+              "to": 8,
+              "rotate": false,
+              "arrow_before": 1,
+              "arrow_after": 1,
+              "rotations_used": 4
+            },
+            {
+              "move": 11,
+              "from": 8,
+              "to": 5,
+              "rotate": false,
+              "arrow_before": 0,
+              "arrow_after": 0,
+              "rotations_used": 4
+            },
+            {
+              "move": 12,
+              "from": 5,
+              "to": 2,
+              "rotate": true,
+              "arrow_before": 3,
+              "arrow_after": 0,
+              "rotations_used": 5
+            }
+          ],
+          "final_arrows": [
+            2,
+            2,
+            1,
+            2,
+            2,
+            0,
+            1,
+            1,
+            0
+          ]
+        }
+      ],
+      "brute_force_solution_counts_by_exact_move_length": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      "reachable_state_count": 19,
+      "legal_transition_count": 22,
+      "reachable_goal_state_count": 1,
+      "maximum_minimum_moves_to_state": 14,
+      "reachable_graph": {
+        "initial_state": 0,
+        "states": [
+          {
+            "state_id": 0,
+            "position": 6,
+            "arrows": [
+              2,
+              2,
+              1,
+              2,
+              2,
+              1,
+              1,
+              1,
+              2
+            ],
+            "rotations_used": 0,
+            "minimum_moves_to_state": 0,
+            "minimum_length_choice_prefix_count": 1,
+            "terminal": false
+          },
+          {
+            "state_id": 1,
+            "position": 7,
+            "arrows": [
+              2,
+              2,
+              1,
+              2,
+              2,
+              1,
+              1,
+              1,
+              2
+            ],
+            "rotations_used": 0,
+            "minimum_moves_to_state": 1,
+            "minimum_length_choice_prefix_count": 1,
+            "terminal": false
+          },
+          {
+            "state_id": 2,
+            "position": 8,
+            "arrows": [
+              2,
+              2,
+              1,
+              2,
+              2,
+              1,
+              1,
+              1,
+              2
+            ],
+            "rotations_used": 0,
+            "minimum_moves_to_state": 2,
+            "minimum_length_choice_prefix_count": 1,
+            "terminal": false
+          },
+          {
+            "state_id": 3,
+            "position": 7,
+            "arrows": [
+              2,
+              2,
+              1,
+              2,
+              2,
+              1,
+              1,
+              1,
+              3
+            ],
+            "rotations_used": 1,
+            "minimum_moves_to_state": 3,
+            "minimum_length_choice_prefix_count": 1,
+            "terminal": false
+          },
+          {
+            "state_id": 4,
+            "position": 8,
+            "arrows": [
+              2,
+              2,
+              1,
+              2,
+              2,
+              1,
+              1,
+              1,
+              3
+            ],
+            "rotations_used": 1,
+            "minimum_moves_to_state": 4,
+            "minimum_length_choice_prefix_count": 1,
+            "terminal": false
+          },
+          {
+            "state_id": 5,
+            "position": 5,
+            "arrows": [
+              2,
+              2,
+              1,
+              2,
+              2,
+              1,
+              1,
+              1,
+              0
+            ],
+            "rotations_used": 2,
+            "minimum_moves_to_state": 5,
+            "minimum_length_choice_prefix_count": 1,
+            "terminal": false
+          },
+          {
+            "state_id": 6,
+            "position": 8,
+            "arrows": [
+              2,
+              2,
+              1,
+              2,
+              2,
+              2,
+              1,
+              1,
+              0
+            ],
+            "rotations_used": 3,
+            "minimum_moves_to_state": 6,
+            "minimum_length_choice_prefix_count": 1,
+            "terminal": false
+          },
+          {
+            "state_id": 7,
+            "position": 5,
+            "arrows": [
+              2,
+              2,
+              1,
+              2,
+              2,
+              2,
+              1,
+              1,
+              0
+            ],
+            "rotations_used": 3,
+            "minimum_moves_to_state": 7,
+            "minimum_length_choice_prefix_count": 1,
+            "terminal": false
+          },
+          {
+            "state_id": 8,
+            "position": 4,
+            "arrows": [
+              2,
+              2,
+              1,
+              2,
+              2,
+              3,
+              1,
+              1,
+              0
+            ],
+            "rotations_used": 4,
+            "minimum_moves_to_state": 8,
+            "minimum_length_choice_prefix_count": 1,
+            "terminal": false
+          },
+          {
+            "state_id": 9,
+            "position": 7,
+            "arrows": [
+              2,
+              2,
+              1,
+              2,
+              2,
+              3,
+              1,
+              1,
+              0
+            ],
+            "rotations_used": 4,
+            "minimum_moves_to_state": 9,
+            "minimum_length_choice_prefix_count": 1,
+            "terminal": false
+          },
+          {
+            "state_id": 10,
+            "position": 3,
+            "arrows": [
+              2,
+              2,
+              1,
+              2,
+              3,
+              3,
+              1,
+              1,
+              0
+            ],
+            "rotations_used": 5,
+            "minimum_moves_to_state": 9,
+            "minimum_length_choice_prefix_count": 1,
+            "terminal": false
+          },
+          {
+            "state_id": 11,
+            "position": 8,
+            "arrows": [
+              2,
+              2,
+              1,
+              2,
+              2,
+              3,
+              1,
+              1,
+              0
+            ],
+            "rotations_used": 4,
+            "minimum_moves_to_state": 10,
+            "minimum_length_choice_prefix_count": 1,
+            "terminal": false
+          },
+          {
+            "state_id": 12,
+            "position": 6,
+            "arrows": [
+              2,
+              2,
+              1,
+              2,
+              3,
+              3,
+              1,
+              1,
+              0
+            ],
+            "rotations_used": 5,
+            "minimum_moves_to_state": 10,
+            "minimum_length_choice_prefix_count": 1,
+            "terminal": false
+          },
+          {
+            "state_id": 13,
+            "position": 5,
+            "arrows": [
+              2,
+              2,
+              1,
+              2,
+              2,
+              3,
+              1,
+              1,
+              0
+            ],
+            "rotations_used": 4,
+            "minimum_moves_to_state": 11,
+            "minimum_length_choice_prefix_count": 1,
+            "terminal": false
+          },
+          {
+            "state_id": 14,
+            "position": 7,
+            "arrows": [
+              2,
+              2,
+              1,
+              2,
+              3,
+              3,
+              1,
+              1,
+              0
+            ],
+            "rotations_used": 5,
+            "minimum_moves_to_state": 11,
+            "minimum_length_choice_prefix_count": 1,
+            "terminal": false
+          },
+          {
+            "state_id": 15,
+            "position": 2,
+            "arrows": [
+              2,
+              2,
+              1,
+              2,
+              2,
+              0,
+              1,
+              1,
+              0
+            ],
+            "rotations_used": 5,
+            "minimum_moves_to_state": 12,
+            "minimum_length_choice_prefix_count": 1,
+            "terminal": true
+          },
+          {
+            "state_id": 16,
+            "position": 8,
+            "arrows": [
+              2,
+              2,
+              1,
+              2,
+              3,
+              3,
+              1,
+              1,
+              0
+            ],
+            "rotations_used": 5,
+            "minimum_moves_to_state": 12,
+            "minimum_length_choice_prefix_count": 1,
+            "terminal": false
+          },
+          {
+            "state_id": 17,
+            "position": 5,
+            "arrows": [
+              2,
+              2,
+              1,
+              2,
+              3,
+              3,
+              1,
+              1,
+              0
+            ],
+            "rotations_used": 5,
+            "minimum_moves_to_state": 13,
+            "minimum_length_choice_prefix_count": 1,
+            "terminal": false
+          },
+          {
+            "state_id": 18,
+            "position": 4,
+            "arrows": [
+              2,
+              2,
+              1,
+              2,
+              3,
+              3,
+              1,
+              1,
+              0
+            ],
+            "rotations_used": 5,
+            "minimum_moves_to_state": 14,
+            "minimum_length_choice_prefix_count": 1,
+            "terminal": false
+          }
+        ],
+        "transitions": [
+          {
+            "from_state": 0,
+            "action": 0,
+            "to_state": 1
+          },
+          {
+            "from_state": 1,
+            "action": 0,
+            "to_state": 2
+          },
+          {
+            "from_state": 2,
+            "action": 1,
+            "to_state": 3
+          },
+          {
+            "from_state": 3,
+            "action": 0,
+            "to_state": 4
+          },
+          {
+            "from_state": 4,
+            "action": 0,
+            "to_state": 3
+          },
+          {
+            "from_state": 4,
+            "action": 1,
+            "to_state": 5
+          },
+          {
+            "from_state": 5,
+            "action": 1,
+            "to_state": 6
+          },
+          {
+            "from_state": 6,
+            "action": 0,
+            "to_state": 7
+          },
+          {
+            "from_state": 7,
+            "action": 0,
+            "to_state": 6
+          },
+          {
+            "from_state": 7,
+            "action": 1,
+            "to_state": 8
+          },
+          {
+            "from_state": 8,
+            "action": 0,
+            "to_state": 9
+          },
+          {
+            "from_state": 8,
+            "action": 1,
+            "to_state": 10
+          },
+          {
+            "from_state": 9,
+            "action": 0,
+            "to_state": 11
+          },
+          {
+            "from_state": 10,
+            "action": 0,
+            "to_state": 12
+          },
+          {
+            "from_state": 11,
+            "action": 0,
+            "to_state": 13
+          },
+          {
+            "from_state": 12,
+            "action": 0,
+            "to_state": 14
+          },
+          {
+            "from_state": 13,
+            "action": 0,
+            "to_state": 8
+          },
+          {
+            "from_state": 13,
+            "action": 1,
+            "to_state": 15
+          },
+          {
+            "from_state": 14,
+            "action": 0,
+            "to_state": 16
+          },
+          {
+            "from_state": 16,
+            "action": 0,
+            "to_state": 17
+          },
+          {
+            "from_state": 17,
+            "action": 0,
+            "to_state": 18
+          },
+          {
+            "from_state": 18,
+            "action": 0,
+            "to_state": 10
+          }
+        ]
+      }
+    }
+  ]
+}
