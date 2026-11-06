@@ -1,0 +1,34 @@
+{
+  "files": [
+    {
+      "path": "README.md",
+      "bytes": 2930,
+      "sha256": "ccf86b3e704034e82daec858e68eda1bf7d93a8f802f545be32fcf5a7cc5293e"
+    },
+    {
+      "path": "output/The-Unfolded-Map.png",
+      "bytes": 3336632,
+      "sha256": "4b381af92d22110d1328ff960f396880ef1fde63b62453e1ffd276e59204556a"
+    },
+    {
+      "path": "prompt.txt",
+      "bytes": 3184,
+      "sha256": "174440792a3c8675b8bcf03057b0c094c8aa5f1918463d9111760049ad13cbc0"
+    },
+    {
+      "path": "qa.json",
+      "bytes": 1016,
+      "sha256": "249e09b334ea4659658edf7f51de92599f18ade10318b1705ed57901a1050160"
+    },
+    {
+      "path": "storyboard.txt",
+      "bytes": 727,
+      "sha256": "613aa66603bf68941e2422026edd47e5aacfbbe364c84a4dbe327861bc7d3e09"
+    },
+    {
+      "path": "verify.py",
+      "bytes": 552,
+      "sha256": "ba712c43dd2e5c5eff35e9215d6f6f5754172ad728a5bcb813bbdb7da2aa1841"
+    }
+  ]
+}

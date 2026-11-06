@@ -14,8 +14,8 @@
     },
     {
       "path": "GALLERY.md",
-      "size": 37467,
-      "sha256": "0d88ec4bf2a3ff474d4572a634db6590faa56b47d91d4139c8a88eb03ae28834"
+      "size": 38285,
+      "sha256": "0d762bac6f102430a947a2a627f206d83773db35fc4e91d49fa807f671007ccf"
     },
     {
       "path": "GIT_ENVIRONMENT_CHECK.md",
@@ -24,8 +24,8 @@
     },
     {
       "path": "README.md",
-      "size": 42800,
-      "sha256": "b4718d65e43d7eaafe877f7fa5f5bd4afbd642a65efd7f55686f685eb67b6a10"
+      "size": 43285,
+      "sha256": "2d17d3121e81e4c544309cfd922be560dd992b22d542a62fccaf96c1faf42ea6"
     },
     {
       "path": "WORLD_CONNECTIONS.md",
@@ -8271,6 +8271,41 @@
       "path": "projects/the-staircase-arrives/verify.py",
       "size": 702,
       "sha256": "85c4f2d43c3904b5cbbb3eb0096f7d3a3b5d7bd9649acf3cc4ee98ed40f2f684"
+    },
+    {
+      "path": "projects/the-unfolded-map/README.md",
+      "size": 2930,
+      "sha256": "ccf86b3e704034e82daec858e68eda1bf7d93a8f802f545be32fcf5a7cc5293e"
+    },
+    {
+      "path": "projects/the-unfolded-map/manifest.json",
+      "size": 907,
+      "sha256": "a54db2b105ab04d90628172f4c98aca65a7b75e76bb0758e21420ed7110a9fcf"
+    },
+    {
+      "path": "projects/the-unfolded-map/output/The-Unfolded-Map.png",
+      "size": 3336632,
+      "sha256": "4b381af92d22110d1328ff960f396880ef1fde63b62453e1ffd276e59204556a"
+    },
+    {
+      "path": "projects/the-unfolded-map/prompt.txt",
+      "size": 3184,
+      "sha256": "174440792a3c8675b8bcf03057b0c094c8aa5f1918463d9111760049ad13cbc0"
+    },
+    {
+      "path": "projects/the-unfolded-map/qa.json",
+      "size": 1016,
+      "sha256": "249e09b334ea4659658edf7f51de92599f18ade10318b1705ed57901a1050160"
+    },
+    {
+      "path": "projects/the-unfolded-map/storyboard.txt",
+      "size": 727,
+      "sha256": "613aa66603bf68941e2422026edd47e5aacfbbe364c84a4dbe327861bc7d3e09"
+    },
+    {
+      "path": "projects/the-unfolded-map/verify.py",
+      "size": 552,
+      "sha256": "ba712c43dd2e5c5eff35e9215d6f6f5754172ad728a5bcb813bbdb7da2aa1841"
     },
     {
       "path": "projects/third-prize/.gitignore",
