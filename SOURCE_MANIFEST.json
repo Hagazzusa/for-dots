@@ -14,8 +14,8 @@
     },
     {
       "path": "GALLERY.md",
-      "size": 34836,
-      "sha256": "b0ba549f79b3229caf1783c96193e12bc8bf7973a1a09a313978a010a62f59f7"
+      "size": 35255,
+      "sha256": "0003c0697e8f0c979043e64d12ea27c1859df2768574418efcbf42d0e23be21f"
     },
     {
       "path": "GIT_ENVIRONMENT_CHECK.md",
@@ -24,8 +24,8 @@
     },
     {
       "path": "README.md",
-      "size": 40778,
-      "sha256": "6cbba753db79fabda7bbc0b36b5d9ee2af384e3580676713d95f40b651cde2b7"
+      "size": 41267,
+      "sha256": "caf64b0fde2663dcb3d7374d17ffbbcdbfa05550bfaaf297a600c8f694d2d966"
     },
     {
       "path": "WORLD_CONNECTIONS.md",
@@ -8141,6 +8141,56 @@
       "path": "projects/the-staircase-arrives/verify.py",
       "size": 702,
       "sha256": "85c4f2d43c3904b5cbbb3eb0096f7d3a3b5d7bd9649acf3cc4ee98ed40f2f684"
+    },
+    {
+      "path": "projects/third-prize/.gitignore",
+      "size": 18,
+      "sha256": "c42d83738012deb1f99f79959489ab67c80f1bafc29d4f692826939f35f77cb6"
+    },
+    {
+      "path": "projects/third-prize/FONT_LICENSE.txt",
+      "size": 14712,
+      "sha256": "849f4ea9c214fa4ac3593b770c699f387534b11ce671264c1b10d85bdcb5997b"
+    },
+    {
+      "path": "projects/third-prize/README.md",
+      "size": 3366,
+      "sha256": "2d9f74c715d346794150502fcae58e5cde7459f22d41dd89a832347936acf3bc"
+    },
+    {
+      "path": "projects/third-prize/build_pdf.py",
+      "size": 9333,
+      "sha256": "bf0a1d96d5fd6e135468bc867871ddf2d5002bc0594b9d93205a3e2eb5c91710"
+    },
+    {
+      "path": "projects/third-prize/manifest.json",
+      "size": 1360,
+      "sha256": "617693b857dba4008ab48b8587ba7832d4a0b4f484355b292a0c97f0e1fe3ab9"
+    },
+    {
+      "path": "projects/third-prize/output/pdf/Third-Prize.pdf",
+      "size": 80285,
+      "sha256": "7a16f8dc6524ec46c5cfc82d9e4785cc04320d284e5da6539784f6ccf7fea213"
+    },
+    {
+      "path": "projects/third-prize/output/text/Third-Prize.txt",
+      "size": 5744,
+      "sha256": "f50fca761e98c26f9e51b354431ea796dc1aab9cf4866411642a055f946c8c95"
+    },
+    {
+      "path": "projects/third-prize/qa.json",
+      "size": 1199,
+      "sha256": "0babae168e01ed99f0d4496b6f9a848c8fccb7ec708cf4bde9b7d180ceb89dee"
+    },
+    {
+      "path": "projects/third-prize/story.txt",
+      "size": 5744,
+      "sha256": "f50fca761e98c26f9e51b354431ea796dc1aab9cf4866411642a055f946c8c95"
+    },
+    {
+      "path": "projects/third-prize/verify.py",
+      "size": 9493,
+      "sha256": "bfca036b53b0e145620382e73aafacb25d2c2d30a6a32d49696807136069cefc"
     },
     {
       "path": "projects/threshold-film/.gitignore",

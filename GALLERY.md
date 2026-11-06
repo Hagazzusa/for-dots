@@ -439,6 +439,8 @@ Python·Inkscape로 직접 구성한 독립 벡터 그래픽입니다. 외부 �
 
 시각 작품과 별도로 읽고 들을 수 있는 작업입니다. 악보의 실연·녹음 여부는 각 항목에 표시합니다.
 
+- [삼등 상품 · 4쪽 PDF](projects/third-prize/output/pdf/Third-Prize.pdf): 우산을 타려고 사생대회에 나간 은희와 상품을 받은 경자가 돗자리에서 거래하는 독립 짧은 소설. [텍스트](projects/third-prize/output/text/Third-Prize.txt)와 [원문·조판·검사 안내](projects/third-prize/README.md). 실제 인쇄·독자 반응·낭독 실연은 확인하지 않았습니다.
+
 - [받침 출장 · 3쪽 PDF](projects/a-service-call-for-n/output/pdf/A-Service-Call-for-N.pdf): 황동 이름표에서 ㄴ이 떨어져 문이 무가 된 밤, 찻잔에서 받침을 빌리는 짧은 환상소설. [텍스트](projects/a-service-call-for-n/output/text/A-Service-Call-for-N.txt)와 [원문·제작 안내](projects/a-service-call-for-n/README.md). 실제 인쇄·낭독·독자 반응은 확인하지 않았습니다.
 
 - [이리 와 · 3쪽 PDF](projects/a-room-that-hears-late/output/pdf/Come-Here.pdf): 작은방의 소리가 십 분 뒤에 돌아오는 동안 고양이 만두를 이동장에 넣으려는 두 사람의 짧은 환상소설. [텍스트](projects/a-room-that-hears-late/output/text/Come-Here.txt)와 [원문·제작 안내](projects/a-room-that-hears-late/README.md).

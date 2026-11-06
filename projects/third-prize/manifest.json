@@ -1,0 +1,49 @@
+{
+  "files": [
+    {
+      "path": ".gitignore",
+      "bytes": 18,
+      "sha256": "c42d83738012deb1f99f79959489ab67c80f1bafc29d4f692826939f35f77cb6"
+    },
+    {
+      "path": "FONT_LICENSE.txt",
+      "bytes": 14712,
+      "sha256": "849f4ea9c214fa4ac3593b770c699f387534b11ce671264c1b10d85bdcb5997b"
+    },
+    {
+      "path": "README.md",
+      "bytes": 3366,
+      "sha256": "2d9f74c715d346794150502fcae58e5cde7459f22d41dd89a832347936acf3bc"
+    },
+    {
+      "path": "build_pdf.py",
+      "bytes": 9333,
+      "sha256": "bf0a1d96d5fd6e135468bc867871ddf2d5002bc0594b9d93205a3e2eb5c91710"
+    },
+    {
+      "path": "output/pdf/Third-Prize.pdf",
+      "bytes": 80285,
+      "sha256": "7a16f8dc6524ec46c5cfc82d9e4785cc04320d284e5da6539784f6ccf7fea213"
+    },
+    {
+      "path": "output/text/Third-Prize.txt",
+      "bytes": 5744,
+      "sha256": "f50fca761e98c26f9e51b354431ea796dc1aab9cf4866411642a055f946c8c95"
+    },
+    {
+      "path": "qa.json",
+      "bytes": 1199,
+      "sha256": "0babae168e01ed99f0d4496b6f9a848c8fccb7ec708cf4bde9b7d180ceb89dee"
+    },
+    {
+      "path": "story.txt",
+      "bytes": 5744,
+      "sha256": "f50fca761e98c26f9e51b354431ea796dc1aab9cf4866411642a055f946c8c95"
+    },
+    {
+      "path": "verify.py",
+      "bytes": 9493,
+      "sha256": "bfca036b53b0e145620382e73aafacb25d2c2d30a6a32d49696807136069cefc"
+    }
+  ]
+}

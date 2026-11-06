@@ -13,6 +13,7 @@
 
 | 프로젝트 | 시작 안내 | 실행 환경 |
 |---|---|---|
+| **삼등 상품** — 사생대회의 상품 우산을 두고 흥정하는 두 친구 | [4쪽 PDF](projects/third-prize/output/pdf/Third-Prize.pdf) · [텍스트](projects/third-prize/output/text/Third-Prize.txt) · [원문·조판·검사 안내](projects/third-prize/README.md) | 완성된 독립 짧은 소설. 원문 일치·글꼴·페이지 경계·같은 환경의 재생성을 검사했으며 실제 인쇄·외부 독자 반응·낭독 실연은 확인하지 않았습니다. |
 | **물살을 가로질러** — 빽빽한 청록 선을 비스듬히 건너는 주홍 물고기 | [PNG](projects/across-the-current/output/Across-the-Current.png) · [편집 가능한 SVG·제작·검사 안내](projects/across-the-current/README.md) | Python·Inkscape로 직접 만든 독립 벡터 그래픽. SVG·PNG의 동일 바이트 재생성을 확인했으며 실물 인쇄·유체 역학 검증은 아닙니다. |
 | **계단이 오는 날** — 높은 문 아래에서 계단을 든 두 이삿짐꾼 | [원본 PNG](projects/the-staircase-arrives/output/The-Staircase-Arrives.png) · [프롬프트·검토 안내](projects/the-staircase-arrives/README.md) | 독립 서사 생성 일러스트, 1122×1402 RGB. 원본과 프롬프트를 보존하며 동일 픽셀 재생성을 보장하지 않습니다. |
 | **받침 출장** — 문에서 떨어진 ㄴ을 찻잔에서 빌리는 밤 | [3쪽 PDF](projects/a-service-call-for-n/output/pdf/A-Service-Call-for-N.pdf) · [텍스트](projects/a-service-call-for-n/output/text/A-Service-Call-for-N.txt) · [원문·제작 안내](projects/a-service-call-for-n/README.md) | 완성된 짧은 환상소설. 원문·조판·재생성을 검사했으며 실제 인쇄·낭독·독자 반응은 확인하지 않았습니다. |
