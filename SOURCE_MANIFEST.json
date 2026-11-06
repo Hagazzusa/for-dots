@@ -24,8 +24,8 @@
     },
     {
       "path": "README.md",
-      "size": 43788,
-      "sha256": "435792398fc2e0404859f498b23160005e7fc482cbb726818df67fd1cf83d390"
+      "size": 44352,
+      "sha256": "c37849f05704748ad70f57814e0c910a0fc6296a41e8b9e2cea9323a8a7ea18d"
     },
     {
       "path": "WORLD_CONNECTIONS.md",
@@ -466,6 +466,86 @@
       "path": "projects/a-service-call-for-n/verify.py",
       "size": 10650,
       "sha256": "ed1ead9a3d8058f9be0748a1a3d2a5caf4d6d61f0b7501d952482aa939b7a38a"
+    },
+    {
+      "path": "projects/a-still-floor/.gitignore",
+      "size": 18,
+      "sha256": "c42d83738012deb1f99f79959489ab67c80f1bafc29d4f692826939f35f77cb6"
+    },
+    {
+      "path": "projects/a-still-floor/OPTICS_CHECK.md",
+      "size": 6358,
+      "sha256": "018238b41232a88e73ed423a9c1fd5f009a452ff0ddd667c7780a4a901ab2f66"
+    },
+    {
+      "path": "projects/a-still-floor/README.md",
+      "size": 5919,
+      "sha256": "85f024cf6dd12e88019a9317127a6058b338ec5a000d82d83b86159194b9ffc6"
+    },
+    {
+      "path": "projects/a-still-floor/build.py",
+      "size": 2616,
+      "sha256": "69f2e1e9b2120edb590b40502eaa05fbdc2f4c744b34b166973bd19fd9de5de9"
+    },
+    {
+      "path": "projects/a-still-floor/build_video.py",
+      "size": 891,
+      "sha256": "84cd80661eb45a957f5f0abbaa537ac32c4ed8e6ccdbe04e06891973765a45ac"
+    },
+    {
+      "path": "projects/a-still-floor/manifest.json",
+      "size": 2266,
+      "sha256": "e4832d7a1214b4fb4a1b0646b21230d768976513195ff54500552c36e5661151"
+    },
+    {
+      "path": "projects/a-still-floor/model.json",
+      "size": 940,
+      "sha256": "f3fcbdaded9ff5ceeef1f607c40953e624187ee36087d8e31ca1733a268c23f8"
+    },
+    {
+      "path": "projects/a-still-floor/optics_qa.json",
+      "size": 7379,
+      "sha256": "c639c41b52e365d1e9cab7a6db798967c2975f8e01f55443d66bf4d087a6254c"
+    },
+    {
+      "path": "projects/a-still-floor/output/A-Still-Floor.mp4",
+      "size": 678878,
+      "sha256": "230b0db584bcec4539fe19c7b8aa1c5e28095480d565509ac257018265ba5044"
+    },
+    {
+      "path": "projects/a-still-floor/output/A-Still-Floor.png",
+      "size": 360170,
+      "sha256": "182501110bb2024110fcb705ab404c7538ffc70f5a37ddffbe24ac406fe9d7ca"
+    },
+    {
+      "path": "projects/a-still-floor/output/irradiance.npz",
+      "size": 2098756,
+      "sha256": "c6e3104a0c8a42eb24c7bd138eaa95bc81cebf1951a8bb2d70e15c6751a9802f"
+    },
+    {
+      "path": "projects/a-still-floor/output/still_data.json",
+      "size": 140,
+      "sha256": "3f784ef1949a6c9e6983add028f3c5bc49c9d7e46fe30789838504d461a26fe8"
+    },
+    {
+      "path": "projects/a-still-floor/qa.json",
+      "size": 1351,
+      "sha256": "c238f5de1d4c93fb8fc42e7b4929f63e56d18163190516949174333818a8e8bd"
+    },
+    {
+      "path": "projects/a-still-floor/render_frames.py",
+      "size": 636,
+      "sha256": "cbda030392d106deddd56983041f1c35859dd9b548f7b0d7f2f0335ef9c34724"
+    },
+    {
+      "path": "projects/a-still-floor/verify.py",
+      "size": 4288,
+      "sha256": "b961511c8c05b13fc1aa46ff68ca4c30f3ee693186d6c3a1345e745c6047ccae"
+    },
+    {
+      "path": "projects/a-still-floor/verify_optics.py",
+      "size": 14482,
+      "sha256": "8e7e92841a9f2e6e71b6adabad4c8df9d6b1b64d968b774061643e832b8373af"
     },
     {
       "path": "projects/across-the-current/.gitignore",

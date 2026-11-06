@@ -1,0 +1,57 @@
+{
+  "domain_size": 6.0,
+  "bottom_depth": 2.2,
+  "air_index": 1.0,
+  "water_index": 1.333,
+  "loop_seconds": 10.0,
+  "waves": [
+    {
+      "nx": 1,
+      "ny": 2,
+      "amplitude": 0.12,
+      "cycles": 1,
+      "phase": 0.3
+    },
+    {
+      "nx": 2,
+      "ny": -1,
+      "amplitude": 0.1,
+      "cycles": -1,
+      "phase": 1.2
+    },
+    {
+      "nx": 3,
+      "ny": 4,
+      "amplitude": 0.035,
+      "cycles": 2,
+      "phase": 2.7
+    },
+    {
+      "nx": 5,
+      "ny": -3,
+      "amplitude": 0.025,
+      "cycles": -2,
+      "phase": 4.1
+    },
+    {
+      "nx": 1,
+      "ny": -4,
+      "amplitude": 0.04,
+      "cycles": 1,
+      "phase": 2
+    },
+    {
+      "nx": 4,
+      "ny": 1,
+      "amplitude": 0.04,
+      "cycles": -2,
+      "phase": 5.6
+    }
+  ],
+  "still_rays_per_axis": 1536,
+  "still_pixels_per_axis": 768,
+  "video_rays_per_axis": 768,
+  "video_pixels_per_axis": 512,
+  "fps": 24,
+  "blur_sigma_pixels": 2.0
+}

@@ -13,6 +13,7 @@
 
 | 프로젝트 | 시작 안내 | 실행 환경 |
 |---|---|---|
+| **가만한 바닥 · 절차적 빛 연구** — 지정한 수면을 통과한 굴절광 밀도의 변화 | [정지 PNG](projects/a-still-floor/output/A-Still-Floor.png) · [10초 무성 영상](projects/a-still-floor/output/A-Still-Floor.mp4) · [모델·소스·검사 범위](projects/a-still-floor/README.md) | Python·NumPy·SciPy·FFmpeg. 수면은 지정 함수이며 유체 시뮬레이션이 아닙니다. 전 프레임 디코드·표본은 검사했지만 정상 속도 전체 재생은 미확인이라 완성작이 아닌 연구로 보존합니다. |
 | **귀에 든 물** — 기울인 몸과 멀었다 가까워지는 소리를 담은 자유시 | [한 쪽 PDF](projects/water-in-one-ear/output/pdf/Water-in-One-Ear.pdf) · [텍스트](projects/water-in-one-ear/output/text/Water-in-One-Ear.txt) · [원문·조판·검사](projects/water-in-one-ear/README.md) | 14행·4연의 독립 자유시. 원문·행과 연·글꼴·경계 및 같은 환경의 재생성을 검사했습니다. 실제 낭독·인쇄·외부 독자 반응은 미확인입니다. |
 | **접지 못한 지도** — 지도를 읽던 노인과 개가 비를 피하기까지의 무언 3컷 | [원본 PNG](projects/the-unfolded-map/output/The-Unfolded-Map.png) · [장면 설계·생성 지시문·검토](projects/the-unfolded-map/README.md) | 완성된 생성 만화 이미지, 1122×1402 RGB. 한 번 생성한 전체 페이지를 보존하며 편집 레이어·동일 픽셀 재생성은 제공하지 않습니다. 실물 인쇄·독자 반응은 미검증입니다. |
 | **자른 뒤의 무늬** — 큰 붉은 양배추 반쪽과 작은 쐐기의 불규칙한 잎맥 | [원본 PNG](projects/after-the-cut/output/After-the-Cut.png) · [생성 지시문·검토 안내](projects/after-the-cut/README.md) | 다색 목판화풍 생성 정물, 1536×1024 RGB. 원본·지시문을 보존하며 실제 목판화·사진·식물 도감은 아닙니다. 동일 픽셀 재생성과 편집 레이어는 제공하지 않습니다. |

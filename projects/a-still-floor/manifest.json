@@ -1,0 +1,79 @@
+{
+  "files": [
+    {
+      "path": ".gitignore",
+      "bytes": 18,
+      "sha256": "c42d83738012deb1f99f79959489ab67c80f1bafc29d4f692826939f35f77cb6"
+    },
+    {
+      "path": "OPTICS_CHECK.md",
+      "bytes": 6358,
+      "sha256": "018238b41232a88e73ed423a9c1fd5f009a452ff0ddd667c7780a4a901ab2f66"
+    },
+    {
+      "path": "README.md",
+      "bytes": 5919,
+      "sha256": "85f024cf6dd12e88019a9317127a6058b338ec5a000d82d83b86159194b9ffc6"
+    },
+    {
+      "path": "build.py",
+      "bytes": 2616,
+      "sha256": "69f2e1e9b2120edb590b40502eaa05fbdc2f4c744b34b166973bd19fd9de5de9"
+    },
+    {
+      "path": "build_video.py",
+      "bytes": 891,
+      "sha256": "84cd80661eb45a957f5f0abbaa537ac32c4ed8e6ccdbe04e06891973765a45ac"
+    },
+    {
+      "path": "model.json",
+      "bytes": 940,
+      "sha256": "f3fcbdaded9ff5ceeef1f607c40953e624187ee36087d8e31ca1733a268c23f8"
+    },
+    {
+      "path": "optics_qa.json",
+      "bytes": 7379,
+      "sha256": "c639c41b52e365d1e9cab7a6db798967c2975f8e01f55443d66bf4d087a6254c"
+    },
+    {
+      "path": "output/A-Still-Floor.mp4",
+      "bytes": 678878,
+      "sha256": "230b0db584bcec4539fe19c7b8aa1c5e28095480d565509ac257018265ba5044"
+    },
+    {
+      "path": "output/A-Still-Floor.png",
+      "bytes": 360170,
+      "sha256": "182501110bb2024110fcb705ab404c7538ffc70f5a37ddffbe24ac406fe9d7ca"
+    },
+    {
+      "path": "output/irradiance.npz",
+      "bytes": 2098756,
+      "sha256": "c6e3104a0c8a42eb24c7bd138eaa95bc81cebf1951a8bb2d70e15c6751a9802f"
+    },
+    {
+      "path": "output/still_data.json",
+      "bytes": 140,
+      "sha256": "3f784ef1949a6c9e6983add028f3c5bc49c9d7e46fe30789838504d461a26fe8"
+    },
+    {
+      "path": "qa.json",
+      "bytes": 1351,
+      "sha256": "c238f5de1d4c93fb8fc42e7b4929f63e56d18163190516949174333818a8e8bd"
+    },
+    {
+      "path": "render_frames.py",
+      "bytes": 636,
+      "sha256": "cbda030392d106deddd56983041f1c35859dd9b548f7b0d7f2f0335ef9c34724"
+    },
+    {
+      "path": "verify.py",
+      "bytes": 4288,
+      "sha256": "b961511c8c05b13fc1aa46ff68ca4c30f3ee693186d6c3a1345e745c6047ccae"
+    },
+    {
+      "path": "verify_optics.py",
+      "bytes": 14482,
+      "sha256": "8e7e92841a9f2e6e71b6adabad4c8df9d6b1b64d968b774061643e832b8373af"
+    }
+  ]
+}

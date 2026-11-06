@@ -1,0 +1,242 @@
+{
+  "schema_version": 1,
+  "passed": true,
+  "scope": "정해진 사인파 그래프 수면에 대한 기하광학 구현의 수치적 자기일관성 검사",
+  "not_validated": [
+    "실측 또는 유체역학적 정확성",
+    "파동광학·간섭·회절",
+    "색의 측정 정확성",
+    "절대 방사조도·실제 투과 에너지",
+    "완성 영상의 픽셀 단위 무이음성"
+  ],
+  "sampling": {
+    "seed": 20261106,
+    "points_per_time": 257,
+    "times_seconds": [
+      0.0,
+      0.137,
+      2.375,
+      5.0,
+      9.999
+    ],
+    "finite_difference_step": 1e-05,
+    "largest_ray_grid_per_axis": 130,
+    "largest_density_grid_per_axis": 64
+  },
+  "source_sha256": {
+    "model.json": "f3fcbdaded9ff5ceeef1f607c40953e624187ee36087d8e31ca1733a268c23f8",
+    "build.py": "69f2e1e9b2120edb590b40502eaa05fbdc2f4c744b34b166973bd19fd9de5de9",
+    "verify_optics.py": "8e7e92841a9f2e6e71b6adabad4c8df9d6b1b64d968b774061643e832b8373af"
+  },
+  "checks": [
+    {
+      "name": "모델 전제와 바닥 여유",
+      "passed": true,
+      "metrics": {
+        "domain_size": 6.0,
+        "bottom_depth": 2.2,
+        "air_index": 1.0,
+        "water_index": 1.333,
+        "wave_count": 6,
+        "blur_sigma_pixels": 2.0,
+        "period_seconds": 10.0,
+        "integer_modes": true,
+        "absolute_height_upper_bound": 0.36,
+        "minimum_surface_floor_gap_bound": 1.8400000000000003
+      }
+    },
+    {
+      "name": "높이와 유한차분 기울기",
+      "passed": true,
+      "metrics": {
+        "height": 8.881784197001252e-16,
+        "finite_difference_slope": 1.6595641527672456e-10
+      }
+    },
+    {
+      "name": "단위벡터와 아래쪽 전파",
+      "passed": true,
+      "metrics": {
+        "all_finite": true,
+        "normal_unit_error": 2.220446049250313e-16,
+        "ray_unit_error": 2.220446049250313e-16,
+        "maximum_ray_z": -0.9845185727165681,
+        "minimum_distance": 1.8970734805658178,
+        "minimum_transmitted_cosine": 0.8933586370007288
+      }
+    },
+    {
+      "name": "스넬의 사인 관계와 접선 방향",
+      "passed": true,
+      "metrics": {
+        "snell_sines": 2.220446049250313e-16,
+        "tangent_snell": 3.0531133177191805e-16
+      }
+    },
+    {
+      "name": "독립 각도식과 바닥 교차",
+      "passed": true,
+      "metrics": {
+        "reference_direction": 3.946908078145128e-11,
+        "reference_endpoint": 8.629008618754597e-11,
+        "plane_residual": 4.440892098500626e-16
+      }
+    },
+    {
+      "name": "10초 반복의 위치·방향·이동속도",
+      "passed": true,
+      "metrics": {
+        "loop_surface": 1.7486012637846216e-15,
+        "loop_direction": 4.0939474033052647e-16,
+        "loop_endpoint": 8.881784197001252e-16,
+        "loop_endpoint_velocity": 4.440892098500626e-12
+      }
+    },
+    {
+      "name": "6×6 공간 주기",
+      "passed": true,
+      "metrics": {
+        "spatial_surface": 4.045375145977914e-15,
+        "spatial_direction": 9.939965517347105e-16,
+        "spatial_endpoint": 2.6645352591003757e-15
+      }
+    },
+    {
+      "name": "평탄 수면 대조",
+      "passed": true,
+      "metrics": {
+        "endpoint_direction_error": 0.0,
+        "uniform_density_error": 2.220446049250313e-16,
+        "ray_count": 4096
+      }
+    },
+    {
+      "name": "광선 개수와 흐림 후 평균 보존",
+      "passed": true,
+      "metrics": {
+        "runs": [
+          {
+            "rays_per_axis": 17,
+            "pixels_per_axis": 16,
+            "time_seconds": 0.0,
+            "raw_ray_count": 289,
+            "expected_ray_count": 289,
+            "normalized_mean_error": 2.220446049250313e-16,
+            "finite_nonnegative": true
+          },
+          {
+            "rays_per_axis": 17,
+            "pixels_per_axis": 16,
+            "time_seconds": 2.375,
+            "raw_ray_count": 289,
+            "expected_ray_count": 289,
+            "normalized_mean_error": 2.220446049250313e-16,
+            "finite_nonnegative": true
+          },
+          {
+            "rays_per_axis": 17,
+            "pixels_per_axis": 16,
+            "time_seconds": 9.999,
+            "raw_ray_count": 289,
+            "expected_ray_count": 289,
+            "normalized_mean_error": 2.220446049250313e-16,
+            "finite_nonnegative": true
+          },
+          {
+            "rays_per_axis": 33,
+            "pixels_per_axis": 31,
+            "time_seconds": 0.0,
+            "raw_ray_count": 1089,
+            "expected_ray_count": 1089,
+            "normalized_mean_error": 2.220446049250313e-16,
+            "finite_nonnegative": true
+          },
+          {
+            "rays_per_axis": 33,
+            "pixels_per_axis": 31,
+            "time_seconds": 2.375,
+            "raw_ray_count": 1089,
+            "expected_ray_count": 1089,
+            "normalized_mean_error": 2.220446049250313e-16,
+            "finite_nonnegative": true
+          },
+          {
+            "rays_per_axis": 33,
+            "pixels_per_axis": 31,
+            "time_seconds": 9.999,
+            "raw_ray_count": 1089,
+            "expected_ray_count": 1089,
+            "normalized_mean_error": 0.0,
+            "finite_nonnegative": true
+          },
+          {
+            "rays_per_axis": 65,
+            "pixels_per_axis": 64,
+            "time_seconds": 0.0,
+            "raw_ray_count": 4225,
+            "expected_ray_count": 4225,
+            "normalized_mean_error": 0.0,
+            "finite_nonnegative": true
+          },
+          {
+            "rays_per_axis": 65,
+            "pixels_per_axis": 64,
+            "time_seconds": 2.375,
+            "raw_ray_count": 4225,
+            "expected_ray_count": 4225,
+            "normalized_mean_error": 2.220446049250313e-16,
+            "finite_nonnegative": true
+          },
+          {
+            "rays_per_axis": 65,
+            "pixels_per_axis": 64,
+            "time_seconds": 9.999,
+            "raw_ray_count": 4225,
+            "expected_ray_count": 4225,
+            "normalized_mean_error": 0.0,
+            "finite_nonnegative": true
+          },
+          {
+            "rays_per_axis": 130,
+            "pixels_per_axis": 37,
+            "time_seconds": 0.0,
+            "raw_ray_count": 16900,
+            "expected_ray_count": 16900,
+            "normalized_mean_error": 2.220446049250313e-16,
+            "finite_nonnegative": true
+          },
+          {
+            "rays_per_axis": 130,
+            "pixels_per_axis": 37,
+            "time_seconds": 2.375,
+            "raw_ray_count": 16900,
+            "expected_ray_count": 16900,
+            "normalized_mean_error": 0.0,
+            "finite_nonnegative": true
+          },
+          {
+            "rays_per_axis": 130,
+            "pixels_per_axis": 37,
+            "time_seconds": 9.999,
+            "raw_ray_count": 16900,
+            "expected_ray_count": 16900,
+            "normalized_mean_error": 2.220446049250313e-16,
+            "finite_nonnegative": true
+          }
+        ]
+      }
+    },
+    {
+      "name": "독립 픽셀 집계·주기 경계·가우스 흐림",
+      "passed": true,
+      "metrics": {
+        "rays_per_axis": 65,
+        "pixels_per_axis": 31,
+        "time_seconds": 0.63789,
+        "reference_ray_count": 4225,
+        "boundary_wrapped_rays": 125,
+        "normalized_density_max_error": 6.661338147750939e-16
+      }
+    }
+  ]
+}
