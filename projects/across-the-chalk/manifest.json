@@ -1,0 +1,39 @@
+{
+  "files": [
+    {
+      "path": "README.md",
+      "bytes": 3047,
+      "sha256": "8a01f83e098b6b16ec0bb45b4da64cb59f07cf97de802b54f9ed6c8c7ca3a92c"
+    },
+    {
+      "path": "edit_prompt.txt",
+      "bytes": 1418,
+      "sha256": "d806232897a9bfc22fde0c8ba500bf4d65225163f14b5a344acb299458ad606e"
+    },
+    {
+      "path": "prompt.txt",
+      "bytes": 2126,
+      "sha256": "6411a1d864ffab87470778061eee0e752a7a6b66cc054d28ad0cbaa56f88c119"
+    },
+    {
+      "path": "qa.json",
+      "bytes": 890,
+      "sha256": "b482752bcdec13b5d03c6d00916d688beb081923af4b7a9412d1799a2ea84c5f"
+    },
+    {
+      "path": "study/Across-the-Chalk.png",
+      "bytes": 3628200,
+      "sha256": "dc8af3c2be7a3949bf133e2fc0fd43700fe11693930acb623f318b025480091a"
+    },
+    {
+      "path": "study/Along-the-Line.png",
+      "bytes": 3777559,
+      "sha256": "0876eef693f41281a5a48a8a223c4643156a156c900f240394aa675dfc8f0e57"
+    },
+    {
+      "path": "verify.py",
+      "bytes": 691,
+      "sha256": "997f28ab1ff37f5380f0db552b7673c9dbaf71a53c60ee2fb91e11d32a232869"
+    }
+  ]
+}

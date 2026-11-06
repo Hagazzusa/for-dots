@@ -14,8 +14,8 @@
     },
     {
       "path": "GALLERY.md",
-      "size": 39930,
-      "sha256": "40519e01557209c27ee858446a0dc941103d3db50311b4c81753d5d171f00628"
+      "size": 40709,
+      "sha256": "6d20d792bd8e1acbb70346e0f6d8848efc42390b63969c77c1a8c183c010acc6"
     },
     {
       "path": "GIT_ENVIRONMENT_CHECK.md",
@@ -24,8 +24,8 @@
     },
     {
       "path": "README.md",
-      "size": 45271,
-      "sha256": "cfc77b54db08db1bb5b472bd77fb27f2ba72b3653dd5750ae6cb26785b58da98"
+      "size": 45829,
+      "sha256": "7a372327b412e94443fb5c5681904904066b05f7f141e6c1a3e1f36c7dd4ecf0"
     },
     {
       "path": "WORLD_CONNECTIONS.md",
@@ -546,6 +546,46 @@
       "path": "projects/a-still-floor/verify_optics.py",
       "size": 14482,
       "sha256": "8e7e92841a9f2e6e71b6adabad4c8df9d6b1b64d968b774061643e832b8373af"
+    },
+    {
+      "path": "projects/across-the-chalk/README.md",
+      "size": 3047,
+      "sha256": "8a01f83e098b6b16ec0bb45b4da64cb59f07cf97de802b54f9ed6c8c7ca3a92c"
+    },
+    {
+      "path": "projects/across-the-chalk/edit_prompt.txt",
+      "size": 1418,
+      "sha256": "d806232897a9bfc22fde0c8ba500bf4d65225163f14b5a344acb299458ad606e"
+    },
+    {
+      "path": "projects/across-the-chalk/manifest.json",
+      "size": 1069,
+      "sha256": "5ff696dc0e151cbb4e38d7d392bc895bdd182c81f3e7340c89d59e94b03b9532"
+    },
+    {
+      "path": "projects/across-the-chalk/prompt.txt",
+      "size": 2126,
+      "sha256": "6411a1d864ffab87470778061eee0e752a7a6b66cc054d28ad0cbaa56f88c119"
+    },
+    {
+      "path": "projects/across-the-chalk/qa.json",
+      "size": 890,
+      "sha256": "b482752bcdec13b5d03c6d00916d688beb081923af4b7a9412d1799a2ea84c5f"
+    },
+    {
+      "path": "projects/across-the-chalk/study/Across-the-Chalk.png",
+      "size": 3628200,
+      "sha256": "dc8af3c2be7a3949bf133e2fc0fd43700fe11693930acb623f318b025480091a"
+    },
+    {
+      "path": "projects/across-the-chalk/study/Along-the-Line.png",
+      "size": 3777559,
+      "sha256": "0876eef693f41281a5a48a8a223c4643156a156c900f240394aa675dfc8f0e57"
+    },
+    {
+      "path": "projects/across-the-chalk/verify.py",
+      "size": 691,
+      "sha256": "997f28ab1ff37f5380f0db552b7673c9dbaf71a53c60ee2fb91e11d32a232869"
     },
     {
       "path": "projects/across-the-current/.gitignore",

@@ -459,6 +459,12 @@ Python·Inkscape로 직접 구성한 독립 벡터 그래픽입니다. 외부 �
 
 ## 보류·청취 전 연구
 
+### 분필선 너머 · 보류 연구
+
+![분필선 너머 — 분홍 꽃잎을 나르는 네 개미와 진행 방향을 가로지르는 분필선의 수정 연구](projects/across-the-chalk/study/Across-the-Chalk.png)
+
+[수정 연구 PNG](projects/across-the-chalk/study/Across-the-Chalk.png) · [초안·생성 지시문·검토 기록](projects/across-the-chalk/README.md). 분필선을 건너는 구도는 개선됐지만 가운데 두 개미의 턱과 꽃잎 접점이 명확하지 않아 **완성 작품으로 선정하지 않았습니다**. 회갈색 드라이포인트·연필화풍의 생성 이미지이며, 실물 판화·생물 관찰 기록이 아닙니다. 보존된 수정본은 복구하지 못한 첫 수정 결과와 구분한 새로운 생성 결과입니다.
+
 ### 한 칸 비워서
 
 ![한 칸 비워서 — 군청·다홍 빗살의 빈칸과 따로 놓인 조각](projects/one-tooth-apart/output/One-Tooth-Apart.png)
