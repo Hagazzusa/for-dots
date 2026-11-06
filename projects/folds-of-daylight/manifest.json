@@ -12,8 +12,8 @@
     },
     {
       "path": "README.md",
-      "bytes": 4226,
-      "sha256": "f488af4746eae27f96ba5f8aa7f27a72a5296c8cb3de449f78e6925b770b724b"
+      "bytes": 6254,
+      "sha256": "23d9f68a472f17b72518db487ae8941950d150142d933e4c9922ff7f77c3a4be"
     },
     {
       "path": "build.py",
@@ -24,6 +24,11 @@
       "path": "build_blender.py",
       "bytes": 2938,
       "sha256": "207b79e0efc71bf436a67b600dd9c94723bf5345523a280785d7893dc4cfc927"
+    },
+    {
+      "path": "build_variant.py",
+      "bytes": 2703,
+      "sha256": "60f03d9c6f8e93ca5ae6e52a0df6080c0fc391ebe4742cab168d989b85ffc9d4"
     },
     {
       "path": "geometry_qa.json",
@@ -51,6 +56,26 @@
       "sha256": "50bf69baccfe53958d6f8de34204259888df3733a4bc7211c330b4c5105a167b"
     },
     {
+      "path": "variant_qa.json",
+      "bytes": 440,
+      "sha256": "5de52a1df27c32d56d8b59b79d42137f26e83a2dea857330a17a97ccc77aa502"
+    },
+    {
+      "path": "variants/From-One-End.png",
+      "bytes": 75707,
+      "sha256": "87a88f6d97dfc7712fc8b502798680fb7b4ca64590b48e6a7392a43ce7b4f231"
+    },
+    {
+      "path": "variants/From-One-End.svg",
+      "bytes": 6001,
+      "sha256": "c02cd9974fb987aff4120bb4918f8a9391c4aca06e863b144f83484991402dcb"
+    },
+    {
+      "path": "variants/geometry.json",
+      "bytes": 4990,
+      "sha256": "85333cc06b6f1632ee9a5f1f7feebf5bced15e01dc62b10608b0ce5cb9783ff0"
+    },
+    {
       "path": "verify.py",
       "bytes": 527,
       "sha256": "59c7d6d1a14369a322bac006a509bd9ed7de2fbc44f9d1c5bbf9230f37d527f9"
@@ -64,6 +89,11 @@
       "path": "verify_projection.py",
       "bytes": 1675,
       "sha256": "3ebd174bb08cc3d92aa9898441796b82a9305c8ad8ca165f26ede4481f24da8d"
+    },
+    {
+      "path": "verify_variant.py",
+      "bytes": 2279,
+      "sha256": "c7f4e1e49bcf93ed5864223e11f8944cbaa7b2a6070ee226cdca135dd9dfe4e2"
     }
   ]
 }
