@@ -1,0 +1,414 @@
+{
+  "status": "pass",
+  "checks": {
+    "valid_vertices_and_quad_indices": {
+      "status": "pass",
+      "measured": {
+        "vertices_valid": true,
+        "faces_valid": true
+      },
+      "expected": true
+    },
+    "export_matches_source": {
+      "status": "pass",
+      "measured": {
+        "maximum_coordinate_error": 0.0,
+        "face_indices_match": true
+      },
+      "expected": "연결 구조가 같고 좌표 차이가 거리 허용 오차 이내여야 함."
+    },
+    "panel_count": {
+      "status": "pass",
+      "measured": 24,
+      "expected": 24
+    },
+    "vertex_count": {
+      "status": "pass",
+      "measured": 50,
+      "expected": 50
+    },
+    "connected_sheet": {
+      "status": "pass",
+      "measured": {
+        "face_components": 1,
+        "vertex_components": 1
+      },
+      "expected": "면과 꼭짓점이 각각 하나로 연결되고 사용하지 않는 꼭짓점이 없어야 함."
+    },
+    "open_strip_topology": {
+      "status": "pass",
+      "measured": {
+        "edges": 73,
+        "boundary_edges": 50,
+        "interior_edges": 23,
+        "nonmanifold_edges": 0,
+        "boundary_loops": 1,
+        "euler_characteristic": 1
+      },
+      "expected": {
+        "edges": 73,
+        "boundary_edges": 50,
+        "interior_edges": 23,
+        "boundary_loops": 1,
+        "euler_characteristic": 1
+      }
+    },
+    "consistent_shared_edge_winding": {
+      "status": "pass",
+      "measured": 0,
+      "expected": 0
+    },
+    "panel_planarity": {
+      "status": "pass",
+      "measured": 2.7755575615628914e-16,
+      "expected": {
+        "maximum": 1e-09
+      }
+    },
+    "nonzero_panel_areas": {
+      "status": "pass",
+      "measured": {
+        "minimum": 1.6070665835203473,
+        "maximum": 1.6070665835203504,
+        "total": 38.56959800448837
+      },
+      "expected": {
+        "minimum_greater_than": 1e-09
+      }
+    },
+    "area_matches_independent_formula": {
+      "status": "pass",
+      "measured": {
+        "expected_each": 1.6070665835203488,
+        "maximum_error": 1.5543122344752192e-15
+      },
+      "expected": {
+        "maximum_error": 1e-09
+      }
+    },
+    "convex_panels": {
+      "status": "pass",
+      "measured": 24,
+      "expected": 24
+    },
+    "upward_panel_normals": {
+      "status": "pass",
+      "measured": {
+        "minimum_normal_z": 0.577128772533253
+      },
+      "expected": "모든 법선의 z 성분이 양수여야 함."
+    },
+    "base_surface_above_ground": {
+      "status": "pass",
+      "measured": {
+        "minimum_z": 0.04,
+        "maximum_z": 0.9040000000000001
+      },
+      "expected": "모든 꼭짓점과 볼록 평면 패널 내부가 z = 0 이상이어야 함."
+    }
+  },
+  "panels": [
+    {
+      "panel": 1,
+      "area": 1.6070665835203484,
+      "max_plane_distance": 1.1102230246251565e-16,
+      "unit_normal": [
+        -0.25235970422656473,
+        -0.7766833071445145,
+        0.5771287725332541
+      ],
+      "strictly_convex": true
+    },
+    {
+      "panel": 2,
+      "area": 1.6070665835203486,
+      "max_plane_distance": 2.0491421059976034e-17,
+      "unit_normal": [
+        -0.05696684455029042,
+        0.8146638316116915,
+        0.5771287725332541
+      ],
+      "strictly_convex": true
+    },
+    {
+      "panel": 3,
+      "area": 1.6070665835203486,
+      "max_plane_distance": 3.187554387107383e-17,
+      "unit_normal": [
+        0.05696684455029042,
+        -0.8146638316116915,
+        0.5771287725332541
+      ],
+      "strictly_convex": true
+    },
+    {
+      "panel": 4,
+      "area": 1.6070665835203488,
+      "max_plane_distance": 1.3877787807814457e-17,
+      "unit_normal": [
+        -0.35799718125185515,
+        0.7340029959952381,
+        0.5771287725332541
+      ],
+      "strictly_convex": true
+    },
+    {
+      "panel": 5,
+      "area": 1.6070665835203484,
+      "max_plane_distance": 1.6653345369377348e-16,
+      "unit_normal": [
+        0.35799718125185526,
+        -0.7340029959952383,
+        0.5771287725332542
+      ],
+      "strictly_convex": true
+    },
+    {
+      "panel": 6,
+      "area": 1.6070665835203486,
+      "max_plane_distance": 1.6653345369377348e-16,
+      "unit_normal": [
+        -0.6068915683239895,
+        0.546447622569179,
+        0.5771287725332541
+      ],
+      "strictly_convex": true
+    },
+    {
+      "panel": 7,
+      "area": 1.607066583520349,
+      "max_plane_distance": 1.1102230246251565e-16,
+      "unit_normal": [
+        0.6068915683239892,
+        -0.5464476225691788,
+        0.5771287725332545
+      ],
+      "strictly_convex": true
+    },
+    {
+      "panel": 8,
+      "area": 1.607066583520349,
+      "max_plane_distance": 1.6653345369377348e-16,
+      "unit_normal": [
+        -0.7674029459935836,
+        0.2793118300298582,
+        0.5771287725332542
+      ],
+      "strictly_convex": true
+    },
+    {
+      "panel": 9,
+      "area": 1.6070665835203481,
+      "max_plane_distance": 1.1102230246251565e-16,
+      "unit_normal": [
+        0.7674029459935839,
+        -0.27931183002985843,
+        0.5771287725332537
+      ],
+      "strictly_convex": true
+    },
+    {
+      "panel": 10,
+      "area": 1.6070665835203493,
+      "max_plane_distance": 3.6239457615327986e-17,
+      "unit_normal": [
+        -0.8161556746204882,
+        -0.02850078418280411,
+        0.5771287725332548
+      ],
+      "strictly_convex": true
+    },
+    {
+      "panel": 11,
+      "area": 1.6070665835203481,
+      "max_plane_distance": 1.1102230246251565e-16,
+      "unit_normal": [
+        0.8161556746204888,
+        0.028500784182804124,
+        0.5771287725332539
+      ],
+      "strictly_convex": true
+    },
+    {
+      "panel": 12,
+      "area": 1.6070665835203486,
+      "max_plane_distance": 1.249000902703301e-16,
+      "unit_normal": [
+        -0.7460497826487789,
+        -0.3321627639034351,
+        0.5771287725332542
+      ],
+      "strictly_convex": true
+    },
+    {
+      "panel": 13,
+      "area": 1.607066583520349,
+      "max_plane_distance": 1.6653345369377348e-16,
+      "unit_normal": [
+        0.7460497826487787,
+        0.33216276390343497,
+        0.5771287725332543
+      ],
+      "strictly_convex": true
+    },
+    {
+      "panel": 14,
+      "area": 1.6070665835203486,
+      "max_plane_distance": 2.7755575615628914e-16,
+      "unit_normal": [
+        -0.567294951729529,
+        -0.5874511193762854,
+        0.5771287725332542
+      ],
+      "strictly_convex": true
+    },
+    {
+      "panel": 15,
+      "area": 1.6070665835203486,
+      "max_plane_distance": 5.551115123125783e-17,
+      "unit_normal": [
+        0.567294951729529,
+        0.5874511193762855,
+        0.5771287725332541
+      ],
+      "strictly_convex": true
+    },
+    {
+      "panel": 16,
+      "area": 1.6070665835203495,
+      "max_plane_distance": 8.326672684688674e-17,
+      "unit_normal": [
+        -0.30592365739294963,
+        -0.7571876225623213,
+        0.5771287725332543
+      ],
+      "strictly_convex": true
+    },
+    {
+      "panel": 17,
+      "area": 1.6070665835203477,
+      "max_plane_distance": 5.551115123125783e-17,
+      "unit_normal": [
+        0.3059236573929499,
+        0.7571876225623221,
+        0.5771287725332531
+      ],
+      "strictly_convex": true
+    },
+    {
+      "panel": 18,
+      "area": 1.6070665835203488,
+      "max_plane_distance": 2.6356211619108868e-17,
+      "unit_normal": [
+        -1.0578460307060109e-16,
+        -0.8166531576589042,
+        0.5771287725332541
+      ],
+      "strictly_convex": true
+    },
+    {
+      "panel": 19,
+      "area": 1.6070665835203504,
+      "max_plane_distance": 3.5408018493129366e-17,
+      "unit_normal": [
+        1.0001116755405552e-16,
+        0.8166531576589037,
+        0.577128772533255
+      ],
+      "strictly_convex": true
+    },
+    {
+      "panel": 20,
+      "area": 1.6070665835203488,
+      "max_plane_distance": 2.3592239273284576e-16,
+      "unit_normal": [
+        0.3059236573929503,
+        -0.7571876225623212,
+        0.5771287725332542
+      ],
+      "strictly_convex": true
+    },
+    {
+      "panel": 21,
+      "area": 1.6070665835203484,
+      "max_plane_distance": 1.6653345369377348e-16,
+      "unit_normal": [
+        -0.3059236573929503,
+        0.7571876225623213,
+        0.5771287725332541
+      ],
+      "strictly_convex": true
+    },
+    {
+      "panel": 22,
+      "area": 1.6070665835203477,
+      "max_plane_distance": 5.551115123125783e-17,
+      "unit_normal": [
+        0.5672949517295295,
+        -0.5874511193762855,
+        0.5771287725332536
+      ],
+      "strictly_convex": true
+    },
+    {
+      "panel": 23,
+      "area": 1.6070665835203473,
+      "max_plane_distance": 1.1796119636642288e-16,
+      "unit_normal": [
+        -0.5672949517295298,
+        0.5874511193762858,
+        0.577128772533253
+      ],
+      "strictly_convex": true
+    },
+    {
+      "panel": 24,
+      "area": 1.6070665835203504,
+      "max_plane_distance": 1.8041124150158794e-16,
+      "unit_normal": [
+        0.7460497826487783,
+        -0.3321627639034346,
+        0.5771287725332551
+      ],
+      "strictly_convex": true
+    }
+  ],
+  "schema_version": 1,
+  "scope": "기본 24개 평면 패널의 좌표·위상 검사. Blender modifier 결과 검사는 미실행.",
+  "units": "장면 단위 및 장면 단위의 제곱. 실물 단위로 환산하지 않음.",
+  "source_sha256": "20597c50b617d709b3153999f969f6748191d105ee613bc575f24cc5129a78d8",
+  "geometry_sha256": "53c23ead1b18b1c9da4b753ba5a13144307594c3267c2a064edd58a01fb99413",
+  "parameters": {
+    "N": 24,
+    "start": -0.3141592653589793,
+    "sweep": 4.60766922526503,
+    "inner": 0.72,
+    "outer": 3.2,
+    "slope": 0.27
+  },
+  "tolerances": {
+    "distance": 1e-09,
+    "area": 1e-09
+  },
+  "unrun_checks": [
+    {
+      "check": "solidify_bevel_mesh_closed_manifold",
+      "status": "not_run"
+    },
+    {
+      "check": "solidify_bevel_mesh_positive_signed_volume",
+      "status": "not_run"
+    },
+    {
+      "check": "solidify_bevel_mesh_ground_penetration",
+      "status": "not_run"
+    }
+  ],
+  "unrun_reason": "Blender 실행이 종료 코드 137로 중단되어 .blend 및 modifier 적용 메시가 생성되지 않음. 이 검증기는 Blender를 실행하지 않음.",
+  "limitations": [
+    "status는 실행한 기본 표면 검사만의 결과이며 최종 Blender 메시의 통과를 뜻하지 않음.",
+    "기본 표면은 경계가 있는 두께 없는 메시이다. 닫힌 입체나 양의 부피라고 주장하지 않음.",
+    "전역 자기 교차, 그림자의 광학적 정확성, SVG 가림 순서 및 렌더 품질은 이 검사 범위가 아님.",
+    "종이 물성, 접힘 과정, 응력, 안정성, 실물 제작 가능성 및 물리 시뮬레이션은 검증하지 않음."
+  ]
+}

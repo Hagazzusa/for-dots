@@ -13,6 +13,7 @@
 
 | 프로젝트 | 시작 안내 | 실행 환경 |
 |---|---|---|
+| **햇빛의 주름 · 보류 연구** — 황금빛 방사형 패널의 평면성·투영과 바닥 그림자 | [SVG·PNG·기하·검사 안내](projects/folds-of-daylight/README.md) | Python·NumPy·Inkscape의 두께 없는 면 투영 결과입니다. Blender 제작은 종료 코드 137로 완료하지 못해 .blend·Blender 렌더가 없으며, 대체 벡터 결과도 완성 작품으로 채택하지 않았습니다. 재료·접힘·제조 검증은 아닙니다. |
 | **떠나기 전에 한 번 · 종이 퍼즐 시제품** — 떠날 칸의 화살표를 돌리고 돌아와 바뀐 길을 쓰는 세 문제 | [문제지·재사용 판 PDF](projects/turn-before-leaving/output/pdf/Before-You-Leave.pdf) · [별도 해설 PDF](projects/turn-before-leaving/output/pdf/Before-You-Leave-Solutions.pdf) · [규칙·제작·독립 검사](projects/turn-before-leaving/README.md) | Python·ReportLab. 최단 4·8·12회와 70개 상태·87개 전이를 대조했습니다. 실물 인쇄·플레이테스트 전 시제품이며 체감 난이도·재미는 미검증입니다. |
 | **삼등 상품** — 사생대회의 상품 우산을 두고 흥정하는 두 친구 | [4쪽 PDF](projects/third-prize/output/pdf/Third-Prize.pdf) · [텍스트](projects/third-prize/output/text/Third-Prize.txt) · [원문·조판·검사 안내](projects/third-prize/README.md) | 완성된 독립 짧은 소설. 원문 일치·글꼴·페이지 경계·같은 환경의 재생성을 검사했으며 실제 인쇄·외부 독자 반응·낭독 실연은 확인하지 않았습니다. |
 | **물살을 가로질러** — 빽빽한 청록 선을 비스듬히 건너는 주홍 물고기 | [PNG](projects/across-the-current/output/Across-the-Current.png) · [편집 가능한 SVG·제작·검사 안내](projects/across-the-current/README.md) | Python·Inkscape로 직접 만든 독립 벡터 그래픽. SVG·PNG의 동일 바이트 재생성을 확인했으며 실물 인쇄·유체 역학 검증은 아닙니다. |

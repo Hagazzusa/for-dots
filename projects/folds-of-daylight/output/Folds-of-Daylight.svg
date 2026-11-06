@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="1400" viewBox="0 0 1400 1400" role="img" aria-labelledby="title desc">
+<title id="title">햇빛의 주름</title>
+<desc id="desc">청회색 바탕에 황금빛 접힌 부채꼴 면이 펼쳐지고 바깥쪽으로 톱니 모양 그림자가 드리운다.</desc>
+<rect width="1400" height="1400" fill="#83a6ac"/>
+<defs><mask id="shadow" maskUnits="userSpaceOnUse" x="0" y="0" width="1400" height="1400"><rect width="1400" height="1400" fill="black"/>
+<polygon points="771.153,787.105 1004.089,969.339 1146.141,911.664 803.114,774.128" fill="white"/>
+<polygon points="803.114,774.128 1146.141,911.664 1122.399,881.475 797.773,767.335" fill="white"/>
+<polygon points="797.773,767.335 1122.399,881.475 1235.594,811.231 823.241,751.530" fill="white"/>
+<polygon points="823.241,751.530 1235.594,811.231 1179.708,772.162 810.667,742.740" fill="white"/>
+<polygon points="810.667,742.740 1179.708,772.162 1258.652,697.056 828.430,725.841" fill="white"/>
+<polygon points="828.430,725.841 1258.652,697.056 1167.669,657.321 807.958,716.901" fill="white"/>
+<polygon points="807.958,716.901 1167.669,657.321 1211.959,585.768 817.923,700.801" fill="white"/>
+<polygon points="817.923,700.801 1211.959,585.768 1088.036,553.675 790.041,693.580" fill="white"/>
+<polygon points="790.041,693.580 1088.036,553.675 1102.313,493.573 793.253,680.058" fill="white"/>
+<polygon points="793.253,680.058 1102.313,493.573 952.406,476.320 759.524,676.175" fill="white"/>
+<polygon points="759.524,676.175 952.406,476.320 945.683,433.899 758.011,666.631" fill="white"/>
+<polygon points="758.011,666.631 945.683,433.899 780.531,436.519 720.852,667.220" fill="white"/>
+<polygon points="720.852,667.220 780.531,436.519 764.879,415.435 717.330,662.476" fill="white"/>
+<polygon points="717.330,662.476 764.879,415.435 597.442,440.071 679.657,668.019" fill="white"/>
+<polygon points="679.657,668.019 597.442,440.071 586.232,440.871 677.135,668.200" fill="white"/>
+<polygon points="677.135,668.200 586.232,440.871 429.802,486.457 641.938,678.456" fill="white"/>
+<polygon points="641.938,678.456 429.802,486.457 435.758,506.503 643.278,682.967" fill="white"/>
+<polygon points="643.278,682.967 435.758,506.503 302.025,568.922 613.188,697.011" fill="white"/>
+<polygon points="613.188,697.011 302.025,568.922 335.373,602.771 620.692,704.627" fill="white"/>
+<polygon points="620.692,704.627 335.373,602.771 232.719,675.456 597.595,720.981" fill="white"/>
+<polygon points="597.595,720.981 232.719,675.456 299.694,715.657 612.664,730.026" fill="white"/>
+<polygon points="612.664,730.026 299.694,715.657 231.979,790.545 597.428,746.876" fill="white"/>
+<polygon points="597.428,746.876 231.979,790.545 333.918,828.721 620.364,755.466" fill="white"/>
+<polygon points="620.364,755.466 333.918,828.721 299.910,897.429 612.713,770.925" fill="white"/>
+</mask></defs>
+<rect width="1400" height="1400" fill="#25474d" opacity="0.37" mask="url(#shadow)"/>
+<polygon id="panel-13" points="717.326,663.354 777.005,432.653 685.188,328.066 696.667,639.822" fill="#986723" stroke="#986723" stroke-width="0.6" stroke-linejoin="round"/>
+<polygon id="panel-14" points="696.667,639.822 685.188,328.066 593.916,436.205 676.131,664.154" fill="#eea137" stroke="#eea137" stroke-width="0.6" stroke-linejoin="round"/>
+<polygon id="panel-12" points="737.348,643.977 865.992,346.530 777.005,432.653 717.326,663.354" fill="#e99d35" stroke="#e99d35" stroke-width="0.6" stroke-linejoin="round"/>
+<polygon id="panel-15" points="676.131,664.154 593.916,436.205 506.541,353.502 656.472,645.545" fill="#926321" stroke="#926321" stroke-width="0.6" stroke-linejoin="round"/>
+<polygon id="panel-11" points="755.998,672.310 948.880,472.454 865.992,346.530 737.348,643.977" fill="#a36e25" stroke="#a36e25" stroke-width="0.6" stroke-linejoin="round"/>
+<polygon id="panel-16" points="656.472,645.545 506.541,353.502 426.276,482.591 638.412,674.590" fill="#eda036" stroke="#eda036" stroke-width="0.6" stroke-linejoin="round"/>
+<polygon id="panel-10" points="772.590,657.403 1022.623,406.204 948.880,472.454 755.998,672.310" fill="#dd9633" stroke="#dd9633" stroke-width="0.6" stroke-linejoin="round"/>
+<polygon id="panel-17" points="638.412,674.590 426.276,482.591 356.068,419.133 622.615,660.312" fill="#946422" stroke="#946422" stroke-width="0.6" stroke-linejoin="round"/>
+<polygon id="panel-9" points="786.515,689.715 1084.510,549.809 1022.623,406.204 772.590,657.403" fill="#b37929" stroke="#b37929" stroke-width="0.6" stroke-linejoin="round"/>
+<polygon id="panel-18" points="622.615,660.312 356.068,419.133 298.499,565.056 609.662,693.145" fill="#e59b35" stroke="#e59b35" stroke-width="0.6" stroke-linejoin="round"/>
+<polygon id="panel-8" points="797.260,678.147 1132.269,498.398 1084.510,549.809 786.515,689.715" fill="#663614" stroke="#663614" stroke-width="0.6" stroke-linejoin="round"/>
+<polygon id="panel-19" points="609.662,693.145 298.499,565.056 255.683,515.402 600.029,681.973" fill="#663614" stroke="#663614" stroke-width="0.6" stroke-linejoin="round"/>
+<polygon id="panel-7" points="804.432,713.035 1164.143,653.455 1132.269,498.398 797.260,678.147" fill="#c4852d" stroke="#c4852d" stroke-width="0.6" stroke-linejoin="round"/>
+<polygon id="panel-20" points="600.029,681.973 255.683,515.402 229.193,671.590 594.068,717.115" fill="#d89232" stroke="#d89232" stroke-width="0.6" stroke-linejoin="round"/>
+<polygon id="panel-6" points="807.767,703.187 1178.962,609.687 1164.143,653.455 804.432,713.035" fill="#663614" stroke="#663614" stroke-width="0.6" stroke-linejoin="round"/>
+<polygon id="panel-21" points="594.068,717.115 229.193,671.590 220.004,628.288 592.001,707.372" fill="#663614" stroke="#663614" stroke-width="0.6" stroke-linejoin="round"/>
+<polygon id="panel-5" points="807.141,738.874 1176.182,768.296 1178.962,609.687 807.767,703.187" fill="#d59031" stroke="#d59031" stroke-width="0.6" stroke-linejoin="round"/>
+<polygon id="panel-22" points="592.001,707.372 220.004,628.288 228.452,786.680 593.902,743.010" fill="#c8872e" stroke="#c8872e" stroke-width="0.6" stroke-linejoin="round"/>
+<polygon id="panel-4" points="802.578,728.876 1155.904,723.861 1176.182,768.296 807.141,738.874" fill="#663614" stroke="#663614" stroke-width="0.6" stroke-linejoin="round"/>
+<polygon id="panel-23" points="593.902,743.010 228.452,786.680 254.228,741.351 599.701,732.811" fill="#663614" stroke="#663614" stroke-width="0.6" stroke-linejoin="round"/>
+<polygon id="panel-3" points="794.246,763.469 1118.873,877.609 1155.904,723.861 802.578,728.876" fill="#e39a34" stroke="#e39a34" stroke-width="0.6" stroke-linejoin="round"/>
+<polygon id="panel-24" points="599.701,732.811 254.228,741.351 296.384,893.563 609.186,767.059" fill="#b67b2a" stroke="#b67b2a" stroke-width="0.6" stroke-linejoin="round"/>
+<polygon id="panel-2" points="782.451,751.474 1066.451,824.295 1118.873,877.609 794.246,763.469" fill="#663614" stroke="#663614" stroke-width="0.6" stroke-linejoin="round"/>
+<polygon id="panel-1" points="767.627,783.239 1000.563,965.473 1066.451,824.295 782.451,751.474" fill="#eca036" stroke="#eca036" stroke-width="0.6" stroke-linejoin="round"/>
+</svg>
