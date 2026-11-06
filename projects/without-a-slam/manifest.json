@@ -1,0 +1,54 @@
+{
+  "files": [
+    {
+      "path": ".gitignore",
+      "bytes": 13,
+      "sha256": "32dae3052f331ee34d628ef535709b301259a45df7c7522c4d35dcf49873f00b"
+    },
+    {
+      "path": "FONT_LICENSE.txt",
+      "bytes": 14712,
+      "sha256": "849f4ea9c214fa4ac3593b770c699f387534b11ce671264c1b10d85bdcb5997b"
+    },
+    {
+      "path": "README.md",
+      "bytes": 2978,
+      "sha256": "e252497e9e566fc0927bbf47aaf99e6e964a386932c54dc155cedbcb885ec078"
+    },
+    {
+      "path": "build_pdf.py",
+      "bytes": 2126,
+      "sha256": "8d81a7796a43aa1903fae36c32e00fb751cf4a6fde1d91697469c08434208ba0"
+    },
+    {
+      "path": "font_support.py",
+      "bytes": 2883,
+      "sha256": "1c208b1ea32a6482f2bcf1e4de6ecc899f6ddffa59d62052edfc726bb92676eb"
+    },
+    {
+      "path": "output/pdf/Without-a-Slam.pdf",
+      "bytes": 56619,
+      "sha256": "dd5169510ca5e393aff01823c636b778fb8e26edd7dd6cad3fbe4e973653f7e2"
+    },
+    {
+      "path": "output/text/Without-a-Slam.txt",
+      "bytes": 3470,
+      "sha256": "397a3302b3e5300a34aa17d5238d9672cf160b63a4871cab7eee0e66bb7998df"
+    },
+    {
+      "path": "play.txt",
+      "bytes": 3470,
+      "sha256": "397a3302b3e5300a34aa17d5238d9672cf160b63a4871cab7eee0e66bb7998df"
+    },
+    {
+      "path": "qa.json",
+      "bytes": 808,
+      "sha256": "5495049c6ce8507a71d8486dbacf61bf485979c42c52e5e700023cfa9bef566d"
+    },
+    {
+      "path": "verify.py",
+      "bytes": 2069,
+      "sha256": "d17f13112762e5792463a5c3b834dca0984e9e7e8f9916884d0e1f1c6db92b79"
+    }
+  ]
+}

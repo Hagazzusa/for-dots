@@ -14,8 +14,8 @@
     },
     {
       "path": "GALLERY.md",
-      "size": 39434,
-      "sha256": "0eec20b55b76f8375d11826a28691a2d56050b75662feed499b85066f1482a29"
+      "size": 39930,
+      "sha256": "40519e01557209c27ee858446a0dc941103d3db50311b4c81753d5d171f00628"
     },
     {
       "path": "GIT_ENVIRONMENT_CHECK.md",
@@ -24,8 +24,8 @@
     },
     {
       "path": "README.md",
-      "size": 44818,
-      "sha256": "b86403f38ac108b9bb3d0dd7a3b473c9ec585b81c78df7fc5a9e0619de9271be"
+      "size": 45271,
+      "sha256": "cfc77b54db08db1bb5b472bd77fb27f2ba72b3653dd5750ae6cb26785b58da98"
     },
     {
       "path": "WORLD_CONNECTIONS.md",
@@ -9331,6 +9331,61 @@
       "path": "projects/window-rhythms/window_rhythms_preview.mp3",
       "size": 609068,
       "sha256": "48071b6276c4ce4014c7d77c1ccdecc258410d2e2373b286e48740738b7fa05b"
+    },
+    {
+      "path": "projects/without-a-slam/.gitignore",
+      "size": 13,
+      "sha256": "32dae3052f331ee34d628ef535709b301259a45df7c7522c4d35dcf49873f00b"
+    },
+    {
+      "path": "projects/without-a-slam/FONT_LICENSE.txt",
+      "size": 14712,
+      "sha256": "849f4ea9c214fa4ac3593b770c699f387534b11ce671264c1b10d85bdcb5997b"
+    },
+    {
+      "path": "projects/without-a-slam/README.md",
+      "size": 2978,
+      "sha256": "e252497e9e566fc0927bbf47aaf99e6e964a386932c54dc155cedbcb885ec078"
+    },
+    {
+      "path": "projects/without-a-slam/build_pdf.py",
+      "size": 2126,
+      "sha256": "8d81a7796a43aa1903fae36c32e00fb751cf4a6fde1d91697469c08434208ba0"
+    },
+    {
+      "path": "projects/without-a-slam/font_support.py",
+      "size": 2883,
+      "sha256": "1c208b1ea32a6482f2bcf1e4de6ecc899f6ddffa59d62052edfc726bb92676eb"
+    },
+    {
+      "path": "projects/without-a-slam/manifest.json",
+      "size": 1514,
+      "sha256": "603d50c4f346bc09235e9bf3cc0378c64c865974ab5f1982b3fac5267358bcee"
+    },
+    {
+      "path": "projects/without-a-slam/output/pdf/Without-a-Slam.pdf",
+      "size": 56619,
+      "sha256": "dd5169510ca5e393aff01823c636b778fb8e26edd7dd6cad3fbe4e973653f7e2"
+    },
+    {
+      "path": "projects/without-a-slam/output/text/Without-a-Slam.txt",
+      "size": 3470,
+      "sha256": "397a3302b3e5300a34aa17d5238d9672cf160b63a4871cab7eee0e66bb7998df"
+    },
+    {
+      "path": "projects/without-a-slam/play.txt",
+      "size": 3470,
+      "sha256": "397a3302b3e5300a34aa17d5238d9672cf160b63a4871cab7eee0e66bb7998df"
+    },
+    {
+      "path": "projects/without-a-slam/qa.json",
+      "size": 808,
+      "sha256": "5495049c6ce8507a71d8486dbacf61bf485979c42c52e5e700023cfa9bef566d"
+    },
+    {
+      "path": "projects/without-a-slam/verify.py",
+      "size": 2069,
+      "sha256": "d17f13112762e5792463a5c3b834dca0984e9e7e8f9916884d0e1f1c6db92b79"
     },
     {
       "path": "projects/word-ring/.gitignore",

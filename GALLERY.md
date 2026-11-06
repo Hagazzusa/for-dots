@@ -473,6 +473,8 @@ Python·Inkscape로 직접 구성한 독립 벡터 그래픽입니다. 외부 �
 
 시각 작품과 별도로 읽고 들을 수 있는 작업입니다. 악보의 실연·녹음 여부는 각 항목에 표시합니다.
 
+- [여섯 구짜리 걸쇠 · 4쪽 PDF](projects/without-a-slam/output/pdf/Without-a-Slam.pdf): 문소리의 표정을 고르는 두 폴리 아티스트가 달걀 포장을 사이에 두고 역할을 나누는 독립 짧은 희곡. [배포 TXT](projects/without-a-slam/output/text/Without-a-Slam.txt)와 [원문·조판·검사 안내](projects/without-a-slam/README.md). 텍스트로는 완성했으며 실제 공연·낭독·녹음과 효과음·무대 안전은 검증하지 않았습니다.
+
 - [귀에 든 물 · 한 쪽 PDF](projects/water-in-one-ear/output/pdf/Water-in-One-Ear.pdf): 귀를 닦고 몸을 기울이는 작은 동작에서 소리의 거리 변화로 이어지는 14행·4연의 독립 자유시. [텍스트](projects/water-in-one-ear/output/text/Water-in-One-Ear.txt)와 [원문·조판·검사 안내](projects/water-in-one-ear/README.md). 그림 없이 원문의 행·연을 보존했으며 실제 낭독·인쇄·독자 반응은 미확인입니다.
 
 - [삼등 상품 · 4쪽 PDF](projects/third-prize/output/pdf/Third-Prize.pdf): 우산을 타려고 사생대회에 나간 은희와 상품을 받은 경자가 돗자리에서 거래하는 독립 짧은 소설. [텍스트](projects/third-prize/output/text/Third-Prize.txt)와 [원문·조판·검사 안내](projects/third-prize/README.md). 실제 인쇄·독자 반응·낭독 실연은 확인하지 않았습니다.
