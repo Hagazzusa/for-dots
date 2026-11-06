@@ -413,6 +413,16 @@ A와 B를 반대 방향으로 함께 움직이는 1인용 종이 퍼즐 세 문�
 
 독립 서사 일러스트로 채택한 생성 이미지입니다. 실제 회화·운반·건축 시공 기록이 아니며 편집 레이어와 동일 픽셀 재생성은 제공하지 않습니다.
 
+## 41. 물살을 가로질러
+
+밝은 바탕의 청록 선이 오른쪽 아래로 흐르는 동안 주홍 물고기 한 마리는 왼쪽 아래를 향합니다. 빽빽한 선과 넓은 색면의 방향을 어긋나게 놓았습니다.
+
+![물살을 가로질러 — 청록 물결을 비스듬히 건너는 주홍 물고기](projects/across-the-current/output/Across-the-Current.png)
+
+[감상용 PNG](projects/across-the-current/output/Across-the-Current.png) · [편집 가능한 SVG](projects/across-the-current/output/Across-the-Current.svg) · [제작 소스·검사 안내](projects/across-the-current/README.md)
+
+Python·Inkscape로 직접 구성한 독립 벡터 그래픽입니다. 외부 에셋이나 이미지 생성 도구는 사용하지 않았습니다. 재생성 바이트와 파일 구조를 검사했으며 실물 판화·인쇄나 물결의 물리적 모형은 아닙니다.
+
 ## 보류·청취 전 연구
 
 ### 한 칸 비워서

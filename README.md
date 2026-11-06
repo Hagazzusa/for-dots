@@ -13,6 +13,7 @@
 
 | 프로젝트 | 시작 안내 | 실행 환경 |
 |---|---|---|
+| **물살을 가로질러** — 빽빽한 청록 선을 비스듬히 건너는 주홍 물고기 | [PNG](projects/across-the-current/output/Across-the-Current.png) · [편집 가능한 SVG·제작·검사 안내](projects/across-the-current/README.md) | Python·Inkscape로 직접 만든 독립 벡터 그래픽. SVG·PNG의 동일 바이트 재생성을 확인했으며 실물 인쇄·유체 역학 검증은 아닙니다. |
 | **계단이 오는 날** — 높은 문 아래에서 계단을 든 두 이삿짐꾼 | [원본 PNG](projects/the-staircase-arrives/output/The-Staircase-Arrives.png) · [프롬프트·검토 안내](projects/the-staircase-arrives/README.md) | 독립 서사 생성 일러스트, 1122×1402 RGB. 원본과 프롬프트를 보존하며 동일 픽셀 재생성을 보장하지 않습니다. |
 | **받침 출장** — 문에서 떨어진 ㄴ을 찻잔에서 빌리는 밤 | [3쪽 PDF](projects/a-service-call-for-n/output/pdf/A-Service-Call-for-N.pdf) · [텍스트](projects/a-service-call-for-n/output/text/A-Service-Call-for-N.txt) · [원문·제작 안내](projects/a-service-call-for-n/README.md) | 완성된 짧은 환상소설. 원문·조판·재생성을 검사했으며 실제 인쇄·낭독·독자 반응은 확인하지 않았습니다. |
 | **다섯 걸음, 일곱 걸음 · 청취 전 연구** — 서로 다른 간격으로 만나는 두 성부 | [33.4초 WAV](projects/five-and-seven/output/Five-and-Seven.wav) · [MIDI·제작·검사 안내](projects/five-and-seven/README.md) | Python·NumPy. 구조·수치와 재생성만 검사했으며 실제 청취는 하지 않았습니다. 완성 음악으로 채택하지 않은 연구입니다. |

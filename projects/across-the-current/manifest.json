@@ -1,0 +1,39 @@
+{
+  "files": [
+    {
+      "path": ".gitignore",
+      "bytes": 13,
+      "sha256": "32dae3052f331ee34d628ef535709b301259a45df7c7522c4d35dcf49873f00b"
+    },
+    {
+      "path": "README.md",
+      "bytes": 2484,
+      "sha256": "6bac0c2bd57e5defa5871abb497c7dc00aac4c0b41bee32bde2e5f420b9577ca"
+    },
+    {
+      "path": "build.py",
+      "bytes": 2346,
+      "sha256": "7b98c44ab1a353ad6b1a5489e4de3aee8cc0aeda3ae41376eeda8d520788c6a0"
+    },
+    {
+      "path": "output/Across-the-Current.png",
+      "bytes": 683340,
+      "sha256": "63969b762ec7832cc6e167af65adcc93afddb27154e7bb0a3947f0390af83926"
+    },
+    {
+      "path": "output/Across-the-Current.svg",
+      "bytes": 317145,
+      "sha256": "114cc413f43c67f7624182485829f0fa24e010d01dea4aea62a52a18ef1fb081"
+    },
+    {
+      "path": "qa.json",
+      "bytes": 536,
+      "sha256": "2638d7b17ad7d09b4f21a5fbd2f033ca06d42acc9e4d828b5403c36b41c8db19"
+    },
+    {
+      "path": "verify.py",
+      "bytes": 835,
+      "sha256": "4e770b3e11994b112a8b5ad967859e3bdc06b1f5b20ce8aff4863c6788fe946c"
+    }
+  ]
+}

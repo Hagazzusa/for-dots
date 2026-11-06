@@ -14,8 +14,8 @@
     },
     {
       "path": "GALLERY.md",
-      "size": 33945,
-      "sha256": "e30e14f02617d09f8d9121cd0e2f9ee297445e7230035e3da5fcf0b08fa3e351"
+      "size": 34836,
+      "sha256": "b0ba549f79b3229caf1783c96193e12bc8bf7973a1a09a313978a010a62f59f7"
     },
     {
       "path": "GIT_ENVIRONMENT_CHECK.md",
@@ -24,8 +24,8 @@
     },
     {
       "path": "README.md",
-      "size": 40352,
-      "sha256": "52cd720d9ef23c6ed06d204bb6cea80a5fcac3cc2c7a824c51af3f69a2508e80"
+      "size": 40778,
+      "sha256": "6cbba753db79fabda7bbc0b36b5d9ee2af384e3580676713d95f40b651cde2b7"
     },
     {
       "path": "WORLD_CONNECTIONS.md",
@@ -466,6 +466,46 @@
       "path": "projects/a-service-call-for-n/verify.py",
       "size": 10650,
       "sha256": "ed1ead9a3d8058f9be0748a1a3d2a5caf4d6d61f0b7501d952482aa939b7a38a"
+    },
+    {
+      "path": "projects/across-the-current/.gitignore",
+      "size": 13,
+      "sha256": "32dae3052f331ee34d628ef535709b301259a45df7c7522c4d35dcf49873f00b"
+    },
+    {
+      "path": "projects/across-the-current/README.md",
+      "size": 2484,
+      "sha256": "6bac0c2bd57e5defa5871abb497c7dc00aac4c0b41bee32bde2e5f420b9577ca"
+    },
+    {
+      "path": "projects/across-the-current/build.py",
+      "size": 2346,
+      "sha256": "7b98c44ab1a353ad6b1a5489e4de3aee8cc0aeda3ae41376eeda8d520788c6a0"
+    },
+    {
+      "path": "projects/across-the-current/manifest.json",
+      "size": 1066,
+      "sha256": "ea524f8e0e6db9350d98a0d15ce41eaeea34cca4c77f2d672af3665992e0be7c"
+    },
+    {
+      "path": "projects/across-the-current/output/Across-the-Current.png",
+      "size": 683340,
+      "sha256": "63969b762ec7832cc6e167af65adcc93afddb27154e7bb0a3947f0390af83926"
+    },
+    {
+      "path": "projects/across-the-current/output/Across-the-Current.svg",
+      "size": 317145,
+      "sha256": "114cc413f43c67f7624182485829f0fa24e010d01dea4aea62a52a18ef1fb081"
+    },
+    {
+      "path": "projects/across-the-current/qa.json",
+      "size": 536,
+      "sha256": "2638d7b17ad7d09b4f21a5fbd2f033ca06d42acc9e4d828b5403c36b41c8db19"
+    },
+    {
+      "path": "projects/across-the-current/verify.py",
+      "size": 835,
+      "sha256": "4e770b3e11994b112a8b5ad967859e3bdc06b1f5b20ce8aff4863c6788fe946c"
     },
     {
       "path": "projects/after-the-flowers/README.md",
