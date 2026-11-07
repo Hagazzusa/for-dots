@@ -2,13 +2,23 @@
   "files": [
     {
       "path": "README.md",
-      "bytes": 3047,
-      "sha256": "8a01f83e098b6b16ec0bb45b4da64cb59f07cf97de802b54f9ed6c8c7ca3a92c"
+      "bytes": 3864,
+      "sha256": "1c51a2e435cc42de78b3866f5b5d11e658447924001757230efcb9ee6d8da128"
     },
     {
       "path": "edit_prompt.txt",
       "bytes": 1418,
       "sha256": "d806232897a9bfc22fde0c8ba500bf4d65225163f14b5a344acb299458ad606e"
+    },
+    {
+      "path": "grip_prompt.txt",
+      "bytes": 2829,
+      "sha256": "2d1459869eedc8ef1a902161646afd449ec22d51ec32adb1a8a99b1d2dc51d46"
+    },
+    {
+      "path": "output/Across-the-Chalk-One-Grip.png",
+      "bytes": 3017373,
+      "sha256": "d1df6c4ffe8f5cf9bcf8cdfc291d26388a57cfa71109c04b8129faac83a32377"
     },
     {
       "path": "prompt.txt",
@@ -17,8 +27,8 @@
     },
     {
       "path": "qa.json",
-      "bytes": 890,
-      "sha256": "b482752bcdec13b5d03c6d00916d688beb081923af4b7a9412d1799a2ea84c5f"
+      "bytes": 1815,
+      "sha256": "86bd6e8dd77f1f995bb8c5fcb2b165c1889bb4779d67905e205b2eee75d1b583"
     },
     {
       "path": "study/Across-the-Chalk.png",
@@ -32,8 +42,8 @@
     },
     {
       "path": "verify.py",
-      "bytes": 691,
-      "sha256": "997f28ab1ff37f5380f0db552b7673c9dbaf71a53c60ee2fb91e11d32a232869"
+      "bytes": 1283,
+      "sha256": "84e1ffff6a9adbd1f859caed2a25a3030a9e3c187dcbd3c75f5019ea88f08e42"
     }
   ]
 }

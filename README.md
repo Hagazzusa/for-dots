@@ -13,7 +13,7 @@
 
 | 프로젝트 | 시작 안내 | 실행 환경 |
 |---|---|---|
-| **분필선 너머 · 보류 연구** — 꽃잎을 나르는 네 개미와 가로지르는 분필선 | [수정 연구 PNG](projects/across-the-chalk/study/Across-the-Chalk.png) · [초안·지시문·검토 범위](projects/across-the-chalk/README.md) | 이미지 생성 도구의 1536×1024 RGB PNG 두 장. 횡단 구도는 개선됐지만 가운데 개미의 턱과 꽃잎 접점이 불명확하여 완성 작품으로 선정하지 않았습니다. 동일 픽셀 재생성·생물학적 정확성·실물 인쇄·관객 반응은 미검증입니다. |
+| **분필선 너머** — 꽃잎 끝을 물고 흰 선을 건너는 개미 한 마리 | [선정 PNG](projects/across-the-chalk/output/Across-the-Chalk-One-Grip.png) · [이전 연구·지시문·검토 범위](projects/across-the-chalk/README.md) | 연필·과슈·수채화풍 생성 일러스트, 1536×1024 RGB. 명료한 턱과 꽃잎 접점으로 새 대안을 선정했고, 이전 연구 두 장은 바이트 그대로 보존했습니다. 생물학적 정확성·실물 인쇄·동일 픽셀 재생성은 미검증입니다. |
 | **여섯 구짜리 걸쇠** — 화내지 않고 나가는 문소리를 찾는 두 폴리 아티스트 | [4쪽 PDF](projects/without-a-slam/output/pdf/Without-a-Slam.pdf) · [원문·조판·검사 안내](projects/without-a-slam/README.md) | 완성된 독립 짧은 희곡 텍스트. 원문·글꼴·페이지 경계·동일 환경 재생성을 검사했습니다. 실제 공연·낭독·녹음·무대 안전·관객 반응은 미검증입니다. |
 | **모서리를 맡은 사람들** — 젖은 시트를 거는 두 사람의 샌들과 맨발 | [원본 PNG](projects/the-held-corners/output/The-Held-Corners.png) · [생성 지시문·검토 안내](projects/the-held-corners/README.md) | 파스텔·과슈풍 생성 일러스트, 1536×1024 RGB. 원본을 후처리 없이 보존하며 실물 회화·직물 시뮬레이션은 아닙니다. 동일 픽셀 재생성·인쇄·관객 반응은 미검증입니다. |
 | **가만한 바닥 · 절차적 빛 연구** — 지정한 수면을 통과한 굴절광 밀도의 변화 | [정지 PNG](projects/a-still-floor/output/A-Still-Floor.png) · [10초 무성 영상](projects/a-still-floor/output/A-Still-Floor.mp4) · [모델·소스·검사 범위](projects/a-still-floor/README.md) | Python·NumPy·SciPy·FFmpeg. 수면은 지정 함수이며 유체 시뮬레이션이 아닙니다. 전 프레임 디코드·표본은 검사했지만 정상 속도 전체 재생은 미확인이라 완성작이 아닌 연구로 보존합니다. |

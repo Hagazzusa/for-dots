@@ -1,7 +1,7 @@
 # 잠깐 머무는 작은 세계
 
 비를 피하는 공간, 천천히 움직이는 빛, 길가의 빈 벤치.
-이미지와 짧은 영상으로 먼저 둘러볼 수 있는 39개 작업을 골랐습니다.
+이미지와 짧은 영상으로 먼저 둘러볼 수 있는 45개 작업을 골랐습니다.
 편집 가능한 장면과 제작 소스는 각 작품의 안내에 함께 있습니다.
 
 세 정물을 이어 읽는 동반 그림책 [《비가 지나가는 동안》](projects/quiet-storybook/README.md)도 있습니다. [3쪽 PDF로 읽기](projects/quiet-storybook/While-the-Rain-Passes.pdf).
@@ -449,6 +449,16 @@ Python·Inkscape로 직접 구성한 독립 벡터 그래픽입니다. 외부 �
 
 [원본 PNG](projects/the-held-corners/output/The-Held-Corners.png) · [생성 지시문·검토 안내](projects/the-held-corners/README.md). 얼굴 대신 발과 천의 모서리가 협력의 순간을 보여 주는 파스텔·과슈풍 생성 그림입니다. 1536×1024 RGB 원본을 후처리 없이 보존합니다. 실물 회화나 직물 역학 검증은 아니며, 가려진 몸의 연결과 손발의 회화적 과장은 검토 기록에 남겼습니다.
 
+## 45. 분필선 너머
+
+개미 한 마리가 꽃잎의 좁은 끝을 물고, 사람이 그어 놓은 흰 선을 건넙니다. 입 앞의 작은 접점에서 넓은 분홍색이 펼쳐집니다.
+
+![분필선 너머 — 꽃잎 끝을 문 개미 한 마리가 평평한 분필선을 가로지른다](projects/across-the-chalk/output/Across-the-Chalk-One-Grip.png)
+
+[선정 원본 PNG](projects/across-the-chalk/output/Across-the-Chalk-One-Grip.png) · [생성 지시문·이전 연구·검토 안내](projects/across-the-chalk/README.md)
+
+네 마리의 불명확한 접점을 한 마리의 명료한 턱 접촉으로 바꾸어 선정한 독립 일러스트입니다. 공동 운반 대신 한 몸의 횡단에 집중했습니다. 연필·과슈·수채화풍 생성 원본이며 실제 곤충 관찰이나 생물학적 정확성을 검증한 자료가 아닙니다.
+
 ## 종이 퍼즐 시제품 · 떠나기 전에 한 번
 
 현재 칸의 화살표를 그대로 두거나 한 번 돌린 뒤 움직입니다. 회전은 다섯 번까지, 바뀐 방향은 남습니다. 같은 칸에 돌아가는 행동으로 다음 길을 만드는 세 문제입니다.
@@ -459,11 +469,9 @@ Python·Inkscape로 직접 구성한 독립 벡터 그래픽입니다. 외부 �
 
 ## 보류·청취 전 연구
 
-### 분필선 너머 · 보류 연구
+### 분필선 너머 · 이전 연구
 
-![분필선 너머 — 분홍 꽃잎을 나르는 네 개미와 진행 방향을 가로지르는 분필선의 수정 연구](projects/across-the-chalk/study/Across-the-Chalk.png)
-
-[수정 연구 PNG](projects/across-the-chalk/study/Across-the-Chalk.png) · [초안·생성 지시문·검토 기록](projects/across-the-chalk/README.md). 분필선을 건너는 구도는 개선됐지만 가운데 두 개미의 턱과 꽃잎 접점이 명확하지 않아 **완성 작품으로 선정하지 않았습니다**. 회갈색 드라이포인트·연필화풍의 생성 이미지이며, 실물 판화·생물 관찰 기록이 아닙니다. 보존된 수정본은 복구하지 못한 첫 수정 결과와 구분한 새로운 생성 결과입니다.
+[네 개미의 수정 연구](projects/across-the-chalk/study/Across-the-Chalk.png)와 [초안](projects/across-the-chalk/study/Along-the-Line.png)은 접점과 진행 방향이 불명확했던 **비채택 연구**로 그대로 보존했습니다. 위의 한 마리 완성 대안과 구분합니다. [제작·복구 이력](projects/across-the-chalk/README.md).
 
 ### 한 칸 비워서
 
