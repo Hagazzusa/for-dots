@@ -1,0 +1,31 @@
+{
+  "format": 1,
+  "algorithm": "sha256",
+  "files": [
+    {
+      "path": "README.md",
+      "bytes": 3474,
+      "sha256": "27721bf0b1254f5555b00aee38ec8abc66a0d7ed64aeae0d64005612618b5996"
+    },
+    {
+      "path": "output/A-Place-Left-Unswept.png",
+      "bytes": 3628740,
+      "sha256": "669fbb214cf9e3b12b857aad618db63cc854bd539822b7e7e28a2d246e179b8e"
+    },
+    {
+      "path": "prompt.txt",
+      "bytes": 2335,
+      "sha256": "cb59d21a62ab5573db166015b2c90825e848e26a0fbb02d8e3c4336049859a2d"
+    },
+    {
+      "path": "qa.json",
+      "bytes": 911,
+      "sha256": "756fb930fee7941502d5ea83d4f1e72e928510e3d42c0c4969b1bea15e22c15c"
+    },
+    {
+      "path": "verify.py",
+      "bytes": 1582,
+      "sha256": "df8a30b75d3cc0651766103ff989f3f8eb88582fbd6972332da998ce00b2585b"
+    }
+  ]
+}

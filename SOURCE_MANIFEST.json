@@ -14,8 +14,8 @@
     },
     {
       "path": "GALLERY.md",
-      "size": 41196,
-      "sha256": "4c8a348a80a56caa0ad1d0fb2b8c704f4bf392d254502bfb934dee953a0aec18"
+      "size": 42098,
+      "sha256": "d0d02c0af954c981266b85e529b7e7771a3188c6fe6f290c2609dd46c0d01f1e"
     },
     {
       "path": "GIT_ENVIRONMENT_CHECK.md",
@@ -24,8 +24,8 @@
     },
     {
       "path": "README.md",
-      "size": 45805,
-      "sha256": "50e0a379d2adca460b0cd08bfc81703dcbfa11e1cff27d109fe202380183934e"
+      "size": 46242,
+      "sha256": "b207f2edef55fe610f40977edca6a7533f574112d3a41061c117abd10d574f6a"
     },
     {
       "path": "WORLD_CONNECTIONS.md",
@@ -49,8 +49,8 @@
     },
     {
       "path": "projects/README.md",
-      "size": 12417,
-      "sha256": "170ae2541c694b53de21e302dd99453658cd2ed8be951a33fa3b0b93ea330e6f"
+      "size": 12618,
+      "sha256": "e0dfe3cef110a9eba18c6c64c8d8edee00bf879ea4020d9eb2fd3dc7c58ec72c"
     },
     {
       "path": "projects/VERIFICATION.md",
@@ -221,6 +221,36 @@
       "path": "projects/a-place-for-rain/verify_bundle.py",
       "size": 2900,
       "sha256": "2f66bb1fbe25e4965f1e77f7ae65ec750e5e6970f41630ca1f7c95db4d7b413b"
+    },
+    {
+      "path": "projects/a-place-left-unswept/README.md",
+      "size": 3474,
+      "sha256": "27721bf0b1254f5555b00aee38ec8abc66a0d7ed64aeae0d64005612618b5996"
+    },
+    {
+      "path": "projects/a-place-left-unswept/manifest.json",
+      "size": 803,
+      "sha256": "4f14aca7ad67b2fa3fc1daf6414444ab5e75b0c33ff3488d615743905f5cd850"
+    },
+    {
+      "path": "projects/a-place-left-unswept/output/A-Place-Left-Unswept.png",
+      "size": 3628740,
+      "sha256": "669fbb214cf9e3b12b857aad618db63cc854bd539822b7e7e28a2d246e179b8e"
+    },
+    {
+      "path": "projects/a-place-left-unswept/prompt.txt",
+      "size": 2335,
+      "sha256": "cb59d21a62ab5573db166015b2c90825e848e26a0fbb02d8e3c4336049859a2d"
+    },
+    {
+      "path": "projects/a-place-left-unswept/qa.json",
+      "size": 911,
+      "sha256": "756fb930fee7941502d5ea83d4f1e72e928510e3d42c0c4969b1bea15e22c15c"
+    },
+    {
+      "path": "projects/a-place-left-unswept/verify.py",
+      "size": 1582,
+      "sha256": "df8a30b75d3cc0651766103ff989f3f8eb88582fbd6972332da998ce00b2585b"
     },
     {
       "path": "projects/a-place-to-pause/.gitignore",

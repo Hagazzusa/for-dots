@@ -1,0 +1,25 @@
+{
+  "format": 1,
+  "title": "쓸지 않은 자리",
+  "created_on": "2026-11-11",
+  "selected_status": "완성 일러스트",
+  "image": {
+    "path": "output/A-Place-Left-Unswept.png",
+    "width": 1536,
+    "height": 1024,
+    "mode": "RGB",
+    "bytes": 3628740,
+    "sha256": "669fbb214cf9e3b12b857aad618db63cc854bd539822b7e7e28a2d246e179b8e",
+    "github_blob_sha": "c7110414cc6264a4b860acd7ed593f0575c55cf9"
+  },
+  "method": "내장 이미지 생성 도구. 외부 입력 이미지 없음. 원본 바이트 보존.",
+  "review": "전체 생성 이미지와 저장된 원본을 열어 낙엽·달팽이·빗자루의 분리와 구도를 검토함.",
+  "limitations": [
+    "동일 픽셀 재생성 불가",
+    "편집 레이어 없음",
+    "실물 인쇄 미검증",
+    "외부 관객 해석 미검증",
+    "식물·동물의 과학적 정확성 미검증",
+    "C2PA 서명 유효성 미검증"
+  ]
+}
