@@ -8,6 +8,7 @@
 
 | 프로젝트 | 매체·형태 | 상태·범위 | 폴더 |
 |---|---|---|---|
+| [남은 평면도](the-room-left-on-the-floor/README.md) | 짧은 소설·Markdown | 완성 원문 | `the-room-left-on-the-floor` |
 | [길을 남기는 일](a-path-left-open/README.md) | 인쇄용 퍼즐·PDF | 작품 · 실물 플레이 미검증 | `a-path-left-open` |
 | [비가 머물 자리 · A Place for Rain](a-place-for-rain/README.md) | Blender 정물 | 작품 | `a-place-for-rain` |
 | [쓸지 않은 자리](a-place-left-unswept/README.md) | 판화·과슈풍 생성 일러스트·PNG | 완성 이미지 · 원본·지시문 보존, 실물 인쇄 미검증 | `a-place-left-unswept` |

@@ -13,6 +13,7 @@
 
 | 프로젝트 | 시작 안내 | 실행 환경 |
 |---|---|---|
+| **남은 평면도** — 빈 방의 바닥 자국을 읽으며 가구 자리를 정하는 두 사람 | [소설 원문](projects/the-room-left-on-the-floor/story.md) · [제작·보존 안내](projects/the-room-left-on-the-floor/README.md) | 독립 짧은 소설·Markdown. 원문과 읽기 전용 파일 검사를 보존했습니다. |
 | **쓸지 않은 자리** — 낙엽 섬에서 나오는 달팽이와 그 앞의 빗자루 | [원본 PNG](projects/a-place-left-unswept/output/A-Place-Left-Unswept.png) · [생성 지시문·검토·검사](projects/a-place-left-unswept/README.md) | 판화·과슈풍 생성 일러스트, 1536×1024 RGB. 원본 바이트와 지시문을 보존했습니다. 실제 인쇄·관객 해석·생물학적 정확성은 미검증입니다. |
 | **분필선 너머** — 꽃잎 끝을 물고 흰 선을 건너는 개미 한 마리 | [선정 PNG](projects/across-the-chalk/output/Across-the-Chalk-One-Grip.png) · [이전 연구·지시문·검토 범위](projects/across-the-chalk/README.md) | 연필·과슈·수채화풍 생성 일러스트, 1536×1024 RGB. 명료한 턱과 꽃잎 접점으로 새 대안을 선정했고, 이전 연구 두 장은 바이트 그대로 보존했습니다. 생물학적 정확성·실물 인쇄·동일 픽셀 재생성은 미검증입니다. |
 | **여섯 구짜리 걸쇠** — 화내지 않고 나가는 문소리를 찾는 두 폴리 아티스트 | [4쪽 PDF](projects/without-a-slam/output/pdf/Without-a-Slam.pdf) · [원문·조판·검사 안내](projects/without-a-slam/README.md) | 완성된 독립 짧은 희곡 텍스트. 원문·글꼴·페이지 경계·동일 환경 재생성을 검사했습니다. 실제 공연·낭독·녹음·무대 안전·관객 반응은 미검증입니다. |

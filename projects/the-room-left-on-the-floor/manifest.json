@@ -1,0 +1,21 @@
+{
+  "format": 1,
+  "algorithm": "sha256",
+  "files": [
+    {
+      "path": "README.md",
+      "size": 1368,
+      "sha256": "aae2038fafe4fa44beea6b1e770c1c6c13ff44fec8f372b0ac2c2ee347cc8703"
+    },
+    {
+      "path": "story.md",
+      "size": 2436,
+      "sha256": "73d7ba7c25082cbcc916dd0e45418f8222b7c6b8f8c7e67e2191bb77d4f9f2d0"
+    },
+    {
+      "path": "verify.py",
+      "size": 793,
+      "sha256": "8dfe5d94f982468ee0e1479ac1b3565377ea28e52bf84c083bba3de3ca733dc9"
+    }
+  ]
+}

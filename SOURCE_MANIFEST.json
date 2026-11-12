@@ -14,8 +14,8 @@
     },
     {
       "path": "GALLERY.md",
-      "size": 42098,
-      "sha256": "d0d02c0af954c981266b85e529b7e7771a3188c6fe6f290c2609dd46c0d01f1e"
+      "size": 42331,
+      "sha256": "fe80bbb2ee3b7666cc4805430391f68d85d002e75894c21e574b6d3e9ea35032"
     },
     {
       "path": "GIT_ENVIRONMENT_CHECK.md",
@@ -24,8 +24,8 @@
     },
     {
       "path": "README.md",
-      "size": 46242,
-      "sha256": "b207f2edef55fe610f40977edca6a7533f574112d3a41061c117abd10d574f6a"
+      "size": 46580,
+      "sha256": "7bfd8b7e4b1629d7e07a4f08458b340baeb47ccfa59b69fb6251e7952f17fa3a"
     },
     {
       "path": "WORLD_CONNECTIONS.md",
@@ -49,8 +49,8 @@
     },
     {
       "path": "projects/README.md",
-      "size": 12618,
-      "sha256": "e0dfe3cef110a9eba18c6c64c8d8edee00bf879ea4020d9eb2fd3dc7c58ec72c"
+      "size": 12752,
+      "sha256": "3c309c85067ee50a4cc84ba4f11c27665f70320b0b0ddee11c2b3b0873b7c4e0"
     },
     {
       "path": "projects/VERIFICATION.md",
@@ -8431,6 +8431,26 @@
       "path": "projects/the-low-corner/verify.py",
       "size": 1212,
       "sha256": "9969e78ac1611e34f29d168f72b8f2620c266e171d86de74021f6f2cddaaf044"
+    },
+    {
+      "path": "projects/the-room-left-on-the-floor/README.md",
+      "size": 1368,
+      "sha256": "aae2038fafe4fa44beea6b1e770c1c6c13ff44fec8f372b0ac2c2ee347cc8703"
+    },
+    {
+      "path": "projects/the-room-left-on-the-floor/manifest.json",
+      "size": 487,
+      "sha256": "5664ecb567d68a49a41b5c9ef700dbe6444265ff356f9bf7438fa512a58097c7"
+    },
+    {
+      "path": "projects/the-room-left-on-the-floor/story.md",
+      "size": 2436,
+      "sha256": "73d7ba7c25082cbcc916dd0e45418f8222b7c6b8f8c7e67e2191bb77d4f9f2d0"
+    },
+    {
+      "path": "projects/the-room-left-on-the-floor/verify.py",
+      "size": 793,
+      "sha256": "8dfe5d94f982468ee0e1479ac1b3565377ea28e52bf84c083bba3de3ca733dc9"
     },
     {
       "path": "projects/the-staircase-arrives/README.md",
