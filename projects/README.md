@@ -1,6 +1,6 @@
 # 전체 프로젝트 색인
 
-모든 83개 작품·게임·연구의 정식 원본을 `projects/<kebab-case>/`에서 관리합니다. 최상위 프로젝트 폴더나 날짜별 스냅샷을 중복으로 유지하지 않으며, 이전 버전은 Git 이력에서 찾습니다. 한 프로젝트의 이미지·영상·글·편집 원본은 해당 폴더에서 함께 관리합니다.
+모든 84개 작품·게임·연구의 정식 원본을 `projects/<kebab-case>/`에서 관리합니다. 최상위 프로젝트 폴더나 날짜별 스냅샷을 중복으로 유지하지 않으며, 이전 버전은 Git 이력에서 찾습니다. 한 프로젝트의 이미지·영상·글·편집 원본은 해당 폴더에서 함께 관리합니다.
 
 [전체 저장소 안내](../README.md) · [작품 갤러리](../GALLERY.md) · [세계와 작품의 연결](../WORLD_CONNECTIONS.md)
 
@@ -23,6 +23,7 @@
 | [옆자리 / Beside You](beside-you/README.md) | 합성 오디오 | 작품 · 실제 청취 미검증 | `beside-you` |
 | [차 안의 시선: 작은 제스처 판독 연구](car-gaze-study/README.md) | Godot 제스처 시험 | 비채택 연구 | `car-gaze-study` |
 | [남은 하늘 · 환경 방향 부호 비교](cloud-sign-study/README.md) | Blender 환경 비교 | 제한된 연구 | `cloud-sign-study` |
+| [서로 다른 출구](different-exits/README.md) | SVG·PNG 추상 그래픽 | 완성 작품 · 동일 환경 재생성 확인 | `different-exits` |
 | [여덟 칸의 여유](eight-spaces/README.md) | Blender 정물 | 작품 | `eight-spaces` |
 | [사라지는 해안 · Fading Shore](fading-shore/README.md) | Blender 가상 조각 | 작품 | `fading-shore` |
 | [두 필터가 겹칠 때](filter-overlap-study/README.md) | 선형 RGB 비교 | 통제 실험 | `filter-overlap-study` |

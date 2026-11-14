@@ -14,8 +14,8 @@
     },
     {
       "path": "GALLERY.md",
-      "size": 42331,
-      "sha256": "fe80bbb2ee3b7666cc4805430391f68d85d002e75894c21e574b6d3e9ea35032"
+      "size": 42623,
+      "sha256": "0671eda45b49ea909c45becd27f30fe49940dc70d67904cb11079c0b2dc0fd51"
     },
     {
       "path": "GIT_ENVIRONMENT_CHECK.md",
@@ -24,8 +24,8 @@
     },
     {
       "path": "README.md",
-      "size": 46580,
-      "sha256": "7bfd8b7e4b1629d7e07a4f08458b340baeb47ccfa59b69fb6251e7952f17fa3a"
+      "size": 46919,
+      "sha256": "5084815da700d66a2382ead7a75cde39ffde12cf8bbf9f5d5303c6a19ba41260"
     },
     {
       "path": "WORLD_CONNECTIONS.md",
@@ -49,8 +49,8 @@
     },
     {
       "path": "projects/README.md",
-      "size": 12752,
-      "sha256": "3c309c85067ee50a4cc84ba4f11c27665f70320b0b0ddee11c2b3b0873b7c4e0"
+      "size": 12904,
+      "sha256": "9e88a9f76cceb4152745b10d5a548be6da170457fc70f15cb1c0f5c952b47bd3"
     },
     {
       "path": "projects/VERIFICATION.md",
@@ -3296,6 +3296,36 @@
       "path": "projects/cloud-sign-study/verify_pair.py",
       "size": 1749,
       "sha256": "c45f9da1eba1b9f1dd8afa4f75581e3f71c8eb3d3ef27df8395f06334f80d2d2"
+    },
+    {
+      "path": "projects/different-exits/Different-Exits.png",
+      "size": 295608,
+      "sha256": "15b72aefb18a4e325dc12ebe45684914a4200b81e1a816e6576476c25f4c6cfd"
+    },
+    {
+      "path": "projects/different-exits/Different-Exits.svg",
+      "size": 2626,
+      "sha256": "1a8200a83fc55786f65ff030243dc58870185e17729c9a80301f691fca4d9c5e"
+    },
+    {
+      "path": "projects/different-exits/README.md",
+      "size": 1179,
+      "sha256": "6e3ef10e23bde3d7e21574cc41d89d1e3e9ca55db4bfd1afaa900f158f76839d"
+    },
+    {
+      "path": "projects/different-exits/REVIEW.md",
+      "size": 878,
+      "sha256": "14e2100eadb69321681dc8717da3b2d653aef22ba2a1b9f3715839fdfc4697d0"
+    },
+    {
+      "path": "projects/different-exits/check.py",
+      "size": 1106,
+      "sha256": "5d45cb500f1a55542e6fbe6d0a7b25f23788bacece5d37f04c4d7017ce1edd68"
+    },
+    {
+      "path": "projects/different-exits/make.py",
+      "size": 1016,
+      "sha256": "a166ed6654c7236557ce3a13061bb3ecbe603faaaa37c72c06e159cbece9416e"
     },
     {
       "path": "projects/eight-spaces/.gitignore",

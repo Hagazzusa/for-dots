@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="1500" viewBox="0 0 1200 1500">
+<title>서로 다른 출구</title>
+<desc>열린 방향이 차례로 돌아가는 열일곱 개의 남색 원과 바깥에 놓인 주홍 점.</desc>
+<rect width="1200" height="1500" fill="#eee8da"/>
+<path d="M 569.8036,655.2320 A 54,54 0 1 1 547.6040,686.9362" fill="none" stroke="#173e52" stroke-width="9" stroke-linecap="butt"/>
+<path d="M 572.4057,628.1143 A 77,77 0 1 1 531.3925,665.0427" fill="none" stroke="#173e52" stroke-width="9" stroke-linecap="butt"/>
+<path d="M 586.0827,600.9732 A 100,100 0 1 1 523.3956,635.7212" fill="none" stroke="#173e52" stroke-width="9" stroke-linecap="butt"/>
+<path d="M 610.7202,577.4681 A 123,123 0 1 1 525.9768,601.7678" fill="none" stroke="#173e52" stroke-width="9" stroke-linecap="butt"/>
+<path d="M 645.1165,561.1457 A 146,146 0 1 1 540.6165,566.6224" fill="none" stroke="#173e52" stroke-width="9" stroke-linecap="butt"/>
+<path d="M 687.0414,555.1387 A 169,169 0 1 1 567.7533,534.1050" fill="none" stroke="#173e52" stroke-width="9" stroke-linecap="butt"/>
+<path d="M 733.3744,561.8868 A 192,192 0 1 1 606.7007,508.1170" fill="none" stroke="#173e52" stroke-width="9" stroke-linecap="butt"/>
+<path d="M 780.3142,582.9026 A 215,215 0 1 1 655.6461,492.3259" fill="none" stroke="#173e52" stroke-width="9" stroke-linecap="butt"/>
+<path d="M 823.6468,618.5992 A 238,238 0 1 1 711.7342,489.8585" fill="none" stroke="#173e52" stroke-width="9" stroke-linecap="butt"/>
+<path d="M 859.0545,668.1921 A 261,261 0 1 1 771.2314,503.0208" fill="none" stroke="#173e52" stroke-width="9" stroke-linecap="butt"/>
+<path d="M 882.4442,729.6861 A 284,284 0 1 1 829.7608,533.0690" fill="none" stroke="#173e52" stroke-width="9" stroke-linecap="butt"/>
+<path d="M 890.2742,799.9494 A 307,307 0 1 1 882.5950,580.0455" fill="none" stroke="#173e52" stroke-width="9" stroke-linecap="butt"/>
+<path d="M 879.8559,874.8734 A 330,330 0 1 1 924.9866,642.6961" fill="none" stroke="#173e52" stroke-width="9" stroke-linecap="butt"/>
+<path d="M 849.6087,949.6087 A 353,353 0 1 1 952.5162,718.4746" fill="none" stroke="#173e52" stroke-width="9" stroke-linecap="butt"/>
+<path d="M 799.2496,1018.8661 A 376,376 0 1 1 961.4344,803.6396" fill="none" stroke="#173e52" stroke-width="9" stroke-linecap="butt"/>
+<path d="M 729.9017,1077.2619 A 399,399 0 1 1 948.9733,893.4390" fill="none" stroke="#173e52" stroke-width="9" stroke-linecap="butt"/>
+<path d="M 644.1110,1119.6882 A 422,422 0 1 1 913.6071,982.3731" fill="none" stroke="#173e52" stroke-width="9" stroke-linecap="butt"/>
+<circle cx="737" cy="1234" r="27" fill="#d65331"/>
+</svg>
