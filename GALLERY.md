@@ -1,7 +1,7 @@
 # 잠깐 머무는 작은 세계
 
 비를 피하는 공간, 천천히 움직이는 빛, 길가의 빈 벤치.
-이미지와 짧은 영상으로 먼저 둘러볼 수 있는 45개 작업을 골랐습니다.
+이미지와 짧은 영상으로 먼저 둘러볼 수 있는 46개 작업을 골랐습니다.
 편집 가능한 장면과 제작 소스는 각 작품의 안내에 함께 있습니다.
 
 세 정물을 이어 읽는 동반 그림책 [《비가 지나가는 동안》](projects/quiet-storybook/README.md)도 있습니다. [3쪽 PDF로 읽기](projects/quiet-storybook/While-the-Rain-Passes.pdf).
@@ -543,3 +543,11 @@ Python·Inkscape로 직접 구성한 독립 벡터 그래픽입니다. 외부 �
 ![서로 다른 출구](projects/different-exits/Different-Exits.png)
 
 [편집 원본과 제작·검사 기록](projects/different-exits/README.md)
+
+## 배를 말리는 오후
+
+네 척의 배는 모래 위에서 햇빛을 받고, 물가에는 배 한 척 모양의 빈 자리가 있습니다.
+
+![배를 말리는 오후](projects/an-afternoon-ashore/An-Afternoon-Ashore.png)
+
+[편집 원본과 제작·검사 기록](projects/an-afternoon-ashore/README.md)

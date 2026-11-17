@@ -14,8 +14,8 @@
     },
     {
       "path": "GALLERY.md",
-      "size": 42623,
-      "sha256": "0671eda45b49ea909c45becd27f30fe49940dc70d67904cb11079c0b2dc0fd51"
+      "size": 42932,
+      "sha256": "5ff7adbc554e79c55c89311bcf14b7f7417e9e0c20f086616c461ce408a06b5c"
     },
     {
       "path": "GIT_ENVIRONMENT_CHECK.md",
@@ -24,8 +24,8 @@
     },
     {
       "path": "README.md",
-      "size": 46919,
-      "sha256": "5084815da700d66a2382ead7a75cde39ffde12cf8bbf9f5d5303c6a19ba41260"
+      "size": 47243,
+      "sha256": "1adb4792e48fb1bc63713450970934f67fa4f109aa927eb3593bc16fb10e26d7"
     },
     {
       "path": "WORLD_CONNECTIONS.md",
@@ -49,8 +49,8 @@
     },
     {
       "path": "projects/README.md",
-      "size": 12904,
-      "sha256": "9e88a9f76cceb4152745b10d5a548be6da170457fc70f15cb1c0f5c952b47bd3"
+      "size": 13070,
+      "sha256": "9720a3f640e0017ae4b3496dd8cf9f5d6be2df9e0a7c789ca6ac0040d85b2fb8"
     },
     {
       "path": "projects/VERIFICATION.md",
@@ -3101,6 +3101,36 @@
       "path": "projects/after-the-turn/verification.json",
       "size": 1107,
       "sha256": "f7cd52160cdde519f790d6fe3b9a6c68dcabdd1b72c6259fee80ebfcead184e2"
+    },
+    {
+      "path": "projects/an-afternoon-ashore/An-Afternoon-Ashore.png",
+      "size": 225687,
+      "sha256": "b5714d7fdf45aa30fbd5d3fcc464c462a9adaec10fe158df58980e20e72c1828"
+    },
+    {
+      "path": "projects/an-afternoon-ashore/An-Afternoon-Ashore.svg",
+      "size": 104091,
+      "sha256": "9f2fef65c7c63ed070654a9f842296b5338334dca86b70ec1232fd461d3ba83e"
+    },
+    {
+      "path": "projects/an-afternoon-ashore/README.md",
+      "size": 1374,
+      "sha256": "13f97df0daefb4ea3a0dd5be835bb3e60e1199074cc26d999710c4292c378db1"
+    },
+    {
+      "path": "projects/an-afternoon-ashore/REVIEW.md",
+      "size": 1377,
+      "sha256": "e1a9569d009f01fbbaab2ab9b2c0557794fa4b7649e97d9e05916fc2fa9b994b"
+    },
+    {
+      "path": "projects/an-afternoon-ashore/check.py",
+      "size": 1300,
+      "sha256": "a4c02a30423e5adad01c513610a52787783dc8ae863dc4af256d023f2ce9d17e"
+    },
+    {
+      "path": "projects/an-afternoon-ashore/make.py",
+      "size": 4090,
+      "sha256": "d92d876b2581c69ed68ce09a0bf35e130697846c5ebde69379e3a85e46557535"
     },
     {
       "path": "projects/before-the-answer/.gitignore",
