@@ -557,3 +557,12 @@ Python·Inkscape로 직접 구성한 독립 벡터 그래픽입니다. 외부 �
 커튼을 고르려던 박수가 옆집까지 들립니다.
 
 [원문 읽기](projects/uses-for-applause/story.md) · [제작과 보존](projects/uses-for-applause/README.md)
+
+
+## 주머니의 천문대
+
+동전은 해, 단추의 실은 고리. 하루 동안 가지고 다닌 물건들을 남색 천에 띄웠습니다.
+
+![주머니의 천문대](projects/pocket-observatory/Pocket-Observatory.png)
+
+[편집 원본과 제작 기록](projects/pocket-observatory/README.md)

@@ -14,8 +14,8 @@
     },
     {
       "path": "GALLERY.md",
-      "size": 43145,
-      "sha256": "63c31158bfc6ba30dca8ea68388c5decf3826797360f29930f2a168d2d04a0f6"
+      "size": 43441,
+      "sha256": "ea83818ecb19a1d0cb79b7cb67decf950dea0ea64309e82d81125866c2957809"
     },
     {
       "path": "GIT_ENVIRONMENT_CHECK.md",
@@ -24,8 +24,8 @@
     },
     {
       "path": "README.md",
-      "size": 47547,
-      "sha256": "08ada7915003580dbab47cb177f8891d7d8d998b7ac028dd0b0bdbcb86ceb3eb"
+      "size": 47808,
+      "sha256": "f174314f4f0f6cf82f9ed8c20711ededa451f9d8a9818aa360fcca30987a1de9"
     },
     {
       "path": "WORLD_CONNECTIONS.md",
@@ -49,8 +49,8 @@
     },
     {
       "path": "projects/README.md",
-      "size": 13186,
-      "sha256": "2bba5adc8b14407c13084fe2868f9b7f32336b74b241e38d1f5341617b5190dc"
+      "size": 13301,
+      "sha256": "e0e8fd673daf949c3ee684f75b05d5947a0581632d4966f8979977a114d3bd16"
     },
     {
       "path": "projects/VERIFICATION.md",
@@ -5881,6 +5881,31 @@
       "path": "projects/pixel-busstop/draw.py",
       "size": 4312,
       "sha256": "5e558192fc0c29fb59292f58d50fe371b96346fbbdfc95b5e052edaba00ebff3"
+    },
+    {
+      "path": "projects/pocket-observatory/Pocket-Observatory.png",
+      "size": 125346,
+      "sha256": "8a6f00f9852e7e3255254441024ece8c92b658cf5398aad2d6e91a5f0831d0d8"
+    },
+    {
+      "path": "projects/pocket-observatory/Pocket-Observatory.svg",
+      "size": 18073,
+      "sha256": "bafed4631649c1cb30e63cf9aa033b93fd2136e075e2c1e63db00c2218628e1f"
+    },
+    {
+      "path": "projects/pocket-observatory/README.md",
+      "size": 1242,
+      "sha256": "eaa2396e1d80b117d3dcfce350aba2eb5edd84105e9c3a84435496a6401f7687"
+    },
+    {
+      "path": "projects/pocket-observatory/check.py",
+      "size": 644,
+      "sha256": "392808afa4aa242ec7bd23ee7edb5b2eebf23a73bc2e47482f740a1cd88e27ef"
+    },
+    {
+      "path": "projects/pocket-observatory/make.py",
+      "size": 3087,
+      "sha256": "6b1691179f18ce311c1e9d3a4183cc98bf8407c88a01e59096a6fe6e30dccd6b"
     },
     {
       "path": "projects/quiet-laundrette/.gitignore",

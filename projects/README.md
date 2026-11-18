@@ -1,6 +1,6 @@
 # 전체 프로젝트 색인
 
-모든 86개 작품·게임·연구의 정식 원본을 `projects/<kebab-case>/`에서 관리합니다. 최상위 프로젝트 폴더나 날짜별 스냅샷을 중복으로 유지하지 않으며, 이전 버전은 Git 이력에서 찾습니다. 한 프로젝트의 이미지·영상·글·편집 원본은 해당 폴더에서 함께 관리합니다.
+모든 87개 작품·게임·연구의 정식 원본을 `projects/<kebab-case>/`에서 관리합니다. 최상위 프로젝트 폴더나 날짜별 스냅샷을 중복으로 유지하지 않으며, 이전 버전은 Git 이력에서 찾습니다. 한 프로젝트의 이미지·영상·글·편집 원본은 해당 폴더에서 함께 관리합니다.
 
 [전체 저장소 안내](../README.md) · [작품 갤러리](../GALLERY.md) · [세계와 작품의 연결](../WORLD_CONNECTIONS.md)
 
@@ -8,6 +8,7 @@
 
 | 프로젝트 | 매체·형태 | 상태·범위 | 폴더 |
 |---|---|---|---|
+| [주머니의 천문대](pocket-observatory/README.md) | SVG·PNG | 완성 일러스트 | `pocket-observatory` |
 | [박수의 용도](uses-for-applause/README.md) | 짧은 소설·Markdown | 완성 원문 | `uses-for-applause` |
 | [남은 평면도](the-room-left-on-the-floor/README.md) | 짧은 소설·Markdown | 완성 원문 | `the-room-left-on-the-floor` |
 | [길을 남기는 일](a-path-left-open/README.md) | 인쇄용 퍼즐·PDF | 작품 · 실물 플레이 미검증 | `a-path-left-open` |

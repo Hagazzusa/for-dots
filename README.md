@@ -13,6 +13,7 @@
 
 | 프로젝트 | 시작 안내 | 실행 환경 |
 |---|---|---|
+| **주머니의 천문대** — 동전과 단추, 열쇠가 이루는 작은 밤하늘 | [PNG](projects/pocket-observatory/Pocket-Observatory.png) · [SVG·제작·검사](projects/pocket-observatory/README.md) | 독립 벡터 일러스트·Python·Inkscape |
 | **박수의 용도** — 커튼을 고르려다 옆집과 신호를 주고받는 세 사람 | [소설 원문](projects/uses-for-applause/story.md) · [제작·검사 안내](projects/uses-for-applause/README.md) | 독립 짧은 소설·Markdown. 원문과 읽기 전용 검사를 보존했습니다. |
 | **배를 말리는 오후** — 네 척의 뒤집힌 배와 물가의 빈 자리 | [PNG](projects/an-afternoon-ashore/An-Afternoon-Ashore.png) · [SVG·제작·검사](projects/an-afternoon-ashore/README.md) | Python·Inkscape 벡터 일러스트. 같은 환경에서 SVG·PNG 바이트 재생성을 확인했습니다. |
 | **서로 다른 출구** — 열린 방향이 돌아가는 열일곱 원과 바깥의 작은 점 | [PNG](projects/different-exits/Different-Exits.png) · [SVG·제작·검사](projects/different-exits/README.md) | Python·Inkscape 추상 벡터 그래픽. 동일 환경에서 SVG·PNG 재생성 바이트 일치를 확인했습니다. |
