@@ -14,8 +14,8 @@
     },
     {
       "path": "GALLERY.md",
-      "size": 42932,
-      "sha256": "5ff7adbc554e79c55c89311bcf14b7f7417e9e0c20f086616c461ce408a06b5c"
+      "size": 43145,
+      "sha256": "63c31158bfc6ba30dca8ea68388c5decf3826797360f29930f2a168d2d04a0f6"
     },
     {
       "path": "GIT_ENVIRONMENT_CHECK.md",
@@ -24,8 +24,8 @@
     },
     {
       "path": "README.md",
-      "size": 47243,
-      "sha256": "1adb4792e48fb1bc63713450970934f67fa4f109aa927eb3593bc16fb10e26d7"
+      "size": 47547,
+      "sha256": "08ada7915003580dbab47cb177f8891d7d8d998b7ac028dd0b0bdbcb86ceb3eb"
     },
     {
       "path": "WORLD_CONNECTIONS.md",
@@ -49,8 +49,8 @@
     },
     {
       "path": "projects/README.md",
-      "size": 13070,
-      "sha256": "9720a3f640e0017ae4b3496dd8cf9f5d6be2df9e0a7c789ca6ac0040d85b2fb8"
+      "size": 13186,
+      "sha256": "2bba5adc8b14407c13084fe2868f9b7f32336b74b241e38d1f5341617b5190dc"
     },
     {
       "path": "projects/VERIFICATION.md",
@@ -9066,6 +9066,26 @@
       "path": "projects/under-observation/verify.py",
       "size": 1625,
       "sha256": "75e59b7f0c753748534cdc39c67b9ef64044a45cb37c955f7f1fe0a6599ce7d5"
+    },
+    {
+      "path": "projects/uses-for-applause/README.md",
+      "size": 1208,
+      "sha256": "48d35acaa1f332a0af4b899116784e0f9d2c025381e470d69b62ec806cd87811"
+    },
+    {
+      "path": "projects/uses-for-applause/manifest.json",
+      "size": 447,
+      "sha256": "07c5d3e89859f3023b631e3ebf5b3fbc3a829900488809c27fdba2fb1fb1e2be"
+    },
+    {
+      "path": "projects/uses-for-applause/story.md",
+      "size": 2836,
+      "sha256": "92bb334d2aa20e1b1cdc9458d07cff27cd37ed94a13edab9f5337eb064cf9f69"
+    },
+    {
+      "path": "projects/uses-for-applause/verify.py",
+      "size": 793,
+      "sha256": "90b8ef463c6e9856b9df12721a62f3ae4d6c507100537fbf8853b4306a719996"
     },
     {
       "path": "projects/water-halfspace-study/ARTIFACT_MANIFEST.json",

@@ -551,3 +551,9 @@ Python·Inkscape로 직접 구성한 독립 벡터 그래픽입니다. 외부 �
 ![배를 말리는 오후](projects/an-afternoon-ashore/An-Afternoon-Ashore.png)
 
 [편집 원본과 제작·검사 기록](projects/an-afternoon-ashore/README.md)
+
+## 박수의 용도 · 짧은 소설
+
+커튼을 고르려던 박수가 옆집까지 들립니다.
+
+[원문 읽기](projects/uses-for-applause/story.md) · [제작과 보존](projects/uses-for-applause/README.md)
