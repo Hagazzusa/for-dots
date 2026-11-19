@@ -284,7 +284,7 @@ Blender 4.3.2의 실제 Cycles 렌더. 메시 교차를 검사했으며 실제 �
 
 네 조각을 놓고, 남은 아홉 칸으로 길을 만드는 종이 퍼즐.
 
-[PDF 읽기](projects/a-path-left-open/output/pdf/A-Path-Left-Open.pdf) · [작품·소스와 재현 안내](projects/a-path-left-open/README.md)
+[조각과 1번 문제](projects/a-path-left-open/output/pdf/A-Path-Left-Open.pdf) · [권장 2번](projects/a-path-left-open/output/pdf/A-Path-Left-Open-Replacement.pdf) · [권장 2번 해답](projects/a-path-left-open/output/pdf/A-Path-Left-Open-Replacement-Answer.pdf) · [작품·소스와 재현 안내](projects/a-path-left-open/README.md)
 
 Python·ReportLab. 해답 수와 PDF 치수를 검사했습니다. 단면 100%로 인쇄하고 기준선을 확인하세요. 실물 재단·플레이 테스트는 하지 않았습니다.
 

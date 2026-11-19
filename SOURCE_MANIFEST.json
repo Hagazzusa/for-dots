@@ -14,8 +14,8 @@
     },
     {
       "path": "GALLERY.md",
-      "size": 43770,
-      "sha256": "180ef60b3ec4209a8a9251bce4b72594f86d9c08ced191623bfb62760df7cdbc"
+      "size": 43971,
+      "sha256": "f0bd51b4597acfab96b5b406fddf50023a739979b174b72d253341d82908046e"
     },
     {
       "path": "GIT_ENVIRONMENT_CHECK.md",
@@ -24,8 +24,8 @@
     },
     {
       "path": "README.md",
-      "size": 48198,
-      "sha256": "2cb23d3db79028bfbbc5ebf2aa876e675293fc4f34feb5d0d17a6420db50d482"
+      "size": 48298,
+      "sha256": "c91021c9507afa5100cae6b93f716dcd992dc643bcbf3274c803a3bc827884ef"
     },
     {
       "path": "WORLD_CONNECTIONS.md",
@@ -49,8 +49,8 @@
     },
     {
       "path": "projects/README.md",
-      "size": 13476,
-      "sha256": "1e0367331920fb6a9c2837b20137093323ce01fd3c3ca3ea6b8c2b98dc94fad0"
+      "size": 13496,
+      "sha256": "91f6919957e99ed8a49d4ebf142bfdd7be6fea250e268f8deef99decaf4668f9"
     },
     {
       "path": "projects/VERIFICATION.md",
@@ -64,8 +64,8 @@
     },
     {
       "path": "projects/a-path-left-open/README.md",
-      "size": 3315,
-      "sha256": "77bdbd84c84c83ac0822f09466a44d568948d964f0c7c435b461ad5429c895b7"
+      "size": 4144,
+      "sha256": "bb9e32c9744e33dffd79851790ca4b9d263dfeee2883f58afb6383057a71e87c"
     },
     {
       "path": "projects/a-path-left-open/build_pdf.py",
@@ -84,13 +84,23 @@
     },
     {
       "path": "projects/a-path-left-open/manifest.json",
-      "size": 1180,
-      "sha256": "d2773a95d5a569a564aaa815f9eb8ee56c3f8eb2431629c7620bbe27076c93f6"
+      "size": 1421,
+      "sha256": "229e090649c7c30fa3421b9a15ad80243f27d56be248b666630ebed7b51bf9ed"
     },
     {
       "path": "projects/a-path-left-open/output/pdf/A-Path-Left-Open-Answers.pdf",
       "size": 13148,
       "sha256": "deb4daa2e0e1caf15935a5f100ca6ba2d0b955302de1dd0ece436cc735f766c6"
+    },
+    {
+      "path": "projects/a-path-left-open/output/pdf/A-Path-Left-Open-Replacement-Answer.pdf",
+      "size": 13038,
+      "sha256": "4b42eee1600a66fcf63b5ea392e592f77aead348d8728e38c1774ef2776ba42a"
+    },
+    {
+      "path": "projects/a-path-left-open/output/pdf/A-Path-Left-Open-Replacement.pdf",
+      "size": 16109,
+      "sha256": "1efd265d997fe4192eeac871f3b6bed33b80a5b62a62f472fca409b9da41e114"
     },
     {
       "path": "projects/a-path-left-open/output/pdf/A-Path-Left-Open.pdf",

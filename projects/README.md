@@ -12,7 +12,7 @@
 | [주머니의 천문대](pocket-observatory/README.md) | SVG·PNG | 완성 일러스트 | `pocket-observatory` |
 | [박수의 용도](uses-for-applause/README.md) | 짧은 소설·Markdown | 완성 원문 | `uses-for-applause` |
 | [남은 평면도](the-room-left-on-the-floor/README.md) | 짧은 소설·Markdown | 완성 원문 | `the-room-left-on-the-floor` |
-| [길을 남기는 일](a-path-left-open/README.md) | 인쇄용 퍼즐·PDF | 작품 · 실물 플레이 미검증 | `a-path-left-open` |
+| [길을 남기는 일](a-path-left-open/README.md) | 인쇄용 퍼즐·PDF | 작품 · 대체 2번 포함, 실물 플레이 미검증 | `a-path-left-open` |
 | [비가 머물 자리 · A Place for Rain](a-place-for-rain/README.md) | Blender 정물 | 작품 | `a-place-for-rain` |
 | [쓸지 않은 자리](a-place-left-unswept/README.md) | 판화·과슈풍 생성 일러스트·PNG | 완성 이미지 · 원본·지시문 보존, 실물 인쇄 미검증 | `a-place-left-unswept` |
 | [잠깐 멈춘 길 / A Place to Pause](a-place-to-pause/README.md) | Blender 풍경 | 작품 · 가상 기하 | `a-place-to-pause` |
