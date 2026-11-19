@@ -495,6 +495,13 @@ Python·Inkscape로 직접 구성한 독립 벡터 그래픽입니다. 외부 �
 
 ## 읽기·듣기
 
+### 의자를 넣고 나면 · 청취 전 소리 소품
+
+의자가 한 번 걸렸다가 제자리를 찾습니다. 움직임이 멈춘 뒤에도 낮은 울림이 잠시 남습니다.
+
+[26초 MP3](projects/when-the-chair-is-in/When-the-Chair-Is-In.mp3) · [편집 원본·제작 안내](projects/when-the-chair-is-in/README.md)
+
+
 시각 작품과 별도로 읽고 들을 수 있는 작업입니다. 악보의 실연·녹음 여부는 각 항목에 표시합니다.
 
 - [남은 평면도 · 짧은 소설](projects/the-room-left-on-the-floor/story.md): 빈 방의 자국을 책상·침대·화분 자리로 읽는 두 사람. [제작과 보존 안내](projects/the-room-left-on-the-floor/README.md).

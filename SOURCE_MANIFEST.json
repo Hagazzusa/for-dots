@@ -14,8 +14,8 @@
     },
     {
       "path": "GALLERY.md",
-      "size": 43441,
-      "sha256": "ea83818ecb19a1d0cb79b7cb67decf950dea0ea64309e82d81125866c2957809"
+      "size": 43770,
+      "sha256": "180ef60b3ec4209a8a9251bce4b72594f86d9c08ced191623bfb62760df7cdbc"
     },
     {
       "path": "GIT_ENVIRONMENT_CHECK.md",
@@ -24,8 +24,8 @@
     },
     {
       "path": "README.md",
-      "size": 47808,
-      "sha256": "f174314f4f0f6cf82f9ed8c20711ededa451f9d8a9818aa360fcca30987a1de9"
+      "size": 48198,
+      "sha256": "2cb23d3db79028bfbbc5ebf2aa876e675293fc4f34feb5d0d17a6420db50d482"
     },
     {
       "path": "WORLD_CONNECTIONS.md",
@@ -49,8 +49,8 @@
     },
     {
       "path": "projects/README.md",
-      "size": 13301,
-      "sha256": "e0e8fd673daf949c3ee684f75b05d5947a0581632d4966f8979977a114d3bd16"
+      "size": 13476,
+      "sha256": "1e0367331920fb6a9c2837b20137093323ce01fd3c3ca3ea6b8c2b98dc94fad0"
     },
     {
       "path": "projects/VERIFICATION.md",
@@ -9376,6 +9376,21 @@
       "path": "projects/water-in-one-ear/verify.py",
       "size": 2183,
       "sha256": "cfd3f851d072a834ca384af2fe66228adf4046b399db1b7ae3622e3a0ca52c22"
+    },
+    {
+      "path": "projects/when-the-chair-is-in/README.md",
+      "size": 1231,
+      "sha256": "e805ed8c8fdde6b4006b0ba4901a0119c966b145c4e923659b6f08cb0bed00cc"
+    },
+    {
+      "path": "projects/when-the-chair-is-in/When-the-Chair-Is-In.mp3",
+      "size": 521404,
+      "sha256": "31d741c9285705548fe555d4f4c018f121a0f45a5693d0dad7e9e37e1cab72f7"
+    },
+    {
+      "path": "projects/when-the-chair-is-in/build.py",
+      "size": 4630,
+      "sha256": "cb51ba3c0f9dc6cff5c93fa3674d403da726d1889cfec576e2dc714c48f40eaf"
     },
     {
       "path": "projects/while-carrying/.gitignore",
