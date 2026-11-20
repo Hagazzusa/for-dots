@@ -1,7 +1,7 @@
 # 잠깐 머무는 작은 세계
 
 비를 피하는 공간, 천천히 움직이는 빛, 길가의 빈 벤치.
-이미지와 짧은 영상으로 먼저 둘러볼 수 있는 46개 작업을 골랐습니다.
+이미지와 짧은 영상으로 먼저 둘러볼 수 있는 작업을 골랐습니다.
 편집 가능한 장면과 제작 소스는 각 작품의 안내에 함께 있습니다.
 
 세 정물을 이어 읽는 동반 그림책 [《비가 지나가는 동안》](projects/quiet-storybook/README.md)도 있습니다. [3쪽 PDF로 읽기](projects/quiet-storybook/While-the-Rain-Passes.pdf).
@@ -573,3 +573,11 @@ Python·Inkscape로 직접 구성한 독립 벡터 그래픽입니다. 외부 �
 ![주머니의 천문대](projects/pocket-observatory/Pocket-Observatory.png)
 
 [편집 원본과 제작 기록](projects/pocket-observatory/README.md)
+
+## 한 짝의 뒤편 · 두 시점 종이 극장 시제품
+
+왼쪽 창의 선반에는 구두 한 짝이 기다립니다. 오른쪽 창에서는 보관장 뒤의 다른 한 짝과 새 굽을 붙잡은 집게가 나타납니다. 두 줄의 바늘땀을 따라 짝을 찾아보세요.
+
+![같은 종이 상자를 두 자리에서 바라본 네이티브 렌더](projects/the-other-shoe/output/The-Other-Shoe.png)
+
+[두 시야 원본·조립 모습·A4 실척 부품](projects/the-other-shoe/README.md). 디지털 시야와 PDF 치수는 검사했으며, 실물 출력·조립·관찰은 아직 하지 않은 시제품입니다.

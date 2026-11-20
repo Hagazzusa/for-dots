@@ -13,6 +13,7 @@
 
 | 프로젝트 | 시작 안내 | 실행 환경 |
 |---|---|---|
+| **한 짝의 뒤편 · 종이 극장 시제품** — 선반의 한 짝과 보관장 뒤에서 굽을 고치는 짝 | [두 시야 PNG](projects/the-other-shoe/output/The-Other-Shoe.png) · [조립 렌더·실척 부품·소스](projects/the-other-shoe/README.md) | Blender·Python·ReportLab. 같은 기하의 두 시야와 A4 3쪽 부품 치수를 검사했으며 실물 출력·조립은 미검증입니다. |
 | **의자를 넣고 나면 · 청취 전 소리 소품** — 의자를 밀어 넣고 난 뒤 바닥에 남는 낮은 울림 | [26초 MP3](projects/when-the-chair-is-in/When-the-Chair-Is-In.mp3) · [편집 원본·검사](projects/when-the-chair-is-in/README.md) | Python·NumPy·FFmpeg. 전체 디코드와 같은 환경의 재생성을 확인했고 실제 청취는 미검증입니다. |
 | **주머니의 천문대** — 동전과 단추, 열쇠가 이루는 작은 밤하늘 | [PNG](projects/pocket-observatory/Pocket-Observatory.png) · [SVG·제작·검사](projects/pocket-observatory/README.md) | 독립 벡터 일러스트·Python·Inkscape |
 | **박수의 용도** — 커튼을 고르려다 옆집과 신호를 주고받는 세 사람 | [소설 원문](projects/uses-for-applause/story.md) · [제작·검사 안내](projects/uses-for-applause/README.md) | 독립 짧은 소설·Markdown. 원문과 읽기 전용 검사를 보존했습니다. |
@@ -91,7 +92,7 @@
 
 ## 프로젝트 배치와 기록
 
-모든 작품·게임·연구의 정식 경로는 `projects/<kebab-case>/`입니다. [전체 85개 프로젝트 색인](projects/README.md)에서 작품·시제품·연구를 구분해 찾을 수 있습니다. 기존 최상위 폴더와 날짜별 보관본은 중복으로 남기지 않습니다. 이전 경로 보존 예외는 철회했으며, 과거 버전은 Git 이력에서 확인합니다.
+모든 작품·게임·연구의 정식 경로는 `projects/<kebab-case>/`입니다. [전체 프로젝트 색인](projects/README.md)에서 작품·시제품·연구를 구분해 찾을 수 있습니다. 기존 최상위 폴더와 날짜별 보관본은 중복으로 남기지 않습니다. 이전 경로 보존 예외는 철회했으며, 과거 버전은 Git 이력에서 확인합니다.
 
 ## 새로 정리한 작품과 연구
 

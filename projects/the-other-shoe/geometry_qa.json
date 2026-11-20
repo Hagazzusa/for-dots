@@ -1,0 +1,45 @@
+{
+  "continuous_vertex_bounds_at_cabinet_mm": {
+    "left": {
+      "x_min": 10.371315442146944,
+      "x_max": 32.047413793103445,
+      "z_min": 40.58689090125054,
+      "z_max": 58.274527056753186
+    },
+    "right": {
+      "x_min": 35.64892212934448,
+      "x_max": 56.7198275862069,
+      "z_min": 40.58689090125054,
+      "z_max": 58.274527056753186
+    }
+  },
+  "size_mm": [
+    140,
+    80,
+    110
+  ],
+  "eye_box_offsets_mm": [
+    -1,
+    0,
+    1
+  ],
+  "target_grid_mm": 0.5,
+  "target_points": 1574,
+  "views": {
+    "left": {
+      "rays": 42498,
+      "visible": 0,
+      "outside_front": 0
+    },
+    "right": {
+      "rays": 42498,
+      "visible": 42498,
+      "outside_front": 0
+    }
+  },
+  "front_shoe_left_vertices_tested": 270,
+  "minimum_layer_gap_mm": 20,
+  "glue_tab_mm": 8,
+  "physical_build_tested": false,
+  "limit": "지정한 27개 눈 위치와 다각형 내 0.5mm 격자 표본의 기하 검사. 휘어짐·접착·재단 오차·실물 관찰은 미검증."
+}

@@ -1,0 +1,37 @@
+{
+  "status": "디지털 시제품 완성, 실물 제작 미검증",
+  "geometry": "geometry_qa.json",
+  "native_scene_rays": 8,
+  "native_scene_external_images": 0,
+  "pdf_pages": 3,
+  "pdf_scale_bars_mm": [
+    50,
+    50,
+    50
+  ],
+  "visual_review": [
+    "왼쪽 시야",
+    "오른쪽 시야",
+    "조립 렌더",
+    "PDF 3쪽",
+    "나란히 보기"
+  ],
+  "separate_copy_byte_identical": [
+    "model.json",
+    "front.svg",
+    "shelf.svg",
+    "counter.svg",
+    "back.svg",
+    "The-Other-Shoe-Parts.pdf",
+    "The-Other-Shoe.svg",
+    "The-Other-Shoe.png"
+  ],
+  "png_metadata_removed_without_pixel_changes": true,
+  "limitations": [
+    "실물 출력·재단·접착·관찰 미검증",
+    "Blender 장면 파일의 바이트 재현이나 다른 환경 렌더의 동일성은 주장하지 않음",
+    "시야 광선 표본은 제작 오차 보증이 아님"
+  ],
+  "native_renders_generated_from_separate_source_copy": true,
+  "native_png_identity_scope": "별도 사본에서 렌더한 결과를 메타데이터 정리 후 보존. 렌더를 두 차례 반복한 바이트 비교는 아님"
+}

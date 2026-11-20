@@ -1,0 +1,88 @@
+{
+  "files": {
+    "README.md": {
+      "bytes": 6945,
+      "sha256": "5fb3377ec6411d975b85ce5ceade66708f424f7d3d625112c86330e6dcd7f18d"
+    },
+    "build.py": {
+      "bytes": 8376,
+      "sha256": "16a7b35966588bbc2a83b05a686b7ab1cf1c89149326dc55ab339b5aa8129144"
+    },
+    "build_preview.py": {
+      "bytes": 1346,
+      "sha256": "266e9b19d988a9a04fea32202cd3aa4bcb2b811a381d1d7d6290d874f6dc6174"
+    },
+    "build_print.py": {
+      "bytes": 3146,
+      "sha256": "6d08324cd45931aff40f874f254ed59f357848d1246565d94f10dff3d71c22b1"
+    },
+    "geometry_qa.json": {
+      "bytes": 996,
+      "sha256": "e095166199d9cd03707564eeaba60f3aac8bc444285899cebdf27a4bb27f36fe"
+    },
+    "output/The-Other-Shoe-Parts.pdf": {
+      "bytes": 4416,
+      "sha256": "7d21b2f5c90e5aaca2d63c8a065c7acbc5b3b64e2d91d0935fc572206b9a9292"
+    },
+    "output/The-Other-Shoe.blend": {
+      "bytes": 1001716,
+      "sha256": "eb1e2f2c059805a2c9a404e2020d507fba57aa9e9ddb5f1faa760f678d57b04f"
+    },
+    "output/The-Other-Shoe.png": {
+      "bytes": 1554013,
+      "sha256": "b26b47f3214a618b1d7a4d3735e644c57b8a9272e96806e198461619d5368fa9"
+    },
+    "output/The-Other-Shoe.svg": {
+      "bytes": 682,
+      "sha256": "1af9e049d70bea9ec6f4cbe12235006e3eda06a3a509a909f3954361150cdc9c"
+    },
+    "output/assembled.png": {
+      "bytes": 2536567,
+      "sha256": "9d7ede55c5b7de5e902855e80ff07c8cf70957f939dd562d4e9b0e16e33fa87f"
+    },
+    "output/back.svg": {
+      "bytes": 2095,
+      "sha256": "82e3e3d4a4cad2dbd545e15456674e514b0bc2c46dfa5d53df768636fa519613"
+    },
+    "output/counter.svg": {
+      "bytes": 861,
+      "sha256": "39d7d8e341e00252eaaa48d4c0a3171945dc99fc96b14b842829a63e7b6d32c3"
+    },
+    "output/front.svg": {
+      "bytes": 564,
+      "sha256": "4670ab8cb0614d45cadbc3b52883e404c7f892c74efd7349dbb10de6807de211"
+    },
+    "output/left.png": {
+      "bytes": 2024452,
+      "sha256": "92e4125df167b534faf4e1590c38b7c73f1d21ccb8ba3f56fde5bbb28a64d9e5"
+    },
+    "output/model.json": {
+      "bytes": 16056,
+      "sha256": "98969ab7743fcfff85a6d97529c75e8c284eec8695046cd47838f33a2a3652fe"
+    },
+    "output/right.png": {
+      "bytes": 2014395,
+      "sha256": "6cfa3456813c75e79650bbe830ec1bc6304b3f6a1da31c275da81a626f1102a5"
+    },
+    "output/shelf.svg": {
+      "bytes": 989,
+      "sha256": "ad93a31f1b17bbae581ff20e9de5f0cd51372efd037d6287e10a4937b8dd3353"
+    },
+    "qa.json": {
+      "bytes": 1115,
+      "sha256": "8f05b8b8325424a44bca6be4ed27671040661fe8872150345a7dc4d15bde91aa"
+    },
+    "verify.py": {
+      "bytes": 1590,
+      "sha256": "709255e77528038a234f824d756f60017a30656bbbdfa7a0c94c272d4656c978"
+    },
+    "verify_geometry.py": {
+      "bytes": 3892,
+      "sha256": "5c256f01c1fbdef21455a989ab4f75d6c455ddc9f38d33ff281a56970ad5ed69"
+    },
+    "verify_scene.py": {
+      "bytes": 1122,
+      "sha256": "0c82f60679f4b57a1625aa6f870dd816679e3d1aa8a55f4686356f302a9e723a"
+    }
+  }
+}
