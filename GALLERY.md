@@ -581,3 +581,9 @@ Python·Inkscape로 직접 구성한 독립 벡터 그래픽입니다. 외부 �
 ![같은 종이 상자를 두 자리에서 바라본 네이티브 렌더](projects/the-other-shoe/output/The-Other-Shoe.png)
 
 [두 시야 원본·조립 모습·A4 실척 부품](projects/the-other-shoe/README.md). 디지털 시야와 PDF 치수는 검사했으며, 실물 출력·조립·관찰은 아직 하지 않은 시제품입니다.
+
+## 저녁 분실물 접수장 · 짧은 추리 퍼즐
+
+접수대 불을 끄기 전, 빗물에 번진 기록 네 줄을 옮겨 적습니다. 남은 쪽지 다섯 줄로 물건과 발견 장소를 맞춰 보세요.
+
+[접수장 펼치기](projects/lost-property-register/README.md) · 해답은 문제 끝에서 따로 열 수 있습니다.

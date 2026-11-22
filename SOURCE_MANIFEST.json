@@ -14,8 +14,8 @@
     },
     {
       "path": "GALLERY.md",
-      "size": 44590,
-      "sha256": "be5722bfc1a9df6edb40ee958de92d464c2936215617e113c5e2c48836caf755"
+      "size": 44929,
+      "sha256": "8fd36eb2e4bada02f1a8f323f8f3b83521e896f4ce377b945946fae242e1d868"
     },
     {
       "path": "GIT_ENVIRONMENT_CHECK.md",
@@ -24,8 +24,8 @@
     },
     {
       "path": "README.md",
-      "size": 48705,
-      "sha256": "c1e713af78950a80cc45041fcf7f13bbf1d070a0f9fa126fc0f43a33a3989ec1"
+      "size": 48971,
+      "sha256": "33fc4c03aab357e8e4af7084a8286e0e560c1fce31f6a521310d8e731282fd4d"
     },
     {
       "path": "WORLD_CONNECTIONS.md",
@@ -49,8 +49,8 @@
     },
     {
       "path": "projects/README.md",
-      "size": 13683,
-      "sha256": "2a941846ce9db3d17688c683af09c8bf71436bcd8e5da5073efc74c4c6645e6e"
+      "size": 13892,
+      "sha256": "88a608bf3d6805d64a1c738e8b56d87ad280d3ae6f160cba932d5130c5400279"
     },
     {
       "path": "projects/VERIFICATION.md",
@@ -4791,6 +4791,21 @@
       "path": "projects/longer-than-the-fruit/verify.py",
       "size": 943,
       "sha256": "2d945bf28e8ab0117bb88b4e28ad3d6e2f2eea07ada910a855477fcbf7ec5d5c"
+    },
+    {
+      "path": "projects/lost-property-register/README.md",
+      "size": 1234,
+      "sha256": "1cde9ced546b9c3188dece0b613e048ddc1067a7d943631ccfe4b0d8ccecc6c7"
+    },
+    {
+      "path": "projects/lost-property-register/solution.md",
+      "size": 1681,
+      "sha256": "e44cd8978942514fe160c9d303795d617f43e224cd61f0d3ca0568e672deb147"
+    },
+    {
+      "path": "projects/lost-property-register/verify.py",
+      "size": 2412,
+      "sha256": "611d5b36b1a220c853698364c7ceb2aeebf000a86023362329cde5e56f282560"
     },
     {
       "path": "projects/market-scale/ARTIFACT_MANIFEST.json",

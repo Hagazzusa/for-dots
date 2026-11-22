@@ -8,6 +8,7 @@
 
 | 프로젝트 | 매체·형태 | 상태·범위 | 폴더 |
 |---|---|---|---|
+| [저녁 분실물 접수장](lost-property-register/README.md) | 짧은 추리 퍼즐·Markdown | 완성 원문 · 유일성 및 단서 필요성 검사, 독자 시험 미실시 | `lost-property-register` |
 | [한 짝의 뒤편](the-other-shoe/README.md) | 두 시점 종이 극장·Blender·인쇄 PDF | 시제품 · 디지털 시야·PDF 실척 검사, 실물 조립 미실시 | `the-other-shoe` |
 | [의자를 넣고 나면](when-the-chair-is-in/README.md) | 합성 오디오·MP3 | 26초 소리 소품 · 파일 검증, 청취 평가 미실시 | `when-the-chair-is-in` |
 | [주머니의 천문대](pocket-observatory/README.md) | SVG·PNG | 완성 일러스트 | `pocket-observatory` |
