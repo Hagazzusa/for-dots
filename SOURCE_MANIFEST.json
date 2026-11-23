@@ -14,8 +14,8 @@
     },
     {
       "path": "GALLERY.md",
-      "size": 44929,
-      "sha256": "8fd36eb2e4bada02f1a8f323f8f3b83521e896f4ce377b945946fae242e1d868"
+      "size": 45209,
+      "sha256": "c98d1f5298c8114b809178f5c8501b9a523e3fc2b26ab77b968f6454f2853bda"
     },
     {
       "path": "GIT_ENVIRONMENT_CHECK.md",
@@ -24,8 +24,8 @@
     },
     {
       "path": "README.md",
-      "size": 48971,
-      "sha256": "33fc4c03aab357e8e4af7084a8286e0e560c1fce31f6a521310d8e731282fd4d"
+      "size": 49229,
+      "sha256": "5c98125c300a2e3f270c605d232d09f47ed4eb419b86ce21a58e283aa05a92da"
     },
     {
       "path": "WORLD_CONNECTIONS.md",
@@ -49,8 +49,8 @@
     },
     {
       "path": "projects/README.md",
-      "size": 13892,
-      "sha256": "88a608bf3d6805d64a1c738e8b56d87ad280d3ae6f160cba932d5130c5400279"
+      "size": 14042,
+      "sha256": "eec8532c421b26229a68f5ba50e42a6716b0aa7c63d828266eb13dc7a924fd22"
     },
     {
       "path": "projects/VERIFICATION.md",
@@ -3551,6 +3551,21 @@
       "path": "projects/filter-overlap-study/study.py",
       "size": 5348,
       "sha256": "3680a5d1fe4faf8076d703a6527f273df369eb1e91075091fcf4b101333439c3"
+    },
+    {
+      "path": "projects/first-light/First-Light.jpg",
+      "size": 319674,
+      "sha256": "16e8e1e9c95ee1c3f77cfb4d2852f0e82989580a8690dba15a3808c7e7542392"
+    },
+    {
+      "path": "projects/first-light/README.md",
+      "size": 1273,
+      "sha256": "c6a50ec275b7fbe883ae1598550be38932cbbbac355df726459c9091ecb57190"
+    },
+    {
+      "path": "projects/first-light/build.py",
+      "size": 6495,
+      "sha256": "724fd6198acae14263351ce2787b572b5951dfc2c99ef4bcb7af60e9cbfa5b49"
     },
     {
       "path": "projects/five-and-seven/README.md",

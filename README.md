@@ -13,6 +13,7 @@
 
 | 프로젝트 | 시작 안내 | 실행 환경 |
 |---|---|---|
+| **먼저 닿는 빛** · 공동현관 우편함에 남은 이름표 자리 | [일러스트](projects/first-light/First-Light.jpg) · [제작 기록](projects/first-light/README.md) | Python·Pillow·NumPy. 같은 환경에서 바이트 재생성 확인. |
 | **저녁 분실물 접수장** · 번진 저녁 기록 네 줄을 채우는 짧은 추리 퍼즐 | [문제 읽기](projects/lost-property-register/README.md) | 휴대폰에서 풀 수 있는 한국어 원문. 해답은 별도 페이지, 배정 유일성 확인. |
 | **한 짝의 뒤편 · 종이 극장 시제품** — 선반의 한 짝과 보관장 뒤에서 굽을 고치는 짝 | [두 시야 PNG](projects/the-other-shoe/output/The-Other-Shoe.png) · [조립 렌더·실척 부품·소스](projects/the-other-shoe/README.md) | Blender·Python·ReportLab. 같은 기하의 두 시야와 A4 3쪽 부품 치수를 검사했으며 실물 출력·조립은 미검증입니다. |
 | **의자를 넣고 나면 · 청취 전 소리 소품** — 의자를 밀어 넣고 난 뒤 바닥에 남는 낮은 울림 | [26초 MP3](projects/when-the-chair-is-in/When-the-Chair-Is-In.mp3) · [편집 원본·검사](projects/when-the-chair-is-in/README.md) | Python·NumPy·FFmpeg. 전체 디코드와 같은 환경의 재생성을 확인했고 실제 청취는 미검증입니다. |

@@ -587,3 +587,11 @@ Python·Inkscape로 직접 구성한 독립 벡터 그래픽입니다. 외부 �
 접수대 불을 끄기 전, 빗물에 번진 기록 네 줄을 옮겨 적습니다. 남은 쪽지 다섯 줄로 물건과 발견 장소를 맞춰 보세요.
 
 [접수장 펼치기](projects/lost-property-register/README.md) · 해답은 문제 끝에서 따로 열 수 있습니다.
+
+## 먼저 닿는 빛
+
+이름표가 떨어진 칸에만, 처음 칠한 초록이 남아 있었다.
+
+![빛이 지나는 우편함과 빛 한가운데의 이름표 자국](projects/first-light/First-Light.jpg)
+
+[일러스트 원본과 제작 기록](projects/first-light/README.md)
