@@ -14,8 +14,8 @@
     },
     {
       "path": "GALLERY.md",
-      "size": 45209,
-      "sha256": "c98d1f5298c8114b809178f5c8501b9a523e3fc2b26ab77b968f6454f2853bda"
+      "size": 45576,
+      "sha256": "68c39791296bc3afd83fcdaab071d7143abd808dd8fd724229416d536b8697f6"
     },
     {
       "path": "GIT_ENVIRONMENT_CHECK.md",
@@ -24,8 +24,8 @@
     },
     {
       "path": "README.md",
-      "size": 49229,
-      "sha256": "5c98125c300a2e3f270c605d232d09f47ed4eb419b86ce21a58e283aa05a92da"
+      "size": 49574,
+      "sha256": "b11bb155817b762a1b37ef08cef9ff134569d03424d29966ff872402cda9035a"
     },
     {
       "path": "WORLD_CONNECTIONS.md",
@@ -49,8 +49,8 @@
     },
     {
       "path": "projects/README.md",
-      "size": 14042,
-      "sha256": "eec8532c421b26229a68f5ba50e42a6716b0aa7c63d828266eb13dc7a924fd22"
+      "size": 14241,
+      "sha256": "49d060795033041b15efd2a03d9d3e842419433ae0bd693707f808043f5a253f"
     },
     {
       "path": "projects/VERIFICATION.md",
@@ -7521,6 +7521,31 @@
       "path": "projects/separate-horizons/render.py",
       "size": 554,
       "sha256": "bc1c92ba286427e870df98cd79378ff0910460cbdd39b09b9a78d2df4d82e732"
+    },
+    {
+      "path": "projects/shade-goes-the-other-way/README.md",
+      "size": 3874,
+      "sha256": "f35c20979521a28839686ccfd3f1cb95c8493268dafa59cd33b429234bf19bfa"
+    },
+    {
+      "path": "projects/shade-goes-the-other-way/Shade-Goes-the-Other-Way-Print.pdf",
+      "size": 13386,
+      "sha256": "5b8c3f6b14dca1675e4223d47ef282428f95bc9e357d35922c44c0d2d9c186bb"
+    },
+    {
+      "path": "projects/shade-goes-the-other-way/Shade-Goes-the-Other-Way.jpg",
+      "size": 254511,
+      "sha256": "d3b58dab77723e4f7cc5bfa593f0dee7659e69367ab20deb2a905a2e1ae414cb"
+    },
+    {
+      "path": "projects/shade-goes-the-other-way/build.py",
+      "size": 7437,
+      "sha256": "53287a36dd4efdf0cb5f7e54b4d83ee6dc2fba13f7273e3a577595beb2d42bbf"
+    },
+    {
+      "path": "projects/shade-goes-the-other-way/verify.py",
+      "size": 2559,
+      "sha256": "cf5206107c634296ba629d0b8f0893f44171ed632c94a906ba54fd6a404be87d"
     },
     {
       "path": "projects/shallow-water-study/ARTIFACT_MANIFEST.json",

@@ -8,6 +8,7 @@
 
 | 프로젝트 | 매체·형태 | 상태·범위 | 폴더 |
 |---|---|---|---|
+| [그늘은 반대로](shade-goes-the-other-way/README.md) | 모아레 카드·정지 비교·PDF | 디지털 미리보기와 실척 도안 · 실물 조립 미실시 | `shade-goes-the-other-way` |
 | [먼저 닿는 빛](first-light/README.md) | 절차적 일러스트·JPEG | 완성 이미지 · 원본과 재생성 코드 보존 | `first-light` |
 | [저녁 분실물 접수장](lost-property-register/README.md) | 짧은 추리 퍼즐·Markdown | 완성 원문 · 유일성 및 단서 필요성 검사, 독자 시험 미실시 | `lost-property-register` |
 | [한 짝의 뒤편](the-other-shoe/README.md) | 두 시점 종이 극장·Blender·인쇄 PDF | 시제품 · 디지털 시야·PDF 실척 검사, 실물 조립 미실시 | `the-other-shoe` |

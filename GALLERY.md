@@ -595,3 +595,11 @@ Python·Inkscape로 직접 구성한 독립 벡터 그래픽입니다. 외부 �
 ![빛이 지나는 우편함과 빛 한가운데의 이름표 자국](projects/first-light/First-Light.jpg)
 
 [일러스트 원본과 제작 기록](projects/first-light/README.md)
+
+## 그늘은 반대로
+
+손끝은 필름을 오른쪽으로 민다. 빈 벤치 위의 그늘은 왼쪽으로 간다.
+
+![벤치 위 그늘의 세 정지 위치](projects/shade-goes-the-other-way/Shade-Goes-the-Other-Way.jpg)
+
+[도안과 조립 안내](projects/shade-goes-the-other-way/README.md) · 디지털로 실척을 확인했으며 실물 조립은 미실시.
