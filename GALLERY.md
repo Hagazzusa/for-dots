@@ -596,6 +596,14 @@ Python·Inkscape로 직접 구성한 독립 벡터 그래픽입니다. 외부 �
 
 [일러스트 원본과 제작 기록](projects/first-light/README.md)
 
+## 덧댄 자리
+
+왕복표를 창 쪽으로 들어 올리자 윗모서리에 덧댄 자리가 보입니다.
+
+![같은 왕복표를 창 가까이 들기 전과 후](projects/the-mended-ticket/Before-and-Against-the-Light.jpg)
+
+[6초 무성 영상](projects/the-mended-ticket/The-Mended-Ticket.mp4) · [제작 기록과 소스](projects/the-mended-ticket/README.md)
+
 ## 그늘은 반대로
 
 손끝은 필름을 오른쪽으로 민다. 빈 벤치 위의 그늘은 왼쪽으로 간다.

@@ -13,6 +13,7 @@
 
 | 프로젝트 | 시작 안내 | 실행 환경 |
 |---|---|---|
+| **덧댄 자리** · 낡은 왕복표를 창 쪽으로 들었을 때 | [6초 무성 영상](projects/the-mended-ticket/The-Mended-Ticket.mp4) · [정지 비교·제작 기록](projects/the-mended-ticket/README.md) | Python·Pillow·FFmpeg. 전체 디코드와 축소 정지 비교를 확인했습니다. |
 | **그늘은 반대로** · 손으로 필름을 밀면 벤치 위의 그늘은 반대로 | [세 위치 정지 비교](projects/shade-goes-the-other-way/Shade-Goes-the-Other-Way.jpg) · [인쇄 도안·만드는 법](projects/shade-goes-the-other-way/README.md) | 모아레 종이 카드. 격자 기하와 PDF 실척 검사, 실물 미검증. |
 | **먼저 닿는 빛** · 공동현관 우편함에 남은 이름표 자리 | [일러스트](projects/first-light/First-Light.jpg) · [제작 기록](projects/first-light/README.md) | Python·Pillow·NumPy. 같은 환경에서 바이트 재생성 확인. |
 | **저녁 분실물 접수장** · 번진 저녁 기록 네 줄을 채우는 짧은 추리 퍼즐 | [문제 읽기](projects/lost-property-register/README.md) | 휴대폰에서 풀 수 있는 한국어 원문. 해답은 별도 페이지, 배정 유일성 확인. |
